@@ -22,9 +22,6 @@ public class charMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-//		if (Input.GetMouseButtonUp (0)) {
-//			move = true;
-//		}
 		if (move) {
 			this.transform.position = Vector3.MoveTowards (this.transform.position, wayPoint [currentWayPoint].transform.position, accelerate);
 			if (this.transform.position == wayPoint[currentWayPoint].transform.position)
@@ -34,7 +31,7 @@ public class charMovement : MonoBehaviour {
 		if (this.transform.position == wayPoint[0].transform.position)
 			move = false;
 
-		print (move);
+		//print (move);
 	}
 
 	void OnCollisionEnter2D(Collision2D coll)
@@ -45,6 +42,7 @@ public class charMovement : MonoBehaviour {
 
 	void OnGUI()
 	{
+		float but = wayPoint [1].parent.transform.position.x;
 		float button_x = wayPoint [1].transform.position.x;
 		float button_y = wayPoint [1].transform.position.y;
 		if (GUI.Button(new Rect(button_x + 170, button_y + 40, 40, 40), "1"))
@@ -52,6 +50,7 @@ public class charMovement : MonoBehaviour {
 			move = true;
 			currentWayPoint = 1;
 			accelerate = 0.1f;
+			print (but);
 		}
 		if (GUI.Button(new Rect(button_x + 170, button_y + 160, 40, 40), "2"))
 		{
