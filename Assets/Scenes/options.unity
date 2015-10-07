@@ -85,19 +85,19 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &566362079
+--- !u!1 &659675116
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 566362084}
-  - 20: {fileID: 566362083}
-  - 92: {fileID: 566362082}
-  - 124: {fileID: 566362081}
-  - 81: {fileID: 566362080}
-  - 114: {fileID: 566362085}
+  - 4: {fileID: 659675122}
+  - 20: {fileID: 659675121}
+  - 92: {fileID: 659675120}
+  - 124: {fileID: 659675119}
+  - 81: {fileID: 659675118}
+  - 114: {fileID: 659675117}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -105,33 +105,47 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &566362080
+--- !u!114 &659675117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 659675116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8be9ae890d593408e2e3513e53fcac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundTexture: {fileID: 2800000, guid: 7fdbbd73757b62249a834a1124c4ad86, type: 3}
+  button_graphics_Y: .25
+  button_back_Y: .75
+--- !u!81 &659675118
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566362079}
+  m_GameObject: {fileID: 659675116}
   m_Enabled: 1
---- !u!124 &566362081
+--- !u!124 &659675119
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566362079}
+  m_GameObject: {fileID: 659675116}
   m_Enabled: 1
---- !u!92 &566362082
+--- !u!92 &659675120
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566362079}
+  m_GameObject: {fileID: 659675116}
   m_Enabled: 1
---- !u!20 &566362083
+--- !u!20 &659675121
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566362079}
+  m_GameObject: {fileID: 659675116}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -160,30 +174,15 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
   m_StereoMirrorMode: 0
---- !u!4 &566362084
+--- !u!4 &659675122
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566362079}
+  m_GameObject: {fileID: 659675116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &566362085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566362079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb4d75625dec15047bd661ae43d6c590, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundTexture: {fileID: 0}
-  button_setting_Y: .649999976
-  button_exit_Y: .800000012
-  scene_name: v1.0

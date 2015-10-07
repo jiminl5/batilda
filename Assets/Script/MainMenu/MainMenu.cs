@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour {
         }
         if (GUI.Button(new Rect(Screen.width * .25f, Screen.height * button_setting_Y, Screen.width * .5f, Screen.height * .1f), "Setting"))
         {
-
+			Application.LoadLevel ("options");
         }
         if (GUI.Button(new Rect(Screen.width * .25f, Screen.height * button_exit_Y, Screen.width * .5f, Screen.height * .1f), "Exit"))
         {
