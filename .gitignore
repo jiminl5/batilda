@@ -5,6 +5,7 @@ Temp/
 Obj/
 UnityGenerated/
 Library/
+$PROJDIR/Library/
 Assets/AssetStoreTools*
 
 # ===================================== #
@@ -33,3 +34,4 @@ ExportedObj/
 Icon?
 ehthumbs.db
 Thumbs.db
+
