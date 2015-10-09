@@ -6,6 +6,8 @@ Obj/
 UnityGenerated/
 Library/
 batilda/Library/
+Library/assetDatabase3
+Library/ScriptAssemblies
 Assets/AssetStoreTools*
 
 # ===================================== #
