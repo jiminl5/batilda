@@ -4,32 +4,28 @@ using System.Collections;
 public class SpellSheetGUI : MonoBehaviour {
 	
 	public Texture backgroundTexture;
-	
-	public float button_graphics_Y;
-	public float button_back_Y;
 
+    public float row1_y, row2_y, row3_y;
+    public float col1_x, col2_x, col3_x;
+    public float button_height, button_width;
 
-	
-	void OnGUI()
+    void OnGUI()
 	{
-
-		var button = GUI.Button(new Rect (Screen.width * .335f, Screen.height * .33f, Screen.width * .33f, Screen.height * .1f), "hello");
-
 		//Background Texture
-		GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), backgroundTexture);
+		GUI.DrawTexture(new Rect(0f, 0f, Screen.width, Screen.height), backgroundTexture);
 		
 		//GUI Buttons
-		if (GUI.Button(new Rect(Screen.width * .25f, Screen.height * .5f, Screen.width * .5f, Screen.height * .1f), "Audio & Sound"))
+		if (GUI.Button(new Rect(Screen.width*col1_x, Screen.height*row1_y, Screen.width * button_width, Screen.height * button_height), "Heart Charm"))
 		{
 			
 		}
-		if (GUI.Button(new Rect(Screen.width * .25f, Screen.height * button_graphics_Y, Screen.width * .5f, Screen.height * .1f), "Graphics"))
+		if (GUI.Button(new Rect(Screen.width * col2_x, Screen.height * row1_y, Screen.width * button_width, Screen.height * button_height), "Speed Skill"))
 		{
 			
 		}
-		if (GUI.Button(new Rect(Screen.width * .25f, Screen.height * button_back_Y, Screen.width * .5f, Screen.height * .1f), "Back"))
+		if (GUI.Button(new Rect(Screen.width * col3_x, Screen.height*row1_y, Screen.width * button_width, Screen.height * button_height), "Slow Time"))
 		{
-			Application.LoadLevel("mainMenu");
+
 		}
 	}
 	
