@@ -6,7 +6,7 @@ public class SpellSheetGUI : MonoBehaviour {
 	public Texture backgroundTexture;
 
     public float row1_y, row2_y, row3_y;
-    public float col1_x, col2_x, col3_x;
+    public float col1_x, col2_x, col3_x =.11f;
     public float button_height, button_width;
 
     void OnGUI()
