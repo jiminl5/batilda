@@ -5,8 +5,11 @@ public class SpellSheetGUI : MonoBehaviour {
 	
 	public Texture backgroundTexture;
 
+    /* .1f, */
     public float row1_y, row2_y, row3_y;
+    /* .05f, .2f, .35f*/
     public float col1_x, col2_x, col3_x =.11f;
+    /*.1f, .1f */
     public float button_height, button_width;
 
     void OnGUI()
