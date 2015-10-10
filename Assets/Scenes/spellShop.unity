@@ -183,12 +183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b961c7f2d4a2343feb7ca80bd5ba5ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundTexture: {fileID: 2800000, guid: 7fdbbd73757b62249a834a1124c4ad86, type: 3}
-  row1_y: .100000001
+  backgroundTexture: {fileID: 2800000, guid: 7915a2c9dbf5d6a4e942f60d6e45c16a, type: 3}
+  row1_y: .349999994
   row2_y: 0
   row3_y: 0
-  col1_x: .0500000007
-  col2_x: .200000003
-  col3_x: .349999994
+  col1_x: .0799999982
+  col2_x: .209999993
+  col3_x: .330000013
   button_height: .100000001
   button_width: .100000001
