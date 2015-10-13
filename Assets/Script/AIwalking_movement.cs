@@ -16,6 +16,7 @@ public class AIwalking_movement : MonoBehaviour {
 		transform.Translate((Vector3.right * 2*x_direction * random_x_speed) * Time.deltaTime);
 		if (x_direction == -1) 
 		{
+			transform.localScale = new Vector3(1,1,1);
 			if (transform.position.x < x_boundary * x_direction) 
 			{
 				Destroy (this.gameObject);
@@ -23,6 +24,7 @@ public class AIwalking_movement : MonoBehaviour {
 		} 
 		else 
 		{
+			transform.localScale = new Vector3(-1,1,1);
 			if (transform.position.x > x_boundary)
 			{
 				Destroy (this.gameObject);

@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 395f92cfe1c2ff5469eee12147243f74
+timeCreated: 1444763698
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite_test_customer_walk_0
+    21300002: sprite_test_customer_walk_1
+    21300004: sprite_test_customer_walk_2
+    21300006: sprite_test_customer_walk_3
+    21300008: sprite_test_customer_walk_4
+    21300010: sprite_test_customer_walk_5
+    21300012: sprite_test_customer_walk_6
+    21300014: sprite_test_customer_walk_7
+    21300016: sprite_test_customer_walk_8
+    21300018: sprite_test_customer_walk_9
+    21300020: sprite_test_customer_walk_10
+    21300022: sprite_test_customer_walk_11
+    21300024: sprite_test_customer_walk_12
+    21300026: sprite_test_customer_walk_13
+    21300028: sprite_test_customer_walk_14
+    21300030: sprite_test_customer_walk_15
+    21300032: sprite_test_customer_walk_16
+    21300034: sprite_test_customer_walk_17
+    21300036: sprite_test_customer_walk_18
+    21300038: sprite_test_customer_walk_19
+    21300040: sprite_test_customer_walk_20
+    21300042: sprite_test_customer_walk_21
+    21300044: sprite_test_customer_walk_22
+    21300046: sprite_test_customer_walk_23
+    21300048: sprite_test_customer_walk_24
+    21300050: sprite_test_customer_walk_25
+    21300052: sprite_test_customer_walk_26
+    21300054: sprite_test_customer_walk_27
+    21300056: sprite_test_customer_walk_28
+    21300058: sprite_test_customer_walk_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite_test_customer_walk_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1426
+        width: 171
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1426
+        width: 170
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1426
+        width: 169
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_3
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1426
+        width: 169
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_4
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1426
+        width: 167
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1141
+        width: 167
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1141
+        width: 165
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1141
+        width: 165
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_8
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1141
+        width: 165
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_9
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1141
+        width: 163
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 856
+        width: 163
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 856
+        width: 161
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_12
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 856
+        width: 161
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_13
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 856
+        width: 161
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_14
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 856
+        width: 159
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 572
+        width: 159
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_16
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 571
+        width: 159
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 571
+        width: 161
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_18
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 571
+        width: 161
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_19
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 571
+        width: 161
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 286
+        width: 163
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 286
+        width: 163
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_22
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 286
+        width: 164
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_23
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 286
+        width: 165
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_24
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 286
+        width: 165
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 167
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_26
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1
+        width: 167
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_27
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1
+        width: 169
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_28
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1
+        width: 169
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_test_customer_walk_29
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1
+        width: 170
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
