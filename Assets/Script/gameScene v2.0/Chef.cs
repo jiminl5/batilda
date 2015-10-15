@@ -23,6 +23,7 @@ public class Chef : MonoBehaviour {
 		if (other.gameObject.tag == "cookingObject") {
 			//Debug.Log(gameObject.tag);
 			if (other.gameObject.GetComponent<cookingObject> ().canCook (one_h, two_h)) {
+				other.gameObject.GetComponent<cookingObject> ().cookReady = true;
 				other.gameObject.GetComponent<cookingObject> ().chef_1h = one_h;
 				other.gameObject.GetComponent<cookingObject> ().chef_2h = two_h;
 				Destroy (go_1h);
@@ -30,10 +31,11 @@ public class Chef : MonoBehaviour {
 				one_h = "";
 				two_h = "";
 			}
+			//Debug.Log (other.gameObject.GetComponent<cookingObject> ().canCook (one_h, two_h));
 		} else if (other.gameObject.tag == "ingredientObject") {
-			Debug.Log(other.gameObject.tag);
+			//Debug.Log(other.gameObject.tag);
 			if (one_h == "") {
-				Debug.Log("test");
+				//Debug.Log("test");
 				one_h = other.gameObject.GetComponent<ingredientObject> ().ingredient;
 				//create go_1h
 				//go_1h = temp_plate;
@@ -49,7 +51,7 @@ public class Chef : MonoBehaviour {
 			}
 		} 
 		else {
-			//Debug.Log("hello test");
+			//Debug.Log("didn't work!");
 			//Debug.Log(gameObject.tag);
 
 		}

@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: dough
-  timeToMake: 0
+  timeToMake: 5
   ingredient1: wheat
   ingredient2: wheat
 --- !u!1001 &100100000
@@ -53,6 +53,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: ingredient2
       value: wheat
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: timeToMake
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

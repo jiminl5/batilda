@@ -5,18 +5,17 @@ public class Recipie : MonoBehaviour {
 	public string name;
 	public int timeToMake;
 	//public int numberOfIngredients = 2;
-	public ArrayList ingredients;
 	public string ingredient1 = "";
 	public string ingredient2 = "";
+
+	public ArrayList ingredients = new ArrayList();
 	// Use this for initialization
 	void Awake () {
-		ingredients = new ArrayList();
 		ingredients.Add (ingredient1);
 		ingredients.Add (ingredient2);
 	}
 
 	void Start () {
-
 	}
 	
 	// Update is called once per frame

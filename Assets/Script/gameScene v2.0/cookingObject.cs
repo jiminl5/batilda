@@ -19,6 +19,8 @@ public class cookingObject : MonoBehaviour {
 	//private float Timer;
 	// Use this for initialization
 	void Start () {
+		recipie1 = Instantiate (recipie1);
+		recipie2 = Instantiate (recipie2);
 	}
 	
 	// Update is called once per frame
@@ -34,18 +36,18 @@ public class cookingObject : MonoBehaviour {
 		yield return new WaitForSeconds(delay);
 	}
 	
-	void cooking (string i1, string i2 = "") {
+	void cooking (string i1, string i2) {
 		//checks a list of recipies and sees what you can cook. 
 		//if there is something,  remove the ingredients from the cook, 
 		//and saves the name of the food thats cooking. save the 
 		//current time, and then wait how long it takes to make the food.
-		if (start_cooking) {
 			if (canCook(i1, i2))
 			{
 				current_recipie = checkRecipies (i1, i2);
 				food_cooking_name = current_recipie.name;
-
+				Debug.Log (current_recipie.timeToMake);
 				ExecuteAfterDelay(current_recipie.timeToMake); //wait for food to be done...
+				Debug.Log ("food done!");
 				//food is done! animation here.
 				food_ready = true;
 
@@ -55,13 +57,16 @@ public class cookingObject : MonoBehaviour {
 				//can't cook anything!
 			}
 
-		}
+
 
 	}
 
 	public bool canCook(string i1, string i2) {
-		Debug.Log (i1);
-		Debug.Log (i2);
+		//Debug.Log (i1);
+		//Debug.Log (recipie1.ingredients.Contains (i1));
+		//Debug.Log (i2);
+		//Debug.Log (recipie1.ingredients.Contains (i2));
+		//Debug.Log (recipie1.ingredients.Count );
 		if (i1 == "" && i2 == "") {
 			return false;
 		}
