@@ -22,7 +22,9 @@ public class Chef : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other) {
 		if (other.gameObject.tag == "cookingObject") {
 			//Debug.Log(gameObject.tag);
-			if (other.gameObject.GetComponent<cookingObject> ().canCook (one_h, two_h)) {
+			if (other.gameObject.GetComponent<cookingObject> ().canCook (one_h, two_h) && 
+			    	other.gameObject.GetComponent<cookingObject> ().food_ready == false) {
+				Debug.Log ("cooking...");
 				other.gameObject.GetComponent<cookingObject> ().cookReady = true;
 				other.gameObject.GetComponent<cookingObject> ().chef_1h = one_h;
 				other.gameObject.GetComponent<cookingObject> ().chef_2h = two_h;
@@ -30,6 +32,12 @@ public class Chef : MonoBehaviour {
 				Destroy (go_2h);
 				one_h = "";
 				two_h = "";
+			}
+			else if (other.gameObject.GetComponent<cookingObject> ().food_ready && handsEmpty()) {
+				one_h = other.gameObject.GetComponent<cookingObject> ().food_cooking_name;
+				Debug.Log ("picking up food...");
+				Debug.Log (other.gameObject.GetComponent<cookingObject> ().food_cooking_name);
+				other.gameObject.GetComponent<cookingObject> ().food_ready = false;
 			}
 			//Debug.Log (other.gameObject.GetComponent<cookingObject> ().canCook (one_h, two_h));
 		} else if (other.gameObject.tag == "ingredientObject") {
@@ -56,5 +64,12 @@ public class Chef : MonoBehaviour {
 
 		}
 
+	}
+
+	bool handsEmpty() {
+		if (string.IsNullOrEmpty(one_h) && string.IsNullOrEmpty(two_h))
+			return true;
+		else
+			return false;
 	}
 }
