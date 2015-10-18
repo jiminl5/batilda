@@ -6,6 +6,7 @@ using System.Collections;
 public class LevelSelectionModal : MonoBehaviour {
 	public Button day;
 	public Button cancelBtn;
+    public Button popUpLevelSelect;
 	public GameObject levelSelectionObject;
 
 	private static LevelSelectionModal levelPanel;
@@ -38,4 +39,9 @@ public class LevelSelectionModal : MonoBehaviour {
 		levelSelectionObject.SetActive (false);
 	}
 
+    void OpenLevelSelectionPanel()
+    {
+        levelSelectionObject.SetActive(true);
+    }
+    
 }
