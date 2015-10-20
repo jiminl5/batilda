@@ -13,6 +13,7 @@ public class Recipie : MonoBehaviour {
 	void Awake () {
 		ingredients.Add (ingredient1);
 		ingredients.Add (ingredient2);
+		name += " food";
 	}
 
 	void Start () {

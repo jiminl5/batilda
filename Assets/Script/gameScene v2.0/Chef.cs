@@ -57,7 +57,39 @@ public class Chef : MonoBehaviour {
 				go_2h.transform.SetParent (gameObject.transform);
 				
 			}
-		} 
+		}
+		else if (other.gameObject.tag == "dropOffPoint") {
+			if (hand_with_Food() == "one_h") {
+				//update dropoffpoint food name
+				if (!string.IsNullOrEmpty(other.gameObject.GetComponent<dropOffPoint> ().food_name))
+				{
+					other.gameObject.GetComponent<dropOffPoint> ().food_name = one_h;
+					//add sprite of food
+					//delete 1h
+					one_h = "";
+				}
+			}
+			else if (hand_with_Food () == "two_h") {
+				//update dropoffpoint food name
+				if (!string.IsNullOrEmpty(other.gameObject.GetComponent<dropOffPoint> ().food_name))
+				{
+					other.gameObject.GetComponent<dropOffPoint> ().food_name = two_h;
+					//add sprite of food
+					//delete 1h
+					two_h = "";
+				}
+			}
+		}
+		else if (other.gameObject.tag == "trash") {
+			if (!string.IsNullOrEmpty(one_h)) {
+				one_h = "";
+				Destroy (go_1h);
+			}
+			else if (!string.IsNullOrEmpty(two_h)) {
+				two_h = "";
+				Destroy (go_2h);
+			}
+			}
 		else {
 			//Debug.Log("didn't work!");
 			//Debug.Log(gameObject.tag);
@@ -71,5 +103,14 @@ public class Chef : MonoBehaviour {
 			return true;
 		else
 			return false;
+	}
+
+	string hand_with_Food() {
+		if (one_h.Contains ("food")) {
+			return "one_h";
+		} else if (two_h.Contains ("food")) {
+			return "two_h";
+		}
+			return "";
 	}
 }
