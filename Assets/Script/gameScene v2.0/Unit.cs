@@ -57,10 +57,13 @@ public class Unit : MonoBehaviour {
 			return;
 		}
 		if (mouseClicked){
-            tileX = (int) temp_path[1].x;
-            tileY = (int) temp_path[1].y;
+            tileX = temp_path[1].x;
+            tileY = temp_path[1].y;
+            float real_tileX = tileX + (tileX * 0.5f);
+            float real_tileY = tileY;
 
-            Vector2 currentWayPoint = new Vector2(tileX, tileY);
+            print("tileX: " + real_tileX + ", tileY: " + real_tileY);
+            Vector2 currentWayPoint = new Vector2(real_tileX, real_tileY);
 	        //transform.position = new Vector2(temp_path[0].x, temp_path[0].y);
 	        //grab next first node and move
             if (g_object.transform.position.x != currentWayPoint.x || g_object.transform.position.y != currentWayPoint.y)

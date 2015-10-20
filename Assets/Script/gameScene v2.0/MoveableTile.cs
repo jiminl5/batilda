@@ -13,5 +13,6 @@ public class MoveableTile : MonoBehaviour {
 	{
 		map.GeneratePathTo (mtX, mtY);
         Unit.mouseClicked = true;
+        print("mtX: " + mtX + ", mtY: " + mtY);
 	}
 }

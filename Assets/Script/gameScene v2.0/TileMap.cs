@@ -13,7 +13,7 @@ public class TileMap : MonoBehaviour {
 	int[,] tiles; // 2-Dimensional Array
 
 	// 16:9
-	int mapSizeX = 16;
+	int mapSizeX = 11;
 	int mapSizeY = 9;
 
 	// 2D array of Nodes
@@ -47,7 +47,7 @@ public class TileMap : MonoBehaviour {
 		}
 
 		// Center Table at Kitchen [2,2] ~ [5,4]
-		for (x = 2; x <= 5; x++) {
+		for (x = 2; x <= 3; x++) {
 			for (y = 2; y <= 4; y++) {
 				tiles[x,y] = 1; // second tile type which is unwalkable.
 			}
@@ -108,8 +108,9 @@ public class TileMap : MonoBehaviour {
 		for (int x = 0; x < mapSizeX; x++) {
 			for (int y = 0; y < mapSizeY; y++) {
 				TileType tt = tileTypes[tiles[x,y]];
-				//Generate Visual
-				GameObject tmp_go = (GameObject)Instantiate( tt.tileVisualPrefab, new Vector2(x,y), Quaternion.identity);
+                //Generate Visual
+                float newX = x * 0.5f;
+				GameObject tmp_go = (GameObject)Instantiate( tt.tileVisualPrefab, new Vector2((float) x + newX,y), Quaternion.identity);
 				MoveableTile mt = tmp_go.GetComponent<MoveableTile>();
 				mt.mtX = x;
 				mt.mtY = y;
@@ -125,7 +126,8 @@ public class TileMap : MonoBehaviour {
 
 	public void GeneratePathTo (int x, int y)
 	{
-		//Clear out our units old path
+        //Clear out our units old path
+        //int x = (int)((mtX / 0.5f) / 3f);
 		selectedUnit.GetComponent<Unit> ().currentPath = null;
 
 		// DEFINE WALKABLE OR NOT WALKABLE
