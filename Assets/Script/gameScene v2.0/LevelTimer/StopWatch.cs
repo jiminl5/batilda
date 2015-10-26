@@ -3,37 +3,39 @@ using System.Collections;
 
 public class StopWatch : MonoBehaviour {
 
-    private float startTime;
-    private float restSeconds;
-    private float roundedRestSeconds;
+    private float startTime = 90;
+    private float timeInSeconds;
+    private float roundedTimeSeconds;
     private float displaySeconds;
     private float displayMinutes;
-    public float countDownSeconds;
 
 	// Use this for initialization
 	void Awake () {
-        startTime = Time.time;
-	
+        timeInSeconds = startTime;
 	}
-	
-	// Update is called once per frame
-	void OnGUI() {
-        float guiTime = Time.time - startTime;
-        restSeconds = countDownSeconds - guiTime;
 
-        if(restSeconds == 60)
+    void Update()
+    {
+        timeInSeconds -= Time.deltaTime;
+        if (timeInSeconds == 60)
         {
             print("one min left");
         }
-        if(restSeconds == 0)
+        if (timeInSeconds == 0)
         {
             print("times up");
         }
+    }
+	
+	// Update is called once per frame
+	void OnGUI() {
+        //float guiTime = startTime - Time.time;
+        //timeInSeconds = guiTime;
 
-        roundedRestSeconds = Mathf.CeilToInt(restSeconds);
-        displaySeconds = roundedRestSeconds % 60;
-        displayMinutes = roundedRestSeconds / 60;
+        roundedTimeSeconds = Mathf.CeilToInt(timeInSeconds);
+        displayMinutes = roundedTimeSeconds / 60;
+        displaySeconds = roundedTimeSeconds % 60;
         string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
-        GUI.Label(new Rect(400, 25, 100, 30), text);
+        GUI.Box(new Rect(400, 25, 100, 30), text);
 	}
 }
