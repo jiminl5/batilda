@@ -7,6 +7,7 @@ using System.Linq; // OrderBy
 public class TileMap : MonoBehaviour {
 
 	public GameObject selectedUnit;
+	public GameObject selectedUnit1;
 
 	public TileType[] tileTypes; // array (e.g. tile type grass, tile type table, tile type kitchen)
 
@@ -18,13 +19,20 @@ public class TileMap : MonoBehaviour {
 
 	// 2D array of Nodes
 	Node[,] graph;
+	Node source;
+
+	public int characterSelect = 0;
 
     void Start()
 	{
 		// Setup Selected Unit's variable
 		selectedUnit.GetComponent<Unit> ().tileX = (int)selectedUnit.transform.position.x;
 		selectedUnit.GetComponent<Unit> ().tileY = (int)selectedUnit.transform.position.y;
-		selectedUnit.GetComponent<Unit> ().map = this;
+		//selectedUnit.GetComponent<Unit> ().map = this;
+
+		selectedUnit1.GetComponent<Unit1> ().tileX = (int)selectedUnit1.transform.position.x;
+		selectedUnit1.GetComponent<Unit1> ().tileY = (int)selectedUnit1.transform.position.y;
+		//selectedUnit1.GetComponent<Unit1> ().map = this;
 
 		GenerateMapData ();
 		GeneratePathfindingGraph ();
@@ -129,12 +137,11 @@ public class TileMap : MonoBehaviour {
         //Clear out our units old path
         //int x = (int)((mtX / 0.5f) / 3f);
 		selectedUnit.GetComponent<Unit> ().currentPath = null;
-
+		selectedUnit1.GetComponent<Unit1> ().currentPath = null;
 		// DEFINE WALKABLE OR NOT WALKABLE
 //		if (WalkableTile (x, y) == false) {
 //			return;
 //		}
-
 		//Dijkstra's (A* algorithm) Algorithm
 		//Using a priority Queue
 		// pseudocode from - wikipedia.org
@@ -144,8 +151,16 @@ public class TileMap : MonoBehaviour {
 		// Q in wikipedia - the list of nodes that are unvisited
 		List<Node> unvisited = new List<Node>();
 
-		Node source = graph [selectedUnit.GetComponent<Unit> ().tileX,
-		                     selectedUnit.GetComponent<Unit>().tileY];
+		if (characterSelect == 0) {
+			source = graph [selectedUnit.GetComponent<Unit> ().tileX,
+		                     selectedUnit.GetComponent<Unit> ().tileY];
+			print ("character0");
+		} 
+		else if (characterSelect == 1) {
+			source = graph [selectedUnit1.GetComponent<Unit1> ().tileX,
+			                selectedUnit1.GetComponent<Unit1> ().tileY];
+			print ("character1");
+		}
 
 		// Create a target node for diagonal shorter path
 		Node target = graph [x,y];
@@ -218,6 +233,7 @@ public class TileMap : MonoBehaviour {
 		currentPath.Reverse ();
 
 		selectedUnit.GetComponent<Unit> ().currentPath = currentPath;
+		selectedUnit1.GetComponent<Unit1> ().currentPath = currentPath;
 	}
 }
 

@@ -2,12 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Unit : MonoBehaviour {
+public class Unit1 : MonoBehaviour {
 
 	public int tileX;
 	public int tileY;
 	public TileMap map;
-
+	public MoveableTile move_T;
 	float speed = 5f;
     float timeLeft = 10f;
 
@@ -21,12 +21,12 @@ public class Unit : MonoBehaviour {
 
     public static bool mouseClicked = false;
 
-    public GameObject g_object;
+    public GameObject g_object1;
 
 	void Start()
 	{
         temp_list = new List<Node>();
-        g_object = GameObject.Find("Unit");
+        g_object1 = GameObject.Find("Unit1");
 	}
 
 	public void Update()
@@ -67,11 +67,11 @@ public class Unit : MonoBehaviour {
             Vector2 currentWayPoint = new Vector2(real_tileX, real_tileY);
 	        //transform.position = new Vector2(temp_path[0].x, temp_path[0].y);
 	        //grab next first node and move
-            if (g_object.transform.position.x != currentWayPoint.x || g_object.transform.position.y != currentWayPoint.y)
+            if (g_object1.transform.position.x != currentWayPoint.x || g_object1.transform.position.y != currentWayPoint.y)
             {
-                g_object.transform.position = Vector2.MoveTowards(g_object.transform.position, currentWayPoint, Time.deltaTime * speed); // move toward not lerp
+                g_object1.transform.position = Vector2.MoveTowards(g_object1.transform.position, currentWayPoint, Time.deltaTime * speed); // move toward not lerp
             }
-			if (g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)
+			if (g_object1.transform.position.x == currentWayPoint.x && g_object1.transform.position.y == currentWayPoint.y)
 			{
 				temp_path.RemoveAt(0);
 			}

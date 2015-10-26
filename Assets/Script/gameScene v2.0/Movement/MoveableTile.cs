@@ -7,34 +7,41 @@ public class MoveableTile : MonoBehaviour {
 	public int mtY = 0;
 	public TileMap map;
 
-    public Unit _unit;
-
 	void OnMouseDown()
 	{
 		//CHEF
 		print ("mtX: " + mtX + ", mtY: " + mtY);
 		// left shelf
-		if (mtX == 0 && (mtY >= 0 && mtY <= 6)) {
-			if (mtY == 0) // Trash , left-bottom corner
-				map.GeneratePathTo (mtX + 1, mtY + 1);
-			else if (mtY == 6) // Pot(?), left-top corner
-				map.GeneratePathTo (mtX + 1, mtY - 1);
-			else
-				map.GeneratePathTo (mtX + 1, mtY);
+		if (mtX < 5) {
+			map.characterSelect = 0;
+			//map.selectedUnit = GameObject.Find ("Unit");
+			if (mtX == 0 && (mtY >= 0 && mtY <= 6)) {
+				if (mtY == 0) // Trash , left-bottom corner
+					map.GeneratePathTo (mtX + 1, mtY + 1);
+				else if (mtY == 6) // Pot(?), left-top corner
+					map.GeneratePathTo (mtX + 1, mtY - 1);
+				else
+					map.GeneratePathTo (mtX + 1, mtY);			
+			}
+			// bottom shelf
+			else if (mtY == 0 && (mtX >= 1 && mtX <= 4)) {
+				map.GeneratePathTo (mtX, mtY + 1);
+			}
+			// top shelf
+			else if (mtY == 6 && (mtX >= 1 && mtX <= 5)) {
+				if (mtX == 5)
+					map.GeneratePathTo (mtX - 1, mtY - 1);
+				else
+					map.GeneratePathTo (mtX, mtY - 1);
+			}
 			Unit.mouseClicked = true;
 		}
-		// bottom shelf
-		else if (mtY == 0 && (mtX >= 1 && mtX <= 4)) {
-			map.GeneratePathTo (mtX, mtY + 1);
-			Unit.mouseClicked = true;
-		}
-		// top shelf
-		else if (mtY == 6 && (mtX >= 1 && mtX <= 5)) {
-			if (mtX == 5)
-				map.GeneratePathTo (mtX - 1, mtY - 1);
-			else
-				map.GeneratePathTo (mtX, mtY - 1);
-			Unit.mouseClicked = true;
+		// Waitress
+		else if (mtX >= 5) {
+			map.characterSelect = 1;
+			map.GeneratePathTo(mtX, mtY);
+			print ("went through");
+			Unit1.mouseClicked = true;
 		}
 	}
 }
