@@ -4,17 +4,17 @@ using System.Collections;
 using System.Collections.Generic; // list
 using System.Linq; // OrderBy
 
-public class TileMap : MonoBehaviour {
+public class TileMap1 : MonoBehaviour {
 
-	public GameObject selectedUnit;
-	//public GameObject selectedUnit1;
+	//public GameObject selectedUnit;
+	public GameObject selectedUnit1;
 
 	public TileType[] tileTypes; // array (e.g. tile type grass, tile type table, tile type kitchen)
 
 	int[,] tiles; // 2-Dimensional Array
 
 	// 16:9
-	int mapSizeX = 5;
+	int mapSizeX = 11;
 	int mapSizeY = 9;
 
 	// 2D array of Nodes
@@ -24,9 +24,9 @@ public class TileMap : MonoBehaviour {
     void Start()
 	{
 		// Setup Selected Unit's variable
-		selectedUnit.GetComponent<Unit> ().tileX = (int)selectedUnit.transform.position.x;
-		selectedUnit.GetComponent<Unit> ().tileY = (int)selectedUnit.transform.position.y;
-		//selectedUnit.GetComponent<Unit> ().map = this;
+		selectedUnit1.GetComponent<Unit1> ().tileX = (int)(selectedUnit1.transform.position.x / 0.5 / 3); // Modified Formula -- Fixed value at initial point
+		selectedUnit1.GetComponent<Unit1> ().tileY = (int)selectedUnit1.transform.position.y;
+		//selectedUnit1.GetComponent<Unit1> ().map = this;
 
 		GenerateMapData ();
 		GeneratePathfindingGraph ();
@@ -49,11 +49,11 @@ public class TileMap : MonoBehaviour {
 		}
 
 		// Center Table at Kitchen [2,2] ~ [5,4]
-		for (x = 2; x <= 3; x++) {
-			for (y = 2; y <= 4; y++) {
-				tiles[x,y] = 1; // second tile type which is unwalkable.
-			}
-		}
+//		for (x = 2; x <= 3; x++) {
+//			for (y = 2; y <= 4; y++) {
+//				tiles[x,y] = 1; // second tile type which is unwalkable.
+//			}
+//		}
 	}
 
 	////////////////////////////////////////
@@ -107,7 +107,7 @@ public class TileMap : MonoBehaviour {
 
 	void GenerateMapVisual()
 	{
-		for (int x = 0; x < mapSizeX; x++) {
+		for (int x = 5; x < mapSizeX; x++) {
 			for (int y = 0; y < mapSizeY; y++) {
 				TileType tt = tileTypes[tiles[x,y]];
                 //Generate Visual
@@ -116,7 +116,7 @@ public class TileMap : MonoBehaviour {
 				MoveableTile mt = tmp_go.GetComponent<MoveableTile>();
 				mt.mtX = x;
 				mt.mtY = y;
-				mt.map = this;
+				mt.map1 = this;
 			}
 		}
 	}
@@ -130,8 +130,8 @@ public class TileMap : MonoBehaviour {
 	{
         //Clear out our units old path
         //int x = (int)((mtX / 0.5f) / 3f);
-		selectedUnit.GetComponent<Unit> ().currentPath = null;
-		//selectedUnit1.GetComponent<Unit1> ().currentPath = null;
+		//selectedUnit.GetComponent<Unit> ().currentPath = null;
+		selectedUnit1.GetComponent<Unit1> ().currentPath = null;
 		// DEFINE WALKABLE OR NOT WALKABLE
 //		if (WalkableTile (x, y) == false) {
 //			return;
@@ -145,10 +145,9 @@ public class TileMap : MonoBehaviour {
 		// Q in wikipedia - the list of nodes that are unvisited
 		List<Node> unvisited = new List<Node>();
 
-		source = graph [selectedUnit.GetComponent<Unit> ().tileX,
-	                     selectedUnit.GetComponent<Unit> ().tileY];
+		source = graph [selectedUnit1.GetComponent<Unit1> ().tileX,
+		                selectedUnit1.GetComponent<Unit1> ().tileY];
 
-		// Create a target node for diagonal shorter path
 		Node target = graph [x,y];
 
 		// Create Vertex Set
@@ -218,7 +217,8 @@ public class TileMap : MonoBehaviour {
 		//Invert current path
 		currentPath.Reverse ();
 
-		selectedUnit.GetComponent<Unit> ().currentPath = currentPath;
+		//selectedUnit.GetComponent<Unit> ().currentPath = currentPath;
+		selectedUnit1.GetComponent<Unit1> ().currentPath = currentPath;
 	}
 }
 

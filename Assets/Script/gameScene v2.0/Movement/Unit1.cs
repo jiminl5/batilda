@@ -6,7 +6,7 @@ public class Unit1 : MonoBehaviour {
 
 	public int tileX;
 	public int tileY;
-	public TileMap map;
+	public TileMap1 map;
 	public MoveableTile move_T;
 	float speed = 5f;
     float timeLeft = 10f;
@@ -15,7 +15,7 @@ public class Unit1 : MonoBehaviour {
 
 	//List
 	public List<Node> currentPath = null;
-    public static List<Node> temp_list = null;
+    public static List<Node> temp_list2 = null;
 
     static int tmp_count;
 
@@ -25,7 +25,7 @@ public class Unit1 : MonoBehaviour {
 
 	void Start()
 	{
-        temp_list = new List<Node>();
+        temp_list2 = new List<Node>();
         g_object1 = GameObject.Find("Unit1");
 	}
 
@@ -43,7 +43,7 @@ public class Unit1 : MonoBehaviour {
 
 				currNode++;
 			}
-            temp_list = currentPath;
+            temp_list2 = currentPath;
 			MoveNextTile();
 		}
 	}
@@ -52,7 +52,7 @@ public class Unit1 : MonoBehaviour {
 	public void MoveNextTile()//List<Node> temp_list)
 	{
         List<Node> temp_path = new List<Node>();
-        temp_path = temp_list;
+        temp_path = temp_list2;
 		if (currentPath == null && temp_path == null) {
 			print ("null");
 			return;
