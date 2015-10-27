@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ingredientObject : MonoBehaviour {
-
+public class nameAndPosition : MonoBehaviour {
 	public string name;
-
+	public int x;
+	public int y;
 	// Use this for initialization
 	void Start () {
 	

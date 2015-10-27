@@ -44,6 +44,7 @@ public class Unit : MonoBehaviour {
 				currNode++;
 			}
             temp_list = currentPath;
+			this.gameObject.GetComponentInChildren<Chef>().atPosition = false;
 			MoveNextTile();
 		}
 	}
@@ -51,6 +52,7 @@ public class Unit : MonoBehaviour {
     //Move to nextTile
 	public void MoveNextTile()//List<Node> temp_list)
 	{
+		this.gameObject.GetComponentInChildren<Chef>().atPosition = false;
         List<Node> temp_path = new List<Node>();
         temp_path = temp_list;
 		if (currentPath == null && temp_path == null) {
@@ -77,6 +79,7 @@ public class Unit : MonoBehaviour {
 			}
 			if (temp_path.Count == 1)
 			{
+				this.gameObject.GetComponentInChildren<Chef>().atPosition = true;
 				print("Succesfully at destination");
 				mouseClicked = false;
 			}

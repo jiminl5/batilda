@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class cookingObject : MonoBehaviour {
-	public string name;
+	//public string name;
 	public string food_cooking_name;
 
 	public Recipie recipie1;
@@ -11,30 +11,52 @@ public class cookingObject : MonoBehaviour {
 	public bool start_cooking = false;
 	public bool food_ready = false;
 	public bool cookReady = false;
+	public bool needsFurnace;
+	//public bool cooksFood;
 
 	public string chef_1h;
 	public string chef_2h;
+
+	public Color c;
+
+	//public int x;
+	//public int y;
 
 	private Recipie current_recipie;
 	//private ArrayList tempingredients;
 	//private float Timer;
 	// Use this for initialization
 	void Start () {
+		if (recipie1)
 		recipie1 = Instantiate (recipie1);
+		if (recipie2)
 		recipie2 = Instantiate (recipie2);
+		//if (needsFurnace) {
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (cookReady && food_ready == false) {
-			cooking (chef_1h, chef_2h);
-			cookReady = false;
+		if (needsFurnace) {
+			bool furnaceOn = GameObject.FindGameObjectWithTag ("Furnace").GetComponent<Furnace> ().isOn;
+			if (cookReady && !food_ready && furnaceOn) {
+				cooking (chef_1h, chef_2h);
+				cookReady = false;
+			}
+		} else {
+			if (cookReady && food_ready == false) {
+				cooking (chef_1h, chef_2h);
+				cookReady = false;
+			}
+			//this.GetComponent<SpriteRenderer> ().color = c;
 		}
 	}
 
 	IEnumerator ExecuteAfterDelay(float delay)
 	{
+		this.GetComponent<SpriteRenderer> ().color = Color.red;
 		yield return new WaitForSeconds(delay);
+		this.GetComponent<SpriteRenderer> ().color = c;
 		Debug.Log ("food done!");
 		Debug.Log ("food name = " + food_cooking_name);
 		food_ready = true;
@@ -68,9 +90,9 @@ public class cookingObject : MonoBehaviour {
 
 	public bool canCook(string i1, string i2) {
 		//Debug.Log (i1);
-		//Debug.Log (recipie1.ingredients.Contains (i1));
+		Debug.Log ("recipie 1 contains i1: " + recipie1.ingredients.Contains (i1));
 		//Debug.Log (i2);
-		//Debug.Log (recipie1.ingredients.Contains (i2));
+		Debug.Log ("recipe 1 contains i2: " + recipie1.ingredients.Contains (i2));
 		//Debug.Log (recipie1.ingredients.Count );
 		if (i1 == "" && i2 == "") {
 			return false;
@@ -99,6 +121,7 @@ public class cookingObject : MonoBehaviour {
 	}
 
 	Recipie checkRecipies(string i1, string i2) {
+		Debug.Log ("this is i1 and i2: " + i1 + ", " + i2);
 		if (recipie1.ingredients.Contains (i1) && recipie1.ingredients.Contains (i2)) {
 			return recipie1;
 		} 

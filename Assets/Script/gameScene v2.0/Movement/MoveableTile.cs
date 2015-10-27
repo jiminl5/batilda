@@ -12,7 +12,7 @@ public class MoveableTile : MonoBehaviour {
 	{
 		//CHEF
 		print ("mtX: " + mtX + ", mtY: " + mtY);
-
+		//GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().atPosition = false;
 		if (mtX < 5) {
 			// left shelf
 			if (mtX == 0 && (mtY >= 0 && mtY <= 6)) {
@@ -37,6 +37,9 @@ public class MoveableTile : MonoBehaviour {
 					map.GeneratePathTo (mtX, mtY - 1);
 				Unit.mouseClicked = true; // Trigger movement
 			}
+			Chef.clicked = true;
+			GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtX = mtX;
+			GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtY = mtY;
 
 		}
 		// Waitress
