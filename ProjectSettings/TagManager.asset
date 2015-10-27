@@ -8,8 +8,6 @@ TagManager:
   - cookingObject
   - dropOffPoint
   - trash
-  - test
-  - food
   layers:
   - Default
   - TransparentFX

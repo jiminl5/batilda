@@ -5,7 +5,7 @@ public class StopWatch : MonoBehaviour {
 
     private float startTime = 90;
     private float timeInSeconds;
-    private float roundedTimeSeconds;
+    private int roundedTimeSeconds;
     private float displaySeconds;
     private float displayMinutes;
 
@@ -32,7 +32,7 @@ public class StopWatch : MonoBehaviour {
         //float guiTime = startTime - Time.time;
         //timeInSeconds = guiTime;
 
-        roundedTimeSeconds = Mathf.CeilToInt(timeInSeconds);
+        roundedTimeSeconds = (int)(timeInSeconds);
         displayMinutes = roundedTimeSeconds / 60;
         displaySeconds = roundedTimeSeconds % 60;
         string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
