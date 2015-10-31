@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: dac19d9a27c9b8c4d8cb3ac34c6574fb
+timeCreated: 1446284299
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: batilda_idling_0hands_0
+    21300002: batilda_idling_0hands_1
+    21300004: batilda_idling_0hands_2
+    21300006: batilda_idling_0hands_3
+    21300008: batilda_idling_0hands_4
+    21300010: batilda_idling_0hands_5
+    21300012: batilda_idling_0hands_6
+    21300014: batilda_idling_0hands_7
+    21300016: batilda_idling_0hands_8
+    21300018: batilda_idling_0hands_9
+    21300020: batilda_idling_0hands_10
+    21300022: batilda_idling_0hands_11
+    21300024: batilda_idling_0hands_12
+    21300026: batilda_idling_0hands_13
+    21300028: batilda_idling_0hands_14
+    21300030: batilda_idling_0hands_15
+    21300032: batilda_idling_0hands_16
+    21300034: batilda_idling_0hands_17
+    21300036: batilda_idling_0hands_18
+    21300038: batilda_idling_0hands_19
+    21300040: batilda_idling_0hands_20
+    21300042: batilda_idling_0hands_21
+    21300044: batilda_idling_0hands_22
+    21300046: batilda_idling_0hands_23
+    21300048: batilda_idling_0hands_24
+    21300050: batilda_idling_0hands_25
+    21300052: batilda_idling_0hands_26
+    21300054: batilda_idling_0hands_27
+    21300056: batilda_idling_0hands_28
+    21300058: batilda_idling_0hands_29
+    21300060: batilda_idling_0hands_30
+    21300062: batilda_idling_0hands_31
+    21300064: batilda_idling_0hands_32
+    21300066: batilda_idling_0hands_33
+    21300068: batilda_idling_0hands_34
+    21300070: batilda_idling_0hands_35
+    21300072: batilda_idling_0hands_36
+    21300074: batilda_idling_0hands_37
+    21300076: batilda_idling_0hands_38
+    21300078: batilda_idling_0hands_39
+    21300080: batilda_idling_0hands_40
+    21300082: batilda_idling_0hands_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: batilda_idling_0hands_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_7
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_9
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_11
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_12
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_13
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 552
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_17
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_20
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_21
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_22
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_23
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_24
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_25
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_26
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_27
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 276
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_29
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_32
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_33
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_34
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_35
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_36
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_37
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_38
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_39
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_40
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_idling_0hands_41
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

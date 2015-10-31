@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: a2e2bb090dbb03641a10184ebb538397
+timeCreated: 1446265972
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ingredients 1_0
+    21300002: ingredients 1_1
+    21300004: ingredients 1_2
+    21300006: ingredients 1_3
+    21300008: ingredients 1_4
+    21300010: ingredients 1_5
+    21300012: ingredients 1_6
+    21300014: ingredients 1_7
+    21300016: ingredients 1_8
+    21300018: ingredients 1_9
+    21300020: ingredients 1_10
+    21300022: ingredients 1_11
+    21300024: ingredients 1_12
+    21300026: ingredients 1_13
+    21300028: ingredients 1_14
+    21300030: ingredients 1_15
+    21300032: ingredients 1_16
+    21300034: ingredients 1_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ingredients 1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1079
+        width: 188
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1079
+        width: 188
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1074
+        width: 199
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 870
+        width: 188
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 870
+        width: 188
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_5
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 870
+        width: 188
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 661
+        width: 188
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 661
+        width: 188
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_8
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 661
+        width: 188
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 452
+        width: 188
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 452
+        width: 188
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 451
+        width: 203
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 236
+        width: 188
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 243
+        width: 188
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_14
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 243
+        width: 203
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 34
+        width: 193
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 34
+        width: 221
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ingredients 1_17
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 34
+        width: 204
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

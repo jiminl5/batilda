@@ -14,18 +14,24 @@ public class Chef : MonoBehaviour {
 	public int mtY;
 	public bool atPosition = false;
 	public static bool clicked = false;
+
+	private Animator animator;
 	// Use this for initialization
 	void Start () {
-	
+		animator = this.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
+		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
 		if (findGameObjectAtClickedPosition ()) {
 			GameObject go = findGameObjectAtClickedPosition ();
+			animator.SetBool("1_h", !string.IsNullOrEmpty(one_h));
+			animator.SetBool("2_h", !string.IsNullOrEmpty(two_h));
 			if (!clicked) {
 			} else {
+				Debug.Log (!string.IsNullOrEmpty(one_h));
+				clicked = false;
 				Debug.Log ("clicked");
 				if (go && atPosition && go.GetComponent<cookingObject> ()) {
 					//Debug.Log(gameObject);
@@ -42,6 +48,10 @@ public class Chef : MonoBehaviour {
 						two_h = "";
 					} else if (go.GetComponent<cookingObject> ().food_ready && handsEmpty ()) {
 						one_h = go.GetComponent<cookingObject> ().food_cooking_name;
+
+						go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/3, transform.rotation) as GameObject;
+						go_1h.transform.SetParent (gameObject.transform);
+
 						Debug.Log ("picking up food...");
 						Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
 						go.GetComponent<cookingObject> ().food_ready = false;
@@ -54,14 +64,18 @@ public class Chef : MonoBehaviour {
 						one_h = go.GetComponent<ingredientObject> ().name;
 						//create go_1h
 						//go_1h = temp_plate;
-						go_1h = Instantiate (temp_plate, new Vector3 (0, 2, 0), transform.rotation) as GameObject;
+						go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/3, transform.rotation) as GameObject;
 						go_1h.transform.SetParent (gameObject.transform);
+						//go_1h.gameObject.layer = 5;
 						Debug.Log (one_h);
+
 					} else if (two_h == "") {
 						two_h = go.GetComponent<ingredientObject> ().name;
 						//create go_2h
 						//go_2h = temp_plate;
-						go_2h = Instantiate (temp_plate, new Vector3 (1, 2, 0), transform.rotation) as GameObject;
+
+						go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left/2 + Vector3.down *1/3, transform.rotation) as GameObject;
+						//go_2h.gameObject.layer = 5;
 						go_2h.transform.SetParent (gameObject.transform);
 				
 					}
@@ -92,6 +106,7 @@ public class Chef : MonoBehaviour {
 							go.GetComponent<Customer> ().food_given = one_h;
 							//add sprite of food
 							//delete 1h
+							Destroy (go_1h);
 							one_h = "";
 						}
 					} else if (hand_with_Food () == "two_h") {
@@ -104,19 +119,21 @@ public class Chef : MonoBehaviour {
 						}
 					}
 				} else if (go && atPosition) {
-					if (!string.IsNullOrEmpty (one_h)) {
-						one_h = "";
-						Destroy (go_1h);
-					} else if (!string.IsNullOrEmpty (two_h)) {
+
+					if (!string.IsNullOrEmpty (two_h)) {
 						two_h = "";
 						Destroy (go_2h);
 					}
-				} else {
+					else if (!string.IsNullOrEmpty (one_h)) {
+						one_h = "";
+						Destroy (go_1h);
+					} 
+				}else {
 					//Debug.Log("didn't work!");
 					//Debug.Log(gameObject.tag);
-			
+					clicked = true;
 				}
-				clicked = false;
+
 			}
 		}
 
