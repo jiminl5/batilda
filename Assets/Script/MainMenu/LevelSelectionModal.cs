@@ -10,4 +10,8 @@ public class LevelSelectionModal : MonoBehaviour {
         Application.LoadLevel("level" + level_number);
     }
     
+    public void loadScene(string scene_name)
+    {
+        Application.LoadLevel(scene_name);
+    }
 }

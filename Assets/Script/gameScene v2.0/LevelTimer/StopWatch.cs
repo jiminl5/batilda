@@ -36,6 +36,6 @@ public class StopWatch : MonoBehaviour {
         displayMinutes = roundedTimeSeconds / 60;
         displaySeconds = roundedTimeSeconds % 60;
         string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
-        GUI.Box(new Rect(400, 25, 100, 30), text);
+        GUI.Box(new Rect(100, 25, 100, 30), text);
 	}
 }
