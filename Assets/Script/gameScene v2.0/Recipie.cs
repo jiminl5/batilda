@@ -9,6 +9,8 @@ public class Recipie : MonoBehaviour {
 	public string ingredient2 = "";
 
 	public ArrayList ingredients = new ArrayList();
+
+	public GameObject go;
 	// Use this for initialization
 	void Awake () {
 		ingredients.Add (ingredient1);

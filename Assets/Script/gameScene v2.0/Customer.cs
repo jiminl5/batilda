@@ -7,6 +7,8 @@ public class Customer : MonoBehaviour {
 	public string foodWaitingOn = "none";
 	Recipie current_food;
 	public string food_given;
+	GameObject foodSprite;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -29,6 +31,7 @@ public class Customer : MonoBehaviour {
 				food_given = "";
 				//given correct food!
 				Debug.Log ("yum!");
+				Destroy (foodSprite);
 			} else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given)) {
 				Debug.Log ("this isn't my order!");
 				food_given = "";
@@ -43,6 +46,7 @@ public class Customer : MonoBehaviour {
 		current_food = randomRecipe();
 		foodWaitingOn = current_food.name;
 		Debug.Log ("waiting on: " + foodWaitingOn);
+		foodSprite = Instantiate (current_food.go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
 		waitingOnFood = true;
 		//food_ready = true;
 		//update sprite;

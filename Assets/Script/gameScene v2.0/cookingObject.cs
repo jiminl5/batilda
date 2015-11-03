@@ -22,7 +22,7 @@ public class cookingObject : MonoBehaviour {
 	//public int x;
 	//public int y;
 
-	private Recipie current_recipie;
+	public Recipie current_recipie;
 	//private ArrayList tempingredients;
 	//private float Timer;
 	// Use this for initialization
