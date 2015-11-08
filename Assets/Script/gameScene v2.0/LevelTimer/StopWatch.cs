@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class StopWatch : MonoBehaviour {
 
@@ -9,6 +10,8 @@ public class StopWatch : MonoBehaviour {
     private float displaySeconds;
     private float displayMinutes;
 
+	public Image circleTimerIndicator;
+
 	// Use this for initialization
 	void Awake () {
         timeInSeconds = startTime;
@@ -17,6 +20,7 @@ public class StopWatch : MonoBehaviour {
     void Update()
     {
         timeInSeconds -= Time.deltaTime;
+		circleTimerIndicator.fillAmount -= 1/startTime * Time.deltaTime;
         if (timeInSeconds == 60)
         {
             print("one min left");
@@ -36,6 +40,6 @@ public class StopWatch : MonoBehaviour {
         displayMinutes = roundedTimeSeconds / 60;
         displaySeconds = roundedTimeSeconds % 60;
         string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
-        GUI.Box(new Rect(100, 25, 100, 30), text);
+        GUI.Label(new Rect(30, 45, 50, 30), text);
 	}
 }
