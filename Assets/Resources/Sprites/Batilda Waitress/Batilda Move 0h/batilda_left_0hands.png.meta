@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 4ad41aa41a52c68478ccc8371645bb63
+timeCreated: 1447033823
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: batilda_left_0hands_0
+    21300002: batilda_left_0hands_1
+    21300004: batilda_left_0hands_2
+    21300006: batilda_left_0hands_3
+    21300008: batilda_left_0hands_4
+    21300010: batilda_left_0hands_5
+    21300012: batilda_left_0hands_6
+    21300014: batilda_left_0hands_7
+    21300016: batilda_left_0hands_8
+    21300018: batilda_left_0hands_9
+    21300020: batilda_left_0hands_10
+    21300022: batilda_left_0hands_11
+    21300024: batilda_left_0hands_12
+    21300026: batilda_left_0hands_13
+    21300028: batilda_left_0hands_14
+    21300030: batilda_left_0hands_15
+    21300032: batilda_left_0hands_16
+    21300034: batilda_left_0hands_17
+    21300036: batilda_left_0hands_18
+    21300038: batilda_left_0hands_19
+    21300040: batilda_left_0hands_20
+    21300042: batilda_left_0hands_21
+    21300044: batilda_left_0hands_22
+    21300046: batilda_left_0hands_23
+    21300048: batilda_left_0hands_24
+    21300050: batilda_left_0hands_25
+    21300052: batilda_left_0hands_26
+    21300054: batilda_left_0hands_27
+    21300056: batilda_left_0hands_28
+    21300058: batilda_left_0hands_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: batilda_left_0hands_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1137
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1137
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1137
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_3
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1137
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_4
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1137
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_5
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1137
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 853
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 853
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_8
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 854
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_9
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 854
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_10
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 855
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_11
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 854
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 570
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 570
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 570
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_15
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 570
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_16
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 570
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_17
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 570
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 286
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 286
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_20
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 287
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_21
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 286
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_22
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 286
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_23
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 285
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_26
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_27
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_28
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 0
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: batilda_left_0hands_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 182
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
