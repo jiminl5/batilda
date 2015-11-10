@@ -12,7 +12,7 @@ public class Chef : MonoBehaviour {
 
 	public int mtX;
 	public int mtY;
-	public bool atPosition = false;
+	public bool atPosition = true;
 	public static bool clicked = false;
 
 	private Animator animator;
@@ -30,7 +30,7 @@ public class Chef : MonoBehaviour {
 			animator.SetBool("2_h", !string.IsNullOrEmpty(two_h));
 			if (!clicked) {
 			} else {
-				Debug.Log (!string.IsNullOrEmpty(one_h));
+//				Debug.Log (!string.IsNullOrEmpty(one_h));
 				clicked = false;
 				Debug.Log ("clicked");
 				if (go && atPosition && go.GetComponent<cookingObject> ()) {

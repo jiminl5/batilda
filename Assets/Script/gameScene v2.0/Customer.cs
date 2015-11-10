@@ -31,6 +31,7 @@ public class Customer : MonoBehaviour {
 				food_given = "";
 				//given correct food!
 				Debug.Log ("yum!");
+				Destroy (this.gameObject);
 				Destroy (foodSprite);
 			} else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given)) {
 				Debug.Log ("this isn't my order!");
