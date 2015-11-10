@@ -14,7 +14,7 @@ GameObject:
   - 114: {fileID: 11474610}
   m_Layer: 0
   m_Name: tmp_invisibleTile
-  m_TagString: Untagged
+  m_TagString: tile_blk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,6 +114,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalScale.x
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: tile_blk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

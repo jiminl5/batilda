@@ -14,7 +14,7 @@ public class TileMap : MonoBehaviour {
 	int[,] tiles; // 2-Dimensional Array
 
 	// 16:9
-	int mapSizeX = 5;
+	int mapSizeX = 6;
 	int mapSizeY = 9;
 
 	// 2D array of Nodes
