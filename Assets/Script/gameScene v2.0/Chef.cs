@@ -49,7 +49,7 @@ public class Chef : MonoBehaviour {
 					} else if (go.GetComponent<cookingObject> ().food_ready && handsEmpty ()) {
 						one_h = go.GetComponent<cookingObject> ().current_recipie.name;
 
-						go_1h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right/2 + Vector3.down *1/3, transform.rotation) as GameObject;
+						go_1h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
 						go_1h.transform.SetParent (gameObject.transform);
 
 						Debug.Log ("picking up food...");
@@ -64,7 +64,7 @@ public class Chef : MonoBehaviour {
 						one_h = go.GetComponent<ingredientObject> ().name;
 						//create go_1h
 						//go_1h = temp_plate;
-						go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/3, transform.rotation) as GameObject;
+						go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
 						go_1h.transform.SetParent (gameObject.transform);
 						//go_1h.gameObject.layer = 5;
 						Debug.Log (one_h);
@@ -74,7 +74,7 @@ public class Chef : MonoBehaviour {
 						//create go_2h
 						//go_2h = temp_plate;
 
-						go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left/2 + Vector3.down *1/3, transform.rotation) as GameObject;
+						go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
 						//go_2h.gameObject.layer = 5;
 						go_2h.transform.SetParent (gameObject.transform);
 				
