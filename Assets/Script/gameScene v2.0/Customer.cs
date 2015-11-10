@@ -7,7 +7,7 @@ public class Customer : MonoBehaviour {
 	public string foodWaitingOn = "none";
 	Recipie current_food;
 	public string food_given;
-	GameObject foodSprite;
+	private GameObject foodSprite;
 
 	// Use this for initialization
 	void Start () {
@@ -48,6 +48,7 @@ public class Customer : MonoBehaviour {
 		foodWaitingOn = current_food.name;
 		Debug.Log ("waiting on: " + foodWaitingOn);
 		foodSprite = Instantiate (current_food.go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+		foodSprite.transform.parent = transform;
 		waitingOnFood = true;
 		//food_ready = true;
 		//update sprite;

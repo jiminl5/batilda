@@ -4,11 +4,13 @@ using UnityEngine.UI;
 
 public class StopWatch : MonoBehaviour {
 
-    private float startTime = 90;
+    private float startTime = 20;
     private float timeInSeconds;
     private int roundedTimeSeconds;
     private float displaySeconds;
     private float displayMinutes;
+
+	public bool finished = false;
 
 	public Image circleTimerIndicator;
 
@@ -19,16 +21,18 @@ public class StopWatch : MonoBehaviour {
 
     void Update()
     {
-        timeInSeconds -= Time.deltaTime;
-		circleTimerIndicator.fillAmount -= 1/startTime * Time.deltaTime;
-        if (timeInSeconds == 60)
-        {
-            print("one min left");
-        }
-        if (timeInSeconds == 0)
-        {
-            print("times up");
-        }
+		if (!finished) {
+			timeInSeconds -= Time.deltaTime;
+			circleTimerIndicator.fillAmount -= 1 / startTime * Time.deltaTime;
+			if (timeInSeconds == 60) {
+				print ("one min left");
+			}
+			if (timeInSeconds <= 0) {
+				print ("times up");
+				finished = true;
+
+			}
+		}
     }
 	
 	// Update is called once per frame
