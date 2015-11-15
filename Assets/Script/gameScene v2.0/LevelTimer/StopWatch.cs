@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class StopWatch : MonoBehaviour {
 
-    private float startTime = 20;
+    private float startTime = 120;
     private float timeInSeconds;
     private int roundedTimeSeconds;
     private float displaySeconds;

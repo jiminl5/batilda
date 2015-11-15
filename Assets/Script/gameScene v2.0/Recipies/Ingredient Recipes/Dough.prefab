@@ -41,8 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: dough
   timeToMake: 5
-  ingredient1: wheat
-  ingredient2: wheat
+  ingredient: wheat
   go: {fileID: 100214, guid: 1b59fbc8ea8fadb46a2159685ed8f12f, type: 2}
 --- !u!1001 &100100000
 Prefab:
@@ -63,6 +62,10 @@ Prefab:
       propertyPath: go
       value: 
       objectReference: {fileID: 100214, guid: 1b59fbc8ea8fadb46a2159685ed8f12f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: ingredient
+      value: wheat
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 120550}

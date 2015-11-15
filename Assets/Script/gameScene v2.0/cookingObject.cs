@@ -40,12 +40,12 @@ public class cookingObject : MonoBehaviour {
 		if (needsFurnace) {
 			bool furnaceOn = GameObject.FindGameObjectWithTag ("Furnace").GetComponent<Furnace> ().isOn;
 			if (cookReady && !food_ready && furnaceOn) {
-				cooking (chef_1h, chef_2h);
+				cooking (chef_1h);
 				cookReady = false;
 			}
 		} else {
 			if (cookReady && food_ready == false) {
-				cooking (chef_1h, chef_2h);
+				cooking (chef_1h);
 				cookReady = false;
 			}
 			//this.GetComponent<SpriteRenderer> ().color = c;
@@ -63,14 +63,14 @@ public class cookingObject : MonoBehaviour {
 		//update sprite;
 	}
 	
-	void cooking (string i1, string i2) {
+	void cooking (string i1) {
 		//checks a list of recipies and sees what you can cook. 
 		//if there is something,  remove the ingredients from the cook, 
 		//and saves the name of the food thats cooking. save the 
 		//current time, and then wait how long it takes to make the food.
-		if (canCook(i1, i2))
+		if (canCook(i1))
 			{
-				current_recipie = checkRecipies (i1, i2);
+				current_recipie = checkRecipies (i1);
 				food_cooking_name = current_recipie.name;
 				Debug.Log (current_recipie.timeToMake);
 				StartCoroutine(ExecuteAfterDelay(current_recipie.timeToMake)); //wait for food to be done...
@@ -88,62 +88,36 @@ public class cookingObject : MonoBehaviour {
 
 	}
 
-	public bool canCook(string i1, string i2) {
+	public bool canCook(string i1) {
 		//Debug.Log (i1);
-		Debug.Log ("recipie 1 contains i1: " + recipie1.ingredients.Contains (i1));
-		//Debug.Log (i2);
-		Debug.Log ("recipe 1 contains i2: " + recipie1.ingredients.Contains (i2));
+		Debug.Log ("recipie 1 contains i1: " + recipie1.ingredient == i1);
+
 		//Debug.Log (recipie1.ingredients.Count );
-		if (i1 == "" && i2 == "") {
+		if (i1 == "") {
 			return false;
 		}
-		ArrayList tempingredients = new ArrayList(recipie1.ingredients);
+		//ArrayList tempingredients = new ArrayList(recipie1.ingredients);
 		//Debug.Log (recipie1.ingredients.Count);
-		if (tempingredients.Contains (i1)) {
-			tempingredients.Remove(i1);
-			if (tempingredients.Contains(i2)) {
-				return true;
-			}
+		if (recipie1.ingredient == i1) {
+
+			return true;
 		} 
-		tempingredients = recipie2.ingredients;
-		if (tempingredients.Contains (i1)) {
-				tempingredients.Remove(i1);
-				if (tempingredients.Contains(i2)) {
-					return true;
-				}
+		if (recipie2.ingredient == i1) {
+			
+			return true;
 		} 
 			return false;
-//		if (checkRecipies(i1,i2))
-//		{
-//			return true;
-//		}
-//		return false;
+
 	}
 
-	Recipie checkRecipies(string i1, string i2) {
-		Debug.Log ("this is i1 and i2: " + i1 + ", " + i2);
-		if (recipie1.ingredients.Contains (i1) && recipie1.ingredients.Contains (i2)) {
+	Recipie checkRecipies(string i1) {
+		Debug.Log ("this is i1; " + i1 );
+		if (recipie1.ingredient == i1) {
 			return recipie1;
 		} 
 		else
 			return recipie2;
-//		ArrayList tempingredients;
-//		tempingredients = recipie1.ingredients;
-//		Debug.Log(tempingredients.Contains (i1));
-//		if (tempingredients.Contains (i1)) {
-//			tempingredients.Remove(i1);
-//			if (tempingredients.Contains(i2)) {
-//				return recipie1;
-//			}
-//		} 
-//		tempingredients = recipie2.ingredients;
-//		if (tempingredients.Contains (i1)) {
-//			tempingredients.Remove(i1);
-//			if (tempingredients.Contains(i2)) {
-//				return recipie2;
-//			}
-//		}
-//		return null;
+
 
 	}
 
