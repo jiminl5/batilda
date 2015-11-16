@@ -219,6 +219,7 @@ public class TileMap : MonoBehaviour {
 		currentPath.Reverse ();
 
 		selectedUnit.GetComponent<Unit> ().currentPath = currentPath;
+		selectedUnit.GetComponent<Unit> ().QueueAction (currentPath);
 	}
 }
 

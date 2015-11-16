@@ -19,47 +19,45 @@ public class Unit : MonoBehaviour {
 
     static int tmp_count;
 
-    public static bool mouseClicked = false;
+    //public static bool mouseClicked = false;
 
     public GameObject g_object;
 
+	public static Queue<List<Node>> unit_queue = new Queue<List<Node>>();
+
 	void Start()
 	{
-        temp_list = new List<Node>();
+        //temp_list = new List<Node>();
         g_object = GameObject.Find("Unit");
 	}
 
 	public void Update()
 	{
-		if (currentPath != null && mouseClicked) {
-			int currNode = 0;
-
-			while(currNode < currentPath.Count - 1)
-			{
-				//Vector2 start = map.TileToWorld( currentPath[currNode].x, currentPath[currNode].y);
-				//Vector2 end = map.TileToWorld( currentPath[currNode + 1].x, currentPath[currNode + 1].y);
-
-				//Debug.DrawLine(start, end, Color.cyan); // track path
-
-				currNode++;
-			}
-            temp_list = currentPath;
-			this.gameObject.GetComponentInChildren<Chef>().atPosition = false;
+		if (currentPath != null && unit_queue.Count != 0){//mouseClicked) {
+            //temp_list = currentPath;
+			//this.gameObject.GetComponentInChildren<Chef>().atPosition = false;
 			MoveNextTile();
 		}
 	}
 
-    //Move to nextTile
-	public void MoveNextTile()//List<Node> temp_list)
+	public void QueueAction(List<Node> queue_list)
 	{
+		//Queue Action
+		unit_queue.Enqueue (queue_list);
+	}
+
+    //Move to nextTile
+	public void MoveNextTile()
+	{
+		//print ("HI: " + unit_queue.Count);
 		this.gameObject.GetComponentInChildren<Chef>().atPosition = false;
         List<Node> temp_path = new List<Node>();
-        temp_path = temp_list;
+		temp_path = unit_queue.Peek ();//temp_list;
 		if (currentPath == null && temp_path == null) {
 			print ("null");
 			return;
 		}
-		if (mouseClicked){
+		if (unit_queue.Count != 0){//mouseClicked){
             tileX = temp_path[1].x;
             tileY = temp_path[1].y;
             float real_tileX = tileX + (tileX * 0.5f);
@@ -75,13 +73,19 @@ public class Unit : MonoBehaviour {
             }
 			if (g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)
 			{
-				temp_path.RemoveAt(0);
+				//temp_path.RemoveAt(0);
+				unit_queue.Peek().RemoveAt(0);
 			}
 			if (temp_path.Count == 1)
 			{
 				this.gameObject.GetComponentInChildren<Chef>().atPosition = true;
 				print("Succesfully at destination");
-				mouseClicked = false;
+				unit_queue.Dequeue();
+				if (unit_queue.Count == 0)
+				{
+					//mouseClicked = false;
+					unit_queue.Clear();
+				}
 			}
 
 		}

@@ -26,9 +26,11 @@ public class MoveableTile : MonoBehaviour {
 		{
 			food_plates = GameObject.FindGameObjectsWithTag("not_empty_plate");
 		}
+
+		MidTileMoveable ();
 	}
 
-	void Update()
+	void MidTileMoveable()
 	{
 		for (int i = 0; i < plates.Length; i++) {
 			for (int j = 0; j < red_tile.Length; j++)
@@ -46,97 +48,94 @@ public class MoveableTile : MonoBehaviour {
 		}
 	}
 	
-	void OnMouseUp()
+	void OnMouseDown()
 	{
 		//CHEF
 		print ("mtX: " + mtX + ", mtY: " + mtY);
 		//GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().atPosition = false;
-		if (mtX < 5) {
-			// left shelf
-			if (mtX == 0 && (mtY >= 0 && mtY <= 6)) {
-				if (mtY == 0) // Trash , left-bottom corner
-					map.GeneratePathTo (mtX + 1, mtY + 1);
-				else if (mtY == 6) // Pot(?), left-top corner
-					map.GeneratePathTo (mtX + 1, mtY - 1);
-				else
-					map.GeneratePathTo (mtX + 1, mtY);	
-				Unit.mouseClicked = true; // Trigger movement
-			}
-			// bottom shelf
-			else if (mtY == 0 && (mtX >= 1 && mtX <= 4)) {
-				map.GeneratePathTo (mtX, mtY + 1);
-				Unit.mouseClicked = true; // Trigger movement
-			}
-			// top shelf
-			else if (mtY == 6 && (mtX >= 1 && mtX < 5)) {
-//				if (mtX == 5)
-//					map.GeneratePathTo (mtX - 1, mtY - 1);
-//				else
-				map.GeneratePathTo (mtX, mtY - 1);
-				Unit.mouseClicked = true; // Trigger movement
-			}
-
-			Chef.clicked = true;
-			GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtX = mtX;
-			GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtY = mtY;
-		} 
-		else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
-			for (int l = 0; l < plates.Length; l++)
-			{
-				if (plates[l].transform.position.y == mtY && mtY == 6)
-				{
-					map.GeneratePathTo(4, 5);
-					Unit.mouseClicked = true;
+		if (Unit.unit_queue.Count < 2) {
+			if (mtX < 5) {
+				// left shelf
+				if (mtX == 0 && (mtY >= 0 && mtY <= 6)) {
+					if (mtY == 0) // Trash , left-bottom corner
+						map.GeneratePathTo (mtX + 1, mtY + 1);
+					else if (mtY == 6) // Pot(?), left-top corner
+						map.GeneratePathTo (mtX + 1, mtY - 1);
+					else
+						map.GeneratePathTo (mtX + 1, mtY);	
+					//Unit.mouseClicked = true; // Trigger movement
 				}
-				else if (plates[l].transform.position.y == mtY)
-				{
-					map.GeneratePathTo(4,mtY);
-					Unit.mouseClicked = true;
+				// bottom shelf
+				else if (mtY == 0 && (mtX >= 1 && mtX <= 4)) {
+					map.GeneratePathTo (mtX, mtY + 1);
+					//Unit.mouseClicked = true; // Trigger movement
+				}
+				// top shelf
+				else if (mtY == 6 && (mtX >= 1 && mtX < 5)) {
+					//				if (mtX == 5)
+					//					map.GeneratePathTo (mtX - 1, mtY - 1);
+					//				else
+					map.GeneratePathTo (mtX, mtY - 1);
+					//Unit.mouseClicked = true; // Trigger movement
+				}
+				
+				Chef.clicked = true;
+				GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtX = mtX;
+				GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtY = mtY;
+				//gameObject.GetComponent<Unit>().QueueAction();
+			} else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
+				for (int l = 0; l < plates.Length; l++) {
+					if (plates [l].transform.position.y == mtY && mtY == 6) {
+						map.GeneratePathTo (4, 5);
+						//Unit.mouseClicked = true;
+					} else if (plates [l].transform.position.y == mtY) {
+						map.GeneratePathTo (4, mtY);
+						//Unit.mouseClicked = true;
+					}
+				}
+				for (int m = 0; m < food_plates.Length; m++) {
+					if (food_plates [m].transform.position.y == mtY) {
+						map1.GeneratePathTo (6, mtY);
+						Unit1.mouseClicked = true;
+					}
 				}
 			}
-			for (int m = 0; m < food_plates.Length; m++)
-			{
-				if (food_plates[m].transform.position.y == mtY)
-				{
-					map1.GeneratePathTo(6, mtY);
+			// Waitress
+			else if (mtX > 5 && mtY > 1 && mtY < 7) {
+				// Top Shelf
+				if (mtY == 6) {
+					if (mtX == 5) //left corner
+						map1.GeneratePathTo (mtX + 1, mtY - 1);
+					else if (mtX == 10) // right corner
+						map1.GeneratePathTo (mtX - 1, mtY - 1);
+					else
+						map1.GeneratePathTo (mtX, mtY - 1);
 					Unit1.mouseClicked = true;
 				}
+				// Right Shelf
+				else if (mtX == 10) {
+					if (mtY == 2) //corner
+						map1.GeneratePathTo (mtX - 1, mtY + 1);
+					else
+						map1.GeneratePathTo (mtX - 1, mtY);
+					Unit1.mouseClicked = true;
+				}
+				// Bottom Shelf
+				else if (mtY == 2) {
+					if (mtX == 5)
+						map1.GeneratePathTo (mtX + 1, mtY + 1); // Corner
+					else
+						map1.GeneratePathTo (mtX, mtY + 1);
+					Unit1.mouseClicked = true;
+				}
+				// Left Shelf -- MID TILE
+				//			else if (mtX == 5)
+				//			{
+				//				map1.GeneratePathTo(mtX + 1, mtY);
+				//				Unit1.mouseClicked = true;
+				//			}
 			}
-		}
-		// Waitress
-		else if (mtX > 5 && mtY > 1 && mtY < 7) {
-			// Top Shelf
-			if (mtY == 6) {
-				if (mtX == 5) //left corner
-					map1.GeneratePathTo (mtX + 1, mtY - 1);
-				else if (mtX == 10) // right corner
-					map1.GeneratePathTo (mtX - 1, mtY - 1);
-				else
-					map1.GeneratePathTo (mtX, mtY - 1);
-				Unit1.mouseClicked = true;
-			}
-			// Right Shelf
-			else if (mtX == 10) {
-				if (mtY == 2) //corner
-					map1.GeneratePathTo (mtX - 1, mtY + 1);
-				else
-					map1.GeneratePathTo (mtX - 1, mtY);
-				Unit1.mouseClicked = true;
-			}
-			// Bottom Shelf
-			else if (mtY == 2) {
-				if (mtX == 5)
-					map1.GeneratePathTo (mtX + 1, mtY + 1); // Corner
-				else
-					map1.GeneratePathTo (mtX, mtY + 1);
-				Unit1.mouseClicked = true;
-			}
-			// Left Shelf -- MID TILE
-//			else if (mtX == 5)
-//			{
-//				map1.GeneratePathTo(mtX + 1, mtY);
-//				Unit1.mouseClicked = true;
-//			}
-		}
+		} else
+			print ("TOO MANY TASKS!!!!!");
 	}
 }
