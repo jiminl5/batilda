@@ -27,6 +27,17 @@ public class MoveableTile : MonoBehaviour {
 			food_plates = GameObject.FindGameObjectsWithTag("not_empty_plate");
 		}
 
+		ResetMidTiles ();
+	}
+
+	void ResetMidTiles()
+	{
+		for (int i = 0; i < red_tile.Length; i++) {
+			red_tile[i].SetActive(true);
+		}
+		for (int j = 0; j < blk_tile.Length; j++) {
+			blk_tile[j].SetActive(true);
+		}
 		MidTileMoveable ();
 	}
 
@@ -35,7 +46,7 @@ public class MoveableTile : MonoBehaviour {
 		for (int i = 0; i < plates.Length; i++) {
 			for (int j = 0; j < red_tile.Length; j++)
 			{
-				if (red_tile[j].transform.position.x == 7.5 && red_tile[j].transform.position.y == plates[i].transform.position.y)
+				if (red_tile[j].transform.position.x == 7.5 && red_tile[j].transform.position.y == plates[i].transform.position.y) //check if those tiles are same as plates with specific tag
 					red_tile[j].SetActive(false);
 			}
 		}
