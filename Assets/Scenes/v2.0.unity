@@ -1218,7 +1218,7 @@ MonoBehaviour:
   start_cooking: 0
   food_ready: 0
   cookReady: 0
-  needsFurnace: 0
+  needsFurnace: 1
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 1, b: 1, a: 1}

@@ -38,7 +38,7 @@ public class cookingObject : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (needsFurnace) {
-			bool furnaceOn = GameObject.FindGameObjectWithTag ("Furnace").GetComponent<Furnace> ().isOn;
+			bool furnaceOn = GameObject.Find ("furnace").GetComponent<Furnace> ().isOn;
 			if (cookReady && !food_ready && furnaceOn) {
 				cooking (chef_1h);
 				cookReady = false;
