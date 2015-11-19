@@ -10,7 +10,7 @@ public class drinkObject : MonoBehaviour {
 	private bool waitingOnDrink = false;
 	private int timeToMakeDrink = 5;
 
-	public Color c;
+	//public Color c;
 	// Use this for initialization
 	void Start () {
 	
@@ -24,6 +24,7 @@ public class drinkObject : MonoBehaviour {
 
 	void checkDrinks() {
 		if (!waitingOnDrink && numberOfDrinks < maxDrinks) {
+			this.GetComponent<SpriteRenderer> ().color = Color.red;
 			Invoke("addDrink", timeToMakeDrink);
 			waitingOnDrink = true;
 		}
@@ -31,6 +32,8 @@ public class drinkObject : MonoBehaviour {
 
 	void addDrink() {
 		numberOfDrinks += 1;
+		waitingOnDrink = false;
+		this.GetComponent<SpriteRenderer> ().color = Color.white;
 	}
 
 }

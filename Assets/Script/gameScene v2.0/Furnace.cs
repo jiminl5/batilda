@@ -3,6 +3,10 @@ using System.Collections;
 
 public class Furnace : MonoBehaviour {
 	public bool isOn = false;
+	public bool hasFirewood = false;
+
+	private float maxTime = 10;
+	private float currentTime;
 	// Use this for initialization
 	void Start () {
 	
@@ -10,15 +14,29 @@ public class Furnace : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (isOn) {
+			currentTime -= Time.deltaTime;
+		}
+		checkForFirewood ();
 	}
 
-	IEnumerator ExecuteAfterDelay(float delay)
-	{
-		isOn = true;
-		//update sprite;
-		yield return new WaitForSeconds(delay);
+	void turnOff() {
+		this.GetComponent<SpriteRenderer> ().color = Color.white;
 		isOn = false;
-		//update sprite;
+	}
+
+	void turnOn() {
+		this.GetComponent<SpriteRenderer> ().color = Color.yellow;
+		isOn = true;
+	}
+
+	void checkForFirewood() {
+		if (hasFirewood) {
+			turnOn ();
+			currentTime = maxTime;
+			hasFirewood = false;
+		} else if (currentTime <= 0) {
+			turnOff ();
+		}
 	}
 }

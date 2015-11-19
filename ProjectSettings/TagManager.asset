@@ -8,6 +8,15 @@ TagManager:
   - cookingObject
   - dropOffPoint
   - trash
+  - test
+  - empty_plate
+  - not_empty_plate
+  - tile_blk
+  - tile_red
+  - food
+  - waitress_obj
+  - Chef
+  - Waitress
   layers:
   - Default
   - TransparentFX

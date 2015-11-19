@@ -173,7 +173,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 195176, guid: c6f015ebde49e184a8627dc18ed0edde, type: 2}
       propertyPath: m_TagString
-      value: Player
+      value: Chef
       objectReference: {fileID: 0}
     - target: {fileID: 21243280, guid: c6f015ebde49e184a8627dc18ed0edde, type: 2}
       propertyPath: m_Sprite
@@ -820,6 +820,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: dac19d9a27c9b8c4d8cb3ac34c6574fb,
         type: 3}
+    - target: {fileID: 195176, guid: c6f015ebde49e184a8627dc18ed0edde, type: 2}
+      propertyPath: m_TagString
+      value: Waitress
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6f015ebde49e184a8627dc18ed0edde, type: 2}
   m_IsPrefabParent: 0
@@ -837,47 +841,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 833404163}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3819f5602c295604e9c6899a30c18713, type: 3}
+  m_Script: {fileID: 11500000, guid: 34923448829fa7a40ac00d2d7e983f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   one_h: 
   two_h: 
-  temp_plate: {fileID: 103286, guid: bb9c32e4f4310e14195895ed93e73ca0, type: 2}
+  temp_plate: {fileID: 0}
   at_current_name: 
   mtX: 0
   mtY: 0
-  atPosition: 0
---- !u!61 &833404166
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 833404163}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 2.07999992, y: 2.80999994}
---- !u!50 &833404167
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 833404163}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
+  atPosition: 1
 --- !u!95 &833404169
 Animator:
   serializedVersion: 3
@@ -989,9 +964,10 @@ GameObject:
   - 4: {fileID: 986910651}
   - 212: {fileID: 986910653}
   - 114: {fileID: 986910652}
+  - 114: {fileID: 986910654}
   m_Layer: 5
   m_Name: firewood
-  m_TagString: Untagged
+  m_TagString: waitress_obj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1046,6 +1022,21 @@ SpriteRenderer:
   m_SortingOrder: 5
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &986910654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 986910650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  x: 10
+  y: 3
+  go: {fileID: 169116, guid: 1008a37327b4f6c4f90161eca8ac6c5d, type: 2}
 --- !u!1 &1128746549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,9 +1299,10 @@ GameObject:
   - 4: {fileID: 1458081278}
   - 212: {fileID: 1458081280}
   - 114: {fileID: 1458081279}
+  - 114: {fileID: 1458081281}
   m_Layer: 5
   m_Name: drink
-  m_TagString: Untagged
+  m_TagString: waitress_obj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1335,20 +1327,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458081277}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86f3af22eb5c0e04aa2d1fe014cef05f, type: 3}
+  m_Script: {fileID: 11500000, guid: 63ee020a9b800fd47a50926c3e33db39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  food_cooking_name: 
-  recipie1: {fileID: 0}
-  recipie2: {fileID: 0}
-  start_cooking: 0
-  food_ready: 0
-  cookReady: 0
-  needsFurnace: 0
-  chef_1h: 
-  chef_2h: 
-  c: {r: 1, g: 1, b: 1, a: 1}
-  current_recipie: {fileID: 0}
+  numberOfDrinks: 0
+  name: apple
+  maxDrinks: 3
 --- !u!212 &1458081280
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1375,6 +1359,21 @@ SpriteRenderer:
   m_SortingOrder: 5
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1458081281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458081277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  x: 7
+  y: 6
+  go: {fileID: 0}
 --- !u!1 &1477731511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,9 +1575,10 @@ GameObject:
   - 4: {fileID: 1647807913}
   - 212: {fileID: 1647807915}
   - 114: {fileID: 1647807914}
+  - 114: {fileID: 1647807916}
   m_Layer: 5
   m_Name: furnace
-  m_TagString: Untagged
+  m_TagString: waitress_obj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1607,6 +1607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOn: 0
+  hasFirewood: 0
 --- !u!212 &1647807915
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1633,6 +1634,21 @@ SpriteRenderer:
   m_SortingOrder: 5
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1647807916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647807912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  x: 6
+  y: 6
+  go: {fileID: 0}
 --- !u!1 &1799271600
 GameObject:
   m_ObjectHideFlags: 0

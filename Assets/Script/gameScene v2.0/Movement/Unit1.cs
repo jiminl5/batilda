@@ -58,6 +58,7 @@ public class Unit1 : MonoBehaviour {
     //Move to nextTile
 	public void MoveNextTile()//List<Node> temp_list)
 	{
+		this.gameObject.GetComponentInChildren<Waitress>().atPosition = false;
         List<Node> temp_path = new List<Node>();
         temp_path = temp_list2;
 		if (currentPath == null && temp_path == null) {
@@ -127,6 +128,7 @@ public class Unit1 : MonoBehaviour {
 			}
 			if (temp_path.Count == 1)
 			{
+				this.gameObject.GetComponentInChildren<Waitress>().atPosition = true;
 				left_right = ""; // Make direction empty
 				down_up = "";
 				print("Succesfully at destination");

@@ -91,8 +91,8 @@ public class MoveableTile : MonoBehaviour {
 				}
 				
 				Chef.clicked = true;
-				GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtX = mtX;
-				GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().mtY = mtY;
+				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
+				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
 				//gameObject.GetComponent<Unit>().QueueAction();
 			} else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
 				for (int l = 0; l < plates.Length; l++) {
@@ -139,6 +139,9 @@ public class MoveableTile : MonoBehaviour {
 						map1.GeneratePathTo (mtX, mtY + 1);
 					Unit1.mouseClicked = true;
 				}
+				Waitress.clicked = true;
+				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
+				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
 				// Left Shelf -- MID TILE
 				//			else if (mtX == 5)
 				//			{
