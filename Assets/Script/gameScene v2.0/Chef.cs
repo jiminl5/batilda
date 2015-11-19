@@ -19,6 +19,7 @@ public class Chef : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = this.GetComponent<Animator>();
+		atPosition = true;
 	}
 	
 	// Update is called once per frame
