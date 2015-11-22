@@ -145,8 +145,13 @@ public class TileMap : MonoBehaviour {
 		// Q in wikipedia - the list of nodes that are unvisited
 		List<Node> unvisited = new List<Node>();
 
-		source = graph [selectedUnit.GetComponent<Unit> ().tileX,
+		if (Unit.unit_queue.Count == 0) {
+			source = graph [selectedUnit.GetComponent<Unit> ().tileX,
 	                     selectedUnit.GetComponent<Unit> ().tileY];
+		} 
+		else if (Unit.unit_queue.Count != 0) {
+			source = graph [Unit.unit_queue.Peek().Last().x , Unit.unit_queue.Peek().Last().y];
+		}
 
 		// Create a target node for diagonal shorter path
 		Node target = graph [x,y];
