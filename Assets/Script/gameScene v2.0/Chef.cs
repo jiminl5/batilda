@@ -105,7 +105,41 @@ public class Chef : MonoBehaviour {
 						go_2h.transform.SetParent (gameObject.transform);
 				
 					}
-				} else if (go && atPosition && go.GetComponent<dropOffPoint> ()) {
+				} 
+
+				else if (go && atPosition && go.GetComponent<doughObject> ()) {
+					if (one_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
+						go.GetComponent<doughObject>().numberofWheat += 1;
+						one_h = "";
+						Destroy (go_1h);
+					}
+					else if (two_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
+						go.GetComponent<doughObject>().numberofWheat += 1;
+						two_h = "";
+						Destroy (go_2h);
+					}
+				} 
+
+				else if (go && atPosition && go.GetComponent<doughPickUp> ()) {
+					if (go.GetComponent<doughPickUp>().numberofDough > 0) {
+						if (string.IsNullOrEmpty(one_h)) {
+							one_h = "dough";
+							go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
+							go_1h.transform.SetParent (gameObject.transform);
+							go.GetComponentInParent<doughObject> ().numberOfDough -= 1;
+							go.GetComponent<doughPickUp> ().numberofDough -= 1;
+						}
+						else if (string.IsNullOrEmpty(two_h)) {
+							go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
+							go_2h.transform.SetParent (gameObject.transform);
+							go.GetComponentInParent<doughObject> ().numberOfDough -= 1;
+							go.GetComponent<doughPickUp> ().numberofDough -= 1;
+						}
+					}
+
+				}
+
+				else if (go && atPosition && go.GetComponent<dropOffPoint> ()) {
 					if (hand_with_Food () == "one_h") {
 						//update dropoffpoint food name
 						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
