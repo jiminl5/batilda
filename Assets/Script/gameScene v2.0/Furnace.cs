@@ -5,7 +5,7 @@ public class Furnace : MonoBehaviour {
 	public bool isOn = false;
 	public bool hasFirewood = false;
 
-	private float maxTime = 10;
+	private float maxTime = 30;
 	private float currentTime;
 	// Use this for initialization
 	void Start () {
