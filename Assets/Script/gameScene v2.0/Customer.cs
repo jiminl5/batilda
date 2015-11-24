@@ -26,6 +26,17 @@ public class Customer : MonoBehaviour {
 				//Debug.Log ("waiting on: " + foodWaitingOn);
 				waitingOnFood = true;
 			} else if (food_given == foodWaitingOn) {
+				if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().hand_with_Food() == "one_h" &&
+				    GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().one_h == foodWaitingOn)
+				{
+					GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().one_h = "";
+					Destroy (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().go_1h);
+				}
+				else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().two_h == foodWaitingOn)
+				{
+					GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().two_h = "";
+					Destroy (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().go_2h);
+				}
 				waitingOnFood = false;
 				foodWaitingOn = "none";
 				food_given = "";
@@ -33,16 +44,6 @@ public class Customer : MonoBehaviour {
 				Debug.Log ("yum!");
 				Destroy (this.gameObject);
 				Destroy (foodSprite);
-				if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().hand_with_Food() == "one_h")
-				{
-					GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().one_h = "";
-					Destroy (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().go_1h);
-				}
-				else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().hand_with_Food() == "two_h")
-				{
-					GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().two_h = "";
-					Destroy (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().go_2h);
-				}
 			} else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given)) {
 				Debug.Log ("this isn't my order!");
 				food_given = "";

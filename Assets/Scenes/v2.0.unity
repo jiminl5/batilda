@@ -427,7 +427,7 @@ BoxCollider2D:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 550702146}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
@@ -927,6 +927,8 @@ MonoBehaviour:
   two_h: 
   temp_plate: {fileID: 0}
   at_current_name: 
+  go_1h: {fileID: 0}
+  go_2h: {fileID: 0}
   mtX: 0
   mtY: 0
   atPosition: 1
@@ -1479,7 +1481,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1346362810}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
@@ -1671,7 +1673,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1477731511}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0

@@ -123,25 +123,28 @@ public class Waitress : MonoBehaviour {
 					}
 				} else if (go && atPosition && go.GetComponent<Customer> ()) {
 					//Debug.Log ("HEllO");
-					if (hand_with_Food () == "one_h") {
+					if (hand_with_Food () == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer> ().food_given)
+					      	&& go.GetComponent<Customer>().foodWaitingOn == one_h) {
 						//update dropoffpoint food name
-						
-						if (string.IsNullOrEmpty (go.GetComponent<Customer> ().food_given)) {
-							go.GetComponent<Customer> ().food_given = one_h;
+								go.GetComponent<Customer> ().food_given = one_h;
 							//add sprite of food
 							//delete 1h
 							//Destroy (go_1h);
 							//one_h = "";
 						}
-					} else if (hand_with_Food () == "two_h") {
+				 	else if (two_h.Contains("food") && string.IsNullOrEmpty (go.GetComponent<Customer> ().food_given)
+				           && go.GetComponent<Customer>().foodWaitingOn == two_h) {
 						//update dropoffpoint food name
-						if (string.IsNullOrEmpty (go.GetComponent<Customer> ().food_given)) {
 							go.GetComponent<Customer> ().food_given = two_h;
 							//add sprite of food
 							//delete 2h
 							//Destroy (go_2h);
 							//two_h = "";
-						}
+						
+					}
+					else {
+						Debug.Log ("NOT ANYTHING");
+						go.GetComponent<Customer>().food_given = "not my food";
 					}
 				} else if (go && atPosition) {
 					
@@ -183,6 +186,7 @@ public class Waitress : MonoBehaviour {
 	}
 	
 	public string hand_with_Food() {
+		//NOTE:: Returns one_h if both hands have food in them.
 		if (!string.IsNullOrEmpty(one_h) && one_h.Contains("food")) {
 			return "one_h";
 		} else if (!string.IsNullOrEmpty(two_h) && two_h.Contains ("food")) {
