@@ -17,6 +17,11 @@ public class MoveableTile : MonoBehaviour {
 
 	void Start()
 	{
+		Setup_Tile ();
+	}
+
+	public void Setup_Tile()
+	{
 		blk_tile = GameObject.FindGameObjectsWithTag("tile_blk");
 		red_tile = GameObject.FindGameObjectsWithTag("tile_red");
 		if (plates == null) {
@@ -30,14 +35,13 @@ public class MoveableTile : MonoBehaviour {
 		ResetMidTiles ();
 	}
 
-
 	public void ResetMidTiles()
 	{
 		for (int i = 0; i < red_tile.Length; i++) {
-			red_tile[i].SetActive(true);
+			red_tile[i].GetComponent<BoxCollider2D>().enabled = true;
 		}
 		for (int j = 0; j < blk_tile.Length; j++) {
-			blk_tile[j].SetActive(true);
+			blk_tile[j].GetComponent<BoxCollider2D>().enabled = true;
 		}
 		MidTileMoveable ();
 	}
@@ -48,14 +52,16 @@ public class MoveableTile : MonoBehaviour {
 			for (int j = 0; j < red_tile.Length; j++)
 			{
 				if (red_tile[j].transform.position.x == 7.5 && red_tile[j].transform.position.y == plates[i].transform.position.y) //check if those tiles are same as plates with specific tag
-					red_tile[j].SetActive(false);
+				//	red_tile[j].SetActive(false);
+					red_tile[j].GetComponent<BoxCollider2D>().enabled = false;
 			}
 		}
 		for (int x = 0; x < food_plates.Length; x++) {
 			for (int y = 0; y < blk_tile.Length; y++)
 			{
 				if (blk_tile[y].transform.position.x == 7.5 && blk_tile[y].transform.position.y == food_plates[x].transform.position.y)
-					blk_tile[y].SetActive(false);
+				//	blk_tile[y].SetActive(false);
+					blk_tile[y].GetComponent<BoxCollider2D>().enabled = false;
 			}
 		}
 	}

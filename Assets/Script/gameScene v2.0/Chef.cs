@@ -24,6 +24,7 @@ public class Chef : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
 		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
 		if (findGameObjectAtClickedPosition ()) {
 			GameObject go = findGameObjectAtClickedPosition ();
@@ -152,7 +153,7 @@ public class Chef : MonoBehaviour {
 							go.GetComponent<nameAndPosition>().go = go_1h;
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go_1h.GetComponent<SpriteRenderer>().sprite;
 							go.transform.GetChild(0).tag = "not_empty_plate";
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
+							//GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup();
 							//add sprite of food
 							//delete 1h
 							one_h = "";
@@ -165,7 +166,7 @@ public class Chef : MonoBehaviour {
 							go.GetComponent<nameAndPosition>().go = go_2h;
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go_2h.GetComponent<SpriteRenderer>().sprite;
 							go.transform.GetChild(0).tag = "not_empty_plate";
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
+							//GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup();
 							//add sprite of food
 							//delete 1h
 							two_h = "";

@@ -82,7 +82,7 @@ public class Waitress : MonoBehaviour {
 							go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
 							go_1h.transform.SetParent (gameObject.transform);
 							go.transform.GetChild(0).tag = "empty_plate";
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
+							GameObject.FindGameObjectWithTag("tile_red").GetComponent<MoveableTile>().ResetMidTiles();
 							//add sprite of food
 							//delete 1h
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go.GetComponentInChildren<go_emptyDish>().emptyDish.GetComponent<SpriteRenderer>().sprite;
@@ -94,7 +94,7 @@ public class Waitress : MonoBehaviour {
 							go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
 							go_2h.transform.SetParent (gameObject.transform);
 							go.transform.GetChild(0).tag = "empty_plate";
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
+							GameObject.FindGameObjectWithTag("tile_red").GetComponent<MoveableTile>().ResetMidTiles();
 							//add sprite of food
 							//delete 1h
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go.GetComponentInChildren<go_emptyDish>().emptyDish.GetComponent<SpriteRenderer>().sprite;
