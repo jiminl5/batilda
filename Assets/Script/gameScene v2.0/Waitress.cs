@@ -7,8 +7,8 @@ public class Waitress : MonoBehaviour {
 	public GameObject temp_plate;
 	public string at_current_name;
 	//public GameObject Player;
-	GameObject go_1h;
-	GameObject go_2h;
+	public GameObject go_1h;
+	public GameObject go_2h;
 	
 	public int mtX;
 	public int mtY;
@@ -130,8 +130,8 @@ public class Waitress : MonoBehaviour {
 							go.GetComponent<Customer> ().food_given = one_h;
 							//add sprite of food
 							//delete 1h
-							Destroy (go_1h);
-							one_h = "";
+							//Destroy (go_1h);
+							//one_h = "";
 						}
 					} else if (hand_with_Food () == "two_h") {
 						//update dropoffpoint food name
@@ -139,8 +139,8 @@ public class Waitress : MonoBehaviour {
 							go.GetComponent<Customer> ().food_given = two_h;
 							//add sprite of food
 							//delete 2h
-							Destroy (go_2h);
-							two_h = "";
+							//Destroy (go_2h);
+							//two_h = "";
 						}
 					}
 				} else if (go && atPosition) {
@@ -182,7 +182,7 @@ public class Waitress : MonoBehaviour {
 			return false;
 	}
 	
-	string hand_with_Food() {
+	public string hand_with_Food() {
 		if (!string.IsNullOrEmpty(one_h) && one_h.Contains("food")) {
 			return "one_h";
 		} else if (!string.IsNullOrEmpty(two_h) && two_h.Contains ("food")) {
