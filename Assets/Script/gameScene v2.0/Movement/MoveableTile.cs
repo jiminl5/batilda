@@ -8,8 +8,8 @@ public class MoveableTile : MonoBehaviour {
 	public TileMap map;
 	public TileMap1 map1;
 
-	GameObject[] plates; // Maximum Length 4
-	GameObject[] food_plates;
+	public GameObject[] plates; // Maximum Length 4
+	public GameObject[] food_plates;
 	GameObject[] blk_tile;
 	GameObject[] red_tile;
 
@@ -19,20 +19,21 @@ public class MoveableTile : MonoBehaviour {
 	{
 		Setup_Tile ();
 	}
-
+	
 	public void Setup_Tile()
 	{
 		blk_tile = GameObject.FindGameObjectsWithTag("tile_blk");
 		red_tile = GameObject.FindGameObjectsWithTag("tile_red");
-		if (plates == null) {
+		//if (plates == null) {
 			plates = GameObject.FindGameObjectsWithTag("empty_plate");
-		}
-		if (food_plates == null) 
-		{
+		//}
+		//if (food_plates == null) 
+		//{
 			food_plates = GameObject.FindGameObjectsWithTag("not_empty_plate");
-		}
-
+		//}
+		
 		ResetMidTiles ();
+		//plates.
 	}
 
 	public void ResetMidTiles()
@@ -105,21 +106,16 @@ public class MoveableTile : MonoBehaviour {
 				}
 
 				//gameObject.GetComponent<Unit>().QueueAction();
-			} else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
-				for (int l = 0; l < plates.Length; l++) {
-					if (plates [l].transform.position.y == mtY && mtY == 6) {
-						map.GeneratePathTo (4, 5);
-						//Unit.mouseClicked = true;
-					} else if (plates [l].transform.position.y == mtY) {
-						map.GeneratePathTo (4, mtY);
-						//Unit.mouseClicked = true;
-					}
+			}
+			else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
+				if (map != null)
+				{
+					map.GeneratePathTo(4, mtY);
 				}
-				for (int m = 0; m < food_plates.Length; m++) {
-					if (food_plates [m].transform.position.y == mtY) {
-						map1.GeneratePathTo (6, mtY);
-						Unit1.mouseClicked = true;
-					}
+				if (map1 != null)
+				{
+					map1.GeneratePathTo(6, mtY);
+					Unit1.mouseClicked = true;
 				}
 			}
 			// Waitress
