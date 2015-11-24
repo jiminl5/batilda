@@ -194,7 +194,7 @@ public class Waitress : MonoBehaviour {
 	
 	
 	GameObject findGameObjectAtClickedPosition() {
-		foreach (GameObject go in GameObject.FindGameObjectsWithTag("waitress_obj")) {
+		foreach (GameObject go in GameObject.FindGameObjectsWithTag("test")) {
 			if (go.GetComponent<nameAndPosition> ().x == mtX
 			    && go.GetComponent<nameAndPosition> ().y == mtY) {
 				return go;

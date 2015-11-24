@@ -71,13 +71,6 @@ public class MoveableTile : MonoBehaviour {
 	{
 		//CHEF
 		print ("mtX: " + mtX + ", mtY: " + mtY);
-		Chef.clicked = true;
-		GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
-		GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
-
-		Waitress.clicked = true;
-		GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
-		GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
 		//GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().atPosition = false;
 		if (Unit.unit_queue.Count < 2) {
 			if (mtX < 5) {
@@ -104,18 +97,26 @@ public class MoveableTile : MonoBehaviour {
 					map.GeneratePathTo (mtX, mtY - 1);
 					//Unit.mouseClicked = true; // Trigger movement
 				}
-
+				Chef.clicked = true;
+				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
+				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
 				//gameObject.GetComponent<Unit>().QueueAction();
 			}
 			else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
 				if (map != null)
 				{
 					map.GeneratePathTo(4, mtY);
+					Chef.clicked = true;
+					GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
+					GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
 				}
 				if (map1 != null)
 				{
 					map1.GeneratePathTo(6, mtY);
 					Unit1.mouseClicked = true;
+					Waitress.clicked = true;
+					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
+					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
 				}
 			}
 			// Waitress
@@ -146,6 +147,9 @@ public class MoveableTile : MonoBehaviour {
 						map1.GeneratePathTo (mtX, mtY + 1);
 					Unit1.mouseClicked = true;
 				}
+				Waitress.clicked = true;
+				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
+				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
 				// Left Shelf -- MID TILE
 				//			else if (mtX == 5)
 				//			{
