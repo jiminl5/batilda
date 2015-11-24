@@ -1372,7 +1372,7 @@ MonoBehaviour:
   name: 
   x: 1
   y: 0
-  go: {fileID: 0}
+  go: {fileID: 100214, guid: 1b59fbc8ea8fadb46a2159685ed8f12f, type: 2}
 --- !u!1 &1149207487
 GameObject:
   m_ObjectHideFlags: 0
