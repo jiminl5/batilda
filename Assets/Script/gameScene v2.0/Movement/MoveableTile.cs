@@ -74,29 +74,36 @@ public class MoveableTile : MonoBehaviour {
 		//GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().atPosition = false;
 		if (Unit.unit_queue.Count < 2) {
 			if (mtX < 5) {
-				// left shelf
-				if (mtX == 0 && (mtY >= 0 && mtY <= 6)) {
-					if (mtY == 0) // Trash , left-bottom corner
-						map.GeneratePathTo (mtX + 1, mtY + 1);
-					else if (mtY == 6) // Pot(?), left-top corner
-						map.GeneratePathTo (mtX + 1, mtY - 1);
-					else
-						map.GeneratePathTo (mtX + 1, mtY);	
-					//Unit.mouseClicked = true; // Trigger movement
-				}
-				// bottom shelf
-				else if (mtY == 0 && (mtX >= 1 && mtX <= 4)) {
-					map.GeneratePathTo (mtX, mtY + 1);
-					//Unit.mouseClicked = true; // Trigger movement
-				}
-				// top shelf
-				else if (mtY == 6 && (mtX >= 1 && mtX < 5)) {
-					//				if (mtX == 5)
-					//					map.GeneratePathTo (mtX - 1, mtY - 1);
-					//				else
-					map.GeneratePathTo (mtX, mtY - 1);
-					//Unit.mouseClicked = true; // Trigger movement
-				}
+                // left shelf
+                if (mtX == 0 && (mtY >= 0 && mtY <= 6))
+                {
+                    if (mtY == 0) // Trash , left-bottom corner
+                        map.GeneratePathTo(mtX + 1, mtY + 1);
+                    else if (mtY == 6) // Pot(?), left-top corner
+                        map.GeneratePathTo(mtX + 1, mtY - 1);
+                    else
+                        map.GeneratePathTo(mtX + 1, mtY);
+                    //Unit.mouseClicked = true; // Trigger movement
+                }
+                // bottom shelf
+                else if (mtY == 0 && (mtX >= 1 && mtX <= 4))
+                {
+                    map.GeneratePathTo(mtX, mtY + 1);
+                    //Unit.mouseClicked = true; // Trigger movement
+                }
+                // top shelf
+                else if (mtY == 6 && (mtX >= 1 && mtX < 5))
+                {
+                    //				if (mtX == 5)
+                    //					map.GeneratePathTo (mtX - 1, mtY - 1);
+                    //				else
+                    map.GeneratePathTo(mtX, mtY - 1);
+                    //Unit.mouseClicked = true; // Trigger movement
+                }
+                else if (mtY == 4 && mtX == 2) // BREAD TABLE
+                {
+                    map.GeneratePathTo(mtX - 1, mtY);
+                }
 				Chef.clicked = true;
 				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
 				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
