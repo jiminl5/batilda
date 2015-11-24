@@ -88,6 +88,8 @@ public class Waitress : MonoBehaviour {
 							//add sprite of food
 							//delete 1h
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go.GetComponentInChildren<go_emptyDish>().emptyDish.GetComponent<SpriteRenderer>().sprite;
+							go.GetComponent<dropOffPoint> ().food_name = "";
+							Destroy (go.GetComponent<nameAndPosition>().go);
 						}
 					} else if (string.IsNullOrEmpty(two_h)) {
 						//update dropoffpoint food name
@@ -102,6 +104,8 @@ public class Waitress : MonoBehaviour {
 							//add sprite of food
 							//delete 1h
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go.GetComponentInChildren<go_emptyDish>().emptyDish.GetComponent<SpriteRenderer>().sprite;
+							go.GetComponent<dropOffPoint> ().food_name = "";
+							Destroy (go.GetComponent<nameAndPosition>().go);
 
 						}
 					}

@@ -150,7 +150,7 @@ public class Chef : MonoBehaviour {
 						//update dropoffpoint food name
 						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
 							go.GetComponent<dropOffPoint> ().food_name = one_h;
-							go.GetComponent<nameAndPosition>().go = go_1h;
+							go.GetComponent<nameAndPosition>().go = Instantiate(go_1h);
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go_1h.GetComponent<SpriteRenderer>().sprite;
 							go.transform.GetChild(0).tag = "not_empty_plate";
 							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
@@ -165,7 +165,7 @@ public class Chef : MonoBehaviour {
 						//update dropoffpoint food name
 						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
 							go.GetComponent<dropOffPoint> ().food_name = two_h;
-							go.GetComponent<nameAndPosition>().go = go_2h;
+							go.GetComponent<nameAndPosition>().go = Instantiate(go_2h);
 							go.GetComponentInChildren<SpriteRenderer>().sprite = go_2h.GetComponent<SpriteRenderer>().sprite;
 							go.transform.GetChild(0).tag = "not_empty_plate";
 							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
