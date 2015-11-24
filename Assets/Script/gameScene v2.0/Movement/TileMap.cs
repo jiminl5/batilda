@@ -149,9 +149,10 @@ public class TileMap : MonoBehaviour {
 			source = graph [selectedUnit.GetComponent<Unit> ().tileX,
 	                     selectedUnit.GetComponent<Unit> ().tileY];
 		} 
-		else if (Unit.unit_queue.Count != 0) {
-			source = graph [Unit.unit_queue.Peek().Last().x , Unit.unit_queue.Peek().Last().y];
-		}
+		else if (Unit.unit_queue.Count >= 1) {
+            //source = graph [Unit.unit_queue.Peek().Last().x , Unit.unit_queue.Peek().Last().y];
+            source = graph[Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().x, Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().y];
+        }
 
 		// Create a target node for diagonal shorter path
 		Node target = graph [x,y];
