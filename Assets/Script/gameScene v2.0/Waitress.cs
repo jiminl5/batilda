@@ -75,21 +75,30 @@ public class Waitress : MonoBehaviour {
 				}
 
 				else if (go && atPosition && go.GetComponent<dropOffPoint> ()) {
-					if (hand_with_Food () == "one_h") {
+					if (string.IsNullOrEmpty(one_h)) {
 						//update dropoffpoint food name
-						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
-							go.GetComponent<dropOffPoint> ().food_name = one_h;
+						if (!string.IsNullOrEmpty(go.GetComponent<dropOffPoint> ().food_name)) {
+							one_h = go.GetComponent<dropOffPoint> ().food_name;
+							go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
+							go_1h.transform.SetParent (gameObject.transform);
+							go.transform.GetChild(0).tag = "empty_plate";
+							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
 							//add sprite of food
 							//delete 1h
-							one_h = "";
+							go.GetComponentInChildren<SpriteRenderer>().sprite = go.GetComponentInChildren<go_emptyDish>().emptyDish.GetComponent<SpriteRenderer>().sprite;
 						}
-					} else if (hand_with_Food () == "two_h") {
+					} else if (string.IsNullOrEmpty(two_h)) {
 						//update dropoffpoint food name
-						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
-							go.GetComponent<dropOffPoint> ().food_name = two_h;
+						if (!string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
+							two_h = go.GetComponent<dropOffPoint> ().food_name;
+							go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
+							go_2h.transform.SetParent (gameObject.transform);
+							go.transform.GetChild(0).tag = "empty_plate";
+							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
 							//add sprite of food
 							//delete 1h
-							two_h = "";
+							go.GetComponentInChildren<SpriteRenderer>().sprite = go.GetComponentInChildren<go_emptyDish>().emptyDish.GetComponent<SpriteRenderer>().sprite;
+
 						}
 					}
 				} else if (go && atPosition && go.GetComponent<ingredientObject> ()) {

@@ -37,6 +37,7 @@ public class Chef : MonoBehaviour {
 				Debug.Log ("clicked");
 				if (go && atPosition && go.GetComponent<cookingObject> ()) {
 					//Debug.Log(gameObject);
+					Debug.Log ("hello");
 					Debug.Log(go.GetComponent<cookingObject> ().canCook (one_h));
 					if (go.GetComponent<cookingObject> ().canCook (one_h) && 
 							go.GetComponent<cookingObject> ().food_ready == false) {
@@ -44,6 +45,7 @@ public class Chef : MonoBehaviour {
 						go.GetComponent<cookingObject> ().cookReady = true;
 						go.GetComponent<cookingObject> ().chef_1h = one_h;
 						Destroy (go_1h);
+						//MoveableTile.ResetMidTiles();
 						one_h = "";
 					}
 					else if (go.GetComponent<cookingObject> ().canCook (two_h) && 
@@ -140,21 +142,34 @@ public class Chef : MonoBehaviour {
 				}
 
 				else if (go && atPosition && go.GetComponent<dropOffPoint> ()) {
+					Debug.Log ("HELLO!");
+					Debug.Log (hand_with_Food());
 					if (hand_with_Food () == "one_h") {
+
 						//update dropoffpoint food name
 						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
 							go.GetComponent<dropOffPoint> ().food_name = one_h;
+							go.GetComponent<nameAndPosition>().go = go_1h;
+							go.GetComponentInChildren<SpriteRenderer>().sprite = go_1h.GetComponent<SpriteRenderer>().sprite;
+							go.transform.GetChild(0).tag = "not_empty_plate";
+							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
 							//add sprite of food
 							//delete 1h
 							one_h = "";
+							Destroy (go_1h);
 						}
 					} else if (hand_with_Food () == "two_h") {
 						//update dropoffpoint food name
 						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
 							go.GetComponent<dropOffPoint> ().food_name = two_h;
+							go.GetComponent<nameAndPosition>().go = go_2h;
+							go.GetComponentInChildren<SpriteRenderer>().sprite = go_2h.GetComponent<SpriteRenderer>().sprite;
+							go.transform.GetChild(0).tag = "not_empty_plate";
+							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().ResetMidTiles();
 							//add sprite of food
 							//delete 1h
 							two_h = "";
+							Destroy (go_2h);
 						}
 					}
 				} else if (go && atPosition && go.GetComponent<Customer> ()) {
