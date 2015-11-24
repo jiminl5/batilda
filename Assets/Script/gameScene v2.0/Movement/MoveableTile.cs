@@ -103,21 +103,36 @@ public class MoveableTile : MonoBehaviour {
 				//gameObject.GetComponent<Unit>().QueueAction();
 			}
 			else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
-				if (map != null)
+                if (map != null && mtY == 6)
+                {
+                    map.GeneratePathTo(4, mtY - 1);
+                    Chef.clicked = true;
+                    GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtX;
+                    GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mtY;
+                }
+                else if (map != null)
+                {
+                    map.GeneratePathTo(4, mtY);
+                    Chef.clicked = true;
+                    GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtX;
+                    GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mtY;
+                }
+				if (map1 != null && mtY == 6)
 				{
-					map.GeneratePathTo(4, mtY);
-					Chef.clicked = true;
-					GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
-					GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
-				}
-				if (map1 != null)
-				{
-					map1.GeneratePathTo(6, mtY);
+					map1.GeneratePathTo(6, mtY - 1);
 					Unit1.mouseClicked = true;
 					Waitress.clicked = true;
 					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
 					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
 				}
+                else if (map1 != null)
+                {
+                    map1.GeneratePathTo(6, mtY);
+                    Unit1.mouseClicked = true;
+                    Waitress.clicked = true;
+                    GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtX = mtX;
+                    GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtY = mtY;
+                }
 			}
 			// Waitress
 			else if (mtX > 5 && mtY > 1 && mtY < 7) {
