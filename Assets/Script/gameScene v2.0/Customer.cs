@@ -11,7 +11,7 @@ public class Customer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		Instantiate(Resources.Load ("temp_particlesystem_pickup"), transform.position, transform.rotation);
 	}
 	
 	// Update is called once per frame
@@ -44,6 +44,8 @@ public class Customer : MonoBehaviour {
 				Debug.Log ("yum!");
 				Destroy (this.gameObject);
 				Destroy (foodSprite);
+				Instantiate(Resources.Load ("temp_particlesystem_pickup"), transform.position, transform.rotation);
+
 			} else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given)) {
 				Debug.Log ("this isn't my order!");
 				food_given = "";
