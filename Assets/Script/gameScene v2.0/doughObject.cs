@@ -28,6 +28,9 @@ public class doughObject : MonoBehaviour {
 	void checkDough() {
 		if (!waitingOnDough && numberOfDough < maxDough && numberofWheat > 0) {
 			this.GetComponent<SpriteRenderer> ().color = Color.red;
+			this.GetComponent<stopWatchObject> ().startTime = timeToMakeDough;
+			this.GetComponent<stopWatchObject> ().timeInSeconds = timeToMakeDough;
+			this.GetComponent<stopWatchObject> ().not_cooking = false;
 			Invoke("addDough", timeToMakeDough);
 			waitingOnDough = true;
 		}
