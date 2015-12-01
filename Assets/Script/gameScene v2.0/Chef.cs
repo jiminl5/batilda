@@ -176,6 +176,7 @@ public class Chef : MonoBehaviour {
 				Debug.Log ("picking up food...");
 				Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
 				go.GetComponent<cookingObject> ().food_ready = false;
+				go.GetComponent<cookingObject>().chef_1h = "";
 			}
 			
 			else if (string.IsNullOrEmpty(two_h)) {
@@ -187,6 +188,7 @@ public class Chef : MonoBehaviour {
 				Debug.Log ("picking up food...");
 				Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
 				go.GetComponent<cookingObject> ().food_ready = false;
+				go.GetComponent<cookingObject>().chef_1h = "";
 			}
 		}
 	}
