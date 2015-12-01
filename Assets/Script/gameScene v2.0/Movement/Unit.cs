@@ -35,6 +35,7 @@ public class Unit : MonoBehaviour {
 	{
         //temp_list = new List<Node>();
         g_object = GameObject.Find("Unit");
+		_animator = this.GetComponentInChildren<Animator> ();
 	}
 
 	public void Update()
@@ -142,6 +143,9 @@ public class Unit : MonoBehaviour {
 			{
 				this.gameObject.GetComponentInChildren<Chef>().atPosition = true;
 				print("Succesfully at destination");
+				left_right = "";
+				down_up = "";
+				_animator.SetInteger(_chef_animState, 0);
 				unit_queue.Dequeue();
 				if (unit_queue.Count == 0)
 				{
