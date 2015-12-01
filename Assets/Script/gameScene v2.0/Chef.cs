@@ -238,6 +238,7 @@ public class Chef : MonoBehaviour {
 				go.GetComponent<doughPickUp> ().numberofDough -= 1;
 			}
 			else if (string.IsNullOrEmpty(two_h)) {
+				two_h = "dough";
 				go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
 				go_2h.transform.SetParent (gameObject.transform);
 				go.GetComponentInParent<doughObject> ().numberOfDough -= 1;
