@@ -66,15 +66,23 @@ public class Level : MonoBehaviour {
 			}
 
 
-			if (string.IsNullOrEmpty(text)) {
-				text = string.Format("Finished! Customers served: " + customersServed);
-				print ("Finsihed! Customers served: " + customersServed);
-				GUI.Label(new Rect(0, 0, 50, 30), text);
-			}
+//			if (string.IsNullOrEmpty(text)) {
+//				gameObject.SetActive(true)
+//			}
 		}
 
 
 	}
+
+
+	void OnGUI() {
+
+			text = string.Format ("Customers served: " + customersServed);
+			GUI.Label (new Rect (300, 275, 100, 100), text);
+
+
+	}
+
 
 	IEnumerator ExecuteAfterDelay(float delay)
 	{
