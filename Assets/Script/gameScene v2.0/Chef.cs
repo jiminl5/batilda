@@ -21,7 +21,8 @@ public class Chef : MonoBehaviour {
 		animator = this.GetComponent<Animator>();
 		atPosition = true;
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 		//GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
@@ -37,171 +38,32 @@ public class Chef : MonoBehaviour {
 				clicked = false;
 				//Debug.Log ("clicked");
 				if (go && atPosition && go.GetComponent<cookingObject> ()) {
-					//Debug.Log(gameObject);
-					//Debug.Log ("hello");
-					//Debug.Log(go.GetComponent<cookingObject> ().canCook (one_h));
-					if (go.GetComponent<cookingObject> ().canCook (one_h) && 
-							go.GetComponent<cookingObject> ().food_ready == false &&
-					    	string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
-						Debug.Log ("cooking...");
-						go.GetComponent<cookingObject> ().cookReady = true;
-						go.GetComponent<cookingObject> ().chef_1h = one_h;
-						Destroy (go_1h);
-						//MoveableTile.ResetMidTiles();
-						one_h = "";
-					}
-					else if (go.GetComponent<cookingObject> ().canCook (two_h) && 
-					    		go.GetComponent<cookingObject> ().food_ready == false &&
-					         string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
-						Debug.Log ("cooking...");
-						go.GetComponent<cookingObject> ().cookReady = true;
-						go.GetComponent<cookingObject> ().chef_1h = two_h;
-						Destroy (go_2h);
-						two_h = "";
-					}
+					cookingAction(go);	
+				} 
 
-					else if (go.GetComponent<cookingObject> ().food_ready && (string.IsNullOrEmpty(one_h) || string.IsNullOrEmpty(two_h)) ) {
-
-						if (string.IsNullOrEmpty(one_h)) {
-							one_h = go.GetComponent<cookingObject> ().current_recipie.name;
-
-							go_1h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
-							go_1h.transform.SetParent (gameObject.transform);
-
-							Debug.Log ("picking up food...");
-							Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
-							go.GetComponent<cookingObject> ().food_ready = false;
-						}
-
-						else if (string.IsNullOrEmpty(two_h)) {
-							two_h = go.GetComponent<cookingObject> ().current_recipie.name;
-							
-							go_2h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
-							go_2h.transform.SetParent (gameObject.transform);
-							
-							Debug.Log ("picking up food...");
-							Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
-							go.GetComponent<cookingObject> ().food_ready = false;
-						}
-					}
-						
-
-					//Debug.Log (other.gameObject.GetComponent<cookingObject> ().canCook (one_h, two_h));
-				} else if (go && atPosition && go.GetComponent<ingredientObject> ()) {
-					Debug.Log ("this is two_h: " + string.IsNullOrEmpty(two_h));
-					if (string.IsNullOrEmpty(one_h)) {
-						//Debug.Log ("test");
-						one_h = go.GetComponent<ingredientObject> ().name;
-						//create go_1h
-						//go_1h = temp_plate;
-						go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
-						go_1h.transform.SetParent (gameObject.transform);
-						//go_1h.gameObject.layer = 5;
-						Debug.Log (one_h);
-
-					} else if (string.IsNullOrEmpty(two_h)) {
-						//Debug.Log ("HELLO?????????????");
-						two_h = go.GetComponent<ingredientObject> ().name;
-						//create go_2h
-						//go_2h = temp_plate;
-
-						go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
-						//go_2h.gameObject.layer = 5;
-						go_2h.transform.SetParent (gameObject.transform);
-				
-					}
+				else if (go && atPosition && go.GetComponent<ingredientObject> ()) {
+					ingredientAction(go);
 				} 
 
 				else if (go && atPosition && go.GetComponent<doughObject> ()) {
-					if (one_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
-						go.GetComponent<doughObject>().numberofWheat += 1;
-						one_h = "";
-						Destroy (go_1h);
-					}
-					else if (two_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
-						go.GetComponent<doughObject>().numberofWheat += 1;
-						two_h = "";
-						Destroy (go_2h);
-					}
+					doughCreateAction(go);
 				} 
 
 				else if (go && atPosition && go.GetComponent<doughPickUp> ()) {
-					if (go.GetComponent<doughPickUp>().numberofDough > 0) {
-						if (string.IsNullOrEmpty(one_h)) {
-							one_h = "dough";
-							go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
-							go_1h.transform.SetParent (gameObject.transform);
-							go.GetComponentInParent<doughObject> ().numberOfDough -= 1;
-							go.GetComponent<doughPickUp> ().numberofDough -= 1;
-						}
-						else if (string.IsNullOrEmpty(two_h)) {
-							go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
-							go_2h.transform.SetParent (gameObject.transform);
-							go.GetComponentInParent<doughObject> ().numberOfDough -= 1;
-							go.GetComponent<doughPickUp> ().numberofDough -= 1;
-						}
-					}
-
+					doughPickUpAction(go);
 				}
 
 				else if (go && atPosition && go.GetComponent<dropOffPoint> ()) {
-					Debug.Log ("HELLO!");
-					Debug.Log (hand_with_Food());
-					if (hand_with_Food () == "one_h") {
-
-						//update dropoffpoint food name
-						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
-							go.GetComponent<dropOffPoint> ().food_name = one_h;
-							go.GetComponent<nameAndPosition>().go = Instantiate(go_1h);
-							go.GetComponentInChildren<SpriteRenderer>().sprite = go_1h.GetComponent<SpriteRenderer>().sprite;
-							go.transform.GetChild(0).tag = "not_empty_plate";
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().food_plates = null;
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
-							//add sprite of food
-							//delete 1h
-							one_h = "";
-							Destroy (go_1h);
-						}
-					} else if (hand_with_Food () == "two_h") {
-						//update dropoffpoint food name
-						if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
-							go.GetComponent<dropOffPoint> ().food_name = two_h;
-							go.GetComponent<nameAndPosition>().go = Instantiate(go_2h);
-							go.GetComponentInChildren<SpriteRenderer>().sprite = go_2h.GetComponent<SpriteRenderer>().sprite;
-							go.transform.GetChild(0).tag = "not_empty_plate";
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().food_plates = null;
-							GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
-							//add sprite of food
-							//delete 1h
-							two_h = "";
-							Destroy (go_2h);
-						}
-					}
-				} else if (go && atPosition && go.GetComponent<Customer> ()) {
-					//Debug.Log ("HEllO");
-					if (hand_with_Food () == "one_h") {
-						//update dropoffpoint food name
-
-						if (string.IsNullOrEmpty (go.GetComponent<Customer> ().food_given)) {
-							go.GetComponent<Customer> ().food_given = one_h;
-							//add sprite of food
-							//delete 1h
-							Destroy (go_1h);
-							one_h = "";
-						}
-					} else if (hand_with_Food () == "two_h") {
-						//update dropoffpoint food name
-						if (string.IsNullOrEmpty (go.GetComponent<Customer> ().food_given)) {
-							go.GetComponent<Customer> ().food_given = two_h;
-							//add sprite of food
-							//delete 2h
-							Destroy (go_2h);
-							two_h = "";
-						}
-					}
-				} else if (go && atPosition) {
+					dropOffPointAction(go);
+				} 
+				else if (go && atPosition && go.GetComponent<Customer> ()) {
+						customerAction(go);
+					
+				} 
+				//======================================================================
+				//NOTE: BELOW IS THE TRASH OBEJCT. I'll create an action for that later.
+				//======================================================================
+				else if (go && atPosition) {
 
 					if (!string.IsNullOrEmpty (two_h)) {
 						two_h = "";
@@ -283,5 +145,171 @@ public class Chef : MonoBehaviour {
 			}
 		}
 		return null;
+	}
+
+	void cookingAction(GameObject go) {
+		//Debug.Log(gameObject);
+		//Debug.Log ("hello");
+		//Debug.Log(go.GetComponent<cookingObject> ().canCook (one_h));
+		if (go.GetComponent<cookingObject> ().canCook (one_h) && 
+		    go.GetComponent<cookingObject> ().food_ready == false &&
+		    string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
+			Debug.Log ("cooking...");
+			go.GetComponent<cookingObject> ().cookReady = true;
+			go.GetComponent<cookingObject> ().chef_1h = one_h;
+			Destroy (go_1h);
+			//MoveableTile.ResetMidTiles();
+			one_h = "";
+		}
+		else if (go.GetComponent<cookingObject> ().canCook (two_h) && 
+		         go.GetComponent<cookingObject> ().food_ready == false &&
+		         string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
+			Debug.Log ("cooking...");
+			go.GetComponent<cookingObject> ().cookReady = true;
+			go.GetComponent<cookingObject> ().chef_1h = two_h;
+			Destroy (go_2h);
+			two_h = "";
+		}
+		
+		else if (go.GetComponent<cookingObject> ().food_ready && (string.IsNullOrEmpty(one_h) || string.IsNullOrEmpty(two_h)) ) {
+			
+			if (string.IsNullOrEmpty(one_h)) {
+				one_h = go.GetComponent<cookingObject> ().current_recipie.name;
+				
+				go_1h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
+				go_1h.transform.SetParent (gameObject.transform);
+				
+				Debug.Log ("picking up food...");
+				Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
+				go.GetComponent<cookingObject> ().food_ready = false;
+			}
+			
+			else if (string.IsNullOrEmpty(two_h)) {
+				two_h = go.GetComponent<cookingObject> ().current_recipie.name;
+				
+				go_2h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
+				go_2h.transform.SetParent (gameObject.transform);
+				
+				Debug.Log ("picking up food...");
+				Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
+				go.GetComponent<cookingObject> ().food_ready = false;
+			}
+		}
+	}
+	
+	void ingredientAction(GameObject go) {
+		Debug.Log ("this is two_h: " + string.IsNullOrEmpty(two_h));
+		if (string.IsNullOrEmpty(one_h)) {
+			//Debug.Log ("test");
+			one_h = go.GetComponent<ingredientObject> ().name;
+			//create go_1h
+			//go_1h = temp_plate;
+			go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
+			go_1h.transform.SetParent (gameObject.transform);
+			//go_1h.gameObject.layer = 5;
+			Debug.Log (one_h);
+			
+		} else if (string.IsNullOrEmpty(two_h)) {
+			//Debug.Log ("HELLO?????????????");
+			two_h = go.GetComponent<ingredientObject> ().name;
+			//create go_2h
+			//go_2h = temp_plate;
+			
+			go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
+			//go_2h.gameObject.layer = 5;
+			go_2h.transform.SetParent (gameObject.transform);
+			
+		}
+	}
+	
+	void doughCreateAction(GameObject go) {
+		if (one_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
+			go.GetComponent<doughObject>().numberofWheat += 1;
+			one_h = "";
+			Destroy (go_1h);
+		}
+		else if (two_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
+			go.GetComponent<doughObject>().numberofWheat += 1;
+			two_h = "";
+			Destroy (go_2h);
+		}
+	}
+	void doughPickUpAction(GameObject go) {
+		if (go.GetComponent<doughPickUp>().numberofDough > 0) {
+			if (string.IsNullOrEmpty(one_h)) {
+				one_h = "dough";
+				go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
+				go_1h.transform.SetParent (gameObject.transform);
+				go.GetComponentInParent<doughObject> ().numberOfDough -= 1;
+				go.GetComponent<doughPickUp> ().numberofDough -= 1;
+			}
+			else if (string.IsNullOrEmpty(two_h)) {
+				go_2h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
+				go_2h.transform.SetParent (gameObject.transform);
+				go.GetComponentInParent<doughObject> ().numberOfDough -= 1;
+				go.GetComponent<doughPickUp> ().numberofDough -= 1;
+			}
+		}
+	}
+	
+	void dropOffPointAction(GameObject go) {
+		//Debug.Log ("HELLO!");
+		//Debug.Log (hand_with_Food());
+		if (hand_with_Food () == "one_h") {
+			
+			//update dropoffpoint food name
+			if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
+				go.GetComponent<dropOffPoint> ().food_name = one_h;
+				go.GetComponent<nameAndPosition>().go = Instantiate(go_1h);
+				go.GetComponentInChildren<SpriteRenderer>().sprite = go_1h.GetComponent<SpriteRenderer>().sprite;
+				go.transform.GetChild(0).tag = "not_empty_plate";
+				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
+				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().food_plates = null;
+				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
+				//add sprite of food
+				//delete 1h
+				one_h = "";
+				Destroy (go_1h);
+			}
+		} else if (hand_with_Food () == "two_h") {
+			//update dropoffpoint food name
+			if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
+				go.GetComponent<dropOffPoint> ().food_name = two_h;
+				go.GetComponent<nameAndPosition>().go = Instantiate(go_2h);
+				go.GetComponentInChildren<SpriteRenderer>().sprite = go_2h.GetComponent<SpriteRenderer>().sprite;
+				go.transform.GetChild(0).tag = "not_empty_plate";
+				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
+				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().food_plates = null;
+				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
+				//add sprite of food
+				//delete 1h
+				two_h = "";
+				Destroy (go_2h);
+			}
+		}
+	}
+	
+	void customerAction(GameObject go) {
+		//Debug.Log ("HEllO");
+		if (hand_with_Food () == "one_h") {
+			//update dropoffpoint food name
+			
+			if (string.IsNullOrEmpty (go.GetComponent<Customer> ().food_given)) {
+				go.GetComponent<Customer> ().food_given = one_h;
+				//add sprite of food
+				//delete 1h
+				Destroy (go_1h);
+				one_h = "";
+			}
+		} else if (hand_with_Food () == "two_h") {
+			//update dropoffpoint food name
+			if (string.IsNullOrEmpty (go.GetComponent<Customer> ().food_given)) {
+				go.GetComponent<Customer> ().food_given = two_h;
+				//add sprite of food
+				//delete 2h
+				Destroy (go_2h);
+				two_h = "";
+			}
+		}
 	}
 }
