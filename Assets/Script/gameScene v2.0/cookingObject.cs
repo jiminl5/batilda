@@ -55,8 +55,8 @@ public class cookingObject : MonoBehaviour {
 	IEnumerator ExecuteAfterDelay(float delay)
 	{
 		this.GetComponent<SpriteRenderer> ().color = Color.red;
-		this.GetComponent<stopWatchObject> ().startTime = delay;
-		this.GetComponent<stopWatchObject> ().not_cooking = false;
+		//this.GetComponent<stopWatchObject> ().startTime = delay;
+		//this.GetComponent<stopWatchObject> ().not_cooking = false;
 		yield return new WaitForSeconds(delay);
 		this.GetComponent<SpriteRenderer> ().color = c;
 		Debug.Log ("food done!");
@@ -74,7 +74,7 @@ public class cookingObject : MonoBehaviour {
 			{
 				current_recipie = checkRecipies (i1);
 				food_cooking_name = current_recipie.name;
-				Debug.Log (current_recipie.timeToMake);
+				//Debug.Log (current_recipie.timeToMake);
 				StartCoroutine(ExecuteAfterDelay(current_recipie.timeToMake)); //wait for food to be done...
 				//Debug.Log ("food done!");
 				//food is done! animation here.
@@ -92,7 +92,7 @@ public class cookingObject : MonoBehaviour {
 
 	public bool canCook(string i1) {
 		//Debug.Log (i1);
-		Debug.Log ("recipie 1 contains i1: " + recipie1.ingredient == i1);
+		//Debug.Log ("recipie 1 contains i1: " + recipie1.ingredient == i1);
 
 		//Debug.Log (recipie1.ingredients.Count );
 		if (i1 == "") {
@@ -113,7 +113,7 @@ public class cookingObject : MonoBehaviour {
 	}
 
 	Recipie checkRecipies(string i1) {
-		Debug.Log ("this is i1; " + i1 );
+		//Debug.Log ("this is i1; " + i1 );
 		if (recipie1.ingredient == i1) {
 			return recipie1;
 		} 

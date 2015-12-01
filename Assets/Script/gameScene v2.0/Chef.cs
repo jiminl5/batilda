@@ -35,13 +35,14 @@ public class Chef : MonoBehaviour {
 			} else {
 //				Debug.Log (!string.IsNullOrEmpty(one_h));
 				clicked = false;
-				Debug.Log ("clicked");
+				//Debug.Log ("clicked");
 				if (go && atPosition && go.GetComponent<cookingObject> ()) {
 					//Debug.Log(gameObject);
-					Debug.Log ("hello");
-					Debug.Log(go.GetComponent<cookingObject> ().canCook (one_h));
+					//Debug.Log ("hello");
+					//Debug.Log(go.GetComponent<cookingObject> ().canCook (one_h));
 					if (go.GetComponent<cookingObject> ().canCook (one_h) && 
-							go.GetComponent<cookingObject> ().food_ready == false) {
+							go.GetComponent<cookingObject> ().food_ready == false &&
+					    	string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
 						Debug.Log ("cooking...");
 						go.GetComponent<cookingObject> ().cookReady = true;
 						go.GetComponent<cookingObject> ().chef_1h = one_h;
@@ -50,7 +51,8 @@ public class Chef : MonoBehaviour {
 						one_h = "";
 					}
 					else if (go.GetComponent<cookingObject> ().canCook (two_h) && 
-					    go.GetComponent<cookingObject> ().food_ready == false) {
+					    		go.GetComponent<cookingObject> ().food_ready == false &&
+					         string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
 						Debug.Log ("cooking...");
 						go.GetComponent<cookingObject> ().cookReady = true;
 						go.GetComponent<cookingObject> ().chef_1h = two_h;
