@@ -61,19 +61,13 @@ public class Chef : MonoBehaviour {
 					
 				} 
 				//======================================================================
-				//NOTE: BELOW IS THE TRASH OBEJCT. I'll create an action for that later.
+				//NOTE: BELOW IS THE TRASH OBEJCT.
 				//======================================================================
-				else if (go && atPosition) {
+				else if (go && atPosition && go.GetComponent<nameAndPosition>().name == "trash") {
+					trashAction (go);
+				}
 
-					if (!string.IsNullOrEmpty (two_h)) {
-						two_h = "";
-						Destroy (go_2h);
-					}
-					else if (!string.IsNullOrEmpty (one_h)) {
-						one_h = "";
-						Destroy (go_1h);
-					} 
-				}else {
+				else {
 					//Debug.Log("didn't work!");
 					//Debug.Log(gameObject.tag);
 					clicked = true;
@@ -311,5 +305,15 @@ public class Chef : MonoBehaviour {
 				two_h = "";
 			}
 		}
+	}
+
+	void trashAction(GameObject go) {
+		if (!string.IsNullOrEmpty (two_h)) {
+			two_h = "";
+			Destroy (go_2h);
+		} else if (!string.IsNullOrEmpty (one_h)) {
+			one_h = "";
+			Destroy (go_1h);
+		} 
 	}
 }
