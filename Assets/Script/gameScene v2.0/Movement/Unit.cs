@@ -13,6 +13,12 @@ public class Unit : MonoBehaviour {
 
 	int tmp;
 
+	private int _chef_animState = Animator.StringToHash("chef_animState");
+	private Animator _animator;
+
+	public string left_right;
+	public string down_up;
+
 	//List
 	public List<Node> currentPath = null;
     public static List<Node> temp_list = null;
@@ -69,6 +75,62 @@ public class Unit : MonoBehaviour {
 	        //grab next first node and move
             if (g_object.transform.position.x != currentWayPoint.x || g_object.transform.position.y != currentWayPoint.y)
             {
+				//MOVEMENT ANIMATION && First movement
+				if (g_object.transform.position.x > currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y) //LEFT
+				{
+					_animator.SetInteger(_chef_animState, 1);
+					left_right = "left";
+				}
+				if (g_object.transform.position.x < currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y) //RIGHT
+				{
+					_animator.SetInteger(_chef_animState, 2);
+					left_right = "right";
+				}
+				if (g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y > currentWayPoint.y) //DOWN
+				{
+					_animator.SetInteger(_chef_animState, 3);
+					down_up = "down";
+				}
+				if (g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y < currentWayPoint.y) //UP
+				{
+					_animator.SetInteger(_chef_animState, 4);
+					down_up = "up";
+				}
+				
+				// 2 - Way Direction //for tenth digit 1: left first, 2: right first, 3: down first, 4: up first
+				if (left_right.Equals("left") && g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y > currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 11); // left then down
+				else if (left_right.Equals("left") && g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y < currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 12); // left then up
+				else if (left_right.Equals("right") && g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y > currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 21); // right then down
+				else if (left_right.Equals("right") && g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y < currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 22); // right then up
+				
+				if (down_up.Equals("down") && g_object.transform.position.x > currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 31); // Down then left
+				else if (down_up.Equals("down") && g_object.transform.position.x < currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 32); // Down then right
+				else if (down_up.Equals("up") && g_object.transform.position.x > currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 41);
+				else if (down_up.Equals("up") && g_object.transform.position.x < currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)
+					_animator.SetInteger(_chef_animState, 42);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				//MOVE
                 g_object.transform.position = Vector2.MoveTowards(g_object.transform.position, currentWayPoint, Time.deltaTime * speed); // move toward not lerp
             }
 			if (g_object.transform.position.x == currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)

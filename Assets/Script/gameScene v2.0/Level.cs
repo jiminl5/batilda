@@ -14,7 +14,7 @@ public class Level : MonoBehaviour {
 	GameObject _c2;
 
 	private bool finished = false;
-
+	private string text;
 	private int customersServed;
 
 	// Use this for initialization
@@ -65,7 +65,12 @@ public class Level : MonoBehaviour {
 				Destroy (_c2);
 			}
 
-			print ("Finsihed! Customers served: " + customersServed);
+
+			if (string.IsNullOrEmpty(text)) {
+				text = string.Format("Finished! Customers served: " + customersServed);
+				print ("Finsihed! Customers served: " + customersServed);
+				GUI.Label(new Rect(0, 0, 50, 30), text);
+			}
 		}
 
 
