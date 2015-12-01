@@ -19,6 +19,7 @@ public class cookingObject : MonoBehaviour {
 
 	public Color c;
 
+	private GameObject foodSprite;
 	//public int x;
 	//public int y;
 
@@ -44,11 +45,15 @@ public class cookingObject : MonoBehaviour {
 				cookReady = false;
 			}
 		} else {
-			if (cookReady && food_ready == false) {
+			if (cookReady && !food_ready) {
 				cooking (chef_1h);
 				cookReady = false;
 			}
 			//this.GetComponent<SpriteRenderer> ().color = c;
+
+		}
+		if (!food_ready && foodSprite) {
+			Destroy (foodSprite);
 		}
 	}
 
@@ -63,6 +68,7 @@ public class cookingObject : MonoBehaviour {
 		Debug.Log ("food name = " + food_cooking_name);
 		food_ready = true;
 		//update sprite;
+		foodSprite = Instantiate (this.GetComponent<nameAndPosition> ().go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
 	}
 	
 	void cooking (string i1) {
