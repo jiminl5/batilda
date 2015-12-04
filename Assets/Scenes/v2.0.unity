@@ -1663,8 +1663,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 986910650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.82401085, y: -1.91361547, z: 0}
-  m_LocalScale: {x: .75, y: .75, z: 1}
+  m_LocalPosition: {x: 3.81999993, y: -1.80999994, z: 0}
+  m_LocalScale: {x: .99992907, y: .947411478, z: 1}
   m_Children: []
   m_Father: {fileID: 955942747}
   m_RootOrder: 1
@@ -1706,7 +1706,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300034, guid: c5c4a8d622eaa3e44a5147d03b1fa6d8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2dbc1a2530e140e48ba6128d3c3de15d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &986910654
 MonoBehaviour:
@@ -2234,7 +2234,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: cd10014ade6bf13429e06b120632a9b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1458081277
@@ -3417,7 +3417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 3ec0651fafad6384aa2f679777e1808f, type: 3}
   lookupTexture: {fileID: 2800000, guid: 492bfb06acc0e704097ddd34878f4c01, type: 3}
-  amount: .614000022
+  amount: .300999999
   filter: 3
 --- !u!114 &2033789297
 MonoBehaviour:
