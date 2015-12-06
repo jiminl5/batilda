@@ -34,7 +34,6 @@ public class Chef : MonoBehaviour {
 		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
 		//if (findGameObjectAtClickedPosition ()) {
 		if (obj_queue.Count > 0){
-			print (obj_queue.Count);
 		//GameObject go = findGameObjectAtClickedPosition ();
 		//Debug.Log (go);
 		animator.SetBool ("1_h", !string.IsNullOrEmpty (one_h));

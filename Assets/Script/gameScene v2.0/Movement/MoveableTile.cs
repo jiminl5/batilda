@@ -43,6 +43,14 @@ public class MoveableTile : MonoBehaviour {
 		}
 		for (int j = 0; j < blk_tile.Length; j++) {
 			blk_tile[j].GetComponent<BoxCollider2D>().enabled = true;
+
+			// Disable Unecessary tiles
+			if (blk_tile[j].transform.position.y >= 7)
+				blk_tile[j].SetActive(false);
+			else if ((blk_tile[j].transform.position.x > 0 && blk_tile[j].transform.position.x < 7.5f)
+			         && (blk_tile[j].transform.position.y > 0 && blk_tile[j].transform.position.y < 6)
+			         && !(blk_tile[j].transform.position.y == 4 && blk_tile[j].transform.position.x == 3))
+				blk_tile[j].SetActive(false);
 		}
 		MidTileMoveable ();
 	}
@@ -191,6 +199,7 @@ public class MoveableTile : MonoBehaviour {
 				//				Unit1.mouseClicked = true;
 				//			}
 			}
+
 		} 
 		else
 			print ("TOO MANY TASKS!!!!!");

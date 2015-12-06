@@ -16,6 +16,10 @@ public class Furnace : MonoBehaviour {
 	void Update () {
 		if (isOn) {
 			currentTime -= Time.deltaTime;
+			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = true;
+		}
+		else if (!isOn) {
+			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = false;
 		}
 		checkForFirewood ();
 	}

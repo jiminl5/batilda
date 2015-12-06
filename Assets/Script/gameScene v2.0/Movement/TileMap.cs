@@ -44,7 +44,10 @@ public class TileMap : MonoBehaviour {
 		// Set everything to be walkable
 		for (x = 0; x < mapSizeX; x++) {
 			for (y = 0; y < mapSizeY; y++) {
-				tiles[x,y] = 0; // first tile type which is walkable.
+				if (y >= 6)
+					tiles[x,y] = 1;
+				else
+					tiles[x,y] = 0; // first tile type which is walkable.
 			}
 		}
 
@@ -146,13 +149,44 @@ public class TileMap : MonoBehaviour {
 		List<Node> unvisited = new List<Node>();
 
 		if (Unit.unit_queue.Count == 0) {
-			source = graph [selectedUnit.GetComponent<Unit> ().tileX,
-	                     selectedUnit.GetComponent<Unit> ().tileY];
+			int temp_X = selectedUnit.GetComponent<Unit> ().tileX;
+			int temp_Y = selectedUnit.GetComponent<Unit> ().tileY;
+			if (temp_X == x && temp_Y == y)
+			{
+				if (x == 4 && y == 5)
+				{
+					temp_X = temp_X - 1;
+					temp_Y = temp_Y - 1;
+				}
+				else
+				{
+					temp_X = temp_X + 1;
+					temp_Y = temp_Y + 1;
+				}
+			}
+			source = graph [temp_X,
+			                temp_Y];
+			//print (selectedUnit.GetComponent<Unit> ().tileX + "&&&&&&&&&&&&&&&&&&" +  selectedUnit.GetComponent<Unit> ().tileY);
 		} 
 		else if (Unit.unit_queue.Count >= 1) {
-            //source = graph [Unit.unit_queue.Peek().Last().x , Unit.unit_queue.Peek().Last().y];
-            source = graph[Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().x, Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().y];
-        }
+			int temp_X = Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().x;
+			int temp_Y = Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().y;
+			if (temp_X == x && temp_Y == y)
+			{	
+				if (x == 4 && y == 5)
+				{
+					temp_X = temp_X - 1;
+					temp_Y = temp_Y - 1;
+				}
+				else
+				{
+					temp_X = temp_X + 1;
+					temp_Y = temp_Y + 1;
+				}
+			}
+			source = graph[temp_X, temp_Y];
+			//print (Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().x + "&&&&&&&&&&&&&&&&&&" +  Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().y);
+		}
 
 		// Create a target node for diagonal shorter path
 		Node target = graph [x,y];
