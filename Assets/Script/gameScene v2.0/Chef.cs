@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Chef : MonoBehaviour {
 	public string one_h;
@@ -16,6 +17,10 @@ public class Chef : MonoBehaviour {
 	public static bool clicked = false;
 
 	private Animator animator;
+
+	//public GameObject go;
+
+	public static Queue<GameObject> obj_queue = new Queue<GameObject>();
 	// Use this for initialization
 	void Start () {
 		animator = this.GetComponent<Animator>();
@@ -27,62 +32,73 @@ public class Chef : MonoBehaviour {
 	void Update () {
 		//GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
 		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
-		if (findGameObjectAtClickedPosition ()) {
-			GameObject go = findGameObjectAtClickedPosition ();
-			//Debug.Log (go);
-			animator.SetBool("1_h", !string.IsNullOrEmpty(one_h));
-			animator.SetBool("2_h", !string.IsNullOrEmpty(two_h));
-			if (!clicked) {
-			} else {
+		//if (findGameObjectAtClickedPosition ()) {
+		if (obj_queue.Count > 0){
+			print (obj_queue.Count);
+		//GameObject go = findGameObjectAtClickedPosition ();
+		//Debug.Log (go);
+		animator.SetBool ("1_h", !string.IsNullOrEmpty (one_h));
+		animator.SetBool ("2_h", !string.IsNullOrEmpty (two_h));
+		//if (!clicked) {
+		//} else {
 //				Debug.Log (!string.IsNullOrEmpty(one_h));
-				clicked = false;
-				//Debug.Log ("clicked");
-				if (go && atPosition && go.GetComponent<cookingObject> ()) {
-					cookingAction(go);	
-				} 
-
-				else if (go && atPosition && go.GetComponent<ingredientObject> ()) {
-					ingredientAction(go);
-				} 
-
-				else if (go && atPosition && go.GetComponent<doughObject> ()) {
-					doughCreateAction(go);
-				} 
-
-				else if (go && atPosition && go.GetComponent<doughPickUp> ()) {
-					doughPickUpAction(go);
-				}
-
-				else if (go && atPosition && go.GetComponent<dropOffPoint> ()) {
-					dropOffPointAction(go);
-				} 
-				else if (go && atPosition && go.GetComponent<Customer> ()) {
-						customerAction(go);
-					
-				} 
+		//clicked = false;
+		//Debug.Log ("clicked");
+		if (atPosition && obj_queue.Peek ().GetComponent<cookingObject> ()) {
+			cookingAction (obj_queue.Peek ());	
+			obj_queue.Dequeue ();
+			atPosition = false;
+		} else if (atPosition && obj_queue.Peek ().GetComponent<ingredientObject> ()) {
+			ingredientAction (obj_queue.Peek ());
+			obj_queue.Dequeue ();
+			atPosition = false;
+		} else if (atPosition && obj_queue.Peek ().GetComponent<doughObject> ()) {
+			doughCreateAction (obj_queue.Peek ());
+			obj_queue.Dequeue ();
+			atPosition = false;
+		} else if (atPosition && obj_queue.Peek ().GetComponent<doughPickUp> ()) {
+			doughPickUpAction (obj_queue.Peek ());
+			obj_queue.Dequeue ();
+			atPosition = false;
+		} else if (atPosition && obj_queue.Peek ().GetComponent<dropOffPoint> ()) {
+			dropOffPointAction (obj_queue.Peek ());
+			obj_queue.Dequeue ();
+			atPosition = false;
+		} else if (atPosition && obj_queue.Peek ().GetComponent<Customer> ()) {
+			customerAction (obj_queue.Peek ());
+			obj_queue.Dequeue ();
+			atPosition = false;
+		} 
+		else if (atPosition && obj_queue.Peek().name == "Null_Object")
+		{
+				obj_queue.Dequeue();
+				atPosition = false;
+		}
 				//======================================================================
 				//NOTE: BELOW IS THE TRASH OBEJCT.
 				//======================================================================
-				else if (go && atPosition && go.GetComponent<nameAndPosition>().name == "trash") {
-					trashAction (go);
-				}
+		else if (atPosition && obj_queue.Peek ().GetComponent<nameAndPosition> ().name == "trash") {
+			trashAction (obj_queue.Peek ());
+			obj_queue.Dequeue ();
+			atPosition = false;
+		}
+		//else {
+			//Debug.Log("didn't work!");
+			//Debug.Log(gameObject.tag);
+			//clicked = true;
+		//}
 
-				else {
-					//Debug.Log("didn't work!");
-					//Debug.Log(gameObject.tag);
-					clicked = true;
-				}
+		if (!string.IsNullOrEmpty (two_h) && string.IsNullOrEmpty (one_h)) {
+			one_h = two_h;
+			go_1h = Instantiate (go_2h, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+			go_1h.transform.SetParent (gameObject.transform);
+			//------------------
+			Destroy (go_2h);
+			two_h = "";
+		}
 
-				if (!string.IsNullOrEmpty(two_h) && string.IsNullOrEmpty(one_h)) {
-					one_h = two_h;
-					go_1h = Instantiate (go_2h, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
-					go_1h.transform.SetParent (gameObject.transform);
-					//------------------
-					Destroy (go_2h);
-					two_h = "";
-				}
-
-			}
+		//}
+		//}
 		}
 
 	}
@@ -131,7 +147,7 @@ public class Chef : MonoBehaviour {
 	}
 
 
-	GameObject findGameObjectAtClickedPosition() {
+	public GameObject findGameObjectAtClickedPosition() {
 		foreach (GameObject go in GameObject.FindGameObjectsWithTag("test")) {
 			if (go.GetComponent<nameAndPosition> ().x == mtX
 				&& go.GetComponent<nameAndPosition> ().y == mtY) {

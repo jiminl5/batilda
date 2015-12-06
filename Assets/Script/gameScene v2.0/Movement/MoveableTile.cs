@@ -104,25 +104,37 @@ public class MoveableTile : MonoBehaviour {
                 {
                     map.GeneratePathTo(mtX - 1, mtY);
                 }
-				Chef.clicked = true;
+				//Chef.clicked = true;
 				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
 				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
-				//gameObject.GetComponent<Unit>().QueueAction();
+				//QUEUE ACTION
+				if (GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition () != null)
+					Chef.obj_queue.Enqueue(GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition ());
+				else if (GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition () == null)
+					Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
 			}
 			else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
                 if (map != null && mtY == 6)
                 {
                     map.GeneratePathTo(4, mtY - 1);
-                    Chef.clicked = true;
+                    //Chef.clicked = true;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtX;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mtY;
+					if (GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition () != null)
+						Chef.obj_queue.Enqueue(GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition ());
+					else if (GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition () == null)
+						Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
                 }
                 else if (map != null)
                 {
                     map.GeneratePathTo(4, mtY);
-                    Chef.clicked = true;
+                    //Chef.clicked = true;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtX;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mtY;
+					if (GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition () != null)
+						Chef.obj_queue.Enqueue(GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition ());
+					else if (GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition () == null)
+						Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
                 }
 				if (map1 != null && mtY == 6)
 				{
