@@ -14,4 +14,16 @@ public class LevelSelectionModal : MonoBehaviour {
     {
         Application.LoadLevel(scene_name);
     }
+
+    public void quitApp()
+    {
+        Application.Quit();
+    }
+
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+            Application.Quit();
+
+    }
 }
