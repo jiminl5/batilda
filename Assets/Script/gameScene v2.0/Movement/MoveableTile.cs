@@ -80,7 +80,7 @@ public class MoveableTile : MonoBehaviour {
 		//CHEF
 		print ("mtX: " + mtX + ", mtY: " + mtY);
 		//GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().atPosition = false;
-		if (Unit.unit_queue.Count <= 20) {
+		if (Unit.unit_queue.Count <= 20 && Chef.obj_queue.Count <= 20) {
 			if (mtX < 5) {
                 // left shelf
                 if (mtX == 0 && (mtY >= 0 && mtY <= 6))
