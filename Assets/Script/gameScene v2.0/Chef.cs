@@ -36,8 +36,6 @@ public class Chef : MonoBehaviour {
 		if (obj_queue.Count > 0){
 		//GameObject go = findGameObjectAtClickedPosition ();
 		//Debug.Log (go);
-		animator.SetBool ("1_h", !string.IsNullOrEmpty (one_h));
-		animator.SetBool ("2_h", !string.IsNullOrEmpty (two_h));
 		//if (!clicked) {
 		//} else {
 //				Debug.Log (!string.IsNullOrEmpty(one_h));
@@ -95,6 +93,8 @@ public class Chef : MonoBehaviour {
 			Destroy (go_2h);
 			two_h = "";
 		}
+		animator.SetBool ("1_h", !string.IsNullOrEmpty (one_h));
+		animator.SetBool ("2_h", !string.IsNullOrEmpty (two_h));
 
 		//}
 		//}
