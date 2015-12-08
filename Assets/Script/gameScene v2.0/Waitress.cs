@@ -118,6 +118,7 @@ public class Waitress : MonoBehaviour {
 						//go_1h = temp_plate;
 						go_1h = Instantiate (go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
 						go_1h.transform.SetParent (gameObject.transform);
+						go.GetComponent<Animator>().SetTrigger("log_pickup");
 						//go_1h.gameObject.layer = 5;
 						Debug.Log (one_h);
 					}

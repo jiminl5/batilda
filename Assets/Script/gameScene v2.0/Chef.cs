@@ -329,9 +329,11 @@ public class Chef : MonoBehaviour {
 		if (!string.IsNullOrEmpty (two_h)) {
 			two_h = "";
 			Destroy (go_2h);
+			go.GetComponent<Animator>().SetTrigger("trash_on");
 		} else if (!string.IsNullOrEmpty (one_h)) {
 			one_h = "";
 			Destroy (go_1h);
+			go.GetComponent<Animator>().SetTrigger("trash_on");
 		} 
 	}
 }
