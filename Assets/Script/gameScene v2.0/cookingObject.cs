@@ -59,13 +59,15 @@ public class cookingObject : MonoBehaviour {
 
 	IEnumerator ExecuteAfterDelay(float delay)
 	{
-		this.GetComponent<SpriteRenderer> ().color = Color.red;
+		//this.GetComponent<SpriteRenderer> ().color = Color.red;
+		this.GetComponent<Animator> ().SetBool ("on", true);
 		//this.GetComponent<stopWatchObject> ().startTime = delay;
 		//this.GetComponent<stopWatchObject> ().not_cooking = false;
 		yield return new WaitForSeconds(delay);
 		this.GetComponent<SpriteRenderer> ().color = c;
 		Debug.Log ("food done!");
 		Debug.Log ("food name = " + food_cooking_name);
+		this.GetComponent<Animator> ().SetBool ("on", false);
 		food_ready = true;
 		//update sprite;
 		foodSprite = Instantiate (this.GetComponent<nameAndPosition> ().go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;

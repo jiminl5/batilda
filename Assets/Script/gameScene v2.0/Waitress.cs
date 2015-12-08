@@ -203,9 +203,16 @@ public class Waitress : MonoBehaviour {
 	
 	GameObject findGameObjectAtClickedPosition() {
 		foreach (GameObject go in GameObject.FindGameObjectsWithTag("test")) {
+			try{
 			if (go.GetComponent<nameAndPosition> ().x == mtX
 			    && go.GetComponent<nameAndPosition> ().y == mtY) {
 				return go;
+			}
+			}
+			catch(System.NullReferenceException )
+			{
+				Debug.Log (go.name);
+				Debug.Log (go.GetComponent<nameAndPosition>().x);
 			}
 		}
 		return null;

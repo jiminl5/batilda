@@ -22,12 +22,18 @@ public class doughObject : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		checkDough ();
+		if (waitingOnDough) {
+			this.GetComponent<Animator> ().SetBool ("on", true);
+		} 
+		else {
+			this.GetComponent<Animator> ().SetBool ("on", false);
+		}
 	}
 	
 	
 	void checkDough() {
 		if (!waitingOnDough && numberOfDough < maxDough && numberofWheat > 0) {
-			this.GetComponent<SpriteRenderer> ().color = Color.red;
+			//this.GetComponent<SpriteRenderer> ().color = Color.red;
 			this.GetComponent<stopWatchObject> ().startTime = timeToMakeDough;
 			this.GetComponent<stopWatchObject> ().timeInSeconds = timeToMakeDough;
 			this.GetComponent<stopWatchObject> ().not_cooking = false;
