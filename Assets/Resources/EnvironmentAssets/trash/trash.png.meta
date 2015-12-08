@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ab8b621780f71374f834b60c19864140
-timeCreated: 1449562696
+timeCreated: 1449580146
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -87,8 +87,8 @@ TextureImporter:
         y: 664
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_1
       rect:
@@ -97,8 +97,8 @@ TextureImporter:
         y: 664
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_2
       rect:
@@ -107,8 +107,8 @@ TextureImporter:
         y: 664
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_3
       rect:
@@ -117,8 +117,8 @@ TextureImporter:
         y: 664
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_4
       rect:
@@ -127,8 +127,8 @@ TextureImporter:
         y: 664
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_5
       rect:
@@ -137,8 +137,8 @@ TextureImporter:
         y: 664
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_6
       rect:
@@ -147,8 +147,8 @@ TextureImporter:
         y: 498
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_7
       rect:
@@ -157,8 +157,8 @@ TextureImporter:
         y: 498
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_8
       rect:
@@ -167,8 +167,8 @@ TextureImporter:
         y: 498
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_9
       rect:
@@ -177,8 +177,8 @@ TextureImporter:
         y: 498
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_10
       rect:
@@ -187,8 +187,8 @@ TextureImporter:
         y: 498
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_11
       rect:
@@ -197,8 +197,8 @@ TextureImporter:
         y: 498
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_12
       rect:
@@ -207,8 +207,8 @@ TextureImporter:
         y: 332
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_13
       rect:
@@ -217,8 +217,8 @@ TextureImporter:
         y: 332
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_14
       rect:
@@ -227,8 +227,8 @@ TextureImporter:
         y: 332
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_15
       rect:
@@ -237,8 +237,8 @@ TextureImporter:
         y: 332
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_16
       rect:
@@ -247,8 +247,8 @@ TextureImporter:
         y: 332
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_17
       rect:
@@ -257,8 +257,8 @@ TextureImporter:
         y: 332
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_18
       rect:
@@ -267,8 +267,8 @@ TextureImporter:
         y: 166
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_19
       rect:
@@ -277,8 +277,8 @@ TextureImporter:
         y: 166
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_20
       rect:
@@ -287,8 +287,8 @@ TextureImporter:
         y: 166
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_21
       rect:
@@ -297,8 +297,8 @@ TextureImporter:
         y: 166
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_22
       rect:
@@ -307,8 +307,8 @@ TextureImporter:
         y: 166
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_23
       rect:
@@ -317,8 +317,8 @@ TextureImporter:
         y: 166
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_24
       rect:
@@ -327,8 +327,8 @@ TextureImporter:
         y: 0
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_25
       rect:
@@ -337,8 +337,8 @@ TextureImporter:
         y: 0
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_26
       rect:
@@ -347,8 +347,8 @@ TextureImporter:
         y: 0
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_27
       rect:
@@ -357,8 +357,8 @@ TextureImporter:
         y: 0
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_28
       rect:
@@ -367,8 +367,8 @@ TextureImporter:
         y: 0
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: trash_29
       rect:
@@ -377,8 +377,8 @@ TextureImporter:
         y: 0
         width: 109
         height: 166
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      alignment: 9
+      pivot: {x: .50999999, y: .370000005}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

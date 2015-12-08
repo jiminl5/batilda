@@ -64,7 +64,7 @@ public class cookingObject : MonoBehaviour {
 		//this.GetComponent<stopWatchObject> ().startTime = delay;
 		//this.GetComponent<stopWatchObject> ().not_cooking = false;
 		yield return new WaitForSeconds(delay);
-		this.GetComponent<SpriteRenderer> ().color = c;
+		//this.GetComponent<SpriteRenderer> ().color = c;
 		Debug.Log ("food done!");
 		Debug.Log ("food name = " + food_cooking_name);
 		this.GetComponent<Animator> ().SetBool ("on", false);

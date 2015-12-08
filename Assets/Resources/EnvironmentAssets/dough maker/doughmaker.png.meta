@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6f8b7ef4ae053bd49aed85e12850dbc4
-timeCreated: 1449560738
+timeCreated: 1449579643
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -93,8 +93,8 @@ TextureImporter:
         y: 1200
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_1
       rect:
@@ -103,8 +103,8 @@ TextureImporter:
         y: 1200
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_2
       rect:
@@ -113,8 +113,8 @@ TextureImporter:
         y: 1200
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_3
       rect:
@@ -123,8 +123,8 @@ TextureImporter:
         y: 1200
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_4
       rect:
@@ -133,8 +133,8 @@ TextureImporter:
         y: 1200
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_5
       rect:
@@ -143,8 +143,8 @@ TextureImporter:
         y: 1200
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_6
       rect:
@@ -153,8 +153,8 @@ TextureImporter:
         y: 960
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_7
       rect:
@@ -163,8 +163,8 @@ TextureImporter:
         y: 960
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_8
       rect:
@@ -173,8 +173,8 @@ TextureImporter:
         y: 960
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_9
       rect:
@@ -183,8 +183,8 @@ TextureImporter:
         y: 960
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_10
       rect:
@@ -193,8 +193,8 @@ TextureImporter:
         y: 960
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_11
       rect:
@@ -203,8 +203,8 @@ TextureImporter:
         y: 960
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_12
       rect:
@@ -213,8 +213,8 @@ TextureImporter:
         y: 720
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_13
       rect:
@@ -223,8 +223,8 @@ TextureImporter:
         y: 720
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_14
       rect:
@@ -233,8 +233,8 @@ TextureImporter:
         y: 720
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_15
       rect:
@@ -243,8 +243,8 @@ TextureImporter:
         y: 720
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_16
       rect:
@@ -253,8 +253,8 @@ TextureImporter:
         y: 720
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_17
       rect:
@@ -263,8 +263,8 @@ TextureImporter:
         y: 720
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_18
       rect:
@@ -273,8 +273,8 @@ TextureImporter:
         y: 480
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_19
       rect:
@@ -283,8 +283,8 @@ TextureImporter:
         y: 480
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_20
       rect:
@@ -293,8 +293,8 @@ TextureImporter:
         y: 480
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_21
       rect:
@@ -303,8 +303,8 @@ TextureImporter:
         y: 480
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_22
       rect:
@@ -313,8 +313,8 @@ TextureImporter:
         y: 480
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_23
       rect:
@@ -323,8 +323,8 @@ TextureImporter:
         y: 480
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_24
       rect:
@@ -333,8 +333,8 @@ TextureImporter:
         y: 240
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_25
       rect:
@@ -343,8 +343,8 @@ TextureImporter:
         y: 240
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_26
       rect:
@@ -353,8 +353,8 @@ TextureImporter:
         y: 240
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_27
       rect:
@@ -363,8 +363,8 @@ TextureImporter:
         y: 240
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_28
       rect:
@@ -373,8 +373,8 @@ TextureImporter:
         y: 240
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_29
       rect:
@@ -383,8 +383,8 @@ TextureImporter:
         y: 240
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_30
       rect:
@@ -393,8 +393,8 @@ TextureImporter:
         y: 0
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_31
       rect:
@@ -403,8 +403,8 @@ TextureImporter:
         y: 0
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_32
       rect:
@@ -413,8 +413,8 @@ TextureImporter:
         y: 0
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_33
       rect:
@@ -423,8 +423,8 @@ TextureImporter:
         y: 0
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_34
       rect:
@@ -433,8 +433,8 @@ TextureImporter:
         y: 0
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: doughmaker_35
       rect:
@@ -443,8 +443,8 @@ TextureImporter:
         y: 0
         width: 160
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
