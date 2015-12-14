@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1b210c79ae5428844aa8c7f4856822bd
-timeCreated: 1449881172
+timeCreated: 1450124845
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,7 +83,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1626.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -91,9 +91,9 @@ TextureImporter:
     - name: tools_1
       rect:
         serializedVersion: 2
-        x: 277
+        x: 377
         y: 1626.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -101,9 +101,9 @@ TextureImporter:
     - name: tools_2
       rect:
         serializedVersion: 2
-        x: 554
+        x: 754
         y: 1626.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -111,9 +111,9 @@ TextureImporter:
     - name: tools_3
       rect:
         serializedVersion: 2
-        x: 831
+        x: 1131
         y: 1626.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -123,7 +123,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1355.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -131,9 +131,9 @@ TextureImporter:
     - name: tools_5
       rect:
         serializedVersion: 2
-        x: 277
+        x: 377
         y: 1355.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,9 +141,9 @@ TextureImporter:
     - name: tools_6
       rect:
         serializedVersion: 2
-        x: 554
+        x: 754
         y: 1355.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -151,9 +151,9 @@ TextureImporter:
     - name: tools_7
       rect:
         serializedVersion: 2
-        x: 831
+        x: 1131
         y: 1355.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -163,7 +163,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1084.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,9 +171,9 @@ TextureImporter:
     - name: tools_9
       rect:
         serializedVersion: 2
-        x: 277
+        x: 377
         y: 1084.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,9 +181,9 @@ TextureImporter:
     - name: tools_10
       rect:
         serializedVersion: 2
-        x: 554
+        x: 754
         y: 1084.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,9 +191,9 @@ TextureImporter:
     - name: tools_11
       rect:
         serializedVersion: 2
-        x: 831
+        x: 1131
         y: 1084.85718
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,7 +203,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 813.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -211,9 +211,9 @@ TextureImporter:
     - name: tools_13
       rect:
         serializedVersion: 2
-        x: 277
+        x: 377
         y: 813.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,9 +221,9 @@ TextureImporter:
     - name: tools_14
       rect:
         serializedVersion: 2
-        x: 554
+        x: 754
         y: 813.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -231,9 +231,9 @@ TextureImporter:
     - name: tools_15
       rect:
         serializedVersion: 2
-        x: 831
+        x: 1131
         y: 813.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -243,7 +243,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 542.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -251,9 +251,9 @@ TextureImporter:
     - name: tools_17
       rect:
         serializedVersion: 2
-        x: 277
+        x: 377
         y: 542.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -261,9 +261,9 @@ TextureImporter:
     - name: tools_18
       rect:
         serializedVersion: 2
-        x: 554
+        x: 754
         y: 542.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,9 +271,9 @@ TextureImporter:
     - name: tools_19
       rect:
         serializedVersion: 2
-        x: 831
+        x: 1131
         y: 542.857178
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -283,7 +283,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 271.857147
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -291,9 +291,9 @@ TextureImporter:
     - name: tools_21
       rect:
         serializedVersion: 2
-        x: 277
+        x: 377
         y: 271.857147
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -301,9 +301,9 @@ TextureImporter:
     - name: tools_22
       rect:
         serializedVersion: 2
-        x: 554
+        x: 754
         y: 271.857147
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -311,9 +311,9 @@ TextureImporter:
     - name: tools_23
       rect:
         serializedVersion: 2
-        x: 831
+        x: 1131
         y: 271.857147
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -323,7 +323,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: .857147217
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -331,9 +331,9 @@ TextureImporter:
     - name: tools_25
       rect:
         serializedVersion: 2
-        x: 277
+        x: 377
         y: .857147217
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -341,9 +341,9 @@ TextureImporter:
     - name: tools_26
       rect:
         serializedVersion: 2
-        x: 554
+        x: 754
         y: .857147217
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -351,9 +351,9 @@ TextureImporter:
     - name: tools_27
       rect:
         serializedVersion: 2
-        x: 831
+        x: 1131
         y: .857147217
-        width: 277
+        width: 377
         height: 271.142853
       alignment: 0
       pivot: {x: 0, y: 0}
