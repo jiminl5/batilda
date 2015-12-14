@@ -24,7 +24,7 @@ public class drinkObject : MonoBehaviour {
 
 	void checkDrinks() {
 		if (!waitingOnDrink && numberOfDrinks < maxDrinks) {
-			this.GetComponent<SpriteRenderer> ().color = Color.red;
+			//this.GetComponent<SpriteRenderer> ().color = Color.red;
 			Invoke("addDrink", timeToMakeDrink);
 			waitingOnDrink = true;
 		}
@@ -33,7 +33,7 @@ public class drinkObject : MonoBehaviour {
 	void addDrink() {
 		numberOfDrinks += 1;
 		waitingOnDrink = false;
-		this.GetComponent<SpriteRenderer> ().color = Color.white;
+		//this.GetComponent<SpriteRenderer> ().color = Color.white;
 	}
 
 }
