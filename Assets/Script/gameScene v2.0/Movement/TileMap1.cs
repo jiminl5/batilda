@@ -48,12 +48,6 @@ public class TileMap1 : MonoBehaviour {
 			}
 		}
 
-		// Center Table at Kitchen [2,2] ~ [5,4]
-//		for (x = 2; x <= 3; x++) {
-//			for (y = 2; y <= 4; y++) {
-//				tiles[x,y] = 1; // second tile type which is unwalkable.
-//			}
-//		}
 	}
 
 	////////////////////////////////////////
@@ -129,13 +123,7 @@ public class TileMap1 : MonoBehaviour {
 	public void GeneratePathTo (int x, int y)
 	{
         //Clear out our units old path
-        //int x = (int)((mtX / 0.5f) / 3f);
-		//selectedUnit.GetComponent<Unit> ().currentPath = null;
 		selectedUnit1.GetComponent<Unit1> ().currentPath = null;
-		// DEFINE WALKABLE OR NOT WALKABLE
-//		if (WalkableTile (x, y) == false) {
-//			return;
-//		}
 		//Dijkstra's (A* algorithm) Algorithm
 		//Using a priority Queue
 		// pseudocode from - wikipedia.org
@@ -145,8 +133,31 @@ public class TileMap1 : MonoBehaviour {
 		// Q in wikipedia - the list of nodes that are unvisited
 		List<Node> unvisited = new List<Node>();
 
-		source = graph [selectedUnit1.GetComponent<Unit1> ().tileX,
-		                selectedUnit1.GetComponent<Unit1> ().tileY];
+        if (Unit1.unit_queue1.Count == 0)
+        {
+            int temp_X = selectedUnit1.GetComponent<Unit1>().tileX;
+            int temp_Y = selectedUnit1.GetComponent<Unit1>().tileY;
+            if (temp_X == x && temp_Y == y)
+            {
+                temp_X = temp_X + 1;
+                temp_Y = temp_Y + 1;
+            }
+            source = graph[temp_X, temp_Y];
+        }
+        else if(Unit1.unit_queue1.Count >= 1)
+        {
+            int temp_X = Unit1.unit_queue1.ElementAt(Unit1.unit_queue1.Count - 1).Last().x;
+            int temp_Y = Unit1.unit_queue1.ElementAt(Unit1.unit_queue1.Count - 1).Last().y;
+            if (temp_X == x && temp_Y == y)
+            {
+                temp_X = temp_X + 1;
+                temp_Y = temp_Y + 1;
+            }
+            source = graph[temp_X, temp_Y];
+        }
+
+		//source = graph [selectedUnit1.GetComponent<Unit1> ().tileX,
+		//                selectedUnit1.GetComponent<Unit1> ().tileY];
 
 		Node target = graph [x,y];
 
@@ -216,9 +227,9 @@ public class TileMap1 : MonoBehaviour {
 		}
 		//Invert current path
 		currentPath.Reverse ();
-
-		//selectedUnit.GetComponent<Unit> ().currentPath = currentPath;
+        
 		selectedUnit1.GetComponent<Unit1> ().currentPath = currentPath;
+        selectedUnit1.GetComponent<Unit1>().QueueAction(currentPath);
 	}
 }
 

@@ -134,11 +134,6 @@ public class TileMap : MonoBehaviour {
         //Clear out our units old path
         //int x = (int)((mtX / 0.5f) / 3f);
 		selectedUnit.GetComponent<Unit> ().currentPath = null;
-		//selectedUnit1.GetComponent<Unit1> ().currentPath = null;
-		// DEFINE WALKABLE OR NOT WALKABLE
-//		if (WalkableTile (x, y) == false) {
-//			return;
-//		}
 		//Dijkstra's (A* algorithm) Algorithm
 		//Using a priority Queue
 		// pseudocode from - wikipedia.org
@@ -151,7 +146,7 @@ public class TileMap : MonoBehaviour {
 		if (Unit.unit_queue.Count == 0) {
 			int temp_X = selectedUnit.GetComponent<Unit> ().tileX;
 			int temp_Y = selectedUnit.GetComponent<Unit> ().tileY;
-			if (temp_X == x && temp_Y == y)
+			if (temp_X == x && temp_Y == y) // when touched same tile
 			{
 				if (x == 4 && y == 5)
 				{
@@ -171,7 +166,7 @@ public class TileMap : MonoBehaviour {
 		else if (Unit.unit_queue.Count >= 1) {
 			int temp_X = Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().x;
 			int temp_Y = Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().y;
-			if (temp_X == x && temp_Y == y)
+			if (temp_X == x && temp_Y == y) // when touched same tile
 			{	
 				if (x == 4 && y == 5)
 				{

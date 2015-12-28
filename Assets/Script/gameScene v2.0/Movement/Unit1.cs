@@ -7,7 +7,7 @@ public class Unit1 : MonoBehaviour {
 	public int tileX;
 	public int tileY;
 	public TileMap1 map;
-	public MoveableTile move_T;
+
 	float speed = 5f;
     float timeLeft = 10f;
 
@@ -23,49 +23,42 @@ public class Unit1 : MonoBehaviour {
 	public List<Node> currentPath = null;
     public static List<Node> temp_list2 = null;
 
-    static int tmp_count;
-
-    public static bool mouseClicked = false;
+    //public static bool mouseClicked = false;
 
     public GameObject g_object1;
 
-	void Start()
+    public static Queue<List<Node>> unit_queue1 = new Queue<List<Node>>();
+
+    void Start()
 	{
-        temp_list2 = new List<Node>();
+        //temp_list2 = new List<Node>();
         g_object1 = GameObject.Find("Unit1");
 		_animator = this.GetComponentInChildren<Animator> ();
 	}
 
 	public void Update()
 	{
-		if (currentPath != null && mouseClicked) {
-			int currNode = 0;
-
-			while(currNode < currentPath.Count - 1)
-			{
-				//Vector2 start = map.TileToWorld( currentPath[currNode].x, currentPath[currNode].y);
-				//Vector2 end = map.TileToWorld( currentPath[currNode + 1].x, currentPath[currNode + 1].y);
-
-				//Debug.DrawLine(start, end, Color.cyan); // track path
-
-				currNode++;
-			}
-            temp_list2 = currentPath;
+		if (currentPath != null && unit_queue1.Count != 0) {
 			MoveNextTile();
 		}
 	}
+
+    public void QueueAction(List<Node> queue_list1)
+    {
+        unit_queue1.Enqueue(queue_list1);
+    }
 
     //Move to nextTile
 	public void MoveNextTile()//List<Node> temp_list)
 	{
 		this.gameObject.GetComponentInChildren<Waitress>().atPosition = false;
         List<Node> temp_path = new List<Node>();
-        temp_path = temp_list2;
+        temp_path = unit_queue1.Peek();
 		if (currentPath == null && temp_path == null) {
 			print ("null");
 			return;
 		}
-		if (mouseClicked){
+		if (unit_queue1.Count != 0){
             tileX = temp_path[1].x;
             tileY = temp_path[1].y;
             float real_tileX = tileX + (tileX * 0.5f);
@@ -124,7 +117,7 @@ public class Unit1 : MonoBehaviour {
             }
 			if (g_object1.transform.position.x == currentWayPoint.x && g_object1.transform.position.y == currentWayPoint.y)
 			{
-				temp_path.RemoveAt(0);
+                unit_queue1.Peek().RemoveAt(0);
 			}
 			if (temp_path.Count == 1)
 			{
@@ -133,7 +126,12 @@ public class Unit1 : MonoBehaviour {
 				down_up = "";
 				print("Succesfully at destination");
 				_animator.SetInteger(_bat_animState, 0);
-				mouseClicked = false;
+                //mouseClicked = false;
+                unit_queue1.Dequeue();
+                if (unit_queue1.Count == 0)
+                {
+                    unit_queue1.Clear();
+                }
 			}
 
 		}

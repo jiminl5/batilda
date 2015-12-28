@@ -12,9 +12,7 @@ public class MoveableTile : MonoBehaviour {
 	public GameObject[] food_plates;
 	GameObject[] blk_tile;
 	GameObject[] red_tile;
-
-	bool chef_move;
-
+    
 	void Start()
 	{
 		Setup_Tile ();
@@ -40,11 +38,18 @@ public class MoveableTile : MonoBehaviour {
 	{
 		for (int i = 0; i < red_tile.Length; i++) {
 			red_tile[i].GetComponent<BoxCollider2D>().enabled = true;
-		}
-		for (int j = 0; j < blk_tile.Length; j++) {
+
+            // Disable Unecessary tiles ----------------
+            if (red_tile[i].transform.position.y >= 7)
+                red_tile[i].SetActive(false);
+            else if ((red_tile[i].transform.position.x > 7.5f && red_tile[i].transform.position.x < 15f)
+                        && !(red_tile[i].transform.position.y == 2 || red_tile[i].transform.position.y == 6))
+                red_tile[i].SetActive(false);
+        }
+        for (int j = 0; j < blk_tile.Length; j++) {
 			blk_tile[j].GetComponent<BoxCollider2D>().enabled = true;
 
-			// Disable Unecessary tiles
+			// Disable Unecessary tiles ----------------
 			if (blk_tile[j].transform.position.y >= 7)
 				blk_tile[j].SetActive(false);
 			else if ((blk_tile[j].transform.position.x > 0 && blk_tile[j].transform.position.x < 7.5f)
@@ -80,7 +85,7 @@ public class MoveableTile : MonoBehaviour {
 		//CHEF
 		print ("mtX: " + mtX + ", mtY: " + mtY);
 		//GameObject.FindGameObjectWithTag ("Player").GetComponent<Chef> ().atPosition = false;
-		if (Unit.unit_queue.Count <= 20 && Chef.obj_queue.Count <= 20) {
+		if ((Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10) && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10)) {
 			if (mtX < 5) {
                 // left shelf
                 if (mtX == 0 && (mtY >= 0 && mtY <= 6))
@@ -91,24 +96,18 @@ public class MoveableTile : MonoBehaviour {
                         map.GeneratePathTo(mtX + 1, mtY - 1);
                     else
                         map.GeneratePathTo(mtX + 1, mtY);
-                    //Unit.mouseClicked = true; // Trigger movement
                 }
                 // bottom shelf
                 else if (mtY == 0 && (mtX >= 1 && mtX <= 4))
                 {
                     map.GeneratePathTo(mtX, mtY + 1);
-                    //Unit.mouseClicked = true; // Trigger movement
                 }
                 // top shelf
                 else if (mtY == 6 && (mtX >= 1 && mtX < 5))
                 {
-                    //				if (mtX == 5)
-                    //					map.GeneratePathTo (mtX - 1, mtY - 1);
-                    //				else
                     map.GeneratePathTo(mtX, mtY - 1);
-                    //Unit.mouseClicked = true; // Trigger movement
                 }
-                else if (mtY == 4 && mtX == 2) // BREAD TABLE
+                else if (mtY == 4 && mtX == 2) // Grill
                 {
                     map.GeneratePathTo(mtX - 1, mtY);
                 }
@@ -147,18 +146,26 @@ public class MoveableTile : MonoBehaviour {
 				if (map1 != null && mtY == 6)
 				{
 					map1.GeneratePathTo(6, mtY - 1);
-					Unit1.mouseClicked = true;
-					Waitress.clicked = true;
+					//Unit1.mouseClicked = true;
+					//Waitress.clicked = true;
 					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
 					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
-				}
+                    if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null)
+                        Waitress.obj_queue1.Enqueue(GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition());
+                    else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null)
+                        Waitress.obj_queue1.Enqueue(GameObject.Find("Null_Object"));
+                }
                 else if (map1 != null)
                 {
                     map1.GeneratePathTo(6, mtY);
-                    Unit1.mouseClicked = true;
-                    Waitress.clicked = true;
+                    //Unit1.mouseClicked = true;
+                    //Waitress.clicked = true;
                     GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtX = mtX;
                     GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtY = mtY;
+                    if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null)
+                        Waitress.obj_queue1.Enqueue(GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition());
+                    else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null)
+                        Waitress.obj_queue1.Enqueue(GameObject.Find("Null_Object"));
                 }
 			}
 			// Waitress
@@ -171,7 +178,7 @@ public class MoveableTile : MonoBehaviour {
 						map1.GeneratePathTo (mtX - 1, mtY - 1);
 					else
 						map1.GeneratePathTo (mtX, mtY - 1);
-					Unit1.mouseClicked = true;
+					//Unit1.mouseClicked = true;
 				}
 				// Right Shelf
 				else if (mtX == 10) {
@@ -179,7 +186,7 @@ public class MoveableTile : MonoBehaviour {
 						map1.GeneratePathTo (mtX - 1, mtY + 1);
 					else
 						map1.GeneratePathTo (mtX - 1, mtY);
-					Unit1.mouseClicked = true;
+					//Unit1.mouseClicked = true;
 				}
 				// Bottom Shelf
 				else if (mtY == 2) {
@@ -187,18 +194,22 @@ public class MoveableTile : MonoBehaviour {
 						map1.GeneratePathTo (mtX + 1, mtY + 1); // Corner
 					else
 						map1.GeneratePathTo (mtX, mtY + 1);
-					Unit1.mouseClicked = true;
+					//Unit1.mouseClicked = true;
 				}
-				Waitress.clicked = true;
+				//Waitress.clicked = true;
 				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
 				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
-				// Left Shelf -- MID TILE
-				//			else if (mtX == 5)
-				//			{
-				//				map1.GeneratePathTo(mtX + 1, mtY);
-				//				Unit1.mouseClicked = true;
-				//			}
-			}
+                if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null)
+                    Waitress.obj_queue1.Enqueue(GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition());
+                else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null)
+                    Waitress.obj_queue1.Enqueue(GameObject.Find("Null_Object"));
+                // Left Shelf -- MID TILE
+                //			else if (mtX == 5)
+                //			{
+                //				map1.GeneratePathTo(mtX + 1, mtY);
+                //				Unit1.mouseClicked = true;
+                //			}
+            }
 
 		} 
 		else

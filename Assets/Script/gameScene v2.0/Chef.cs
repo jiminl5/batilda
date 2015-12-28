@@ -34,70 +34,70 @@ public class Chef : MonoBehaviour {
 		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
 		//if (findGameObjectAtClickedPosition ()) {
 		if (obj_queue.Count > 0){
-		//GameObject go = findGameObjectAtClickedPosition ();
-		//Debug.Log (go);
-		//if (!clicked) {
-		//} else {
-//				Debug.Log (!string.IsNullOrEmpty(one_h));
-		//clicked = false;
-		//Debug.Log ("clicked");
-		if (atPosition && obj_queue.Peek ().GetComponent<cookingObject> ()) {
-			cookingAction (obj_queue.Peek ());	
-			obj_queue.Dequeue ();
-			atPosition = false;
-		} else if (atPosition && obj_queue.Peek ().GetComponent<ingredientObject> ()) {
-			ingredientAction (obj_queue.Peek ());
-			obj_queue.Dequeue ();
-			atPosition = false;
-		} else if (atPosition && obj_queue.Peek ().GetComponent<doughObject> ()) {
-			doughCreateAction (obj_queue.Peek ());
-			obj_queue.Dequeue ();
-			atPosition = false;
-		} else if (atPosition && obj_queue.Peek ().GetComponent<doughPickUp> ()) {
-			doughPickUpAction (obj_queue.Peek ());
-			obj_queue.Dequeue ();
-			atPosition = false;
-		} else if (atPosition && obj_queue.Peek ().GetComponent<dropOffPoint> ()) {
-			dropOffPointAction (obj_queue.Peek ());
-			obj_queue.Dequeue ();
-			atPosition = false;
-		} else if (atPosition && obj_queue.Peek ().GetComponent<Customer> ()) {
-			customerAction (obj_queue.Peek ());
-			obj_queue.Dequeue ();
-			atPosition = false;
-		} 
-		else if (atPosition && obj_queue.Peek().name == "Null_Object")
-		{
-				obj_queue.Dequeue();
-				atPosition = false;
-		}
-				//======================================================================
-				//NOTE: BELOW IS THE TRASH OBEJCT.
-				//======================================================================
-		else if (atPosition && obj_queue.Peek ().GetComponent<nameAndPosition> ().name == "trash") {
-			trashAction (obj_queue.Peek ());
-			obj_queue.Dequeue ();
-			atPosition = false;
-		}
-		//else {
-			//Debug.Log("didn't work!");
-			//Debug.Log(gameObject.tag);
-			//clicked = true;
-		//}
+		    //GameObject go = findGameObjectAtClickedPosition ();
+		    //Debug.Log (go);
+		    //if (!clicked) {
+		    //} else {
+    //				Debug.Log (!string.IsNullOrEmpty(one_h));
+		    //clicked = false;
+		    //Debug.Log ("clicked");
+		    if (atPosition && obj_queue.Peek ().GetComponent<cookingObject> ()) {
+			    cookingAction (obj_queue.Peek ());	
+			    obj_queue.Dequeue ();
+			    atPosition = false;
+		    } else if (atPosition && obj_queue.Peek ().GetComponent<ingredientObject> ()) {
+			    ingredientAction (obj_queue.Peek ());
+			    obj_queue.Dequeue ();
+			    atPosition = false;
+		    } else if (atPosition && obj_queue.Peek ().GetComponent<doughObject> ()) {
+			    doughCreateAction (obj_queue.Peek ());
+			    obj_queue.Dequeue ();
+			    atPosition = false;
+		    } else if (atPosition && obj_queue.Peek ().GetComponent<doughPickUp> ()) {
+			    doughPickUpAction (obj_queue.Peek ());
+			    obj_queue.Dequeue ();
+			    atPosition = false;
+		    } else if (atPosition && obj_queue.Peek ().GetComponent<dropOffPoint> ()) {
+			    dropOffPointAction (obj_queue.Peek ());
+			    obj_queue.Dequeue ();
+			    atPosition = false;
+		    } else if (atPosition && obj_queue.Peek ().GetComponent<Customer> ()) {
+			    customerAction (obj_queue.Peek ());
+			    obj_queue.Dequeue ();
+			    atPosition = false;
+		    } 
+		    else if (atPosition && obj_queue.Peek().name == "Null_Object")
+		    {
+				    obj_queue.Dequeue();
+				    atPosition = false;
+		    }
+				    //======================================================================
+				    //NOTE: BELOW IS THE TRASH OBEJCT.
+				    //======================================================================
+		    else if (atPosition && obj_queue.Peek ().GetComponent<nameAndPosition> ().name == "trash") {
+			    trashAction (obj_queue.Peek ());
+			    obj_queue.Dequeue ();
+			    atPosition = false;
+		    }
+		    //else {
+			    //Debug.Log("didn't work!");
+			    //Debug.Log(gameObject.tag);
+			    //clicked = true;
+		    //}
 
-		if (!string.IsNullOrEmpty (two_h) && string.IsNullOrEmpty (one_h)) {
-			one_h = two_h;
-			go_1h = Instantiate (go_2h, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
-			go_1h.transform.SetParent (gameObject.transform);
-			//------------------
-			Destroy (go_2h);
-			two_h = "";
-		}
-		animator.SetBool ("1_h", !string.IsNullOrEmpty (one_h));
-		animator.SetBool ("2_h", !string.IsNullOrEmpty (two_h));
+		    if (!string.IsNullOrEmpty (two_h) && string.IsNullOrEmpty (one_h)) {
+			    one_h = two_h;
+			    go_1h = Instantiate (go_2h, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+			    go_1h.transform.SetParent (gameObject.transform);
+			    //------------------
+			    Destroy (go_2h);
+			    two_h = "";
+		    }
+		    animator.SetBool ("1_h", !string.IsNullOrEmpty (one_h));
+		    animator.SetBool ("2_h", !string.IsNullOrEmpty (two_h));
 
-		//}
-		//}
+		    //}
+		    //}
 		}
 
 	}

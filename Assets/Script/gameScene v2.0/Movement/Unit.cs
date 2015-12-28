@@ -23,8 +23,6 @@ public class Unit : MonoBehaviour {
 	public List<Node> currentPath = null;
     public static List<Node> temp_list = null;
 
-    static int tmp_count;
-
     //public static bool mouseClicked = false;
 
     public GameObject g_object;
@@ -116,16 +114,6 @@ public class Unit : MonoBehaviour {
 					_animator.SetInteger(_chef_animState, 41);
 				else if (down_up.Equals("up") && g_object.transform.position.x < currentWayPoint.x && g_object.transform.position.y == currentWayPoint.y)
 					_animator.SetInteger(_chef_animState, 42);
-
-
-
-
-
-
-
-
-
-
 
 
 
