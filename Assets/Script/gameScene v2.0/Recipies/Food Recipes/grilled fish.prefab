@@ -42,7 +42,7 @@ MonoBehaviour:
   name: grilled fish food
   timeToMake: 7
   ingredient: fish
-  go: {fileID: 118534, guid: 8a8d009bd45fefc43af65eea19d081b2, type: 2}
+  go: {fileID: 108034, guid: 638d0b7eb48ca094b987c355e8f8cf21, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -53,7 +53,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: go
       value: 
-      objectReference: {fileID: 118534, guid: 8a8d009bd45fefc43af65eea19d081b2, type: 2}
+      objectReference: {fileID: 108034, guid: 638d0b7eb48ca094b987c355e8f8cf21, type: 2}
     - target: {fileID: 0}
       propertyPath: ingredient
       value: fish
