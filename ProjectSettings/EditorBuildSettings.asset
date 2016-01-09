@@ -11,7 +11,7 @@ EditorBuildSettings:
     path: Assets/Scenes/v1.0.unity
   - enabled: 0
     path: Assets/Scenes/options.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/levelSelect/levelSelect.unity
   - enabled: 0
     path: Assets/Scenes/levelSelect/month1/level1.unity
