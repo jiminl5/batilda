@@ -48,11 +48,15 @@ public class Level : MonoBehaviour {
 			else {
 				if (!_c1) {
 					customersServed++;
-					waitingForC1 = false;
+                    GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+
+                    waitingForC1 = false;
 				}
 				if (!_c2) {
 					customersServed++;
-					waitingForC2 = false;
+                    GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+
+                    waitingForC2 = false;
 				}
 			}
 
@@ -90,14 +94,20 @@ public class Level : MonoBehaviour {
 		if (!_c1) {
 			_c1 = Instantiate (c1);
 			customersServed++;
-			//_c1.GetComponent<Customer>().alive = true;
-			waitingForC1 = true;
+            //_c1.GetComponent<Customer>().alive = true;
+            //Added by Jimmy 2016/01/10
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+
+            waitingForC1 = true;
 		} else if (!_c2) {
 			_c2 = Instantiate (c2);
 			customersServed++;
-			//_c2.GetComponent<Customer>().alive = true;
-			waitingForC2 = true;
-		}
+            //_c2.GetComponent<Customer>().alive = true;
+            //Added by Jimmy 2016/01/10
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+
+            waitingForC2 = true;
+        }
 				
 	}
 
