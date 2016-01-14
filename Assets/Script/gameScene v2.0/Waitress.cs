@@ -74,28 +74,21 @@ public class Waitress : MonoBehaviour {
                 atPosition = false;
             }
 
-            //Need comment - Maybe trash????
-            else if (atPosition) {
-					
-				if (!string.IsNullOrEmpty (two_h)) {
-					two_h = "";
-					Destroy (go_2h);
-				}
-				else if (!string.IsNullOrEmpty (one_h)) {
-					one_h = "";
-					Destroy (go_1h);
-				} 
-			}
-                
+            else if (atPosition && obj_queue1.Peek().GetComponent<nameAndPosition>().name == "trash")
+            {
+                trashAction(obj_queue1.Peek());
+                obj_queue1.Dequeue();
+                atPosition = false;
+            }
             //else {
-				//Debug.Log("didn't work!");
-				//Debug.Log(gameObject.tag);
-			//	clicked = true;
-			//}
+            //Debug.Log("didn't work!");
+            //Debug.Log(gameObject.tag);
+            //	clicked = true;
+            //}
 
 
-			//When 1H = empty and 2H has food.
-			if (!string.IsNullOrEmpty(two_h) && string.IsNullOrEmpty(one_h)) {
+            //When 1H = empty and 2H has food.
+            if (!string.IsNullOrEmpty(two_h) && string.IsNullOrEmpty(one_h)) {
 				one_h = two_h;
 				go_1h = Instantiate (go_2h, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
 				go_1h.transform.SetParent (gameObject.transform);
@@ -243,7 +236,24 @@ public class Waitress : MonoBehaviour {
             Debug.Log(one_h);
         }
     }
-	bool handsEmpty() {
+
+    void trashAction(GameObject go)
+    {
+        if (!string.IsNullOrEmpty(two_h))
+        {
+            two_h = "";
+            Destroy(go_2h);
+            go.GetComponent<Animator>().SetTrigger("trash_on");
+        }
+        else if (!string.IsNullOrEmpty(one_h))
+        {
+            one_h = "";
+            Destroy(go_1h);
+            go.GetComponent<Animator>().SetTrigger("trash_on");
+        }
+    }
+
+    bool handsEmpty() {
 		if (string.IsNullOrEmpty(one_h) && string.IsNullOrEmpty(two_h))
 			return true;
 		else

@@ -3,7 +3,6 @@ using System.Collections;
 
 public class doughPickUp : MonoBehaviour {
 	public int numberofDough;
-
 	private GameObject foodSprite;
 	// Use this for initialization
 	void Start () {
