@@ -3176,7 +3176,7 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1647807912}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
@@ -3574,6 +3574,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberofDough: 0
+  dough0: {fileID: 21300014, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
+  dough1: {fileID: 21300016, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
+  dough2: {fileID: 21300018, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
+  dough3: {fileID: 21300020, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
+  dough4: {fileID: 21300022, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
 --- !u!114 &1844661276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3712,6 +3717,117 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: .5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1 &1852617200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1852617205}
+  - 212: {fileID: 1852617204}
+  - 114: {fileID: 1852617203}
+  - 114: {fileID: 1852617202}
+  - 95: {fileID: 1852617201}
+  m_Layer: 0
+  m_Name: grill (1)
+  m_TagString: test
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1852617201
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852617200}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ce3e0aa08d2cf241a34df19a679a069, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1852617202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852617200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f3af22eb5c0e04aa2d1fe014cef05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food_cooking_name: 
+  recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
+  recipie2: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
+  start_cooking: 0
+  food_ready: 0
+  cookReady: 0
+  needsFurnace: 1
+  chef_1h: 
+  chef_2h: 
+  c: {r: 0, g: 1, b: 1, a: 1}
+  current_recipie: {fileID: 0}
+--- !u!114 &1852617203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852617200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  x: 2
+  y: 4
+  go: {fileID: 105256, guid: ead697c76d7e7084195424b10f54d071, type: 2}
+--- !u!212 &1852617204
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852617200}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300002, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
+  m_Color: {r: .713725507, g: .713725507, b: .713725507, a: 1}
+--- !u!4 &1852617205
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852617200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.00681639, y: .204829931, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1983592646}
+  m_RootOrder: 8
 --- !u!1 &1885335587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,6 +3995,7 @@ Transform:
   - {fileID: 2090094448}
   - {fileID: 376461789}
   - {fileID: 522387269}
+  - {fileID: 1852617205}
   m_Father: {fileID: 0}
   m_RootOrder: 9
 --- !u!1 &2020772239
@@ -4082,6 +4199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bcd07e7001449aaa10a5841e97e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadingScene: {fileID: 0}
+  LoadingAsset: {fileID: 0}
 --- !u!114 &2033789296
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -220,7 +220,7 @@ public class Waitress : MonoBehaviour {
         }
     }
 
-    void ingredientAction(GameObject go) // LOG
+    void ingredientAction(GameObject go)
     {
         Debug.Log("this is two_h: " + string.IsNullOrEmpty(two_h));
         if (string.IsNullOrEmpty(one_h))
@@ -231,9 +231,21 @@ public class Waitress : MonoBehaviour {
             //go_1h = temp_plate;
             go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
             go_1h.transform.SetParent(gameObject.transform);
-            go.GetComponent<Animator>().SetTrigger("log_pickup");
             //go_1h.gameObject.layer = 5;
             Debug.Log(one_h);
+
+        }
+        else if (string.IsNullOrEmpty(two_h))
+        {
+            //Debug.Log ("HELLO?????????????");
+            two_h = go.GetComponent<ingredientObject>().name;
+            //create go_2h
+            //go_2h = temp_plate;
+
+            go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+            //go_2h.gameObject.layer = 5;
+            go_2h.transform.SetParent(gameObject.transform);
+
         }
     }
 
