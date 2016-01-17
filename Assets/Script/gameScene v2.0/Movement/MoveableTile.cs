@@ -40,22 +40,27 @@ public class MoveableTile : MonoBehaviour {
 			red_tile[i].GetComponent<BoxCollider2D>().enabled = true;
 
             // Disable Unecessary tiles ----------------
-            if (red_tile[i].transform.position.y >= 7)
+            if (red_tile[i].transform.position.y >= 8)
+                red_tile[i].SetActive(false);
+            else if (red_tile[i].transform.position.x == 7.5f && red_tile[i].transform.position.y <= 2) // DISABLE MID RED TILE
                 red_tile[i].SetActive(false);
             else if ((red_tile[i].transform.position.x > 7.5f && red_tile[i].transform.position.x < 15f)
-                        && !(red_tile[i].transform.position.y == 2 || red_tile[i].transform.position.y == 6))
+                        && !(red_tile[i].transform.position.y == 2 || red_tile[i].transform.position.y == 6
+                         || red_tile[i].transform.position.y == 7))
                 red_tile[i].SetActive(false);
         }
         for (int j = 0; j < blk_tile.Length; j++) {
 			blk_tile[j].GetComponent<BoxCollider2D>().enabled = true;
 
-			// Disable Unecessary tiles ----------------
-			if (blk_tile[j].transform.position.y >= 7)
-				blk_tile[j].SetActive(false);
-			else if ((blk_tile[j].transform.position.x > 0 && blk_tile[j].transform.position.x < 7.5f)
-			         && (blk_tile[j].transform.position.y > 0 && blk_tile[j].transform.position.y < 6)
-			         && !(blk_tile[j].transform.position.y == 4 && blk_tile[j].transform.position.x == 3))
-				blk_tile[j].SetActive(false);
+            // Disable Unecessary tiles ----------------
+            if (blk_tile[j].transform.position.y >= 8)
+                blk_tile[j].SetActive(false);
+            else if (blk_tile[j].transform.position.y == 7 && blk_tile[j].transform.position.x == 0)
+                blk_tile[j].SetActive(false);
+            else if ((blk_tile[j].transform.position.x > 0 && blk_tile[j].transform.position.x < 7.5f)
+                     && (blk_tile[j].transform.position.y > 0 && blk_tile[j].transform.position.y < 6)
+                     && !(blk_tile[j].transform.position.y == 4 && blk_tile[j].transform.position.x == 3))
+                blk_tile[j].SetActive(false);
 		}
 		MidTileMoveable ();
 	}
@@ -103,8 +108,10 @@ public class MoveableTile : MonoBehaviour {
                     map.GeneratePathTo(mtX, mtY + 1);
                 }
                 // top shelf
-                else if (mtY == 6 && (mtX >= 1 && mtX < 5))
+                else if ((mtY == 6 || mtY == 7) && (mtX >= 1 && mtX < 5))
                 {
+                    if (mtY == 7)
+                        mtY -= 1;
                     map.GeneratePathTo(mtX, mtY - 1);
                 }
                 else if (mtY == 4 && mtX == 2) // Grill
@@ -120,10 +127,13 @@ public class MoveableTile : MonoBehaviour {
 				else if (GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().findGameObjectAtClickedPosition () == null)
 					Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
 			}
-			else if (mtX == 5 && mtY >= 3 && mtY <= 6) {
-                if (map != null && mtY == 6)
+			else if (mtX == 5 && mtY >= 0 && mtY <= 6) {
+                if (map != null && (mtY == 6 || mtY == 0))
                 {
-                    map.GeneratePathTo(4, mtY - 1);
+                    if (mtY == 6)
+                        map.GeneratePathTo(4, mtY - 1);
+                    else if (mtY == 0)
+                        map.GeneratePathTo(4, mtY + 1);
                     //Chef.clicked = true;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtX;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mtY;
@@ -169,9 +179,11 @@ public class MoveableTile : MonoBehaviour {
                 }
 			}
 			// Waitress
-			else if (mtX > 5 && mtY > 1 && mtY < 7) {
+			else if (mtX > 5 && mtY > 1 && mtY < 8) {
 				// Top Shelf
-				if (mtY == 6) {
+				if (mtY >= 6) {
+                    if (mtY == 7)
+                        mtY -= 1;
 					if (mtX == 5) //left corner
 						map1.GeneratePathTo (mtX + 1, mtY - 1);
 					else if (mtX == 10) // right corner

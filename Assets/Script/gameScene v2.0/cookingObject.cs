@@ -40,7 +40,8 @@ public class cookingObject : MonoBehaviour {
 	void Update () {
 		if (needsFurnace) {
 			bool furnaceOn = GameObject.Find ("furnace").GetComponent<Furnace> ().isOn;
-			if (cookReady && !food_ready && furnaceOn) {
+            this.GetComponent<Animator>().SetBool("furnaceOn", furnaceOn);
+            if (cookReady && !food_ready && furnaceOn) {
 				cooking (chef_1h);
 				cookReady = false;
 			}

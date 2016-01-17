@@ -74,28 +74,21 @@ public class Waitress : MonoBehaviour {
                 atPosition = false;
             }
 
-            //Need comment - Maybe trash????
-            else if (atPosition) {
-					
-				if (!string.IsNullOrEmpty (two_h)) {
-					two_h = "";
-					Destroy (go_2h);
-				}
-				else if (!string.IsNullOrEmpty (one_h)) {
-					one_h = "";
-					Destroy (go_1h);
-				} 
-			}
-                
+            else if (atPosition && obj_queue1.Peek().GetComponent<nameAndPosition>().name == "trash")
+            {
+                trashAction(obj_queue1.Peek());
+                obj_queue1.Dequeue();
+                atPosition = false;
+            }
             //else {
-				//Debug.Log("didn't work!");
-				//Debug.Log(gameObject.tag);
-			//	clicked = true;
-			//}
+            //Debug.Log("didn't work!");
+            //Debug.Log(gameObject.tag);
+            //	clicked = true;
+            //}
 
 
-			//When 1H = empty and 2H has food.
-			if (!string.IsNullOrEmpty(two_h) && string.IsNullOrEmpty(one_h)) {
+            //When 1H = empty and 2H has food.
+            if (!string.IsNullOrEmpty(two_h) && string.IsNullOrEmpty(one_h)) {
 				one_h = two_h;
 				go_1h = Instantiate (go_2h, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
 				go_1h.transform.SetParent (gameObject.transform);
@@ -227,7 +220,7 @@ public class Waitress : MonoBehaviour {
         }
     }
 
-    void ingredientAction(GameObject go) // LOG
+    void ingredientAction(GameObject go)
     {
         Debug.Log("this is two_h: " + string.IsNullOrEmpty(two_h));
         if (string.IsNullOrEmpty(one_h))
@@ -238,12 +231,41 @@ public class Waitress : MonoBehaviour {
             //go_1h = temp_plate;
             go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
             go_1h.transform.SetParent(gameObject.transform);
-            go.GetComponent<Animator>().SetTrigger("log_pickup");
             //go_1h.gameObject.layer = 5;
             Debug.Log(one_h);
+
+        }
+        else if (string.IsNullOrEmpty(two_h))
+        {
+            //Debug.Log ("HELLO?????????????");
+            two_h = go.GetComponent<ingredientObject>().name;
+            //create go_2h
+            //go_2h = temp_plate;
+
+            go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+            //go_2h.gameObject.layer = 5;
+            go_2h.transform.SetParent(gameObject.transform);
+
         }
     }
-	bool handsEmpty() {
+
+    void trashAction(GameObject go)
+    {
+        if (!string.IsNullOrEmpty(two_h))
+        {
+            two_h = "";
+            Destroy(go_2h);
+            go.GetComponent<Animator>().SetTrigger("trash_on");
+        }
+        else if (!string.IsNullOrEmpty(one_h))
+        {
+            one_h = "";
+            Destroy(go_1h);
+            go.GetComponent<Animator>().SetTrigger("trash_on");
+        }
+    }
+
+    bool handsEmpty() {
 		if (string.IsNullOrEmpty(one_h) && string.IsNullOrEmpty(two_h))
 			return true;
 		else
