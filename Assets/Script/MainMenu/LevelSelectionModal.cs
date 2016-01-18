@@ -19,6 +19,16 @@ public class LevelSelectionModal : MonoBehaviour {
         StartCoroutine(LevelCoroutine(scene_name));
     }
 
+    public void activateWaitressTab()
+    {
+
+    }
+
+    public void activateChefTab()
+    {
+
+    }
+
     IEnumerator LevelCoroutine(string scene_name)
     {
         //LoadingScene.SetActive(true);
