@@ -1,47 +1,50 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class OpenSignAnim : MonoBehaviour
-{
+public class OpenSignAnim : MonoBehaviour {
 
-    private Rigidbody rb;
-    private BoxCollider bc;
-    private float fall_speed = -10.0f;
-
-    bool start = false;
-
-    private float pause_timer;
-
-    // Use this for initialization
-    void Start()
-    {
-        rb = this.GetComponent<Rigidbody>();
-        bc = this.GetComponent<BoxCollider>();
-        rb.velocity = new Vector3(0, fall_speed, 0);
-        start = true;
-        pause_timer = Time.time; // started time
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (this.gameObject.transform.position.y < 4.215f && this.gameObject.transform.position.x == 7.79999f && start)
+    private bool start = false;
+    private float count = 1.0f;
+    private bool up = false;
+    private float bounce_h = 7.5f;
+    private float drop_speed = 10.0f;
+    private float depth = 4.215f;
+    private float pause_time = 0.0001f;
+    private float unpause_time = 10000f;
+    private float pauseTimer;
+	// Use this for initialization
+	void Start () {
+        //start = true;
+        pauseTimer = 0.0f;
+        Time.timeScale = pause_time;
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	    if (this.gameObject.transform.position.y > depth && count < 4.0f && !up) //drop
         {
-            bc.enabled = false;
-            rb.detectCollisions = false;
-            rb.isKinematic = true;
-            Destroy(GameObject.Find("openSign_collider"));
-            start = false;
+            this.transform.Translate(Vector2.down * drop_speed * (Time.deltaTime * unpause_time));
+            if (this.gameObject.transform.position.y < depth)
+                up = true;
         }
-        else if (!start && ((pause_timer + 3.5f <= Time.time))) // pause about 3.5 seconds
+        if (up) //bounce up
         {
-            this.transform.Rotate(new Vector3(0, 0, 45) * Time.deltaTime);
-            this.transform.Translate(Vector3.right * 15.0f * Time.deltaTime); // Slide off speed 15.0f
-
-            if (this.gameObject.transform.position.x >= 20f)
+            this.transform.Translate(Vector2.up * drop_speed * (Time.deltaTime * unpause_time));
+            if (this.gameObject.transform.position.y > (bounce_h - count))
             {
+                up = false;
+                count++;
+            }
+        }
+        if (count == 4.0f && (pauseTimer + 2.5f <= Time.time * unpause_time))
+        {
+            this.transform.Rotate(new Vector3(0, 0, 45) * (Time.deltaTime * unpause_time));
+            this.transform.Translate(Vector2.right * drop_speed * (Time.deltaTime * unpause_time));
+            if (this.gameObject.transform.position.x >= 17.0f)
+            {
+                Time.timeScale = 1.0f;
                 Destroy(this.gameObject);
             }
         }
-    }
+	}
 }
