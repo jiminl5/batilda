@@ -58,6 +58,8 @@ MonoBehaviour:
   tileX: 0
   tileY: 0
   map: {fileID: 0}
+  left_right: 
+  down_up: 
   g_object: {fileID: 0}
 --- !u!114 &11474610
 MonoBehaviour:
@@ -74,6 +76,8 @@ MonoBehaviour:
   mtY: 0
   map: {fileID: 0}
   map1: {fileID: 0}
+  plates: []
+  food_plates: []
 --- !u!212 &21295706
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -97,7 +101,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 3c04aa156ac22cd4bb3c2c4ab5b5904d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
@@ -109,7 +113,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_LocalScale.x
