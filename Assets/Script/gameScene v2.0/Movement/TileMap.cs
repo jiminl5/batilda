@@ -28,12 +28,12 @@ public class TileMap : MonoBehaviour {
 		selectedUnit.GetComponent<Unit> ().tileY = (int)selectedUnit.transform.position.y;
 		//selectedUnit.GetComponent<Unit> ().map = this;
 
-		GenerateMapData ();
-		GeneratePathfindingGraph ();
-		GenerateMapVisual ();
+		//GenerateMapData ();
+		//GeneratePathfindingGraph ();
+		//GenerateMapVisual ();
 	}
 
-	void GenerateMapData()
+	public void GenerateMapData()
 	{
 		// Allocate map tiles
 		tiles = new int[mapSizeX, mapSizeY]; //instantiate
@@ -77,7 +77,7 @@ public class TileMap : MonoBehaviour {
 		return tt.walkable;
 	}
 
-	void GeneratePathfindingGraph()
+	public void GeneratePathfindingGraph()
 	{
 		//Data Structure
 		//Initialize the array
@@ -108,7 +108,7 @@ public class TileMap : MonoBehaviour {
 		}
 	}
 
-	void GenerateMapVisual()
+	public void GenerateMapVisual()
 	{
 		for (int x = 0; x < mapSizeX; x++) {
 			for (int y = 0; y < mapSizeY; y++) {

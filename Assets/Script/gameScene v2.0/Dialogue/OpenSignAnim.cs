@@ -46,6 +46,14 @@ public class OpenSignAnim : MonoBehaviour {
             if (this.gameObject.transform.position.x >= 17.0f)
             {
                 Time.timeScale = 1.0f;
+                //CHEF - tile
+                GameObject.Find("Map").GetComponent<TileMap>().GenerateMapData();
+                GameObject.Find("Map").GetComponent<TileMap>().GeneratePathfindingGraph();
+                GameObject.Find("Map").GetComponent<TileMap>().GenerateMapVisual();
+                //WAITRESS - tile
+                GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
+                GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
+                GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
                 Destroy(this.gameObject);
             }
         }
