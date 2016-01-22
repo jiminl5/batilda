@@ -11,9 +11,8 @@ public class stopWatchObject : MonoBehaviour {
 	private float displayMinutes;
 	
 	public bool not_cooking = true;
-	
 	public Image circleTimerIndicator;
-	
+
 	// Use this for initialization
 	void Awake () {
 		timeInSeconds = startTime;
@@ -30,7 +29,6 @@ public class stopWatchObject : MonoBehaviour {
 			if (timeInSeconds <= 0) {
 				print ("times up");
 				not_cooking = true;
-				
 			}
 		}
 	}

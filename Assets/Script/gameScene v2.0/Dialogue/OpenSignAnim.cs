@@ -43,7 +43,7 @@ public class OpenSignAnim : MonoBehaviour {
         {
             this.transform.Rotate(new Vector3(0, 0, 45) * (Time.deltaTime * unpause_time));
             this.transform.Translate(Vector2.right * drop_speed * (Time.deltaTime * unpause_time));
-            if (this.gameObject.transform.position.x >= 17.0f)
+            if (this.gameObject.transform.position.x >= 19.0f)
             {
                 Time.timeScale = 1.0f;
                 //CHEF - tile
