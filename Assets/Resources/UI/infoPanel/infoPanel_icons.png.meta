@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c6e1b643617a59646bef3a7fdb6ad80d
-timeCreated: 1452308234
+timeCreated: 1453496524
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -71,182 +71,182 @@ TextureImporter:
     - name: infoPanel_icons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1008
-        width: 164
-        height: 126
+        x: 36
+        y: 1044
+        width: 95
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_1
       rect:
         serializedVersion: 2
-        x: 164
-        y: 1008
-        width: 164
-        height: 126
+        x: 199
+        y: 1043
+        width: 97
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 882
-        width: 164
-        height: 126
+        x: 48
+        y: 912
+        width: 71
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_3
       rect:
         serializedVersion: 2
-        x: 164
-        y: 882
-        width: 164
-        height: 126
+        x: 211
+        y: 911
+        width: 73
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 756
-        width: 164
-        height: 126
+        x: 56
+        y: 790
+        width: 54
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_5
       rect:
         serializedVersion: 2
-        x: 164
-        y: 756
-        width: 164
-        height: 126
+        x: 218
+        y: 788
+        width: 57
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 630
-        width: 164
-        height: 126
+        x: 4
+        y: 652
+        width: 156
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_7
       rect:
         serializedVersion: 2
-        x: 164
-        y: 630
-        width: 164
-        height: 126
+        x: 167
+        y: 651
+        width: 158
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 504
-        width: 164
-        height: 126
+        x: 38
+        y: 526
+        width: 87
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_9
       rect:
         serializedVersion: 2
-        x: 164
-        y: 504
-        width: 164
-        height: 126
+        x: 201
+        y: 526
+        width: 89
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 378
-        width: 164
-        height: 126
+        x: 31
+        y: 402
+        width: 90
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_11
       rect:
         serializedVersion: 2
-        x: 164
-        y: 378
-        width: 164
-        height: 126
+        x: 194
+        y: 401
+        width: 92
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 252
-        width: 164
-        height: 126
+        x: 36
+        y: 274
+        width: 89
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_13
       rect:
         serializedVersion: 2
-        x: 164
-        y: 252
-        width: 164
-        height: 126
+        x: 200
+        y: 274
+        width: 86
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 126
-        width: 164
-        height: 126
+        x: 4
+        y: 178
+        width: 156
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_15
       rect:
         serializedVersion: 2
-        x: 164
-        y: 126
-        width: 164
-        height: 126
+        x: 168
+        y: 179
+        width: 156
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 164
-        height: 126
+        x: 1
+        y: 49
+        width: 163
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: infoPanel_icons_17
       rect:
         serializedVersion: 2
         x: 164
-        y: 0
+        y: 47
         width: 164
-        height: 126
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
