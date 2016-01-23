@@ -11,7 +11,7 @@ GameObject:
   - 114: {fileID: 11448954}
   m_Layer: 0
   m_Name: fish stew
-  m_TagString: Untagged
+  m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,9 +39,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  timeToMake: 0
-  ingredient: 
+  name: fish stew food
+  timeToMake: 7
+  ingredient: fish
   finishedDish: {fileID: 153272, guid: af3f7b789cabc464f8964ba87454794a, type: 2}
   go: {fileID: 150140, guid: 851cf2cfb614b0a47811576a8590db28, type: 2}
 --- !u!1001 &100100000
@@ -59,6 +59,22 @@ Prefab:
       propertyPath: go
       value: 
       objectReference: {fileID: 150140, guid: 851cf2cfb614b0a47811576a8590db28, type: 2}
+    - target: {fileID: 0}
+      propertyPath: ingredient
+      value: fish
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: name
+      value: fish stew food
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: timeToMake
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 188730}

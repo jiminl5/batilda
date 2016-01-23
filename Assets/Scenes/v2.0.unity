@@ -760,17 +760,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   food_cooking_name: 
-  recipie1: {fileID: 0}
-  recipie2: {fileID: 0}
+  recipie1: {fileID: 11448954, guid: 71055f5ff0bf87d4ea594f0229ee5297, type: 2}
+  recipie2: {fileID: 11430034, guid: 1a81fa525a7a1d147b7a0d9dc67cb57d, type: 2}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
-  needsFurnace: 0
+  needsFurnace: 1
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 0, b: 0, a: 0}
-  cookingSpriteIdle: {fileID: 0}
-  cookingSprite: {fileID: 0}
+  cookingSpriteIdle: {fileID: 100134, guid: e0456ca16e7039345af22c344f2c52d8, type: 2}
+  cookingSprite: {fileID: 162502, guid: e2c81a2f4af9e2a40a678ce655c4c23d, type: 2}
   current_recipie: {fileID: 0}
 --- !u!114 &376461791
 MonoBehaviour:
@@ -785,7 +785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   x: 3
-  y: 7
+  y: 6
   go: {fileID: 0}
 --- !u!95 &376461792
 Animator:

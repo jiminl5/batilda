@@ -34,13 +34,14 @@ public class Chef : MonoBehaviour {
 		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
 		//if (findGameObjectAtClickedPosition ()) {
 		if (obj_queue.Count > 0){
-            //GameObject go = findGameObjectAtClickedPosition ();
-            //Debug.Log (go);
+            GameObject go = findGameObjectAtClickedPosition ();
+            Debug.Log (go);
             //if (!clicked) {
             //} else {
             //				Debug.Log (!string.IsNullOrEmpty(one_h));
             //clicked = false;
             //Debug.Log ("clicked");
+
             if (atPosition && obj_queue.Peek().GetComponent<cookingObject>())
             {
                 cookingAction(obj_queue.Peek());
