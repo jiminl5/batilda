@@ -10,7 +10,7 @@ public class MainMenuDataHandler : MonoBehaviour {
     // Use this for initialization
     void Awake () {
         _coin = PlayerPrefs.GetInt("coin");
-        _coinTxt = GameObject.Find("/MainCanvas/Navbar/Background/CoinBtn/CoinAmt").GetComponent<Text>();
+        _coinTxt = GameObject.Find("/MainCanvas/Navbar/Background/CoinAmt").GetComponent<Text>();
         _coinTxt.text = _coin.ToString();
     }
 
