@@ -34,30 +34,45 @@ public class Chef : MonoBehaviour {
 		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
 		//if (findGameObjectAtClickedPosition ()) {
 		if (obj_queue.Count > 0){
-		    //GameObject go = findGameObjectAtClickedPosition ();
-		    //Debug.Log (go);
-		    //if (!clicked) {
-		    //} else {
-    //				Debug.Log (!string.IsNullOrEmpty(one_h));
-		    //clicked = false;
-		    //Debug.Log ("clicked");
-		    if (atPosition && obj_queue.Peek ().GetComponent<cookingObject> ()) {
-			    cookingAction (obj_queue.Peek ());	
+            //GameObject go = findGameObjectAtClickedPosition ();
+            //Debug.Log (go);
+            //if (!clicked) {
+            //} else {
+            //				Debug.Log (!string.IsNullOrEmpty(one_h));
+            //clicked = false;
+            //Debug.Log ("clicked");
+            if (atPosition && obj_queue.Peek().GetComponent<cookingObject>())
+            {
+                cookingAction(obj_queue.Peek());
+                obj_queue.Dequeue();
+                atPosition = false;
+            }
+            else if (atPosition && obj_queue.Peek().GetComponent<ingredientObject>())
+            {
+                ingredientAction(obj_queue.Peek());
+                obj_queue.Dequeue();
+                atPosition = false;
+            }
+            else if (atPosition && obj_queue.Peek().GetComponent<doughObject>())
+            {
+                doughCreateAction(obj_queue.Peek());
+                obj_queue.Dequeue();
+                atPosition = false;
+            }
+            else if (atPosition && obj_queue.Peek().GetComponent<doughPickUp>())
+            {
+                doughPickUpAction(obj_queue.Peek());
+                obj_queue.Dequeue();
+                atPosition = false;
+            } else if (atPosition && obj_queue.Peek ().GetComponent<cuttingObject> ()) {
+			    cuttingAction(obj_queue.Peek ());
 			    obj_queue.Dequeue ();
 			    atPosition = false;
-		    } else if (atPosition && obj_queue.Peek ().GetComponent<ingredientObject> ()) {
-			    ingredientAction (obj_queue.Peek ());
-			    obj_queue.Dequeue ();
-			    atPosition = false;
-		    } else if (atPosition && obj_queue.Peek ().GetComponent<doughObject> ()) {
-			    doughCreateAction (obj_queue.Peek ());
-			    obj_queue.Dequeue ();
-			    atPosition = false;
-		    } else if (atPosition && obj_queue.Peek ().GetComponent<doughPickUp> ()) {
-			    doughPickUpAction (obj_queue.Peek ());
-			    obj_queue.Dequeue ();
-			    atPosition = false;
-		    } else if (atPosition && obj_queue.Peek ().GetComponent<dropOffPoint> ()) {
+		    } else if (atPosition && obj_queue.Peek().GetComponent<cuttingPickUp>()) {
+                cuttingPickUpAction(obj_queue.Peek());
+                obj_queue.Dequeue();
+                atPosition = false;
+            } else if (atPosition && obj_queue.Peek ().GetComponent<dropOffPoint> ()) {
 			    dropOffPointAction (obj_queue.Peek ());
 			    obj_queue.Dequeue ();
 			    atPosition = false;
@@ -98,28 +113,6 @@ public class Chef : MonoBehaviour {
 
 		    //}
 		    //}
-		}
-
-	}
-
-	void OnTriggerEnter2D (Collider2D other) {
-		if (other.gameObject.tag == "cookingObject") {
-			at_current_name = other.gameObject.GetComponent<cookingObject>().name;
-
-		} 
-		else if (other.gameObject.tag == "ingredientObject") {
-		at_current_name = other.gameObject.GetComponent<ingredientObject>().name;
-		}
-		else if (other.gameObject.tag == "dropOffPoint") {
-			at_current_name = other.gameObject.GetComponent<dropOffPoint>().name;
-
-		}
-		else if (other.gameObject.tag == "trash") {
-			at_current_name = "trash";
-		}
-		else {
-			at_current_name = "";
-
 		}
 
 	}
@@ -300,8 +293,82 @@ public class Chef : MonoBehaviour {
 			}
 		}
 	}
-	
-	void customerAction(GameObject go) {
+
+    void cuttingAction(GameObject go)
+    {
+        cuttingObject obj = go.GetComponent<cuttingObject>();
+        if (!obj.full && !obj.is_on)
+        {
+            if ((one_h == "carrot" || one_h == "onion" || one_h == "cheese"))
+            {
+                go.GetComponent<cuttingObject>().cutting = one_h;
+                go.GetComponent<cuttingObject>().is_cutting = true;
+                one_h = "";
+                Destroy(go_1h);
+            }
+            else if ((two_h == "carrot" || two_h == "onion" || two_h == "cheese"))
+            {
+                go.GetComponent<cuttingObject>().cutting = two_h;
+                go.GetComponent<cuttingObject>().is_cutting = true;
+                two_h = "";
+                Destroy(go_2h);
+            }
+        }
+        else if (!string.IsNullOrEmpty(obj.stored) && !obj.is_on)
+        {
+            if (string.IsNullOrEmpty(one_h))
+            {
+                one_h = obj.stored;
+                obj.stored = "";
+                obj.full = false;
+                go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                go_1h.transform.SetParent(gameObject.transform);
+                go.GetComponent<SpriteRenderer>().sprite = go.GetComponentInParent<cuttingObject>().c_empty;
+            }
+            else if (string.IsNullOrEmpty(two_h))
+            {
+                two_h = obj.stored;
+                obj.stored = "";
+                obj.full = false;
+                go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                go_2h.transform.SetParent(gameObject.transform);
+                go.GetComponent<SpriteRenderer>().sprite = go.GetComponentInParent<cuttingObject>().c_empty;
+            }
+        }
+    }
+
+    void cuttingPickUpAction(GameObject go)
+    {
+        if (!string.IsNullOrEmpty(go.GetComponent<cuttingPickUp>().stored))
+        {
+            if (string.IsNullOrEmpty(one_h))
+            {
+                one_h = go.GetComponent<cuttingPickUp>().stored;
+                go.GetComponent<cuttingPickUp>().stored = "";
+                go.GetComponent<cuttingPickUp>().full = false;
+                go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                go_1h.transform.SetParent(gameObject.transform);
+                go.GetComponent<SpriteRenderer>().sprite =  go.GetComponentInParent<cuttingObject>().c_empty;
+
+                go.GetComponentInParent<cuttingObject>().fullContainers -= 1;
+
+            }
+            else if (string.IsNullOrEmpty(two_h))
+            {
+                two_h = go.GetComponent<cuttingPickUp>().stored;
+                go.GetComponent<cuttingPickUp>().stored = "";
+                go.GetComponent<cuttingPickUp>().full = false;
+                go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                go_2h.transform.SetParent(gameObject.transform);
+                go.GetComponent<SpriteRenderer>().sprite = go.GetComponentInParent<cuttingObject>().c_empty;
+
+                go.GetComponentInParent<cuttingObject>().fullContainers -= 1;
+
+            }
+        }
+    }
+
+    void customerAction(GameObject go) {
 		//Debug.Log ("HEllO");
 		if (hand_with_Food () == "one_h") {
 			//update dropoffpoint food name
