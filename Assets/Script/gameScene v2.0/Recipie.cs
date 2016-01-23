@@ -6,7 +6,7 @@ public class Recipie : MonoBehaviour {
 	public int timeToMake;
 	//public int numberOfIngredients = 2;
 	public string ingredient;
-
+    public GameObject finishedDish;
 	//public ArrayList ingredients = new ArrayList();
 
 	public GameObject go;

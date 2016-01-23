@@ -70,9 +70,10 @@ public class cookingObject : MonoBehaviour {
 		Debug.Log ("food name = " + food_cooking_name);
 		this.GetComponent<Animator> ().SetBool ("on", false);
 		food_ready = true;
-		//update sprite;
-		foodSprite = Instantiate (this.GetComponent<nameAndPosition> ().go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
-	}
+        //update sprite;
+        foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
+        //foodSprite = Instantiate (this.GetComponent<nameAndPosition> ().go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+    }
 	
 	void cooking (string i1) {
 		//checks a list of recipies and sees what you can cook. 

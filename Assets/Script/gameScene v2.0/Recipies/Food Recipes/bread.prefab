@@ -42,6 +42,7 @@ MonoBehaviour:
   name: bread food
   timeToMake: 5
   ingredient: dough
+  finishedDish: {fileID: 147884, guid: 9b7138aee2d455447a4b652950a49de4, type: 2}
   go: {fileID: 124564, guid: 22a9e4f440698fb4db06888fb7b22ff2, type: 2}
 --- !u!1001 &100100000
 Prefab:
@@ -62,6 +63,10 @@ Prefab:
       propertyPath: name
       value: bread food
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: finishedDish
+      value: 
+      objectReference: {fileID: 147884, guid: 9b7138aee2d455447a4b652950a49de4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 185156}
