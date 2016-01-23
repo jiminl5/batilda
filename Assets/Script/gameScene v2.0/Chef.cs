@@ -33,9 +33,11 @@ public class Chef : MonoBehaviour {
 		//GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
 		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
 		//if (findGameObjectAtClickedPosition ()) {
-		if (obj_queue.Count > 0){
-            GameObject go = findGameObjectAtClickedPosition ();
-            Debug.Log (go);
+		if (obj_queue.Count > 0)
+        {
+            //GameObject go = findGameObjectAtClickedPosition ();
+            //Debug.Log (go);
+            //Debug.Log(obj_queue.Peek().tag);
             //if (!clicked) {
             //} else {
             //				Debug.Log (!string.IsNullOrEmpty(one_h));
