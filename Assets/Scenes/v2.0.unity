@@ -3510,6 +3510,8 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 1, b: 1, a: 1}
+  cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
+  cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
 --- !u!114 &1346362812
 MonoBehaviour:
@@ -3913,6 +3915,8 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: .749019623, g: .749019623, b: .749019623, a: 1}
+  cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
+  cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
 --- !u!114 &1477731513
 MonoBehaviour:
@@ -4842,6 +4846,8 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 1, b: 1, a: 1}
+  cookingSpriteIdle: {fileID: 0}
+  cookingSprite: {fileID: 0}
   current_recipie: {fileID: 0}
 --- !u!114 &1852617203
 MonoBehaviour:
