@@ -20,6 +20,10 @@ public class cookingObject : MonoBehaviour {
 	public Color c;
 
 	private GameObject foodSprite;
+    public GameObject cookingSpriteIdle;
+    private GameObject _cookingSpriteIdle;
+    public GameObject cookingSprite;
+    private GameObject _cookingSprite;
 	//public int x;
 	//public int y;
 
@@ -41,9 +45,13 @@ public class cookingObject : MonoBehaviour {
 		if (needsFurnace) {
 			bool furnaceOn = GameObject.Find ("furnace").GetComponent<Furnace> ().isOn;
             this.GetComponent<Animator>().SetBool("furnaceOn", furnaceOn);
+            if (!string.IsNullOrEmpty(chef_1h) && !_cookingSpriteIdle)
+            {
+                _cookingSpriteIdle = Instantiate(cookingSpriteIdle, transform.position, transform.rotation) as GameObject;
+            }
             if (cookReady && !food_ready && furnaceOn) {
 				cooking (chef_1h);
-				cookReady = false;
+                cookReady = false;
 			}
 		} else {
 			if (cookReady && !food_ready) {
@@ -72,6 +80,7 @@ public class cookingObject : MonoBehaviour {
 		food_ready = true;
         //update sprite;
         foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
+        Destroy(_cookingSprite);
         //foodSprite = Instantiate (this.GetComponent<nameAndPosition> ().go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
     }
 	
@@ -81,20 +90,23 @@ public class cookingObject : MonoBehaviour {
 		//and saves the name of the food thats cooking. save the 
 		//current time, and then wait how long it takes to make the food.
 		if (canCook(i1))
-			{
-				current_recipie = checkRecipies (i1);
-				food_cooking_name = current_recipie.name;
-				//Debug.Log (current_recipie.timeToMake);
-				StartCoroutine(ExecuteAfterDelay(current_recipie.timeToMake)); //wait for food to be done...
-				//Debug.Log ("food done!");
-				//food is done! animation here.
-				//food_ready = true;
+		{
+			current_recipie = checkRecipies (i1);
+			food_cooking_name = current_recipie.name;
+            //Debug.Log (current_recipie.timeToMake);
+            Destroy(_cookingSpriteIdle);
+            _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
+            chef_1h = "";
+            StartCoroutine(ExecuteAfterDelay(current_recipie.timeToMake)); //wait for food to be done...
+			//Debug.Log ("food done!");
+			//food is done! animation here.
+			//food_ready = true;
 
-			}
-			else
-			{
-				//can't cook anything!
-			}
+		}
+		else
+		{
+			//can't cook anything!
+		}
 
 
 
