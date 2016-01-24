@@ -48,7 +48,6 @@ public class Furnace : MonoBehaviour {
 	void checkForFirewood() {
 		if (hasFirewood) {
 			turnOn ();
-            source.Play();
 			currentTime = maxTime;
 			hasFirewood = false;
 		} else if (currentTime <= 0)

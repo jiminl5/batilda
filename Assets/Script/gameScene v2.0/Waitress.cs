@@ -10,6 +10,9 @@ public class Waitress : MonoBehaviour {
 	//public GameObject Player;
 	public GameObject go_1h;
 	public GameObject go_2h;
+
+    public AudioClip pickUpLogSFX;
+    private AudioSource source;
 	
 	public int mtX;
 	public int mtY;
@@ -23,6 +26,7 @@ public class Waitress : MonoBehaviour {
     void Start () {
 		animator = this.GetComponent<Animator>();
 		atPosition = true;
+        source = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -223,6 +227,12 @@ public class Waitress : MonoBehaviour {
     void ingredientAction(GameObject go)
     {
         Debug.Log("this is two_h: " + string.IsNullOrEmpty(two_h));
+        //SoundEffects - W
+        if(go.GetComponent<ingredientObject>().name == "firewood")
+        {
+            source.PlayOneShot(pickUpLogSFX);
+        }
+        //EndSoundEffects -W
         if (string.IsNullOrEmpty(one_h))
         {
             //Debug.Log ("test");
