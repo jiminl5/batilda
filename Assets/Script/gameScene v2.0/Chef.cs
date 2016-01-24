@@ -11,6 +11,10 @@ public class Chef : MonoBehaviour {
 	GameObject go_1h;
 	GameObject go_2h;
 
+    private AudioSource source;
+    public AudioClip pickUpPlateSFX;
+    public AudioClip dropOffPlateSFX;
+
 	public int mtX;
 	public int mtY;
 	public bool atPosition = true;
@@ -25,6 +29,7 @@ public class Chef : MonoBehaviour {
 	void Start () {
 		animator = this.GetComponent<Animator>();
 		atPosition = true;
+        source = GetComponent<AudioSource>();
 	}
 
 
@@ -46,12 +51,14 @@ public class Chef : MonoBehaviour {
 
             if (atPosition && obj_queue.Peek().GetComponent<cookingObject>())
             {
+                source.PlayOneShot(pickUpPlateSFX);
                 cookingAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 atPosition = false;
             }
             else if (atPosition && obj_queue.Peek().GetComponent<ingredientObject>())
             {
+                source.PlayOneShot(pickUpPlateSFX);
                 ingredientAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 atPosition = false;
@@ -64,6 +71,7 @@ public class Chef : MonoBehaviour {
             }
             else if (atPosition && obj_queue.Peek().GetComponent<doughPickUp>())
             {
+                source.PlayOneShot(pickUpPlateSFX);
                 doughPickUpAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 atPosition = false;
@@ -76,6 +84,7 @@ public class Chef : MonoBehaviour {
                 obj_queue.Dequeue();
                 atPosition = false;
             } else if (atPosition && obj_queue.Peek ().GetComponent<dropOffPoint> ()) {
+                source.PlayOneShot(dropOffPlateSFX);
 			    dropOffPointAction (obj_queue.Peek ());
 			    obj_queue.Dequeue ();
 			    atPosition = false;
