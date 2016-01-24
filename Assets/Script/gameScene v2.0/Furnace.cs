@@ -5,17 +5,27 @@ public class Furnace : MonoBehaviour {
 	public bool isOn = false;
 	public bool hasFirewood = false;
 
+    public bool playFireLoop = false;
+
+    public AudioClip startFurnace;
+    private AudioSource source;
+
 	private float maxTime = 30;
 	private float currentTime;
 	// Use this for initialization
 	void Start () {
-	
+        source = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (isOn) {
 			currentTime -= Time.deltaTime;
+            if (currentTime <= maxTime - 12 & !playFireLoop)
+            {
+                playFireLoop = true;
+                source.Play();
+            }
 			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = true;
 		}
 		else if (!isOn) {
@@ -30,6 +40,7 @@ public class Furnace : MonoBehaviour {
 	}
 
 	void turnOn() {
+        source.PlayOneShot(startFurnace);
 		this.GetComponent<SpriteRenderer> ().color = Color.yellow;
 		isOn = true;
 	}
@@ -37,10 +48,13 @@ public class Furnace : MonoBehaviour {
 	void checkForFirewood() {
 		if (hasFirewood) {
 			turnOn ();
+            source.Play();
 			currentTime = maxTime;
 			hasFirewood = false;
-		} else if (currentTime <= 0) {
-			turnOff ();
+		} else if (currentTime <= 0)
+        {
+            source.Stop();
+            turnOff ();
 		}
 	}
 }
