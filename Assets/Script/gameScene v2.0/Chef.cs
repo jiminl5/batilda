@@ -49,62 +49,85 @@ public class Chef : MonoBehaviour {
             //clicked = false;
             //Debug.Log ("clicked");
 
-            if (atPosition && obj_queue.Peek().GetComponent<cookingObject>())
+            if ((atPosition && obj_queue.Peek().GetComponent<cookingObject>()) 
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<cookingObject>()))
             {
                 source.PlayOneShot(pickUpPlateSFX);
                 cookingAction(obj_queue.Peek());
                 obj_queue.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
                 atPosition = false;
             }
-            else if (atPosition && obj_queue.Peek().GetComponent<ingredientObject>())
+            else if ((atPosition && obj_queue.Peek().GetComponent<ingredientObject>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<ingredientObject>()))
             {
                 source.PlayOneShot(pickUpPlateSFX);
                 ingredientAction(obj_queue.Peek());
                 obj_queue.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
                 atPosition = false;
             }
-            else if (atPosition && obj_queue.Peek().GetComponent<doughObject>())
+            else if ((atPosition && obj_queue.Peek().GetComponent<doughObject>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<doughObject>()))
             {
                 doughCreateAction(obj_queue.Peek());
                 obj_queue.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
                 atPosition = false;
             }
-            else if (atPosition && obj_queue.Peek().GetComponent<doughPickUp>())
+            else if ((atPosition && obj_queue.Peek().GetComponent<doughPickUp>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<doughPickUp>()))
             {
                 source.PlayOneShot(pickUpPlateSFX);
                 doughPickUpAction(obj_queue.Peek());
                 obj_queue.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
                 atPosition = false;
-            } else if (atPosition && obj_queue.Peek ().GetComponent<cuttingObject> ()) {
+            } else if ((atPosition && obj_queue.Peek().GetComponent<cuttingObject>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<cuttingObject>()))
+            {
 			    cuttingAction(obj_queue.Peek ());
 			    obj_queue.Dequeue ();
 			    atPosition = false;
-		    } else if (atPosition && obj_queue.Peek().GetComponent<cuttingPickUp>()) {
+		    } else if ((atPosition && obj_queue.Peek().GetComponent<cuttingPickUp>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<cuttingPickUp>()))
+            {
                 cuttingPickUpAction(obj_queue.Peek());
                 obj_queue.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
                 atPosition = false;
-            } else if (atPosition && obj_queue.Peek ().GetComponent<dropOffPoint> ()) {
+            } else if ((atPosition && obj_queue.Peek().GetComponent<dropOffPoint>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<dropOffPoint>()))
+            {
                 source.PlayOneShot(dropOffPlateSFX);
 			    dropOffPointAction (obj_queue.Peek ());
 			    obj_queue.Dequeue ();
-			    atPosition = false;
-		    } else if (atPosition && obj_queue.Peek ().GetComponent<Customer> ()) {
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
+                atPosition = false;
+		    } else if ((atPosition && obj_queue.Peek().GetComponent<Customer>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<Customer>()))
+            {
 			    customerAction (obj_queue.Peek ());
 			    obj_queue.Dequeue ();
-			    atPosition = false;
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
+                atPosition = false;
 		    } 
-		    else if (atPosition && obj_queue.Peek().name == "Null_Object")
+		    else if ((atPosition && obj_queue.Peek().name == "Null_Object") 
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().name == "Null_Object"))
 		    {
 				    obj_queue.Dequeue();
+                    GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
 				    atPosition = false;
 		    }
 				    //======================================================================
 				    //NOTE: BELOW IS THE TRASH OBEJCT.
 				    //======================================================================
-		    else if (atPosition && obj_queue.Peek ().GetComponent<nameAndPosition> ().name == "trash") {
+		    else if ((atPosition && obj_queue.Peek ().GetComponent<nameAndPosition> ().name == "trash") 
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<nameAndPosition>().name == "trash")) {
 			    trashAction (obj_queue.Peek ());
 			    obj_queue.Dequeue ();
-			    atPosition = false;
+                GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
+                atPosition = false;
 		    }
 		    //else {
 			    //Debug.Log("didn't work!");

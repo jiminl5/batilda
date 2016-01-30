@@ -45,10 +45,18 @@ public class Unit : MonoBehaviour {
 		}
 	}
 
-	public void QueueAction(List<Node> queue_list)
+	public void QueueAction(List<Node> queue_list, bool check)
 	{
-		//Queue Action
-		unit_queue.Enqueue (queue_list);
+        //Queue Action
+        if (!check)
+        {
+            unit_queue.Enqueue(queue_list);
+        }
+        else if (check)
+        {
+            queue_list.RemoveRange(0, queue_list.Count - 2);
+            unit_queue.Enqueue(queue_list);
+        }
 	}
 
     //Move to nextTile

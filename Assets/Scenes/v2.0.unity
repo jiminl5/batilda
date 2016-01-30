@@ -2029,6 +2029,8 @@ MonoBehaviour:
     tileVisualPrefab: {fileID: 191002, guid: 3f838be7201069947a9d86594ad7fa89, type: 2}
     movementCost: 20
     walkable: 1
+  same_spot: 0
+  same_spot_queue: 0
 --- !u!4 &811475676
 Transform:
   m_ObjectHideFlags: 0

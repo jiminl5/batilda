@@ -21,6 +21,9 @@ public class TileMap : MonoBehaviour {
 	Node[,] graph;
 	Node source;
 
+    public bool same_spot = false;
+    public bool same_spot_queue = false;
+
     void Start()
 	{
 		// Setup Selected Unit's variable
@@ -148,6 +151,9 @@ public class TileMap : MonoBehaviour {
 			int temp_Y = selectedUnit.GetComponent<Unit> ().tileY;
 			if (temp_X == x && temp_Y == y) // when touched same tile
 			{
+                same_spot = true;
+                GameObject.Find("Unit").GetComponentInChildren<Chef>().atPosition = true;
+            /*
 				if (x == 4 && y == 5)
 				{
 					temp_X = temp_X - 1;
@@ -158,31 +164,33 @@ public class TileMap : MonoBehaviour {
 					temp_X = temp_X + 1;
 					temp_Y = temp_Y + 1;
 				}
+                */
 			}
+            
 			source = graph [temp_X,
 			                temp_Y];
-			//print (selectedUnit.GetComponent<Unit> ().tileX + "&&&&&&&&&&&&&&&&&&" +  selectedUnit.GetComponent<Unit> ().tileY);
 		} 
 		else if (Unit.unit_queue.Count >= 1) {
 			int temp_X = Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().x;
 			int temp_Y = Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().y;
 			if (temp_X == x && temp_Y == y) // when touched same tile
-			{	
-				if (x == 4 && y == 5)
-				{
-					temp_X = temp_X - 1;
-					temp_Y = temp_Y - 1;
-				}
-				else
-				{
-					temp_X = temp_X + 1;
-					temp_Y = temp_Y + 1;
-				}
-			}
+			{
+                same_spot = true;
+                same_spot_queue = true;
+                if (x == 4 && y == 5)
+                {
+                    temp_X = temp_X - 1;
+                    temp_Y = temp_Y - 1;
+                }
+                else
+                {
+                    temp_X = temp_X + 1;
+                    temp_Y = temp_Y + 1;
+                }
+            }
 			source = graph[temp_X, temp_Y];
-			//print (Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().x + "&&&&&&&&&&&&&&&&&&" +  Unit.unit_queue.ElementAt(Unit.unit_queue.Count - 1).Last().y);
 		}
-
+        
 		// Create a target node for diagonal shorter path
 		Node target = graph [x,y];
 
@@ -254,7 +262,15 @@ public class TileMap : MonoBehaviour {
 		currentPath.Reverse ();
 
 		selectedUnit.GetComponent<Unit> ().currentPath = currentPath;
-		selectedUnit.GetComponent<Unit> ().QueueAction (currentPath);
+        if (!same_spot_queue)
+        {
+            selectedUnit.GetComponent<Unit>().QueueAction(currentPath, same_spot_queue);
+        }
+        else if (same_spot_queue)
+        {
+            selectedUnit.GetComponent<Unit>().QueueAction(currentPath, same_spot_queue);
+            same_spot_queue = false;
+        }
 	}
 }
 
