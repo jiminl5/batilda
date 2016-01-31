@@ -122,15 +122,16 @@ public class MoveableTile : MonoBehaviour {
 				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
                 //QUEUE ACTION
                 if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null
-                    || GameObject.Find("Map").GetComponent<TileMap>().same_spot)
+                || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null))
                 {
                     Chef.obj_queue.Enqueue(GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition());
                 }
-                else if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null)
+                else if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null
+                || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null))
                 {
                     Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
                 }
-			}
+            }
 			else if (mtX == 5 && mtY >= 0 && mtY <= 6) {
                 if (map != null && (mtY == 6 || mtY == 0))
                 {
@@ -142,12 +143,13 @@ public class MoveableTile : MonoBehaviour {
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtX;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mtY;
                     if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null
-                    || GameObject.Find("Map").GetComponent<TileMap>().same_spot)
+                    || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null))
                     {
                         Chef.obj_queue.Enqueue(GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition());
                        // GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
                     }
-                    else if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null)
+                    else if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null
+                    || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null))
                     {
                         Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
                     }
@@ -159,12 +161,13 @@ public class MoveableTile : MonoBehaviour {
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtX;
                     GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mtY;
                     if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null
-                    || GameObject.Find("Map").GetComponent<TileMap>().same_spot)
+                    || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null))
                     {
                         Chef.obj_queue.Enqueue(GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition());
                         //GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
                     }
-                    else if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null)
+                    else if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null
+                    || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null))
                     {
                         Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
                     }
@@ -177,11 +180,12 @@ public class MoveableTile : MonoBehaviour {
 					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
 					GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
                     if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null
-                    || GameObject.Find("Map").GetComponent<TileMap1>().same_spot)
+                    || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null))
                     {
                         Waitress.obj_queue1.Enqueue(GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition());
                     }
-                    else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null)
+                    else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null
+                    || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null))
                     {
                         Waitress.obj_queue1.Enqueue(GameObject.Find("Null_Object"));
                     }
@@ -194,11 +198,12 @@ public class MoveableTile : MonoBehaviour {
                     GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtX = mtX;
                     GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtY = mtY;
                     if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null
-                    || GameObject.Find("Map").GetComponent<TileMap1>().same_spot)
+                    || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null))
                     {
                         Waitress.obj_queue1.Enqueue(GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition());
                     }
-                    else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null)
+                    else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null
+                    || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null))
                     {
                         Waitress.obj_queue1.Enqueue(GameObject.Find("Null_Object"));
                     }
@@ -238,11 +243,12 @@ public class MoveableTile : MonoBehaviour {
 				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtX = mtX;
 				GameObject.FindGameObjectWithTag ("Waitress").GetComponent<Waitress> ().mtY = mtY;
                 if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null
-                || GameObject.Find("Map").GetComponent<TileMap1>().same_spot)
+                || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null))
                 {
                     Waitress.obj_queue1.Enqueue(GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition());
                 }
-                else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null)
+                else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null
+                || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null))
                 {
                     Waitress.obj_queue1.Enqueue(GameObject.Find("Null_Object"));
                 }

@@ -21,3 +21,5 @@ EditorBuildSettings:
     path: Assets/Scenes/v2.0.unity
   - enabled: 1
     path: Assets/Scenes/upgradeShop.unity
+  - enabled: 1
+    path: Assets/Scenes/gameResult.unity

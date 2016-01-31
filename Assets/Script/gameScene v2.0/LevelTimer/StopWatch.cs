@@ -33,6 +33,11 @@ public class StopWatch : MonoBehaviour {
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin();
             }
 		}
+        if (finished)
+        {
+            if (GameObject.Find("close") == null)
+                Application.LoadLevel("gameResult");
+        }
     }
 	
 	// Update is called once per frame

@@ -115,6 +115,8 @@ public class Chef : MonoBehaviour {
 		    else if ((atPosition && obj_queue.Peek().name == "Null_Object") 
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().name == "Null_Object"))
 		    {
+                    //if (obj_queue.Count > 1 && obj_queue.)
+                        
 				    obj_queue.Dequeue();
                     GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
 				    atPosition = false;
