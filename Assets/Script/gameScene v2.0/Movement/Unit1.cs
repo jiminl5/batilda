@@ -43,9 +43,17 @@ public class Unit1 : MonoBehaviour {
 		}
 	}
 
-    public void QueueAction(List<Node> queue_list1)
+    public void QueueAction(List<Node> queue_list1, bool check)
     {
-        unit_queue1.Enqueue(queue_list1);
+        if (!check)
+        {
+            unit_queue1.Enqueue(queue_list1);
+        }
+        else if (check)
+        {
+            queue_list1.RemoveRange(0, queue_list1.Count - 2);
+            unit_queue1.Enqueue(queue_list1);
+        }
     }
 
     //Move to nextTile

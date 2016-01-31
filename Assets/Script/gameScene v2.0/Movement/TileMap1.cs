@@ -21,6 +21,9 @@ public class TileMap1 : MonoBehaviour {
 	Node[,] graph;
 	Node source;
 
+    public bool same_spot = false;
+    public bool same_spot_queue = false;
+
     void Start()
 	{
 		// Setup Selected Unit's variable
@@ -139,8 +142,8 @@ public class TileMap1 : MonoBehaviour {
             int temp_Y = selectedUnit1.GetComponent<Unit1>().tileY;
             if (temp_X == x && temp_Y == y)
             {
-                temp_X = temp_X + 1;
-                temp_Y = temp_Y + 1;
+                same_spot = true;
+                GameObject.Find("Unit1").GetComponentInChildren<Waitress>().atPosition = true;
             }
             source = graph[temp_X, temp_Y];
         }
@@ -150,14 +153,13 @@ public class TileMap1 : MonoBehaviour {
             int temp_Y = Unit1.unit_queue1.ElementAt(Unit1.unit_queue1.Count - 1).Last().y;
             if (temp_X == x && temp_Y == y)
             {
+                same_spot = true;
+                same_spot_queue = true;
                 temp_X = temp_X + 1;
                 temp_Y = temp_Y + 1;
             }
             source = graph[temp_X, temp_Y];
         }
-
-		//source = graph [selectedUnit1.GetComponent<Unit1> ().tileX,
-		//                selectedUnit1.GetComponent<Unit1> ().tileY];
 
 		Node target = graph [x,y];
 
@@ -229,7 +231,15 @@ public class TileMap1 : MonoBehaviour {
 		currentPath.Reverse ();
         
 		selectedUnit1.GetComponent<Unit1> ().currentPath = currentPath;
-        selectedUnit1.GetComponent<Unit1>().QueueAction(currentPath);
+        if (!same_spot_queue)
+        {
+            selectedUnit1.GetComponent<Unit1>().QueueAction(currentPath, same_spot_queue);
+        }
+        else if (same_spot_queue)
+        {
+            selectedUnit1.GetComponent<Unit1>().QueueAction(currentPath, same_spot_queue);
+            same_spot_queue = false;
+        }
 	}
 }
 

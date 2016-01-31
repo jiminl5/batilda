@@ -44,44 +44,58 @@ public class Waitress : MonoBehaviour {
 				//clicked = false;
 				//Debug.Log ("clicked");
 
-			if (atPosition && obj_queue1.Peek().GetComponent<drinkObject>() ) {
+			if ((atPosition && obj_queue1.Peek().GetComponent<drinkObject>() )
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<drinkObject>())) {
                 drinkAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
             }
 
-			else if (atPosition && obj_queue1.Peek().GetComponent<Furnace>()) {
+			else if ((atPosition && obj_queue1.Peek().GetComponent<Furnace>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<Furnace>())) {
                 furnaceAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;    
 			}
 
-			else if (atPosition && obj_queue1.Peek().GetComponent<dropOffPoint>()) {
+			else if ((atPosition && obj_queue1.Peek().GetComponent<dropOffPoint>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<dropOffPoint>())) {
                 dropOffPointAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
 			} 
-            else if (atPosition && obj_queue1.Peek().GetComponent<ingredientObject>()) {
+            else if ((atPosition && obj_queue1.Peek().GetComponent<ingredientObject>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<ingredientObject>())) {
                 ingredientAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
 			} 
-            else if (atPosition && obj_queue1.Peek().GetComponent<Customer>()) {
+            else if ((atPosition && obj_queue1.Peek().GetComponent<Customer>())
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<Customer>())) {
                 customerAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
 			} 
 
-            else if (atPosition && obj_queue1.Peek().name == "Null_Object")
+            else if ((atPosition && obj_queue1.Peek().name == "Null_Object")
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().name == "Null_Object"))
             {
                 obj_queue1.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
             }
 
-            else if (atPosition && obj_queue1.Peek().GetComponent<nameAndPosition>().name == "trash")
+            else if ((atPosition && obj_queue1.Peek().GetComponent<nameAndPosition>().name == "trash")
+            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<nameAndPosition>().name == "trash"))
             {
                 trashAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
             }
             //else {

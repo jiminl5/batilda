@@ -62,7 +62,6 @@ public class Unit : MonoBehaviour {
     //Move to nextTile
 	public void MoveNextTile()
 	{
-		//print ("HI: " + unit_queue.Count);
 		this.gameObject.GetComponentInChildren<Chef>().atPosition = false;
         List<Node> temp_path = new List<Node>();
 		temp_path = unit_queue.Peek ();//temp_list;
@@ -70,7 +69,7 @@ public class Unit : MonoBehaviour {
 			print ("null");
 			return;
 		}
-		if (unit_queue.Count != 0){//mouseClicked){
+		if (unit_queue.Count != 0){
             tileX = temp_path[1].x;
             tileY = temp_path[1].y;
             float real_tileX = tileX + (tileX * 0.5f);

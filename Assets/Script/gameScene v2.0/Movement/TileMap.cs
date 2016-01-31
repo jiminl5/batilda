@@ -177,16 +177,8 @@ public class TileMap : MonoBehaviour {
 			{
                 same_spot = true;
                 same_spot_queue = true;
-                if (x == 4 && y == 5)
-                {
-                    temp_X = temp_X - 1;
-                    temp_Y = temp_Y - 1;
-                }
-                else
-                {
-                    temp_X = temp_X + 1;
-                    temp_Y = temp_Y + 1;
-                }
+                temp_X = temp_X + 1;
+                temp_Y = temp_Y + 1;
             }
 			source = graph[temp_X, temp_Y];
 		}
