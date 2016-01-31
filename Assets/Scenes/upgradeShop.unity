@@ -3684,6 +3684,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 739746862}
   - 82: {fileID: 739746861}
+  - 114: {fileID: 739746863}
   m_Layer: 0
   m_Name: UpgradeSoundtrack
   m_TagString: Untagged
@@ -3773,6 +3774,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &739746863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 739746860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9e1d5416746fb419d9e7bf12e8859c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &800511830
 GameObject:
   m_ObjectHideFlags: 0
@@ -4376,7 +4388,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 5
     m_MaxSize: 60
-    m_Alignment: 2
+    m_Alignment: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
@@ -5741,7 +5753,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1110994331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10343,7 +10355,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 5
     m_MaxSize: 60
-    m_Alignment: 2
+    m_Alignment: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0

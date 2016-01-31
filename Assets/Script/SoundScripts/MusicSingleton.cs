@@ -2,7 +2,12 @@
 using System.Collections;
 
 public class MusicSingleton : MonoBehaviour {
+    private static bool new_level_loaded = false;
+    private static float fade_song_speed = .35f;
 
+    private static int scene_level_num;
+    private AudioClip this_levels_audio_clip;
+    private AudioClip level_loaded_audio_clip;
 
     private static MusicSingleton instance = null;
 
@@ -13,10 +18,17 @@ public class MusicSingleton : MonoBehaviour {
 
     void Awake()
     {
-        if (instance != null && instance != this) {
-            Destroy(this.gameObject);
+        int scene_level_num = Application.loadedLevel;
+        this_levels_audio_clip = this.gameObject.GetComponent<AudioSource>().clip;
+        print(this_levels_audio_clip.name);
+        if (instance != null && instance != this)
+        {
+            level_loaded_audio_clip = this.gameObject.GetComponent<AudioSource>().clip;
+            print(level_loaded_audio_clip.name);
             return;
-        } else {
+        }
+        else
+        {
             instance = this;
         }
         DontDestroyOnLoad(this.gameObject);
@@ -24,39 +36,24 @@ public class MusicSingleton : MonoBehaviour {
 
     void OnLevelWasLoaded(int level)
     {
-        float curr_time = Time.timeSinceLevelLoad;
-        float target_time = curr_time + 5f;
-        if (level == 1)
+        if (level != scene_level_num)
         {
-            while (curr_time < target_time)
-            {
-                this.gameObject.GetComponent<AudioSource>().volume -= Time.deltaTime;
-                curr_time += Time.deltaTime;
-            }
+            new_level_loaded = true;
         }
-
-        if (level == 2)
-        {
-            while ((this.gameObject.GetComponent<AudioSource>().volume > .1f))
-            {
-                this.gameObject.GetComponent<AudioSource>().volume -= .001f;
-
-            }
-
-        }
-
-        if (level == 3)
-        {
-            while ((this.gameObject.GetComponent<AudioSource>().volume > .1f))
-            {
-                this.gameObject.GetComponent<AudioSource>().volume -= .001f;
-          
-            }
-
-        }
-
     }
 
+    void Update()
+    {
+        if (new_level_loaded && this_levels_audio_clip != level_loaded_audio_clip)
+        {
+            this.gameObject.GetComponent<AudioSource>().volume -= fade_song_speed * Time.deltaTime;
+            if(this.gameObject.GetComponent<AudioSource>().volume <= 0)
+            {
+                new_level_loaded = false;
+                Destroy(this.gameObject);
+            }
+        }
+    }
 
 
 }
