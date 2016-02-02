@@ -50,13 +50,13 @@ public class cookingObject : MonoBehaviour {
                 _cookingSpriteIdle = Instantiate(cookingSpriteIdle, transform.position, transform.rotation) as GameObject;
             }
             if (!isCooking && !food_ready && furnaceOn) {
-                isCooking = true;
+                //isCooking = true;
                 cooking (chef_1h);
                 
 			}
 		} else {
 			if (!isCooking && !food_ready) {
-                isCooking = true;
+                //isCooking = true;
                 cooking (chef_1h);
 			}
 			//this.GetComponent<SpriteRenderer> ().color = c;
@@ -97,6 +97,7 @@ public class cookingObject : MonoBehaviour {
             Destroy(_cookingSpriteIdle);
             _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
             chef_1h = "";
+            isCooking = true;
             Invoke("cookFood", current_recipie.timeToMake); //wait for food to be done...
 			//Debug.Log ("food done!");
 			//food is done! animation here.
