@@ -12,7 +12,7 @@ public class cookingObject : MonoBehaviour {
 	public bool food_ready = false;
 	public bool cookReady = false;
 	public bool needsFurnace;
-	//public bool cooksFood;
+	public bool isCooking;
 
 	public string chef_1h;
 	public string chef_2h;
@@ -45,18 +45,19 @@ public class cookingObject : MonoBehaviour {
 		if (needsFurnace) {
 			bool furnaceOn = GameObject.Find ("furnace").GetComponent<Furnace> ().isOn;
             this.GetComponent<Animator>().SetBool("furnaceOn", furnaceOn);
-            if (!string.IsNullOrEmpty(chef_1h) && !_cookingSpriteIdle)
+            if (!string.IsNullOrEmpty(chef_1h) && !_cookingSpriteIdle && !isCooking)
             {
                 _cookingSpriteIdle = Instantiate(cookingSpriteIdle, transform.position, transform.rotation) as GameObject;
             }
-            if (cookReady && !food_ready && furnaceOn) {
-				cooking (chef_1h);
-                cookReady = false;
+            if (!isCooking && !food_ready && furnaceOn) {
+                isCooking = true;
+                cooking (chef_1h);
+                
 			}
 		} else {
-			if (cookReady && !food_ready) {
-				cooking (chef_1h);
-				cookReady = false;
+			if (!isCooking && !food_ready) {
+                isCooking = true;
+                cooking (chef_1h);
 			}
 			//this.GetComponent<SpriteRenderer> ().color = c;
 
@@ -66,22 +67,21 @@ public class cookingObject : MonoBehaviour {
 		}
 	}
 
-	IEnumerator ExecuteAfterDelay(float delay)
+	void cookFood()
 	{
 		//this.GetComponent<SpriteRenderer> ().color = Color.red;
 		this.GetComponent<Animator> ().SetBool ("on", true);
 		//this.GetComponent<stopWatchObject> ().startTime = delay;
 		//this.GetComponent<stopWatchObject> ().not_cooking = false;
-		yield return new WaitForSeconds(delay);
 		//this.GetComponent<SpriteRenderer> ().color = c;
 		Debug.Log ("food done!");
 		Debug.Log ("food name = " + food_cooking_name);
 		this.GetComponent<Animator> ().SetBool ("on", false);
-		food_ready = true;
+        isCooking = false;
+        food_ready = true;
         //update sprite;
         foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
         Destroy(_cookingSprite);
-        //foodSprite = Instantiate (this.GetComponent<nameAndPosition> ().go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
     }
 	
 	void cooking (string i1) {
@@ -97,7 +97,7 @@ public class cookingObject : MonoBehaviour {
             Destroy(_cookingSpriteIdle);
             _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
             chef_1h = "";
-            StartCoroutine(ExecuteAfterDelay(current_recipie.timeToMake)); //wait for food to be done...
+            Invoke("cookFood", current_recipie.timeToMake); //wait for food to be done...
 			//Debug.Log ("food done!");
 			//food is done! animation here.
 			//food_ready = true;
@@ -115,7 +115,10 @@ public class cookingObject : MonoBehaviour {
 	public bool canCook(string i1) {
 		//Debug.Log (i1);
 		//Debug.Log ("recipie 1 contains i1: " + recipie1.ingredient == i1);
-
+        if (isCooking)
+        {
+            return false;
+        }
 		//Debug.Log (recipie1.ingredients.Count );
 		if (i1 == "") {
 			return false;
