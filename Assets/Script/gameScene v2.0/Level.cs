@@ -50,11 +50,17 @@ public class Level : MonoBehaviour {
 					customersServed++;
                     GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
 
+                    //Link to Result page 2016-02-01
+                    PlayerPrefs.SetInt("temp_coin", customersServed);
+
                     waitingForC1 = false;
 				}
 				if (!_c2) {
 					customersServed++;
                     GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+
+                    //Link to Result page 2016-02-01
+                    PlayerPrefs.SetInt("temp_coin", customersServed);
 
                     waitingForC2 = false;
 				}

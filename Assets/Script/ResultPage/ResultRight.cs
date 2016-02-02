@@ -13,9 +13,15 @@ public class ResultRight : MonoBehaviour {
     //Trigger
     public bool Right_Set = false;
 
+    //Canvas
+    public GameObject right_canvas;
+
+    public bool countdown_ready = false;
+
     void Start()
     {
         Right_Set = false;
+        countdown_ready = false;
     }
 
     void Update()
@@ -24,5 +30,10 @@ public class ResultRight : MonoBehaviour {
             this.transform.Translate(Vector2.left * speed * Time.deltaTime);
         if (this.gameObject.transform.position.x <= expect_X)
             Right_Set = true;
+        if (Right_Set)
+        {
+            right_canvas.GetComponent<Canvas>().enabled = true;
+            countdown_ready = true;
+        }
     }
 }
