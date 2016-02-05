@@ -85,6 +85,19 @@ public class MoveableTile : MonoBehaviour {
 		}
 	}
 	
+    public void RemoveAllTileColliders()
+    {
+        for (int j = 0; j < red_tile.Length; j++)
+        {
+                red_tile[j].GetComponent<BoxCollider2D>().enabled = false;
+        }
+
+        for (int y = 0; y < blk_tile.Length; y++)
+        {
+                blk_tile[y].GetComponent<BoxCollider2D>().enabled = false;
+        }
+    }
+
 	void OnMouseDown()
 	{
 		//CHEF

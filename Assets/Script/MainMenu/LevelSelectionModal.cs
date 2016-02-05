@@ -42,6 +42,11 @@ public class LevelSelectionModal : MonoBehaviour {
         Application.Quit();
     }
 
+    public void getTutorial(string Tutorial)
+    {
+        PlayerPrefs.SetString("tutorial", Tutorial);
+    }
+
     void Update()
     {
         if (Input.GetKey("escape"))
