@@ -1,17 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Customer : MonoBehaviour {
 	bool hasFood = false;
 	bool waitingOnFood = false;
 	public string foodWaitingOn = "none";
-	Recipie current_food;
+	public Recipie current_food;
 	public string food_given;
 	private GameObject foodSprite;
-
+    public Queue<string> peasantFoodQueue;
 	// Use this for initialization
 	void Start () {
 		Instantiate(Resources.Load ("temp_particlesystem_pickup"), transform.position, transform.rotation);
+        /*peasantFoodQueue = new Queue<string>();
+        string[] peasantFoodList = PlayerPrefs.GetString("peasantFoodList").Split(';');
+        foreach (string food in peasantFoodList)
+        {
+            peasantFoodQueue.Enqueue(food);
+        }
+        findRecipe(peasantFoodQueue.Peek());*/
 	}
 	
 	// Update is called once per frame
@@ -20,11 +28,16 @@ public class Customer : MonoBehaviour {
 		//Debug.Log (waitingOnFood);
 		if (!hasFood) {
 			if (!waitingOnFood) {
-				StartCoroutine(ExecuteAfterDelay(Random.Range (0,5)));
-				//current_food = randomRecipe();
-				//foodWaitingOn = current_food.name;
-				//Debug.Log ("waiting on: " + foodWaitingOn);
-				waitingOnFood = true;
+                //StartCoroutine(ExecuteAfterDelay(Random.Range (0,5)));
+                //Debug.Log(peasantFoodQueue.Peek());
+                //current_food = findRecipe(peasantFoodQueue.Dequeue());
+                foodWaitingOn = current_food.name;
+                Debug.Log("waiting on: " + foodWaitingOn);
+                foodSprite = Instantiate(current_food.go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+                foodSprite.transform.parent = transform;
+                waitingOnFood = true;
+
+                waitingOnFood = true;
 			} else if (food_given == foodWaitingOn) {
 				if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().hand_with_Food() == "one_h" &&
 				    GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().one_h == foodWaitingOn)
@@ -72,4 +85,19 @@ public class Customer : MonoBehaviour {
 		Debug.Log (food_list [Random.Range (0, food_list.Length)].GetComponent<Recipie> ());
 		return food_list[Random.Range(0, food_list.Length)].GetComponent<Recipie>();
 	}
+
+    Recipie findRecipe (string food)
+    {
+        Debug.Log("Recipies/Food_Recipes/" + food);
+        //Object load = Resources.Load(food);
+        //GameObject load = AssetDatabase.LoadAssetAtPath("Assets/Resources/" + food, typeof(GameObject)) as GameObject;
+
+        GameObject load = Resources.Load("Recipies/Food_Recipes/" + food) as GameObject;
+        Debug.Log(load.name);
+        if (load == null)
+            Debug.Log("load not found");
+        //return load.GetComponent<Recipie>();
+        //Recipie testr = new Recipie();
+        return load.GetComponent<Recipie>();
+    }
 }
