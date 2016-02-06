@@ -41,7 +41,7 @@ public class CloseSignAnim : MonoBehaviour {
                     slide = true;
                 }
             }
-            if (slide && (((3.5f + end_time) <= Time.timeSinceLevelLoad) || GameObject.Find("levelHandler").GetComponent<levelHandler>().finished))
+            if (slide && ((3.5f + end_time) <= Time.timeSinceLevelLoad))
             {
                 this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
                 if (this.gameObject.transform.position.x >= 20)

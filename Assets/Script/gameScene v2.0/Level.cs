@@ -41,9 +41,9 @@ public class Level : MonoBehaviour {
 		if (!finished) {
 			finished = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished;
 			if (!waitingForC1 || !waitingForC2) {
-				int spawnTime = Random.Range (5, 10);
-				//Debug.Log ("THIS IS RANDOM RANGE::::: " + spawnTime);
-				Invoke("Spawn", spawnTime);
+				int test = Random.Range (5, 10);
+				//Debug.Log ("THIS IS RANDOM RANGE::::: " + test);
+				Invoke("Spawn", test);
 			}
 			else {
 				if (!_c1) {
@@ -76,6 +76,9 @@ public class Level : MonoBehaviour {
 			}
 
 
+//			if (string.IsNullOrEmpty(text)) {
+//				gameObject.SetActive(true)
+//			}
 		}
 
 

@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 478616}
   - 114: {fileID: 11417312}
   m_Layer: 0
-  m_Name: grilledMeat
+  m_Name: roast meat
   m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: grilled meat food
+  name: roast meat food
   timeToMake: 7
   ingredient: meat
   finishedDish: {fileID: 197676, guid: 424e7724d783962438685e6d220f3b5c, type: 2}
@@ -58,10 +58,6 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: food
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: name
-      value: grilled meat food
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
