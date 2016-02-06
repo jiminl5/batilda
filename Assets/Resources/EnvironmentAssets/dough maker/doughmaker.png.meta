@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 6f8b7ef4ae053bd49aed85e12850dbc4
+timeCreated: 1449579643
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: doughmaker_0
+    21300002: doughmaker_1
+    21300004: doughmaker_2
+    21300006: doughmaker_3
+    21300008: doughmaker_4
+    21300010: doughmaker_5
+    21300012: doughmaker_6
+    21300014: doughmaker_7
+    21300016: doughmaker_8
+    21300018: doughmaker_9
+    21300020: doughmaker_10
+    21300022: doughmaker_11
+    21300024: doughmaker_12
+    21300026: doughmaker_13
+    21300028: doughmaker_14
+    21300030: doughmaker_15
+    21300032: doughmaker_16
+    21300034: doughmaker_17
+    21300036: doughmaker_18
+    21300038: doughmaker_19
+    21300040: doughmaker_20
+    21300042: doughmaker_21
+    21300044: doughmaker_22
+    21300046: doughmaker_23
+    21300048: doughmaker_24
+    21300050: doughmaker_25
+    21300052: doughmaker_26
+    21300054: doughmaker_27
+    21300056: doughmaker_28
+    21300058: doughmaker_29
+    21300060: doughmaker_30
+    21300062: doughmaker_31
+    21300064: doughmaker_32
+    21300066: doughmaker_33
+    21300068: doughmaker_34
+    21300070: doughmaker_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: doughmaker_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1200
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1200
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1200
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1200
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 960
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 720
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 720
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 720
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 240
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_34
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: doughmaker_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: c5c4a8d622eaa3e44a5147d03b1fa6d8
+timeCreated: 1448400003
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dishes2_0
+    21300002: dishes2_1
+    21300004: dishes2_2
+    21300006: dishes2_3
+    21300008: dishes2_4
+    21300010: dishes2_5
+    21300012: dishes2_6
+    21300014: dishes2_7
+    21300016: dishes2_8
+    21300018: dishes2_9
+    21300020: dishes2_10
+    21300022: dishes2_11
+    21300024: dishes2_12
+    21300026: dishes2_13
+    21300028: dishes2_14
+    21300030: dishes2_15
+    21300032: dishes2_16
+    21300034: dishes2_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 175
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dishes2_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 661
+        width: 188
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 661
+        width: 201
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 661
+        width: 188
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 661
+        width: 188
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 448
+        width: 196
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 448
+        width: 196
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 448
+        width: 196
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 448
+        width: 196
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_8
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 448
+        width: 196
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 243
+        width: 198
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 243
+        width: 196
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 243
+        width: 198
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_12
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 243
+        width: 197
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_13
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 243
+        width: 199
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 191
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 24
+        width: 191
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 24
+        width: 191
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dishes2_17
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 46
+        width: 208
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
