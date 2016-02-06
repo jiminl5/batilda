@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 478616}
   - 114: {fileID: 11417312}
   m_Layer: 0
-  m_Name: roast meat
+  m_Name: grilledMeat
   m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

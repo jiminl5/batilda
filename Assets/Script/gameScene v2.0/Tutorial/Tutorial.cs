@@ -34,7 +34,7 @@ public class Tutorial : MonoBehaviour {
             if (count == 3)
                 GameObject.Find("meat").GetComponent<SpriteRenderer>().sortingOrder = 10;
             else if (count == 5)
-                GameObject.Find("grill").GetComponent<SpriteRenderer>().sortingOrder = 10;
+                GameObject.Find("grill 1").GetComponent<SpriteRenderer>().sortingOrder = 10;
             else if (count == 7)
                 GameObject.Find("firewood").GetComponent<SpriteRenderer>().sortingOrder = 10;
             else if (count == 9)

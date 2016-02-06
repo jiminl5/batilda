@@ -40,7 +40,7 @@ public class CircleHighLight : MonoBehaviour
         {
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
             TutorialMove(2, 4);
-            GameObject.Find("grill").GetComponent<SpriteRenderer>().sortingOrder = 2;
+            GameObject.Find("grill 1").GetComponent<SpriteRenderer>().sortingOrder = 2;
             GameObject.Find("highlight").transform.position = new Vector2(14.9f, 3.8f);
             GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 7; // Increase the size of CAP
         }
@@ -50,7 +50,7 @@ public class CircleHighLight : MonoBehaviour
         {
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
             TutorialMove(10, 4);
-            GameObject.Find("grill").GetComponent<SpriteRenderer>().sortingOrder = 5;
+            GameObject.Find("grill 1").GetComponent<SpriteRenderer>().sortingOrder = 5;
             GameObject.Find("highlight").transform.position = new Vector2(8.9f, 6.5f);
             GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 9; // Increase the size of CAP
         }
@@ -244,7 +244,7 @@ public class CircleHighLight : MonoBehaviour
                 GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
                 next = false;
             }
-            else if (GameObject.Find("grill").GetComponent<cookingObject>().food_ready
+            else if (GameObject.Find("grill 1").GetComponent<cookingObject>().food_ready
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 9)
             {
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
