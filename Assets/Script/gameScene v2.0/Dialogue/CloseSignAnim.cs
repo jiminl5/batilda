@@ -13,6 +13,8 @@ public class CloseSignAnim : MonoBehaviour {
     private float rotate_y_speed = 4.0f;
     private float end_time;
 
+    private float timer;
+
 	// Use this for initialization
 	void Start () {
         close_sign_trigger = false;
@@ -41,11 +43,15 @@ public class CloseSignAnim : MonoBehaviour {
                     slide = true;
                 }
             }
-            if (slide && ((3.5f + end_time) <= Time.timeSinceLevelLoad) ) //|| GameObject.Find("levelHandler").GetComponent<levelHandler>().finished)
+            if (slide)//((3.5f + end_time) <= Time.timeSinceLevelLoad) ) //|| GameObject.Find("levelHandler").GetComponent<levelHandler>().finished)
             {
-                this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
-                if (this.gameObject.transform.position.x >= 20)
-                    Destroy(this.gameObject);
+                timer += Time.deltaTime;
+                if (timer > 2.5f)
+                {
+                    this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
+                    if (this.gameObject.transform.position.x >= 20)
+                        Destroy(this.gameObject);
+                }
             }
         }
 	}
