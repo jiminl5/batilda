@@ -117,8 +117,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 357.896912, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 339.316956, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &23871610
 MonoBehaviour:
@@ -1374,8 +1374,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 357.896912, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 339.316956, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &401814199
 MonoBehaviour:
@@ -1676,8 +1676,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 645.414429, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 611.97052, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &476317014
 MonoBehaviour:
@@ -1935,8 +1935,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 357.896881, y: -271.380859}
-  m_SizeDelta: {x: 715.793762, y: 108.552338}
+  m_AnchoredPosition: {x: 339.316956, y: -258.35614}
+  m_SizeDelta: {x: 678.633911, y: 103.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &553848520
 MonoBehaviour:
@@ -2023,8 +2023,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70.3793793, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 66.6633911, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &556766519
 MonoBehaviour:
@@ -3430,8 +3430,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 645.414429, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 611.97052, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &812025406
 MonoBehaviour:
@@ -3976,8 +3976,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 357.896881, y: -54.2761688}
-  m_SizeDelta: {x: 715.793762, y: 108.552338}
+  m_AnchoredPosition: {x: 339.316956, y: -51.6712303}
+  m_SizeDelta: {x: 678.633911, y: 103.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &930782399
 MonoBehaviour:
@@ -4651,8 +4651,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 645.414429, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 611.97052, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1065407135
 MonoBehaviour:
@@ -4804,8 +4804,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 501.65564, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 475.643738, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1074222509
 MonoBehaviour:
@@ -5684,8 +5684,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 501.65564, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 475.643738, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1342836308
 MonoBehaviour:
@@ -5944,6 +5944,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1125408686}
+        m_MethodName: getTutorial
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: no
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1372563594
@@ -6016,8 +6027,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 357.896881, y: -162.828506}
-  m_SizeDelta: {x: 715.793762, y: 108.552338}
+  m_AnchoredPosition: {x: 339.316956, y: -155.013687}
+  m_SizeDelta: {x: 678.633911, y: 103.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1372593942
 MonoBehaviour:
@@ -6176,8 +6187,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 501.65564, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 475.643738, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1405727157
 MonoBehaviour:
@@ -6661,8 +6672,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 214.138138, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 202.990173, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1475726897
 MonoBehaviour:
@@ -7683,8 +7694,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70.3793793, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 66.6633911, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1617611976
 MonoBehaviour:
@@ -8287,8 +8298,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 214.138138, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 202.990173, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1687582376
 MonoBehaviour:
@@ -9083,8 +9094,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 214.138138, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 202.990173, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1837823521
 MonoBehaviour:
@@ -9204,8 +9215,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70.3793793, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 66.6633911, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1866286942
 MonoBehaviour:
@@ -9288,6 +9299,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1125408686}
+        m_MethodName: getTutorial
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: yes
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -10180,8 +10202,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 357.896912, y: -54.2761688}
-  m_SizeDelta: {x: 138.758759, y: 106.552338}
+  m_AnchoredPosition: {x: 339.316956, y: -51.6712303}
+  m_SizeDelta: {x: 131.326782, y: 101.342461}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &2041572978
 MonoBehaviour:

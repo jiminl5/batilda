@@ -45,15 +45,21 @@ public class OpenSignAnim : MonoBehaviour {
             this.transform.Translate(Vector2.right * drop_speed * (Time.deltaTime * unpause_time));
             if (this.gameObject.transform.position.x >= 19.0f)
             {
+                //Tutorial if tutorial level is selected run this function
                 Time.timeScale = 1.0f;
-                //CHEF - tile
-                GameObject.Find("Map").GetComponent<TileMap>().GenerateMapData();
-                GameObject.Find("Map").GetComponent<TileMap>().GeneratePathfindingGraph();
-                GameObject.Find("Map").GetComponent<TileMap>().GenerateMapVisual();
-                //WAITRESS - tile
-                GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
-                GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
-                GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
+                if (PlayerPrefs.GetString("tutorial") == "yes")
+                    GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
+                else {
+                    //CHEF - tile
+                    GameObject.Find("Map").GetComponent<TileMap>().GenerateMapData();
+                    GameObject.Find("Map").GetComponent<TileMap>().GeneratePathfindingGraph();
+                    GameObject.Find("Map").GetComponent<TileMap>().GenerateMapVisual();
+                    //WAITRESS - tile
+                    GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
+                    GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
+                    GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
+                }
+
                 Destroy(this.gameObject);
             }
         }
