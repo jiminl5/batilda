@@ -137,7 +137,6 @@ public class Waitress : MonoBehaviour {
         }
         else if (string.IsNullOrEmpty(two_h))
         {
-            //Debug.Log ("HELLO?????????????");
             two_h = go.GetComponent<drinkObject>().name;
             //create go_2h
             //go_2h = temp_plate;

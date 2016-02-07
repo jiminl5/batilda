@@ -5126,8 +5126,8 @@ GameObject:
   - 114: {fileID: 1458081279}
   - 114: {fileID: 1458081281}
   m_Layer: 5
-  m_Name: drink
-  m_TagString: Untagged
+  m_Name: apple cider
+  m_TagString: test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5150,14 +5150,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1458081277}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63ee020a9b800fd47a50926c3e33db39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfDrinks: 0
-  name: apple
+  name: apple cider food
   maxDrinks: 3
+  timeToMakeDrink: 5
+  drink1: {fileID: 21300006, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+  drink2: {fileID: 21300012, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+  drink3: {fileID: 21300018, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+  drink4: {fileID: 21300024, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
 --- !u!212 &1458081280
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5190,7 +5195,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1458081277}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
   m_Name: 
@@ -5198,7 +5203,7 @@ MonoBehaviour:
   name: 
   x: 7
   y: 6
-  go: {fileID: 105256, guid: ead697c76d7e7084195424b10f54d071, type: 2}
+  go: {fileID: 158642, guid: 51048015f1245db4c81454cafd65d914, type: 2}
 --- !u!1 &1461561441
 GameObject:
   m_ObjectHideFlags: 0

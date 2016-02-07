@@ -82,6 +82,43 @@ public class levelHandler : MonoBehaviour {
         ovenCount = PlayerPrefs.GetInt("oven");
         stoveCount = PlayerPrefs.GetInt("stove");
         warmingPlateCount = PlayerPrefs.GetInt("warmingPlate");
+
+        if (PlayerPrefs.GetInt("level") == 0) //test_level_Everything_on
+        {
+            maxGrillCount = 4;
+            maxOvenCount = 4;
+            maxStoveCount = 4;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 4;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 4;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 4;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = true;
+            carrotOn = true;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = true;
+            honeyOn = true;
+            sauceOn = true;
+
+            peasantFoodList = "apple cider;apple cider;apple cider";
+                //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
+
+            levelTime = 120;
+        }
+
         if (PlayerPrefs.GetInt("level") == 1) //tutorial level (level one)
         {
             maxGrillCount = 1;
