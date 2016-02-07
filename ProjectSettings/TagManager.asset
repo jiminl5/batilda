@@ -27,7 +27,7 @@ TagManager:
   - 
   - 
   - Unwalkable
-  - 
+  - Speech
   - 
   - 
   - 
@@ -53,4 +53,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Speech
+    uniqueID: 2461297499
     locked: 0

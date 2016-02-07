@@ -30,7 +30,7 @@ public class StopWatch : MonoBehaviour {
 			if (timeInSeconds <= 0) {
 				print ("times up");
 				finished = true;
-                GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin();
+                //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin();
             }
 		}
         if (finished)

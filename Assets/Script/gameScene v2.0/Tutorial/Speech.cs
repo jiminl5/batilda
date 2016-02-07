@@ -1,12 +1,96 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Speech : MonoBehaviour {
+    public Text speech_text;
+    public Text speech_text1;
+    private bool start_speech = true;
 
+    public Text key_text;
+
+    void Update()
+    {
+        if (start_speech)
+        {
+            if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 1 && GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled)
+            {
+                //key_text.text = "steak123123!";
+                //key_text.fontStyle = FontStyle.Bold;
+                speech_text.enabled = true;
+                speech_text.text = "Looks like the customer wants some <color=#B43104><b>steak</b></color>! Let’s get cooking!";
+                start_speech = false;
+            }
+        }
+        if (!GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled)
+            speech_text.enabled = false;
+        if (GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled)
+        {
+            if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 2)
+            {
+                speech_text.text = "Tap an <color=#B43104><b>ingredient</b></color> to have Foxanna pick it up. For steak, we need some <color=#B43104><b>beef</b></color>!";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 3)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "Tap the <color=#B43104><b>grill</b></color> to start cooking the beef.";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 4)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "Oh wait! In order for the appliances to work, I need to keep the furnace running! First, I need to grab a <color=#B43104><b>log</b></color>...";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 5 && !GameObject.Find("fire_0").GetComponent<SpriteRenderer>().enabled)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "...and then throw it into the <color=#B43104><b>furnace</b></color>!";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 5 && GameObject.Find("fire_0").GetComponent<SpriteRenderer>().enabled)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "Great! Now the grill is hot and we just have to wait for the meat to <color=#B43104><b>cook</b></color>...!";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 7)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "It’s done! Tap to pick up the finished steak. Don’t let it <color=#B43104><b>burn</b></color> on the grill!";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 8)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "Now that it’s ready, set it down on a <color=#B43104><b>warming plate</b></color>.";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 9)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "Once it’s on a warming plate, I can pick it up...";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 10)
+            {
+                speech_text.enabled = true;
+                speech_text.text = "...and deliver it to the customer!";
+            }
+        }
+        else if (GameObject.Find("speechBubble_1").GetComponent<SpriteRenderer>().enabled)
+        {
+            if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 11)
+            {
+                speech_text1.enabled = true;
+                speech_text1.text = "Perfect! The last thing we have to do is pick up the <color=#B43104><b>payment</b></color>.";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 12)
+            {
+                speech_text1.enabled = true;
+                speech_text1.text = "I think we’re ready! Time to make this <color=#B43104><b>Cavern</b></color> into a real <color=#B43104><b>Tavern</b></color>!";
+            }
+        }
+    }
     void OnMouseDown()
     {
         if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count < GameObject.Find("Main Camera").GetComponent<Tutorial>().cap)
+        {
             GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;
+        }
         if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 6)
         {
             GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled = false;
@@ -17,7 +101,7 @@ public class Speech : MonoBehaviour {
             GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 7; // Increase the size of CAP
             Time.timeScale = 1.0f;
             GameObject.Find("highlight").GetComponent<CircleHighLight>().NextMoveBool();
-            print("Ddddddddddddddddddddddddafdfasdf");
         }
     }
+
 }
