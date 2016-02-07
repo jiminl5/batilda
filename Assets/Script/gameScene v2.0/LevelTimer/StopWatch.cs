@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class StopWatch : MonoBehaviour {
 
-    private float startTime = 120;
+    public float startTime = 120;
     public float timeInSeconds;
     private int roundedTimeSeconds;
     private float displaySeconds;
@@ -15,9 +15,16 @@ public class StopWatch : MonoBehaviour {
 	public Image circleTimerIndicator;
 
 	// Use this for initialization
-	void Awake () {
+/*	void Awake () {
         timeInSeconds = startTime;
-	}
+        Debug.Log(startTime);
+	}*/
+
+    void Start()
+    {
+        timeInSeconds = startTime;
+        Debug.Log(startTime);
+    }
 
     void Update()
     {

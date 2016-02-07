@@ -23,10 +23,12 @@ public class levelHandler : MonoBehaviour {
     public int maxGrillCount;
     public int maxOvenCount;
     public int maxStoveCount;
+    public int maxWarmingPlateCount;
 
     public int grillCount;
     public int ovenCount;
     public int stoveCount;
+    public int warmingPlateCount;
     //ingredients
     public bool wheatOn;
     public bool cheeseOn;
@@ -47,6 +49,9 @@ public class levelHandler : MonoBehaviour {
     //food lists
     public string peasantFoodList; //initalized with ";" as breakers. ex: "bread;carrot soup;grilled fish"
     public Queue<string> peasantFoodQueue;
+
+    //time for level
+    public float levelTime;
 
     // Use this for initialization
     void Start () {
@@ -76,18 +81,21 @@ public class levelHandler : MonoBehaviour {
         grillCount = PlayerPrefs.GetInt("grill");
         ovenCount = PlayerPrefs.GetInt("oven");
         stoveCount = PlayerPrefs.GetInt("stove");
-
-        if (PlayerPrefs.GetInt("level") == 0) //tutorial level
+        warmingPlateCount = PlayerPrefs.GetInt("warmingPlate");
+        if (PlayerPrefs.GetInt("level") == 1) //tutorial level (level one)
         {
             maxGrillCount = 1;
             maxOvenCount = 0;
             maxStoveCount = 0;
+            maxWarmingPlateCount = 1;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
             if (ovenCount > maxOvenCount)
                 ovenCount = 0;
             if (stoveCount > maxStoveCount)
                 stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 1;
 
             wheatOn = false;
             cheeseOn = false;
@@ -107,28 +115,32 @@ public class levelHandler : MonoBehaviour {
             cuttingBoardOn = false;
 
             peasantFoodList = "grilledMeat;grilledMeat";
-            //PlayerPrefs.SetString("peasantFoodList", "grilledMeat;grilledMeat");
+
+            levelTime = 60;
         }
 
 
 
-            if (PlayerPrefs.GetInt("level") == 1) //level one
+            if (PlayerPrefs.GetInt("level") == 2) //level two
         {
             maxGrillCount = 1;
             maxOvenCount = 0;
             maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
             if (ovenCount > maxOvenCount)
                 ovenCount = 0;
             if (stoveCount > maxStoveCount)
                 stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
 
             wheatOn = false;
             cheeseOn = false;
             carrotOn = false;
             onionOn = false;
-            fishOn = false;
+            fishOn = true;
             meatOn = true;
 
             cuttingBoardOn = false;
@@ -141,28 +153,31 @@ public class levelHandler : MonoBehaviour {
             rollingPinOn = false;
             cuttingBoardOn = false;
 
-            peasantFoodList = "grilledMeat;grilledMeat";
-            //PlayerPrefs.SetString("peasantFoodList", "grilledMeat;grilledMeat");
-            //Debug.Log(peasantFoodQueue.Count);
+            peasantFoodList = "grilledMeat;grilled fish;grilled fish;grilled fish";
+
+            levelTime = 90;
         }
 
-        if (PlayerPrefs.GetInt("level") == 1) //level one
+        if (PlayerPrefs.GetInt("level") == 3) //level three
         {
             maxGrillCount = 1;
             maxOvenCount = 0;
             maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
             if (ovenCount > maxOvenCount)
                 ovenCount = 0;
             if (stoveCount > maxStoveCount)
                 stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
 
             wheatOn = false;
             cheeseOn = false;
             carrotOn = false;
             onionOn = false;
-            fishOn = false;
+            fishOn = true;
             meatOn = true;
 
             cuttingBoardOn = false;
@@ -173,22 +188,25 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            peasantFoodList = "grilledMeat;grilledMeat";
-            //PlayerPrefs.SetString("peasantFoodList", "grilledMeat;grilledMeat");
-            //Debug.Log(peasantFoodQueue.Count);
+            peasantFoodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
+
+            levelTime = 90;
         }
 
-        if (PlayerPrefs.GetInt("level") == 2) //level two
+        if (PlayerPrefs.GetInt("level") == 4) //level four
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
             maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
             if (ovenCount > maxOvenCount)
                 ovenCount = 0;
             if (stoveCount > maxStoveCount)
                 stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
 
             wheatOn = true;
             cheeseOn = false;
@@ -205,10 +223,11 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            peasantFoodList = "grilledMeat;grilledMeat;bread;grilled fish";
-            //PlayerPrefs.SetString("peasantFoodList", "grilledMeat;grilledMeat");
-            //Debug.Log(peasantFoodQueue.Count);
+            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
+
+            levelTime = 120;
         }
+
 
         string[] peasantFoodShuffle = peasantFoodList.Split(';');
         shuffle(peasantFoodShuffle);
@@ -220,10 +239,13 @@ public class levelHandler : MonoBehaviour {
         grillCount = 4 - maxGrillCount;
         ovenCount = 4 - maxOvenCount;
         stoveCount = 4 - maxStoveCount;
+        warmingPlateCount = 4 - maxWarmingPlateCount;
+        Debug.Log("warming plate count: " + warmingPlateCount);
         //find stuff
         GameObject grills = GameObject.Find("grills");
         GameObject ovens = GameObject.Find("ovens");
         GameObject stoves = GameObject.Find("stoves");
+        GameObject warmingPlates = GameObject.Find("warmingPlates");
         GameObject wheat = GameObject.Find("wheat");
         GameObject cheese = GameObject.Find("cheese");
         GameObject carrot = GameObject.Find("carrot");
@@ -233,6 +255,7 @@ public class levelHandler : MonoBehaviour {
 
         GameObject cuttingBoard = GameObject.Find("cuttingBoard");
         GameObject rollingPin = GameObject.Find("rollingPin");
+
         //set stuff on or off
         foreach (Transform grill in grills.transform)
         {
@@ -240,7 +263,7 @@ public class levelHandler : MonoBehaviour {
             {
                 grill.gameObject.SetActive(false);
             }
-            if (grillCount <= 0)
+            else if(grillCount <= 0)
             {
                 break;
             }
@@ -253,7 +276,7 @@ public class levelHandler : MonoBehaviour {
             {
                 oven.gameObject.SetActive(false);
             }
-            if (ovenCount <= 0)
+            else if(ovenCount <= 0)
             {
                 break;
             }
@@ -266,11 +289,26 @@ public class levelHandler : MonoBehaviour {
             {
                 stove.gameObject.SetActive(false);
             }
-            if (stoveCount <= 0)
+            else if(stoveCount <= 0)
             {
                 break;
             }
-            grillCount -= 1;
+            stoveCount -= 1;
+        }
+
+
+        foreach (Transform warmingPlate in warmingPlates.transform)
+        {
+            if (warmingPlateCount > 0)
+            {
+                warmingPlate.gameObject.SetActive(false);
+            }
+            else if (warmingPlateCount <= 0)
+            {
+                break;
+            }
+            warmingPlateCount -= 1;
+
         }
 
         if (!wheatOn)
@@ -291,6 +329,9 @@ public class levelHandler : MonoBehaviour {
         if (!cuttingBoardOn)
             cuttingBoard.SetActive(false);
 
+
+        //set level time
+        GameObject.Find("Main Camera").GetComponent<StopWatch>().startTime = levelTime;
     }
 
     // Update is called once per frame

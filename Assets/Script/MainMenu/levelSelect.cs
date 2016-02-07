@@ -9,6 +9,7 @@ public class levelSelect : MonoBehaviour {
         PlayerPrefs.SetInt("grill", 4);
         PlayerPrefs.SetInt("oven", 1);
         PlayerPrefs.SetInt("stove", 1);
+        PlayerPrefs.SetInt("warmingPlate", 4);
     }
 	
 	// Update is called once per frame

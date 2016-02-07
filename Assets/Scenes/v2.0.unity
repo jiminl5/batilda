@@ -318,7 +318,7 @@ GameObject:
   - 114: {fileID: 196350500}
   - 114: {fileID: 196350499}
   m_Layer: 0
-  m_Name: dropOffPoint3
+  m_Name: warmingPlate3
   m_TagString: test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -337,7 +337,7 @@ Transform:
   - {fileID: 906991454}
   - {fileID: 1778750248}
   m_Father: {fileID: 260263999}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!114 &196350499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 260263999}
   m_Layer: 0
-  m_Name: Middle Section
+  m_Name: warmingPlates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,10 +481,10 @@ Transform:
   m_LocalPosition: {x: 9.23681641, y: 3.79517007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 740063408}
-  - {fileID: 291500229}
-  - {fileID: 196350498}
   - {fileID: 962522573}
+  - {fileID: 196350498}
+  - {fileID: 291500229}
+  - {fileID: 740063408}
   m_Father: {fileID: 0}
   m_RootOrder: 9
 --- !u!1 &263818247
@@ -619,7 +619,7 @@ GameObject:
   - 114: {fileID: 291500231}
   - 114: {fileID: 291500230}
   m_Layer: 0
-  m_Name: dropOffPoint2
+  m_Name: warmingPlate2
   m_TagString: test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +638,7 @@ Transform:
   - {fileID: 1885335589}
   - {fileID: 1278066313}
   m_Father: {fileID: 260263999}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!114 &291500230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2503,7 +2503,7 @@ GameObject:
   - 114: {fileID: 740063410}
   - 114: {fileID: 740063409}
   m_Layer: 0
-  m_Name: dropOffPoint1
+  m_Name: warmingPlate1
   m_TagString: test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2522,7 +2522,7 @@ Transform:
   - {fileID: 537746729}
   - {fileID: 636461467}
   m_Father: {fileID: 260263999}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!114 &740063409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3424,7 +3424,7 @@ GameObject:
   - 114: {fileID: 962522572}
   - 114: {fileID: 962522571}
   m_Layer: 0
-  m_Name: dropOffPoint4
+  m_Name: warmingPlate4
   m_TagString: test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3470,7 +3470,7 @@ Transform:
   - {fileID: 1929512337}
   - {fileID: 1780300380}
   m_Father: {fileID: 260263999}
-  m_RootOrder: 3
+  m_RootOrder: 0
 --- !u!1 &967424955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3852,9 +3852,11 @@ MonoBehaviour:
   maxGrillCount: 0
   maxOvenCount: 0
   maxStoveCount: 0
+  maxWarmingPlateCount: 0
   grillCount: 0
   ovenCount: 0
   stoveCount: 0
+  warmingPlateCount: 0
   wheatOn: 0
   cheeseOn: 0
   carrotOn: 0
@@ -3868,6 +3870,7 @@ MonoBehaviour:
   honeyOn: 0
   sauceOn: 0
   peasantFoodList: 
+  levelTime: 0
 --- !u!4 &1025483095
 Transform:
   m_ObjectHideFlags: 0
@@ -7263,6 +7266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ac493f6bb020a8459fae5acd14978e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startTime: 120
   timeInSeconds: 120
   finished: 0
   circleTimerIndicator: {fileID: 1845218793}
