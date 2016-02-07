@@ -50,6 +50,10 @@ public class OpenSignAnim : MonoBehaviour {
                 if (PlayerPrefs.GetString("tutorial") == "yes")
                     GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 else {
+                    //Destroy Unnecessary tutorial assets
+                    Destroy(GameObject.Find("bg_trans"));
+                    Destroy(GameObject.Find("speechBubble"));
+                    Destroy(GameObject.Find("speechBubble_1"));
                     //CHEF - tile
                     GameObject.Find("Map").GetComponent<TileMap>().GenerateMapData();
                     GameObject.Find("Map").GetComponent<TileMap>().GeneratePathfindingGraph();
