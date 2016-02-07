@@ -50,7 +50,10 @@ public class CloseSignAnim : MonoBehaviour {
                 {
                     this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
                     if (this.gameObject.transform.position.x >= 20)
+                    {
+                        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin(); // Store coin to Database
                         Destroy(this.gameObject);
+                    }
                 }
             }
         }

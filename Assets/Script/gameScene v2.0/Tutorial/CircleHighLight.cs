@@ -18,7 +18,7 @@ public class CircleHighLight : MonoBehaviour
     void OnMouseDown()
     {
         print("???????????");
-        if (GameObject.Find("Main Camera").GetComponent<Tutorial>().cap <= 11)
+        if (GameObject.Find("Main Camera").GetComponent<Tutorial>().cap <= 10)
         {
             GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("speechBubble").GetComponent<BoxCollider2D>().enabled = false;
