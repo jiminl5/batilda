@@ -14,6 +14,10 @@ public class Chef : MonoBehaviour {
     private AudioSource source;
     public AudioClip pickUpPlateSFX;
     public AudioClip dropOffPlateSFX;
+	public AudioClip cuttingZuchinni;
+	public AudioClip grillDropOff;
+	public AudioClip stoveDropOff;
+	public AudioClip ovenDropOff;
 
 	public int mtX;
 	public int mtY;
@@ -52,7 +56,6 @@ public class Chef : MonoBehaviour {
             if ((atPosition && obj_queue.Peek().GetComponent<cookingObject>()) 
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<cookingObject>()))
             {
-                source.PlayOneShot(pickUpPlateSFX);
                 cookingAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
@@ -61,7 +64,7 @@ public class Chef : MonoBehaviour {
             else if ((atPosition && obj_queue.Peek().GetComponent<ingredientObject>())
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<ingredientObject>()))
             {
-                source.PlayOneShot(pickUpPlateSFX);
+				source.PlayOneShot(pickUpPlateSFX);
                 ingredientAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
@@ -78,7 +81,7 @@ public class Chef : MonoBehaviour {
             else if ((atPosition && obj_queue.Peek().GetComponent<doughPickUp>())
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<doughPickUp>()))
             {
-                source.PlayOneShot(pickUpPlateSFX);
+                //source.PlayOneShot(pickUpPlateSFX);
                 doughPickUpAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
@@ -99,7 +102,6 @@ public class Chef : MonoBehaviour {
             } else if ((atPosition && obj_queue.Peek().GetComponent<dropOffPoint>())
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<dropOffPoint>()))
             {
-                source.PlayOneShot(dropOffPlateSFX);
 			    dropOffPointAction (obj_queue.Peek ());
 			    obj_queue.Dequeue ();
                 GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
@@ -193,7 +195,16 @@ public class Chef : MonoBehaviour {
 		if (go.GetComponent<cookingObject> ().canCook (one_h) && 
 		    go.GetComponent<cookingObject> ().food_ready == false &&
 		    string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
-			Debug.Log ("cooking...");
+			if(go.GetComponent<cookingObject>().name=="grill 1"){
+				source.PlayOneShot(grillDropOff);
+			}
+			if(go.GetComponent<cookingObject>().name=="atoven"){
+				source.PlayOneShot(ovenDropOff);
+			}
+			if(go.GetComponent<cookingObject>().name=="atstove"){
+				source.PlayOneShot(stoveDropOff);
+			}
+			Debug.Log ("cooking... at" +go.GetComponent<cookingObject>());
 			go.GetComponent<cookingObject> ().cookReady = true;
 			go.GetComponent<cookingObject> ().chef_1h = one_h;
 			Destroy (go_1h);
@@ -203,6 +214,15 @@ public class Chef : MonoBehaviour {
 		else if (go.GetComponent<cookingObject> ().canCook (two_h) && 
 		         go.GetComponent<cookingObject> ().food_ready == false &&
 		         string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
+			if(go.GetComponent<cookingObject>().name=="grill 1"){
+				source.PlayOneShot(grillDropOff);
+			}
+			if(go.GetComponent<cookingObject>().name=="atoven"){
+				source.PlayOneShot(ovenDropOff);
+			}
+			if(go.GetComponent<cookingObject>().name=="atstove"){
+				source.PlayOneShot(stoveDropOff);
+			}
 			Debug.Log ("cooking...");
 			go.GetComponent<cookingObject> ().cookReady = true;
 			go.GetComponent<cookingObject> ().chef_1h = two_h;
@@ -217,7 +237,7 @@ public class Chef : MonoBehaviour {
 				
 				go_1h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right/2 + Vector3.down *1/2, transform.rotation) as GameObject;
 				go_1h.transform.SetParent (gameObject.transform);
-				
+
 				Debug.Log ("picking up food...");
 				Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
 				go.GetComponent<cookingObject> ().food_ready = false;
@@ -229,7 +249,7 @@ public class Chef : MonoBehaviour {
 				
 				go_2h = Instantiate (go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.left * 2/3 + Vector3.down *1/2, transform.rotation) as GameObject;
 				go_2h.transform.SetParent (gameObject.transform);
-				
+
 				Debug.Log ("picking up food...");
 				Debug.Log (go.GetComponent<cookingObject> ().food_cooking_name);
 				go.GetComponent<cookingObject> ().food_ready = false;
@@ -311,6 +331,7 @@ public class Chef : MonoBehaviour {
 				//add sprite of food
 				//delete 1h
 				one_h = "";
+				source.PlayOneShot(dropOffPlateSFX);
 				Destroy (go_1h);
 			}
 		} else if (hand_with_Food () == "two_h") {
@@ -326,6 +347,7 @@ public class Chef : MonoBehaviour {
 				//add sprite of food
 				//delete 1h
 				two_h = "";
+				source.PlayOneShot(dropOffPlateSFX);
 				Destroy (go_2h);
 			}
 		}
@@ -338,6 +360,7 @@ public class Chef : MonoBehaviour {
         {
             if ((one_h == "carrot" || one_h == "onion" || one_h == "cheese"))
             {
+				source.PlayOneShot (cuttingZuchinni);
                 go.GetComponent<cuttingObject>().cutting = one_h;
                 go.GetComponent<cuttingObject>().is_cutting = true;
                 one_h = "";
