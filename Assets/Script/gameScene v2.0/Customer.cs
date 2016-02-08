@@ -38,7 +38,9 @@ public class Customer : MonoBehaviour {
                 waitingOnFood = true;
 
                 waitingOnFood = true;
-			} else if (food_given == foodWaitingOn) {
+			}
+            else if (food_given == foodWaitingOn)
+            {
 				if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().hand_with_Food() == "one_h" &&
 				    GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().one_h == foodWaitingOn)
 				{
@@ -59,7 +61,9 @@ public class Customer : MonoBehaviour {
 				Destroy (foodSprite);
 				Instantiate(Resources.Load ("temp_particlesystem_pickup"), transform.position, transform.rotation);
 
-			} else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given)) {
+			}
+            else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given))
+            {
 				Debug.Log ("this isn't my order!");
 				food_given = "";
 			}

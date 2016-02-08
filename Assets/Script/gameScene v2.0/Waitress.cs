@@ -190,7 +190,7 @@ public class Waitress : MonoBehaviour {
             //Destroy (go_1h);
             //one_h = "";
         }
-        else if (two_h.Contains("food") && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given)
+        else if (hand_with_Food() == "two_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given)
               && go.GetComponent<Customer>().foodWaitingOn == two_h)
         {
             //update dropoffpoint food name

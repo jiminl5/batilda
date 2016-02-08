@@ -86,11 +86,11 @@ public class Level : MonoBehaviour {
 
 
 	void OnGUI() {
-
-			text = string.Format ("Customers served: " + customersServed);
-			GUI.Label (new Rect (300, 275, 100, 100), text);
-
-
+		GUIStyle textStyle = new GUIStyle ();
+		textStyle.fontSize = Screen.width/25;
+		textStyle.normal.textColor = Color.white;
+		text = string.Format(customersServed.ToString());
+		GUI.Label(new Rect(5, 5, 100, 100), text, textStyle);
 	}
 
 
