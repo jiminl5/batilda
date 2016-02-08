@@ -51,11 +51,20 @@ public class StopWatch : MonoBehaviour {
 	void OnGUI() {
         //float guiTime = startTime - Time.time;
         //timeInSeconds = guiTime;
+		GUIStyle textStyle = new GUIStyle ();
+		Debug.Log (Screen.width/144 * 5);
+		textStyle.fontSize = Screen.width/144 * 5;
+		textStyle.normal.textColor = Color.white;
 
         roundedTimeSeconds = (int)(timeInSeconds);
         displayMinutes = roundedTimeSeconds / 60;
         displaySeconds = roundedTimeSeconds % 60;
         string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
-        GUI.Label(new Rect(30, 45, 50, 30), text);
+		//GUIStyle centeredStyle = GUIStyle(GUI.skin.GetStyle ("Label"));
+		textStyle.alignment = TextAnchor.UpperCenter;
+
+
+		GUIText gtext;
+		GUI.TextArea(new Rect(Screen.width/2 - Screen.width/80, 0, 50, 30), text.Substring(1), textStyle);
 	}
 }

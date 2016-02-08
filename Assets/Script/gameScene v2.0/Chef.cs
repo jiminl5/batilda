@@ -64,7 +64,21 @@ public class Chef : MonoBehaviour {
             else if ((atPosition && obj_queue.Peek().GetComponent<ingredientObject>())
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<ingredientObject>()))
             {
-				source.PlayOneShot(pickUpPlateSFX);
+				string ingredient_obj = obj_queue.Peek().GetComponent<ingredientObject>().name;
+				if (ingredient_obj == "meat"){
+					
+					source.PlayOneShot(pickUpPlateSFX);
+				}
+				if (ingredient_obj == "fish"){
+				}
+				if (ingredient_obj == "onion"){
+				}
+				if (ingredient_obj == "carrot"){
+				}
+				if (ingredient_obj == "cheese"){
+				}
+				if (ingredient_obj == "wheat"){
+				}
                 ingredientAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap>().same_spot = false;
