@@ -52,8 +52,8 @@ public class StopWatch : MonoBehaviour {
         //float guiTime = startTime - Time.time;
         //timeInSeconds = guiTime;
 		GUIStyle textStyle = new GUIStyle ();
-		Debug.Log (Screen.width/144 * 5);
-		textStyle.fontSize = Screen.width/144 * 5;
+		Debug.Log (Screen.width/20);
+		textStyle.fontSize = Screen.width/20;
 		textStyle.normal.textColor = Color.white;
 
         roundedTimeSeconds = (int)(timeInSeconds);
@@ -65,6 +65,6 @@ public class StopWatch : MonoBehaviour {
 
 
 		GUIText gtext;
-		GUI.TextArea(new Rect(Screen.width/2 - Screen.width/80, 0, 50, 30), text.Substring(1), textStyle);
+		GUI.TextArea(new Rect(Screen.width/2 - 20, 0, 50, 30), text.Substring(1), textStyle);
 	}
 }
