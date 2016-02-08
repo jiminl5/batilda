@@ -22,14 +22,25 @@ public class Chef : MonoBehaviour {
 
 	private Animator animator;
 
-	//public GameObject go;
-
-	public static Queue<GameObject> obj_queue = new Queue<GameObject>();
+    private recipeRepository rr;
+    private ArrayList recipes;
+    //public GameObject go;
+    
+    public static Queue<GameObject> obj_queue = new Queue<GameObject>();
 	// Use this for initialization
+    void Awake ()
+    {
+        this.gameObject.AddComponent<recipeRepository>();
+        rr = GetComponent<recipeRepository>();
+        rr.cookingObjectName = "all"; //override for cookingObjectName to get all recipes instead of specific ones
+    }
+
 	void Start () {
 		animator = this.GetComponent<Animator>();
 		atPosition = true;
         source = GetComponent<AudioSource>();
+
+        recipes = rr.recipes;
 	}
 
 
@@ -162,18 +173,31 @@ public class Chef : MonoBehaviour {
 	}
 
 	string hand_with_Food() {
+        foreach (Recipie r in recipes)
+        {
+            if (one_h == r.name)
+            {
+                return "one_h";
+            }
+            else if (two_h == r.name)
+            {
+                return "two_h";
+            }
+        }
+        return "";
+        /*
 		if (!string.IsNullOrEmpty(one_h) && one_h.Contains("food")) {
 			return "one_h";
 		} else if (!string.IsNullOrEmpty(two_h) && two_h.Contains ("food")) {
 			return "two_h";
-		} return "";
-//		if (one_h.Contains ("food")) {
-//			return "one_h";
-//		} else if (two_h.Contains ("food")) {
-//			return "two_h";
-//		}
-//			return "";
-	}
+		} return "";*/
+        //		if (one_h.Contains ("food")) {
+        //			return "one_h";
+        //		} else if (two_h.Contains ("food")) {
+        //			return "two_h";
+        //		}
+        //			return "";
+    }
 
 
 	public GameObject findGameObjectAtClickedPosition() {
@@ -192,7 +216,7 @@ public class Chef : MonoBehaviour {
 		//Debug.Log(go.GetComponent<cookingObject> ().canCook (one_h));
 		if (go.GetComponent<cookingObject> ().canCook (one_h) && 
 		    go.GetComponent<cookingObject> ().food_ready == false &&
-		    string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
+		    !go.GetComponent<cookingObject>().isCooking) {
 			Debug.Log ("cooking...");
 			go.GetComponent<cookingObject> ().cookReady = true;
 			go.GetComponent<cookingObject> ().chef_1h = one_h;
@@ -202,7 +226,7 @@ public class Chef : MonoBehaviour {
 		}
 		else if (go.GetComponent<cookingObject> ().canCook (two_h) && 
 		         go.GetComponent<cookingObject> ().food_ready == false &&
-		         string.IsNullOrEmpty(go.GetComponent<cookingObject>().chef_1h)) {
+                 !go.GetComponent<cookingObject>().isCooking) {
 			Debug.Log ("cooking...");
 			go.GetComponent<cookingObject> ().cookReady = true;
 			go.GetComponent<cookingObject> ().chef_1h = two_h;

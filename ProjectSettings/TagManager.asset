@@ -17,6 +17,10 @@ TagManager:
   - waitress_obj
   - Chef
   - Waitress
+  - grill
+  - stove
+  - oven
+  - drink
   layers:
   - Default
   - TransparentFX

@@ -26,12 +26,25 @@ public class cookingObject : MonoBehaviour {
     private GameObject _cookingSprite;
 	//public int x;
 	//public int y;
-
 	public Recipie current_recipie;
-	//private ArrayList tempingredients;
-	//private float Timer;
-	// Use this for initialization
+    recipeRepository rr;
+    //private ArrayList tempingredients;
+    //private float Timer;
+    // Use this for initialization
+    void Awake ()
+    {
+        this.gameObject.AddComponent<recipeRepository>();
+        recipeRepository rr = GetComponent<recipeRepository>();
+        rr.cookingObjectName = this.name.Split(' ')[0];
+    }
+
+
 	void Start () {
+        Debug.Log(GetComponent<recipeRepository>().cookingObjectName);
+        foreach (Recipie a in GetComponent<recipeRepository>().recipes)
+        {
+            Debug.Log(a.name);
+        }
 		if (recipie1)
 		recipie1 = Instantiate (recipie1);
 		if (recipie2)
@@ -91,7 +104,7 @@ public class cookingObject : MonoBehaviour {
 		//current time, and then wait how long it takes to make the food.
 		if (canCook(i1))
 		{
-			current_recipie = checkRecipies (i1);
+			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
             //Debug.Log (current_recipie.timeToMake);
             Destroy(_cookingSpriteIdle);
@@ -113,40 +126,29 @@ public class cookingObject : MonoBehaviour {
 
 	}
 
-	public bool canCook(string i1) {
-		//Debug.Log (i1);
-		//Debug.Log ("recipie 1 contains i1: " + recipie1.ingredient == i1);
-        if (isCooking)
+    public bool canCook(string ingredient)
+    {
+        foreach (Recipie recipe in GetComponent<recipeRepository>().recipes)
         {
-            return false;
+            if (recipe.ingredient == ingredient)
+            {
+                return true;
+            }
         }
-		//Debug.Log (recipie1.ingredients.Count );
-		if (i1 == "") {
-			return false;
-		}
-		//ArrayList tempingredients = new ArrayList(recipie1.ingredients);
-		//Debug.Log (recipie1.ingredients.Count);
-		if (recipie1.ingredient == i1) {
-
-			return true;
-		} 
-		if (recipie2.ingredient == i1) {
-			
-			return true;
-		} 
-			return false;
-
-	}
-
-	Recipie checkRecipies(string i1) {
-		//Debug.Log ("this is i1; " + i1 );
-		if (recipie1.ingredient == i1) {
-			return recipie1;
-		} 
-		else
-			return recipie2;
+        return false;
+    }
 
 
-	}
+    Recipie findRecipe(string ingredient)
+    {
+        foreach (Recipie recipe in GetComponent<recipeRepository>().recipes)
+        {
+            if (recipe.GetComponent<Recipie>().ingredient == ingredient)
+            {
+                return recipe.GetComponent<Recipie>();
+            }
+        }
+        return null;
+    }
 
 }

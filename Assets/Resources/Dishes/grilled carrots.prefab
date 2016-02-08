@@ -1,56 +1,39 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &171184
+--- !u!1 &168712
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 418386}
-  - 212: {fileID: 21201188}
-  - 114: {fileID: 11450214}
+  - 4: {fileID: 476778}
+  - 212: {fileID: 21266528}
   m_Layer: 0
-  m_Name: apple cider
+  m_Name: grilled carrots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &418386
+--- !u!4 &476778
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 171184}
+  m_GameObject: {fileID: 168712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.3411446, y: 8.52897549, z: -10}
+  m_LocalPosition: {x: 5.9243536, y: 2.01184273, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11450214
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 171184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: apple cider food
-  timeToMake: 0
-  ingredient: null
-  finishedDish: {fileID: 158642, guid: 51048015f1245db4c81454cafd65d914, type: 2}
-  go: {fileID: 158642, guid: 51048015f1245db4c81454cafd65d914, type: 2}
---- !u!212 &21201188
+--- !u!212 &21266528
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 171184}
+  m_GameObject: {fileID: 168712}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -69,7 +52,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300040, guid: 967e5188b1ce0f843b40dfb710fa6152, type: 3}
+  m_Sprite: {fileID: 21300026, guid: 967e5188b1ce0f843b40dfb710fa6152, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -77,16 +60,8 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: name
-      value: apple cider food
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: ingredient
-      value: null
-      objectReference: {fileID: 0}
+    m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 171184}
+  m_RootGameObject: {fileID: 168712}
   m_IsPrefabParent: 1

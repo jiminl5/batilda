@@ -21,13 +21,26 @@ public class Waitress : MonoBehaviour {
 	
 	private Animator animator;
 
+    private recipeRepository rr;
+    private ArrayList recipes;
+
     public static Queue<GameObject> obj_queue1 = new Queue<GameObject>();
     // Use this for initialization
+    void Awake()
+    {
+        this.gameObject.AddComponent<recipeRepository>();
+        rr = GetComponent<recipeRepository>();
+        rr.cookingObjectName = "all"; //override for cookingObjectName to get all recipes instead of specific ones
+    }
+
+
     void Start () {
 		animator = this.GetComponent<Animator>();
 		atPosition = true;
         source = GetComponent<AudioSource>();
-	}
+
+        recipes = rr.recipes;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -294,24 +307,37 @@ public class Waitress : MonoBehaviour {
 		else
 			return false;
 	}
-	
-	public string hand_with_Food() {
-		//NOTE:: Returns one_h if both hands have food in them.
+
+    public string hand_with_Food()
+    {
+        foreach (Recipie r in recipes)
+        {
+            if (one_h == r.name)
+            {
+                return "one_h";
+            }
+            else if (two_h == r.name)
+            {
+                return "two_h";
+            }
+        }
+        return "";
+        /*
 		if (!string.IsNullOrEmpty(one_h) && one_h.Contains("food")) {
 			return "one_h";
 		} else if (!string.IsNullOrEmpty(two_h) && two_h.Contains ("food")) {
 			return "two_h";
-		} return "";
-		//		if (one_h.Contains ("food")) {
-		//			return "one_h";
-		//		} else if (two_h.Contains ("food")) {
-		//			return "two_h";
-		//		}
-		//			return "";
-	}
-	
-	
-	public GameObject findGameObjectAtClickedPosition() {
+		} return "";*/
+        //		if (one_h.Contains ("food")) {
+        //			return "one_h";
+        //		} else if (two_h.Contains ("food")) {
+        //			return "two_h";
+        //		}
+        //			return "";
+    }
+
+
+    public GameObject findGameObjectAtClickedPosition() {
 		foreach (GameObject go in GameObject.FindGameObjectsWithTag("test")) {
 			try{
 			if (go.GetComponent<nameAndPosition> ().x == mtX

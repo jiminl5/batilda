@@ -11,7 +11,7 @@ GameObject:
   - 114: {fileID: 11441794}
   m_Layer: 0
   m_Name: bread
-  m_TagString: food
+  m_TagString: drink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: bread food
+  name: bread
   timeToMake: 5
   ingredient: dough
   finishedDish: {fileID: 147884, guid: 9b7138aee2d455447a4b652950a49de4, type: 2}
@@ -61,12 +61,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: name
-      value: bread food
+      value: bread
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: finishedDish
       value: 
       objectReference: {fileID: 147884, guid: 9b7138aee2d455447a4b652950a49de4, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: drink
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 185156}

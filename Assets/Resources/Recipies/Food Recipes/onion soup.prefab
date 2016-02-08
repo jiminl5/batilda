@@ -11,7 +11,7 @@ GameObject:
   - 114: {fileID: 11430034}
   m_Layer: 0
   m_Name: onion soup
-  m_TagString: food
+  m_TagString: stove
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: onion soup food
+  name: onion soup
   timeToMake: 5
   ingredient: cut_onion
   finishedDish: {fileID: 108412, guid: b7a4865d9ce65e34b93de49018c71a7e, type: 2}
@@ -69,11 +69,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: name
-      value: onion soup food
+      value: onion soup
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: food
+      value: stove
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

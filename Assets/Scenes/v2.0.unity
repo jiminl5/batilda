@@ -2550,6 +2550,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   food_name: 
+--- !u!1 &744349333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 744349335}
+  - 114: {fileID: 744349334}
+  m_Layer: 0
+  m_Name: recipeRepository
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &744349334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744349333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a95740ce5f894f04ea139a3ac1dfbf79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingObjectName: 
+--- !u!4 &744349335
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744349333}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
 --- !u!1 &757865637
 GameObject:
   m_ObjectHideFlags: 0
@@ -5156,7 +5196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfDrinks: 0
-  name: apple cider food
+  name: apple cider
   maxDrinks: 3
   timeToMakeDrink: 5
   drink1: {fileID: 21300006, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}

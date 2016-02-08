@@ -11,7 +11,7 @@ GameObject:
   - 114: {fileID: 11401658}
   m_Layer: 0
   m_Name: cheese stew
-  m_TagString: food
+  m_TagString: stove
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: cheese stew food
+  name: cheese stew
   timeToMake: 5
   ingredient: cut_cheese
   finishedDish: {fileID: 187456, guid: 49aea96471104cf42ae8820c4ae83ab0, type: 2}
@@ -69,11 +69,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: name
-      value: cheese stew food
+      value: cheese stew
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: food
+      value: stove
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
