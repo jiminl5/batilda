@@ -52,7 +52,6 @@ public class StopWatch : MonoBehaviour {
         //float guiTime = startTime - Time.time;
         //timeInSeconds = guiTime;
 		GUIStyle textStyle = new GUIStyle ();
-		Debug.Log (Screen.width/20);
 		textStyle.fontSize = Screen.width/20;
 		textStyle.normal.textColor = Color.white;
 
