@@ -14,8 +14,12 @@ public class drinkObject : MonoBehaviour {
     public Sprite drink2;
     public Sprite drink3;
     public Sprite drink4;
+
+
     //public Color c;
     // Use this for initialization
+
+
     void Start () {
 	
 	}

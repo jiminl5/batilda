@@ -135,7 +135,7 @@ public class Waitress : MonoBehaviour {
 
     void drinkAction(GameObject go)
     {
-        if (string.IsNullOrEmpty(one_h))
+        if (string.IsNullOrEmpty(one_h) && go.GetComponent<drinkObject>().numberOfDrinks > 0)
         {
             //Debug.Log ("test");
             one_h = go.GetComponent<drinkObject>().name;
@@ -148,7 +148,7 @@ public class Waitress : MonoBehaviour {
             Debug.Log(one_h);
 
         }
-        else if (string.IsNullOrEmpty(two_h))
+        else if (string.IsNullOrEmpty(two_h) && go.GetComponent<drinkObject>().numberOfDrinks > 0)
         {
             two_h = go.GetComponent<drinkObject>().name;
             //create go_2h

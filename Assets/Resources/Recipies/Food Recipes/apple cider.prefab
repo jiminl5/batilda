@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: apple cider food
+  name: apple cider
   timeToMake: 0
   ingredient: null
   finishedDish: {fileID: 158642, guid: 51048015f1245db4c81454cafd65d914, type: 2}
@@ -80,7 +80,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: name
-      value: apple cider food
+      value: apple cider
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: ingredient
