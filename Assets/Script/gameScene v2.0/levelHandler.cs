@@ -13,6 +13,8 @@ public class levelHandler : MonoBehaviour {
     GameObject _c1;
     GameObject _c2;
 
+    public ArrayList customerList;
+
     public bool finished = false;
     private string text;
     private int customersServed;
@@ -52,6 +54,11 @@ public class levelHandler : MonoBehaviour {
 
     //time for level
     public float levelTime;
+
+    void Awake()
+    {
+        customerList = new ArrayList();
+    }
 
     // Use this for initialization
     void Start () {
@@ -265,6 +272,146 @@ public class levelHandler : MonoBehaviour {
             levelTime = 120;
         }
 
+        if (PlayerPrefs.GetInt("level") == 5) //level five
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = false;
+            onionOn = false;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = false;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;apple cider;apple cider;apple cider";
+
+            levelTime = 120;
+        }
+
+        if (PlayerPrefs.GetInt("level") == 8) //level eight
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = false;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;;apple cider;apple cider;apple cider;grilled onion;grilled onion;grilled onion";
+
+            levelTime = 150;
+        }
+
+        if (PlayerPrefs.GetInt("level") == 9) //level nine
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = false;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            peasantFoodList = "grilledMeat;grilledMeat;grilledMeat;bread;bread;bread;bread;apple cider;apple cider;;grilled onion;grilled onion;grilled fish";
+
+            levelTime = 150;
+        }
+
+        if (PlayerPrefs.GetInt("level") == 10) //level ten
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = true;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            peasantFoodList = "bread;bread;apple cider;apple cider;grilled carrot;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
+
+            levelTime = 160;
+        }
+
 
         string[] peasantFoodShuffle = peasantFoodList.Split(';');
         shuffle(peasantFoodShuffle);
@@ -374,6 +521,7 @@ public class levelHandler : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        //test
         if (!finished)
         {
             finished = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished;
