@@ -293,7 +293,7 @@ public class CircleHighLight : MonoBehaviour
                 GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
                 next = false;
             }
-            else if (GameObject.Find("Chef").GetComponent<Chef>().one_h == "roast meat food"
+            else if ((GameObject.Find("Chef").GetComponent<Chef>().one_h == "grilledMeat" || GameObject.Find("Chef").GetComponent<Chef>().two_h == "grilledMeat")
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 7)
             {
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
@@ -311,7 +311,7 @@ public class CircleHighLight : MonoBehaviour
                 GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
                 next = false;
             }
-            else if (GameObject.Find("Batilda").GetComponent<Waitress>().one_h == "roast meat food"
+            else if ((GameObject.Find("Batilda").GetComponent<Waitress>().one_h == "grilledMeat" || GameObject.Find("Batilda").GetComponent<Waitress>().two_h == "grilledMeat")
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 9)
             {
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
