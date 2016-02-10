@@ -17,7 +17,6 @@ public class CircleHighLight : MonoBehaviour
 
     void OnMouseDown()
     {
-        print("???????????");
         if (GameObject.Find("Main Camera").GetComponent<Tutorial>().cap <= 10)
         {
             GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled = false;
@@ -71,8 +70,8 @@ public class CircleHighLight : MonoBehaviour
             GameObject.Find("furnace1_cheap").GetComponent<SpriteRenderer>().sortingOrder = 2;
             GameObject.Find("highlight").transform.position = new Vector2(3.2f, 4.0f);
             GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 6; // Increase the size of CAP ***
-            print("TRIGGERED");
         }
+
         else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == GameObject.Find("Main Camera").GetComponent<Tutorial>().cap
         && GameObject.Find("Main Camera").GetComponent<Tutorial>().cap == 7)
         {
@@ -288,7 +287,6 @@ public class CircleHighLight : MonoBehaviour
             {
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;
-                print("Count here" + GameObject.Find("Main Camera").GetComponent<Tutorial>().count);
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
                 next = false;
