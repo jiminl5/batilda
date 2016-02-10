@@ -88,17 +88,17 @@ public class cuttingObject : MonoBehaviour
             if (cutting == "carrot")
             {
                 this.GetComponent<Animator>().SetInteger("stored", 1);
-                this.GetComponent<nameAndPosition>().go = Resources.Load("Ingredients/cut_carrot") as GameObject;
+                this.GetComponent<nameAndPosition>().go = Resources.Load("Dishes/cut_carrot") as GameObject;
             }
             else if (cutting == "onion")
             {
                 this.GetComponent<Animator>().SetInteger("stored", 2);
-                this.GetComponent<nameAndPosition>().go = Resources.Load("Ingredients/cut_onion") as GameObject;
+                this.GetComponent<nameAndPosition>().go = Resources.Load("Dishes/cut_onion") as GameObject;
             }
             else if (cutting == "cheese")
             {
                 this.GetComponent<Animator>().SetInteger("stored", 3);
-                this.GetComponent<nameAndPosition>().go = Resources.Load("Ingredients/cut_cheese") as GameObject;
+                this.GetComponent<nameAndPosition>().go = Resources.Load("Dishes/cut_cheese") as GameObject;
             }
         }
         else
@@ -112,17 +112,17 @@ public class cuttingObject : MonoBehaviour
                     if (cutting == "carrot")
                     {
                         cont.GetComponent<SpriteRenderer>().sprite = c_carrot;
-                        cont.GetComponent<nameAndPosition>().go = Resources.Load("Ingredients/cut_carrot") as GameObject;
+                        cont.GetComponent<nameAndPosition>().go = Resources.Load("Dishes/cut_carrot") as GameObject;
                     }
                     else if (cutting == "onion")
                     {
                         cont.GetComponent<SpriteRenderer>().sprite = c_onion;
-                        cont.GetComponent<nameAndPosition>().go = Resources.Load("Ingredients/cut_onion") as GameObject;
+                        cont.GetComponent<nameAndPosition>().go = Resources.Load("Dishes/cut_onion") as GameObject;
                     }
                     else if (cutting == "cheese")
                     {
                         cont.GetComponent<SpriteRenderer>().sprite = c_cheese;
-                        cont.GetComponent<nameAndPosition>().go = Resources.Load("Ingredients/cut_cheese") as GameObject;
+                        cont.GetComponent<nameAndPosition>().go = Resources.Load("Dishes/cut_cheese") as GameObject;
                     }
                     fullContainers += 1;
                     break;

@@ -41,7 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: grilled carrot
   timeToMake: 5
-  ingredient: cut_onion
+  ingredient: cut_carrot
   finishedDish: {fileID: 108074, guid: 3faa635c14c57a144889f64ebed9d304, type: 2}
   go: {fileID: 168712, guid: f41e7a23903afef49ba48696f96fc8d9, type: 2}
 --- !u!1001 &100100000
@@ -58,6 +58,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: grill
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ingredient
+      value: cut_carrot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
