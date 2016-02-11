@@ -337,7 +337,7 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;;apple cider;apple cider;apple cider;grilled onion;grilled onion;grilled onion";
+            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;apple cider;apple cider;apple cider;grilled onion;grilled onion;grilled onion";
 
             levelTime = 150;
         }
@@ -372,7 +372,7 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            peasantFoodList = "grilledMeat;grilledMeat;grilledMeat;bread;bread;bread;bread;apple cider;apple cider;;grilled onion;grilled onion;grilled fish";
+            peasantFoodList = "grilledMeat;grilledMeat;grilledMeat;bread;bread;bread;bread;apple cider;apple cider;grilled onion;grilled onion;grilled fish";
 
             levelTime = 150;
         }
