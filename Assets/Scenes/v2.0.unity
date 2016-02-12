@@ -2248,7 +2248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
-  x: 2
+  x: 3
   y: 3
   go: {fileID: 105256, guid: ead697c76d7e7084195424b10f54d071, type: 2}
 --- !u!212 &619299108

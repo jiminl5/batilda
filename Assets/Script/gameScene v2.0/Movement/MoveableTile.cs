@@ -13,7 +13,7 @@ public class MoveableTile : MonoBehaviour {
 	GameObject[] blk_tile;
 	GameObject[] red_tile;
     
-	void Start()
+	void Awake()
 	{
 		Setup_Tile ();
 	}
@@ -41,27 +41,36 @@ public class MoveableTile : MonoBehaviour {
 
             // Disable Unecessary tiles ----------------
             if (red_tile[i].transform.position.y >= 8)
-                red_tile[i].SetActive(false);
+                Destroy(red_tile[i]);
+            //red_tile[i].SetActive(false);
             else if (red_tile[i].transform.position.x == 7.5f && red_tile[i].transform.position.y <= 2) // DISABLE MID RED TILE
-                red_tile[i].SetActive(false);
+                Destroy(red_tile[i]);
+            //red_tile[i].SetActive(false);
             else if ((red_tile[i].transform.position.x > 7.5f && red_tile[i].transform.position.x < 15f)
                         && !(red_tile[i].transform.position.y == 2 || red_tile[i].transform.position.y == 6
                          || red_tile[i].transform.position.y == 7))
-                red_tile[i].SetActive(false);
+                Destroy(red_tile[i]);
+            //red_tile[i].SetActive(false);
         }
         for (int j = 0; j < blk_tile.Length; j++) {
 			blk_tile[j].GetComponent<BoxCollider2D>().enabled = true;
 
             // Disable Unecessary tiles ----------------
             if (blk_tile[j].transform.position.y >= 8)
-                blk_tile[j].SetActive(false);
+                Destroy(blk_tile[j]);
+            // blk_tile[j].SetActive(false);
             else if (blk_tile[j].transform.position.y == 7 && blk_tile[j].transform.position.x == 0)
-                blk_tile[j].SetActive(false);
+                Destroy(blk_tile[j]);
+            //blk_tile[j].SetActive(false);
             else if ((blk_tile[j].transform.position.x > 0 && blk_tile[j].transform.position.x < 7.5f)
                      && (blk_tile[j].transform.position.y > 0 && blk_tile[j].transform.position.y < 6)
-                     && !(blk_tile[j].transform.position.y == 4 && blk_tile[j].transform.position.x == 3))
-                blk_tile[j].SetActive(false);
-		}
+                     && !((blk_tile[j].transform.position.y == 4 && blk_tile[j].transform.position.x == 3)
+                     || (blk_tile[j].transform.position.y == 4 && blk_tile[j].transform.position.x == 4.5f)
+                     || (blk_tile[j].transform.position.y == 3 && blk_tile[j].transform.position.x == 3f)
+                     || (blk_tile[j].transform.position.y == 3 && blk_tile[j].transform.position.x == 4.5f)))
+                Destroy(blk_tile[j]);
+            // blk_tile[j].SetActive(false);
+        }
 		MidTileMoveable ();
 	}
 
@@ -126,12 +135,16 @@ public class MoveableTile : MonoBehaviour {
                         mtY -= 1;
                     map.GeneratePathTo(mtX, mtY - 1);
                 }
-                else if (mtY == 4 && mtX == 2) // Grill
+                else if (mtY >= 3 && mtX == 2) // Grill
                 {
                     map.GeneratePathTo(mtX - 1, mtY);
                 }
-				//Chef.clicked = true;
-				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
+                else if (mtY >= 3 && mtX == 3) // Grill
+                {
+                    map.GeneratePathTo(mtX + 1, mtY);
+                }
+                //Chef.clicked = true;
+                GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtX = mtX;
 				GameObject.FindGameObjectWithTag ("Chef").GetComponent<Chef> ().mtY = mtY;
                 //QUEUE ACTION
                 if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null
