@@ -44,23 +44,15 @@ public class Waitress : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//Debug.Log ("mtX: " + mtX + " mtY: " + mtY + " atPosition = " + atPosition);
-		//Debug.Log (findGameObjectAtClickedPosition ());
-		//if (findGameObjectAtClickedPosition ()) {
-			//GameObject go = findGameObjectAtClickedPosition ();
-//			animator.SetBool("1_h", !string.IsNullOrEmpty(one_h));
-//			animator.SetBool("2_h", !string.IsNullOrEmpty(two_h));
         if (obj_queue1.Count > 0) { 
-			//if (!clicked) {
-			//} else {
-				//				Debug.Log (!string.IsNullOrEmpty(one_h));
-				//clicked = false;
-				//Debug.Log ("clicked");
-
 			if ((atPosition && obj_queue1.Peek().GetComponent<drinkObject>() )
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<drinkObject>())) {
                 drinkAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                //Check Mark - 2016-02-13
+                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
+                    Destroy(MoveableTile.check_Queue_1.Peek());
+                MoveableTile.check_Queue_1.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
             }
@@ -69,6 +61,10 @@ public class Waitress : MonoBehaviour {
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<Furnace>())) {
                 furnaceAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                //Check Mark - 2016-02-13
+                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
+                    Destroy(MoveableTile.check_Queue_1.Peek());
+                MoveableTile.check_Queue_1.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;    
 			}
@@ -77,6 +73,10 @@ public class Waitress : MonoBehaviour {
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<dropOffPoint>())) {
                 dropOffPointAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                //Check Mark - 2016-02-13
+                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
+                    Destroy(MoveableTile.check_Queue_1.Peek());
+                MoveableTile.check_Queue_1.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
 			} 
@@ -84,6 +84,10 @@ public class Waitress : MonoBehaviour {
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<ingredientObject>())) {
                 ingredientAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                //Check Mark - 2016-02-13
+                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
+                    Destroy(MoveableTile.check_Queue_1.Peek());
+                MoveableTile.check_Queue_1.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
 			} 
@@ -91,6 +95,10 @@ public class Waitress : MonoBehaviour {
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<Customer>())) {
                 customerAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                //Check Mark - 2016-02-13
+                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
+                    Destroy(MoveableTile.check_Queue_1.Peek());
+                MoveableTile.check_Queue_1.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
 			} 
@@ -99,6 +107,10 @@ public class Waitress : MonoBehaviour {
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().name == "Null_Object"))
             {
                 obj_queue1.Dequeue();
+                //Check Mark - 2016-02-13
+                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
+                    Destroy(MoveableTile.check_Queue_1.Peek());
+                MoveableTile.check_Queue_1.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
             }
@@ -108,6 +120,10 @@ public class Waitress : MonoBehaviour {
             {
                 trashAction(obj_queue1.Peek());
                 obj_queue1.Dequeue();
+                //Check Mark - 2016-02-13
+                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
+                    Destroy(MoveableTile.check_Queue_1.Peek());
+                MoveableTile.check_Queue_1.Dequeue();
                 GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
                 atPosition = false;
             }

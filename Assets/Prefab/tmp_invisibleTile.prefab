@@ -78,6 +78,7 @@ MonoBehaviour:
   map1: {fileID: 0}
   plates: []
   food_plates: []
+  check: {fileID: 158876, guid: ce019b3e63e6cf744aa10d33e186246e, type: 2}
 --- !u!212 &21295706
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -112,6 +113,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: cQueue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
@@ -123,6 +128,18 @@ Prefab:
       propertyPath: m_TagString
       value: tile_blk
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: cQueue.Array.data[0].checkPrefab
+      value: 
+      objectReference: {fileID: 159134, guid: e017f95836ff065458c41e465d2aeaa6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: cQueue.checkPrefab
+      value: 
+      objectReference: {fileID: 159134, guid: e017f95836ff065458c41e465d2aeaa6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 158876, guid: ce019b3e63e6cf744aa10d33e186246e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 191002}

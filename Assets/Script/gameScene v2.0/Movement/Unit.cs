@@ -29,7 +29,9 @@ public class Unit : MonoBehaviour {
 
 	public static Queue<List<Node>> unit_queue = new Queue<List<Node>>();
 
-	void Start()
+    public static Queue<GameObject> check_Queue = new Queue<GameObject>();
+
+    void Start()
 	{
         //temp_list = new List<Node>();
         g_object = GameObject.Find("Unit");
@@ -58,7 +60,6 @@ public class Unit : MonoBehaviour {
             unit_queue.Enqueue(queue_list);
         }
 	}
-
     //Move to nextTile
 	public void MoveNextTile()
 	{
@@ -138,7 +139,7 @@ public class Unit : MonoBehaviour {
 			{
 				this.gameObject.GetComponentInChildren<Chef>().atPosition = true;
 				print("Succesfully at destination");
-				left_right = "";
+                left_right = "";
 				down_up = "";
 				_animator.SetInteger(_chef_animState, 0);
 				unit_queue.Dequeue();

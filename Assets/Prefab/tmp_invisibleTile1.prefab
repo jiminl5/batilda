@@ -78,6 +78,7 @@ MonoBehaviour:
   map1: {fileID: 0}
   plates: []
   food_plates: []
+  check: {fileID: 177776, guid: ef6240a300d2a1c4080cd7949cef1a3c, type: 2}
 --- !u!212 &21292720
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -119,6 +120,10 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 177776, guid: ef6240a300d2a1c4080cd7949cef1a3c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 181840}

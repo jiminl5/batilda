@@ -9,7 +9,7 @@ public class TileMap : MonoBehaviour {
 	public GameObject selectedUnit;
 	//public GameObject selectedUnit1;
 
-	public TileType[] tileTypes; // array (e.g. tile type grass, tile type table, tile type kitchen)
+	public TileType[] tileTypes; // array (e.g. tile type table, tile type kitchen)
 
 	int[,] tiles; // 2-Dimensional Array
 
