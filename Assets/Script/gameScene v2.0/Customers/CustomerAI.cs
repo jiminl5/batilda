@@ -6,7 +6,9 @@ public class CustomerAI : MonoBehaviour {
     public Transform[] path = new Transform[3];
     int start_path = 0;
 
-    public float walk_acc = 1.8f;
+    public float walk_acc;
+
+    int direction = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -17,9 +19,8 @@ public class CustomerAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (start_path == 3)
+        if (direction == 3)
         {
-            Destroy(this.gameObject);
         }
         else
         {
@@ -29,15 +30,13 @@ public class CustomerAI : MonoBehaviour {
 
     void walk()
     {
-        Vector2 direction = path[start_path].position - transform.position;
-        float speed = Vector2.Dot(direction.normalized, transform.forward);
-        float walk_speed = walk_acc * speed;
-        transform.Translate(0, 0, Time.deltaTime * speed);
+        float speed = walk_acc * Time.deltaTime;
+        transform.position = Vector2.MoveTowards(transform.position, path[direction].position, speed);
     }
 
-    void OnTriggerEnter(Collider coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.tag == "WayPoint")
-            start_path++;
+            direction++;
     }
 }
