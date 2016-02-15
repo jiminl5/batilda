@@ -298,7 +298,7 @@ public class Chef : MonoBehaviour {
 
                 go_1h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
                 go_1h.transform.SetParent(gameObject.transform);
-
+				source.PlayOneShot(plateSFX[Random.Range (0,7)]);
                 Debug.Log("picking up food...");
                 Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
                 go.GetComponent<cookingObject>().food_ready = false;
@@ -310,7 +310,7 @@ public class Chef : MonoBehaviour {
 
                 go_2h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
                 go_2h.transform.SetParent(gameObject.transform);
-
+				source.PlayOneShot(plateSFX[Random.Range (0,7)]);
                 Debug.Log("picking up food...");
                 Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
                 go.GetComponent<cookingObject>().food_ready = false;
