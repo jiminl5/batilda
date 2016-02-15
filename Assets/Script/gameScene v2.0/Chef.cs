@@ -12,12 +12,15 @@ public class Chef : MonoBehaviour {
 	GameObject go_2h;
 
     private AudioSource source;
-    public AudioClip pickUpPlateSFX;
-    public AudioClip dropOffPlateSFX;
+	public AudioClip[] plateSFX;
+    public AudioClip[] pickUpPlateSFX;
+    public AudioClip[] dropOffPlateSFX;
 	public AudioClip cuttingZuchinni;
+	public AudioClip cuttingCarrot;
 	public AudioClip grillDropOff;
 	public AudioClip stoveDropOff;
 	public AudioClip ovenDropOff;
+	public AudioClip trashSFX;
 
 	public int mtX;
 	public int mtY;
@@ -70,17 +73,23 @@ public class Chef : MonoBehaviour {
 				string ingredient_obj = obj_queue.Peek().GetComponent<ingredientObject>().name;
 				if (ingredient_obj == "meat"){
 					
-					source.PlayOneShot(pickUpPlateSFX);
-				}
-				if (ingredient_obj == "fish"){
-				}
-				if (ingredient_obj == "onion"){
-				}
-				if (ingredient_obj == "carrot"){
-				}
-				if (ingredient_obj == "cheese"){
-				}
-				if (ingredient_obj == "wheat"){
+					//source.PlayOneShot(pickUpPlateSFX);
+					source.PlayOneShot(plateSFX[Random.Range (0,7)]);
+				}											   
+				if (ingredient_obj == "fish"){				  
+					source.PlayOneShot(plateSFX[Random.Range (0,7)]);
+				}											   
+				if (ingredient_obj == "onion"){				 
+					source.PlayOneShot(plateSFX[Random.Range (0,7)]);
+				}											   
+				if (ingredient_obj == "carrot"){				
+					source.PlayOneShot(plateSFX[Random.Range (0,7)]);			
+				}											   
+				if (ingredient_obj == "cheese"){				
+					source.PlayOneShot(plateSFX[Random.Range (0,7)]);					
+				}											   
+				if (ingredient_obj == "wheat"){				 
+					source.PlayOneShot(plateSFX[Random.Range (0,7)]);				
 				}
                 ingredientAction(obj_queue.Peek());
                 obj_queue.Dequeue();
@@ -399,7 +408,7 @@ public class Chef : MonoBehaviour {
 				//add sprite of food
 				//delete 1h
 				one_h = "";
-				source.PlayOneShot(dropOffPlateSFX);
+				source.PlayOneShot(plateSFX[Random.Range (0,7)]);
 				Destroy (go_1h);
 			}
 		} else if (hand_with_Food () == "two_h") {
@@ -415,7 +424,7 @@ public class Chef : MonoBehaviour {
 				//add sprite of food
 				//delete 1h
 				two_h = "";
-				source.PlayOneShot(dropOffPlateSFX);
+				source.PlayOneShot(plateSFX[Random.Range (0,7)]);
 				Destroy (go_2h);
 			}
 		}
@@ -429,6 +438,7 @@ public class Chef : MonoBehaviour {
             if ((one_h == "carrot" || one_h == "onion" || one_h == "cheese"))
             {
 				source.PlayOneShot (cuttingZuchinni);
+				source.PlayOneShot (cuttingCarrot);
                 go.GetComponent<cuttingObject>().cutting = one_h;
                 go.GetComponent<cuttingObject>().is_cutting = true;
                 one_h = "";
@@ -436,6 +446,8 @@ public class Chef : MonoBehaviour {
             }
             else if ((two_h == "carrot" || two_h == "onion" || two_h == "cheese"))
             {
+				source.PlayOneShot (cuttingZuchinni);
+				source.PlayOneShot (cuttingCarrot);
                 go.GetComponent<cuttingObject>().cutting = two_h;
                 go.GetComponent<cuttingObject>().is_cutting = true;
                 two_h = "";
@@ -524,10 +536,12 @@ public class Chef : MonoBehaviour {
 		if (!string.IsNullOrEmpty (two_h)) {
 			two_h = "";
 			Destroy (go_2h);
+			source.PlayOneShot(trashSFX);
 			go.GetComponent<Animator>().SetTrigger("trash_on");
 		} else if (!string.IsNullOrEmpty (one_h)) {
 			one_h = "";
 			Destroy (go_1h);
+			source.PlayOneShot(trashSFX);
 			go.GetComponent<Animator>().SetTrigger("trash_on");
 		} 
 	}

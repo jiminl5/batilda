@@ -12,6 +12,9 @@ public class Waitress : MonoBehaviour {
 	public GameObject go_2h;
 
     public AudioClip pickUpLogSFX;
+	public AudioClip[] plateSFX;
+	public AudioClip trashSFX;
+	public AudioClip drink;
     private AudioSource source;
 	
 	public int mtX;
@@ -230,6 +233,7 @@ public class Waitress : MonoBehaviour {
             //update dropoffpoint food name
             if (!string.IsNullOrEmpty(go.GetComponent<dropOffPoint>().food_name))
             {
+				source.PlayOneShot(plateSFX[Random.Range (0,7)]);				
                 one_h = go.GetComponent<dropOffPoint>().food_name;
                 go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
                 go_1h.transform.SetParent(gameObject.transform);
@@ -249,6 +253,7 @@ public class Waitress : MonoBehaviour {
             //update dropoffpoint food name
             if (!string.IsNullOrEmpty(go.GetComponent<dropOffPoint>().food_name))
             {
+				source.PlayOneShot(plateSFX[Random.Range (0,7)]);				
                 two_h = go.GetComponent<dropOffPoint>().food_name;
                 go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
                 go_2h.transform.SetParent(gameObject.transform);
@@ -305,12 +310,14 @@ public class Waitress : MonoBehaviour {
     {
         if (!string.IsNullOrEmpty(two_h))
         {
+			source.PlayOneShot(trashSFX);
             two_h = "";
             Destroy(go_2h);
             go.GetComponent<Animator>().SetTrigger("trash_on");
         }
         else if (!string.IsNullOrEmpty(one_h))
         {
+			source.PlayOneShot(trashSFX);
             one_h = "";
             Destroy(go_1h);
             go.GetComponent<Animator>().SetTrigger("trash_on");

@@ -18,7 +18,7 @@ public class cookingObject : MonoBehaviour {
 	public string chef_2h;
 
 	public Color c;
-
+	
 	private GameObject foodSprite;
     public GameObject cookingSpriteIdle;
     private GameObject _cookingSpriteIdle;
@@ -40,6 +40,7 @@ public class cookingObject : MonoBehaviour {
 
 
 	void Start () {
+		this.GetComponent<timerObject>().GenerateTimerAt(2,5,25);
         Debug.Log(GetComponent<recipeRepository>().cookingObjectName);
         foreach (Recipie a in GetComponent<recipeRepository>().recipes)
         {
