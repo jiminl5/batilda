@@ -12,7 +12,6 @@ public class CloseSignAnim : MonoBehaviour {
     private float center_x = 7.5f;
     private float rotate_y_speed = 4.0f;
     private float end_time;
-
     private float timer;
 
 	// Use this for initialization
@@ -27,7 +26,8 @@ public class CloseSignAnim : MonoBehaviour {
     void Update() {
         if (GameObject.Find("Main Camera").GetComponent<StopWatch>().finished) { 
             if (!turn && !slide)
-            {
+            {				
+				
                 this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
                 if (this.gameObject.transform.position.x >= 7.5f)
                 {
@@ -58,4 +58,5 @@ public class CloseSignAnim : MonoBehaviour {
             }
         }
 	}
+
 }

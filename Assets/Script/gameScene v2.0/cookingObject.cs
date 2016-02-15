@@ -8,6 +8,9 @@ public class cookingObject : MonoBehaviour {
 	public Recipie recipie1;
 	public Recipie recipie2;
 
+	public AudioSource source;
+	public AudioClip bubblingSFX;
+
 	public bool start_cooking = false;
 	public bool food_ready = false;
 	public bool cookReady = false;
@@ -107,6 +110,9 @@ public class cookingObject : MonoBehaviour {
 		{
 			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
+			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
+				source.PlayOneShot(bubblingSFX, .2f);
+			}
             //Debug.Log (current_recipie.timeToMake);
             Destroy(_cookingSpriteIdle);
             _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;

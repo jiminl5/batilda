@@ -21,6 +21,7 @@ public class Chef : MonoBehaviour {
 	public AudioClip stoveDropOff;
 	public AudioClip ovenDropOff;
 	public AudioClip trashSFX;
+	public AudioClip bubblingSFX;
 
 	public int mtX;
 	public int mtY;
@@ -269,15 +270,7 @@ public class Chef : MonoBehaviour {
             go.GetComponent<cookingObject>().food_ready == false &&
             !go.GetComponent<cookingObject>().isCooking) {
             Debug.Log("cooking...");
-                if (go.GetComponent<cookingObject>().name == "grill 1") {
-                    source.PlayOneShot(grillDropOff);
-                }
-                if (go.GetComponent<cookingObject>().name == "atoven") {
-                    source.PlayOneShot(ovenDropOff);
-                }
-                if (go.GetComponent<cookingObject>().name == "atstove") {
-                    source.PlayOneShot(stoveDropOff);
-                }
+			Debug.Log (go.GetComponent<cookingObject>().name);
                 Debug.Log("cooking... at" + go.GetComponent<cookingObject>());
                 go.GetComponent<cookingObject>().cookReady = true;
                 go.GetComponent<cookingObject>().chef_1h = one_h;
@@ -290,15 +283,6 @@ public class Chef : MonoBehaviour {
         else if (go.GetComponent<cookingObject>().canCook(two_h) &&
                  go.GetComponent<cookingObject>().food_ready == false &&
                  !go.GetComponent<cookingObject>().isCooking) {
-                if (go.GetComponent<cookingObject>().name == "grill 1") {
-                    source.PlayOneShot(grillDropOff);
-                }
-                if (go.GetComponent<cookingObject>().name == "atoven") {
-                    source.PlayOneShot(ovenDropOff);
-                }
-                if (go.GetComponent<cookingObject>().name == "atstove") {
-                    source.PlayOneShot(stoveDropOff);
-                }
                 Debug.Log("cooking...");
                 go.GetComponent<cookingObject>().cookReady = true;
                 go.GetComponent<cookingObject>().chef_1h = two_h;

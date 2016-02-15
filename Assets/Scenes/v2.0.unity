@@ -1140,6 +1140,7 @@ GameObject:
   - 114: {fileID: 376461790}
   - 95: {fileID: 376461791}
   - 114: {fileID: 376461792}
+  - 82: {fileID: 376461793}
   m_Layer: 0
   m_Name: stove
   m_TagString: test
@@ -1199,6 +1200,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11448954, guid: 71055f5ff0bf87d4ea594f0229ee5297, type: 2}
   recipie2: {fileID: 11430034, guid: 1a81fa525a7a1d147b7a0d9dc67cb57d, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 8300000, guid: 50e7ed3df85df8340a7910621f5f91cd, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -1242,6 +1245,76 @@ MonoBehaviour:
   x: 3
   y: 6
   go: {fileID: 0}
+--- !u!82 &376461793
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 376461787}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &391064005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,6 +1526,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -2109,6 +2184,7 @@ MonoBehaviour:
   stoveDropOff: {fileID: 0}
   ovenDropOff: {fileID: 0}
   trashSFX: {fileID: 8300000, guid: 68b5decbc2afb8a43952a7f7a23c6928, type: 3}
+  bubblingSFX: {fileID: 8300000, guid: 50e7ed3df85df8340a7910621f5f91cd, type: 3}
   mtX: 0
   mtY: 0
   atPosition: 1
@@ -2261,6 +2337,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -2769,6 +2847,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -3284,6 +3364,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -4869,6 +4951,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -4972,6 +5056,7 @@ GameObject:
   - 4: {fileID: 1350918036}
   - 212: {fileID: 1350918035}
   - 114: {fileID: 1350918037}
+  - 82: {fileID: 1350918038}
   m_Layer: 0
   m_Name: open
   m_TagString: Untagged
@@ -5028,6 +5113,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28aa53a81371cba4bb7dd8030e6b1048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1350918038
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1350918034}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e572b92a501ecb54a8660797486ea8ac, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .593999982
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &1351618536
 GameObject:
   m_ObjectHideFlags: 0
@@ -5293,6 +5448,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -5581,7 +5738,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 34913ebe6fee8a4498abbe62b5062edd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3e3f7f720ac6f254b915456d49fda67c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: .75
   m_Pitch: 1
@@ -6116,6 +6273,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -6973,6 +7132,8 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
+  source: {fileID: 0}
+  bubbling: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
