@@ -21,6 +21,7 @@ TagManager:
   - stove
   - oven
   - drink
+  - WayPoint
   layers:
   - Default
   - TransparentFX
