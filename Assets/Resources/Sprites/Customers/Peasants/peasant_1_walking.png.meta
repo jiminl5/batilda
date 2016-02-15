@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: e9a6a1953551f7648b8bd0e43004c0f3
+timeCreated: 1455500535
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: peasant_1_walking_0
+    21300002: peasant_1_walking_1
+    21300004: peasant_1_walking_2
+    21300006: peasant_1_walking_3
+    21300008: peasant_1_walking_4
+    21300010: peasant_1_walking_5
+    21300012: peasant_1_walking_6
+    21300014: peasant_1_walking_7
+    21300016: peasant_1_walking_8
+    21300018: peasant_1_walking_9
+    21300020: peasant_1_walking_10
+    21300022: peasant_1_walking_11
+    21300024: peasant_1_walking_12
+    21300026: peasant_1_walking_13
+    21300028: peasant_1_walking_14
+    21300030: peasant_1_walking_15
+    21300032: peasant_1_walking_16
+    21300034: peasant_1_walking_17
+    21300036: peasant_1_walking_18
+    21300038: peasant_1_walking_19
+    21300040: peasant_1_walking_20
+    21300042: peasant_1_walking_21
+    21300044: peasant_1_walking_22
+    21300046: peasant_1_walking_23
+    21300048: peasant_1_walking_24
+    21300050: peasant_1_walking_25
+    21300052: peasant_1_walking_26
+    21300054: peasant_1_walking_27
+    21300056: peasant_1_walking_28
+    21300058: peasant_1_walking_29
+    21300060: peasant_1_walking_30
+    21300062: peasant_1_walking_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: peasant_1_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_3
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_4
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_5
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_6
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_7
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 948
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_10
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_13
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_14
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_15
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 632
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_18
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_19
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_20
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_21
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_22
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_23
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 316
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_27
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_28
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_walking_29
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 0
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

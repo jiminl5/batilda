@@ -1,0 +1,551 @@
+fileFormatVersion: 2
+guid: 468cdd8a5158eac45bf3b097c946d1fe
+timeCreated: 1455500674
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: peasant_1_ordering_0
+    21300002: peasant_1_ordering_1
+    21300004: peasant_1_ordering_2
+    21300006: peasant_1_ordering_3
+    21300008: peasant_1_ordering_4
+    21300010: peasant_1_ordering_5
+    21300012: peasant_1_ordering_6
+    21300014: peasant_1_ordering_7
+    21300016: peasant_1_ordering_8
+    21300018: peasant_1_ordering_9
+    21300020: peasant_1_ordering_10
+    21300022: peasant_1_ordering_11
+    21300024: peasant_1_ordering_12
+    21300026: peasant_1_ordering_13
+    21300028: peasant_1_ordering_14
+    21300030: peasant_1_ordering_15
+    21300032: peasant_1_ordering_16
+    21300034: peasant_1_ordering_17
+    21300036: peasant_1_ordering_18
+    21300038: peasant_1_ordering_19
+    21300040: peasant_1_ordering_20
+    21300042: peasant_1_ordering_21
+    21300044: peasant_1_ordering_22
+    21300046: peasant_1_ordering_23
+    21300048: peasant_1_ordering_24
+    21300050: peasant_1_ordering_25
+    21300052: peasant_1_ordering_26
+    21300054: peasant_1_ordering_27
+    21300056: peasant_1_ordering_28
+    21300058: peasant_1_ordering_29
+    21300060: peasant_1_ordering_30
+    21300062: peasant_1_ordering_31
+    21300064: peasant_1_ordering_32
+    21300066: peasant_1_ordering_33
+    21300068: peasant_1_ordering_34
+    21300070: peasant_1_ordering_35
+    21300072: peasant_1_ordering_36
+    21300074: peasant_1_ordering_37
+    21300076: peasant_1_ordering_38
+    21300078: peasant_1_ordering_39
+    21300080: peasant_1_ordering_40
+    21300082: peasant_1_ordering_41
+    21300084: peasant_1_ordering_42
+    21300086: peasant_1_ordering_43
+    21300088: peasant_1_ordering_44
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: peasant_1_ordering_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_2
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_3
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_5
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_6
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_7
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1570
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_11
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_12
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_13
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_14
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_15
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1256
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_18
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_19
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_20
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_21
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_22
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_23
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 942
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_27
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_28
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_29
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_30
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_31
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 628
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_34
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_35
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_36
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_37
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_38
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_39
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 314
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_41
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_42
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_43
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peasant_1_ordering_44
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 185
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
