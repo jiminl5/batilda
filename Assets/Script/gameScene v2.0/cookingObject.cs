@@ -44,7 +44,6 @@ public class cookingObject : MonoBehaviour {
 
 
 	void Start () {
-		this.GetComponent<timerObject>().GenerateTimerAt(2,5,25);
         Debug.Log(GetComponent<recipeRepository>().cookingObjectName);
         foreach (Recipie a in GetComponent<recipeRepository>().recipes)
         {
@@ -122,6 +121,7 @@ public class cookingObject : MonoBehaviour {
             _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
             chef_1h = "";
             isCooking = true;
+			this.GetComponent<timerObject>().GenerateTimerAt(transform.position.x, transform.position.y, 25);
             Invoke("cookFood", current_recipie.timeToMake); //wait for food to be done...
 			//Debug.Log ("food done!");
 			//food is done! animation here.

@@ -16,9 +16,9 @@ public class timerObject : MonoBehaviour {
 	
 	}
 
-	public void GenerateTimerAt(int x, int y, int runTime)
+	public void GenerateTimerAt(float x, float y, int runTime)
 	{
-		Instantiate(timer, new Vector2((float)x + 0.5f, (float)y + 0.5f), Quaternion.identity);
+		Instantiate(timer, new Vector2(x, y), Quaternion.identity);
 	}
 
 
