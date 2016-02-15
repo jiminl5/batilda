@@ -1202,6 +1202,7 @@ MonoBehaviour:
   recipie2: {fileID: 11430034, guid: 1a81fa525a7a1d147b7a0d9dc67cb57d, type: 2}
   source: {fileID: 376461793}
   bubblingSFX: {fileID: 8300000, guid: 50e7ed3df85df8340a7910621f5f91cd, type: 3}
+  grillSizzleSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -1476,6 +1477,7 @@ GameObject:
   - 114: {fileID: 428736017}
   - 114: {fileID: 428736016}
   - 95: {fileID: 428736015}
+  - 82: {fileID: 428736019}
   m_Layer: 0
   m_Name: grill 3
   m_TagString: test
@@ -1526,8 +1528,9 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
-  source: {fileID: 0}
+  source: {fileID: 428736019}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 8300000, guid: 5fa70d935fe19d84590ce7a6b5d25b28, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -1580,6 +1583,76 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300002, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
   m_Color: {r: .713725507, g: .713725507, b: .713725507, a: 1}
+--- !u!82 &428736019
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 428736013}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &459092056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2287,6 +2360,7 @@ GameObject:
   - 114: {fileID: 619299107}
   - 114: {fileID: 619299106}
   - 95: {fileID: 619299105}
+  - 82: {fileID: 619299109}
   m_Layer: 0
   m_Name: grill 4
   m_TagString: test
@@ -2337,8 +2411,9 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
-  source: {fileID: 0}
+  source: {fileID: 619299109}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 8300000, guid: 5fa70d935fe19d84590ce7a6b5d25b28, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -2391,6 +2466,76 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300002, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
   m_Color: {r: .713725507, g: .713725507, b: .713725507, a: 1}
+--- !u!82 &619299109
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 619299103}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &636461466
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,6 +2994,7 @@ MonoBehaviour:
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -3366,6 +3512,7 @@ MonoBehaviour:
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -4930,6 +5077,7 @@ GameObject:
   - 114: {fileID: 1346362811}
   - 95: {fileID: 1346362813}
   - 114: {fileID: 1346362816}
+  - 82: {fileID: 1346362817}
   m_Layer: 0
   m_Name: grill 1
   m_TagString: test
@@ -4951,8 +5099,9 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
-  source: {fileID: 0}
+  source: {fileID: 1346362817}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 8300000, guid: 5fa70d935fe19d84590ce7a6b5d25b28, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -5046,6 +5195,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 587248069}
+--- !u!82 &1346362817
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1346362810}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &1350918034
 GameObject:
   m_ObjectHideFlags: 0
@@ -5450,6 +5669,7 @@ MonoBehaviour:
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -5728,7 +5948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1578238656
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6275,6 +6495,7 @@ MonoBehaviour:
   recipie2: {fileID: 11441794, guid: 0652794f039b6074390665aff50bddd0, type: 2}
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -7094,6 +7315,7 @@ GameObject:
   - 114: {fileID: 2006416673}
   - 114: {fileID: 2006416672}
   - 95: {fileID: 2006416671}
+  - 82: {fileID: 2006416676}
   m_Layer: 0
   m_Name: grill 2
   m_TagString: test
@@ -7132,8 +7354,9 @@ MonoBehaviour:
   food_cooking_name: 
   recipie1: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   recipie2: {fileID: 11417312, guid: 6b2af6f867f332249b3335b51fc3c919, type: 2}
-  source: {fileID: 0}
+  source: {fileID: 2006416676}
   bubblingSFX: {fileID: 0}
+  grillSizzleSFX: {fileID: 8300000, guid: 5fa70d935fe19d84590ce7a6b5d25b28, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -7198,6 +7421,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 706291933}
   m_RootOrder: 2
+--- !u!82 &2006416676
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2006416670}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &2014845375
 Prefab:
   m_ObjectHideFlags: 0

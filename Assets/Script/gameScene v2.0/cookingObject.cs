@@ -10,6 +10,7 @@ public class cookingObject : MonoBehaviour {
 
 	public AudioSource source;
 	public AudioClip bubblingSFX;
+	public AudioClip grillSizzleSFX;
 
 	public bool start_cooking = false;
 	public bool food_ready = false;
@@ -111,7 +112,10 @@ public class cookingObject : MonoBehaviour {
 			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
 			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
-				source.PlayOneShot(bubblingSFX, .2f);
+				source.PlayOneShot(bubblingSFX, .35f);
+			}
+			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
+				source.PlayOneShot(grillSizzleSFX);
 			}
             //Debug.Log (current_recipie.timeToMake);
             Destroy(_cookingSpriteIdle);
