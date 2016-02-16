@@ -166,6 +166,7 @@ public class levelHandler : MonoBehaviour {
 
             levelTime = 60;
 			GameplaySoundtracks[0].SetActive(true);
+			GameObject.Find("MainMenuSoundtrack").SetActive(false);
 			
         }
 
