@@ -34,11 +34,11 @@ public class Tutorial : MonoBehaviour {
             }
             GameObject.Find("Batilda").GetComponent<SpriteRenderer>().sortingOrder = 10;
             GameObject.Find("bg_trans").GetComponent<SpriteRenderer>().enabled = true;
-            GameObject.Find("bg_trans").GetComponent<BoxCollider2D>().enabled = true;
+            if (count == 1 || count == 5 || count == 12)
+                GameObject.Find("bg_trans").GetComponent<BoxCollider2D>().enabled = true;
         }
         else if (count == cap && count != 6)
         {
-            print("CAAAAAAAAAAAP"  +cap);
             if (count == 2)
                 GameObject.Find("meat").GetComponent<SpriteRenderer>().sortingOrder = 10;
             else if (count == 3)
@@ -84,6 +84,7 @@ public class Tutorial : MonoBehaviour {
             GameObject.Find("Batilda").GetComponent<SpriteRenderer>().sortingOrder = 3;
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
             GameObject.Find("Main Camera").GetComponent<Tutorial>().enabled = false;
+            PlayerPrefs.SetString("tutorial", "no");
         }
     }
 }

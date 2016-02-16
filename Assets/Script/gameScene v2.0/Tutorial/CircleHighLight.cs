@@ -56,6 +56,7 @@ public class CircleHighLight : MonoBehaviour
         else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == GameObject.Find("Main Camera").GetComponent<Tutorial>().cap
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().cap == 4)
         {
+            print("TOUCHED!!!!!!!!");
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
             TutorialMove(10, 4);
             GameObject.Find("firewood").GetComponent<SpriteRenderer>().sortingOrder = 5;
@@ -65,6 +66,7 @@ public class CircleHighLight : MonoBehaviour
         else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == GameObject.Find("Main Camera").GetComponent<Tutorial>().cap
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().cap == 5)
         {
+            print("TOUCHED!!!!!!!!");
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
             TutorialMove(6, 6);
             GameObject.Find("furnace1_cheap").GetComponent<SpriteRenderer>().sortingOrder = 2;
@@ -137,14 +139,14 @@ public class CircleHighLight : MonoBehaviour
             GameObject.Find("Map").GetComponent<TileMap>().GeneratePathTo(1, 5);
             GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtx;
             GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mty;
-            ChefQueueAction();
+            ChefQueueAction(mtx, mty);
         }
         else if (mtx == 2 && mty == 4) // Drop Meat on GRILL
         {
             GameObject.Find("Map").GetComponent<TileMap>().GeneratePathTo(1, 4);
             GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtx;
             GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mty;
-            ChefQueueAction();
+            ChefQueueAction(mtx, mty);
         }
         //Waitress
         else if (mtx == 10 && mty == 4) // Pick up FireWood
@@ -152,7 +154,7 @@ public class CircleHighLight : MonoBehaviour
             GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathTo(9, 4);
             GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtX = mtx;
             GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtY = mty;
-            WaitressQueueAction();
+            WaitressQueueAction(mtx, mty);
         }
         else if (mtx == 6 && mty == 6) // Drop FireWood
         {
@@ -160,7 +162,7 @@ public class CircleHighLight : MonoBehaviour
             GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtX = mtx;
             GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtY = mty;
             //GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;
-            WaitressQueueAction();
+            WaitressQueueAction(mtx, mty);
         }
         else if (mtx == 8 && mty == 2) // Drop FireWood
         {
@@ -168,7 +170,7 @@ public class CircleHighLight : MonoBehaviour
             GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtX = mtx;
             GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtY = mty;
             //GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;
-            WaitressQueueAction();
+            WaitressQueueAction(mtx, mty);
         }
 
         //Mid Tile
@@ -179,14 +181,14 @@ public class CircleHighLight : MonoBehaviour
                 GameObject.Find("Map").GetComponent<TileMap>().GeneratePathTo(4, 5);
                 GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtX = mtx;
                 GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().mtY = mty;
-                ChefQueueAction();
+                ChefQueueAction(mtx, mty);
             }
             if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 9)
             {
                 GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathTo(6, 5);
                 GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtX = mtx;
                 GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().mtY = mty;
-                WaitressQueueAction();
+                WaitressQueueAction(mtx, mty);
             }
         }
         NextMoveBool();
@@ -197,33 +199,39 @@ public class CircleHighLight : MonoBehaviour
         next = true;
     }
 
-    void ChefQueueAction()
+    void ChefQueueAction(int mtX, int mtY)
     {
         //QUEUE ACTION
         if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null
         || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() != null))
         {
             Chef.obj_queue.Enqueue(GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition());
+            //GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().GenerateCheckmark(mtX, mtY);
+            MoveableTile.check_Queue.Enqueue(GameObject.Find("Null_Object"));
         }
         else if (GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null
         || (GameObject.Find("Map").GetComponent<TileMap>().same_spot && GameObject.FindGameObjectWithTag("Chef").GetComponent<Chef>().findGameObjectAtClickedPosition() == null))
         {
             Chef.obj_queue.Enqueue(GameObject.Find("Null_Object"));
+            MoveableTile.check_Queue.Enqueue(GameObject.Find("Null_Object"));
         }
     }
 
-    void WaitressQueueAction()
+    void WaitressQueueAction(int mtX, int mtY)
     {
         //QUEUE ACTION
         if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null
         || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() != null))
         {
             Waitress.obj_queue1.Enqueue(GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition());
+            //GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().GenerateCheckmark_1(mtX, mtY);
+            MoveableTile.check_Queue_1.Enqueue(GameObject.Find("Null_Object"));
         }
         else if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null
         || (GameObject.Find("Map").GetComponent<TileMap1>().same_spot && GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().findGameObjectAtClickedPosition() == null))
         {
             Waitress.obj_queue1.Enqueue(GameObject.Find("Null_Object"));
+            MoveableTile.check_Queue_1.Enqueue(GameObject.Find("Null_Object"));
         }
     }
 
