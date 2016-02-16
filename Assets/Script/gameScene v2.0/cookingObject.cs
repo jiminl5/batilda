@@ -111,10 +111,10 @@ public class cookingObject : MonoBehaviour {
 			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
 			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
-				source.PlayOneShot(bubblingSFX, .35f);
+				source.PlayOneShot(bubblingSFX, .7f);
 			}
 			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
-				source.PlayOneShot(grillSizzleSFX);
+				source.PlayOneShot(grillSizzleSFX, .6f);
 			}
             //Debug.Log (current_recipie.timeToMake);
             Destroy(_cookingSpriteIdle);

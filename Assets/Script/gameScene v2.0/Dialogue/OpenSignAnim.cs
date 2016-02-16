@@ -10,6 +10,11 @@ public class OpenSignAnim : MonoBehaviour {
     private float depth = 4.0f;
     private float pause_time = 0.0001f;
     private float unpause_time = 10000f;
+
+	public AudioSource source;
+	public AudioClip wooshSymbolPaperAway;
+	bool soundPlayed = false;
+
 	// Use this for initialization
 	void Start () {
         //start = true;
@@ -41,10 +46,16 @@ public class OpenSignAnim : MonoBehaviour {
         }
         if (count == 4 && (2.5f <= Time.timeSinceLevelLoad * unpause_time))
         {
+			if(!soundPlayed){
+				source.PlayOneShot (wooshSymbolPaperAway);
+				soundPlayed = true;
+			}
+			
             this.transform.Rotate(new Vector3(0, 0, 45) * (Time.deltaTime * unpause_time));
             this.transform.Translate(Vector2.right * drop_speed * (Time.deltaTime * unpause_time));
             if (this.gameObject.transform.position.x >= 19.0f)
             {
+				
                 //Tutorial if tutorial level is selected run this function
                 Time.timeScale = 1.0f;
                 if (PlayerPrefs.GetString("tutorial") == "yes")
@@ -63,7 +74,7 @@ public class OpenSignAnim : MonoBehaviour {
                     GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
                 }
-
+				
                 Destroy(this.gameObject);
             }
         }

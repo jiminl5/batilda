@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 public class levelHandler : MonoBehaviour {
 
+	public AudioSource source;
+	public GameObject[] GameplaySoundtracks;
+
     public GameObject c1;
     public GameObject c2;
 
@@ -124,6 +127,7 @@ public class levelHandler : MonoBehaviour {
                 //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 120;
+			GameplaySoundtracks[1].SetActive(true);
         }
 
         if (PlayerPrefs.GetInt("level") == 1) //tutorial level (level one)
@@ -161,6 +165,8 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat";
 
             levelTime = 60;
+			GameplaySoundtracks[0].SetActive(true);
+			
         }
 
 
@@ -200,6 +206,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
+			GameplaySoundtracks[0].SetActive(true);
         }
 
         if (PlayerPrefs.GetInt("level") == 3) //level three
@@ -270,6 +277,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 120;
+			GameplaySoundtracks[1].SetActive(true);
         }
 
         if (PlayerPrefs.GetInt("level") == 5) //level five
@@ -305,6 +313,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;apple cider;apple cider;apple cider";
 
             levelTime = 120;
+			GameplaySoundtracks[1].SetActive(true);
         }
 
         if (PlayerPrefs.GetInt("level") == 8) //level eight
