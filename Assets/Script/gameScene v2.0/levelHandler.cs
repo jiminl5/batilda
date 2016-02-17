@@ -7,22 +7,43 @@ public class levelHandler : MonoBehaviour {
 	public AudioSource source;
 	public GameObject[] GameplaySoundtracks;
 
+
+    //customers
     public GameObject c1;
     public GameObject c2;
+    public GameObject c3;
+    public GameObject c4;
+    public GameObject c5;
 
+
+    //old
     public bool waitingForC1 = false;
     public bool waitingForC2 = false;
+    //old
+
+    public bool customer1 = false;
+    public bool customer2 = false;
+    public bool customer3 = false;
+    public bool customer4 = false;
+    public bool customer5 = false;
+
+    public ArrayList emptyCustomers;
+
+    private int randomCustomer;
+    private Queue<int> randomCustomerIndexes;
+
 
     GameObject _c1;
     GameObject _c2;
 
-    public ArrayList customerList;
+    //public ArrayList customerList;
+    public GameObject[] customerList;
 
     public bool finished = false;
     private string text;
-    private int customersServed;
+    public int customersServed;
     private static Random rng = new Random();
-
+    public bool updateBools;
 
     //cooking objects
     public int maxGrillCount;
@@ -54,13 +75,16 @@ public class levelHandler : MonoBehaviour {
     //food lists
     public string peasantFoodList; //initalized with ";" as breakers. ex: "bread;carrot soup;grilled fish"
     public Queue<string> peasantFoodQueue;
+    private int customersWaiting;
 
     //time for level
     public float levelTime;
 
     void Awake()
     {
-        customerList = new ArrayList();
+        customerList = new GameObject[5];
+        emptyCustomers = new ArrayList();
+        randomCustomerIndexes = new Queue<int>();
     }
 
     // Use this for initialization
@@ -429,6 +453,7 @@ public class levelHandler : MonoBehaviour {
         {
             peasantFoodQueue.Enqueue(food);
         }
+        customersWaiting = peasantFoodQueue.Count;
         //max - how many cooking objects you have (to iterate later)
         grillCount = 4 - maxGrillCount;
         ovenCount = 4 - maxOvenCount;
@@ -527,11 +552,158 @@ public class levelHandler : MonoBehaviour {
         //set level time
         GameObject.Find("Main Camera").GetComponent<StopWatch>().startTime = levelTime;
     }
+    bool checkifNoCustomers()
+    {
+        foreach (GameObject customer in customerList)
+        {
+            if (customer != null)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
 
+    public void updateCustomerBools()
+    {
+        for (int i=0; i < 5; i++)
+        {
+            if (!customerList[i])
+            {
+                if (i == 0)
+                {
+                    customer1 = false;
+                }
+                else if (i == 1)
+                {
+                    customer2 = false;
+                }
+                else if (i == 2)
+                {
+                    customer3 = false;
+                }
+                else if (i == 3)
+                {
+                    customer4 = false;
+                }
+                else if (i == 4)
+                {
+                    customer5 = false;
+                }
+            }
+        }
+    }
+
+    int getRandomCustomer()
+    {
+        ArrayList emptyCustomers = getEmptyCustomerIndexes();
+        //first, remove any customers that are trying to spawn
+        if (customer1 == true)
+        {
+            if (emptyCustomers.Contains(0))
+            {
+                //Debug.Log("IT HAS 0");
+            }
+            emptyCustomers.Remove(0);
+        }
+        if (customer2 == true)
+        {
+            if (emptyCustomers.Contains(1))
+            {
+                //Debug.Log("IT HAS 1");
+            }
+            emptyCustomers.Remove(1);
+        }
+        if (customer3 == true)
+        {
+            if (emptyCustomers.Contains(2))
+            {
+                //Debug.Log("IT HAS 2");
+            }
+            emptyCustomers.Remove(2);
+        }
+        if (customer4 == true)
+        {
+            if (emptyCustomers.Contains(3))
+            {
+                //Debug.Log("IT HAS 3");
+            }
+            emptyCustomers.Remove(3);
+        }
+        if (customer5 == true)
+        {
+            if (emptyCustomers.Contains(4))
+            {
+                //Debug.Log("IT HAS 4");
+            }
+            emptyCustomers.Remove(4);
+        }
+        Debug.Log(emptyCustomers.Count);
+        // Debug.Log("customer1: " + customer1);
+        //Debug.Log("customer2: " + customer2);
+        //Debug.Log("customer3: " + customer3);
+        //Debug.Log("customer4: " + customer4);
+        //Debug.Log("customer5: " + customer5);
+        //Debug.Log("THIS IS EMPTY CUSTOMER COUNT: " + emptyCustomers.Count);
+        int r = Random.Range(0, emptyCustomers.Count);
+        randomCustomer = (int)emptyCustomers[r];
+       // Debug.Log("this is random customer:" +randomCustomer);
+        if (randomCustomer == 0)
+        {
+            customer1 = true;
+        }
+        else if (randomCustomer == 1)
+        {
+            customer2 = true;
+        }
+        else if (randomCustomer == 2)
+        {
+            customer3 = true;
+        }
+        else if (randomCustomer == 3)
+        {
+            customer4 = true;
+        }
+        else if (randomCustomer == 4)
+        {
+            customer5 = true;
+        }
+        return randomCustomer;
+    }
     // Update is called once per frame
     void Update()
     {
         //test
+        if (!finished)
+        {
+            if (updateBools)
+            {
+                updateCustomerBools();
+                updateBools = false;
+            }
+            finished = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished;
+            //Debug.Log("PEASANT FOOD QUEUE COUNT: " + peasantFoodQueue.Count);
+            if ((!customer1 || !customer2 || !customer3 || !customer4 || !customer5) && customersWaiting > 0)
+            {
+                randomCustomerIndexes.Enqueue(getRandomCustomer());
+                int spawnTime = Random.Range(5, 10);
+                //Debug.Log("THIS IS SPAWN TIME:" + spawnTime);
+                Invoke("Spawn", spawnTime);
+                customersWaiting--;
+            }
+            if (peasantFoodQueue.Count <= 0 && checkifNoCustomers())
+            {
+                finished = true;
+                GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished = true;
+                PlayerPrefs.SetInt("temp_coin", customersServed);
+            }
+        }
+
+
+
+
+        //-----------------
+        /*
         if (!finished)
         {
             finished = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished;
@@ -576,7 +748,7 @@ public class levelHandler : MonoBehaviour {
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished = true;
             }
         }
-
+        */
     }
 
     void OnGUI()
@@ -588,8 +760,122 @@ public class levelHandler : MonoBehaviour {
         GUI.Label(new Rect(5, 5, 100, 100), text, textStyle);
     }
 
+    ArrayList getEmptyCustomerIndexes()
+    { 
+        ArrayList ec = new ArrayList();
+        for (int i=0; i < 5; i++)
+        {
+            if (!customerList[i])
+            {
+                ec.Add(i);
+            }
+        }
+        return ec;
+    }
+
     void Spawn()
     {
+        ArrayList emptyCustomers = getEmptyCustomerIndexes();
+
+        int i = randomCustomerIndexes.Dequeue();
+
+
+        GameObject tempcustomer = Resources.Load("Customers/Peasants/customer") as GameObject;
+        tempcustomer.GetComponent<Customer>().current_food = findRecipe(peasantFoodQueue.Dequeue());
+
+
+        if (i == 0)
+        {
+            tempcustomer.GetComponent<nameAndPosition>().x = 6;
+            tempcustomer.GetComponent<nameAndPosition>().y = 2;
+            tempcustomer.transform.position = new Vector3(9, 2, 0);
+            customer1 = true;
+        }
+        else if (i == 1)
+        {
+            tempcustomer.GetComponent<nameAndPosition>().x = 7;
+            tempcustomer.GetComponent<nameAndPosition>().y = 2;
+            tempcustomer.transform.position = new Vector3(10.5f, 2, 0);
+            customer2 = true;
+        }
+        else if (i == 2)
+        {
+            tempcustomer.GetComponent<nameAndPosition>().x = 8;
+            tempcustomer.GetComponent<nameAndPosition>().y = 2;
+            tempcustomer.transform.position = new Vector3(12, 2, 0);
+            customer3 = true;
+        }
+        else if (i == 3)
+        {
+            tempcustomer.GetComponent<nameAndPosition>().x = 9;
+            tempcustomer.GetComponent<nameAndPosition>().y = 2;
+            tempcustomer.transform.position = new Vector3(13.5f, 2, 0);
+            customer4 = true;
+        }
+        else if (i == 4)
+        {
+            tempcustomer.GetComponent<nameAndPosition>().x = 10;
+            tempcustomer.GetComponent<nameAndPosition>().y = 2;
+            tempcustomer.transform.position = new Vector3(15, 2, 0);
+            customer5 = true;
+        }
+        customerList[i] = Instantiate(tempcustomer);
+
+
+
+        /*
+        for (int i = 0; i < 5; i++)
+        {
+            if (!customerList[i] && peasantFoodQueue.Count > 0)
+            {
+                //spawn
+                GameObject tempcustomer = Resources.Load("Customers/Peasants/customer") as GameObject;
+
+                tempcustomer.GetComponent<Customer>().current_food = findRecipe(peasantFoodQueue.Dequeue());
+                if (i == 0)
+                {
+                    tempcustomer.GetComponent<nameAndPosition>().x = 6;
+                    tempcustomer.GetComponent<nameAndPosition>().y = 2;
+                    tempcustomer.transform.position = new Vector3(9, 2, 0);
+                    customer1 = true;
+                }
+                else if (i == 1)
+                {
+                    tempcustomer.GetComponent<nameAndPosition>().x = 7;
+                    tempcustomer.GetComponent<nameAndPosition>().y = 2;
+                    tempcustomer.transform.position = new Vector3(10.5f, 2, 0);
+                    customer2 = true;
+                }
+                else if (i == 2)
+                {
+                    tempcustomer.GetComponent<nameAndPosition>().x = 8;
+                    tempcustomer.GetComponent<nameAndPosition>().y = 2;
+                    tempcustomer.transform.position = new Vector3(12, 2, 0);
+                    customer3 = true;
+                }
+                else if (i == 3)
+                {
+                    tempcustomer.GetComponent<nameAndPosition>().x = 9;
+                    tempcustomer.GetComponent<nameAndPosition>().y = 2;
+                    tempcustomer.transform.position = new Vector3(13.5f, 2, 0);
+                    customer4 = true;
+                }
+                else if (i == 4)
+                {
+                    tempcustomer.GetComponent<nameAndPosition>().x = 10;
+                    tempcustomer.GetComponent<nameAndPosition>().y = 2;
+                    tempcustomer.transform.position = new Vector3(15, 2, 0);
+                    customer5 = true;
+                }
+                customerList[i] = Instantiate(tempcustomer);
+            }
+
+        }
+        */
+
+
+        //OLD SPAWN
+        /*
         if (!waitingForC1 && peasantFoodQueue.Count > 0)
         {
             _c1 = Instantiate(c1);
@@ -601,7 +887,7 @@ public class levelHandler : MonoBehaviour {
             _c2 = Instantiate(c2);
             _c2.GetComponent<Customer>().current_food = findRecipe(peasantFoodQueue.Dequeue());
             waitingForC2 = true;
-        }
+        }*/
     }
 
     Recipie findRecipe(string food)

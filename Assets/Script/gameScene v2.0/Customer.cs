@@ -57,11 +57,14 @@ public class Customer : MonoBehaviour {
 				food_given = "";
 				//given correct food!
 				Debug.Log ("yum!");
-				Destroy (this.gameObject);
+                GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
+                Destroy (this.gameObject);
 				Destroy (foodSprite);
 				Instantiate(Resources.Load ("temp_particlesystem_pickup"), transform.position, transform.rotation);
+                Debug.Log("HELLO HHHHHHH");
+                GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
 
-			}
+            }
             else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given))
             {
 				Debug.Log ("this isn't my order!");

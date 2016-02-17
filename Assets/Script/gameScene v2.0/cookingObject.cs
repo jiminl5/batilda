@@ -121,7 +121,7 @@ public class cookingObject : MonoBehaviour {
             _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
             chef_1h = "";
             isCooking = true;
-			this.GetComponent<timerObject>().GenerateTimerAt(transform.position.x, transform.position.y, 25);
+			//this.GetComponent<timerObject>().GenerateTimerAt(transform.position.x, transform.position.y, 25); commented out by chris 2/16/16
             Invoke("cookFood", current_recipie.timeToMake); //wait for food to be done...
 			//Debug.Log ("food done!");
 			//food is done! animation here.

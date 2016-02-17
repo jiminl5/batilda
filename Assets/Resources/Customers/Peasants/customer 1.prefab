@@ -1,41 +1,41 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &161462
+--- !u!1 &110348
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 429506}
-  - 212: {fileID: 21267636}
-  - 114: {fileID: 11405622}
-  - 114: {fileID: 11429218}
+  - 4: {fileID: 472562}
+  - 212: {fileID: 21289078}
+  - 114: {fileID: 11418034}
+  - 114: {fileID: 11447324}
   m_Layer: 0
-  m_Name: customer 2
+  m_Name: customer 1
   m_TagString: test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &429506
+--- !u!4 &472562
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 161462}
+  m_GameObject: {fileID: 110348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.7849274, y: 2.1068027, z: 0}
+  m_LocalPosition: {x: 10.39, y: 2.07, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11405622
+--- !u!114 &11418034
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 161462}
+  m_GameObject: {fileID: 110348}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49f4b3557688638489a14b2acf795ee1, type: 3}
@@ -44,27 +44,27 @@ MonoBehaviour:
   foodWaitingOn: none
   current_food: {fileID: 0}
   food_given: 
---- !u!114 &11429218
+--- !u!114 &11447324
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 161462}
+  m_GameObject: {fileID: 110348}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
-  x: 8
+  x: 7
   y: 2
   go: {fileID: 0}
---- !u!212 &21267636
+--- !u!212 &21289078
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 161462}
+  m_GameObject: {fileID: 110348}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,22 +77,30 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: .0329614207, g: .95588237, b: 0, a: 1}
+  m_Color: {r: 0.019269753, g: 0.5588235, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Name
+      value: customer
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 161462}
+  m_RootGameObject: {fileID: 110348}
   m_IsPrefabParent: 1
