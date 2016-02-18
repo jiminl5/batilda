@@ -699,7 +699,7 @@ public class levelHandler : MonoBehaviour {
             }
         }
 
-
+        print(CustomerAI.customerSat1);
 
 
         //-----------------

@@ -104,6 +104,31 @@ public class CustomerAI : MonoBehaviour {
         
     }
 
+    void OnTriggerExit2D(Collider2D coll)
+    {
+        if (coll.tag == "WayPoint1" && direction == 1)
+        {
+            customerSat1 = false;
+        }
+
+        if (coll.tag == "WayPoint2" && direction == 2)
+        {
+            customerSat2 = false;
+        }
+        if (coll.tag == "WayPoint3" && direction == 3)
+        {
+            customerSat3 = false;
+        }
+        if (coll.tag == "WayPoint4" && direction == 4)
+        {
+            customerSat4 = false;
+        }
+        if (coll.tag == "WayPoint5" && direction == 5)
+        {
+            customerSat5 = false;
+        }
+    }
+
     bool checkTaken(int check)
     {
         if (check == 1)
