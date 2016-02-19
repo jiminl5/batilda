@@ -691,7 +691,7 @@ public class levelHandler : MonoBehaviour {
                 updateBools = false;
             }
             finished = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished;
-
+            /*
             if ( ( (!customer1 && CustomerAI.customerSat1) || (!customer2 && CustomerAI.customerSat2) || (!customer3 && CustomerAI.customerSat3) || (!customer4 && CustomerAI.customerSat4) || 
                 (!customer5 && CustomerAI.customerSat5) ) && customersWaiting > 0)
             {
@@ -721,6 +721,7 @@ public class levelHandler : MonoBehaviour {
                     customer5 = true;
                 }
             }
+            */
             if (peasantFoodQueue.Count <= 0 && checkifNoCustomers())
             {
                 finished = true;
@@ -753,53 +754,53 @@ public class levelHandler : MonoBehaviour {
         return ec;
     }
 
-    void Spawn()
+    public void Spawn(string customerName)
     {
         ArrayList emptyCustomers = getEmptyCustomerIndexes();
 
-        int i = randomCustomerIndexes.Dequeue();
+        //int i = randomCustomerIndexes.Dequeue();
 
 
         GameObject tempcustomer = Resources.Load("Customers/Peasants/customer") as GameObject;
         tempcustomer.GetComponent<Customer>().current_food = findRecipe(peasantFoodQueue.Dequeue());
 
 
-        if (CustomerAI.customerSat1 && emptyCustomers.Contains(0))
+        if (CustomerAI.customerSat1 && emptyCustomers.Contains(0) && customerName == "cus_1")
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 6;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(9, 2, 0);
             customer1 = true;
         }
-        else if (CustomerAI.customerSat2 && emptyCustomers.Contains(1))
+        else if (CustomerAI.customerSat2 && emptyCustomers.Contains(1) && customerName == "cus_2")
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 7;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(10.5f, 2, 0);
             customer2 = true;
         }
-        else if (CustomerAI.customerSat3 && emptyCustomers.Contains(2))
+        else if (CustomerAI.customerSat3 && emptyCustomers.Contains(2) && customerName == "cus_3")
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 8;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(12, 2, 0);
             customer3 = true;
         }
-        else if (CustomerAI.customerSat4 && emptyCustomers.Contains(3))
+        else if (CustomerAI.customerSat4 && emptyCustomers.Contains(3) && customerName == "cus_4")
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 9;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(13.5f, 2, 0);
             customer4 = true;
         }
-        else if (CustomerAI.customerSat5 && !emptyCustomers.Contains(4))
+        else if (CustomerAI.customerSat5 && !emptyCustomers.Contains(4) && customerName == "cus_5")
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 10;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(15, 2, 0);
             customer5 = true;
         }
-        customerList[i] = Instantiate(tempcustomer);
+        customerList[0] = Instantiate(tempcustomer);
 
 
 

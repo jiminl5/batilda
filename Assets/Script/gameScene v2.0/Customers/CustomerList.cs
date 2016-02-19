@@ -22,12 +22,12 @@ public class CustomerList : MonoBehaviour {
     void CustomerEnterDelay()
     {
         Invoke("CreateCustomer", _delay);
-        _delay = Random.Range(7, 10);
+        _delay = Random.Range(10, 15);
     }
 
     void CreateCustomer()
     {
-        if (customer_Q.Count < 4) // # of Seats
+        if (customer_Q.Count < 5) // # of Seats
         {
             Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
             customer_Q.Enqueue(peasant);

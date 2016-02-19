@@ -47,7 +47,7 @@ public class CustomerAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (CustomerList.customer_Q.Count <= 4)
+        if (CustomerList.customer_Q.Count <= 5)
         {
                 walk();
         }
@@ -76,8 +76,36 @@ public class CustomerAI : MonoBehaviour {
         {
             pick_number = true;
         }
+
+        if (coll.tag == "WayPoint1" && direction == 1)
+        {
+            customerSat1 = true;
+            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
+        }
+
+        if (coll.tag == "WayPoint2" && direction == 2)
+        {
+            customerSat2 = true;
+            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
+        }
+        if (coll.tag == "WayPoint3" && direction == 3)
+        {
+            customerSat3 = true;
+            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
+        }
+        if (coll.tag == "WayPoint4" && direction == 4)
+        {
+            customerSat4 = true;
+            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
+        }
+        if (coll.tag == "WayPoint5" && direction == 5)
+        {
+            customerSat5 = true;
+            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
+        }
     }
 
+    /*
     void OnTriggerStay2D(Collider2D coll)
     {
         if (coll.tag == "WayPoint1" && direction == 1)
@@ -103,6 +131,7 @@ public class CustomerAI : MonoBehaviour {
         }
         
     }
+    */
 
     void OnTriggerExit2D(Collider2D coll)
     {

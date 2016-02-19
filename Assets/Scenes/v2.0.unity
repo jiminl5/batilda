@@ -4492,6 +4492,11 @@ MonoBehaviour:
   customer3: 0
   customer4: 0
   customer5: 0
+  customer1spawned: 0
+  customer2spawned: 0
+  customer3spawned: 0
+  customer4spawned: 0
+  customer5spawned: 0
   customerList: []
   finished: 0
   customersServed: 0
