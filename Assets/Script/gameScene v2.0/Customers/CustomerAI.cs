@@ -29,6 +29,8 @@ public class CustomerAI : MonoBehaviour {
     public static bool customerSat4;
     public static bool customerSat5;
 
+
+    GameObject order;
     // Use this for initialization
     void Start () {
         customerSat1 = false;
@@ -43,6 +45,8 @@ public class CustomerAI : MonoBehaviour {
         path[3] = GameObject.Find("CustomerPath_4").transform;
         path[4] = GameObject.Find("CustomerPath_5").transform;
         path[5] = GameObject.Find("CustomerPath_6").transform;
+
+        //order = new GameObject();
     }
 	
 	// Update is called once per frame
@@ -72,6 +76,7 @@ public class CustomerAI : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D coll)
     {
+
         if (coll.tag == "WayPointStart")
         {
             pick_number = true;
@@ -80,28 +85,32 @@ public class CustomerAI : MonoBehaviour {
         if (coll.tag == "WayPoint1" && direction == 1)
         {
             customerSat1 = true;
-            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
         }
 
         if (coll.tag == "WayPoint2" && direction == 2)
         {
             customerSat2 = true;
-            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
         }
         if (coll.tag == "WayPoint3" && direction == 3)
         {
             customerSat3 = true;
-            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
         }
         if (coll.tag == "WayPoint4" && direction == 4)
         {
             customerSat4 = true;
-            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
         }
         if (coll.tag == "WayPoint5" && direction == 5)
         {
             customerSat5 = true;
-            GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
+        }
+        if (order)
+        {
+            order.transform.SetParent(this.transform);
         }
     }
 

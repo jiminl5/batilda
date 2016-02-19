@@ -604,6 +604,7 @@ public class levelHandler : MonoBehaviour {
         }
     }
 
+    /*
     int getRandomCustomer()
     {
         ArrayList emptyCustomers = getEmptyCustomerIndexes();
@@ -680,6 +681,7 @@ public class levelHandler : MonoBehaviour {
         }
         return randomCustomer;
     }
+    */
     // Update is called once per frame
     void Update()
     {
@@ -742,6 +744,7 @@ public class levelHandler : MonoBehaviour {
         GUI.Label(new Rect(5, 5, 100, 100), text, textStyle);
     }
     
+    /*
     ArrayList getEmptyCustomerIndexes()
     { 
         ArrayList ec = new ArrayList();
@@ -753,11 +756,11 @@ public class levelHandler : MonoBehaviour {
             }
         }
         return ec;
-    }
+    }*/
 
-    public void Spawn(string customerName)
+    public GameObject Spawn(string customerName)
     {
-        ArrayList emptyCustomers = getEmptyCustomerIndexes();
+        //ArrayList emptyCustomers = getEmptyCustomerIndexes();
 
         //int i = randomCustomerIndexes.Dequeue();
 
@@ -801,7 +804,8 @@ public class levelHandler : MonoBehaviour {
             tempcustomer.transform.position = new Vector3(15, 2, 0);
             customer5 = true;
         }
-        customerList[0] = Instantiate(tempcustomer);
+
+        return Instantiate(tempcustomer);
 
 
 
