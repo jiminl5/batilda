@@ -27,6 +27,15 @@ public class levelHandler : MonoBehaviour {
     public bool customer4 = false;
     public bool customer5 = false;
 
+    /// <summary>
+    public bool customer1spawned = false;
+    public bool customer2spawned = false;
+    public bool customer3spawned = false;
+    public bool customer4spawned = false;
+    public bool customer5spawned = false;
+    /// </summary>
+
+
     public ArrayList emptyCustomers;
 
     private int randomCustomer;
@@ -682,14 +691,35 @@ public class levelHandler : MonoBehaviour {
                 updateBools = false;
             }
             finished = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished;
-            //Debug.Log("PEASANT FOOD QUEUE COUNT: " + peasantFoodQueue.Count);
-            if ((!customer1 || !customer2 || !customer3 || !customer4 || !customer5) && customersWaiting > 0)
+
+            if ( ( (!customer1 && CustomerAI.customerSat1) || (!customer2 && CustomerAI.customerSat2) || (!customer3 && CustomerAI.customerSat3) || (!customer4 && CustomerAI.customerSat4) || 
+                (!customer5 && CustomerAI.customerSat5) ) && customersWaiting > 0)
             {
                 randomCustomerIndexes.Enqueue(getRandomCustomer());
                 int spawnTime = Random.Range(5, 10);
                 //Debug.Log("THIS IS SPAWN TIME:" + spawnTime);
-                Invoke("Spawn", spawnTime);
+                Spawn();
                 customersWaiting--;
+                if (CustomerAI.customerSat1 && !customer1)
+                {
+                    customer1 = true;
+                }
+                if (CustomerAI.customerSat2 && !customer2)
+                {
+                    customer2 = true;
+                }
+                if (CustomerAI.customerSat3 && !customer3)
+                {
+                    customer3 = true;
+                }
+                if (CustomerAI.customerSat4 && !customer4)
+                {
+                    customer4 = true;
+                }
+                if (CustomerAI.customerSat5 && !customer5)
+                {
+                    customer5 = true;
+                }
             }
             if (peasantFoodQueue.Count <= 0 && checkifNoCustomers())
             {
@@ -699,56 +729,6 @@ public class levelHandler : MonoBehaviour {
             }
         }
 
-        print(CustomerAI.customerSat1);
-
-
-        //-----------------
-        /*
-        if (!finished)
-        {
-            finished = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished;
-            //print(peasantFoodQueue.Count);
-            if ((!waitingForC1 || !waitingForC2) && peasantFoodQueue.Count > 0)
-            {
-                int spawnTime = Random.Range(5, 10);
-                //Debug.Log ("THIS IS RANDOM RANGE::::: " + spawnTime);
-                Invoke("Spawn", spawnTime);
-            }
-            else
-            {
-                {
-                    if (!_c1 && waitingForC1)
-                    {
-                        customersServed++;
-                        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
-
-                        //Link to Result page 2016-02-01
-                        PlayerPrefs.SetInt("temp_coin", customersServed);
-
-                        waitingForC1 = false;
-                    }
-                    if (!_c2 && waitingForC2)
-                    {
-                        customersServed++;
-                        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
-
-                        //Link to Result page 2016-02-01
-                        PlayerPrefs.SetInt("temp_coin", customersServed);
-
-                        waitingForC2 = false;
-                    }
-                }
-            }
-            //Debug.Log(peasantFoodQueue.Count);
-            //Debug.Log(!waitingForC1);
-            //Debug.Log(!waitingForC2);
-            if (peasantFoodQueue.Count <= 0 && !waitingForC1 && !waitingForC2)
-            {
-                finished = true;
-                GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished = true;
-            }
-        }
-        */
     }
 
     void OnGUI()
@@ -784,35 +764,35 @@ public class levelHandler : MonoBehaviour {
         tempcustomer.GetComponent<Customer>().current_food = findRecipe(peasantFoodQueue.Dequeue());
 
 
-        if (i == 0)
+        if (CustomerAI.customerSat1 && emptyCustomers.Contains(0))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 6;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(9, 2, 0);
             customer1 = true;
         }
-        else if (i == 1)
+        else if (CustomerAI.customerSat2 && emptyCustomers.Contains(1))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 7;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(10.5f, 2, 0);
             customer2 = true;
         }
-        else if (i == 2)
+        else if (CustomerAI.customerSat3 && emptyCustomers.Contains(2))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 8;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(12, 2, 0);
             customer3 = true;
         }
-        else if (i == 3)
+        else if (CustomerAI.customerSat4 && emptyCustomers.Contains(3))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 9;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
             tempcustomer.transform.position = new Vector3(13.5f, 2, 0);
             customer4 = true;
         }
-        else if (i == 4)
+        else if (CustomerAI.customerSat5 && !emptyCustomers.Contains(4))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 10;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
