@@ -42,6 +42,7 @@ public class StopWatch : MonoBehaviour {
 		}
         if (finished)
         {
+            PlayerPrefs.SetInt("temp_coin", GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed);
             if (GameObject.Find("close") == null)
                 Application.LoadLevel("gameResult");
         }
