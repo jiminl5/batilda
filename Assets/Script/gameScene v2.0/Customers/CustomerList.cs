@@ -16,17 +16,26 @@ public class CustomerList : MonoBehaviour {
 	void Start () {
         keep_track = false;
         customer_Q.Clear();
-        _delay = Random.Range(2,3);
         peasant = customers[0]; // ADD more later
-
-        CustomerEnterDelay();
+        if (PlayerPrefs.GetString("tutorial") == "yes")
+        {
+            Instantiate(peasant, new Vector2(GameObject.Find("CustomerPath_1").transform.position.x, GameObject.Find("CustomerPath_1").transform.position.y), Quaternion.identity);
+            customer_Q.Add(peasant);
+            _delay = 15;
+            CustomerEnterDelay();
+        }
+        else
+        {
+            _delay = Random.Range(2, 3);
+            CustomerEnterDelay();
+        }
        //Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y),Quaternion.identity);
 	}
-	
+
     void CustomerEnterDelay()
     {
         Invoke("CreateCustomer", _delay);
-        _delay = Random.Range(10, 15);
+        _delay = Random.Range(10, 13);
     }
 
     void CreateCustomer()

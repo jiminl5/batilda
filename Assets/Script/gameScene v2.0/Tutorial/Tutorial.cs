@@ -65,6 +65,12 @@ public class Tutorial : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+        if (GameObject.Find("highlight").GetComponent<SpriteRenderer>().enabled)
+        {
+            GameObject.Find("speechBubble").GetComponent<BoxCollider2D>().enabled = false;
+            GameObject.Find("speechBubble_1").GetComponent<BoxCollider2D>().enabled = false;
+        }
+
         if (temp < count)
         {
             print("COUNT:" + count);

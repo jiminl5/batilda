@@ -61,7 +61,10 @@ public class CustomerAI : MonoBehaviour {
 
         if (pick_number)
         {
-            check = Random.Range(1, 6);
+            if (PlayerPrefs.GetString("tutorial") == "yes")
+                check = 3;
+            else
+                check = Random.Range(1, 6);
             if (!checkTaken(check))
             {
                 direction = check;

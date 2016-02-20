@@ -17,7 +17,7 @@ public class BlackBg : MonoBehaviour {
             GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 7; // Increase the size of CAP
             Time.timeScale = 1.0f;
             GameObject.Find("highlight").GetComponent<CircleHighLight>().NextMoveBool();
-            //print("Triggered HEReeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
+            ////////////////////////////////////
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
         }
     }

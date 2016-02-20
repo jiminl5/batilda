@@ -66,7 +66,6 @@ public class CircleHighLight : MonoBehaviour
         else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == GameObject.Find("Main Camera").GetComponent<Tutorial>().cap
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().cap == 5)
         {
-            print("TOUCHED!!!!!!!!");
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
             TutorialMove(6, 6);
             GameObject.Find("furnace1_cheap").GetComponent<SpriteRenderer>().sortingOrder = 2;
