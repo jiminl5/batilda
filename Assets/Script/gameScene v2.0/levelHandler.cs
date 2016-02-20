@@ -84,7 +84,7 @@ public class levelHandler : MonoBehaviour {
     //food lists
     public string peasantFoodList; //initalized with ";" as breakers. ex: "bread;carrot soup;grilled fish"
     public Queue<string> peasantFoodQueue;
-    private int customersWaiting;
+    public int customersWaiting;
 
     //time for level
     public float levelTime;

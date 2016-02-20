@@ -9,9 +9,13 @@ public class CustomerList : MonoBehaviour {
     private GameObject peasant;
     private float _delay;
 
-    public static Queue<GameObject> customer_Q = new Queue<GameObject>();
+    bool keep_track; // true when all seats (5) are taken, false if less
+
+    public static List<GameObject> customer_Q = new List<GameObject>();
 	// Use this for initialization
 	void Start () {
+        keep_track = false;
+        customer_Q.Clear();
         _delay = Random.Range(2,3);
         peasant = customers[0]; // ADD more later
 
@@ -27,12 +31,24 @@ public class CustomerList : MonoBehaviour {
 
     void CreateCustomer()
     {
-        if (customer_Q.Count < 5) // # of Seats
+        if ((customer_Q.Count < GameObject.Find("levelHandler").GetComponent<levelHandler>().customersWaiting) && CustomerAI.seatCount < 5) // # of Seats
         {
             Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
-            customer_Q.Enqueue(peasant);
+            customer_Q.Add(peasant);
             CustomerEnterDelay();
+        }
+        if (CustomerAI.seatCount == 5)
+        {
+            keep_track = true;
         }
     }
 
+    void Update()
+    {
+        if (keep_track)
+        {
+            CustomerEnterDelay();
+            keep_track = false;
+        }
+    }
 }

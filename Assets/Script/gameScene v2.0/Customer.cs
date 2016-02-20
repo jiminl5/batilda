@@ -57,6 +57,7 @@ public class Customer : MonoBehaviour {
 				food_given = "";
 				//given correct food!
 				Debug.Log ("yum!");
+                CustomerExit();
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
                 Destroy (this.gameObject);
 				Destroy (foodSprite);
@@ -72,6 +73,12 @@ public class Customer : MonoBehaviour {
 			}
 		}
 	}
+
+    void CustomerExit()
+    {
+        this.transform.parent.eulerAngles = new Vector3(0, 180, 0);
+        this.GetComponentInParent<CustomerAI>().direction = 6;
+    }
 
 	IEnumerator ExecuteAfterDelay(float delay)
 	{

@@ -9,7 +9,7 @@ public class CustomerAI : MonoBehaviour {
 
     public float walk_acc;
 
-    int direction = 0;
+    public int direction = 0;
 
     bool pick_number;
 
@@ -31,6 +31,8 @@ public class CustomerAI : MonoBehaviour {
 
 
     GameObject order;
+
+    public static int seatCount = 0;
     // Use this for initialization
     void Start () {
         customerSat1 = false;
@@ -45,20 +47,21 @@ public class CustomerAI : MonoBehaviour {
         path[3] = GameObject.Find("CustomerPath_4").transform;
         path[4] = GameObject.Find("CustomerPath_5").transform;
         path[5] = GameObject.Find("CustomerPath_6").transform;
+        path[6] = GameObject.Find("CustomerExit").transform;
 
         //order = new GameObject();
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (CustomerList.customer_Q.Count <= 5)
+        if (seatCount <= 5)
         {
                 walk();
         }
 
         if (pick_number)
         {
-            check = Random.Range(1, 5);
+            check = Random.Range(1, 6);
             if (!checkTaken(check))
             {
                 direction = check;
@@ -77,7 +80,7 @@ public class CustomerAI : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D coll)
     {
 
-        if (coll.tag == "WayPointStart")
+        if (coll.tag == "WayPointStart" && direction != 6)
         {
             pick_number = true;
         }
@@ -86,31 +89,40 @@ public class CustomerAI : MonoBehaviour {
         {
             customerSat1 = true;
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
+            seatCount++;
         }
 
         if (coll.tag == "WayPoint2" && direction == 2)
         {
             customerSat2 = true;
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
+            seatCount++;
         }
         if (coll.tag == "WayPoint3" && direction == 3)
         {
             customerSat3 = true;
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
+            seatCount++;
         }
         if (coll.tag == "WayPoint4" && direction == 4)
         {
             customerSat4 = true;
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
+            seatCount++;
         }
         if (coll.tag == "WayPoint5" && direction == 5)
         {
             customerSat5 = true;
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
+            seatCount++;
         }
         if (order)
         {
             order.transform.SetParent(this.transform);
+        }
+        if (coll.tag == "WayPointExit" && direction == 6)
+        {
+            Destroy(this.gameObject);
         }
     }
 
@@ -141,36 +153,47 @@ public class CustomerAI : MonoBehaviour {
         
     }
     */
-
+    
     void OnTriggerExit2D(Collider2D coll)
     {
-        if (coll.tag == "WayPoint1" && direction == 1)
+        if (coll.tag == "WayPoint1" && check == 1)
         {
             customerSat1 = false;
+            seat_taken_1 = false;
+            seatCount--;
         }
 
-        if (coll.tag == "WayPoint2" && direction == 2)
+        if (coll.tag == "WayPoint2" && check == 2)
         {
             customerSat2 = false;
+            seat_taken_2 = false;
+            seatCount--;
         }
-        if (coll.tag == "WayPoint3" && direction == 3)
+        if (coll.tag == "WayPoint3" && check == 3)
         {
             customerSat3 = false;
+            seat_taken_3 = false;
+            seatCount--;
         }
-        if (coll.tag == "WayPoint4" && direction == 4)
+        if (coll.tag == "WayPoint4" && check == 4)
         {
             customerSat4 = false;
+            seat_taken_4 = false;
+            seatCount--;
         }
-        if (coll.tag == "WayPoint5" && direction == 5)
+        if (coll.tag == "WayPoint5" && check == 5)
         {
             customerSat5 = false;
+            seat_taken_5 = false;
+            seatCount--;
         }
     }
-
+    
     bool checkTaken(int check)
     {
         if (check == 1)
         {
+            print(seat_taken_1);
             return seat_taken_1;
         }
         else if (check == 2)
@@ -190,7 +213,7 @@ public class CustomerAI : MonoBehaviour {
             return seat_taken_5;
         }
         else
-            return false;
+            return true;
     }
 
     public static void seatTaken(int check)

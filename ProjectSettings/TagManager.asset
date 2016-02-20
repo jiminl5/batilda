@@ -28,6 +28,8 @@ TagManager:
   - WayPoint3
   - WayPoint4
   - WayPoint5
+  - WayPoint
+  - WayPointExit
   layers:
   - Default
   - TransparentFX
