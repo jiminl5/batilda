@@ -35,7 +35,7 @@ public class CustomerList : MonoBehaviour {
     void CustomerEnterDelay()
     {
         Invoke("CreateCustomer", _delay);
-        _delay = Random.Range(10, 13);
+        _delay = Random.Range(8, 10);
     }
 
     void CreateCustomer()

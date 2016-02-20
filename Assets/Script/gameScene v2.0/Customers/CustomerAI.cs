@@ -33,6 +33,8 @@ public class CustomerAI : MonoBehaviour {
     GameObject order;
 
     public static int seatCount = 0;
+
+    public float order_delay;
     // Use this for initialization
     void Start () {
         customerSat1 = false;
@@ -91,31 +93,75 @@ public class CustomerAI : MonoBehaviour {
         if (coll.tag == "WayPoint1" && direction == 1)
         {
             customerSat1 = true;
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
-            seatCount++;
+            Invoke("GiveOrderDelay", order_delay);
+            //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
+            //seatCount++;
         }
 
         if (coll.tag == "WayPoint2" && direction == 2)
         {
             customerSat2 = true;
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
-            seatCount++;
+            Invoke("GiveOrderDelay", order_delay);
+            //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
+            //seatCount++;
         }
         if (coll.tag == "WayPoint3" && direction == 3)
         {
             customerSat3 = true;
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
-            seatCount++;
+            Invoke("GiveOrderDelay", order_delay);
+            //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
+            //seatCount++;
         }
         if (coll.tag == "WayPoint4" && direction == 4)
         {
             customerSat4 = true;
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
-            seatCount++;
+            Invoke("GiveOrderDelay", order_delay);
+            //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
+            //seatCount++;
         }
         if (coll.tag == "WayPoint5" && direction == 5)
         {
             customerSat5 = true;
+            Invoke("GiveOrderDelay", order_delay);
+            //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
+            //seatCount++;
+        }
+        /*
+        if (order)
+        {
+            order.transform.SetParent(this.transform);
+        }
+        */
+        if (coll.tag == "WayPointExit" && direction == 6)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void GiveOrderDelay()
+    {
+        if (customerSat1)
+        {
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
+            seatCount++;
+        }
+        else if (customerSat2)
+        {
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
+            seatCount++;
+        }
+        else if (customerSat3)
+        {
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
+            seatCount++;
+        }
+        else if (customerSat4)
+        {
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
+            seatCount++;
+        }
+        else if (customerSat5)
+        {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
             seatCount++;
         }
@@ -123,40 +169,8 @@ public class CustomerAI : MonoBehaviour {
         {
             order.transform.SetParent(this.transform);
         }
-        if (coll.tag == "WayPointExit" && direction == 6)
-        {
-            Destroy(this.gameObject);
-        }
     }
 
-    /*
-    void OnTriggerStay2D(Collider2D coll)
-    {
-        if (coll.tag == "WayPoint1" && direction == 1)
-        {
-            customerSat1 = true;
-        }
-        
-        if (coll.tag == "WayPoint2" && direction == 2)
-        {
-            customerSat2 = true;
-        }
-        if (coll.tag == "WayPoint3" && direction == 3)
-        {
-            customerSat3 = true;
-        }
-        if (coll.tag == "WayPoint4" && direction == 4)
-        {
-            customerSat4 = true;
-        }
-        if (coll.tag == "WayPoint5" && direction == 5)
-        {
-            customerSat5 = true;
-        }
-        
-    }
-    */
-    
     void OnTriggerExit2D(Collider2D coll)
     {
         if (coll.tag == "WayPoint1" && check == 1)

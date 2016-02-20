@@ -82,6 +82,7 @@ MonoBehaviour:
   - {fileID: 0}
   walk_acc: 3
   direction: 0
+  order_delay: 3
 --- !u!212 &21278474
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -122,6 +123,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Peasant_customer
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: order_delay
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
