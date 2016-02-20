@@ -163,6 +163,7 @@ public class CustomerAI : MonoBehaviour {
         {
             customerSat1 = false;
             seat_taken_1 = false;
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++; //Data Handler
             seatCount--;
         }
 
@@ -170,24 +171,28 @@ public class CustomerAI : MonoBehaviour {
         {
             customerSat2 = false;
             seat_taken_2 = false;
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             seatCount--;
         }
         if (coll.tag == "WayPoint3" && check == 3)
         {
             customerSat3 = false;
             seat_taken_3 = false;
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             seatCount--;
         }
         if (coll.tag == "WayPoint4" && check == 4)
         {
             customerSat4 = false;
             seat_taken_4 = false;
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             seatCount--;
         }
         if (coll.tag == "WayPoint5" && check == 5)
         {
             customerSat5 = false;
             seat_taken_5 = false;
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             seatCount--;
         }
     }
