@@ -10,6 +10,8 @@ public class recipeRepository : MonoBehaviour {
 
     private ArrayList fileNames;
 
+    string dataPath;
+
     void Awake()
     {
         fileNames = new ArrayList();
@@ -17,35 +19,59 @@ public class recipeRepository : MonoBehaviour {
     }
 
 	void Start () {
-        
-        DirectoryInfo dir = new DirectoryInfo("Assets/Resources/Recipies/Food Recipes");
-        FileInfo[] info = dir.GetFiles("*.prefab");
-        info.Select(f => f.FullName).ToArray();
-        foreach (FileInfo f in info)
+        if (Application.platform != RuntimePlatform.Android)
         {
-            fileNames.Add(f.Name);
-        }
+            Destroy(GameObject.Find("AndroidFilePath"));
+            dataPath = Application.dataPath + "/Resources/Recipies/Food Recipes";
+            DirectoryInfo dir = new DirectoryInfo(dataPath);//"Assets/Resources/Recipies/Food Recipes");
+            FileInfo[] info = dir.GetFiles("*.prefab");
+            info.Select(f => f.FullName).ToArray();
+            foreach (FileInfo f in info)
+            {
+                fileNames.Add(f.Name);
+            }
 
-        foreach (string food in fileNames)
-        {
-            //Debug.Log(food);
-            GameObject load = Resources.Load("Recipies/Food Recipes/" + food.Split('.')[0]) as GameObject;
-            //Debug.Log(cookingObjectName);
-            if (cookingObjectName == "all")
+            foreach (string food in fileNames)
             {
-                recipes.Add(load.GetComponent<Recipie>());
-            }
-            if (load.tag == cookingObjectName)
-            {
-                recipes.Add(load.GetComponent<Recipie>());
-                Debug.Log(load.GetComponent<Recipie>().name);
+                //Debug.Log(food);
+                GameObject load = Resources.Load("Recipies/Food Recipes/" + food.Split('.')[0]) as GameObject;
+                //Debug.Log(cookingObjectName);
+                if (cookingObjectName == "all")
+                {
+                    recipes.Add(load.GetComponent<Recipie>());
+                }
+                if (load.tag == cookingObjectName)
+                {
+                    recipes.Add(load.GetComponent<Recipie>());
+                    Debug.Log(load.GetComponent<Recipie>().name);
+                }
             }
         }
-        
+        else if (Application.platform == RuntimePlatform.Android)
+        {
+            GameObject AndroidFilePath = GameObject.Find("AndroidFilePath");
+            foreach (Transform child in AndroidFilePath.transform)
+            {
+                fileNames.Add(child.name + ".prefab");
+            }
+
+            foreach (string food in fileNames)
+            {
+                //Debug.Log(food);
+                GameObject load = Resources.Load("Recipies/Food Recipes/" + food.Split('.')[0]) as GameObject;
+                //Debug.Log(cookingObjectName);
+                if (cookingObjectName == "all")
+                {
+                    recipes.Add(load.GetComponent<Recipie>());
+                }
+                if (load.tag == cookingObjectName)
+                {
+                    recipes.Add(load.GetComponent<Recipie>());
+                    Debug.Log(load.GetComponent<Recipie>().name);
+                }
+            }
+            Destroy(AndroidFilePath);
+        }
     }
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }
