@@ -199,6 +199,7 @@ public class Waitress : MonoBehaviour {
     void customerAction(GameObject go)
     {
         //Debug.Log ("HEllO");
+        Debug.Log("THIS IS HAND WITH FOOD: " + hand_with_Food());
         if (hand_with_Food() == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given)
                   && go.GetComponent<Customer>().foodWaitingOn == one_h)
         {
@@ -339,7 +340,10 @@ public class Waitress : MonoBehaviour {
             {
                 return "one_h";
             }
-            else if (two_h == r.name)
+        }
+        foreach (Recipie r in recipes)
+        {
+            if (two_h == r.name)
             {
                 return "two_h";
             }
