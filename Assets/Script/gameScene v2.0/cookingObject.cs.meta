@@ -1,10 +1,18 @@
 fileFormatVersion: 2
 guid: 86f3af22eb5c0e04aa2d1fe014cef05f
-timeCreated: 1454912154
+timeCreated: 1456015108
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - recipie1: {instanceID: 0}
+  - recipie2: {instanceID: 0}
+  - source: {instanceID: 0}
+  - bubblingSFX: {fileID: 8300000, guid: 50e7ed3df85df8340a7910621f5f91cd, type: 3}
+  - grillSizzleSFX: {fileID: 8300000, guid: 5fa70d935fe19d84590ce7a6b5d25b28, type: 3}
+  - cookingSpriteIdle: {instanceID: 0}
+  - cookingSprite: {instanceID: 0}
+  - current_recipie: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -30,7 +30,7 @@ public class recipeRepository : MonoBehaviour {
         {
             //Debug.Log(food);
             GameObject load = Resources.Load("Recipies/Food Recipes/" + food.Split('.')[0]) as GameObject;
-            Debug.Log(cookingObjectName);
+            //Debug.Log(cookingObjectName);
             if (cookingObjectName == "all")
             {
                 recipes.Add(load.GetComponent<Recipie>());
