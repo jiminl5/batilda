@@ -2148,8 +2148,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9a3629d2744893a439dec349a917dadb, type: 3}
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300004, guid: 8eeb555e046eae941aee095926a8c1f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &587248071
 Transform:
@@ -2158,8 +2158,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 587248069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.42000008, y: 7.96999979, z: 13}
-  m_LocalScale: {x: .0880455375, y: .0880455375, z: .0880455375}
+  m_LocalPosition: {x: 7.71000004, y: -1.11000001, z: 13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 25
@@ -2392,6 +2392,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &613228280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 613228274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051e39156448d554687b0c9c8b42ecd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 587248069}
 --- !u!1 &619299103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,6 +2985,7 @@ GameObject:
   - 114: {fileID: 799635260}
   - 114: {fileID: 799635259}
   - 95: {fileID: 799635258}
+  - 114: {fileID: 799635263}
   m_Layer: 0
   m_Name: oven 2
   m_TagString: test
@@ -3093,6 +3106,18 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
   m_Color: {r: .760784388, g: .760784388, b: .760784388, a: 1}
+--- !u!114 &799635263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 799635256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051e39156448d554687b0c9c8b42ecd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 587248069}
 --- !u!1 &810005260
 GameObject:
   m_ObjectHideFlags: 0
@@ -3491,6 +3516,7 @@ GameObject:
   - 114: {fileID: 876599859}
   - 114: {fileID: 876599858}
   - 95: {fileID: 876599857}
+  - 114: {fileID: 876599862}
   m_Layer: 0
   m_Name: oven 4
   m_TagString: test
@@ -3611,6 +3637,18 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
   m_Color: {r: .760784388, g: .760784388, b: .760784388, a: 1}
+--- !u!114 &876599862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876599855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051e39156448d554687b0c9c8b42ecd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 587248069}
 --- !u!1001 &887206945
 Prefab:
   m_ObjectHideFlags: 0
@@ -6042,6 +6080,7 @@ GameObject:
   - 114: {fileID: 1477731517}
   - 114: {fileID: 1477731513}
   - 95: {fileID: 1477731514}
+  - 114: {fileID: 1477731518}
   m_Layer: 0
   m_Name: oven 1
   m_TagString: test
@@ -6162,6 +6201,18 @@ MonoBehaviour:
   timeInSeconds: 0
   not_cooking: 1
   circleTimerIndicator: {fileID: 0}
+--- !u!114 &1477731518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1477731511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051e39156448d554687b0c9c8b42ecd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 587248069}
 --- !u!1001 &1497857165
 Prefab:
   m_ObjectHideFlags: 0
@@ -6913,6 +6964,7 @@ GameObject:
   - 114: {fileID: 1668153391}
   - 114: {fileID: 1668153390}
   - 95: {fileID: 1668153389}
+  - 114: {fileID: 1668153394}
   m_Layer: 0
   m_Name: oven 3
   m_TagString: test
@@ -7033,6 +7085,18 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
   m_Color: {r: .760784388, g: .760784388, b: .760784388, a: 1}
+--- !u!114 &1668153394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668153387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051e39156448d554687b0c9c8b42ecd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 587248069}
 --- !u!1 &1679708308
 GameObject:
   m_ObjectHideFlags: 0

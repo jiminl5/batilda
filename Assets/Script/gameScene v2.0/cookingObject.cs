@@ -110,18 +110,46 @@ public class cookingObject : MonoBehaviour {
 		{
 			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
+ 			Debug.Log ("fffffffffffffffffffffffffffffffffffffffffffffffffffffffff 4" + food_cooking_name);
+			
 			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
 				source.PlayOneShot(bubblingSFX, .7f);
 			}
 			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
+				if (this.name == "grill 1"){
+					this.GetComponent<timerObject>().genTimerAtUpper(2, 4, 35);
+				}
+				if (this.name == "grill 2"){
+					this.GetComponent<timerObject>().genTimerAtUpper(3, 4, 35);
+				}
+				if (this.name == "grill 3"){
+					this.GetComponent<timerObject>().genTimerAtLower(2, 2.9f, 35);
+				}
+				if (this.name == "grill 4"){					
+					this.GetComponent<timerObject>().genTimerAtLower(3, 2.9f, 35);
+				}
 				source.PlayOneShot(grillSizzleSFX, .6f);
+			}
+			if( food_cooking_name == "bread"){
+			
+				if(this.name == "oven 4"){
+					this.GetComponent<timerObject>().genTimerAtUpper(1, 7, 35);
+				}
+				if(this.name == "oven 3"){
+					this.GetComponent<timerObject>().genTimerAtUpper(2, 7, 35);
+				}
+				if(this.name == "oven 2"){
+					this.GetComponent<timerObject>().genTimerAtLower(1, 5.9f, 35);
+				}
+				if(this.name == "oven 1"){
+					this.GetComponent<timerObject>().genTimerAtLower(2, 5.9f, 35);
+				}
 			}
             //Debug.Log (current_recipie.timeToMake);
             Destroy(_cookingSpriteIdle);
             _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
             chef_1h = "";
             isCooking = true;
-			//this.GetComponent<timerObject>().GenerateTimerAt(transform.position.x, transform.position.y, 25); commented out by chris 2/16/16
             Invoke("cookFood", current_recipie.timeToMake); //wait for food to be done...
 			//Debug.Log ("food done!");
 			//food is done! animation here.
@@ -136,6 +164,7 @@ public class cookingObject : MonoBehaviour {
 
 
 	}
+
 
     public bool canCook(string ingredient)
     {
@@ -161,5 +190,6 @@ public class cookingObject : MonoBehaviour {
         }
         return null;
     }
+
 
 }

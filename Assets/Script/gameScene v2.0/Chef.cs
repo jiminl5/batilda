@@ -71,28 +71,11 @@ public class Chef : MonoBehaviour {
             else if ((atPosition && obj_queue.Peek().GetComponent<ingredientObject>())
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<ingredientObject>()))
             {
-				string ingredient_obj = obj_queue.Peek().GetComponent<ingredientObject>().name;
-				if (ingredient_obj == "meat"){
-					
-					//source.PlayOneShot(pickUpPlateSFX);
+				string ingredient_obj = obj_queue.Peek().GetComponent<ingredientObject>().name;			  
+				if(xorHandsEmpty()){
 					source.PlayOneShot(plateSFX[Random.Range (0,7)]);
-				}											   
-				if (ingredient_obj == "fish"){				  
-					source.PlayOneShot(plateSFX[Random.Range (0,7)]);
-				}											   
-				if (ingredient_obj == "onion"){				 
-					source.PlayOneShot(plateSFX[Random.Range (0,7)]);
-				}											   
-				if (ingredient_obj == "carrot"){				
-					source.PlayOneShot(plateSFX[Random.Range (0,7)]);			
-				}											   
-				if (ingredient_obj == "cheese"){				
-					source.PlayOneShot(plateSFX[Random.Range (0,7)]);					
-				}											   
-				if (ingredient_obj == "wheat"){				 
-					source.PlayOneShot(plateSFX[Random.Range (0,7)]);				
 				}
-                ingredientAction(obj_queue.Peek());
+				ingredientAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 //Check Mark - 2016-02-13
                 if (MoveableTile.check_Queue.Peek().name != "Null_Object")
@@ -104,6 +87,7 @@ public class Chef : MonoBehaviour {
             else if ((atPosition && obj_queue.Peek().GetComponent<doughObject>())
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<doughObject>()))
             {
+				this.GetComponent<timerObject>().genTimerAtLower(5, 1.9f, 35);
                 doughCreateAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 //Check Mark - 2016-02-13
@@ -219,6 +203,13 @@ public class Chef : MonoBehaviour {
 
 	bool handsEmpty() {
 		if (string.IsNullOrEmpty(one_h) && string.IsNullOrEmpty(two_h))
+			return true;
+		else
+			return false;
+	}
+
+	bool xorHandsEmpty(){
+		if (string.IsNullOrEmpty(one_h) || string.IsNullOrEmpty(two_h))
 			return true;
 		else
 			return false;
@@ -426,6 +417,7 @@ public class Chef : MonoBehaviour {
                 go.GetComponent<cuttingObject>().cutting = one_h;
                 go.GetComponent<cuttingObject>().is_cutting = true;
                 one_h = "";
+				this.GetComponent<timerObject>().genTimerAtLower(4, 0, 35);
                 Destroy(go_1h);
             }
             else if ((two_h == "carrot" || two_h == "onion" || two_h == "cheese"))
@@ -435,6 +427,7 @@ public class Chef : MonoBehaviour {
                 go.GetComponent<cuttingObject>().cutting = two_h;
                 go.GetComponent<cuttingObject>().is_cutting = true;
                 two_h = "";
+				this.GetComponent<timerObject>().genTimerAtLower(4, 0, 35);
                 Destroy(go_2h);
             }
         }
