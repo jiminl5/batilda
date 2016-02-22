@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 8ac493f6bb020a8459fae5acd14978e4
-timeCreated: 1454910787
+timeCreated: 1456100092
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - oldaniaADFStd: {fileID: 12800000, guid: 277ef1e1c2194264698fa658fc5cc48d, type: 3}
   executionOrder: 500
   icon: {instanceID: 0}
   userData: 

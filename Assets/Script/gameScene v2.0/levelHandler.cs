@@ -7,6 +7,7 @@ public class levelHandler : MonoBehaviour {
 	public AudioSource source;
 	public GameObject[] GameplaySoundtracks;
 
+	public Font oldaniaADFStd;
 
     //customers
     public GameObject c1;
@@ -740,8 +741,9 @@ public class levelHandler : MonoBehaviour {
 		GUIStyle textStyle = new GUIStyle ();
 		textStyle.fontSize = Screen.width/25;
 		textStyle.normal.textColor = Color.white;
+		textStyle.font = oldaniaADFStd;
         text = string.Format(customersServed.ToString());
-        GUI.Label(new Rect(5, 5, 100, 100), text, textStyle);
+        GUI.Label(new Rect(10, 5, 100, 100), text, textStyle);
     }
     
     /*

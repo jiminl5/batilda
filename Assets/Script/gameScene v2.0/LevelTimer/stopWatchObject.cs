@@ -42,6 +42,6 @@ public class stopWatchObject : MonoBehaviour {
 		displayMinutes = roundedTimeSeconds / 60;
 		displaySeconds = roundedTimeSeconds % 60;
 		string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
-		GUI.Label(new Rect(0, 0, 50, 30), text);
+		//GUI.Label(new Rect(0, 0, 50, 30), text);
 	}
 }

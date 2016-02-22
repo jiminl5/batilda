@@ -9,10 +9,10 @@ public class StopWatch : MonoBehaviour {
     private int roundedTimeSeconds;
     private float displaySeconds;
     private float displayMinutes;
+	public Font oldaniaADFStd;
 
 	public bool finished = false;
 
-	public Image circleTimerIndicator;
 
 	// Use this for initialization
 /*	void Awake () {
@@ -30,7 +30,6 @@ public class StopWatch : MonoBehaviour {
     {
 		if (!finished) {
 			timeInSeconds -= Time.deltaTime;
-			circleTimerIndicator.fillAmount -= 1 / startTime * Time.deltaTime;
 			if (timeInSeconds == 60) {
 				print ("one min left");
 			}
@@ -55,6 +54,7 @@ public class StopWatch : MonoBehaviour {
 		GUIStyle textStyle = new GUIStyle ();
 		textStyle.fontSize = Screen.width/20;
 		textStyle.normal.textColor = Color.white;
+		textStyle.font = oldaniaADFStd;
 
         roundedTimeSeconds = (int)(timeInSeconds);
         displayMinutes = roundedTimeSeconds / 60;
