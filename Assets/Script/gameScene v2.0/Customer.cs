@@ -12,7 +12,6 @@ public class Customer : MonoBehaviour {
     public Queue<string> peasantFoodQueue;
 	// Use this for initialization
 	void Start () {
-		Instantiate(Resources.Load ("temp_particlesystem_pickup"), transform.position, transform.rotation);
         /*peasantFoodQueue = new Queue<string>();
         string[] peasantFoodList = PlayerPrefs.GetString("peasantFoodList").Split(';');
         foreach (string food in peasantFoodList)
@@ -61,8 +60,6 @@ public class Customer : MonoBehaviour {
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
                 Destroy (this.gameObject);
 				Destroy (foodSprite);
-				Instantiate(Resources.Load ("temp_particlesystem_pickup"), transform.position, transform.rotation);
-                Debug.Log("HELLO HHHHHHH");
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
 
             }
