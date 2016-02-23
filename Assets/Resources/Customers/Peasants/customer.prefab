@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodWaitingOn: none
-  current_food: {fileID: 11435650, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+  current_food: {fileID: 11422300, guid: 23ca254d9f17d8349a285c5308948631, type: 2}
   food_given: 
 --- !u!212 &21211996
 SpriteRenderer:
