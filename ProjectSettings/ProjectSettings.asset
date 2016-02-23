@@ -9,8 +9,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: batilda
+  companyName: Project Tavern
+  productName: CavernTavern
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_ShowUnitySplashScreen: 1
@@ -99,7 +99,7 @@ PlayerSettings:
   productGUID: db886d65d024937449ad88f4d221b0e9
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 10
-  AndroidPreferredInstallLocation: 1
+  AndroidPreferredInstallLocation: 0
   aotOptions: 
   apiCompatibilityLevel: 2
   stripEngineCode: 1
