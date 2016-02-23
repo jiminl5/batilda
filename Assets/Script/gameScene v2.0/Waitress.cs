@@ -198,10 +198,8 @@ public class Waitress : MonoBehaviour {
 
     void customerAction(GameObject go)
     {
-        //Debug.Log ("HEllO");
-        Debug.Log("THIS IS HAND WITH FOOD: " + hand_with_Food());
-        if (hand_with_Food() == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given)
-                  && go.GetComponent<Customer>().foodWaitingOn == one_h)
+        Debug.Log ("HEllO");
+        if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
         {
             //update dropoffpoint food name
             go.GetComponent<Customer>().food_given = one_h;
@@ -210,8 +208,7 @@ public class Waitress : MonoBehaviour {
             //Destroy (go_1h);
             //one_h = "";
         }
-        else if (hand_with_Food() == "two_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given)
-              && go.GetComponent<Customer>().foodWaitingOn == two_h)
+        else if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "two_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
         {
             //update dropoffpoint food name
             go.GetComponent<Customer>().food_given = two_h;
@@ -332,18 +329,18 @@ public class Waitress : MonoBehaviour {
 			return false;
 	}
 
-    public string hand_with_Food()
+    public string hand_with_Food(string food)
     {
         foreach (Recipie r in recipes)
         {
-            if (one_h == r.name)
+            if (one_h == r.name && r.name == food)
             {
                 return "one_h";
             }
         }
         foreach (Recipie r in recipes)
         {
-            if (two_h == r.name)
+            if (two_h == r.name && r.name == food)
             {
                 return "two_h";
             }

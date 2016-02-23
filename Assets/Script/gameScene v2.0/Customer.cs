@@ -40,8 +40,7 @@ public class Customer : MonoBehaviour {
 			}
             else if (food_given == foodWaitingOn)
             {
-				if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().hand_with_Food() == "one_h" &&
-				    GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().one_h == foodWaitingOn)
+				if (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().hand_with_Food(foodWaitingOn) == "one_h")
 				{
 					GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().one_h = "";
 					Destroy (GameObject.FindGameObjectWithTag("Waitress").GetComponent<Waitress>().go_1h);
