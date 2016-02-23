@@ -62,7 +62,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -87,12 +87,17 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: customerfire_0
@@ -105,6 +110,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 23}
+        - {x: -8, y: 23}
+        - {x: -16, y: 11}
+        - {x: -16, y: -8}
+        - {x: -13, y: -14}
+        - {x: 10, y: -14}
+        - {x: 14, y: -7}
+        - {x: 14, y: 14}
+        - {x: 8, y: 20}
     - name: customerfire_1
       rect:
         serializedVersion: 2
@@ -115,6 +130,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 34}
+        - {x: -9, y: 34}
+        - {x: -15, y: 32}
+        - {x: -22, y: 28}
+        - {x: -22, y: -11}
+        - {x: -13, y: -14}
+        - {x: 8, y: -14}
+        - {x: 15, y: -8}
+        - {x: 15, y: 29}
     - name: customerfire_2
       rect:
         serializedVersion: 2
@@ -125,6 +150,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 38}
+        - {x: -14, y: 38}
+        - {x: -25, y: 31}
+        - {x: -25, y: 18}
+        - {x: -19, y: -13}
+        - {x: -15, y: -14}
+        - {x: 7, y: -14}
+        - {x: 17, y: 2}
+        - {x: 17, y: 19}
+        - {x: 11, y: 34}
     - name: customerfire_3
       rect:
         serializedVersion: 2
@@ -135,6 +171,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 43}
+        - {x: -28, y: 34}
+        - {x: -28, y: -5}
+        - {x: -15, y: -15}
+        - {x: 5, y: -15}
+        - {x: 16, y: -9}
+        - {x: 16, y: 43}
     - name: customerfire_4
       rect:
         serializedVersion: 2
@@ -145,6 +189,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 47}
+        - {x: -14, y: 47}
+        - {x: -28, y: 39}
+        - {x: -31, y: 36}
+        - {x: -31, y: 16}
+        - {x: -21, y: -15}
+        - {x: 9, y: -15}
+        - {x: 17, y: -6}
+        - {x: 17, y: 20}
+        - {x: 5, y: 41}
     - name: customerfire_5
       rect:
         serializedVersion: 2
@@ -155,6 +210,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 21}
+        - {x: 9, y: 43}
+        - {x: 0, y: 51}
+        - {x: -28, y: 51}
+        - {x: -33, y: 44}
+        - {x: -33, y: 2}
+        - {x: -18, y: -11}
+        - {x: -13, y: -14}
+        - {x: 0, y: -14}
+        - {x: 9, y: -13}
+        - {x: 15, y: -3}
+        - {x: 19, y: 16}
+        - {x: 19, y: 20}
     - name: customerfire_6
       rect:
         serializedVersion: 2
@@ -165,6 +234,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 55}
+        - {x: -36, y: 55}
+        - {x: -36, y: 15}
+        - {x: -27, y: -14}
+        - {x: 5, y: -14}
+        - {x: 16, y: -7}
+        - {x: 22, y: 3}
+        - {x: 22, y: 44}
     - name: customerfire_7
       rect:
         serializedVersion: 2
@@ -175,6 +253,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 60}
+        - {x: -27, y: 60}
+        - {x: -39, y: 48}
+        - {x: -39, y: 31}
+        - {x: -30, y: -13}
+        - {x: -26, y: -14}
+        - {x: 17, y: -14}
+        - {x: 25, y: 3}
+        - {x: 25, y: 38}
+        - {x: 21, y: 52}
     - name: customerfire_8
       rect:
         serializedVersion: 2
@@ -185,6 +274,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 64}
+        - {x: -27, y: 64}
+        - {x: -42, y: 51}
+        - {x: -42, y: 35}
+        - {x: -33, y: 1}
+        - {x: -19, y: -14}
+        - {x: 7, y: -14}
+        - {x: 14, y: -11}
+        - {x: 23, y: 16}
+        - {x: 23, y: 23}
+        - {x: 12, y: 56}
     - name: customerfire_9
       rect:
         serializedVersion: 2
@@ -195,6 +296,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 68}
+        - {x: -30, y: 67}
+        - {x: -45, y: 52}
+        - {x: -45, y: 44}
+        - {x: -28, y: -16}
+        - {x: 17, y: -16}
+        - {x: 20, y: -14}
+        - {x: 20, y: 52}
+        - {x: -9, y: 68}
     - name: customerfire_10
       rect:
         serializedVersion: 2
@@ -205,6 +316,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 72}
+        - {x: -26, y: 72}
+        - {x: -47, y: 58}
+        - {x: -47, y: 2}
+        - {x: -27, y: -15}
+        - {x: 17, y: -15}
+        - {x: 17, y: 33}
+        - {x: 6, y: 55}
     - name: customerfire_11
       rect:
         serializedVersion: 2
@@ -215,6 +335,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 74}
+        - {x: -46, y: -14}
+        - {x: -41, y: -15}
+        - {x: 6, y: -15}
+        - {x: 16, y: -12}
+        - {x: 16, y: 26}
+        - {x: 2, y: 74}
     - name: customerfire_12
       rect:
         serializedVersion: 2
@@ -225,6 +353,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 33}
+        - {x: -7, y: 31}
+        - {x: 0, y: 40}
+        - {x: 5, y: 46}
+        - {x: 5, y: 59}
+        - {x: -12, y: 76}
+        - {x: -27, y: 76}
+        - {x: -45, y: 61}
+        - {x: -45, y: 46}
+        - {x: -21, y: -15}
+        - {x: 12, y: -15}
+        - {x: 16, y: -14}
+        - {x: 16, y: 15}
+        - {x: 1, y: 33}
     - name: customerfire_13
       rect:
         serializedVersion: 2
@@ -235,6 +378,24 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 27}
+        - {x: -5, y: 29}
+        - {x: -16, y: 29}
+        - {x: -20, y: 18}
+        - {x: -20, y: -15}
+        - {x: 15, y: -15}
+        - {x: 17, y: -10}
+        - {x: 17, y: 15}
+      - - {x: -31, y: 77}
+        - {x: -44, y: 62}
+        - {x: -44, y: 44}
+        - {x: -35, y: 32}
+        - {x: -25, y: 29}
+        - {x: -5, y: 29}
+        - {x: 5, y: 48}
+        - {x: 5, y: 66}
+        - {x: -9, y: 77}
     - name: customerfire_14
       rect:
         serializedVersion: 2
@@ -245,6 +406,23 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 24}
+        - {x: -18, y: 21}
+        - {x: -18, y: -15}
+        - {x: 13, y: -15}
+        - {x: 17, y: -7}
+        - {x: 17, y: 14}
+        - {x: 5, y: 24}
+      - - {x: -29, y: 79}
+        - {x: -43, y: 66}
+        - {x: -43, y: 51}
+        - {x: -33, y: 35}
+        - {x: -21, y: 31}
+        - {x: -5, y: 31}
+        - {x: 6, y: 51}
+        - {x: 6, y: 67}
+        - {x: -2, y: 79}
     - name: customerfire_15
       rect:
         serializedVersion: 2
@@ -255,6 +433,26 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -18, y: 16}
+        - {x: -18, y: -12}
+        - {x: -14, y: -15}
+        - {x: 13, y: -15}
+        - {x: 18, y: 0}
+        - {x: 18, y: 18}
+        - {x: 3, y: 27}
+      - - {x: -9, y: 80}
+        - {x: -27, y: 80}
+        - {x: -42, y: 64}
+        - {x: -42, y: 53}
+        - {x: -39, y: 44}
+        - {x: -22, y: 33}
+        - {x: -3, y: 33}
+        - {x: 0, y: 34}
+        - {x: 7, y: 53}
+        - {x: 7, y: 65}
+        - {x: -2, y: 78}
     - name: customerfire_16
       rect:
         serializedVersion: 2
@@ -265,6 +463,25 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 34}
+        - {x: 0, y: 34}
+        - {x: -15, y: 15}
+        - {x: -15, y: -8}
+        - {x: -10, y: -15}
+        - {x: 7, y: -15}
+        - {x: 15, y: -10}
+        - {x: 18, y: 7}
+        - {x: 18, y: 20}
+      - - {x: -28, y: 80}
+        - {x: -41, y: 67}
+        - {x: -41, y: 54}
+        - {x: -33, y: 38}
+        - {x: -24, y: 36}
+        - {x: -2, y: 36}
+        - {x: 8, y: 53}
+        - {x: 8, y: 69}
+        - {x: -3, y: 80}
     - name: customerfire_17
       rect:
         serializedVersion: 2
@@ -275,6 +492,24 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 40}
+        - {x: -15, y: 29}
+        - {x: -15, y: -15}
+        - {x: 6, y: -15}
+        - {x: 17, y: -10}
+        - {x: 18, y: 2}
+        - {x: 18, y: 26}
+        - {x: 5, y: 40}
+      - - {x: 3, y: 80}
+        - {x: -25, y: 80}
+        - {x: -39, y: 68}
+        - {x: -39, y: 57}
+        - {x: -30, y: 38}
+        - {x: -5, y: 38}
+        - {x: 6, y: 50}
+        - {x: 9, y: 52}
+        - {x: 9, y: 69}
     - name: customerfire_18
       rect:
         serializedVersion: 2
@@ -285,6 +520,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 80}
+        - {x: -26, y: 80}
+        - {x: -38, y: 69}
+        - {x: -38, y: 52}
+        - {x: -18, y: -15}
+        - {x: 5, y: -15}
+        - {x: 16, y: -8}
+        - {x: 17, y: 5}
+        - {x: 17, y: 59}
     - name: customerfire_19
       rect:
         serializedVersion: 2
@@ -295,6 +540,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 80}
+        - {x: -37, y: 78}
+        - {x: -37, y: 36}
+        - {x: -19, y: -15}
+        - {x: 17, y: -15}
+        - {x: 17, y: 66}
+        - {x: 12, y: 80}
     - name: customerfire_20
       rect:
         serializedVersion: 2
@@ -305,6 +558,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 59}
+        - {x: -10, y: 59}
+        - {x: -17, y: 31}
+        - {x: -17, y: -11}
+        - {x: -14, y: -15}
+        - {x: 7, y: -15}
+        - {x: 15, y: -4}
+        - {x: 16, y: 13}
+        - {x: 16, y: 38}
     - name: customerfire_21
       rect:
         serializedVersion: 2
@@ -315,6 +578,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 61}
+        - {x: -19, y: -10}
+        - {x: -14, y: -15}
+        - {x: 6, y: -15}
+        - {x: 15, y: -4}
+        - {x: 15, y: 53}
+        - {x: -2, y: 61}
     - name: customerfire_22
       rect:
         serializedVersion: 2
@@ -325,6 +596,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 54}
+        - {x: -12, y: 52}
+        - {x: -20, y: 37}
+        - {x: -20, y: -15}
+        - {x: 15, y: -15}
+        - {x: 15, y: 42}
+        - {x: -2, y: 54}
     - name: customerfire_23
       rect:
         serializedVersion: 2
@@ -335,6 +614,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 47}
+        - {x: -21, y: 34}
+        - {x: -21, y: -11}
+        - {x: -20, y: -15}
+        - {x: 15, y: -15}
+        - {x: 15, y: 41}
+        - {x: -3, y: 47}
     - name: customerfire_24
       rect:
         serializedVersion: 2
@@ -345,6 +632,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 28}
+        - {x: -4, y: 37}
+        - {x: -10, y: 40}
+        - {x: -13, y: 40}
+        - {x: -22, y: 19}
+        - {x: -22, y: -15}
+        - {x: 12, y: -15}
+        - {x: 16, y: -4}
+        - {x: 16, y: 9}
+        - {x: 15, y: 26}
     - name: customerfire_25
       rect:
         serializedVersion: 2
@@ -355,6 +653,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 33}
+        - {x: -17, y: 33}
+        - {x: -23, y: 15}
+        - {x: -23, y: -7}
+        - {x: -18, y: -15}
+        - {x: 8, y: -15}
+        - {x: 21, y: -12}
+        - {x: 23, y: 3}
+        - {x: 23, y: 25}
+        - {x: 14, y: 31}
     - name: customerfire_26
       rect:
         serializedVersion: 2
@@ -365,6 +674,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 33}
+        - {x: -23, y: 22}
+        - {x: -23, y: -11}
+        - {x: -22, y: -13}
+        - {x: -15, y: -16}
+        - {x: 7, y: -16}
+        - {x: 18, y: -13}
+        - {x: 25, y: 4}
+        - {x: 25, y: 33}
     - name: customerfire_27
       rect:
         serializedVersion: 2
@@ -375,6 +694,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 39}
+        - {x: -25, y: 34}
+        - {x: -25, y: -9}
+        - {x: -22, y: -15}
+        - {x: 10, y: -15}
+        - {x: 27, y: -9}
+        - {x: 27, y: 34}
+        - {x: 17, y: 39}
     - name: customerfire_28
       rect:
         serializedVersion: 2
@@ -385,6 +713,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 47}
+        - {x: -28, y: 36}
+        - {x: -29, y: 33}
+        - {x: -29, y: -3}
+        - {x: -27, y: -10}
+        - {x: -22, y: -15}
+        - {x: 10, y: -15}
+        - {x: 28, y: -8}
+        - {x: 28, y: 39}
+        - {x: 8, y: 47}
     - name: customerfire_29
       rect:
         serializedVersion: 2
@@ -395,6 +734,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 54}
+        - {x: -16, y: 54}
+        - {x: -33, y: 46}
+        - {x: -33, y: -15}
+        - {x: 15, y: -15}
+        - {x: 27, y: -5}
+        - {x: 30, y: 10}
+        - {x: 30, y: 43}
     - name: customerfire_30
       rect:
         serializedVersion: 2
@@ -405,6 +753,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 60}
+        - {x: -36, y: 55}
+        - {x: -36, y: -6}
+        - {x: -33, y: -15}
+        - {x: 11, y: -15}
+        - {x: 31, y: -2}
+        - {x: 31, y: 40}
+        - {x: 9, y: 60}
     - name: customerfire_31
       rect:
         serializedVersion: 2
@@ -415,6 +772,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 54}
+        - {x: -32, y: 41}
+        - {x: -32, y: -6}
+        - {x: -20, y: -15}
+        - {x: 23, y: -15}
+        - {x: 33, y: 2}
+        - {x: 33, y: 42}
+        - {x: 23, y: 54}
     - name: customerfire_32
       rect:
         serializedVersion: 2
@@ -425,6 +791,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 56}
+        - {x: -28, y: 44}
+        - {x: -28, y: -15}
+        - {x: 24, y: -15}
+        - {x: 34, y: 5}
+        - {x: 34, y: 51}
+        - {x: 27, y: 56}
     - name: customerfire_33
       rect:
         serializedVersion: 2
@@ -435,6 +809,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 59}
+        - {x: -4, y: 57}
+        - {x: -24, y: 37}
+        - {x: -24, y: -10}
+        - {x: -16, y: -15}
+        - {x: 14, y: -15}
+        - {x: 26, y: -5}
+        - {x: 36, y: 3}
+        - {x: 36, y: 59}
     - name: customerfire_34
       rect:
         serializedVersion: 2
@@ -445,6 +829,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 63}
+        - {x: -20, y: 52}
+        - {x: -20, y: -15}
+        - {x: 19, y: -15}
+        - {x: 37, y: 11}
+        - {x: 37, y: 61}
+        - {x: 31, y: 63}
     - name: customerfire_35
       rect:
         serializedVersion: 2
@@ -455,6 +847,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 65}
+        - {x: -20, y: 25}
+        - {x: -20, y: 1}
+        - {x: -17, y: -9}
+        - {x: -11, y: -13}
+        - {x: -7, y: -15}
+        - {x: 16, y: -15}
+        - {x: 37, y: 14}
+        - {x: 37, y: 65}
     - name: customerfire_36
       rect:
         serializedVersion: 2
@@ -465,6 +867,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 66}
+        - {x: 0, y: 66}
+        - {x: -19, y: 54}
+        - {x: -21, y: 26}
+        - {x: -21, y: -15}
+        - {x: 16, y: -15}
+        - {x: 34, y: 22}
+        - {x: 34, y: 54}
+        - {x: 33, y: 61}
     - name: customerfire_37
       rect:
         serializedVersion: 2
@@ -475,6 +887,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 67}
+        - {x: -12, y: 62}
+        - {x: -22, y: 33}
+        - {x: -22, y: -5}
+        - {x: -15, y: -15}
+        - {x: 15, y: -15}
+        - {x: 32, y: 15}
+        - {x: 32, y: 63}
+        - {x: 26, y: 67}
     - name: customerfire_38
       rect:
         serializedVersion: 2
@@ -485,6 +907,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 69}
+        - {x: -17, y: 69}
+        - {x: -23, y: 66}
+        - {x: -23, y: -15}
+        - {x: 16, y: -15}
+        - {x: 28, y: 12}
+        - {x: 30, y: 21}
+        - {x: 30, y: 65}
     - name: customerfire_39
       rect:
         serializedVersion: 2
@@ -495,6 +926,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 73}
+        - {x: 1, y: 73}
+        - {x: -18, y: 54}
+        - {x: -23, y: 33}
+        - {x: -23, y: 3}
+        - {x: -15, y: -15}
+        - {x: 8, y: -15}
+        - {x: 21, y: -8}
+        - {x: 28, y: 26}
+        - {x: 28, y: 63}
     - name: customerfire_40
       rect:
         serializedVersion: 2
@@ -505,6 +947,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 67}
+        - {x: 13, y: 68}
+        - {x: 1, y: 68}
+        - {x: -5, y: 66}
+        - {x: -20, y: 40}
+        - {x: -21, y: 38}
+        - {x: -21, y: -7}
+        - {x: -13, y: -15}
+        - {x: 12, y: -15}
+        - {x: 17, y: -11}
+        - {x: 23, y: 11}
+        - {x: 26, y: 31}
+        - {x: 26, y: 60}
     - name: customerfire_41
       rect:
         serializedVersion: 2
@@ -515,6 +971,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 69}
+        - {x: -20, y: 50}
+        - {x: -20, y: -12}
+        - {x: -12, y: -15}
+        - {x: 12, y: -15}
+        - {x: 24, y: -5}
+        - {x: 24, y: 69}
     - name: customerfire_42
       rect:
         serializedVersion: 2
@@ -525,6 +989,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 70}
+        - {x: -16, y: 68}
+        - {x: -18, y: 45}
+        - {x: -18, y: -15}
+        - {x: 18, y: -15}
+        - {x: 22, y: -3}
+        - {x: 22, y: 69}
+        - {x: 21, y: 70}
     - name: customerfire_43
       rect:
         serializedVersion: 2
@@ -535,6 +1008,26 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 41}
+        - {x: 0, y: 41}
+        - {x: -17, y: 24}
+        - {x: -17, y: -7}
+        - {x: -10, y: -15}
+        - {x: 8, y: -15}
+        - {x: 13, y: -11}
+        - {x: 14, y: -5}
+        - {x: 14, y: 10}
+        - {x: 6, y: 39}
+      - - {x: -9, y: 48}
+        - {x: -8, y: 44}
+        - {x: -6, y: 40}
+        - {x: 15, y: 40}
+        - {x: 19, y: 41}
+        - {x: 19, y: 66}
+        - {x: 17, y: 70}
+        - {x: -1, y: 70}
+        - {x: -9, y: 67}
     - name: customerfire_44
       rect:
         serializedVersion: 2
@@ -545,6 +1038,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 33}
+        - {x: 1, y: 33}
+        - {x: -15, y: 22}
+        - {x: -15, y: -11}
+        - {x: -7, y: -15}
+        - {x: 3, y: -15}
+        - {x: 12, y: -11}
+        - {x: 12, y: 7}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

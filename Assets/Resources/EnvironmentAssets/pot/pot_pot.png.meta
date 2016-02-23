@@ -47,7 +47,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -72,12 +72,17 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: pot_pot_0
@@ -90,6 +95,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_1
       rect:
         serializedVersion: 2
@@ -100,6 +114,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_2
       rect:
         serializedVersion: 2
@@ -110,6 +133,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_3
       rect:
         serializedVersion: 2
@@ -120,6 +152,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_4
       rect:
         serializedVersion: 2
@@ -130,6 +171,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_5
       rect:
         serializedVersion: 2
@@ -140,6 +190,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_6
       rect:
         serializedVersion: 2
@@ -150,6 +209,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_7
       rect:
         serializedVersion: 2
@@ -160,6 +228,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_8
       rect:
         serializedVersion: 2
@@ -170,6 +247,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_9
       rect:
         serializedVersion: 2
@@ -180,6 +266,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_10
       rect:
         serializedVersion: 2
@@ -190,6 +285,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_11
       rect:
         serializedVersion: 2
@@ -200,6 +304,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_12
       rect:
         serializedVersion: 2
@@ -210,6 +323,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_13
       rect:
         serializedVersion: 2
@@ -220,6 +342,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_14
       rect:
         serializedVersion: 2
@@ -230,6 +361,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_15
       rect:
         serializedVersion: 2
@@ -240,6 +380,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_16
       rect:
         serializedVersion: 2
@@ -250,6 +399,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_17
       rect:
         serializedVersion: 2
@@ -260,6 +418,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_18
       rect:
         serializedVersion: 2
@@ -270,6 +437,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_19
       rect:
         serializedVersion: 2
@@ -280,6 +456,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_20
       rect:
         serializedVersion: 2
@@ -290,6 +475,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_21
       rect:
         serializedVersion: 2
@@ -300,6 +494,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_22
       rect:
         serializedVersion: 2
@@ -310,6 +513,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_23
       rect:
         serializedVersion: 2
@@ -320,6 +532,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_24
       rect:
         serializedVersion: 2
@@ -330,6 +551,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_25
       rect:
         serializedVersion: 2
@@ -340,6 +570,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_26
       rect:
         serializedVersion: 2
@@ -350,6 +589,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_27
       rect:
         serializedVersion: 2
@@ -360,6 +608,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_28
       rect:
         serializedVersion: 2
@@ -370,6 +627,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
     - name: pot_pot_29
       rect:
         serializedVersion: 2
@@ -380,6 +646,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 50}
+        - {x: -43, y: 39}
+        - {x: -43, y: -21}
+        - {x: -35, y: -33}
+        - {x: -21, y: -40}
+        - {x: 33, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 50}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

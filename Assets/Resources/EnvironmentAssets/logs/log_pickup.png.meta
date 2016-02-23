@@ -38,7 +38,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -63,12 +63,17 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: log_pickup_0
@@ -81,6 +86,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80, y: 40}
+        - {x: -87, y: 40}
+        - {x: -95, y: 19}
+        - {x: -95, y: -49}
+        - {x: -79, y: -63}
+        - {x: 94, y: -63}
+        - {x: 95, y: -57}
+        - {x: 95, y: 7}
+        - {x: 88, y: 27}
     - name: log_pickup_1
       rect:
         serializedVersion: 2
@@ -91,6 +106,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 39}
+        - {x: -88, y: 23}
+        - {x: -95, y: 5}
+        - {x: -95, y: -48}
+        - {x: -86, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 39}
     - name: log_pickup_2
       rect:
         serializedVersion: 2
@@ -101,6 +124,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95, y: 38}
+        - {x: -95, y: -39}
+        - {x: -70, y: -63}
+        - {x: 94, y: -63}
+        - {x: 95, y: -61}
+        - {x: 95, y: 13}
+        - {x: 85, y: 38}
     - name: log_pickup_3
       rect:
         serializedVersion: 2
@@ -111,6 +142,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87, y: 36}
+        - {x: -95, y: 12}
+        - {x: -95, y: -40}
+        - {x: -68, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 10}
+        - {x: 82, y: 36}
     - name: log_pickup_4
       rect:
         serializedVersion: 2
@@ -121,6 +160,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91, y: 35}
+        - {x: -95, y: 10}
+        - {x: -95, y: -36}
+        - {x: -73, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 31}
+        - {x: 91, y: 35}
     - name: log_pickup_5
       rect:
         serializedVersion: 2
@@ -131,6 +178,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 35}
+        - {x: -95, y: 4}
+        - {x: -95, y: -34}
+        - {x: -69, y: -63}
+        - {x: 91, y: -63}
+        - {x: 95, y: -61}
+        - {x: 95, y: 26}
+        - {x: 80, y: 35}
     - name: log_pickup_6
       rect:
         serializedVersion: 2
@@ -141,6 +197,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87, y: 41}
+        - {x: -95, y: 10}
+        - {x: -95, y: -44}
+        - {x: -78, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 10}
+        - {x: 92, y: 38}
+        - {x: 87, y: 41}
     - name: log_pickup_7
       rect:
         serializedVersion: 2
@@ -151,6 +216,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: 47}
+        - {x: -95, y: 19}
+        - {x: -95, y: -47}
+        - {x: -81, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 36}
+        - {x: 82, y: 47}
     - name: log_pickup_8
       rect:
         serializedVersion: 2
@@ -161,6 +234,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 53}
+        - {x: -91, y: 30}
+        - {x: -95, y: 13}
+        - {x: -95, y: -39}
+        - {x: -73, y: -63}
+        - {x: 90, y: -63}
+        - {x: 95, y: -61}
+        - {x: 95, y: 39}
+        - {x: 80, y: 53}
     - name: log_pickup_9
       rect:
         serializedVersion: 2
@@ -171,6 +254,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87, y: 59}
+        - {x: -95, y: 46}
+        - {x: -95, y: -41}
+        - {x: -87, y: -63}
+        - {x: 92, y: -63}
+        - {x: 95, y: -58}
+        - {x: 95, y: 58}
+        - {x: 88, y: 59}
     - name: log_pickup_10
       rect:
         serializedVersion: 2
@@ -181,6 +273,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: -2}
+        - {x: 67, y: -2}
+        - {x: 73, y: -2}
+        - {x: 81, y: 2}
+        - {x: 91, y: 15}
+        - {x: 88, y: 59}
+        - {x: 82, y: 63}
+        - {x: -91, y: 63}
+        - {x: -95, y: 62}
+        - {x: -95, y: -60}
+        - {x: -94, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: -8}
+        - {x: 92, y: 4}
     - name: log_pickup_11
       rect:
         serializedVersion: 2
@@ -191,6 +298,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95, y: 63}
+        - {x: -95, y: -40}
+        - {x: -73, y: -63}
+        - {x: 92, y: -63}
+        - {x: 95, y: -61}
+        - {x: 95, y: 55}
+        - {x: 91, y: 63}
     - name: log_pickup_12
       rect:
         serializedVersion: 2
@@ -201,6 +316,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 61}
+        - {x: -88, y: 34}
+        - {x: -95, y: 5}
+        - {x: -95, y: -43}
+        - {x: -83, y: -63}
+        - {x: 90, y: -63}
+        - {x: 95, y: -62}
+        - {x: 95, y: 61}
     - name: log_pickup_13
       rect:
         serializedVersion: 2
@@ -211,6 +335,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82, y: 59}
+        - {x: -95, y: 53}
+        - {x: -95, y: -63}
+        - {x: 90, y: -63}
+        - {x: 95, y: -62}
+        - {x: 95, y: 50}
+        - {x: 81, y: 59}
     - name: log_pickup_14
       rect:
         serializedVersion: 2
@@ -221,6 +353,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 57}
+        - {x: -89, y: 31}
+        - {x: -95, y: 8}
+        - {x: -95, y: -39}
+        - {x: -71, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 34}
+        - {x: 92, y: 53}
+        - {x: 84, y: 57}
     - name: log_pickup_15
       rect:
         serializedVersion: 2
@@ -231,6 +373,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86, y: 54}
+        - {x: -95, y: 17}
+        - {x: -95, y: -42}
+        - {x: -78, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 53}
+        - {x: 91, y: 54}
     - name: log_pickup_16
       rect:
         serializedVersion: 2
@@ -241,6 +391,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -89, y: 52}
+        - {x: -95, y: 18}
+        - {x: -95, y: -37}
+        - {x: -72, y: -58}
+        - {x: -65, y: -63}
+        - {x: 89, y: -63}
+        - {x: 95, y: -61}
+        - {x: 95, y: 50}
+        - {x: 88, y: 52}
     - name: log_pickup_17
       rect:
         serializedVersion: 2
@@ -251,6 +411,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 50}
+        - {x: -95, y: 16}
+        - {x: -95, y: -31}
+        - {x: -68, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 27}
+        - {x: 83, y: 50}
     - name: log_pickup_18
       rect:
         serializedVersion: 2
@@ -261,6 +429,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 48}
+        - {x: -95, y: 22}
+        - {x: -95, y: -47}
+        - {x: -68, y: -63}
+        - {x: 94, y: -63}
+        - {x: 95, y: -58}
+        - {x: 95, y: 48}
     - name: log_pickup_19
       rect:
         serializedVersion: 2
@@ -271,6 +447,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90, y: 45}
+        - {x: -95, y: 31}
+        - {x: -95, y: -46}
+        - {x: -70, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 45}
     - name: log_pickup_20
       rect:
         serializedVersion: 2
@@ -281,6 +464,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 43}
+        - {x: -95, y: 26}
+        - {x: -95, y: -52}
+        - {x: -80, y: -63}
+        - {x: 95, y: -63}
+        - {x: 95, y: 34}
+        - {x: 80, y: 43}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

@@ -53,7 +53,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -78,12 +78,17 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: doughmaker_0
@@ -94,8 +99,16 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 58.80005}
+        - {x: -63, y: 39.80005}
+        - {x: -63, y: -44.19995}
+        - {x: 57, y: -44.19995}
+        - {x: 64, y: -35.19995}
+        - {x: 64, y: 41.80005}
+        - {x: 12, y: 58.80005}
     - name: doughmaker_1
       rect:
         serializedVersion: 2
@@ -104,8 +117,16 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 83.80005}
+        - {x: -63, y: 75.80005}
+        - {x: -63, y: -44.19995}
+        - {x: 57, y: -44.19995}
+        - {x: 64, y: -39.19995}
+        - {x: 64, y: 43.80005}
+        - {x: 6, y: 83.80005}
     - name: doughmaker_2
       rect:
         serializedVersion: 2
@@ -114,8 +135,17 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 71.80005}
+        - {x: 1, y: 84.80005}
+        - {x: -64, y: 84.80005}
+        - {x: -64, y: -44.19995}
+        - {x: 57, y: -44.19995}
+        - {x: 66, y: -37.19995}
+        - {x: 69, y: -13.199951}
+        - {x: 69, y: 60.80005}
     - name: doughmaker_3
       rect:
         serializedVersion: 2
@@ -124,8 +154,21 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 70.80005}
+        - {x: 21, y: 54.80005}
+        - {x: -11, y: 84.80005}
+        - {x: -51, y: 84.80005}
+        - {x: -58, y: 83.80005}
+        - {x: -64, y: 76.80005}
+        - {x: -64, y: -29.199951}
+        - {x: -62, y: -44.19995}
+        - {x: 65, y: -44.19995}
+        - {x: 69, y: -24.199951}
+        - {x: 69, y: 54.80005}
+        - {x: 65, y: 59.80005}
     - name: doughmaker_4
       rect:
         serializedVersion: 2
@@ -134,8 +177,15 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 85.80005}
+        - {x: -65, y: -44.19995}
+        - {x: 61, y: -44.19995}
+        - {x: 70, y: -17.199951}
+        - {x: 70, y: 69.80005}
+        - {x: 63, y: 85.80005}
     - name: doughmaker_5
       rect:
         serializedVersion: 2
@@ -144,8 +194,18 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 59.80005}
+        - {x: -9, y: 87.80005}
+        - {x: -49, y: 87.80005}
+        - {x: -66, y: 78.80005}
+        - {x: -66, y: -44.19995}
+        - {x: 63, y: -44.19995}
+        - {x: 70, y: 13.800049}
+        - {x: 70, y: 58.80005}
+        - {x: 38, y: 69.80005}
     - name: doughmaker_6
       rect:
         serializedVersion: 2
@@ -154,8 +214,17 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 89.80005}
+        - {x: -67, y: 87.80005}
+        - {x: -67, y: -43.19995}
+        - {x: -60, y: -44.19995}
+        - {x: 64, y: -44.19995}
+        - {x: 71, y: -22.199951}
+        - {x: 71, y: 83.80005}
+        - {x: 58, y: 89.80005}
     - name: doughmaker_7
       rect:
         serializedVersion: 2
@@ -164,8 +233,15 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 92.80005}
+        - {x: -69, y: -44.19995}
+        - {x: 63, y: -44.19995}
+        - {x: 71, y: -21.199951}
+        - {x: 71, y: 76.80005}
+        - {x: 41, y: 92.80005}
     - name: doughmaker_8
       rect:
         serializedVersion: 2
@@ -174,8 +250,15 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 95.80005}
+        - {x: -71, y: -44.19995}
+        - {x: 70, y: -44.19995}
+        - {x: 72, y: -39.19995}
+        - {x: 72, y: 91.80005}
+        - {x: 61, y: 95.80005}
     - name: doughmaker_9
       rect:
         serializedVersion: 2
@@ -184,8 +267,24 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 77.80005}
+        - {x: -6, y: 58.80005}
+        - {x: -11, y: 52.80005}
+        - {x: -8, y: 55.80005}
+        - {x: 0, y: 81.80005}
+        - {x: -25, y: 100.80005}
+        - {x: -66, y: 100.80005}
+        - {x: -74, y: 95.80005}
+        - {x: -74, y: 12.800049}
+        - {x: -68, y: -38.19995}
+        - {x: -56, y: -44.19995}
+        - {x: 63, y: -44.19995}
+        - {x: 73, y: -12.199951}
+        - {x: 73, y: 59.80005}
+        - {x: 71, y: 63.80005}
     - name: doughmaker_10
       rect:
         serializedVersion: 2
@@ -194,8 +293,18 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 96.80005}
+        - {x: 11, y: 101.80005}
+        - {x: -74, y: 101.80005}
+        - {x: -74, y: -7.199951}
+        - {x: -64, y: -44.19995}
+        - {x: 63, y: -44.19995}
+        - {x: 74, y: -2.1999512}
+        - {x: 74, y: 53.80005}
+        - {x: 66, y: 65.80005}
     - name: doughmaker_11
       rect:
         serializedVersion: 2
@@ -204,8 +313,22 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 58.80005}
+        - {x: -10, y: 51.80005}
+        - {x: -8, y: 53.80005}
+        - {x: -13, y: 80.80005}
+        - {x: -28, y: 100.80005}
+        - {x: -71, y: 100.80005}
+        - {x: -74, y: 91.80005}
+        - {x: -74, y: 2.8000488}
+        - {x: -62, y: -44.19995}
+        - {x: 61, y: -44.19995}
+        - {x: 74, y: -11.199951}
+        - {x: 74, y: 58.80005}
+        - {x: 57, y: 80.80005}
     - name: doughmaker_12
       rect:
         serializedVersion: 2
@@ -214,8 +337,24 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 82.79999}
+        - {x: 1, y: 73.79999}
+        - {x: -7, y: 56.799988}
+        - {x: -9, y: 45.799988}
+        - {x: -7, y: 57.799988}
+        - {x: -12, y: 96.79999}
+        - {x: -27, y: 100.79999}
+        - {x: -74, y: 100.79999}
+        - {x: -74, y: 2.7999878}
+        - {x: -66, y: -37.200012}
+        - {x: -56, y: -44.200012}
+        - {x: 59, y: -44.200012}
+        - {x: 73, y: -31.200012}
+        - {x: 74, y: -13.200012}
+        - {x: 74, y: 61.799988}
     - name: doughmaker_13
       rect:
         serializedVersion: 2
@@ -224,8 +363,19 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 100.79999}
+        - {x: -66, y: 95.79999}
+        - {x: -74, y: 90.79999}
+        - {x: -74, y: 22.799988}
+        - {x: -67, y: -24.200012}
+        - {x: -59, y: -44.200012}
+        - {x: 66, y: -44.200012}
+        - {x: 74, y: -16.200012}
+        - {x: 74, y: 73.79999}
+        - {x: -15, y: 100.79999}
     - name: doughmaker_14
       rect:
         serializedVersion: 2
@@ -234,8 +384,18 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 99.79999}
+        - {x: -74, y: 84.79999}
+        - {x: -74, y: 19.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -58, y: -44.200012}
+        - {x: 57, y: -44.200012}
+        - {x: 74, y: -27.200012}
+        - {x: 74, y: 86.79999}
+        - {x: 58, y: 99.79999}
     - name: doughmaker_15
       rect:
         serializedVersion: 2
@@ -244,8 +404,27 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 69.79999}
+        - {x: -63, y: 38.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -58, y: -44.200012}
+        - {x: 62, y: -44.200012}
+        - {x: 75, y: -2.2000122}
+        - {x: 75, y: 67.79999}
+        - {x: 71, y: 69.79999}
+      - - {x: -32, y: 98.79999}
+        - {x: -55, y: 98.79999}
+        - {x: -73, y: 87.79999}
+        - {x: -74, y: 79.79999}
+        - {x: -74, y: 59.799988}
+        - {x: -56, y: 41.799988}
+        - {x: -24, y: 41.799988}
+        - {x: -16, y: 54.799988}
+        - {x: -16, y: 82.79999}
+        - {x: -24, y: 95.79999}
     - name: doughmaker_16
       rect:
         serializedVersion: 2
@@ -254,8 +433,24 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 69.79999}
+        - {x: -63, y: 59.799988}
+        - {x: -63, y: -44.200012}
+        - {x: 58, y: -44.200012}
+        - {x: 73, y: -39.200012}
+        - {x: 76, y: -3.2000122}
+        - {x: 76, y: 69.79999}
+      - - {x: -69, y: 97.79999}
+        - {x: -74, y: 85.79999}
+        - {x: -74, y: 56.799988}
+        - {x: -58, y: 44.799988}
+        - {x: -28, y: 44.799988}
+        - {x: -20, y: 48.799988}
+        - {x: -20, y: 82.79999}
+        - {x: -27, y: 97.79999}
     - name: doughmaker_17
       rect:
         serializedVersion: 2
@@ -264,8 +459,26 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 70.79999}
+        - {x: -63, y: 41.799988}
+        - {x: -63, y: -33.200012}
+        - {x: -62, y: -44.200012}
+        - {x: 66, y: -44.200012}
+        - {x: 77, y: -27.200012}
+        - {x: 77, y: 62.799988}
+        - {x: 72, y: 70.79999}
+      - - {x: -73, y: 89.79999}
+        - {x: -73, y: 58.799988}
+        - {x: -67, y: 48.799988}
+        - {x: -33, y: 48.799988}
+        - {x: -24, y: 52.799988}
+        - {x: -24, y: 79.79999}
+        - {x: -32, y: 96.79999}
+        - {x: -57, y: 96.79999}
+        - {x: -72, y: 90.79999}
     - name: doughmaker_18
       rect:
         serializedVersion: 2
@@ -274,8 +487,26 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 71.79999}
+        - {x: 20, y: 71.79999}
+        - {x: -63, y: 44.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -59, y: -44.200012}
+        - {x: 53, y: -44.200012}
+        - {x: 67, y: -37.200012}
+        - {x: 78, y: 17.799988}
+        - {x: 78, y: 62.799988}
+      - - {x: -69, y: 95.79999}
+        - {x: -72, y: 84.79999}
+        - {x: -72, y: 65.79999}
+        - {x: -63, y: 53.799988}
+        - {x: -36, y: 53.799988}
+        - {x: -28, y: 55.799988}
+        - {x: -28, y: 84.79999}
+        - {x: -35, y: 95.79999}
     - name: doughmaker_19
       rect:
         serializedVersion: 2
@@ -284,8 +515,18 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 71.79999}
+        - {x: 24, y: 66.79999}
+        - {x: -63, y: 41.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -59, y: -44.200012}
+        - {x: 61, y: -44.200012}
+        - {x: 78, y: -6.200012}
+        - {x: 78, y: 61.799988}
+        - {x: 71, y: 71.79999}
     - name: doughmaker_20
       rect:
         serializedVersion: 2
@@ -294,8 +535,16 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 71.79999}
+        - {x: -63, y: 42.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -59, y: -44.200012}
+        - {x: 68, y: -44.200012}
+        - {x: 78, y: -23.200012}
+        - {x: 78, y: 71.79999}
     - name: doughmaker_21
       rect:
         serializedVersion: 2
@@ -304,8 +553,17 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 71.79999}
+        - {x: -63, y: 43.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -58, y: -44.200012}
+        - {x: 65, y: -44.200012}
+        - {x: 78, y: -25.200012}
+        - {x: 78, y: 68.79999}
+        - {x: 76, y: 71.79999}
     - name: doughmaker_22
       rect:
         serializedVersion: 2
@@ -314,8 +572,15 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 72.79999}
+        - {x: -63, y: 65.79999}
+        - {x: -63, y: -44.200012}
+        - {x: 70, y: -44.200012}
+        - {x: 79, y: -14.200012}
+        - {x: 79, y: 72.79999}
     - name: doughmaker_23
       rect:
         serializedVersion: 2
@@ -324,8 +589,17 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 72.79999}
+        - {x: -63, y: 39.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -58, y: -44.200012}
+        - {x: 64, y: -44.200012}
+        - {x: 79, y: -8.200012}
+        - {x: 79, y: 66.79999}
+        - {x: 70, y: 72.79999}
     - name: doughmaker_24
       rect:
         serializedVersion: 2
@@ -334,8 +608,18 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: 73.79999}
+        - {x: -2, y: 73.79999}
+        - {x: -63, y: 52.799988}
+        - {x: -63, y: -37.200012}
+        - {x: -58, y: -44.200012}
+        - {x: 57, y: -44.200012}
+        - {x: 64, y: -36.200012}
+        - {x: 80, y: 26.799988}
+        - {x: 80, y: 66.79999}
     - name: doughmaker_25
       rect:
         serializedVersion: 2
@@ -344,8 +628,16 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 73.79999}
+        - {x: -63, y: 56.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -58, y: -44.200012}
+        - {x: 76, y: -44.200012}
+        - {x: 80, y: -27.200012}
+        - {x: 80, y: 73.79999}
     - name: doughmaker_26
       rect:
         serializedVersion: 2
@@ -354,8 +646,17 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 73.79999}
+        - {x: -63, y: 60.799988}
+        - {x: -63, y: -37.200012}
+        - {x: -58, y: -44.200012}
+        - {x: 64, y: -44.200012}
+        - {x: 80, y: -15.200012}
+        - {x: 80, y: 64.79999}
+        - {x: 76, y: 73.79999}
     - name: doughmaker_27
       rect:
         serializedVersion: 2
@@ -364,8 +665,16 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 73.79999}
+        - {x: -63, y: 51.799988}
+        - {x: -63, y: -44.200012}
+        - {x: 69, y: -44.200012}
+        - {x: 80, y: -14.200012}
+        - {x: 80, y: 67.79999}
+        - {x: 62, y: 73.79999}
     - name: doughmaker_28
       rect:
         serializedVersion: 2
@@ -374,8 +683,19 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 74.79999}
+        - {x: 17, y: 74.79999}
+        - {x: 3, y: 63.799988}
+        - {x: -63, y: 40.799988}
+        - {x: -63, y: -35.200012}
+        - {x: -59, y: -44.200012}
+        - {x: 53, y: -44.200012}
+        - {x: 67, y: -37.200012}
+        - {x: 80, y: 16.799988}
+        - {x: 80, y: 72.79999}
     - name: doughmaker_29
       rect:
         serializedVersion: 2
@@ -384,8 +704,16 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 74.79999}
+        - {x: -63, y: 50.799988}
+        - {x: -63, y: -44.200012}
+        - {x: 64, y: -44.200012}
+        - {x: 80, y: 10.799988}
+        - {x: 80, y: 73.79999}
+        - {x: 75, y: 74.79999}
     - name: doughmaker_30
       rect:
         serializedVersion: 2
@@ -394,8 +722,21 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 74.8}
+        - {x: 49, y: 74.8}
+        - {x: 36, y: 71.8}
+        - {x: 23, y: 51.800003}
+        - {x: 0, y: 65.8}
+        - {x: -63, y: 40.800003}
+        - {x: -63, y: -34.199997}
+        - {x: -62, y: -44.199997}
+        - {x: 57, y: -44.199997}
+        - {x: 67, y: -37.199997}
+        - {x: 80, y: 23.800003}
+        - {x: 80, y: 68.8}
     - name: doughmaker_31
       rect:
         serializedVersion: 2
@@ -404,8 +745,16 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 74.8}
+        - {x: -18, y: 69.8}
+        - {x: -63, y: 46.800003}
+        - {x: -63, y: -44.199997}
+        - {x: 79, y: -44.199997}
+        - {x: 80, y: -41.199997}
+        - {x: 80, y: 74.8}
     - name: doughmaker_32
       rect:
         serializedVersion: 2
@@ -414,8 +763,15 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 74.8}
+        - {x: -63, y: 47.800003}
+        - {x: -63, y: -44.199997}
+        - {x: 73, y: -44.199997}
+        - {x: 80, y: -9.199997}
+        - {x: 80, y: 74.8}
     - name: doughmaker_33
       rect:
         serializedVersion: 2
@@ -424,8 +780,17 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 75.8}
+        - {x: -63, y: 39.800003}
+        - {x: -63, y: -35.199997}
+        - {x: -58, y: -44.199997}
+        - {x: 63, y: -44.199997}
+        - {x: 79, y: -1.199997}
+        - {x: 79, y: 65.8}
+        - {x: 71, y: 75.8}
     - name: doughmaker_34
       rect:
         serializedVersion: 2
@@ -434,8 +799,15 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 75.8}
+        - {x: -63, y: 48.800003}
+        - {x: -63, y: -44.199997}
+        - {x: 63, y: -44.199997}
+        - {x: 78, y: 1.800003}
+        - {x: 78, y: 75.8}
     - name: doughmaker_35
       rect:
         serializedVersion: 2
@@ -444,8 +816,18 @@ TextureImporter:
         width: 160
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .479999989}
+      pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 76.8}
+        - {x: -63, y: 53.800003}
+        - {x: -63, y: -35.199997}
+        - {x: -58, y: -44.199997}
+        - {x: 65, y: -44.199997}
+        - {x: 76, y: -17.199997}
+        - {x: 76, y: 74.8}
+        - {x: 74, y: 76.8}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

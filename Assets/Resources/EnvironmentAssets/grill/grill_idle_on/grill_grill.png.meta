@@ -56,7 +56,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -81,12 +81,17 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: grill_grill_0
@@ -99,6 +104,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_1
       rect:
         serializedVersion: 2
@@ -109,6 +121,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_2
       rect:
         serializedVersion: 2
@@ -119,6 +138,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_3
       rect:
         serializedVersion: 2
@@ -129,6 +155,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_4
       rect:
         serializedVersion: 2
@@ -139,6 +172,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_5
       rect:
         serializedVersion: 2
@@ -149,6 +189,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_6
       rect:
         serializedVersion: 2
@@ -159,6 +206,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_7
       rect:
         serializedVersion: 2
@@ -169,6 +223,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_8
       rect:
         serializedVersion: 2
@@ -179,6 +240,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_9
       rect:
         serializedVersion: 2
@@ -189,6 +257,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_10
       rect:
         serializedVersion: 2
@@ -199,6 +274,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_11
       rect:
         serializedVersion: 2
@@ -209,6 +291,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_12
       rect:
         serializedVersion: 2
@@ -219,6 +308,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_13
       rect:
         serializedVersion: 2
@@ -229,6 +325,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_14
       rect:
         serializedVersion: 2
@@ -239,6 +342,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_15
       rect:
         serializedVersion: 2
@@ -249,6 +359,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_16
       rect:
         serializedVersion: 2
@@ -259,6 +376,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_17
       rect:
         serializedVersion: 2
@@ -269,6 +393,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_18
       rect:
         serializedVersion: 2
@@ -279,6 +410,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_19
       rect:
         serializedVersion: 2
@@ -289,6 +427,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_20
       rect:
         serializedVersion: 2
@@ -299,6 +444,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_21
       rect:
         serializedVersion: 2
@@ -309,6 +461,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_22
       rect:
         serializedVersion: 2
@@ -319,6 +478,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_23
       rect:
         serializedVersion: 2
@@ -329,6 +495,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_24
       rect:
         serializedVersion: 2
@@ -339,6 +512,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_25
       rect:
         serializedVersion: 2
@@ -349,6 +529,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_26
       rect:
         serializedVersion: 2
@@ -359,6 +546,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_27
       rect:
         serializedVersion: 2
@@ -369,6 +563,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_28
       rect:
         serializedVersion: 2
@@ -379,6 +580,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_29
       rect:
         serializedVersion: 2
@@ -389,6 +597,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_30
       rect:
         serializedVersion: 2
@@ -399,6 +614,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_31
       rect:
         serializedVersion: 2
@@ -409,6 +631,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_32
       rect:
         serializedVersion: 2
@@ -419,6 +648,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_33
       rect:
         serializedVersion: 2
@@ -429,6 +665,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_34
       rect:
         serializedVersion: 2
@@ -439,6 +682,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_35
       rect:
         serializedVersion: 2
@@ -449,6 +699,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_36
       rect:
         serializedVersion: 2
@@ -459,6 +716,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_37
       rect:
         serializedVersion: 2
@@ -469,6 +733,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
     - name: grill_grill_38
       rect:
         serializedVersion: 2
@@ -479,6 +750,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 41}
+        - {x: -60.5, y: -41}
+        - {x: 54.5, y: -41}
+        - {x: 60.5, y: -37}
+        - {x: 60.5, y: 36}
+        - {x: 55.5, y: 41}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

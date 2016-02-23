@@ -21,7 +21,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -46,12 +46,17 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: money_0
@@ -64,6 +69,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: -28}
+        - {x: -34.5, y: -43}
+        - {x: 62.5, y: -43}
+        - {x: 62.5, y: 24}
+        - {x: 59.5, y: 32}
+        - {x: -22.5, y: 32}
+        - {x: -52.5, y: 20}
     - name: money_1
       rect:
         serializedVersion: 2
@@ -74,6 +87,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 50}
+        - {x: -25.5, y: 50}
+        - {x: -92.5, y: 21}
+        - {x: -92.5, y: -28}
+        - {x: -84.5, y: -43}
+        - {x: 98.5, y: -43}
+        - {x: 104.5, y: -24}
+        - {x: 104.5, y: 12}
+        - {x: 87.5, y: 44}
     - name: money_2
       rect:
         serializedVersion: 2
@@ -84,6 +107,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 86}
+        - {x: 17.5, y: 90}
+        - {x: -7.5, y: 102}
+        - {x: -126.5, y: 102}
+        - {x: -138.5, y: 87}
+        - {x: -138.5, y: 2}
+        - {x: -133.5, y: -29}
+        - {x: -31.5, y: -75}
+        - {x: 38.5, y: -75}
+        - {x: 58.5, y: -60}
+        - {x: 112.5, y: -16}
+        - {x: 112.5, y: 77}
     - name: money_3
       rect:
         serializedVersion: 2
@@ -94,6 +130,29 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 149.5, y: 123}
+        - {x: 144.5, y: 150}
+        - {x: 124.5, y: 171}
+        - {x: -16.5, y: 171}
+        - {x: -37.5, y: 166}
+        - {x: -43.5, y: 153}
+        - {x: -40.5, y: 141}
+        - {x: -12.5, y: 92}
+        - {x: -50.5, y: 114}
+        - {x: -117.5, y: 113}
+        - {x: -138.5, y: 95}
+        - {x: -138.5, y: 17}
+        - {x: -100.5, y: -23}
+        - {x: -125.5, y: -31}
+        - {x: -124.5, y: -89}
+        - {x: -99.5, y: -94}
+        - {x: -92.5, y: -95}
+        - {x: -21.5, y: -95}
+        - {x: 32.5, y: -75}
+        - {x: 97.5, y: -58}
+        - {x: 149.5, y: 0}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

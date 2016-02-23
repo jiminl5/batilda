@@ -56,7 +56,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -81,12 +81,17 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 90
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: grill_pan_0
@@ -97,8 +102,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_1
       rect:
         serializedVersion: 2
@@ -107,8 +119,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_2
       rect:
         serializedVersion: 2
@@ -117,8 +136,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_3
       rect:
         serializedVersion: 2
@@ -127,8 +153,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_4
       rect:
         serializedVersion: 2
@@ -137,8 +170,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_5
       rect:
         serializedVersion: 2
@@ -147,8 +187,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_6
       rect:
         serializedVersion: 2
@@ -157,8 +204,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_7
       rect:
         serializedVersion: 2
@@ -167,8 +221,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_8
       rect:
         serializedVersion: 2
@@ -177,8 +238,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_9
       rect:
         serializedVersion: 2
@@ -187,8 +255,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_10
       rect:
         serializedVersion: 2
@@ -197,8 +272,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_11
       rect:
         serializedVersion: 2
@@ -207,8 +289,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_12
       rect:
         serializedVersion: 2
@@ -217,8 +306,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_13
       rect:
         serializedVersion: 2
@@ -227,8 +323,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_14
       rect:
         serializedVersion: 2
@@ -237,8 +340,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_15
       rect:
         serializedVersion: 2
@@ -247,8 +357,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_16
       rect:
         serializedVersion: 2
@@ -257,8 +374,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_17
       rect:
         serializedVersion: 2
@@ -267,8 +391,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_18
       rect:
         serializedVersion: 2
@@ -277,8 +408,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_19
       rect:
         serializedVersion: 2
@@ -287,8 +425,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_20
       rect:
         serializedVersion: 2
@@ -297,8 +442,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_21
       rect:
         serializedVersion: 2
@@ -307,8 +459,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_22
       rect:
         serializedVersion: 2
@@ -317,8 +476,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_23
       rect:
         serializedVersion: 2
@@ -327,8 +493,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_24
       rect:
         serializedVersion: 2
@@ -337,8 +510,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_25
       rect:
         serializedVersion: 2
@@ -347,8 +527,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_26
       rect:
         serializedVersion: 2
@@ -357,8 +544,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_27
       rect:
         serializedVersion: 2
@@ -367,8 +561,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_28
       rect:
         serializedVersion: 2
@@ -377,8 +578,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_29
       rect:
         serializedVersion: 2
@@ -387,8 +595,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_30
       rect:
         serializedVersion: 2
@@ -397,8 +612,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_31
       rect:
         serializedVersion: 2
@@ -407,8 +629,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_32
       rect:
         serializedVersion: 2
@@ -417,8 +646,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_33
       rect:
         serializedVersion: 2
@@ -427,8 +663,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_34
       rect:
         serializedVersion: 2
@@ -437,8 +680,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_35
       rect:
         serializedVersion: 2
@@ -447,8 +697,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_36
       rect:
         serializedVersion: 2
@@ -457,8 +714,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_37
       rect:
         serializedVersion: 2
@@ -467,8 +731,15 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
     - name: grill_pan_38
       rect:
         serializedVersion: 2
@@ -477,8 +748,16 @@ TextureImporter:
         width: 200
         height: 100
       alignment: 9
-      pivot: {x: .519999981, y: .469999999}
+      pivot: {x: 0.52, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 43}
+        - {x: -93, y: 18}
+        - {x: -60, y: -33}
+        - {x: -41, y: -36}
+        - {x: 50, y: -36}
+        - {x: 50, y: 43}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

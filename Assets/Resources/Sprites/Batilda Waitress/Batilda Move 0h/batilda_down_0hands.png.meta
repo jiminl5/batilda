@@ -47,7 +47,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -72,7 +72,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -88,8 +88,17 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.07474, y: 101.20361}
+        - {x: -63.07474, y: -37.796387}
+        - {x: -17.074741, y: -99.79639}
+        - {x: 5.9252586, y: -99.79639}
+        - {x: 16.925259, y: -95.79639}
+        - {x: 64.92526, y: -23.796387}
+        - {x: 64.92526, y: 86.20361}
+        - {x: 63.92526, y: 101.20361}
     - name: batilda_down_0hands_1
       rect:
         serializedVersion: 2
@@ -98,8 +107,17 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 101.20361}
+        - {x: -63.574738, y: -41.796387}
+        - {x: -36.574738, y: -99.79639}
+        - {x: 8.425262, y: -99.79639}
+        - {x: 16.425262, y: -96.79639}
+        - {x: 64.42526, y: -21.796387}
+        - {x: 64.42526, y: 82.20361}
+        - {x: 62.425262, y: 101.20361}
     - name: batilda_down_0hands_2
       rect:
         serializedVersion: 2
@@ -108,8 +126,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.074738, y: 101.20361}
+        - {x: -63.074738, y: -12.796387}
+        - {x: -13.074738, y: -98.79639}
+        - {x: 19.925262, y: -98.79639}
+        - {x: 64.92526, y: -46.796387}
+        - {x: 64.92526, y: 101.20361}
     - name: batilda_down_0hands_3
       rect:
         serializedVersion: 2
@@ -118,8 +143,16 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.574738, y: 101.20361}
+        - {x: -63.574738, y: 97.20361}
+        - {x: -63.574738, y: -54.796387}
+        - {x: -28.574738, y: -98.79639}
+        - {x: 30.425262, y: -98.79639}
+        - {x: 64.42526, y: -48.796387}
+        - {x: 64.42526, y: 101.20361}
     - name: batilda_down_0hands_4
       rect:
         serializedVersion: 2
@@ -128,8 +161,18 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.074707, y: 101.20361}
+        - {x: -63.074707, y: -18.796387}
+        - {x: -41.074707, y: -30.796387}
+        - {x: -33.074707, y: -23.796387}
+        - {x: -41.074707, y: -39.796387}
+        - {x: -27.074707, y: -97.79639}
+        - {x: 24.925293, y: -97.79639}
+        - {x: 64.92529, y: -29.796387}
+        - {x: 64.92529, y: 101.20361}
     - name: batilda_down_0hands_5
       rect:
         serializedVersion: 2
@@ -138,8 +181,21 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.27832, y: 101.20361}
+        - {x: -63.27832, y: -17.796387}
+        - {x: -57.27832, y: -21.796387}
+        - {x: -41.27832, y: -27.796387}
+        - {x: -33.27832, y: -18.796387}
+        - {x: -35.27832, y: -46.796387}
+        - {x: -16.27832, y: -85.79639}
+        - {x: -11.27832, y: -96.79639}
+        - {x: 27.72168, y: -96.79639}
+        - {x: 64.72168, y: -40.796387}
+        - {x: 64.72168, y: 100.20361}
+        - {x: 63.72168, y: 101.20361}
     - name: batilda_down_0hands_6
       rect:
         serializedVersion: 2
@@ -148,8 +204,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.07474, y: 101.15723}
+        - {x: -63.07474, y: -25.842773}
+        - {x: -21.074741, y: -96.84277}
+        - {x: 17.925259, y: -96.84277}
+        - {x: 64.92526, y: -26.842773}
+        - {x: 64.92526, y: 101.15723}
     - name: batilda_down_0hands_7
       rect:
         serializedVersion: 2
@@ -158,8 +221,23 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.574738, y: 101.15723}
+        - {x: -63.574738, y: 94.15723}
+        - {x: -63.574738, y: -19.842773}
+        - {x: -62.574738, y: -25.842773}
+        - {x: -42.574738, y: -27.842773}
+        - {x: -37.574738, y: -22.842773}
+        - {x: -36.574738, y: -19.842773}
+        - {x: -36.574738, y: -16.842773}
+        - {x: -33.574738, y: -47.842773}
+        - {x: -27.574738, y: -71.84277}
+        - {x: -13.574738, y: -96.84277}
+        - {x: 16.425262, y: -96.84277}
+        - {x: 64.42526, y: -32.842773}
+        - {x: 64.42526, y: 101.15723}
     - name: batilda_down_0hands_8
       rect:
         serializedVersion: 2
@@ -168,8 +246,16 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.074738, y: 101.15723}
+        - {x: -63.074738, y: -50.842773}
+        - {x: -33.074738, y: -96.84277}
+        - {x: 20.925262, y: -96.84277}
+        - {x: 46.925262, y: -79.84277}
+        - {x: 64.92526, y: -27.842773}
+        - {x: 64.92526, y: 101.15723}
     - name: batilda_down_0hands_9
       rect:
         serializedVersion: 2
@@ -178,8 +264,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 101.15723}
+        - {x: -63.574738, y: -59.842773}
+        - {x: -11.574738, y: -97.84277}
+        - {x: 35.425262, y: -97.84277}
+        - {x: 64.42526, y: -38.842773}
+        - {x: 64.42526, y: 101.15723}
     - name: batilda_down_0hands_10
       rect:
         serializedVersion: 2
@@ -188,8 +281,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.074707, y: 101.15723}
+        - {x: -63.074707, y: -59.842773}
+        - {x: -13.074707, y: -98.84277}
+        - {x: 20.925293, y: -98.84277}
+        - {x: 64.92529, y: -29.842773}
+        - {x: 64.92529, y: 101.15723}
     - name: batilda_down_0hands_11
       rect:
         serializedVersion: 2
@@ -198,8 +298,16 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.27832, y: -93.84277}
+        - {x: -6.2783203, y: -99.84277}
+        - {x: 15.72168, y: -99.84277}
+        - {x: 64.72168, y: -47.842773}
+        - {x: 64.72168, y: 101.15723}
+        - {x: -63.27832, y: 101.15723}
+        - {x: -63.27832, y: -27.842773}
     - name: batilda_down_0hands_12
       rect:
         serializedVersion: 2
@@ -208,8 +316,16 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.07474, y: 101.11084}
+        - {x: -63.07474, y: -45.88916}
+        - {x: -20.074741, y: -92.88916}
+        - {x: -5.0747414, y: -99.88916}
+        - {x: 24.925259, y: -99.88916}
+        - {x: 64.92526, y: -20.88916}
+        - {x: 64.92526, y: 101.11084}
     - name: batilda_down_0hands_13
       rect:
         serializedVersion: 2
@@ -218,8 +334,16 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 101.11084}
+        - {x: -63.574738, y: -51.88916}
+        - {x: -31.574738, y: -93.88916}
+        - {x: -18.574738, y: -99.88916}
+        - {x: 34.425262, y: -99.88916}
+        - {x: 64.42526, y: -37.88916}
+        - {x: 64.42526, y: 101.11084}
     - name: batilda_down_0hands_14
       rect:
         serializedVersion: 2
@@ -228,8 +352,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.074738, y: 100.11084}
+        - {x: -63.074738, y: -49.88916}
+        - {x: -10.074738, y: -99.88916}
+        - {x: 50.925262, y: -99.88916}
+        - {x: 64.92526, y: -73.88916}
+        - {x: 64.92526, y: 100.11084}
     - name: batilda_down_0hands_15
       rect:
         serializedVersion: 2
@@ -238,8 +369,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 99.11084}
+        - {x: -63.574738, y: -48.88916}
+        - {x: -1.5747375, y: -99.88916}
+        - {x: 37.425262, y: -99.88916}
+        - {x: 64.42526, y: -45.88916}
+        - {x: 64.42526, y: 99.11084}
     - name: batilda_down_0hands_16
       rect:
         serializedVersion: 2
@@ -248,8 +386,24 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.925293, y: 100.11084}
+        - {x: 52.925293, y: 99.11084}
+        - {x: 13.925293, y: 100.11084}
+        - {x: -63.074707, y: 100.11084}
+        - {x: -63.074707, y: -24.88916}
+        - {x: -44.074707, y: -32.88916}
+        - {x: -37.074707, y: -22.88916}
+        - {x: -38.074707, y: -18.88916}
+        - {x: -36.074707, y: -32.88916}
+        - {x: -26.074707, y: -76.88916}
+        - {x: -4.074707, y: -99.88916}
+        - {x: 27.925293, y: -99.88916}
+        - {x: 64.92529, y: -37.88916}
+        - {x: 64.92529, y: 98.11084}
+        - {x: 63.925293, y: 100.11084}
     - name: batilda_down_0hands_17
       rect:
         serializedVersion: 2
@@ -258,8 +412,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.27832, y: 100.11084}
+        - {x: -63.27832, y: -54.88916}
+        - {x: -38.27832, y: -99.88916}
+        - {x: 51.72168, y: -99.88916}
+        - {x: 64.72168, y: -50.88916}
+        - {x: 64.72168, y: 100.11084}
     - name: batilda_down_0hands_18
       rect:
         serializedVersion: 2
@@ -268,8 +429,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.07474, y: 100.06444}
+        - {x: -63.07474, y: -60.935562}
+        - {x: -37.07474, y: -99.93556}
+        - {x: 25.925259, y: -99.93556}
+        - {x: 64.92526, y: -27.935562}
+        - {x: 64.92526, y: 100.06444}
     - name: batilda_down_0hands_19
       rect:
         serializedVersion: 2
@@ -278,8 +446,16 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 101.06444}
+        - {x: -63.574738, y: -30.935562}
+        - {x: -24.574738, y: -94.93556}
+        - {x: -13.574738, y: -99.93556}
+        - {x: 26.425262, y: -99.93556}
+        - {x: 64.42526, y: -23.935562}
+        - {x: 64.42526, y: 101.06444}
     - name: batilda_down_0hands_20
       rect:
         serializedVersion: 2
@@ -288,8 +464,25 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.925262, y: 101.06444}
+        - {x: 43.925262, y: 91.06444}
+        - {x: 8.925262, y: 92.06444}
+        - {x: -25.074738, y: 101.06444}
+        - {x: -61.074738, y: 101.06444}
+        - {x: -63.074738, y: 96.06444}
+        - {x: -63.074738, y: -16.935562}
+        - {x: -56.074738, y: -25.935562}
+        - {x: -43.074738, y: -30.935562}
+        - {x: -37.074738, y: -24.935562}
+        - {x: -35.074738, y: -50.935562}
+        - {x: -21.074738, y: -94.93556}
+        - {x: -0.07473755, y: -99.93556}
+        - {x: 18.925262, y: -99.93556}
+        - {x: 64.92526, y: -28.935562}
+        - {x: 64.92526, y: 101.06444}
     - name: batilda_down_0hands_21
       rect:
         serializedVersion: 2
@@ -298,8 +491,16 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 101.06444}
+        - {x: -63.574738, y: -24.935562}
+        - {x: -19.574738, y: -96.93556}
+        - {x: -5.5747375, y: -99.93556}
+        - {x: 17.425262, y: -99.93556}
+        - {x: 64.42526, y: -38.935562}
+        - {x: 64.42526, y: 101.06444}
     - name: batilda_down_0hands_22
       rect:
         serializedVersion: 2
@@ -308,8 +509,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.074707, y: 101.06444}
+        - {x: -63.074707, y: -43.935562}
+        - {x: -15.074707, y: -98.93556}
+        - {x: 44.925293, y: -98.93556}
+        - {x: 64.92529, y: -74.93556}
+        - {x: 64.92529, y: 101.06444}
     - name: batilda_down_0hands_23
       rect:
         serializedVersion: 2
@@ -318,8 +526,18 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.72168, y: -24.935562}
+        - {x: 64.72168, y: 101.06444}
+        - {x: -63.27832, y: 101.06444}
+        - {x: -63.27832, y: -62.935562}
+        - {x: -15.27832, y: -97.93556}
+        - {x: 17.72168, y: -97.93556}
+        - {x: 37.72168, y: -49.935562}
+        - {x: 36.72168, y: -31.935562}
+        - {x: 45.72168, y: -31.935562}
     - name: batilda_down_0hands_24
       rect:
         serializedVersion: 2
@@ -328,8 +546,23 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.07474, y: 101.01804}
+        - {x: -63.07474, y: -22.981956}
+        - {x: -48.07474, y: -29.981956}
+        - {x: -39.07474, y: -28.981956}
+        - {x: -35.07474, y: -22.981956}
+        - {x: -35.07474, y: -19.981956}
+        - {x: -32.07474, y: -26.981956}
+        - {x: -34.07474, y: -49.981956}
+        - {x: -23.074741, y: -71.98196}
+        - {x: -21.074741, y: -73.98196}
+        - {x: -18.074741, y: -99.98196}
+        - {x: 22.925259, y: -99.98196}
+        - {x: 64.92526, y: -36.981956}
+        - {x: 64.92526, y: 101.01804}
     - name: batilda_down_0hands_25
       rect:
         serializedVersion: 2
@@ -338,8 +571,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 101.01804}
+        - {x: -63.574738, y: -56.981956}
+        - {x: -39.574738, y: -99.98196}
+        - {x: 30.425262, y: -99.98196}
+        - {x: 64.42526, y: -21.981956}
+        - {x: 64.42526, y: 101.01804}
     - name: batilda_down_0hands_26
       rect:
         serializedVersion: 2
@@ -348,8 +588,17 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.074738, y: 101.01804}
+        - {x: -63.074738, y: 92.01804}
+        - {x: -63.074738, y: -24.981956}
+        - {x: -34.074738, y: -99.98196}
+        - {x: 21.925262, y: -99.98196}
+        - {x: 40.925262, y: -81.98196}
+        - {x: 64.92526, y: -35.981956}
+        - {x: 64.92526, y: 101.01804}
     - name: batilda_down_0hands_27
       rect:
         serializedVersion: 2
@@ -358,8 +607,15 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.574738, y: 101.01804}
+        - {x: -63.574738, y: -40.981956}
+        - {x: -15.574738, y: -99.98196}
+        - {x: 49.425262, y: -99.98196}
+        - {x: 64.42526, y: -54.981956}
+        - {x: 64.42526, y: 101.01804}
     - name: batilda_down_0hands_28
       rect:
         serializedVersion: 2
@@ -368,8 +624,17 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.074707, y: 101.01804}
+        - {x: -63.074707, y: 87.01804}
+        - {x: -63.074707, y: -35.981956}
+        - {x: -19.074707, y: -99.98196}
+        - {x: 13.925293, y: -99.98196}
+        - {x: 21.925293, y: -97.98196}
+        - {x: 64.92529, y: -46.981956}
+        - {x: 64.92529, y: 101.01804}
     - name: batilda_down_0hands_29
       rect:
         serializedVersion: 2
@@ -378,8 +643,31 @@ TextureImporter:
         width: 180
         height: 284
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.72168, y: -26.981956}
+        - {x: 42.72168, y: -34.981956}
+        - {x: 64.72168, y: -20.981956}
+        - {x: 64.72168, y: 85.01804}
+        - {x: 61.72168, y: 101.01804}
+        - {x: -63.27832, y: 101.01804}
+        - {x: -63.27832, y: -17.981956}
+        - {x: -54.27832, y: -24.981956}
+        - {x: -39.27832, y: -31.981956}
+        - {x: -31.27832, y: -25.981956}
+        - {x: -30.27832, y: -21.981956}
+        - {x: -35.27832, y: -35.981956}
+        - {x: -36.27832, y: -45.981956}
+        - {x: -34.27832, y: -48.981956}
+        - {x: -29.27832, y: -52.981956}
+        - {x: -25.27832, y: -73.98196}
+        - {x: -12.27832, y: -99.98196}
+        - {x: 3.7216797, y: -99.98196}
+        - {x: 17.72168, y: -91.98196}
+        - {x: 35.72168, y: -53.981956}
+        - {x: 38.72168, y: -38.981956}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
