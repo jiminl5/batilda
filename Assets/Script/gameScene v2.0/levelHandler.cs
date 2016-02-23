@@ -165,7 +165,7 @@ public class levelHandler : MonoBehaviour {
 			GameplaySoundtracks[1].SetActive(true);
         }
 
-        if (PlayerPrefs.GetInt("level") == 1) //tutorial level (level one)
+        if (PlayerPrefs.GetInt("level") == 1 && PlayerPrefs.GetString("tutorial") == "yes") //tutorial level (level one)
         {
             maxGrillCount = 1;
             maxOvenCount = 0;
@@ -201,7 +201,7 @@ public class levelHandler : MonoBehaviour {
 
             levelTime = 60;
 			GameplaySoundtracks[0].SetActive(true);
-			GameObject.Find("MainMenuSoundtrack").SetActive(false);
+			//GameObject.Find("MainMenuSoundtrack").SetActive(false);
 			
         }
 
