@@ -198,29 +198,40 @@ public class Waitress : MonoBehaviour {
 
     void customerAction(GameObject go)
     {
-        Debug.Log ("HEllO");
-        if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
-        {
-            //update dropoffpoint food name
-            go.GetComponent<Customer>().food_given = one_h;
-            //add sprite of food
-            //delete 1h
-            //Destroy (go_1h);
-            //one_h = "";
-        }
-        else if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "two_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
-        {
-            //update dropoffpoint food name
-            go.GetComponent<Customer>().food_given = two_h;
-            //add sprite of food
-            //delete 2h
-            //Destroy (go_2h);
-            //two_h = "";
+        Customer customer = go.GetComponent<Customer>();
+        //Debug.Log ("HEllO");
 
+        if (customer.needsToOrder)
+        {
+            customer.needsToOrder = false;
         }
-        else {
-            Debug.Log("NOT ANYTHING");
-            go.GetComponent<Customer>().food_given = "not my food";
+
+        else if (!customer.needsToOrder)
+        {
+            if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
+            {
+                //update dropoffpoint food name
+                go.GetComponent<Customer>().food_given = one_h;
+                //add sprite of food
+                //delete 1h
+                //Destroy (go_1h);
+                //one_h = "";
+            }
+            else if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "two_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
+            {
+                //update dropoffpoint food name
+                go.GetComponent<Customer>().food_given = two_h;
+                //add sprite of food
+                //delete 2h
+                //Destroy (go_2h);
+                //two_h = "";
+
+            }
+            else
+            {
+                Debug.Log("NOT ANYTHING");
+                go.GetComponent<Customer>().food_given = "not my food";
+            }
         }
     }
 

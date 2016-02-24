@@ -10,6 +10,11 @@ public class Customer : MonoBehaviour {
 	public string food_given;
 	private GameObject foodSprite;
     public Queue<string> peasantFoodQueue;
+
+
+    public bool needsToOrder = true;
+    public bool tempObjInstantiated = false;
+    public GameObject tempObj;
 	// Use this for initialization
 	void Start () {
         /*peasantFoodQueue = new Queue<string>();
@@ -19,13 +24,31 @@ public class Customer : MonoBehaviour {
             peasantFoodQueue.Enqueue(food);
         }
         findRecipe(peasantFoodQueue.Peek());*/
+        tempObj = Resources.Load("Exclamation_Point") as GameObject;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//Debug.Log (hasFood);
 		//Debug.Log (waitingOnFood);
-		if (!hasFood) {
+        if (needsToOrder)
+        {
+            //play anim of waving hand
+
+
+            //temporary instantiation.
+            if (!tempObjInstantiated)
+            {
+                tempObj = Instantiate(tempObj, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+                tempObj.transform.parent = transform;
+                tempObjInstantiated = true;
+            }
+        }
+        else if (!needsToOrder && tempObj)
+        {
+            Destroy(tempObj);
+        }
+		if (!hasFood && !needsToOrder) {
 			if (!waitingOnFood) {
                 //StartCoroutine(ExecuteAfterDelay(Random.Range (0,5)));
                 //Debug.Log(peasantFoodQueue.Peek());
