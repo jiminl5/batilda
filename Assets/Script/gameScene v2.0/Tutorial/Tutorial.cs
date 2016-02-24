@@ -69,6 +69,8 @@ public class Tutorial : MonoBehaviour {
         {
             GameObject.Find("speechBubble").GetComponent<BoxCollider2D>().enabled = false;
             GameObject.Find("speechBubble_1").GetComponent<BoxCollider2D>().enabled = false;
+            GameObject.Find("text_cursor").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("text_cursor (1)").GetComponent<SpriteRenderer>().enabled = false;
         }
 
         if (temp < count)
