@@ -57,6 +57,7 @@ public class Customer : MonoBehaviour {
                 Debug.Log("waiting on: " + foodWaitingOn);
                 foodSprite = Instantiate(current_food.go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
                 foodSprite.transform.parent = transform;
+                StartCoroutine(ScaleOverTime(0.5f));
                 waitingOnFood = true;
 
                 waitingOnFood = true;
@@ -99,7 +100,28 @@ public class Customer : MonoBehaviour {
         this.GetComponentInParent<CustomerAI>().direction = 6;
     }
 
-	IEnumerator ExecuteAfterDelay(float delay)
+
+    //test
+    IEnumerator ScaleOverTime(float time)
+    {
+        Vector3 originalScale = foodSprite.transform.localScale;
+        Vector3 startScale = new Vector3(0.01f, 0.01f, 0.01f);
+        Debug.Log("SCALING..");
+        float currentTime = 0.0f;
+        do
+        {
+            foodSprite.transform.localScale = Vector3.Lerp(startScale, originalScale, Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, (currentTime / time)) ) );
+            currentTime += Time.deltaTime;
+            yield return null;
+        } while (currentTime <= time);
+    }
+//test
+
+
+
+
+
+IEnumerator ExecuteAfterDelay(float delay)
 	{
 		Debug.Log (delay);
 		yield return new WaitForSeconds(delay);
