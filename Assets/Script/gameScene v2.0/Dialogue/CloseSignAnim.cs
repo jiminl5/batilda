@@ -14,8 +14,11 @@ public class CloseSignAnim : MonoBehaviour {
     private float end_time;
     private float timer;
 
+    int turn_count;
+
 	// Use this for initialization
 	void Start () {
+        turn_count = 0;
         close_sign_trigger = false;
         turn = false;
         slide = false;
@@ -31,13 +34,19 @@ public class CloseSignAnim : MonoBehaviour {
                 this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
                 if (this.gameObject.transform.position.x >= 7.5f)
                 {
+                    this.gameObject.transform.position = new Vector2(7.5f, this.gameObject.transform.position.y);
                     turn = true;
+                    turn_count++;
                 }
             }
             if (this.gameObject.transform.position.x >= 7.5f && turn)
             {
                 this.gameObject.transform.Rotate(new Vector3(0, 45, 0) * rotate_y_speed * Time.deltaTime);
-                if (this.gameObject.transform.rotation.eulerAngles.y >= 355.0f)
+                if (this.gameObject.transform.rotation.eulerAngles.y >= 350.0f)
+                {
+                    turn_count++;
+                }
+                if(turn_count == 2)
                 {
                     turn = false;
                     slide = true;
