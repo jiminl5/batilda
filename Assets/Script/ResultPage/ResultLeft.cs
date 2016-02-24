@@ -24,7 +24,10 @@ public class ResultLeft : MonoBehaviour {
         if (!Left_Set)
             this.transform.Translate(Vector2.right * speed * Time.deltaTime);
         if (this.gameObject.transform.position.x >= expect_X)
+        {
             Left_Set = true;
+            this.gameObject.transform.position = new Vector2(expect_X, this.gameObject.transform.position.y);
+        }
         if (Left_Set)
         {
             left_canvas.SetActive(true);

@@ -29,7 +29,10 @@ public class ResultRight : MonoBehaviour {
         if (!Right_Set)
             this.transform.Translate(Vector2.left * speed * Time.deltaTime);
         if (this.gameObject.transform.position.x <= expect_X)
+        {
             Right_Set = true;
+            this.gameObject.transform.position = new Vector2(expect_X, this.gameObject.transform.position.y);
+        }
         if (Right_Set)
         {
             right_canvas.GetComponent<Canvas>().enabled = true;
