@@ -15,6 +15,12 @@ public class Customer : MonoBehaviour {
     public bool needsToOrder = true;
     public bool tempObjInstantiated = false;
     public GameObject tempObj;
+
+    public bool moneyPickedUp = false;
+    public bool moneyOn = false;
+    private GameObject moneySprite;
+
+
 	// Use this for initialization
 	void Start () {
         /*peasantFoodQueue = new Queue<string>();
@@ -80,10 +86,15 @@ public class Customer : MonoBehaviour {
 				//given correct food!
 				Debug.Log ("yum!");
                 CustomerExit();
-                GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
-                Destroy (this.gameObject);
-				Destroy (foodSprite);
-                GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
+
+                moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
+                moneySprite.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                moneyOn = true;
+
+                //GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
+                //Destroy (this.gameObject);
+				//Destroy (foodSprite);
+                //GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
 
             }
             else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given))
@@ -91,6 +102,14 @@ public class Customer : MonoBehaviour {
 				Debug.Log ("this isn't my order!");
 				food_given = "";
 			}
+            if (moneyPickedUp)
+            {
+                GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
+                GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
+                Destroy(foodSprite);
+                Destroy(moneySprite);
+                Destroy(this.gameObject);
+            }
 		}
 	}
 

@@ -227,12 +227,17 @@ public class Waitress : MonoBehaviour {
                 //two_h = "";
 
             }
+            else if (customer.moneyOn)
+            {
+                customer.moneyPickedUp = true;
+            }
             else
             {
                 Debug.Log("NOT ANYTHING");
                 go.GetComponent<Customer>().food_given = "not my food";
             }
         }
+
     }
 
     void dropOffPointAction(GameObject go)
