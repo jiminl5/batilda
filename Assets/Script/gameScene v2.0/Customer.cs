@@ -20,6 +20,8 @@ public class Customer : MonoBehaviour {
     public bool moneyOn = false;
     private GameObject moneySprite;
 
+    private GameObject moodSprite;
+
 
 	// Use this for initialization
 	void Start () {
@@ -55,7 +57,7 @@ public class Customer : MonoBehaviour {
             Destroy(tempObj);
         }
 		if (!hasFood && !needsToOrder) {
-			if (!waitingOnFood) {
+			if (!waitingOnFood && !moneyOn) {
                 //StartCoroutine(ExecuteAfterDelay(Random.Range (0,5)));
                 //Debug.Log(peasantFoodQueue.Peek());
                 //current_food = findRecipe(peasantFoodQueue.Dequeue());
@@ -63,7 +65,7 @@ public class Customer : MonoBehaviour {
                 Debug.Log("waiting on: " + foodWaitingOn);
                 foodSprite = Instantiate(current_food.go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
                 foodSprite.transform.parent = transform;
-                StartCoroutine(ScaleOverTime(0.5f));
+                StartCoroutine(ScaleOverTime(0.5f, foodSprite));
                 waitingOnFood = true;
 
                 waitingOnFood = true;
@@ -90,11 +92,9 @@ public class Customer : MonoBehaviour {
                 moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
                 moneySprite.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                 moneyOn = true;
-
-                //GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
-                //Destroy (this.gameObject);
-				//Destroy (foodSprite);
-                //GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
+                moodSprite = Instantiate(Resources.Load("smile"), transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+                moodSprite.transform.parent = transform.parent;
+                StartCoroutine(ScaleOverTime(0.5f, moodSprite));
 
             }
             else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given))
@@ -102,6 +102,7 @@ public class Customer : MonoBehaviour {
 				Debug.Log ("this isn't my order!");
 				food_given = "";
 			}
+
             if (moneyPickedUp)
             {
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
@@ -123,15 +124,15 @@ public class Customer : MonoBehaviour {
 
 
     //test
-    IEnumerator ScaleOverTime(float time)
+    IEnumerator ScaleOverTime(float time, GameObject go)
     {
-        Vector3 originalScale = foodSprite.transform.localScale;
+        Vector3 originalScale = go.transform.localScale;
         Vector3 startScale = new Vector3(0.01f, 0.01f, 0.01f);
         Debug.Log("SCALING..");
         float currentTime = 0.0f;
         do
         {
-            foodSprite.transform.localScale = Vector3.Lerp(startScale, originalScale, Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, (currentTime / time)) ) );
+            go.transform.localScale = Vector3.Lerp(startScale, originalScale, Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, (currentTime / time)) ) );
             currentTime += Time.deltaTime;
             yield return null;
         } while (currentTime <= time);
