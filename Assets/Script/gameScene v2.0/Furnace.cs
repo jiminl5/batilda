@@ -12,9 +12,17 @@ public class Furnace : MonoBehaviour {
 
 	private float maxTime = 30;
 	private float currentTime;
+
+    private GameObject _smoke;
+    private ParticleSystem smoke;
+    private bool smokeOn = false;
 	// Use this for initialization
 	void Start () {
         source = GetComponent<AudioSource>();
+        _smoke = Instantiate(Resources.Load("Smoke") as GameObject);
+        _smoke.transform.parent = transform;
+        _smoke.transform.position = transform.position + new Vector3(0, 0.5f);
+        smoke = _smoke.GetComponent<ParticleSystem>();
 	}
 	
 	// Update is called once per frame
@@ -27,9 +35,16 @@ public class Furnace : MonoBehaviour {
                 source.Play();
             }
 			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = true;
+            if (!smokeOn)
+            {
+                smoke.Play();
+                smokeOn = true;
+            }
 		}
 		else if (!isOn) {
 			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = false;
+            smoke.Stop();
+            smokeOn = false;
 		}
 		checkForFirewood ();
 	}
