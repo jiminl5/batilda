@@ -9,7 +9,7 @@ public class cuttingObject : MonoBehaviour
 
 
     public bool is_cutting;
-    private int timeToCut = 5;
+    public int timeToCut = 5;
     public int maxContainers;
     public bool allfull;
     public bool is_on;
@@ -59,6 +59,8 @@ public class cuttingObject : MonoBehaviour
             //this.GetComponent<stopWatchObject>().timeInSeconds = timeToCut;
             //this.GetComponent<stopWatchObject>().not_cooking = false;
             //print("hello");
+            // 0 - grills, 1 - ovens, 2 - cuttingboard, 3 - rolling and so on
+            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(4, 0, timeToCut, 3); //2016-02-24 by Jimmy
             Invoke("checkContainers", timeToCut);
             is_cutting = false;
             is_on = true;

@@ -87,7 +87,7 @@ public class Chef : MonoBehaviour {
             else if ((atPosition && obj_queue.Peek().GetComponent<doughObject>())
             || (atPosition && GameObject.Find("Map").GetComponent<TileMap>().same_spot && obj_queue.Peek().GetComponent<doughObject>()))
             {
-				this.GetComponent<timerObject>().genTimerAtLower(5, 1.9f, 35);
+				//this.GetComponent<timerObject>().genTimerAtLower(5, 1.9f, 35);
                 doughCreateAction(obj_queue.Peek());
                 obj_queue.Dequeue();
                 //Check Mark - 2016-02-13
@@ -417,7 +417,7 @@ public class Chef : MonoBehaviour {
                 go.GetComponent<cuttingObject>().cutting = one_h;
                 go.GetComponent<cuttingObject>().is_cutting = true;
                 one_h = "";
-				this.GetComponent<timerObject>().genTimerAtLower(4, 0, 35);
+				//this.GetComponent<timerObject>().genTimerAtLower(4, 0, 35);
                 Destroy(go_1h);
             }
             else if ((two_h == "carrot" || two_h == "onion" || two_h == "cheese"))
@@ -427,7 +427,7 @@ public class Chef : MonoBehaviour {
                 go.GetComponent<cuttingObject>().cutting = two_h;
                 go.GetComponent<cuttingObject>().is_cutting = true;
                 two_h = "";
-				this.GetComponent<timerObject>().genTimerAtLower(4, 0, 35);
+				//this.GetComponent<timerObject>().genTimerAtLower(4, 0, 35);
                 Destroy(go_2h);
             }
         }

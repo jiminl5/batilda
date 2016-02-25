@@ -11,7 +11,7 @@ public class doughObject : MonoBehaviour {
 
 	public int maxDough;
 	private bool waitingOnDough = false;
-	private int timeToMakeDough = 5;
+	public int timeToMakeDough = 5;
 	
 	//public Color c;
 	// Use this for initialization
@@ -37,7 +37,9 @@ public class doughObject : MonoBehaviour {
 			this.GetComponent<stopWatchObject> ().startTime = timeToMakeDough;
 			this.GetComponent<stopWatchObject> ().timeInSeconds = timeToMakeDough;
 			this.GetComponent<stopWatchObject> ().not_cooking = false;
-			Invoke("addDough", timeToMakeDough);
+            // 0 - grills, 1 - ovens, 2 - cuttingboard, 3 - rolling and so on
+            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(5, 1.9f, timeToMakeDough, 3); //2016-02-24 by Jimmy
+            Invoke("addDough", timeToMakeDough);
 			waitingOnDough = true;
 		}
 	}

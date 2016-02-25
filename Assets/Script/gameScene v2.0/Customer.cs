@@ -106,8 +106,9 @@ public class Customer : MonoBehaviour {
             {
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
-                Destroy(foodSprite);
+                this.GetComponentInParent<CustomerAI>().confirmExit(moneyPickedUp);
                 Destroy(moneySprite);
+                //Destroy(foodSprite);
                 Destroy(this.gameObject);
             }
 		}
@@ -117,6 +118,7 @@ public class Customer : MonoBehaviour {
     {
         this.transform.parent.eulerAngles = new Vector3(0, 180, 0);
         this.GetComponentInParent<CustomerAI>().direction = 6;
+        Destroy(foodSprite);
     }
 
 

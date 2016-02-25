@@ -115,34 +115,35 @@ public class cookingObject : MonoBehaviour {
 			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
 				source.PlayOneShot(bubblingSFX, .7f);
 			}
+            // 0 - grills, 1 - ovens, 2 - cuttingboard, 3 - rolling and so on
 			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
 				if (this.name == "grill 1"){
-					this.GetComponent<timerObject>().genTimerAtUpper(2, 4, 35);
+					GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(2, 4, current_recipie.timeToMake, 0);
 				}
 				if (this.name == "grill 2"){
-					this.GetComponent<timerObject>().genTimerAtUpper(3, 4, 35);
+                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(3, 4, current_recipie.timeToMake, 0);
 				}
 				if (this.name == "grill 3"){
-					this.GetComponent<timerObject>().genTimerAtLower(2, 2.9f, 35);
+                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(2, 2.9f, current_recipie.timeToMake, 0);
 				}
-				if (this.name == "grill 4"){					
-					this.GetComponent<timerObject>().genTimerAtLower(3, 2.9f, 35);
+				if (this.name == "grill 4"){
+                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(3, 2.9f, current_recipie.timeToMake, 0);
 				}
 				source.PlayOneShot(grillSizzleSFX, .6f);
 			}
 			if( food_cooking_name == "bread"){
 			
 				if(this.name == "oven 4"){
-					this.GetComponent<timerObject>().genTimerAtUpper(1, 7, 35);
+                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(1, 7, current_recipie.timeToMake, 1);
 				}
 				if(this.name == "oven 3"){
-					this.GetComponent<timerObject>().genTimerAtUpper(2, 7, 35);
+                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(2, 7, current_recipie.timeToMake, 1);
 				}
 				if(this.name == "oven 2"){
-					this.GetComponent<timerObject>().genTimerAtLower(1, 5.9f, 35);
+                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(1, 5.9f, current_recipie.timeToMake, 1);
 				}
 				if(this.name == "oven 1"){
-					this.GetComponent<timerObject>().genTimerAtLower(2, 5.9f, 35);
+                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(2, 5.9f, current_recipie.timeToMake, 1);
 				}
 			}
             //Debug.Log (current_recipie.timeToMake);

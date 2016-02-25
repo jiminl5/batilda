@@ -35,6 +35,9 @@ public class CustomerAI : MonoBehaviour {
     public static int seatCount = 0;
 
     public float order_delay;
+
+    public Customer customerAI;
+    bool customerExit;
     // Use this for initialization
     void Start () {
         customerSat1 = false;
@@ -51,6 +54,7 @@ public class CustomerAI : MonoBehaviour {
         path[5] = GameObject.Find("CustomerPath_6").transform;
         path[6] = GameObject.Find("CustomerExit").transform;
 
+        customerExit = false;
         //order = new GameObject();
     }
 	
@@ -74,6 +78,12 @@ public class CustomerAI : MonoBehaviour {
                 pick_number = false;
             }
         }
+    }
+
+    public void confirmExit(bool confirm)
+    {
+        customerExit = confirm;
+        print("CONFIRMATIUON~~~~~~~~~~~~~" + customerExit);
     }
 
     void walk()
@@ -132,7 +142,18 @@ public class CustomerAI : MonoBehaviour {
             order.transform.SetParent(this.transform);
         }
         */
+        /*
         if (coll.tag == "WayPointExit" && direction == 6)
+        {
+            Destroy(this.gameObject);
+        }
+        */
+
+    }
+
+    void OnTriggerStay2D(Collider2D coll)
+    {
+        if (coll.tag == "WayPointExit" && direction == 6 && customerExit)
         {
             Destroy(this.gameObject);
         }
