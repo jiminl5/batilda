@@ -110,8 +110,6 @@ public class cookingObject : MonoBehaviour {
 		{
 			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
- 			Debug.Log ("fffffffffffffffffffffffffffffffffffffffffffffffffffffffff 4" + food_cooking_name);
-			
 			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
 				source.PlayOneShot(bubblingSFX, .7f);
 			}
