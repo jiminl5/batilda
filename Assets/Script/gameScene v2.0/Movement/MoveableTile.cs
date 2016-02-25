@@ -124,6 +124,18 @@ public class MoveableTile : MonoBehaviour {
         check_Queue_1.Enqueue(tmp_check_1);
     }
 
+    void Update() // Clear if Queues are over queued.
+    {
+        if (Unit.unit_queue.Count > 10)
+            Unit.unit_queue.Clear();
+        if (Chef.obj_queue.Count > 10)
+            Chef.obj_queue.Clear();
+        if (Unit1.unit_queue1.Count > 10)
+            Unit1.unit_queue1.Clear();
+        if (Waitress.obj_queue1.Count > 10)
+            Waitress.obj_queue1.Clear();
+    }
+
     void OnMouseDown()
 	{
 		//CHEF
