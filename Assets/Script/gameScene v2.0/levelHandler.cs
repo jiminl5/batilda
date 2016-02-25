@@ -482,6 +482,7 @@ public class levelHandler : MonoBehaviour {
         GameObject onion = GameObject.Find("onion");
         GameObject fish = GameObject.Find("fish");
         GameObject meat = GameObject.Find("meat");
+        GameObject appleCider = GameObject.Find("apple cider");
 
         GameObject cuttingBoard = GameObject.Find("cuttingBoard");
         GameObject rollingPin = GameObject.Find("rollingPin");
@@ -553,6 +554,8 @@ public class levelHandler : MonoBehaviour {
             fish.SetActive(false);
         if (!meatOn)
             meat.SetActive(false);
+        if (!appleOn)
+            appleCider.SetActive(false);
 
         if (!rollingPinOn)
             rollingPin.SetActive(false);
