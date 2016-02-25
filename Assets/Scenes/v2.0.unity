@@ -919,8 +919,8 @@ Transform:
   - {fileID: 1351618537}
   - {fileID: 643701258}
   - {fileID: 391064006}
-  - {fileID: 357393140}
   - {fileID: 1461561442}
+  - {fileID: 357393140}
   m_Father: {fileID: 0}
   m_RootOrder: 13
 --- !u!1 &357393138
@@ -981,7 +981,7 @@ Transform:
   m_LocalScale: {x: 0.49359637, y: 0.5531937, z: 1}
   m_Children: []
   m_Father: {fileID: 319449162}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!95 &357393141
 Animator:
   serializedVersion: 3
@@ -3420,6 +3420,10 @@ Prefab:
       propertyPath: m_TagString
       value: Waitress
       objectReference: {fileID: 0}
+    - target: {fileID: 21243280, guid: c6f015ebde49e184a8627dc18ed0edde, type: 2}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6f015ebde49e184a8627dc18ed0edde, type: 2}
   m_IsPrefabParent: 0
@@ -3514,7 +3518,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3536,7 +3540,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!95 &833404169
 Animator:
   serializedVersion: 3
@@ -6240,7 +6244,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 319449162}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!212 &1461561443
 SpriteRenderer:
   m_ObjectHideFlags: 0

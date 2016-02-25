@@ -35,16 +35,17 @@ public class Furnace : MonoBehaviour {
                 source.Play();
             }
 			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = true;
+                smoke.Stop();
+                smokeOn = false;
+
+		}
+		else if (!isOn) {
+			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = false;
             if (!smokeOn)
             {
                 smoke.Play();
                 smokeOn = true;
             }
-		}
-		else if (!isOn) {
-			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = false;
-            smoke.Stop();
-            smokeOn = false;
 		}
 		checkForFirewood ();
 	}
