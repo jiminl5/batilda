@@ -47,7 +47,7 @@ public class Customer : MonoBehaviour {
             //temporary instantiation.
             if (!tempObjInstantiated)
             {
-                tempObj = Instantiate(tempObj, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+                tempObj = Instantiate(tempObj, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.0f), Quaternion.identity) as GameObject;
                 tempObj.transform.parent = transform;
                 tempObjInstantiated = true;
             }
@@ -64,7 +64,7 @@ public class Customer : MonoBehaviour {
                 //current_food = findRecipe(peasantFoodQueue.Dequeue());
                 foodWaitingOn = current_food.name;
                 Debug.Log("waiting on: " + foodWaitingOn);
-                foodSprite = Instantiate(current_food.go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+                foodSprite = Instantiate(current_food.go, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
                 foodSprite.transform.parent = transform;
                 StartCoroutine(ScaleOverTime(0.5f, foodSprite));
                 waitingOnFood = true;
@@ -92,7 +92,7 @@ public class Customer : MonoBehaviour {
 
                 moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
                 moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 20;
-                moneySprite.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                moneySprite.transform.position = new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.5f);
                 moneyOn = true;
                 moodSprite = Instantiate(Resources.Load("smile"), transform.position + Vector3.up / 2, transform.rotation) as GameObject;
                 moodSprite.transform.parent = transform.parent;
@@ -152,7 +152,7 @@ IEnumerator ExecuteAfterDelay(float delay)
 		current_food = randomRecipe();
 		foodWaitingOn = current_food.name;
 		Debug.Log ("waiting on: " + foodWaitingOn);
-		foodSprite = Instantiate (current_food.go, transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+		foodSprite = Instantiate (current_food.go, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
 		foodSprite.transform.parent = transform;
 		waitingOnFood = true;
 		//food_ready = true;
