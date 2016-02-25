@@ -19,6 +19,7 @@ public class CustomerList : MonoBehaviour {
         peasant = customers[0]; // ADD more later
         if (PlayerPrefs.GetString("tutorial") == "yes")
         {
+            CustomerAI.seatCount++;
             Instantiate(peasant, new Vector2(GameObject.Find("CustomerPath_1").transform.position.x, GameObject.Find("CustomerPath_1").transform.position.y), Quaternion.identity);
             customer_Q.Add(peasant);
             _delay = 15;
@@ -27,21 +28,22 @@ public class CustomerList : MonoBehaviour {
         else
         {
             _delay = Random.Range(2, 3);
-            CustomerEnterDelay();
+            Invoke("CreateCustomer", _delay);
         }
        //Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y),Quaternion.identity);
 	}
 
     void CustomerEnterDelay()
     {
-        Invoke("CreateCustomer", _delay);
         _delay = Random.Range(8, 10);
+        Invoke("CreateCustomer", _delay);
     }
 
     void CreateCustomer()
     {
         if ((customer_Q.Count < GameObject.Find("levelHandler").GetComponent<levelHandler>().customersWaiting) && CustomerAI.seatCount < 5) // # of Seats
         {
+            CustomerAI.seatCount++;
             Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
             customer_Q.Add(peasant);
             CustomerEnterDelay();
@@ -56,8 +58,11 @@ public class CustomerList : MonoBehaviour {
     {
         if (keep_track)
         {
-            CustomerEnterDelay();
-            keep_track = false;
+            if (CustomerAI.seatCount <= 4)
+            {
+                CustomerEnterDelay();
+                keep_track = false;
+            }
         }
     }
 }

@@ -38,6 +38,7 @@ public class CustomerAI : MonoBehaviour {
 
     public Customer customerAI;
     bool customerExit;
+    bool customerConfirmedExit;
     // Use this for initialization
     void Start () {
         customerSat1 = false;
@@ -78,12 +79,26 @@ public class CustomerAI : MonoBehaviour {
                 pick_number = false;
             }
         }
+        if (customerConfirmedExit && customerExit)
+        {
+            if (check == 1)
+                seat_taken_1 = false;
+            if (check == 2)
+                seat_taken_2 = false;
+            if (check == 3)
+                seat_taken_3 = false;
+            if (check == 4)
+                seat_taken_4 = false;
+            if (check == 5)
+                seat_taken_5 = false;
+            seatCount--;
+            Destroy(this.gameObject);
+        }
     }
 
     public void confirmExit(bool confirm)
     {
-        customerExit = confirm;
-        print("CONFIRMATIUON~~~~~~~~~~~~~" + customerExit);
+        customerConfirmedExit = confirm;
     }
 
     void walk()
@@ -153,9 +168,9 @@ public class CustomerAI : MonoBehaviour {
 
     void OnTriggerStay2D(Collider2D coll)
     {
-        if (coll.tag == "WayPointExit" && direction == 6 && customerExit)
+        if (coll.tag == "WayPointExit" && direction == 6)
         {
-            Destroy(this.gameObject);
+            customerExit = true;
         }
     }
 
@@ -164,27 +179,27 @@ public class CustomerAI : MonoBehaviour {
         if (customerSat1)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
-            seatCount++;
+            //seatCount++;
         }
         else if (customerSat2)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
-            seatCount++;
+            //seatCount++;
         }
         else if (customerSat3)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
-            seatCount++;
+           //seatCount++;
         }
         else if (customerSat4)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
-            seatCount++;
+            //seatCount++;
         }
         else if (customerSat5)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
-            seatCount++;
+            //seatCount++;
         }
         if (order)
         {
@@ -197,38 +212,38 @@ public class CustomerAI : MonoBehaviour {
         if (coll.tag == "WayPoint1" && check == 1)
         {
             customerSat1 = false;
-            seat_taken_1 = false;
+            //seat_taken_1 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++; //Data Handler
-            seatCount--;
+            //seatCount--;
         }
 
         if (coll.tag == "WayPoint2" && check == 2)
         {
             customerSat2 = false;
-            seat_taken_2 = false;
+            //seat_taken_2 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
-            seatCount--;
+            //seatCount--;
         }
         if (coll.tag == "WayPoint3" && check == 3)
         {
             customerSat3 = false;
-            seat_taken_3 = false;
+            //seat_taken_3 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
-            seatCount--;
+            //seatCount--;
         }
         if (coll.tag == "WayPoint4" && check == 4)
         {
             customerSat4 = false;
-            seat_taken_4 = false;
+            //seat_taken_4 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
-            seatCount--;
+            //seatCount--;
         }
         if (coll.tag == "WayPoint5" && check == 5)
         {
             customerSat5 = false;
-            seat_taken_5 = false;
+            //seat_taken_5 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
-            seatCount--;
+            //seatCount--;
         }
     }
     
