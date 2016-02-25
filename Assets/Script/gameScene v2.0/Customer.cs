@@ -54,6 +54,7 @@ public class Customer : MonoBehaviour {
         }
         else if (!needsToOrder && tempObj)
         {
+            OpenSignAnim.confirm_tutorial_start = true;
             Destroy(tempObj);
         }
 		if (!hasFood && !needsToOrder) {
@@ -90,6 +91,7 @@ public class Customer : MonoBehaviour {
                 CustomerExit();
 
                 moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
+                moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 20;
                 moneySprite.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                 moneyOn = true;
                 moodSprite = Instantiate(Resources.Load("smile"), transform.position + Vector3.up / 2, transform.rotation) as GameObject;

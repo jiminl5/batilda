@@ -15,6 +15,8 @@ public class OpenSignAnim : MonoBehaviour {
 	public AudioClip wooshSymbolPaperAway;
 	bool soundPlayed = false;
 
+    bool tutorial_start = false;
+    public static bool confirm_tutorial_start = false;
 	// Use this for initialization
 	void Start () {
         //start = true;
@@ -44,7 +46,7 @@ public class OpenSignAnim : MonoBehaviour {
                 count++;
             }
         }
-        if (count == 4 && (2.5f <= Time.timeSinceLevelLoad * unpause_time))
+        if (count == 4 && (2.5f <= Time.timeSinceLevelLoad * unpause_time) && !tutorial_start)
         {
 			if(!soundPlayed){
 				source.PlayOneShot (wooshSymbolPaperAway);
@@ -59,7 +61,15 @@ public class OpenSignAnim : MonoBehaviour {
                 //Tutorial if tutorial level is selected run this function
                 Time.timeScale = 1.0f;
                 if (PlayerPrefs.GetString("tutorial") == "yes")
-                    GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
+                {
+                    //WAITRESS - tile
+                    GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
+                    GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
+                    GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
+                    //GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
+                    tutorial_start = true;
+                    this.gameObject.transform.position = new Vector2(20.0f, this.gameObject.transform.position.y);
+                }
                 else {
                     //Destroy Unnecessary tutorial assets
                     Destroy(GameObject.Find("bg_trans"));
@@ -73,8 +83,16 @@ public class OpenSignAnim : MonoBehaviour {
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
                     GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
+                    Destroy(this.gameObject);
                 }
-				
+            }
+        }
+        if (tutorial_start)
+        {
+            if (confirm_tutorial_start)
+            {
+                //GameObject.Find("tmp_invisibleTile1(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
+                GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 Destroy(this.gameObject);
             }
         }
