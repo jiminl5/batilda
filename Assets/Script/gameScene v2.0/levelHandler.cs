@@ -41,7 +41,7 @@ public class levelHandler : MonoBehaviour {
 
     private int randomCustomer;
     private Queue<int> randomCustomerIndexes;
-
+    public static List<string> cus_digit = new List<string>();
 
     GameObject _c1;
     GameObject _c2;

@@ -75,7 +75,7 @@ public class CustomerAI : MonoBehaviour {
             if (!checkTaken(check))
             {
                 direction = check;
-                seatTaken(direction);
+                //seatTaken(direction);
                 pick_number = false;
             }
         }
@@ -167,26 +167,31 @@ public class CustomerAI : MonoBehaviour {
         if (customerSat1)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
+            seat_taken_1 = true;
             //seatCount++;
         }
         else if (customerSat2)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
+            seat_taken_2 = true;
             //seatCount++;
         }
         else if (customerSat3)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
-           //seatCount++;
+            seat_taken_3 = true;
+            //seatCount++;
         }
         else if (customerSat4)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
+            seat_taken_4 = true;
             //seatCount++;
         }
         else if (customerSat5)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
+            seat_taken_5 = true;
             //seatCount++;
         }
         if (order)
@@ -261,8 +266,8 @@ public class CustomerAI : MonoBehaviour {
         else
             return true;
     }
-
-    public static void seatTaken(int check)
+    /*
+    public void seatTaken(int check)
     {
         if (check == 1)
         {
@@ -285,4 +290,5 @@ public class CustomerAI : MonoBehaviour {
             seat_taken_5 = true;
         }
     }
+    */
 }
