@@ -137,7 +137,7 @@ public class Customer : MonoBehaviour {
             go.transform.localScale = Vector3.Lerp(startScale, originalScale, Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, (currentTime / time)) ) );
             currentTime += Time.deltaTime;
             yield return null;
-        } while (currentTime <= time);
+        } while (currentTime <= time && foodSprite);
     }
 //test
 
