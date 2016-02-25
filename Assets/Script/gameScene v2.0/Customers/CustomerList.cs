@@ -35,7 +35,7 @@ public class CustomerList : MonoBehaviour {
 
     void CustomerEnterDelay()
     {
-        _delay = Random.Range(8, 10);
+        //_delay = Random.Range(8, 10);
         Invoke("CreateCustomer", _delay);
     }
 
@@ -46,6 +46,7 @@ public class CustomerList : MonoBehaviour {
             CustomerAI.seatCount++;
             Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
             customer_Q.Add(peasant);
+            _delay = Random.Range(8, 10);
             CustomerEnterDelay();
         }
         if (CustomerAI.seatCount == 5)
@@ -60,6 +61,7 @@ public class CustomerList : MonoBehaviour {
         {
             if (CustomerAI.seatCount <= 4)
             {
+                _delay = Random.Range(8, 10);
                 CustomerEnterDelay();
                 keep_track = false;
             }

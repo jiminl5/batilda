@@ -778,35 +778,40 @@ public class levelHandler : MonoBehaviour {
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 6;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
-            tempcustomer.transform.position = new Vector3(9, 2, 0);
+            tempcustomer.transform.position = new Vector2(this.transform.position.x, this.transform.position.y + 1.0f);
+            //tempcustomer.transform.position = new Vector3(9, 2, 0);
             customer1 = true;
         }
         else if (CustomerAI.customerSat2 && customerName == "cus_2")// && emptyCustomers.Contains(1))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 7;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
-            tempcustomer.transform.position = new Vector3(10.5f, 2, 0);
+            tempcustomer.transform.position = new Vector2(this.transform.position.x, this.transform.position.y + 1.0f);
+            //tempcustomer.transform.position = new Vector3(10.5f, 2, 0);
             customer2 = true;
         }
         else if (CustomerAI.customerSat3 && customerName == "cus_3")// && emptyCustomers.Contains(2))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 8;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
-            tempcustomer.transform.position = new Vector3(12, 2, 0);
+            tempcustomer.transform.position = new Vector2(this.transform.position.x, this.transform.position.y + 1.0f);
+            //tempcustomer.transform.position = new Vector3(12, 2, 0);
             customer3 = true;
         }
         else if (CustomerAI.customerSat4 && customerName == "cus_4")// && emptyCustomers.Contains(3))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 9;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
-            tempcustomer.transform.position = new Vector3(13.5f, 2, 0);
+            tempcustomer.transform.position = new Vector2(this.transform.position.x, this.transform.position.y + 1.0f);
+            //tempcustomer.transform.position = new Vector3(13.5f, 2, 0);
             customer4 = true;
         }
         else if (CustomerAI.customerSat5 && customerName == "cus_5")// && emptyCustomers.Contains(4))
         {
             tempcustomer.GetComponent<nameAndPosition>().x = 10;
             tempcustomer.GetComponent<nameAndPosition>().y = 2;
-            tempcustomer.transform.position = new Vector3(15, 2, 0);
+            tempcustomer.transform.position = new Vector2(this.transform.position.x, this.transform.position.y + 1.0f);
+            //tempcustomer.transform.position = new Vector3(15, 2, 0);
             customer5 = true;
         }
 

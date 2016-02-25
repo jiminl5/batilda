@@ -113,6 +113,7 @@ public class CustomerAI : MonoBehaviour {
         if (coll.tag == "WayPointStart" && direction != 6)
         {
             pick_number = true;
+            print("DIRECTION~~~~~" + direction);
         }
 
         if (coll.tag == "WayPoint1" && direction == 1)
@@ -151,19 +152,6 @@ public class CustomerAI : MonoBehaviour {
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
             //seatCount++;
         }
-        /*
-        if (order)
-        {
-            order.transform.SetParent(this.transform);
-        }
-        */
-        /*
-        if (coll.tag == "WayPointExit" && direction == 6)
-        {
-            Destroy(this.gameObject);
-        }
-        */
-
     }
 
     void OnTriggerStay2D(Collider2D coll)
