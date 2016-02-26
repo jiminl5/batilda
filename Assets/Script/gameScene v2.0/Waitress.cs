@@ -47,89 +47,85 @@ public class Waitress : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (obj_queue1.Count > 0) { 
-			if ((atPosition && obj_queue1.Peek().GetComponent<drinkObject>() )
-            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<drinkObject>())) {
-                drinkAction(obj_queue1.Peek());
-                obj_queue1.Dequeue();
-                //Check Mark - 2016-02-13
-                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
-                    Destroy(MoveableTile.check_Queue_1.Peek());
-                MoveableTile.check_Queue_1.Dequeue();
-                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
-                atPosition = false;
-            }
-
-			else if ((atPosition && obj_queue1.Peek().GetComponent<Furnace>())
-            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<Furnace>())) {
-                furnaceAction(obj_queue1.Peek());
-                obj_queue1.Dequeue();
-                //Check Mark - 2016-02-13
-                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
-                    Destroy(MoveableTile.check_Queue_1.Peek());
-                MoveableTile.check_Queue_1.Dequeue();
-                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
-                atPosition = false;    
+        if (obj_queue1.Count > 0) {
+			if (obj_queue1.Peek ()) {
+				if ((atPosition && obj_queue1.Peek ().GetComponent<drinkObject> ())
+				    || (atPosition && GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot && obj_queue1.Peek ().GetComponent<drinkObject> ())) {
+					drinkAction (obj_queue1.Peek ());
+					obj_queue1.Dequeue ();
+					//Check Mark - 2016-02-13
+					if (MoveableTile.check_Queue_1.Peek ().name != "Null_Object")
+						Destroy (MoveableTile.check_Queue_1.Peek ());
+					MoveableTile.check_Queue_1.Dequeue ();
+					GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot = false;
+					atPosition = false;
+				} else if ((atPosition && obj_queue1.Peek ().GetComponent<Furnace> ())
+				           || (atPosition && GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot && obj_queue1.Peek ().GetComponent<Furnace> ())) {
+					furnaceAction (obj_queue1.Peek ());
+					obj_queue1.Dequeue ();
+					//Check Mark - 2016-02-13
+					if (MoveableTile.check_Queue_1.Peek ().name != "Null_Object")
+						Destroy (MoveableTile.check_Queue_1.Peek ());
+					MoveableTile.check_Queue_1.Dequeue ();
+					GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot = false;
+					atPosition = false;    
+				} else if ((atPosition && obj_queue1.Peek ().GetComponent<dropOffPoint> ())
+				           || (atPosition && GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot && obj_queue1.Peek ().GetComponent<dropOffPoint> ())) {
+					dropOffPointAction (obj_queue1.Peek ());
+					obj_queue1.Dequeue ();
+					//Check Mark - 2016-02-13
+					if (MoveableTile.check_Queue_1.Peek ().name != "Null_Object")
+						Destroy (MoveableTile.check_Queue_1.Peek ());
+					MoveableTile.check_Queue_1.Dequeue ();
+					GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot = false;
+					atPosition = false;
+				} else if ((atPosition && obj_queue1.Peek ().GetComponent<ingredientObject> ())
+				           || (atPosition && GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot && obj_queue1.Peek ().GetComponent<ingredientObject> ())) {
+					ingredientAction (obj_queue1.Peek ());
+					obj_queue1.Dequeue ();
+					//Check Mark - 2016-02-13
+					if (MoveableTile.check_Queue_1.Peek ().name != "Null_Object")
+						Destroy (MoveableTile.check_Queue_1.Peek ());
+					MoveableTile.check_Queue_1.Dequeue ();
+					GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot = false;
+					atPosition = false;
+				} else if ((atPosition && obj_queue1.Peek ().GetComponent<Customer> ())
+				           || (atPosition && GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot && obj_queue1.Peek ().GetComponent<Customer> ())) {
+					customerAction (obj_queue1.Peek ());
+					obj_queue1.Dequeue ();
+					//Check Mark - 2016-02-13
+					if (MoveableTile.check_Queue_1.Peek ().name != "Null_Object")
+						Destroy (MoveableTile.check_Queue_1.Peek ());
+					MoveableTile.check_Queue_1.Dequeue ();
+					GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot = false;
+					atPosition = false;
+				} else if ((atPosition && obj_queue1.Peek ().name == "Null_Object")
+				           || (atPosition && GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot && obj_queue1.Peek ().name == "Null_Object")) {
+					obj_queue1.Dequeue ();
+					//Check Mark - 2016-02-13
+					if (MoveableTile.check_Queue_1.Peek ().name != "Null_Object")
+						Destroy (MoveableTile.check_Queue_1.Peek ());
+					MoveableTile.check_Queue_1.Dequeue ();
+					GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot = false;
+					atPosition = false;
+				} else if ((atPosition && obj_queue1.Peek ().GetComponent<nameAndPosition> ().name == "trash")
+				           || (atPosition && GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot && obj_queue1.Peek ().GetComponent<nameAndPosition> ().name == "trash")) {
+					trashAction (obj_queue1.Peek ());
+					obj_queue1.Dequeue ();
+					//Check Mark - 2016-02-13
+					if (MoveableTile.check_Queue_1.Peek ().name != "Null_Object")
+						Destroy (MoveableTile.check_Queue_1.Peek ());
+					MoveableTile.check_Queue_1.Dequeue ();
+					GameObject.Find ("Map").GetComponent<TileMap1> ().same_spot = false;
+					atPosition = false;
+				}
+			} 
+			else if (!obj_queue1.Peek ()) 
+			{
+				obj_queue1.Dequeue ();
+				Destroy (MoveableTile.check_Queue_1.Peek ());
+				MoveableTile.check_Queue_1.Dequeue();
 			}
-
-			else if ((atPosition && obj_queue1.Peek().GetComponent<dropOffPoint>())
-            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<dropOffPoint>())) {
-                dropOffPointAction(obj_queue1.Peek());
-                obj_queue1.Dequeue();
-                //Check Mark - 2016-02-13
-                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
-                    Destroy(MoveableTile.check_Queue_1.Peek());
-                MoveableTile.check_Queue_1.Dequeue();
-                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
-                atPosition = false;
-			} 
-            else if ((atPosition && obj_queue1.Peek().GetComponent<ingredientObject>())
-            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<ingredientObject>())) {
-                ingredientAction(obj_queue1.Peek());
-                obj_queue1.Dequeue();
-                //Check Mark - 2016-02-13
-                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
-                    Destroy(MoveableTile.check_Queue_1.Peek());
-                MoveableTile.check_Queue_1.Dequeue();
-                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
-                atPosition = false;
-			} 
-            else if ((atPosition && obj_queue1.Peek().GetComponent<Customer>())
-            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<Customer>())) {
-                customerAction(obj_queue1.Peek());
-                obj_queue1.Dequeue();
-                //Check Mark - 2016-02-13
-                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
-                    Destroy(MoveableTile.check_Queue_1.Peek());
-                MoveableTile.check_Queue_1.Dequeue();
-                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
-                atPosition = false;
-			} 
-
-            else if ((atPosition && obj_queue1.Peek().name == "Null_Object")
-            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().name == "Null_Object"))
-            {
-                obj_queue1.Dequeue();
-                //Check Mark - 2016-02-13
-                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
-                    Destroy(MoveableTile.check_Queue_1.Peek());
-                MoveableTile.check_Queue_1.Dequeue();
-                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
-                atPosition = false;
-            }
-
-            else if ((atPosition && obj_queue1.Peek().GetComponent<nameAndPosition>().name == "trash")
-            || (atPosition && GameObject.Find("Map").GetComponent<TileMap1>().same_spot && obj_queue1.Peek().GetComponent<nameAndPosition>().name == "trash"))
-            {
-                trashAction(obj_queue1.Peek());
-                obj_queue1.Dequeue();
-                //Check Mark - 2016-02-13
-                if (MoveableTile.check_Queue_1.Peek().name != "Null_Object")
-                    Destroy(MoveableTile.check_Queue_1.Peek());
-                MoveableTile.check_Queue_1.Dequeue();
-                GameObject.Find("Map").GetComponent<TileMap1>().same_spot = false;
-                atPosition = false;
-            }
             //else {
             //Debug.Log("didn't work!");
             //Debug.Log(gameObject.tag);
@@ -178,6 +174,7 @@ public class Waitress : MonoBehaviour {
             go_2h.transform.SetParent(gameObject.transform);
 
         }
+
     }
 
     void furnaceAction(GameObject go)
