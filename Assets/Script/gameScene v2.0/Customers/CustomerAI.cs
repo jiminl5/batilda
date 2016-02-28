@@ -45,8 +45,13 @@ public class CustomerAI : MonoBehaviour {
     private int customerSpotCount_3 = 0;
     private int customerSpotCount_4 = 0;
     private int customerSpotCount_5 = 0;
+
+    private bool pickStart = false;
+    private float temp_wait;
     // Use this for initialization
     void Start () {
+        temp_wait = 0.0f;
+
         customerSat1 = false;
         customerSat2 = false;
         customerSat3 = false;
@@ -101,16 +106,16 @@ public class CustomerAI : MonoBehaviour {
             Destroy(this.gameObject);
         }
 
-        if (customerSpotCount_1 >= 2)
-            Destroy(this.gameObject);
-        if (customerSpotCount_2 >= 2)
-            Destroy(this.gameObject);
-        if (customerSpotCount_3 >= 2)
-            Destroy(this.gameObject);
-        if (customerSpotCount_4 >= 2)
-            Destroy(this.gameObject);
-        if (customerSpotCount_5 >= 2)
-            Destroy(this.gameObject);
+        if (pickStart)
+        {
+            temp_wait += Time.deltaTime;
+            if (temp_wait >= 3.0f)
+            {
+                pick_number = true;
+                temp_wait = 0.0f;
+                pickStart = false;
+            }
+        }
     }
 
     public void confirmExit(bool confirm)
@@ -129,14 +134,17 @@ public class CustomerAI : MonoBehaviour {
 
         if (coll.tag == "WayPointStart" && direction != 6)
         {
-            pick_number = true;
-            print("DIRECTION~~~~~" + direction);
+            if (PlayerPrefs.GetString("tutorial") == "yes")
+                pick_number = true;
+            else
+                pickStart = true;
         }
 
         if (coll.tag == "WayPoint1" && direction == 1)
         {
             customerSat1 = true;
             Invoke("GiveOrderDelay", order_delay);
+            seat_taken_1 = true;
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
             //seatCount++;
         }
@@ -145,6 +153,7 @@ public class CustomerAI : MonoBehaviour {
         {
             customerSat2 = true;
             Invoke("GiveOrderDelay", order_delay);
+            seat_taken_2 = true;
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
             //seatCount++;
         }
@@ -152,6 +161,7 @@ public class CustomerAI : MonoBehaviour {
         {
             customerSat3 = true;
             Invoke("GiveOrderDelay", order_delay);
+            seat_taken_3 = true;
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
             //seatCount++;
         }
@@ -159,6 +169,7 @@ public class CustomerAI : MonoBehaviour {
         {
             customerSat4 = true;
             Invoke("GiveOrderDelay", order_delay);
+            seat_taken_4 = true;
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
             //seatCount++;
         }
@@ -166,6 +177,7 @@ public class CustomerAI : MonoBehaviour {
         {
             customerSat5 = true;
             Invoke("GiveOrderDelay", order_delay);
+            seat_taken_5 = true;
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
             //seatCount++;
         }
@@ -184,37 +196,22 @@ public class CustomerAI : MonoBehaviour {
         if (customerSat1)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
-            seat_taken_1 = true;
-            //seatCount++;
-            customerSpotCount_1++;
         }
         else if (customerSat2)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
-            seat_taken_2 = true;
-            //seatCount++;
-            customerSpotCount_2++;
         }
         else if (customerSat3)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
-            seat_taken_3 = true;
-            //seatCount++;
-            customerSpotCount_3++;
         }
         else if (customerSat4)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
-            seat_taken_4 = true;
-            //seatCount++;
-            customerSpotCount_4++;
         }
         else if (customerSat5)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
-            seat_taken_5 = true;
-            //seatCount++;
-            customerSpotCount_5++;
         }
         if (order)
         {
@@ -293,29 +290,4 @@ public class CustomerAI : MonoBehaviour {
         else
             return true;
     }
-    /*
-    public void seatTaken(int check)
-    {
-        if (check == 1)
-        {
-            seat_taken_1 = true;
-        }
-        else if (check == 2)
-        {
-            seat_taken_2 = true;
-        }
-        else if (check == 3)
-        {
-            seat_taken_3 = true;
-        }
-        else if (check == 4)
-        {
-            seat_taken_4 = true;
-        }
-        else if (check == 5)
-        {
-            seat_taken_5 = true;
-        }
-    }
-    */
 }
