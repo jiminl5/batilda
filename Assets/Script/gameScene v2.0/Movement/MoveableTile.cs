@@ -18,6 +18,8 @@ public class MoveableTile : MonoBehaviour {
     public static Queue<GameObject> check_Queue = new Queue<GameObject>(); //Foxanna
     public static Queue<GameObject> check_Queue_1 = new Queue<GameObject>(); //Batilda
 
+    private float tempy;
+
 	void Awake()
 	{
 		Setup_Tile ();
@@ -134,13 +136,18 @@ public class MoveableTile : MonoBehaviour {
             Unit1.unit_queue1.Clear();
         if (Waitress.obj_queue1.Count > 10)
             Waitress.obj_queue1.Clear();
+        if (check_Queue.Count > 10)
+            check_Queue.Clear();
+        if (check_Queue_1.Count > 10)
+            check_Queue_1.Clear();
     }
 
     void OnMouseDown()
 	{
 		//CHEF
 		print ("mtX: " + mtX + ", mtY: " + mtY);
-		if ((Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10) && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10)) {
+		if ((Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10 && check_Queue.Count <= 10) 
+        && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10 && check_Queue_1.Count <= 10)) {
 			if (mtX < 5) {
                 // left shelf
                 if (mtX == 0 && (mtY >= 0 && mtY <= 6))
