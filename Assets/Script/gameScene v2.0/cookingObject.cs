@@ -11,6 +11,8 @@ public class cookingObject : MonoBehaviour {
 	public AudioSource source;
 	public AudioClip bubblingSFX;
 	public AudioClip grillSizzleSFX;
+	public AudioClip friedEggSFX;
+	public AudioClip searingSFX;
 
 	public bool start_cooking = false;
 	public bool food_ready = false;
@@ -139,24 +141,25 @@ public class cookingObject : MonoBehaviour {
 		{
 			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
-			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
-				source.PlayOneShot(bubblingSFX, .8f);
+			if (this.name == "grill 1"){
+				GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(2, 4, current_recipie.timeToMake, 0);
 			}
-            // 0 - grills, 1 - ovens, 2 - cuttingboard, 3 - rolling and so on
+			if (this.name == "grill 2"){
+				GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(3, 4, current_recipie.timeToMake, 0);
+			}
+			if (this.name == "grill 3"){
+				GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(2, 2.9f, current_recipie.timeToMake, 0);
+			}
+			if (this.name == "grill 4"){
+				GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(3, 2.9f, current_recipie.timeToMake, 0);
+			}
+			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
+				source.PlayOneShot(bubblingSFX, .6f);
+				source.PlayOneShot (friedEggSFX);
+			}
 			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
-				if (this.name == "grill 1"){
-					GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(2, 4, current_recipie.timeToMake, 0);
-				}
-				if (this.name == "grill 2"){
-                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(3, 4, current_recipie.timeToMake, 0);
-				}
-				if (this.name == "grill 3"){
-                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(2, 2.9f, current_recipie.timeToMake, 0);
-				}
-				if (this.name == "grill 4"){
-                    GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(3, 2.9f, current_recipie.timeToMake, 0);
-				}
-				source.PlayOneShot(grillSizzleSFX, .6f);
+				source.PlayOneShot(grillSizzleSFX, .35f);
+				if (food_cooking_name == "grilled fish");
 			}
 			if( food_cooking_name == "bread"){
 			

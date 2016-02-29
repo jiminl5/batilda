@@ -9,6 +9,7 @@ public class Furnace : MonoBehaviour {
 
     public AudioClip startFurnace;
 	public AudioClip logDrop;
+	public AudioClip lightOut;
     private AudioSource source;
 
 	private float maxTime = 30;
@@ -17,6 +18,7 @@ public class Furnace : MonoBehaviour {
     private GameObject _smoke;
     private ParticleSystem smoke;
     private bool smokeOn = false;
+	private bool played = false;
 
 	public GameObject light;
 	private bool lightMaxed = false; // max amt of light is 1.5f intensity
@@ -35,7 +37,7 @@ public class Furnace : MonoBehaviour {
 	void Update () {
 		if (isOn) {
 			currentTime -= Time.deltaTime;
-            if (currentTime <= maxTime - 12 & !playFireLoop)
+			if ( !playFireLoop) //currentTime <= maxTime - 12 &
             {
                 playFireLoop = true;
                 source.Play();
@@ -68,7 +70,7 @@ public class Furnace : MonoBehaviour {
 
 	void turnOn() {
 		if(!isOn)
-        	source.PlayOneShot(startFurnace);
+        	source.PlayOneShot(logDrop);
 		if (isOn)
 			source.PlayOneShot (logDrop);
 		this.GetComponent<SpriteRenderer> ().color = Color.yellow;

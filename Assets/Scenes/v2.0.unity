@@ -1231,6 +1231,8 @@ MonoBehaviour:
   source: {fileID: 376461793}
   bubblingSFX: {fileID: 8300000, guid: 2c958983a82252a41ac4322d3e15c6cf, type: 3}
   grillSizzleSFX: {fileID: 0}
+  friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
+  searingSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -1575,9 +1577,11 @@ MonoBehaviour:
   source: {fileID: 428736019}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
+  friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
+  searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
   start_cooking: 0
   food_ready: 0
-  cookReady: 0
+  cookReady: 1
   needsFurnace: 1
   isCooking: 0
   chef_1h: 
@@ -2545,9 +2549,11 @@ MonoBehaviour:
   source: {fileID: 619299109}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
+  friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
+  searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
   start_cooking: 0
   food_ready: 0
-  cookReady: 0
+  cookReady: 1
   needsFurnace: 1
   isCooking: 0
   chef_1h: 
@@ -3174,6 +3180,8 @@ MonoBehaviour:
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 0}
+  friedEggSFX: {fileID: 0}
+  searingSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -3719,6 +3727,8 @@ MonoBehaviour:
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 0}
+  friedEggSFX: {fileID: 0}
+  searingSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -5452,7 +5462,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -5474,7 +5484,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!4 &1254347450
 Transform:
   m_ObjectHideFlags: 0
@@ -5810,9 +5820,11 @@ MonoBehaviour:
   source: {fileID: 1346362817}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
+  friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
+  searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
   start_cooking: 0
   food_ready: 0
-  cookReady: 0
+  cookReady: 1
   needsFurnace: 1
   isCooking: 0
   chef_1h: 
@@ -6416,6 +6428,8 @@ MonoBehaviour:
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 0}
+  friedEggSFX: {fileID: 0}
+  searingSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -7205,6 +7219,7 @@ MonoBehaviour:
   playFireLoop: 0
   startFurnace: {fileID: 8300000, guid: fa7d6ceb3d8939d4cad6f107cd35a1c6, type: 3}
   logDrop: {fileID: 8300000, guid: d9437a52f5294dd4a90eea767e2f08a5, type: 3}
+  lightOut: {fileID: 8300000, guid: 223f66321dbddcf4fb513552d1c246e9, type: 3}
   light: {fileID: 2103336775}
 --- !u!212 &1647807915
 SpriteRenderer:
@@ -7421,6 +7436,8 @@ MonoBehaviour:
   source: {fileID: 0}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 0}
+  friedEggSFX: {fileID: 0}
+  searingSFX: {fileID: 0}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -8410,9 +8427,11 @@ MonoBehaviour:
   source: {fileID: 2006416676}
   bubblingSFX: {fileID: 0}
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
+  friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
+  searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
   start_cooking: 0
   food_ready: 0
-  cookReady: 0
+  cookReady: 1
   needsFurnace: 1
   isCooking: 0
   chef_1h: 

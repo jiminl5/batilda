@@ -6,7 +6,7 @@ public class MusicSingleton : MonoBehaviour {
 	private static int songs_level;
 	private static AudioClip song_for_level;
 
-	private static float fade_song_speed = .9f;
+	private static float fade_song_speed = .95f;
 
 	private static MusicSingleton instance = null;
 
