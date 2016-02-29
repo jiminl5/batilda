@@ -210,7 +210,6 @@ public class Waitress : MonoBehaviour {
             {
                 //update dropoffpoint food name
                 go.GetComponent<Customer>().food_given = one_h;
-				source.PlayOneShot(coinSFX[Random.Range (0,4)]);
                 //add sprite of food
                 //delete 1h
                 //Destroy (go_1h);
@@ -220,7 +219,6 @@ public class Waitress : MonoBehaviour {
             {
                 //update dropoffpoint food name
                 go.GetComponent<Customer>().food_given = two_h;
-				source.PlayOneShot (coinSFX [Random.Range (0, 4)]);
                 //delete 2h
                 //Destroy (go_2h);
                 //two_h = "";
@@ -228,6 +226,7 @@ public class Waitress : MonoBehaviour {
             }
             else if (customer.moneyOn)
             {
+				source.PlayOneShot(coinSFX[Random.Range (0,4)]);
                 customer.moneyPickedUp = true;
             }
             else

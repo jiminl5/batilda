@@ -140,7 +140,7 @@ public class cookingObject : MonoBehaviour {
 			current_recipie = findRecipe (i1);
 			food_cooking_name = current_recipie.name;
 			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
-				source.PlayOneShot(bubblingSFX, .7f);
+				source.PlayOneShot(bubblingSFX, .8f);
 			}
             // 0 - grills, 1 - ovens, 2 - cuttingboard, 3 - rolling and so on
 			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
