@@ -14,6 +14,7 @@ public class Waitress : MonoBehaviour {
     public AudioClip pickUpLogSFX;
 	public AudioClip[] plateSFX;
 	public AudioClip[] coinSFX;
+	public AudioClip singleCoinDropSFX;
 	public AudioClip trashSFX;
 	public AudioClip drink;
     private AudioSource source;
@@ -210,6 +211,7 @@ public class Waitress : MonoBehaviour {
             {
                 //update dropoffpoint food name
                 go.GetComponent<Customer>().food_given = one_h;
+				source.PlayOneShot(singleCoinDropSFX);
                 //add sprite of food
                 //delete 1h
                 //Destroy (go_1h);
@@ -219,6 +221,7 @@ public class Waitress : MonoBehaviour {
             {
                 //update dropoffpoint food name
                 go.GetComponent<Customer>().food_given = two_h;
+				source.PlayOneShot(singleCoinDropSFX);
                 //delete 2h
                 //Destroy (go_2h);
                 //two_h = "";

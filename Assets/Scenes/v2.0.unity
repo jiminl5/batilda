@@ -3484,6 +3484,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 411a3a8548d0c2a4c887992c207ed4ee, type: 3}
   - {fileID: 8300000, guid: d26f4cd39ed9ae442a5ec302febfe664, type: 3}
   - {fileID: 8300000, guid: 1e149d366bf09da4ab043b5ab35d3f3c, type: 3}
+  singleCoinDropSFX: {fileID: 8300000, guid: 8b6eec35173276f409986830a6750eac, type: 3}
   trashSFX: {fileID: 8300000, guid: 7f57e1500dce6054996e8f45b5421251, type: 3}
   drink: {fileID: 0}
   mtX: 0
