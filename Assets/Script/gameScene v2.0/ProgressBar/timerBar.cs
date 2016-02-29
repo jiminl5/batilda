@@ -10,7 +10,7 @@ public class timerBar : MonoBehaviour {
     //public Recipie current_recipe;
     // Use this for initialization
     public float cookingTime;
-    public static int identify_tool;
+    public int identify_tool;
 
 	void Start () {
 	
@@ -20,11 +20,10 @@ public class timerBar : MonoBehaviour {
     void Update() {
         if (GameObject.Find("furnace").GetComponent<Furnace>().isOn || (identify_tool == 2 || identify_tool == 3))
         {
-            print("IDEDENNENENENEN" + identify_tool);
             temp_Time += Time.deltaTime;
             timeBar.GetComponent<Image>().fillAmount = temp_Time / cookingTime;
         }
-        else if (GameObject.Find("furnace").GetComponent<Furnace>().isOn)
+        else if (!GameObject.Find("furnace").GetComponent<Furnace>().isOn)
         {
             temp_Time = temp_Time_1;
             timeBar.GetComponent<Image>().fillAmount = temp_Time / cookingTime;
