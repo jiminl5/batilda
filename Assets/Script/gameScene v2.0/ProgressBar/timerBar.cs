@@ -10,6 +10,7 @@ public class timerBar : MonoBehaviour {
     //public Recipie current_recipe;
     // Use this for initialization
     public float cookingTime;
+    public static int identify_tool;
 
 	void Start () {
 	
@@ -17,8 +18,9 @@ public class timerBar : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (GameObject.Find("furnace").GetComponent<Furnace>().isOn)
-        { 
+        if (GameObject.Find("furnace").GetComponent<Furnace>().isOn || (identify_tool == 2 || identify_tool == 3))
+        {
+            print("IDEDENNENENENEN" + identify_tool);
             temp_Time += Time.deltaTime;
             timeBar.GetComponent<Image>().fillAmount = temp_Time / cookingTime;
         }

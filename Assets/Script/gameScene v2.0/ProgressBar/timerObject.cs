@@ -14,9 +14,10 @@ public class timerObject : MonoBehaviour {
 	void Update () {
 	
 	}
-
+    // z - 0 = grills, 1 = ovens, 2 = cutting board, 3 = dough maker
 	public void GenerateTimerAt(float x, float y, float runTime, int z)
 	{
+        timerBar.identify_tool = z;
         float newX = x * 0.5f;
         //timerBar.cookingTime = runTime;
         timer[z].GetComponentInChildren<timerBar>().cookingTime = runTime;
@@ -25,7 +26,8 @@ public class timerObject : MonoBehaviour {
 
 	public void genTimerAtUpper(float x, float y, float runTime, int z)
     {
-		float newX = x * 0.5f + .1f;
+        timerBar.identify_tool = z;
+        float newX = x * 0.5f + .1f;
         //timerBar.cookingTime = runTime;
         timer[z].GetComponentInChildren<timerBar>().cookingTime = runTime;
         Instantiate(timer[z], new Vector2((float)x + newX, (float)y + 0.5f), Quaternion.identity);
@@ -33,7 +35,8 @@ public class timerObject : MonoBehaviour {
 
 	public void genTimerAtLower(float x, float y, float runTime, int z)
     {
-		float newX = x * 0.5f + .1f;
+        timerBar.identify_tool = z;
+        float newX = x * 0.5f + .1f;
         //timerBar.cookingTime = runTime;
         timer[z].GetComponentInChildren<timerBar>().cookingTime = runTime;
         Instantiate(timer[z], new Vector2((float)x + newX, (float)y - 0.5f), Quaternion.identity);
