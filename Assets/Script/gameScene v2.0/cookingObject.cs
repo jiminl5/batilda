@@ -22,6 +22,11 @@ public class cookingObject : MonoBehaviour {
 	public string chef_2h;
 
 	public Color c;
+
+	public float start_time;
+	public float finish_time;
+	public float time_to_cook;
+	public bool timeSaved = false;
 	
 	private GameObject foodSprite;
     public GameObject cookingSpriteIdle;
@@ -68,9 +73,33 @@ public class cookingObject : MonoBehaviour {
             }
             if (!isCooking && !food_ready && furnaceOn) {
                 //isCooking = true;
+				start_time = Time.time;
                 cooking (chef_1h);
                 
 			}
+			if (!furnaceOn && timeSaved) 
+			{
+				timeSaved = false;
+			}
+			if (isCooking && furnaceOn && !timeSaved) 
+			{
+				//furnace is off, save time to cook.
+				timeSaved = true;
+				time_to_cook -= start_time; //time to cook - start time = new time to cook.
+				time_to_cook += Time.time; //add Time.time, to get new end time when furnace starts up again.
+				start_time = Time.time;
+				Debug.Log ("TIME TO COOK: " + time_to_cook);
+				Debug.Log ("TIME: " + Time.time);
+			}
+			else if (isCooking && furnaceOn) {
+				//timeSaved = false;
+				if (Time.time >= time_to_cook) {
+					cookFood (); //food is finished
+				} else {
+					//do nothing, wait for food to cook.
+				}
+			} 
+
 		} else {
 			if (!isCooking && !food_ready) {
                 //isCooking = true;
@@ -149,7 +178,10 @@ public class cookingObject : MonoBehaviour {
             _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
             chef_1h = "";
             isCooking = true;
-            Invoke("cookFood", current_recipie.timeToMake); //wait for food to be done...
+			time_to_cook = current_recipie.timeToMake + Time.time;
+			start_time = Time.time;
+			timeSaved = true;
+            //Invoke("cookFood", current_recipie.timeToMake); //wait for food to be done...
 			//Debug.Log ("food done!");
 			//food is done! animation here.
 			//food_ready = true;
