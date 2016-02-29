@@ -7203,6 +7203,7 @@ MonoBehaviour:
   hasFirewood: 0
   playFireLoop: 0
   startFurnace: {fileID: 8300000, guid: fa7d6ceb3d8939d4cad6f107cd35a1c6, type: 3}
+  logDrop: {fileID: 8300000, guid: d9437a52f5294dd4a90eea767e2f08a5, type: 3}
   light: {fileID: 2103336775}
 --- !u!212 &1647807915
 SpriteRenderer:

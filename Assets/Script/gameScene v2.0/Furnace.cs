@@ -8,6 +8,7 @@ public class Furnace : MonoBehaviour {
     public bool playFireLoop = false;
 
     public AudioClip startFurnace;
+	public AudioClip logDrop;
     private AudioSource source;
 
 	private float maxTime = 30;
@@ -66,7 +67,10 @@ public class Furnace : MonoBehaviour {
 	}
 
 	void turnOn() {
-        source.PlayOneShot(startFurnace);
+		if(!isOn)
+        	source.PlayOneShot(startFurnace);
+		if (isOn)
+			source.PlayOneShot (logDrop);
 		this.GetComponent<SpriteRenderer> ().color = Color.yellow;
 		isOn = true;
 	}
