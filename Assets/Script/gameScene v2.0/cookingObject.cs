@@ -80,12 +80,12 @@ public class cookingObject : MonoBehaviour {
 			if (!furnaceOn && timeSaved) 
 			{
 				timeSaved = false;
+				time_to_cook -= Time.time; //time to cook - currnet time = new time to cook.
 			}
 			if (isCooking && furnaceOn && !timeSaved) 
 			{
 				//furnace is off, save time to cook.
 				timeSaved = true;
-				time_to_cook -= start_time; //time to cook - start time = new time to cook.
 				time_to_cook += Time.time; //add Time.time, to get new end time when furnace starts up again.
 				start_time = Time.time;
 				Debug.Log ("TIME TO COOK: " + time_to_cook);
