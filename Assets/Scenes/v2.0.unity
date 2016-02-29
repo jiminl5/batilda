@@ -1239,6 +1239,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 0, b: 0, a: 0}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 100134, guid: e0456ca16e7039345af22c344f2c52d8, type: 2}
   cookingSprite: {fileID: 162502, guid: e2c81a2f4af9e2a40a678ce655c4c23d, type: 2}
   current_recipie: {fileID: 0}
@@ -1579,6 +1583,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 1, b: 1, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
@@ -2545,6 +2553,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 1, b: 1, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
@@ -3170,6 +3182,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -3462,6 +3478,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: da0fdae91cc4f8a45931631f8faa63a5, type: 3}
   - {fileID: 8300000, guid: b9bdd9b36c17e154c91ce1d5f742351e, type: 3}
   - {fileID: 8300000, guid: d86a12cf64148284e95dacc1638bd4d6, type: 3}
+  coinSFX:
+  - {fileID: 8300000, guid: 4f68822c61f0c1544af8e1ad6042ea99, type: 3}
+  - {fileID: 8300000, guid: 5db75e97b9e18f74d96d3951c392dad4, type: 3}
+  - {fileID: 8300000, guid: 411a3a8548d0c2a4c887992c207ed4ee, type: 3}
+  - {fileID: 8300000, guid: d26f4cd39ed9ae442a5ec302febfe664, type: 3}
+  - {fileID: 8300000, guid: 1e149d366bf09da4ab043b5ab35d3f3c, type: 3}
   trashSFX: {fileID: 8300000, guid: 7f57e1500dce6054996e8f45b5421251, type: 3}
   drink: {fileID: 0}
   mtX: 0
@@ -3704,6 +3726,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -5791,6 +5817,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 1, b: 1, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
@@ -6393,6 +6423,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -7393,6 +7427,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -8378,6 +8416,10 @@ MonoBehaviour:
   chef_1h: 
   chef_2h: 
   c: {r: 0, g: 1, b: 1, a: 1}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
