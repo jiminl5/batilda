@@ -16,6 +16,11 @@ public class Furnace : MonoBehaviour {
     private GameObject _smoke;
     private ParticleSystem smoke;
     private bool smokeOn = false;
+
+	public GameObject light;
+	private bool lightMaxed = false; // max amt of light is 1.5f intensity
+	private bool lightMin = false; // minimum amt of light is .5f intesity
+
 	// Use this for initialization
 	void Start () {
         source = GetComponent<AudioSource>();
@@ -37,7 +42,9 @@ public class Furnace : MonoBehaviour {
 			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = true;
                 smoke.Stop();
                 smokeOn = false;
-
+			if (!lightMaxed) {
+				increaseLight ();
+			}
 		}
 		else if (!isOn) {
 			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = false;
@@ -46,6 +53,9 @@ public class Furnace : MonoBehaviour {
                 smoke.Play();
                 smokeOn = true;
             }
+			if (!lightMin) {
+				decreaseLight ();
+			}
 		}
 		checkForFirewood ();
 	}
@@ -71,5 +81,27 @@ public class Furnace : MonoBehaviour {
             source.Stop();
             turnOff ();
 		}
+	}
+
+	void lightThresholdReached(){
+		if (light.GetComponent<Light> ().intensity >= 1.5f)
+			lightMaxed = true;
+	}
+
+	void lightBThresholdReached(){
+		if (light.GetComponent<Light> ().intensity <= .5f)
+			lightMin= true;
+	}
+
+	void increaseLight(){
+		lightMin = false;
+		light.GetComponent<Light> ().intensity += .01f;
+		lightThresholdReached ();
+	}
+
+	void decreaseLight(){
+		lightMaxed = false;
+		light.GetComponent<Light> ().intensity -= .01f;
+		lightBThresholdReached ();
 	}
 }
