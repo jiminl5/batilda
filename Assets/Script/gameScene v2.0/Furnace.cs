@@ -31,6 +31,7 @@ public class Furnace : MonoBehaviour {
         _smoke.transform.parent = transform;
         _smoke.transform.position = transform.position;
         smoke = _smoke.GetComponent<ParticleSystem>();
+        smoke.Play();
 	}
 	
 	// Update is called once per frame
