@@ -56,7 +56,7 @@ public class MoveableTile : MonoBehaviour {
                 Destroy(red_tile[i]);
             //red_tile[i].SetActive(false);
             else if ((red_tile[i].transform.position.x > 7.5f && red_tile[i].transform.position.x < 15f)
-                        && !(red_tile[i].transform.position.y == 2 || red_tile[i].transform.position.y == 6
+                        && !(red_tile[i].transform.position.y <= 2 || red_tile[i].transform.position.y == 6
                          || red_tile[i].transform.position.y == 7))
                 Destroy(red_tile[i]);
             //red_tile[i].SetActive(false);
@@ -273,7 +273,7 @@ public class MoveableTile : MonoBehaviour {
                 }
 			}
 			// Waitress
-			else if (mtX > 5 && mtY > 1 && mtY < 8) {
+			else if (mtX > 5 && mtY >= 0 && mtY < 8) {
 				// Top Shelf
 				if (mtY >= 6) {
                     if (mtY == 7)
@@ -288,14 +288,18 @@ public class MoveableTile : MonoBehaviour {
 				}
 				// Right Shelf
 				else if (mtX == 10) {
-					if (mtY == 2) //corner
-						map1.GeneratePathTo (mtX - 1, mtY + 1);
-					else
-						map1.GeneratePathTo (mtX - 1, mtY);
+                    if (mtY <= 2) //corner
+                    {
+                        mtY = 2;
+                        map1.GeneratePathTo(mtX - 1, mtY + 1);
+                    }
+                    else
+                        map1.GeneratePathTo(mtX - 1, mtY);
 					//Unit1.mouseClicked = true;
 				}
 				// Bottom Shelf
-				else if (mtY == 2) {
+				else if (mtY <= 2) {
+                    mtY = 2;
 					if (mtX == 5)
 						map1.GeneratePathTo (mtX + 1, mtY + 1); // Corner
 					else
