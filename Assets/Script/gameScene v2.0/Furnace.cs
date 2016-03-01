@@ -29,7 +29,7 @@ public class Furnace : MonoBehaviour {
         source = GetComponent<AudioSource>();
         _smoke = Instantiate(Resources.Load("Smoke") as GameObject);
         _smoke.transform.parent = transform;
-        _smoke.transform.position = transform.position + new Vector3(0, 0.5f);
+        _smoke.transform.position = transform.position;
         smoke = _smoke.GetComponent<ParticleSystem>();
 	}
 	

@@ -94,7 +94,7 @@ public class Customer : MonoBehaviour {
                 moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 20;
                 moneySprite.transform.position = new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.5f);
                 moneyOn = true;
-                moodSprite = Instantiate(Resources.Load("smile"), transform.position + Vector3.up / 2, transform.rotation) as GameObject;
+                moodSprite = Instantiate(Resources.Load("smile"), new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
                 moodSprite.transform.parent = transform.parent;
                 StartCoroutine(ScaleOverTime(0.5f, moodSprite));
 
@@ -137,7 +137,7 @@ public class Customer : MonoBehaviour {
             go.transform.localScale = Vector3.Lerp(startScale, originalScale, Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, (currentTime / time)) ) );
             currentTime += Time.deltaTime;
             yield return null;
-        } while (currentTime <= time && foodSprite);
+        } while (currentTime <= time && go);
     }
 //test
 
