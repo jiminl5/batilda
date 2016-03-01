@@ -20,6 +20,8 @@ public class MoveableTile : MonoBehaviour {
 
     private float tempy;
 
+    private bool clickable = true;
+
 	void Awake()
 	{
 		Setup_Tile ();
@@ -115,7 +117,7 @@ public class MoveableTile : MonoBehaviour {
     void GenerateCheckmark(int x, int y) //Foxanna
     {
         float newX = x * 0.5f;
-       GameObject tmp_check = (GameObject)Instantiate(check, new Vector2((float)x + newX, (float)y + 0.5f), Quaternion.identity);
+        GameObject tmp_check = (GameObject)Instantiate(check, new Vector2((float)x + newX, (float)y + 0.5f), Quaternion.identity);
         check_Queue.Enqueue(tmp_check);
     }
 
@@ -126,28 +128,19 @@ public class MoveableTile : MonoBehaviour {
         check_Queue_1.Enqueue(tmp_check_1);
     }
 
-    void Update() // Clear if Queues are over queued.
+    void preventSpam()
     {
-        if (Unit.unit_queue.Count > 10)
-            Unit.unit_queue.Clear();
-        if (Chef.obj_queue.Count > 10)
-            Chef.obj_queue.Clear();
-        if (Unit1.unit_queue1.Count > 10)
-            Unit1.unit_queue1.Clear();
-        if (Waitress.obj_queue1.Count > 10)
-            Waitress.obj_queue1.Clear();
-        if (check_Queue.Count > 10)
-            check_Queue.Clear();
-        if (check_Queue_1.Count > 10)
-            check_Queue_1.Clear();
+        clickable = true;
     }
 
     void OnMouseDown()
 	{
-		//CHEF
-		print ("mtX: " + mtX + ", mtY: " + mtY);
-		if ((Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10 && check_Queue.Count <= 10) 
-        && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10 && check_Queue_1.Count <= 10)) {
+        //CHEF
+        print ("mtX: " + mtX + ", mtY: " + mtY);
+		if (clickable && (Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10) && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10)
+        && check_Queue.Count <= 10 && check_Queue_1.Count <= 10) {
+            clickable = false;
+            Invoke("preventSpam", 0.5f);
 			if (mtX < 5) {
                 // left shelf
                 if (mtX == 0 && (mtY >= 0 && mtY <= 6))

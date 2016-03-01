@@ -200,9 +200,6 @@ public class CustomerAI : MonoBehaviour
 
     void GiveOrderDelay()
     {
-        print("Direction~~~~~~~~~~~" + direction + "........" + customerSat1 + ", " + customerSat2 + ", " + customerSat3 + ", " + customerSat4 + ", " + customerSat5 + ", ");
-        //GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn(cus_Number);
-
         if (customerSat1 && direction == 1)
         {
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
