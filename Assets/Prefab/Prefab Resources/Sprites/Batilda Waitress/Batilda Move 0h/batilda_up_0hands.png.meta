@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 03c76f848984ad04698a62397ff1518d
+timeCreated: 1447040748
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: batilda_up_0hands_0
+    21300002: batilda_up_0hands_1
+    21300004: batilda_up_0hands_2
+    21300006: batilda_up_0hands_3
+    21300008: batilda_up_0hands_4
+    21300010: batilda_up_0hands_5
+    21300012: batilda_up_0hands_6
+    21300014: batilda_up_0hands_7
+    21300016: batilda_up_0hands_8
+    21300018: batilda_up_0hands_9
+    21300020: batilda_up_0hands_10
+    21300022: batilda_up_0hands_11
+    21300024: batilda_up_0hands_12
+    21300026: batilda_up_0hands_13
+    21300028: batilda_up_0hands_14
+    21300030: batilda_up_0hands_15
+    21300032: batilda_up_0hands_16
+    21300034: batilda_up_0hands_17
+    21300036: batilda_up_0hands_18
+    21300038: batilda_up_0hands_19
+    21300040: batilda_up_0hands_20
+    21300042: batilda_up_0hands_21
+    21300044: batilda_up_0hands_22
+    21300046: batilda_up_0hands_23
+    21300048: batilda_up_0hands_24
+    21300050: batilda_up_0hands_25
+    21300052: batilda_up_0hands_26
+    21300054: batilda_up_0hands_27
+    21300056: batilda_up_0hands_28
+    21300058: batilda_up_0hands_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: batilda_up_0hands_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1146
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.783916, y: 102.1322}
+        - {x: -51.783916, y: 98.1322}
+        - {x: -57.783916, y: 51.132202}
+        - {x: -57.783916, y: -17.867798}
+        - {x: -35.783916, y: -31.867798}
+        - {x: -25.783916, y: -22.867798}
+        - {x: -22.783916, y: -19.867798}
+        - {x: -33.783916, y: -31.867798}
+        - {x: -34.783916, y: -54.867798}
+        - {x: -11.783916, y: -98.8678}
+        - {x: -7.7839165, y: -100.8678}
+        - {x: 29.216084, y: -100.8678}
+        - {x: 59.216084, y: -36.867798}
+        - {x: 59.216084, y: 63.132202}
+        - {x: 53.216084, y: 102.1322}
+    - name: batilda_up_0hands_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1146
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.1979, y: 102.1322}
+        - {x: -58.1979, y: 58.132202}
+        - {x: -58.1979, y: -7.867798}
+        - {x: -46.1979, y: -24.867798}
+        - {x: -31.197899, y: -28.867798}
+        - {x: -26.197899, y: -22.867798}
+        - {x: -34.1979, y: -34.867798}
+        - {x: -41.1979, y: -59.867798}
+        - {x: -10.197899, y: -100.8678}
+        - {x: 26.802101, y: -100.8678}
+        - {x: 58.8021, y: -40.867798}
+        - {x: 58.8021, y: 49.132202}
+        - {x: 49.8021, y: 102.1322}
+    - name: batilda_up_0hands_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1146
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.611877, y: 102.1322}
+        - {x: -57.611877, y: 71.1322}
+        - {x: -57.611877, y: -4.867798}
+        - {x: -27.611877, y: -73.8678}
+        - {x: -14.611877, y: -99.8678}
+        - {x: -9.611877, y: -100.8678}
+        - {x: 33.388123, y: -100.8678}
+        - {x: 59.388123, y: -44.867798}
+        - {x: 59.388123, y: 59.132202}
+        - {x: 52.388123, y: 102.1322}
+    - name: batilda_up_0hands_3
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1146
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.02585, y: 102.1322}
+        - {x: -58.02585, y: 55.132202}
+        - {x: -58.02585, y: -12.867798}
+        - {x: -17.025848, y: -88.8678}
+        - {x: -0.025848389, y: -100.8678}
+        - {x: 24.974152, y: -100.8678}
+        - {x: 58.97415, y: -54.867798}
+        - {x: 58.97415, y: 99.1322}
+        - {x: 50.97415, y: 102.1322}
+    - name: batilda_up_0hands_4
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1146
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.43985, y: 102.1322}
+        - {x: -58.43985, y: 72.1322}
+        - {x: -58.43985, y: -30.867798}
+        - {x: -29.43985, y: -79.8678}
+        - {x: -2.4398499, y: -99.8678}
+        - {x: 25.56015, y: -99.8678}
+        - {x: 58.56015, y: -21.867798}
+        - {x: 58.56015, y: 43.132202}
+        - {x: 48.56015, y: 102.1322}
+    - name: batilda_up_0hands_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1146
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.85382, y: 102.1322}
+        - {x: -57.85382, y: -20.867798}
+        - {x: -9.853821, y: -96.8678}
+        - {x: -7.853821, y: -98.8678}
+        - {x: 31.14618, y: -98.8678}
+        - {x: 59.14618, y: -19.867798}
+        - {x: 59.14618, y: 72.1322}
+        - {x: 52.14618, y: 102.1322}
+    - name: batilda_up_0hands_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 860
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.783916, y: 102.332214}
+        - {x: -57.783916, y: 86.332214}
+        - {x: -57.783916, y: -37.667786}
+        - {x: -11.783916, y: -97.667786}
+        - {x: -4.7839165, y: -97.667786}
+        - {x: -0.7839165, y: -94.667786}
+        - {x: 2.2160835, y: -91.667786}
+        - {x: 2.2160835, y: -89.667786}
+        - {x: 3.2160835, y: -93.667786}
+        - {x: 5.2160835, y: -97.667786}
+        - {x: 36.216084, y: -97.667786}
+        - {x: 59.216084, y: -54.667786}
+        - {x: 59.216084, y: 71.332214}
+        - {x: 52.216084, y: 102.332214}
+    - name: batilda_up_0hands_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 860
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.1979, y: 102.332214}
+        - {x: -58.1979, y: 74.332214}
+        - {x: -58.1979, y: -22.667786}
+        - {x: -30.197899, y: -96.667786}
+        - {x: 22.802101, y: -96.667786}
+        - {x: 58.8021, y: -62.667786}
+        - {x: 58.8021, y: 102.332214}
+    - name: batilda_up_0hands_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 860
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.388123, y: -96.667786}
+        - {x: 17.388123, y: -96.667786}
+        - {x: 40.388123, y: -69.667786}
+        - {x: 59.388123, y: -30.667786}
+        - {x: 59.388123, y: 102.332214}
+        - {x: -57.611877, y: 102.332214}
+        - {x: -57.611877, y: -34.667786}
+        - {x: -18.611877, y: -93.667786}
+        - {x: -10.611877, y: -96.667786}
+        - {x: 2.3881226, y: -96.667786}
+        - {x: 3.3881226, y: -92.667786}
+        - {x: 3.3881226, y: -90.667786}
+        - {x: 3.3881226, y: -92.667786}
+    - name: batilda_up_0hands_9
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 860
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.02585, y: 102.332214}
+        - {x: -58.02585, y: 90.332214}
+        - {x: -58.02585, y: -30.667786}
+        - {x: -30.025848, y: -97.667786}
+        - {x: 14.974152, y: -97.667786}
+        - {x: 16.974152, y: -96.667786}
+        - {x: 58.97415, y: -24.667786}
+        - {x: 58.97415, y: 50.332214}
+        - {x: 53.97415, y: 102.332214}
+    - name: batilda_up_0hands_10
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 860
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.43985, y: 101.332214}
+        - {x: -58.43985, y: 52.332214}
+        - {x: -58.43985, y: -12.667786}
+        - {x: -11.43985, y: -98.667786}
+        - {x: 16.56015, y: -98.667786}
+        - {x: 58.56015, y: -37.667786}
+        - {x: 58.56015, y: 74.332214}
+        - {x: 54.56015, y: 101.332214}
+    - name: batilda_up_0hands_11
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 860
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.85382, y: 101.332214}
+        - {x: -57.85382, y: 92.332214}
+        - {x: -57.85382, y: -17.667786}
+        - {x: -11.853821, y: -99.667786}
+        - {x: 18.14618, y: -99.667786}
+        - {x: 59.14618, y: -34.667786}
+        - {x: 59.14618, y: 77.332214}
+        - {x: 56.14618, y: 101.332214}
+    - name: batilda_up_0hands_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 574
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.783916, y: 100.032196}
+        - {x: -57.783916, y: -49.967804}
+        - {x: -37.783916, y: -100.967804}
+        - {x: 25.216084, y: -100.967804}
+        - {x: 59.216084, y: -39.967804}
+        - {x: 59.216084, y: 92.032196}
+        - {x: 58.216084, y: 100.032196}
+    - name: batilda_up_0hands_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 574
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.1979, y: 100.032196}
+        - {x: -58.1979, y: -21.967804}
+        - {x: -15.197899, y: -100.967804}
+        - {x: 3.8021011, y: -100.967804}
+        - {x: 16.802101, y: -95.967804}
+        - {x: 32.8021, y: -75.967804}
+        - {x: 58.8021, y: -26.967804}
+        - {x: 58.8021, y: 100.032196}
+    - name: batilda_up_0hands_14
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 574
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.388123, y: 100.032196}
+        - {x: -50.611877, y: 100.032196}
+        - {x: -57.611877, y: 91.032196}
+        - {x: -57.611877, y: -45.967804}
+        - {x: -36.611877, y: -100.967804}
+        - {x: 22.388123, y: -100.967804}
+        - {x: 59.388123, y: -24.967804}
+        - {x: 59.388123, y: 45.032196}
+        - {x: 56.388123, y: 96.032196}
+    - name: batilda_up_0hands_15
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 574
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.02585, y: 99.032196}
+        - {x: -58.02585, y: 98.032196}
+        - {x: -58.02585, y: -39.967804}
+        - {x: -36.02585, y: -100.967804}
+        - {x: 15.974152, y: -100.967804}
+        - {x: 26.974152, y: -92.967804}
+        - {x: 58.97415, y: -36.967804}
+        - {x: 58.97415, y: 99.032196}
+    - name: batilda_up_0hands_16
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 574
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.43985, y: 99.032196}
+        - {x: -58.43985, y: -100.967804}
+        - {x: 58.56015, y: -100.967804}
+        - {x: 58.56015, y: 92.032196}
+        - {x: 49.56015, y: 99.032196}
+    - name: batilda_up_0hands_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 574
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.85382, y: 100.032196}
+        - {x: -57.85382, y: -10.967804}
+        - {x: -56.85382, y: -19.967804}
+        - {x: -10.853821, y: -100.967804}
+        - {x: 28.14618, y: -100.967804}
+        - {x: 59.14618, y: -42.967804}
+        - {x: 59.14618, y: 63.032196}
+        - {x: 53.14618, y: 100.032196}
+    - name: batilda_up_0hands_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.783916, y: 99.73218}
+        - {x: -57.783916, y: -49.267822}
+        - {x: -37.783916, y: -80.26782}
+        - {x: -14.783916, y: -101.26782}
+        - {x: 22.216084, y: -101.26782}
+        - {x: 26.216084, y: -99.26782}
+        - {x: 59.216084, y: -39.267822}
+        - {x: 59.216084, y: 99.73218}
+    - name: batilda_up_0hands_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 288
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.1979, y: 100.73218}
+        - {x: -58.1979, y: 67.73218}
+        - {x: -58.1979, y: -23.267822}
+        - {x: -15.197899, y: -101.26782}
+        - {x: 5.802101, y: -101.26782}
+        - {x: 14.802101, y: -97.26782}
+        - {x: 58.8021, y: -31.267822}
+        - {x: 58.8021, y: 52.732178}
+        - {x: 51.8021, y: 100.73218}
+    - name: batilda_up_0hands_20
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 288
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.611877, y: 100.73218}
+        - {x: -57.611877, y: -66.26782}
+        - {x: -30.611877, y: -100.26782}
+        - {x: 11.388123, y: -100.26782}
+        - {x: 59.388123, y: -67.26782}
+        - {x: 59.388123, y: 88.73218}
+        - {x: 56.388123, y: 100.73218}
+    - name: batilda_up_0hands_21
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 288
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.97415, y: -32.267822}
+        - {x: 52.97415, y: -24.267822}
+        - {x: 58.97415, y: -18.267822}
+        - {x: 58.97415, y: 30.732178}
+        - {x: 51.97415, y: 100.73218}
+        - {x: -52.02585, y: 100.73218}
+        - {x: -58.02585, y: 73.73218}
+        - {x: -58.02585, y: -52.267822}
+        - {x: -20.025848, y: -99.26782}
+        - {x: 7.9741516, y: -99.26782}
+        - {x: 14.974152, y: -98.26782}
+        - {x: 35.97415, y: -61.267822}
+        - {x: 37.97415, y: -42.267822}
+    - name: batilda_up_0hands_22
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 288
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.56015, y: 100.73218}
+        - {x: -48.43985, y: 100.73218}
+        - {x: -51.43985, y: 99.73218}
+        - {x: -58.43985, y: 43.732178}
+        - {x: -58.43985, y: -17.267822}
+        - {x: -14.43985, y: -94.26782}
+        - {x: -8.43985, y: -98.26782}
+        - {x: 15.56015, y: -98.26782}
+        - {x: 58.56015, y: -32.267822}
+        - {x: 58.56015, y: 91.73218}
+    - name: batilda_up_0hands_23
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 288
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.85382, y: 100.73218}
+        - {x: -57.85382, y: 85.73218}
+        - {x: -57.85382, y: -22.267822}
+        - {x: -25.85382, y: -97.26782}
+        - {x: 49.14618, y: -97.26782}
+        - {x: 59.14618, y: -56.267822}
+        - {x: 59.14618, y: 100.73218}
+    - name: batilda_up_0hands_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.216084, y: 101.93217}
+        - {x: -57.783916, y: 101.93217}
+        - {x: -57.783916, y: -25.067833}
+        - {x: -16.783916, y: -99.06783}
+        - {x: 25.216084, y: -99.06783}
+        - {x: 59.216084, y: -32.067833}
+        - {x: 59.216084, y: 41.932167}
+        - {x: 50.216084, y: 100.93217}
+    - name: batilda_up_0hands_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.1979, y: 101.93217}
+        - {x: -58.1979, y: 70.93217}
+        - {x: -58.1979, y: -29.067833}
+        - {x: -13.197899, y: -99.06783}
+        - {x: 19.802101, y: -99.06783}
+        - {x: 58.8021, y: -25.067833}
+        - {x: 58.8021, y: 53.932167}
+        - {x: 48.8021, y: 101.93217}
+    - name: batilda_up_0hands_26
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.611877, y: -30.067833}
+        - {x: -6.6118774, y: -100.06783}
+        - {x: 25.388123, y: -100.06783}
+        - {x: 59.388123, y: -63.067833}
+        - {x: 59.388123, y: 80.93217}
+        - {x: 54.388123, y: 101.93217}
+        - {x: -54.611877, y: 101.93217}
+        - {x: -57.611877, y: 100.93217}
+    - name: batilda_up_0hands_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.02585, y: 101.93217}
+        - {x: -58.02585, y: -60.067833}
+        - {x: -30.025848, y: -101.06783}
+        - {x: 33.97415, y: -101.06783}
+        - {x: 58.97415, y: -76.06783}
+        - {x: 58.97415, y: 101.93217}
+    - name: batilda_up_0hands_28
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.43985, y: 101.93217}
+        - {x: -58.43985, y: 56.932167}
+        - {x: -58.43985, y: -22.067833}
+        - {x: -11.43985, y: -96.06783}
+        - {x: 3.5601501, y: -101.06783}
+        - {x: 16.56015, y: -101.06783}
+        - {x: 58.56015, y: -33.067833}
+        - {x: 58.56015, y: 101.93217}
+    - name: batilda_up_0hands_29
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.85382, y: 101.93217}
+        - {x: -57.85382, y: 77.93217}
+        - {x: -57.85382, y: -25.067833}
+        - {x: -43.85382, y: -67.06783}
+        - {x: -8.853821, y: -93.06783}
+        - {x: 1.1461792, y: -101.06783}
+        - {x: 18.14618, y: -101.06783}
+        - {x: 59.14618, y: -34.067833}
+        - {x: 59.14618, y: 59.932167}
+        - {x: 52.14618, y: 101.93217}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: c5c4a8d622eaa3e44a5147d03b1fa6d8
+timeCreated: 1448400003
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dishes2_0
+    21300002: dishes2_1
+    21300004: dishes2_2
+    21300006: dishes2_3
+    21300008: dishes2_4
+    21300010: dishes2_5
+    21300012: dishes2_6
+    21300014: dishes2_7
+    21300016: dishes2_8
+    21300018: dishes2_9
+    21300020: dishes2_10
+    21300022: dishes2_11
+    21300024: dishes2_12
+    21300026: dishes2_13
+    21300028: dishes2_14
+    21300030: dishes2_15
+    21300032: dishes2_16
+    21300034: dishes2_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 175
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 0
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: dishes2_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 661
+        width: 188
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.406666, y: 28.526672}
+        - {x: -40.406666, y: -28.473328}
+        - {x: 40.593334, y: -28.473328}
+        - {x: 40.593334, y: 16.526672}
+        - {x: 31.593334, y: 28.526672}
+    - name: dishes2_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 661
+        width: 201
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.44667, y: 30.026672}
+        - {x: -42.55333, y: 30.026672}
+        - {x: -42.55333, y: -21.973328}
+        - {x: -38.55333, y: -29.973328}
+        - {x: 26.44667, y: -29.973328}
+        - {x: 39.44667, y: -24.973328}
+        - {x: 44.44667, y: -15.973328}
+        - {x: 44.44667, y: 13.026672}
+    - name: dishes2_2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 661
+        width: 188
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.10666, y: 25.026672}
+        - {x: -40.10666, y: 21.026672}
+        - {x: -40.10666, y: -22.973328}
+        - {x: -34.10666, y: -24.973328}
+        - {x: 35.89334, y: -24.973328}
+        - {x: 41.89334, y: -13.973328}
+        - {x: 41.89334, y: 18.026672}
+        - {x: 32.89334, y: 25.026672}
+    - name: dishes2_3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 661
+        width: 188
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.793335, y: 28.026672}
+        - {x: -31.206665, y: 28.026672}
+        - {x: -40.206665, y: 25.026672}
+        - {x: -40.206665, y: -13.973328}
+        - {x: -38.206665, y: -16.973328}
+        - {x: -31.206665, y: -23.973328}
+        - {x: -22.206665, y: -27.973328}
+        - {x: 36.793335, y: -27.973328}
+        - {x: 40.793335, y: -16.973328}
+        - {x: 40.793335, y: 12.026672}
+        - {x: 32.793335, y: 18.026672}
+    - name: dishes2_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 448
+        width: 196
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.113335, y: 30.146667}
+        - {x: -40.113335, y: 29.146667}
+        - {x: -42.113335, y: 23.146667}
+        - {x: -42.113335, y: -14.8533325}
+        - {x: -23.113335, y: -29.853333}
+        - {x: 34.886665, y: -29.853333}
+        - {x: 42.886665, y: -11.8533325}
+        - {x: 42.886665, y: 25.146667}
+        - {x: 26.886665, y: 30.146667}
+    - name: dishes2_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 448
+        width: 196
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.713333, y: 28.146667}
+        - {x: -41.713333, y: -18.853333}
+        - {x: -25.713333, y: -27.853333}
+        - {x: 33.286667, y: -27.853333}
+        - {x: 43.286667, y: -14.8533325}
+        - {x: 43.286667, y: 28.146667}
+    - name: dishes2_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 448
+        width: 196
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.186676, y: 29.646667}
+        - {x: -41.813324, y: 29.646667}
+        - {x: -41.813324, y: -25.353333}
+        - {x: -25.813324, y: -30.353333}
+        - {x: 28.186676, y: -30.353333}
+        - {x: 41.186676, y: -17.353333}
+        - {x: 42.186676, y: -11.3533325}
+        - {x: 42.186676, y: 22.646667}
+    - name: dishes2_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 448
+        width: 196
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.91333, y: 31.146667}
+        - {x: -41.91333, y: -21.853333}
+        - {x: -26.91333, y: -30.853333}
+        - {x: 34.08667, y: -30.853333}
+        - {x: 43.08667, y: -13.8533325}
+        - {x: 43.08667, y: 31.146667}
+    - name: dishes2_8
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 448
+        width: 196
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.513336, y: 28.646667}
+        - {x: -40.513336, y: 21.646667}
+        - {x: -41.513336, y: 18.646667}
+        - {x: -41.513336, y: -20.353333}
+        - {x: -22.513336, y: -28.353333}
+        - {x: 31.486664, y: -28.353333}
+        - {x: 43.486664, y: -17.353333}
+        - {x: 43.486664, y: 25.646667}
+        - {x: 30.486664, y: 28.646667}
+    - name: dishes2_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 243
+        width: 198
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.173332, y: 38.18}
+        - {x: -42.173332, y: 29.18}
+        - {x: -42.173332, y: -31.82}
+        - {x: -22.173332, y: -36.82}
+        - {x: 32.826668, y: -36.82}
+        - {x: 43.826668, y: -27.82}
+        - {x: 43.826668, y: 19.18}
+        - {x: 21.826668, y: 38.18}
+    - name: dishes2_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 243
+        width: 196
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.92, y: 36.18}
+        - {x: -41.92, y: -23.82}
+        - {x: -28.919998, y: -30.82}
+        - {x: -16.919998, y: -34.82}
+        - {x: 24.080002, y: -34.82}
+        - {x: 42.08, y: -26.82}
+        - {x: 42.08, y: 32.18}
+        - {x: 28.080002, y: 36.18}
+    - name: dishes2_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 243
+        width: 198
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.37332, y: 38.18}
+        - {x: -42.37332, y: 29.18}
+        - {x: -42.37332, y: -25.82}
+        - {x: -31.373322, y: -36.82}
+        - {x: 42.62668, y: -36.82}
+        - {x: 43.62668, y: -30.82}
+        - {x: 43.62668, y: 27.18}
+        - {x: 27.626678, y: 38.18}
+    - name: dishes2_12
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 243
+        width: 197
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.0466614, y: 38.68}
+        - {x: -22.046661, y: 38.68}
+        - {x: -40.04666, y: 30.68}
+        - {x: -42.04666, y: 26.68}
+        - {x: -42.04666, y: -27.32}
+        - {x: -18.046661, y: -37.32}
+        - {x: 27.953339, y: -37.32}
+        - {x: 42.95334, y: -28.32}
+        - {x: 42.95334, y: 18.68}
+        - {x: 22.953339, y: 30.68}
+    - name: dishes2_13
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 243
+        width: 199
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 35.68}
+        - {x: 13.5, y: 36.68}
+        - {x: -32.5, y: 36.68}
+        - {x: -39.5, y: 32.68}
+        - {x: -42.5, y: 28.68}
+        - {x: -42.5, y: -24.32}
+        - {x: -23.5, y: -35.32}
+        - {x: 23.5, y: -35.32}
+        - {x: 29.5, y: -33.32}
+        - {x: 42.5, y: -25.32}
+        - {x: 42.5, y: 20.68}
+    - name: dishes2_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 191
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.760002, y: 28.74}
+        - {x: -40.760002, y: -28.26}
+        - {x: 41.239998, y: -28.26}
+        - {x: 41.239998, y: 28.74}
+    - name: dishes2_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 24
+        width: 191
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.933334, y: 28.74}
+        - {x: -40.933334, y: -27.26}
+        - {x: -39.933334, y: -28.26}
+        - {x: 40.066666, y: -28.26}
+        - {x: 41.066666, y: -27.26}
+        - {x: 41.066666, y: 28.74}
+    - name: dishes2_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 24
+        width: 191
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.95999, y: 29.24}
+        - {x: -40.95999, y: -27.76}
+        - {x: -39.95999, y: -28.76}
+        - {x: 41.04001, y: -28.76}
+        - {x: 41.04001, y: 29.24}
+    - name: dishes2_17
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 46
+        width: 208
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.32666, y: 20.626667}
+        - {x: -44.32666, y: -19.373333}
+        - {x: 44.67334, y: -19.373333}
+        - {x: 44.67334, y: 19.626667}
+        - {x: 42.67334, y: 20.626667}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

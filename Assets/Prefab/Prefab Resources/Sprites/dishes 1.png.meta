@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 967e5188b1ce0f843b40dfb710fa6152
+timeCreated: 1454868414
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dishes 1_0
+    21300002: dishes 1_1
+    21300004: dishes 1_2
+    21300006: dishes 1_3
+    21300008: dishes 1_4
+    21300010: dishes 1_5
+    21300012: dishes 1_6
+    21300014: dishes 1_7
+    21300016: dishes 1_8
+    21300018: dishes 1_9
+    21300020: dishes 1_10
+    21300022: dishes 1_11
+    21300024: dishes 1_12
+    21300026: dishes 1_13
+    21300028: dishes 1_14
+    21300030: dishes 1_15
+    21300032: dishes 1_16
+    21300034: dishes 1_17
+    21300036: dishes 1_18
+    21300038: dishes 1_19
+    21300040: dishes 1_20
+    21300042: dishes 1_21
+    21300044: dishes 1_22
+    21300046: dishes 1_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 0
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: dishes 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1045
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 23.666656}
+        - {x: -41, y: -35.333344}
+        - {x: 41, y: -35.333344}
+        - {x: 41, y: 23.666656}
+    - name: dishes 1_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1045
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.509567, y: 25.666656}
+        - {x: -39.509567, y: 21.666656}
+        - {x: -39.509567, y: -35.333344}
+        - {x: 41.490433, y: -35.333344}
+        - {x: 42.490433, y: -30.333344}
+        - {x: 42.490433, y: 23.666656}
+        - {x: 27.490433, y: 25.666656}
+    - name: dishes 1_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1045
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.519135, y: 23.666656}
+        - {x: -39.519135, y: -35.333344}
+        - {x: 42.480865, y: -35.333344}
+        - {x: 42.480865, y: 23.666656}
+    - name: dishes 1_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1045
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.528717, y: 23.666656}
+        - {x: -39.528717, y: 22.666656}
+        - {x: -39.528717, y: -35.333344}
+        - {x: 33.471283, y: -35.333344}
+        - {x: 42.471283, y: -34.333344}
+        - {x: 42.471283, y: 22.666656}
+        - {x: 39.471283, y: 23.666656}
+    - name: dishes 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 836
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 23.333344}
+        - {x: -27, y: 23.333344}
+        - {x: -41, y: 14.3333435}
+        - {x: -41, y: -19.666656}
+        - {x: -38, y: -30.666656}
+        - {x: 37, y: -30.666656}
+        - {x: 41, y: -18.666656}
+        - {x: 41, y: 18.333344}
+    - name: dishes 1_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 836
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.509567, y: 25.333344}
+        - {x: -33.509567, y: 24.333344}
+        - {x: -39.509567, y: 7.3333435}
+        - {x: -39.509567, y: -30.666656}
+        - {x: 32.490433, y: -30.666656}
+        - {x: 42.490433, y: -17.666656}
+        - {x: 42.490433, y: 16.333344}
+        - {x: 34.490433, y: 25.333344}
+    - name: dishes 1_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 836
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.519135, y: 24.333344}
+        - {x: -39.519135, y: 15.3333435}
+        - {x: -39.519135, y: -26.666656}
+        - {x: -31.519135, y: -30.666656}
+        - {x: 33.480865, y: -30.666656}
+        - {x: 42.480865, y: -19.666656}
+        - {x: 42.480865, y: 24.333344}
+    - name: dishes 1_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 836
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.528717, y: 25.333344}
+        - {x: -39.528717, y: 17.333344}
+        - {x: -39.528717, y: -18.666656}
+        - {x: -33.528717, y: -29.666656}
+        - {x: -23.528717, y: -30.666656}
+        - {x: 32.471283, y: -30.666656}
+        - {x: 42.471283, y: -21.666656}
+        - {x: 42.471283, y: 25.333344}
+    - name: dishes 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 627
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 13}
+        - {x: 5, y: 11}
+        - {x: -1, y: 1}
+        - {x: -1, y: -15}
+        - {x: 0, y: -18}
+        - {x: 33, y: -18}
+        - {x: 42, y: -4}
+        - {x: 42, y: 13}
+    - name: dishes 1_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 627
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.490433, y: 15}
+        - {x: 12.490433, y: 15}
+        - {x: 0.49043274, y: 8}
+        - {x: 0.49043274, y: -17}
+        - {x: 3.4904327, y: -18}
+        - {x: 26.490433, y: -18}
+        - {x: 41.490433, y: -6}
+        - {x: 43.490433, y: 0}
+        - {x: 43.490433, y: 12}
+    - name: dishes 1_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 627
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.4808655, y: 14}
+        - {x: 9.4808655, y: 10}
+        - {x: 1.4808655, y: 2}
+        - {x: 1.4808655, y: -15}
+        - {x: 2.4808655, y: -18}
+        - {x: 26.480865, y: -18}
+        - {x: 44.480865, y: -9}
+        - {x: 44.480865, y: 12}
+        - {x: 39.480865, y: 14}
+    - name: dishes 1_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 627
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.471283, y: 15}
+        - {x: 13.471283, y: 15}
+        - {x: -0.52871704, y: 9}
+        - {x: -0.52871704, y: -12}
+        - {x: 2.471283, y: -17}
+        - {x: 15.471283, y: -17}
+        - {x: 27.471283, y: -14}
+        - {x: 40.471283, y: -4}
+        - {x: 42.471283, y: 1}
+    - name: dishes 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 418
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 21.666672}
+        - {x: -41, y: 15.666672}
+        - {x: -41, y: -24.333328}
+        - {x: -24, y: -30.333328}
+        - {x: 28, y: -30.333328}
+        - {x: 41, y: -22.333328}
+        - {x: 41, y: 11.666672}
+        - {x: 27, y: 21.666672}
+    - name: dishes 1_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 418
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.490433, y: -42.33333}
+        - {x: 46.490433, y: -39.33333}
+        - {x: 29.490433, y: -39.33333}
+        - {x: 28.490433, y: -42.33333}
+      - - {x: 29.490433, y: 21.666672}
+        - {x: -28.509567, y: 21.666672}
+        - {x: -39.509567, y: 8.666672}
+        - {x: -39.509567, y: -14.333328}
+        - {x: -33.509567, y: -24.333328}
+        - {x: -13.509567, y: -30.333328}
+        - {x: 32.490433, y: -30.333328}
+        - {x: 42.490433, y: -14.333328}
+        - {x: 42.490433, y: 12.666672}
+        - {x: 36.490433, y: 20.666672}
+    - name: dishes 1_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 418
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.480865, y: -42.33333}
+        - {x: 32.480865, y: -39.33333}
+        - {x: 26.480865, y: -39.33333}
+        - {x: 25.480865, y: -42.33333}
+      - - {x: 9.4808655, y: 16.666672}
+        - {x: 7.4808655, y: 15.666672}
+        - {x: 7.4808655, y: -3.3333282}
+        - {x: 15.4808655, y: -14.333328}
+        - {x: 31.480865, y: -14.333328}
+        - {x: 40.480865, y: -11.333328}
+        - {x: 40.480865, y: 11.666672}
+        - {x: 35.480865, y: 16.666672}
+    - name: dishes 1_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 418
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.471283, y: 19.666672}
+        - {x: 7.471283, y: 18.666672}
+        - {x: 5.471283, y: 11.666672}
+        - {x: 5.471283, y: -7.3333282}
+        - {x: 14.471283, y: -11.333328}
+        - {x: 33.471283, y: -11.333328}
+        - {x: 42.471283, y: -3.3333282}
+        - {x: 42.471283, y: 11.666672}
+        - {x: 38.471283, y: 19.666672}
+    - name: dishes 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 40.333336}
+        - {x: 17, y: 38.333336}
+        - {x: 17, y: 12.333336}
+        - {x: 24, y: 9.333336}
+        - {x: 45, y: 9.333336}
+        - {x: 49, y: 17.333336}
+        - {x: 49, y: 40.333336}
+    - name: dishes 1_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 209
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.490433, y: -42.666664}
+        - {x: 9.490433, y: -39.666664}
+        - {x: -8.509567, y: -39.666664}
+        - {x: -9.509567, y: -42.666664}
+      - - {x: 23.490433, y: 43.333336}
+        - {x: 23.490433, y: 13.333336}
+        - {x: 28.490433, y: -0.6666641}
+        - {x: 50.490433, y: -0.6666641}
+        - {x: 50.490433, y: 43.333336}
+    - name: dishes 1_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 209
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.4808655, y: 43.333336}
+        - {x: 15.4808655, y: 11.333336}
+        - {x: 20.480865, y: 7.333336}
+        - {x: 37.480865, y: 7.333336}
+        - {x: 43.480865, y: 8.333336}
+        - {x: 50.480865, y: 16.333336}
+        - {x: 50.480865, y: 39.333336}
+        - {x: 46.480865, y: 43.333336}
+      - - {x: -48.519135, y: 32.333336}
+        - {x: -45.519135, y: 33.333336}
+        - {x: -45.519135, y: 39.333336}
+        - {x: -47.519135, y: 41.333336}
+        - {x: -48.519135, y: 41.333336}
+    - name: dishes 1_19
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 209
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.471283, y: 1.3333359}
+        - {x: 8.471283, y: -2.6666641}
+        - {x: 8.471283, y: -12.666664}
+        - {x: 14.471283, y: -22.666664}
+        - {x: 31.471283, y: -22.666664}
+        - {x: 36.471283, y: -16.666664}
+        - {x: 36.471283, y: -1.6666641}
+        - {x: 34.471283, y: 1.3333359}
+    - name: dishes 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 25}
+        - {x: -27, y: 19}
+        - {x: -27, y: -14}
+        - {x: -9, y: -28}
+        - {x: 11, y: -28}
+        - {x: 14, y: -26}
+        - {x: 28, y: -11}
+        - {x: 28, y: 12}
+        - {x: 25, y: 25}
+    - name: dishes 1_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.509567, y: 43}
+        - {x: -22.509567, y: -33}
+        - {x: 10.490433, y: -33}
+        - {x: 23.490433, y: -30}
+        - {x: 23.490433, y: 40}
+        - {x: 20.490433, y: 43}
+    - name: dishes 1_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.519135, y: 32}
+        - {x: -22.519135, y: 31}
+        - {x: -22.519135, y: -25}
+        - {x: -14.5191345, y: -30}
+        - {x: 32.480865, y: -30}
+        - {x: 36.480865, y: -18}
+        - {x: 36.480865, y: 31}
+        - {x: 35.480865, y: 32}
+    - name: dishes 1_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 240
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.528717, y: 26}
+        - {x: -39.528717, y: 20}
+        - {x: -39.528717, y: -18}
+        - {x: -25.528717, y: -31}
+        - {x: 28.471283, y: -31}
+        - {x: 42.471283, y: -29}
+        - {x: 42.471283, y: 26}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

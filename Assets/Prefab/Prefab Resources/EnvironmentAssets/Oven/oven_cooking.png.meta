@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 7b6322845ac3bbc4798494559aada6fb
+timeCreated: 1449541353
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oven_cooking_0
+    21300002: oven_cooking_1
+    21300004: oven_cooking_2
+    21300006: oven_cooking_3
+    21300008: oven_cooking_4
+    21300010: oven_cooking_5
+    21300012: oven_cooking_6
+    21300014: oven_cooking_7
+    21300016: oven_cooking_8
+    21300018: oven_cooking_9
+    21300020: oven_cooking_10
+    21300022: oven_cooking_11
+    21300024: oven_cooking_12
+    21300026: oven_cooking_13
+    21300028: oven_cooking_14
+    21300030: oven_cooking_15
+    21300032: oven_cooking_16
+    21300034: oven_cooking_17
+    21300036: oven_cooking_18
+    21300038: oven_cooking_19
+    21300040: oven_cooking_20
+    21300042: oven_cooking_21
+    21300044: oven_cooking_22
+    21300046: oven_cooking_23
+    21300048: oven_cooking_24
+    21300050: oven_cooking_25
+    21300052: oven_cooking_26
+    21300054: oven_cooking_27
+    21300056: oven_cooking_28
+    21300058: oven_cooking_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: oven_cooking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 260
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 260
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 260
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 260
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 260
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 195
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 195
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_9
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 195
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 195
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_11
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 195
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_13
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 130
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_14
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 130
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 130
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_16
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 130
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_17
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 130
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_19
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 65
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 65
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_21
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 65
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 65
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_23
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 65
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    - name: oven_cooking_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 32.5}
+        - {x: -62, y: -32.5}
+        - {x: 62, y: -32.5}
+        - {x: 62, y: 32.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

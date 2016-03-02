@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: d30bd8892e39d3b4a898a463a7a55317
+timeCreated: 1449005707
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chef_up_1_0
+    21300002: chef_up_1_1
+    21300004: chef_up_1_2
+    21300006: chef_up_1_3
+    21300008: chef_up_1_4
+    21300010: chef_up_1_5
+    21300012: chef_up_1_6
+    21300014: chef_up_1_7
+    21300016: chef_up_1_8
+    21300018: chef_up_1_9
+    21300020: chef_up_1_10
+    21300022: chef_up_1_11
+    21300024: chef_up_1_12
+    21300026: chef_up_1_13
+    21300028: chef_up_1_14
+    21300030: chef_up_1_15
+    21300032: chef_up_1_16
+    21300034: chef_up_1_17
+    21300036: chef_up_1_18
+    21300038: chef_up_1_19
+    21300040: chef_up_1_20
+    21300042: chef_up_1_21
+    21300044: chef_up_1_22
+    21300046: chef_up_1_23
+    21300048: chef_up_1_24
+    21300050: chef_up_1_25
+    21300052: chef_up_1_26
+    21300054: chef_up_1_27
+    21300056: chef_up_1_28
+    21300058: chef_up_1_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chef_up_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.5, y: 102.69995}
+        - {x: -59.5, y: -78.30005}
+        - {x: -55.5, y: -102.30005}
+        - {x: 29.5, y: -102.30005}
+        - {x: 61.5, y: -82.30005}
+        - {x: 61.5, y: 102.69995}
+    - name: chef_up_1_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1148
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.58676, y: 102.69995}
+        - {x: -58.41324, y: 102.69995}
+        - {x: -58.41324, y: -102.30005}
+        - {x: 24.586761, y: -102.30005}
+        - {x: 60.58676, y: -61.30005}
+        - {x: 61.58676, y: -43.30005}
+    - name: chef_up_1_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1148
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.326477, y: 102.69995}
+        - {x: -58.326477, y: -55.30005}
+        - {x: -30.326477, y: -102.30005}
+        - {x: 22.673523, y: -102.30005}
+        - {x: 61.673523, y: -85.30005}
+        - {x: 61.673523, y: 102.69995}
+    - name: chef_up_1_3
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1148
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.760284, y: -51.30005}
+        - {x: 62.760284, y: 102.69995}
+        - {x: -58.239716, y: 102.69995}
+        - {x: -58.239716, y: -66.30005}
+        - {x: -16.239716, y: -101.30005}
+        - {x: 30.760284, y: -101.30005}
+        - {x: 33.760284, y: -82.30005}
+        - {x: 33.760284, y: -78.30005}
+        - {x: 54.760284, y: -60.30005}
+    - name: chef_up_1_4
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1148
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.152954, y: 102.69995}
+        - {x: -59.152954, y: -57.30005}
+        - {x: -49.152954, y: -101.30005}
+        - {x: 30.847046, y: -101.30005}
+        - {x: 62.847046, y: -64.30005}
+        - {x: 62.847046, y: 94.69995}
+        - {x: 60.847046, y: 102.69995}
+    - name: chef_up_1_5
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1148
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.933777, y: -48.30005}
+        - {x: 41.933777, y: -42.30005}
+        - {x: 53.933777, y: -32.30005}
+        - {x: 63.933777, y: -20.300049}
+        - {x: 63.933777, y: 102.69995}
+        - {x: -58.066223, y: 102.69995}
+        - {x: -58.066223, y: -80.30005}
+        - {x: -37.066223, y: -100.30005}
+        - {x: 18.933777, y: -100.30005}
+        - {x: 35.933777, y: -82.30005}
+        - {x: 33.933777, y: -77.30005}
+        - {x: 54.933777, y: -61.30005}
+    - name: chef_up_1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 861
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 102.39996}
+        - {x: -60.5, y: -60.600037}
+        - {x: -25.5, y: -99.60004}
+        - {x: 33.5, y: -99.60004}
+        - {x: 50.5, y: -89.60004}
+        - {x: 62.5, y: -57.600037}
+        - {x: 62.5, y: 102.39996}
+    - name: chef_up_1_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 861
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.41324, y: 101.39996}
+        - {x: -60.41324, y: -29.600037}
+        - {x: -29.413239, y: -84.60004}
+        - {x: -9.413239, y: -99.60004}
+        - {x: 31.586761, y: -99.60004}
+        - {x: 63.58676, y: -66.60004}
+        - {x: 63.58676, y: 101.39996}
+    - name: chef_up_1_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 861
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.326477, y: 101.39996}
+        - {x: -61.326477, y: -11.600037}
+        - {x: -60.326477, y: -20.600037}
+        - {x: -31.326477, y: -81.60004}
+        - {x: -12.326477, y: -99.60004}
+        - {x: 25.673523, y: -99.60004}
+        - {x: 63.673523, y: -61.600037}
+        - {x: 63.673523, y: 101.39996}
+    - name: chef_up_1_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 861
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.239716, y: 100.39996}
+        - {x: -61.239716, y: -52.600037}
+        - {x: -23.239716, y: -100.60004}
+        - {x: 59.760284, y: -100.60004}
+        - {x: 64.760284, y: -84.60004}
+        - {x: 64.760284, y: 100.39996}
+    - name: chef_up_1_10
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 861
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.152954, y: 100.39996}
+        - {x: -61.152954, y: -42.600037}
+        - {x: -52.152954, y: -94.60004}
+        - {x: -37.152954, y: -100.60004}
+        - {x: 7.847046, y: -100.60004}
+        - {x: 39.847046, y: -87.60004}
+        - {x: 64.847046, y: -68.60004}
+        - {x: 64.847046, y: 100.39996}
+    - name: chef_up_1_11
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 861
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.93378, y: 98.39996}
+        - {x: 62.933777, y: 100.39996}
+        - {x: 46.933777, y: 100.39996}
+        - {x: -10.066223, y: 91.39996}
+        - {x: -44.066223, y: 100.39996}
+        - {x: -61.066223, y: 100.39996}
+        - {x: -61.066223, y: -28.600037}
+        - {x: -35.066223, y: -84.60004}
+        - {x: -12.066223, y: -101.60004}
+        - {x: 26.933777, y: -101.60004}
+        - {x: 62.933777, y: -51.600037}
+        - {x: 65.93378, y: 38.399963}
+    - name: chef_up_1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 574
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 100.599976}
+        - {x: -63.5, y: -41.400024}
+        - {x: -32.5, y: -102.400024}
+        - {x: 22.5, y: -102.400024}
+        - {x: 64.5, y: -76.400024}
+        - {x: 64.5, y: 100.599976}
+    - name: chef_up_1_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 574
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.41324, y: 99.599976}
+        - {x: -63.41324, y: -48.400024}
+        - {x: -23.413239, y: -102.400024}
+        - {x: 19.586761, y: -102.400024}
+        - {x: 60.58676, y: -62.400024}
+        - {x: 65.58676, y: -12.400024}
+        - {x: 65.58676, y: 99.599976}
+    - name: chef_up_1_14
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 574
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.326477, y: 98.599976}
+        - {x: -63.326477, y: 0.5999756}
+        - {x: -42.326477, y: -86.400024}
+        - {x: -31.326477, y: -102.400024}
+        - {x: 18.673523, y: -102.400024}
+        - {x: 65.67352, y: -64.400024}
+        - {x: 65.67352, y: 98.599976}
+    - name: chef_up_1_15
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 574
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.239716, y: 98.599976}
+        - {x: -63.239716, y: -7.4000244}
+        - {x: -62.239716, y: -25.400024}
+        - {x: -23.239716, y: -102.400024}
+        - {x: 11.760284, y: -102.400024}
+        - {x: 53.760284, y: -77.400024}
+        - {x: 66.760284, y: -56.400024}
+        - {x: 66.760284, y: 98.599976}
+    - name: chef_up_1_16
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 574
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.152954, y: 98.599976}
+        - {x: -63.152954, y: -25.400024}
+        - {x: -33.152954, y: -81.400024}
+        - {x: -14.152954, y: -102.400024}
+        - {x: 44.847046, y: -102.400024}
+        - {x: 65.847046, y: -86.400024}
+        - {x: 65.847046, y: 98.599976}
+    - name: chef_up_1_17
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 574
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.933777, y: -19.400024}
+        - {x: 66.93378, y: 59.599976}
+        - {x: 66.93378, y: 99.599976}
+        - {x: -62.066223, y: 99.599976}
+        - {x: -62.066223, y: 26.599976}
+        - {x: -55.066223, y: -26.400024}
+        - {x: -26.066223, y: -102.400024}
+        - {x: 15.933777, y: -102.400024}
+        - {x: 58.933777, y: -67.400024}
+        - {x: 55.933777, y: -50.400024}
+        - {x: 49.933777, y: -45.400024}
+    - name: chef_up_1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -38.200012}
+        - {x: 64.5, y: 1.7999878}
+        - {x: 64.5, y: 99.79999}
+        - {x: -63.5, y: 99.79999}
+        - {x: -63.5, y: -56.200012}
+        - {x: -56.5, y: -96.20001}
+        - {x: -33.5, y: -102.20001}
+        - {x: 13.5, y: -102.20001}
+        - {x: 33.5, y: -85.20001}
+        - {x: 55.5, y: -60.200012}
+        - {x: 52.5, y: -49.200012}
+    - name: chef_up_1_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 287
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.58676, y: 100.79999}
+        - {x: -62.41324, y: 100.79999}
+        - {x: -62.41324, y: -37.200012}
+        - {x: -37.41324, y: -82.20001}
+        - {x: -18.413239, y: -101.20001}
+        - {x: 3.5867615, y: -101.20001}
+        - {x: 35.58676, y: -86.20001}
+        - {x: 53.58676, y: -57.200012}
+        - {x: 57.58676, y: -45.200012}
+        - {x: 64.58676, y: 0.7999878}
+    - name: chef_up_1_20
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 287
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.326477, y: 100.79999}
+        - {x: -62.326477, y: -31.200012}
+        - {x: -20.326477, y: -100.20001}
+        - {x: 21.673523, y: -100.20001}
+        - {x: 64.67352, y: -59.200012}
+        - {x: 64.67352, y: 100.79999}
+      - - {x: -9.326477, y: 103.79999}
+        - {x: -8.326477, y: 100.79999}
+        - {x: -4.326477, y: 100.79999}
+        - {x: -2.326477, y: 102.79999}
+        - {x: -2.326477, y: 103.79999}
+    - name: chef_up_1_21
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 287
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.239716, y: 101.79999}
+        - {x: -61.239716, y: 26.799988}
+        - {x: -57.239716, y: -22.200012}
+        - {x: -42.239716, y: -88.20001}
+        - {x: -16.239716, y: -99.20001}
+        - {x: 36.760284, y: -99.20001}
+        - {x: 64.760284, y: -60.200012}
+        - {x: 64.760284, y: 101.79999}
+      - - {x: -10.239716, y: 103.79999}
+        - {x: -9.239716, y: 100.79999}
+        - {x: -2.2397156, y: 100.79999}
+        - {x: -0.23971558, y: 102.79999}
+        - {x: -0.23971558, y: 103.79999}
+    - name: chef_up_1_22
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 287
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.152954, y: 101.79999}
+        - {x: -60.152954, y: -27.200012}
+        - {x: -48.152954, y: -91.20001}
+        - {x: -23.152954, y: -99.20001}
+        - {x: 36.847046, y: -99.20001}
+        - {x: 60.847046, y: -59.200012}
+        - {x: 63.847046, y: -52.200012}
+        - {x: 63.847046, y: 101.79999}
+      - - {x: -9.152954, y: 103.79999}
+        - {x: -8.152954, y: 100.79999}
+        - {x: -3.152954, y: 100.79999}
+        - {x: -1.1529541, y: 102.79999}
+        - {x: -1.1529541, y: 103.79999}
+    - name: chef_up_1_23
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 287
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.066223, y: 101.79999}
+        - {x: -59.066223, y: -38.200012}
+        - {x: -48.066223, y: -95.20001}
+        - {x: -32.066223, y: -98.20001}
+        - {x: 25.933777, y: -98.20001}
+        - {x: 63.933777, y: -47.200012}
+        - {x: 63.933777, y: 101.79999}
+    - name: chef_up_1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: -48.5}
+        - {x: 46.5, y: -45.5}
+        - {x: 60.5, y: -22.5}
+        - {x: 62.5, y: 25.5}
+        - {x: 62.5, y: 101.5}
+        - {x: -60.5, y: 101.5}
+        - {x: -60.5, y: -36.5}
+        - {x: -23.5, y: -99.5}
+        - {x: 16.5, y: -99.5}
+        - {x: 33.5, y: -81.5}
+        - {x: 31.5, y: -76.5}
+        - {x: 49.5, y: -64.5}
+    - name: chef_up_1_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.41324, y: 101.5}
+        - {x: -59.41324, y: -53.5}
+        - {x: -44.41324, y: -89.5}
+        - {x: -17.413239, y: -100.5}
+        - {x: 39.58676, y: -100.5}
+        - {x: 62.58676, y: -72.5}
+        - {x: 62.58676, y: 101.5}
+    - name: chef_up_1_26
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.326477, y: 102.5}
+        - {x: -59.326477, y: -31.5}
+        - {x: -32.326477, y: -82.5}
+        - {x: -10.326477, y: -97.5}
+        - {x: 3.673523, y: -101.5}
+        - {x: 22.673523, y: -101.5}
+        - {x: 49.673523, y: -92.5}
+        - {x: 62.673523, y: -76.5}
+        - {x: 62.673523, y: 102.5}
+    - name: chef_up_1_27
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 0
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.239716, y: 102.5}
+        - {x: -58.239716, y: -46.5}
+        - {x: -34.239716, y: -85.5}
+        - {x: -19.239716, y: -101.5}
+        - {x: 34.760284, y: -101.5}
+        - {x: 62.760284, y: -79.5}
+        - {x: 62.760284, y: 102.5}
+    - name: chef_up_1_28
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.152954, y: 102.5}
+        - {x: -58.152954, y: -65.5}
+        - {x: -51.152954, y: -101.5}
+        - {x: -47.152954, y: -102.5}
+        - {x: 38.847046, y: -102.5}
+        - {x: 61.847046, y: -78.5}
+        - {x: 61.847046, y: 102.5}
+    - name: chef_up_1_29
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 0
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.066223, y: 102.5}
+        - {x: -57.066223, y: 1.5}
+        - {x: -54.066223, y: -23.5}
+        - {x: -45.066223, y: -31.5}
+        - {x: -38.066223, y: -34.5}
+        - {x: -31.066223, y: -83.5}
+        - {x: -6.066223, y: -102.5}
+        - {x: 18.933777, y: -102.5}
+        - {x: 62.933777, y: -71.5}
+        - {x: 62.933777, y: 102.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
