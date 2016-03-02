@@ -106,6 +106,7 @@ public class Tutorial : MonoBehaviour {
             Time.timeScale = 1.0f;
             GameObject.Find("Batilda").GetComponent<SpriteRenderer>().sortingOrder = 3;
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
+            OpenSignAnim.confirm_tutorial_start = false;
             GameObject.Find("Main Camera").GetComponent<Tutorial>().enabled = false;
             PlayerPrefs.SetString("tutorial", "no");
         }

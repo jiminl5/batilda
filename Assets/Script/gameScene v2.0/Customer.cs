@@ -54,7 +54,10 @@ public class Customer : MonoBehaviour {
         }
         else if (!needsToOrder && tempObj)
         {
-            OpenSignAnim.confirm_tutorial_start = true;
+            if (PlayerPrefs.GetString("tutorial") == "yes")
+                OpenSignAnim.confirm_tutorial_start = true;
+            else
+                OpenSignAnim.confirm_tutorial_start = false;
             Destroy(tempObj);
         }
 		if (!hasFood && !needsToOrder) {
