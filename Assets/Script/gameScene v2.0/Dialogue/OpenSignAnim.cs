@@ -69,6 +69,7 @@ public class OpenSignAnim : MonoBehaviour {
                     tutorial_start = true;
                 }
                 else {
+                    GameObject.Find("Main Camera").GetComponent<Tutorial>().enabled = false;
                     //Destroy Unnecessary tutorial assets
                     Destroy(GameObject.Find("bg_trans"));
                     Destroy(GameObject.Find("speechBubble"));
