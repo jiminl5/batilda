@@ -66,9 +66,7 @@ public class OpenSignAnim : MonoBehaviour {
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
                     GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
-                    //GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                     tutorial_start = true;
-                    this.gameObject.transform.position = new Vector2(20.0f, this.gameObject.transform.position.y);
                 }
                 else {
                     //Destroy Unnecessary tutorial assets
@@ -91,7 +89,6 @@ public class OpenSignAnim : MonoBehaviour {
         {
             if (confirm_tutorial_start)
             {
-                //GameObject.Find("tmp_invisibleTile1(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 Destroy(this.gameObject);
             }

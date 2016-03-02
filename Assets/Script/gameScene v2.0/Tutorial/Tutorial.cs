@@ -9,6 +9,8 @@ public class Tutorial : MonoBehaviour {
     bool next = false;
 
     public int cap;
+
+    GameObject[] waitressTile;
     //If TUTORIAL LEVEL && Open sign is destroyed call this function
     void Start () {
         count = 1;
@@ -17,8 +19,14 @@ public class Tutorial : MonoBehaviour {
         cap = 2;
     }
 	
+    void SetTiles()
+    {
+        waitressTile = GameObject.FindGameObjectsWithTag("tile_red");
+    }
+
     public void TutDialogue()
     {
+        SetTiles();
         next = false;
         if (count < cap)
         {
@@ -71,6 +79,13 @@ public class Tutorial : MonoBehaviour {
             GameObject.Find("speechBubble_1").GetComponent<BoxCollider2D>().enabled = false;
             GameObject.Find("text_cursor").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("text_cursor (1)").GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (GameObject.Find("speechBubble").GetComponent<BoxCollider2D>().enabled || GameObject.Find("speechBubble_1").GetComponent<BoxCollider2D>().enabled)
+        {
+            for (int i = 0; i < waitressTile.Length; i++)
+            {
+                waitressTile[i].GetComponent<BoxCollider2D>().enabled = false;
+            }
         }
 
         if (temp < count)
