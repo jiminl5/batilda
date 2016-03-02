@@ -143,7 +143,7 @@ public class MoveableTile : MonoBehaviour {
 		if (clickable && (Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10) && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10)
         && check_Queue.Count <= 10 && check_Queue_1.Count <= 10) {
             clickable = false;
-            Invoke("preventSpam", 0.5f);
+            Invoke("preventSpam", 0.3f);
 			if (mtX < 5) {
                 // left shelf
                 if (mtX == 0 && (mtY >= 0 && mtY <= 6))

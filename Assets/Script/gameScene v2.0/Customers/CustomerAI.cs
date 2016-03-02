@@ -116,7 +116,7 @@ public class CustomerAI : MonoBehaviour
         if (pickStart)
         {
             temp_wait += Time.deltaTime;
-            if (temp_wait >= 3.0f)
+            if (temp_wait >= 2.0f)
             {
                 pick_number = true;
                 temp_wait = 0.0f;
