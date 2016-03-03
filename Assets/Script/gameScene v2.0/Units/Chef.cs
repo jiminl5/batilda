@@ -390,8 +390,10 @@ public class Chef : MonoBehaviour {
 			if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
 				go.GetComponent<dropOffPoint> ().food_name = one_h;
 				go.GetComponent<nameAndPosition>().go = Instantiate(go_1h);
-				go.GetComponentInChildren<SpriteRenderer>().sprite = go_1h.GetComponent<SpriteRenderer>().sprite;
-				go.transform.GetChild(0).tag = "not_empty_plate";
+                go.GetComponent<nameAndPosition>().go.transform.parent = go.transform;
+                go.GetComponent<nameAndPosition>().go.transform.localPosition = new Vector3(0, 0, 0);
+                //go.GetComponentInChildren<SpriteRenderer>().sprite = go_1h.GetComponent<SpriteRenderer>().sprite;
+                go.transform.GetChild(0).tag = "not_empty_plate";
 				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
 				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().food_plates = null;
 				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
@@ -406,8 +408,10 @@ public class Chef : MonoBehaviour {
 			if (string.IsNullOrEmpty (go.GetComponent<dropOffPoint> ().food_name)) {
 				go.GetComponent<dropOffPoint> ().food_name = two_h;
 				go.GetComponent<nameAndPosition>().go = Instantiate(go_2h);
-				go.GetComponentInChildren<SpriteRenderer>().sprite = go_2h.GetComponent<SpriteRenderer>().sprite;
-				go.transform.GetChild(0).tag = "not_empty_plate";
+                go.GetComponent<nameAndPosition>().go.transform.parent = go.transform;
+                go.GetComponent<nameAndPosition>().go.transform.localPosition = new Vector3(0, 0, 0);
+                //go.GetComponentInChildren<SpriteRenderer>().sprite = go_2h.GetComponent<SpriteRenderer>().sprite;
+                go.transform.GetChild(0).tag = "not_empty_plate";
 				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().plates = null;
 				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().food_plates = null;
 				GameObject.FindGameObjectWithTag("tile_blk").GetComponent<MoveableTile>().Setup_Tile();
