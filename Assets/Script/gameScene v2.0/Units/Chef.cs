@@ -297,31 +297,84 @@ public class Chef : MonoBehaviour {
             
         }
 
-        else if (go.GetComponent<cookingObject>().food_ready && (string.IsNullOrEmpty(one_h) || string.IsNullOrEmpty(two_h))) {
+        else if (go.GetComponent<cookingObject>().food_ready) {
+            string temp_ingredient = "";
 
-            if (string.IsNullOrEmpty(one_h)) {
-                one_h = go.GetComponent<cookingObject>().current_recipie.name;
+                if (go.GetComponent<cookingObject>().canCook(one_h) &&
+                        !go.GetComponent<cookingObject>().isCooking)
+                {
+                    Debug.Log("cooking...");
+                    Debug.Log(go.GetComponent<cookingObject>().name);
+                    Debug.Log("cooking... at" + go.GetComponent<cookingObject>());
+                    //go.GetComponent<cookingObject>().cookReady = true;
+                    temp_ingredient = one_h;
+                    Destroy(go_1h);
+                    one_h = "";
 
-                go_1h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
-                go_1h.transform.SetParent(gameObject.transform);
-				source.PlayOneShot(plateSFX[Random.Range (0,7)]);
-                Debug.Log("picking up food...");
-                Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
-                go.GetComponent<cookingObject>().food_ready = false;
-                go.GetComponent<cookingObject>().chef_1h = "";
-            }
+                    one_h = go.GetComponent<cookingObject>().current_recipie.name;
+                    go_1h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                    go_1h.transform.SetParent(gameObject.transform);
+                    source.PlayOneShot(plateSFX[Random.Range(0, 7)]);
+                    Debug.Log("picking up food...");
+                    Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
+                    go.GetComponent<cookingObject>().food_ready = false;
+                    go.GetComponent<cookingObject>().chef_1h = "";
 
-            else if (string.IsNullOrEmpty(two_h)) {
-                two_h = go.GetComponent<cookingObject>().current_recipie.name;
+                    go.GetComponent<cookingObject>().cookReady = true;
+                    go.GetComponent<cookingObject>().chef_1h = temp_ingredient;
+                }
+                //
 
-                go_2h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
-                go_2h.transform.SetParent(gameObject.transform);
-				source.PlayOneShot(plateSFX[Random.Range (0,7)]);
-                Debug.Log("picking up food...");
-                Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
-                go.GetComponent<cookingObject>().food_ready = false;
-                go.GetComponent<cookingObject>().chef_1h = "";
-            }
+                else if (string.IsNullOrEmpty(one_h))
+                {
+                    one_h = go.GetComponent<cookingObject>().current_recipie.name;
+                    go_1h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                    go_1h.transform.SetParent(gameObject.transform);
+                    source.PlayOneShot(plateSFX[Random.Range(0, 7)]);
+                    Debug.Log("picking up food...");
+                    Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
+                    go.GetComponent<cookingObject>().food_ready = false;
+                    go.GetComponent<cookingObject>().chef_1h = "";
+                }
+                //
+
+                else if (go.GetComponent<cookingObject>().canCook(two_h) &&
+                        !go.GetComponent<cookingObject>().isCooking)
+                {
+                    Debug.Log("cooking...");
+                    Debug.Log(go.GetComponent<cookingObject>().name);
+                    Debug.Log("cooking... at" + go.GetComponent<cookingObject>());
+                    //go.GetComponent<cookingObject>().cookReady = true;
+                    temp_ingredient = two_h;
+                    Destroy(go_2h);
+                    two_h = "";
+
+                    two_h = go.GetComponent<cookingObject>().current_recipie.name;
+                    go_2h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                    go_2h.transform.SetParent(gameObject.transform);
+                    source.PlayOneShot(plateSFX[Random.Range(0, 7)]);
+                    Debug.Log("TWO_H: " + two_h);
+                    Debug.Log("picking up food...");
+                    Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
+                    go.GetComponent<cookingObject>().food_ready = false;
+                    go.GetComponent<cookingObject>().chef_1h = "";
+                Debug.Log("THIS IS TEMP INGREDIENT: " + temp_ingredient);
+                    go.GetComponent<cookingObject>().cookReady = true;
+                    go.GetComponent<cookingObject>().chef_1h = temp_ingredient;
+                }
+
+                else if (string.IsNullOrEmpty(two_h))
+                {
+                    two_h = go.GetComponent<cookingObject>().current_recipie.name;
+                    go_2h = Instantiate(go.GetComponent<cookingObject>().current_recipie.go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+                    go_2h.transform.SetParent(gameObject.transform);
+                    source.PlayOneShot(plateSFX[Random.Range(0, 7)]);
+                    Debug.Log("picking up food...");
+                    Debug.Log(go.GetComponent<cookingObject>().food_cooking_name);
+                    go.GetComponent<cookingObject>().food_ready = false;
+                    go.GetComponent<cookingObject>().chef_1h = "";
+                }
+            
         }
         }
 	
