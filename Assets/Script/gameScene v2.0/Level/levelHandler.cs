@@ -476,16 +476,22 @@ public class levelHandler : MonoBehaviour {
         GameObject ovens = GameObject.Find("ovens");
         GameObject stoves = GameObject.Find("stoves");
         GameObject warmingPlates = GameObject.Find("warmingPlates");
+
         GameObject wheat = GameObject.Find("wheat");
         GameObject cheese = GameObject.Find("cheese");
         GameObject carrot = GameObject.Find("carrot");
         GameObject onion = GameObject.Find("onion");
         GameObject fish = GameObject.Find("fish");
         GameObject meat = GameObject.Find("meat");
+
         GameObject appleCider = GameObject.Find("apple cider");
+        GameObject grapeCider = GameObject.Find("grape cider");
+        GameObject honeyCider = GameObject.Find("honey cider");
 
         GameObject cuttingBoard = GameObject.Find("cuttingBoard");
         GameObject rollingPin = GameObject.Find("rollingPin");
+
+        GameObject Sauce = GameObject.Find("sauce");
 
         //set stuff on or off
         foreach (Transform grill in grills.transform)
@@ -556,6 +562,14 @@ public class levelHandler : MonoBehaviour {
             meat.SetActive(false);
         if (!appleOn)
             appleCider.SetActive(false);
+        if (!grapeOn)
+            grapeCider.SetActive(false);
+        if (!honeyOn)
+            honeyCider.SetActive(false);
+        if (!sauceOn)
+            Sauce.SetActive(false);
+            
+            
 
         if (!rollingPinOn)
             rollingPin.SetActive(false);
