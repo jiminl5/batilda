@@ -11,20 +11,22 @@ public class timerBar : MonoBehaviour {
     // Use this for initialization
     public float cookingTime;
     public int identify_tool;
-
+    private Material mat;
 	void Start () {
-	
+        mat = Resources.Load("Sprite Shader") as Material;
 	}
 
     // Update is called once per frame
     void Update() {
         if (GameObject.Find("furnace").GetComponent<Furnace>().isOn || (identify_tool == 2 || identify_tool == 3))
         {
+            timeBar.GetComponent<Image>().material = null;
             temp_Time += Time.deltaTime;
             timeBar.GetComponent<Image>().fillAmount = temp_Time / cookingTime;
         }
         else if (!GameObject.Find("furnace").GetComponent<Furnace>().isOn)
         {
+            timeBar.GetComponent<Image>().material = mat;
             temp_Time = temp_Time_1;
             timeBar.GetComponent<Image>().fillAmount = temp_Time / cookingTime;
         }
