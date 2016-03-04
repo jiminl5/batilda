@@ -45,6 +45,7 @@ public class Waitress : MonoBehaviour {
         source = GetComponent<AudioSource>();
 
         recipes = rr.recipes;
+
     }
 	
 	// Update is called once per frame
@@ -144,9 +145,19 @@ public class Waitress : MonoBehaviour {
 				Destroy (go_2h);
 				two_h = "";
 			}
-				
-			//}
-		}
+
+            //Set Anim Bools
+            if (!string.IsNullOrEmpty(one_h) && string.IsNullOrEmpty(two_h))
+                animator.SetBool("bat_1h", true);
+            else if (!string.IsNullOrEmpty(two_h) && !string.IsNullOrEmpty(one_h))
+                animator.SetBool("bat_2h", true);
+            if (string.IsNullOrEmpty(two_h))
+                animator.SetBool("bat_2h", false);
+            if (string.IsNullOrEmpty(one_h))
+                animator.SetBool("bat_1h", false);
+                
+            //}
+        }
 		
 	}
 
