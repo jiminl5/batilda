@@ -6909,6 +6909,10 @@ Prefab:
       propertyPath: CollisionModule.plane0
       value: 
       objectReference: {fileID: 539716005}
+    - target: {fileID: 19834424, guid: 14a76d354c72fd24fbe65b61c4e69b6e, type: 2}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14a76d354c72fd24fbe65b61c4e69b6e, type: 2}
   m_IsPrefabParent: 0
