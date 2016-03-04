@@ -19,7 +19,7 @@ public class Customer : MonoBehaviour {
     public bool moneyPickedUp = false;
     public bool moneyOn = false;
     private GameObject moneySprite;
-
+    private GameObject moneyParticle;
     private GameObject moodSprite;
 
 
@@ -113,6 +113,9 @@ public class Customer : MonoBehaviour {
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
                 GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
                 this.GetComponentInParent<CustomerAI>().confirmExit(moneyPickedUp);
+
+                moneyParticle = Instantiate(Resources.Load("Coins"), moneySprite.transform.position, Quaternion.identity) as GameObject;
+                moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
                 Destroy(moneySprite);
                 //Destroy(foodSprite);
                 Destroy(this.gameObject);

@@ -2261,7 +2261,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: batilda_right_1h
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110175816}
@@ -2313,7 +2313,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: batilda_up_1h
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110145534}
@@ -2391,7 +2391,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: batilda_down_1h
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110148168}
@@ -2417,7 +2417,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: batilda_left_1h
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110105290}
@@ -2866,7 +2866,7 @@ AnimatorStateMachine:
     m_Position: {x: 12, y: 372, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110213660}
-    m_Position: {x: 492, y: 372, z: 0}
+    m_Position: {x: 492, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110250252}
     m_Position: {x: 252, y: 456, z: 0}
