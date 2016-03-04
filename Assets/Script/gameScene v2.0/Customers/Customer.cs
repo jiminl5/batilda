@@ -36,7 +36,10 @@ public class Customer : MonoBehaviour {
         findRecipe(peasantFoodQueue.Peek());*/
         tempObj = Resources.Load("exclamation_point") as GameObject;
         speechBubble = Resources.Load("speech_bubble") as GameObject;
-	}
+
+        //moneyParticle = Instantiate(Resources.Load("Coins"), transform.position, Quaternion.identity) as GameObject;
+        //moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
+    }
 	
 	// Update is called once per frame
 	void Update () {
