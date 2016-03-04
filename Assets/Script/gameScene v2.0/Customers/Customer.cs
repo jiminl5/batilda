@@ -22,6 +22,8 @@ public class Customer : MonoBehaviour {
     private GameObject moneyParticle;
     private GameObject moodSprite;
 
+    private GameObject speechBubble;
+
 
 	// Use this for initialization
 	void Start () {
@@ -32,7 +34,8 @@ public class Customer : MonoBehaviour {
             peasantFoodQueue.Enqueue(food);
         }
         findRecipe(peasantFoodQueue.Peek());*/
-        tempObj = Resources.Load("Exclamation_Point") as GameObject;
+        tempObj = Resources.Load("exclamation_point") as GameObject;
+        speechBubble = Resources.Load("speech_bubble") as GameObject;
 	}
 	
 	// Update is called once per frame
@@ -50,6 +53,9 @@ public class Customer : MonoBehaviour {
                 tempObj = Instantiate(tempObj, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.0f), Quaternion.identity) as GameObject;
                 tempObj.transform.parent = transform;
                 tempObjInstantiated = true;
+
+                speechBubble = Instantiate(speechBubble, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.0f), Quaternion.identity) as GameObject;
+                speechBubble.transform.parent = transform;
             }
         }
         else if (!needsToOrder && tempObj)
@@ -67,7 +73,7 @@ public class Customer : MonoBehaviour {
                 //current_food = findRecipe(peasantFoodQueue.Dequeue());
                 foodWaitingOn = current_food.name;
                 Debug.Log("waiting on: " + foodWaitingOn);
-                foodSprite = Instantiate(current_food.go, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
+                foodSprite = Instantiate(current_food.go, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.2f), Quaternion.identity) as GameObject;
                 foodSprite.transform.parent = transform;
                 StartCoroutine(ScaleOverTime(0.5f, foodSprite));
                 waitingOnFood = true;
