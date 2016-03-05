@@ -178,7 +178,7 @@ public class cookingObject : MonoBehaviour {
 			}
             //Debug.Log (current_recipie.timeToMake);
             Destroy(_cookingSpriteIdle);
-            _cookingSprite = Instantiate(cookingSprite, transform.position, transform.rotation) as GameObject;
+            _cookingSprite = Instantiate(cookingSprite, transform.position + new Vector3(0.025f, 0.025f), transform.rotation) as GameObject;
             chef_1h = "";
             isCooking = true;
 			time_to_cook = current_recipie.timeToMake + Time.time;
