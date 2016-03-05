@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3efcb68cd7f30044a845ece8612a2b71
-timeCreated: 1446266429
+timeCreated: 1457155715
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -89,7 +89,12 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    compressionQuality: 0
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: chef_idling_1hand_0

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: dac19d9a27c9b8c4d8cb3ac34c6574fb
-timeCreated: 1446284299
+timeCreated: 1457155492
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -89,7 +89,12 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    compressionQuality: 0
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: batilda_idling_0hands_0

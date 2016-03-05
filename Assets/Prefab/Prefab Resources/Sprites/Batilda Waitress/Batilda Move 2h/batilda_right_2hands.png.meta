@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 18c149dff58413841a02c5b81ad515ec
-timeCreated: 1457063088
+timeCreated: 1457155579
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -77,7 +77,12 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 0
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: batilda_right_2hands_0

@@ -16,6 +16,7 @@ public class LogoAnim : MonoBehaviour {
     void Start () {
         current_angle = this.gameObject.transform.eulerAngles;
         wobble = true;
+        Time.timeScale = 1.0f;
 	}
 	
 	// Update is called once per frame
