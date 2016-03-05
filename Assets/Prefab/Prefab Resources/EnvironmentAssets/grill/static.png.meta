@@ -1,10 +1,6 @@
 fileFormatVersion: 2
 guid: 14a86546b9f9f734f8b7ef1ed01d0a42
-<<<<<<< HEAD
-timeCreated: 1457215899
-=======
-timeCreated: 1457166665
->>>>>>> origin/master
+timeCreated: 1457216270
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -36,11 +32,11 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
+  cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 4096
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -57,19 +53,10 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-<<<<<<< HEAD
-  spritePixelsToUnits: 175
-=======
-  spritePixelsToUnits: 90
->>>>>>> origin/master
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: Android
-    maxTextureSize: 512
-    textureFormat: -1
-    compressionQuality: 50
-    allowsAlphaSplitting: 0
+  buildTargetSettings: []
   spriteSheet:
     sprites:
     - name: static_0
