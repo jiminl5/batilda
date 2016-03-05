@@ -14,11 +14,11 @@ public class CustomerAI : MonoBehaviour
 
     bool pick_number;
 
-    private static bool seat_taken_1;
-    private static bool seat_taken_2;
-    private static bool seat_taken_3;
-    private static bool seat_taken_4;
-    private static bool seat_taken_5;
+    public static bool seat_taken_1;
+    public static bool seat_taken_2;
+    public static bool seat_taken_3;
+    public static bool seat_taken_4;
+    public static bool seat_taken_5;
 
     int check = 0;
 
@@ -61,13 +61,6 @@ public class CustomerAI : MonoBehaviour
 
         temp_wait = 0.0f;
 
-        /*
-        customerSat1 = false;
-        customerSat2 = false;
-        customerSat3 = false;
-        customerSat4 = false;
-        customerSat5 = false;
-        */
         path[0] = GameObject.Find("CustomerPath_1").transform;
         path[1] = GameObject.Find("CustomerPath_2").transform;
         path[2] = GameObject.Find("CustomerPath_3").transform;
