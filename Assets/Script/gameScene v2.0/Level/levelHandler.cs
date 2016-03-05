@@ -81,6 +81,11 @@ public class levelHandler : MonoBehaviour {
     public bool honeyOn;
     public bool sauceOn;
 
+    //background
+    public string wall;
+    public string floor;
+    public string counters;
+    public string furnace;
 
     //food lists
     public string peasantFoodList; //initalized with ";" as breakers. ex: "bread;carrot soup;grilled fish"
@@ -158,6 +163,11 @@ public class levelHandler : MonoBehaviour {
             honeyOn = true;
             sauceOn = true;
 
+            wall = "fancy";
+            floor = "fancy";
+            counters = "fancy";
+            furnace = "fancy";
+
             peasantFoodList = "apple cider;apple cider;apple cider;apple cider";
                 //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
@@ -196,6 +206,11 @@ public class levelHandler : MonoBehaviour {
 
             rollingPinOn = false;
             cuttingBoardOn = false;
+
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
 
             peasantFoodList = "grilledMeat;grilledMeat";
 
@@ -239,6 +254,11 @@ public class levelHandler : MonoBehaviour {
             rollingPinOn = false;
             cuttingBoardOn = false;
 
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
+
             peasantFoodList = "grilledMeat;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
@@ -275,6 +295,11 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
+
             peasantFoodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
@@ -309,6 +334,11 @@ public class levelHandler : MonoBehaviour {
             grapeOn = false;
             honeyOn = false;
             sauceOn = false;
+
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
 
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
@@ -346,6 +376,11 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
+
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;apple cider;apple cider;apple cider";
 
             levelTime = 120;
@@ -382,6 +417,11 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
+
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;apple cider;apple cider;apple cider;grilled onion;grilled onion;grilled onion";
 
             levelTime = 150;
@@ -417,6 +457,11 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
+
             peasantFoodList = "grilledMeat;grilledMeat;grilledMeat;bread;bread;bread;bread;apple cider;apple cider;grilled onion;grilled onion;grilled fish";
 
             levelTime = 150;
@@ -451,6 +496,11 @@ public class levelHandler : MonoBehaviour {
             grapeOn = false;
             honeyOn = false;
             sauceOn = false;
+
+            wall = "fancy";
+            floor = "fancy";
+            counters = "fancy";
+            furnace = "fancy";
 
             peasantFoodList = "bread;bread;apple cider;apple cider;grilled carrot;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
 
@@ -492,6 +542,11 @@ public class levelHandler : MonoBehaviour {
         GameObject rollingPin = GameObject.Find("rollingPin");
 
         GameObject Sauce = GameObject.Find("sauce");
+
+        GameObject _wall = GameObject.Find("wall");
+        GameObject _floor = GameObject.Find("floor");
+        GameObject _counters = GameObject.Find("counters");
+        GameObject _furnace = GameObject.Find("furnace_front");
 
         //set stuff on or off
         foreach (Transform grill in grills.transform)
@@ -576,6 +631,41 @@ public class levelHandler : MonoBehaviour {
         if (!cuttingBoardOn)
             cuttingBoard.SetActive(false);
 
+
+        //set bg - Guideline for child BG gameObjects:
+        //           0 = cheap, 1 = fancy
+
+        //WALLS
+        if (wall == "cheap")
+            _wall.transform.GetChild(0).gameObject.SetActive(true);
+        
+        else if (wall == "fancy")
+            _wall.transform.GetChild(1).gameObject.SetActive(true);
+        //
+
+        //COUNTERS
+        if (counters == "cheap")
+            _counters.transform.GetChild(0).gameObject.SetActive(true);
+
+        else if (counters == "fancy")
+            _counters.transform.GetChild(1).gameObject.SetActive(true);
+        //
+
+        //FLOOR
+        if (floor == "cheap")
+            _floor.transform.GetChild(0).gameObject.SetActive(true);
+        
+        else if (floor == "fancy")
+            _floor.transform.GetChild(1).gameObject.SetActive(true);
+        //
+
+        //FURNACE
+        if (furnace == "cheap")
+            _furnace.transform.GetChild(0).gameObject.SetActive(true);
+
+        else if (furnace == "fancy")
+            _furnace.transform.GetChild(1).gameObject.SetActive(true);
+        //
 
         //set level time
         GameObject.Find("Main Camera").GetComponent<StopWatch>().startTime = levelTime;

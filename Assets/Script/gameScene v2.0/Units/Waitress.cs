@@ -146,20 +146,19 @@ public class Waitress : MonoBehaviour {
 				two_h = "";
 			}
 
-            //Set Anim Bools
-            if (!string.IsNullOrEmpty(one_h) && string.IsNullOrEmpty(two_h))
-                animator.SetBool("bat_1h", true);
-            else if (!string.IsNullOrEmpty(two_h) && !string.IsNullOrEmpty(one_h))
-                animator.SetBool("bat_2h", true);
-            if (string.IsNullOrEmpty(two_h))
-                animator.SetBool("bat_2h", false);
-            if (string.IsNullOrEmpty(one_h))
-                animator.SetBool("bat_1h", false);
-                
-            //}
         }
-		
-	}
+        //Set Anim Bools
+        if (!string.IsNullOrEmpty(one_h) && string.IsNullOrEmpty(two_h))
+            animator.SetBool("bat_1h", true);
+        else if (!string.IsNullOrEmpty(two_h) && !string.IsNullOrEmpty(one_h))
+            animator.SetBool("bat_2h", true);
+        if (string.IsNullOrEmpty(two_h))
+            animator.SetBool("bat_2h", false);
+        if (string.IsNullOrEmpty(one_h))
+            animator.SetBool("bat_1h", false);
+
+        //}
+    }
 
     void drinkAction(GameObject go)
     {
