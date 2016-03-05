@@ -215,7 +215,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat";
 
             levelTime = 60;
-			GameplaySoundtracks[0].SetActive(true);
+
 			//GameObject.Find("MainMenuSoundtrack").SetActive(false);
 			
         }
@@ -343,7 +343,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 120;
-			GameplaySoundtracks[1].SetActive(true);
+			GameplaySoundtracks[0].SetActive(true);
         }
 
         if (PlayerPrefs.GetInt("level") == 5) //level five
@@ -850,8 +850,9 @@ public class levelHandler : MonoBehaviour {
 		textStyle.fontSize = Screen.width/25;
 		textStyle.normal.textColor = Color.white;
 		textStyle.font = oldaniaADFStd;
-        text = string.Format(customersServed.ToString());
-        GUI.Label(new Rect(10, 5, 100, 100), text, textStyle);
+		int totalCustomersLeft = customersWaiting - customersServed;
+		text = string.Format(totalCustomersLeft.ToString());
+        GUI.Label(new Rect(8, 5, 100, 100), text, textStyle);
     }
     
     /*
