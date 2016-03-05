@@ -24,9 +24,14 @@ public class Customer : MonoBehaviour {
 
     private GameObject speechBubble;
 
+    //Animation
+    private int _PeasantState = Animator.StringToHash("Peasant_State");
+    private Animator _Panimator;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
+        //Animation
+        _Panimator = this.transform.GetComponentInParent<Animator>();
         /*peasantFoodQueue = new Queue<string>();
         string[] peasantFoodList = PlayerPrefs.GetString("peasantFoodList").Split(';');
         foreach (string food in peasantFoodList)
@@ -67,6 +72,7 @@ public class Customer : MonoBehaviour {
                 OpenSignAnim.confirm_tutorial_start = true;
             else
                 OpenSignAnim.confirm_tutorial_start = false;
+            _Panimator.SetInteger(_PeasantState, 3);
             Destroy(tempObj);
         }
 		if (!hasFood && !needsToOrder) {

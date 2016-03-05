@@ -50,10 +50,14 @@ public class CustomerAI : MonoBehaviour
     private bool pickStart = false;
     private float temp_wait;
     public static string cus_Number;
+
+    //Animation
+    private int _PeasantState = Animator.StringToHash("Peasant_State");
+    private Animator _Panimator;
     // Use this for initialization
     void Start()
     {
-        order_delay = 2.0f;
+        order_delay = 3.0f;
 
         temp_wait = 0.0f;
 
@@ -74,6 +78,8 @@ public class CustomerAI : MonoBehaviour
 
         customerExit = false;
         //order = new GameObject();
+        //Animation
+        _Panimator = this.transform.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -151,6 +157,7 @@ public class CustomerAI : MonoBehaviour
         {
             customerSat1 = true;
             seat_taken_1 = true;
+            _Panimator.SetInteger(_PeasantState, 1);
             Invoke("GiveOrderDelay", order_delay);
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
             //seatCount++;
@@ -160,6 +167,7 @@ public class CustomerAI : MonoBehaviour
         {
             customerSat2 = true;
             seat_taken_2 = true;
+            _Panimator.SetInteger(_PeasantState, 1);
             Invoke("GiveOrderDelay", order_delay);
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
             //seatCount++;
@@ -168,6 +176,7 @@ public class CustomerAI : MonoBehaviour
         {
             customerSat3 = true;
             seat_taken_3 = true;
+            _Panimator.SetInteger(_PeasantState, 1);
             Invoke("GiveOrderDelay", order_delay);
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
             //seatCount++;
@@ -176,6 +185,7 @@ public class CustomerAI : MonoBehaviour
         {
             customerSat4 = true;
             seat_taken_4 = true;
+            _Panimator.SetInteger(_PeasantState, 1);
             Invoke("GiveOrderDelay", order_delay);
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
             //seatCount++;
@@ -184,6 +194,7 @@ public class CustomerAI : MonoBehaviour
         {
             customerSat5 = true;
             seat_taken_5 = true;
+            _Panimator.SetInteger(_PeasantState, 1);
             Invoke("GiveOrderDelay", order_delay);
             //order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
             //seatCount++;
@@ -202,22 +213,27 @@ public class CustomerAI : MonoBehaviour
     {
         if (customerSat1 && direction == 1)
         {
+            _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
         }
         if (customerSat2 && direction == 2)
         {
+            _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
         }
         if (customerSat3 && direction == 3)
         {
+            _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
         }
         if (customerSat4 && direction == 4)
         {
+            _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
         }
         if (customerSat5 && direction == 5)
         {
+            _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
         }
 
@@ -231,6 +247,7 @@ public class CustomerAI : MonoBehaviour
     {
         if (coll.tag == "WayPoint1" && check == 1)
         {
+            _Panimator.SetInteger(_PeasantState, 0);
             customerSat1 = false;
             //seat_taken_1 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++; //Data Handler
@@ -240,6 +257,7 @@ public class CustomerAI : MonoBehaviour
 
         if (coll.tag == "WayPoint2" && check == 2)
         {
+            _Panimator.SetInteger(_PeasantState, 0);
             customerSat2 = false;
             //seat_taken_2 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
@@ -248,6 +266,7 @@ public class CustomerAI : MonoBehaviour
         }
         if (coll.tag == "WayPoint3" && check == 3)
         {
+            _Panimator.SetInteger(_PeasantState, 0);
             customerSat3 = false;
             //seat_taken_3 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
@@ -256,6 +275,7 @@ public class CustomerAI : MonoBehaviour
         }
         if (coll.tag == "WayPoint4" && check == 4)
         {
+            _Panimator.SetInteger(_PeasantState, 0);
             customerSat4 = false;
             //seat_taken_4 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
@@ -264,6 +284,7 @@ public class CustomerAI : MonoBehaviour
         }
         if (coll.tag == "WayPoint5" && check == 5)
         {
+            _Panimator.SetInteger(_PeasantState, 0);
             customerSat5 = false;
             //seat_taken_5 = false;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
