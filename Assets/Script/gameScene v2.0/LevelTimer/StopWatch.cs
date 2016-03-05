@@ -35,6 +35,7 @@ public class StopWatch : MonoBehaviour {
 			}
 			if (timeInSeconds <= 0) {
 				print ("times up");
+                CloseSignAnim.close_child = 0;
 				finished = true;
                 //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin();
             }
@@ -42,7 +43,7 @@ public class StopWatch : MonoBehaviour {
         if (finished)
         {
             PlayerPrefs.SetInt("temp_coin", GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed);
-            if (GameObject.Find("close") == null)
+            if (GameObject.Find("CloseSign") == null)
                 Application.LoadLevel("gameResult");
         }
     }

@@ -16,6 +16,7 @@ public class CloseSignAnim : MonoBehaviour {
 
     int turn_count;
 
+    public static int close_child;
 	// Use this for initialization
 	void Start () {
         turn_count = 0;
@@ -27,22 +28,22 @@ public class CloseSignAnim : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (GameObject.Find("Main Camera").GetComponent<StopWatch>().finished) { 
+        if (GameObject.Find("Main Camera").GetComponent<StopWatch>().finished) {
+            this.gameObject.transform.GetChild(close_child).GetComponent<SpriteRenderer>().enabled = true;
             if (!turn && !slide)
             {				
-				
-                this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
-                if (this.gameObject.transform.position.x >= 7.5f)
+                this.gameObject.transform.GetChild(close_child).Translate(Vector2.right * slide_speed * Time.deltaTime);
+                if (this.gameObject.transform.GetChild(close_child).position.x >= 7.5f)
                 {
-                    this.gameObject.transform.position = new Vector2(7.5f, this.gameObject.transform.position.y);
+                    this.gameObject.transform.GetChild(close_child).position = new Vector2(7.5f, this.gameObject.transform.GetChild(close_child).position.y);
                     turn = true;
                     turn_count++;
                 }
             }
-            if (this.gameObject.transform.position.x >= 7.5f && turn)
+            if (this.gameObject.transform.GetChild(close_child).position.x >= 7.5f && turn)
             {
-                this.gameObject.transform.Rotate(new Vector3(0, 45, 0) * rotate_y_speed * Time.deltaTime);
-                if (this.gameObject.transform.rotation.eulerAngles.y >= 350.0f)
+                this.gameObject.transform.GetChild(close_child).Rotate(new Vector3(0, 45, 0) * rotate_y_speed * Time.deltaTime);
+                if (this.gameObject.transform.GetChild(close_child).rotation.eulerAngles.y >= 350.0f)
                 {
                     turn_count++;
                 }
@@ -57,10 +58,21 @@ public class CloseSignAnim : MonoBehaviour {
                 timer += Time.deltaTime;
                 if (timer > 2.5f)
                 {
-                    this.gameObject.transform.Translate(Vector2.right * slide_speed * Time.deltaTime);
-                    if (this.gameObject.transform.position.x >= 20)
+                    this.gameObject.transform.GetChild(close_child).Translate(Vector2.right * slide_speed * Time.deltaTime);
+                    if (this.gameObject.transform.GetChild(close_child).position.x >= 20)
                     {
                         GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin(); // Store coin to Database
+                        CustomerAI.seatCount = 0;
+                        CustomerAI.seat_taken_1 = false;
+                        CustomerAI.seat_taken_2 = false;
+                        CustomerAI.seat_taken_3 = false;
+                        CustomerAI.seat_taken_4 = false;
+                        CustomerAI.seat_taken_5 = false;
+                        CustomerAI.customerSat1 = false;
+                        CustomerAI.customerSat2 = false;
+                        CustomerAI.customerSat3 = false;
+                        CustomerAI.customerSat4 = false;
+                        CustomerAI.customerSat5 = false;
                         Destroy(this.gameObject);
                     }
                 }
