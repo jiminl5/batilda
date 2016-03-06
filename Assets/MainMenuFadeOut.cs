@@ -9,7 +9,7 @@ public class MainMenuFadeOut : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		OpenSignAnim.fadeMainMenuSongOut = false;
 	}
 
 	// Update is called once per frame

@@ -20,7 +20,7 @@ public class ResultPageDataHandler : MonoBehaviour {
     {
         count = 0;
         _coin = PlayerPrefs.GetInt("coin") - PlayerPrefs.GetInt("temp_coin");
-        _coinTxt = GameObject.Find("/Misc Canvas/Nav_Panel/Navbar/Background/CoinAmt").GetComponent<Text>();
+//        _coinTxt = GameObject.Find("/Misc Canvas/Nav_Panel/Navbar/Background/CoinAmt").GetComponent<Text>();
         _coinTxt.text = _coin.ToString();
 
         _tempCoin = PlayerPrefs.GetInt("temp_coin");
