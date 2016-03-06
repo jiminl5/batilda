@@ -2728,6 +2728,7 @@ MonoBehaviour:
   ovenDropOff: {fileID: 0}
   trashSFX: {fileID: 8300000, guid: 7f57e1500dce6054996e8f45b5421251, type: 3}
   bubblingSFX: {fileID: 8300000, guid: 2c958983a82252a41ac4322d3e15c6cf, type: 3}
+  doughWooshSFX: {fileID: 8300000, guid: f6b6e1d23e0444d44afb7710214d16f1, type: 3}
   mtX: 0
   mtY: 0
   atPosition: 1
