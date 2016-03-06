@@ -154,6 +154,7 @@ public class cookingObject : MonoBehaviour {
 				GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(3, 2.9f, current_recipie.timeToMake, 0);
 			}
 			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
+				source.Stop ();
 				source.PlayOneShot(bubblingSFX, .6f);
 				source.PlayOneShot (friedEggSFX);
 			}
