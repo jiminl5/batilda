@@ -24,6 +24,7 @@ public class OpenSignAnim : MonoBehaviour {
         up = false;
         count = 0;
         Time.timeScale = pause_time;
+		fadeMainMenuSongOut = false;
 	}
 	
 	// Update is called once per frame

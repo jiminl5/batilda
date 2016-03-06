@@ -18,6 +18,9 @@ public class ResultLeft : MonoBehaviour {
 
 	void Start () {
         Left_Set = false;
+		OpenSignAnim.fadeMainMenuSongOut = false;
+		Chef.firstTimeFoxannaClick = false;
+		Waitress.firstTimeBatildaClick = false;
 	}
 	
 	void Update () {
