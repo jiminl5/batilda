@@ -218,7 +218,7 @@ public class levelHandler : MonoBehaviour {
 
             levelTime = 60;
 			//sharpening the knife
-			selectedSoundtrack = GameplaySoundtracks [3];
+			selectedSoundtrack = GameplaySoundtracks [2];
 			//GameObject.Find("MainMenuSoundtrack").SetActive(false);
 			
         }
