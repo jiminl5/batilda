@@ -158,8 +158,8 @@ public class cookingObject : MonoBehaviour {
 				source.PlayOneShot (friedEggSFX);
 			}
 			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
+				source.Stop ();
 				source.PlayOneShot(grillSizzleSFX, .35f);
-				if (food_cooking_name == "grilled fish");
 			}
 			if( food_cooking_name == "bread"){
 			

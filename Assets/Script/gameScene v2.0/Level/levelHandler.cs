@@ -174,7 +174,8 @@ public class levelHandler : MonoBehaviour {
                 //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 120;
-			GameplaySoundtracks[1].SetActive(true);
+			selectedSoundtrack = GameplaySoundtracks [2];
+
         }
 
         if (PlayerPrefs.GetInt("level") == 1 && PlayerPrefs.GetString("tutorial") == "yes") //tutorial level (level one)
