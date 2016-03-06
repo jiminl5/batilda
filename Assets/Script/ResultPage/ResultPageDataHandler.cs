@@ -44,7 +44,7 @@ public class ResultPageDataHandler : MonoBehaviour {
         && (0.0f - Time.time % 0.5f == 0) && Time.timeSinceLevelLoad >= 2.0f)
         {
             _coin += _tempCoin / _tempCoin;
-            _coinTxt.text = _coin.ToString();
+            //_coinTxt.text = _coin.ToString();
             _tempCoin -= 1;
             _tempCoinTxt.text = _tempCoin.ToString();
             audio.PlayOneShot(_coinSound);
