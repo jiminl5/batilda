@@ -2680,6 +2680,7 @@ GameObject:
   - 4: {fileID: 667569652}
   - 82: {fileID: 667569651}
   - 114: {fileID: 667569650}
+  - 114: {fileID: 667569653}
   m_Layer: 0
   m_Name: MainMenuSoundtrack
   m_TagString: Untagged
@@ -2784,6 +2785,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &667569653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 667569649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27e3140d64457e48a6ff07652a7812a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680568127
 GameObject:
   m_ObjectHideFlags: 0

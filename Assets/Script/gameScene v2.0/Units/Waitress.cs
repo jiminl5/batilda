@@ -29,6 +29,8 @@ public class Waitress : MonoBehaviour {
     private recipeRepository rr;
     private ArrayList recipes;
 
+	private bool firstTimeLightFire = false;
+
 
     public static Queue<GameObject> obj_queue1 = new Queue<GameObject>();
     // Use this for initialization
@@ -196,12 +198,20 @@ public class Waitress : MonoBehaviour {
         {
             one_h = "";
             go.GetComponent<Furnace>().hasFirewood = true;
+			if (!firstTimeLightFire) {
+				levelHandler.selectedSoundtrack.SetActive(true);
+				firstTimeLightFire = true;
+			}
             Destroy(go_1h);
         }
         else if (two_h == "firewood")
         {
             two_h = "";
             go.GetComponent<Furnace>().hasFirewood = true;
+			if (!firstTimeLightFire) {
+				levelHandler.selectedSoundtrack.SetActive(true);
+				firstTimeLightFire = true;
+			}
             Destroy(go_2h);
         }
     }

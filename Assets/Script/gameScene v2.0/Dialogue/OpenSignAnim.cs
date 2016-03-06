@@ -14,6 +14,7 @@ public class OpenSignAnim : MonoBehaviour {
 	public AudioSource source;
 	public AudioClip wooshSymbolPaperAway;
 	bool soundPlayed = false;
+	public static bool fadeMainMenuSongOut = false;
 
     bool tutorial_start = false;
     public static bool confirm_tutorial_start = false;
@@ -69,6 +70,7 @@ public class OpenSignAnim : MonoBehaviour {
                     tutorial_start = true;
                 }
                 else {
+					fadeMainMenuSongOut = true;
                     GameObject.Find("Main Camera").GetComponent<Tutorial>().enabled = false;
                     //Destroy Unnecessary tutorial assets
                     Destroy(GameObject.Find("bg_trans"));

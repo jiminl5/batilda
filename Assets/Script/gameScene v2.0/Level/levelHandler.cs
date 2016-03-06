@@ -6,6 +6,7 @@ public class levelHandler : MonoBehaviour {
 
 	public AudioSource source;
 	public GameObject[] GameplaySoundtracks;
+	public static GameObject selectedSoundtrack;
 
 	public Font oldaniaADFStd;
 
@@ -344,7 +345,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 120;
-			GameplaySoundtracks[0].SetActive(true);
+			selectedSoundtrack = GameplaySoundtracks [0];
         }
 
         if (PlayerPrefs.GetInt("level") == 5) //level five
