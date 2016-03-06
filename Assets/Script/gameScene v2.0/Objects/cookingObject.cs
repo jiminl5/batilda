@@ -153,7 +153,7 @@ public class cookingObject : MonoBehaviour {
 			if (this.name == "grill 4"){
 				GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(3, 2.9f, current_recipie.timeToMake, 0);
 			}
-			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup"){
+			if(food_cooking_name == "fish stew" || food_cooking_name == "onion soup" || food_cooking_name == "cheese stew" || food_cooking_name == "meat stew"){
 				source.Stop ();
 				source.PlayOneShot(bubblingSFX, .6f);
 				source.PlayOneShot (friedEggSFX);
@@ -161,6 +161,10 @@ public class cookingObject : MonoBehaviour {
 			if(food_cooking_name == "grilled fish" || food_cooking_name == "grilledMeat"){
 				source.Stop ();
 				source.PlayOneShot(grillSizzleSFX, .35f);
+			}
+			if(food_cooking_name == "grilled carrot" || food_cooking_name == "grilled onion"){
+				source.Stop ();
+				source.PlayOneShot(friedEggSFX, .35f);
 			}
 			if( food_cooking_name == "bread"){
 			

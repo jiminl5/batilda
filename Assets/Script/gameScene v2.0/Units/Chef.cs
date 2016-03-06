@@ -22,6 +22,7 @@ public class Chef : MonoBehaviour {
 	public AudioClip ovenDropOff;
 	public AudioClip trashSFX;
 	public AudioClip bubblingSFX;
+	public AudioClip doughWooshSFX;
 
 	public int mtX;
 	public int mtY;
@@ -412,11 +413,13 @@ public class Chef : MonoBehaviour {
 	
 	void doughCreateAction(GameObject go) {
 		if (one_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
+			source.PlayOneShot (doughWooshSFX, .35f);
 			go.GetComponent<doughObject>().numberofWheat += 1;
 			one_h = "";
 			Destroy (go_1h);
 		}
 		else if (two_h == "wheat" && go.GetComponent<doughObject>().numberofWheat < go.GetComponent<doughObject>().maxWheat) {
+			source.PlayOneShot (doughWooshSFX, .35f);
 			go.GetComponent<doughObject>().numberofWheat += 1;
 			two_h = "";
 			Destroy (go_2h);
