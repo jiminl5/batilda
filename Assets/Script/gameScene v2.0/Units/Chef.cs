@@ -28,6 +28,8 @@ public class Chef : MonoBehaviour {
 	public bool atPosition = true;
 	public static bool clicked = false;
 
+	public static bool firstTimeFoxannaClick = false;
+
 	private Animator animator;
 
     private recipeRepository rr;
@@ -259,6 +261,11 @@ public class Chef : MonoBehaviour {
 
 
 	public GameObject findGameObjectAtClickedPosition() {
+		if (!firstTimeFoxannaClick && !Waitress.firstTimeBatildaClick) {
+			levelHandler.selectedSoundtrack.SetActive(true);
+			Waitress.firstTimeBatildaClick = true;
+			firstTimeFoxannaClick = true;
+		}
 		foreach (GameObject go in GameObject.FindGameObjectsWithTag("test")) {
 			if (go.GetComponent<nameAndPosition> ().x == mtX
 				&& go.GetComponent<nameAndPosition> ().y == mtY) {

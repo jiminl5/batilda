@@ -30,6 +30,7 @@ public class Waitress : MonoBehaviour {
     private ArrayList recipes;
 
 	private bool firstTimeLightFire = false;
+	public static bool firstTimeBatildaClick = false;
 
 
     public static Queue<GameObject> obj_queue1 = new Queue<GameObject>();
@@ -198,20 +199,12 @@ public class Waitress : MonoBehaviour {
         {
             one_h = "";
             go.GetComponent<Furnace>().hasFirewood = true;
-			if (!firstTimeLightFire) {
-				levelHandler.selectedSoundtrack.SetActive(true);
-				firstTimeLightFire = true;
-			}
             Destroy(go_1h);
         }
         else if (two_h == "firewood")
         {
             two_h = "";
             go.GetComponent<Furnace>().hasFirewood = true;
-			if (!firstTimeLightFire) {
-				levelHandler.selectedSoundtrack.SetActive(true);
-				firstTimeLightFire = true;
-			}
             Destroy(go_2h);
         }
     }
@@ -402,6 +395,11 @@ public class Waitress : MonoBehaviour {
 
 
     public GameObject findGameObjectAtClickedPosition() {
+		if (!firstTimeBatildaClick && !Chef.firstTimeFoxannaClick) {
+			levelHandler.selectedSoundtrack.SetActive(true);
+			firstTimeBatildaClick = true;
+			Chef.firstTimeFoxannaClick = true;
+		}
 		foreach (GameObject go in GameObject.FindGameObjectsWithTag("test")) {
 			try{
 			if (go.GetComponent<nameAndPosition> ().x == mtX
