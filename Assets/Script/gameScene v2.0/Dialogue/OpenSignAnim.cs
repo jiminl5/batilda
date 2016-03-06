@@ -92,6 +92,7 @@ public class OpenSignAnim : MonoBehaviour {
         {
             if (confirm_tutorial_start)
             {
+				fadeMainMenuSongOut = true;
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 Destroy(this.gameObject);
             }
