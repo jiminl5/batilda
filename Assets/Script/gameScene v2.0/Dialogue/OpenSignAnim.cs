@@ -58,7 +58,7 @@ public class OpenSignAnim : MonoBehaviour {
             this.transform.Translate(Vector2.right * drop_speed * (Time.deltaTime * unpause_time));
             if (this.gameObject.transform.position.x >= 19.0f)
             {
-				
+				fadeMainMenuSongOut = true;
                 //Tutorial if tutorial level is selected run this function
                 Time.timeScale = 1.0f;
                 if (PlayerPrefs.GetString("tutorial") == "yes")
@@ -70,7 +70,6 @@ public class OpenSignAnim : MonoBehaviour {
                     tutorial_start = true;
                 }
                 else {
-					fadeMainMenuSongOut = true;
                     GameObject.Find("Main Camera").GetComponent<Tutorial>().enabled = false;
                     //Destroy Unnecessary tutorial assets
                     Destroy(GameObject.Find("bg_trans"));
@@ -92,7 +91,7 @@ public class OpenSignAnim : MonoBehaviour {
         {
             if (confirm_tutorial_start)
             {
-				fadeMainMenuSongOut = true;
+
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 Destroy(this.gameObject);
             }

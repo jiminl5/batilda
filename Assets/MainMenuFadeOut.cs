@@ -15,6 +15,7 @@ public class MainMenuFadeOut : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (OpenSignAnim.fadeMainMenuSongOut) {
+			print ("this is true");
 			this.gameObject.GetComponent<AudioSource>().volume -= fade_song_speed * Time.deltaTime;
 			if(this.gameObject.GetComponent<AudioSource>().volume <= 0)
 			{
