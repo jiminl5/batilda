@@ -14,6 +14,14 @@ public class CloseSignAnim : MonoBehaviour {
     private float end_time;
     private float timer;
 
+	public AudioSource source;
+	public AudioClip victoryFanfare2;
+	public AudioClip coinsVictory;
+
+
+	private bool playedSoundSetOne = false;
+	private bool playedSoundSetTwo = false;
+
     int turn_count;
 
     public static int close_child;
@@ -31,7 +39,12 @@ public class CloseSignAnim : MonoBehaviour {
         if (GameObject.Find("Main Camera").GetComponent<StopWatch>().finished) {
             this.gameObject.transform.GetChild(close_child).GetComponent<SpriteRenderer>().enabled = true;
             if (!turn && !slide)
-            {				
+            {	
+				if (!playedSoundSetOne) {
+					source.PlayOneShot (coinsVictory);
+
+					playedSoundSetOne = true;
+				}
                 this.gameObject.transform.GetChild(close_child).Translate(Vector2.right * slide_speed * Time.deltaTime);
                 if (this.gameObject.transform.GetChild(close_child).position.x >= 7.5f)
                 {
@@ -42,6 +55,11 @@ public class CloseSignAnim : MonoBehaviour {
             }
             if (this.gameObject.transform.GetChild(close_child).position.x >= 7.5f && turn)
             {
+				if (!playedSoundSetTwo) {
+					source.PlayOneShot (victoryFanfare2);
+					source.PlayOneShot (coinsVictory);
+					playedSoundSetTwo = true;
+				}
                 this.gameObject.transform.GetChild(close_child).Rotate(new Vector3(0, 45, 0) * rotate_y_speed * Time.deltaTime);
                 if (this.gameObject.transform.GetChild(close_child).rotation.eulerAngles.y >= 350.0f)
                 {
