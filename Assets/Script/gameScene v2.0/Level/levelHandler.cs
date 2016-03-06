@@ -93,6 +93,7 @@ public class levelHandler : MonoBehaviour {
     public Queue<string> peasantFoodQueue;
     public int customersWaiting;
 	public static int customersLeft;
+	public static int totalCustomersInLevel;
 
     //time for level
     public float levelTime;
@@ -107,6 +108,8 @@ public class levelHandler : MonoBehaviour {
     // Use this for initialization
     void Start () {
         customersServed = 0;
+		customersLeft = 0;
+		totalCustomersInLevel = 0;
         /*
         grillCount = grill;
         ovenCount = oven;
@@ -526,6 +529,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodQueue.Enqueue(food);
         }
         customersWaiting = peasantFoodQueue.Count;
+		totalCustomersInLevel = customersWaiting;
 		customersLeft = customersWaiting;
 
         //max - how many cooking objects you have (to iterate later)
