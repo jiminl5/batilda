@@ -68,8 +68,11 @@ public class StopWatch : MonoBehaviour {
 		GUIText gtext;
 		if (displayMinutes > 0) {
 			GUI.TextArea (new Rect (Screen.width / 2 - 20, 0, 50, 30), text.Substring (1), textStyle);
+		} else if (displaySeconds < 10) {
+			GUI.TextArea (new Rect (Screen.width / 2 - 20, 0, 50, 30), text.Substring (4), textStyle);
 		} else {
 			GUI.TextArea(new Rect(Screen.width/2 - 20, 0, 50, 30), text.Substring(3), textStyle);
 		}
+
 	}
 }
