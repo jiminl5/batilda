@@ -227,6 +227,7 @@ public class Waitress : MonoBehaviour {
                 go.GetComponent<Customer>().food_given = one_h;
 				source.PlayOneShot(singleCoinDropSFX);
 				levelHandler.customersLeft -= 1;
+
                 //add sprite of food
                 //delete 1h
                 //Destroy (go_1h);
