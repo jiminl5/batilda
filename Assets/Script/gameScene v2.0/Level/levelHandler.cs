@@ -91,6 +91,7 @@ public class levelHandler : MonoBehaviour {
     public string peasantFoodList; //initalized with ";" as breakers. ex: "bread;carrot soup;grilled fish"
     public Queue<string> peasantFoodQueue;
     public int customersWaiting;
+	public static int customersLeft;
 
     //time for level
     public float levelTime;
@@ -515,6 +516,8 @@ public class levelHandler : MonoBehaviour {
             peasantFoodQueue.Enqueue(food);
         }
         customersWaiting = peasantFoodQueue.Count;
+		customersLeft = customersWaiting;
+
         //max - how many cooking objects you have (to iterate later)
         grillCount = 4 - maxGrillCount;
         ovenCount = 4 - maxOvenCount;
@@ -850,8 +853,7 @@ public class levelHandler : MonoBehaviour {
 		textStyle.fontSize = Screen.width/25;
 		textStyle.normal.textColor = Color.white;
 		textStyle.font = oldaniaADFStd;
-		int totalCustomersLeft = customersWaiting - customersServed;
-		text = string.Format(totalCustomersLeft.ToString());
+		text = string.Format(customersLeft.ToString());
         GUI.Label(new Rect(8, 5, 100, 100), text, textStyle);
     }
     
