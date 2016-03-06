@@ -217,7 +217,8 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat";
 
             levelTime = 60;
-
+			//sharpening the knife
+			selectedSoundtrack = GameplaySoundtracks [3];
 			//GameObject.Find("MainMenuSoundtrack").SetActive(false);
 			
         }
@@ -264,7 +265,8 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
-			GameplaySoundtracks[0].SetActive(true);
+			selectedSoundtrack = GameplaySoundtracks [1];
+
         }
 
         if (PlayerPrefs.GetInt("level") == 3) //level three
@@ -305,6 +307,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
+			selectedSoundtrack = GameplaySoundtracks [1];
         }
 
         if (PlayerPrefs.GetInt("level") == 4) //level four
@@ -346,6 +349,7 @@ public class levelHandler : MonoBehaviour {
 
             levelTime = 120;
 			selectedSoundtrack = GameplaySoundtracks [0];
+
         }
 
         if (PlayerPrefs.GetInt("level") == 5) //level five
@@ -386,7 +390,7 @@ public class levelHandler : MonoBehaviour {
             peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;apple cider;apple cider;apple cider";
 
             levelTime = 120;
-			GameplaySoundtracks[1].SetActive(true);
+			selectedSoundtrack = GameplaySoundtracks [0];
         }
 
         if (PlayerPrefs.GetInt("level") == 8) //level eight

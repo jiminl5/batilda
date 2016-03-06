@@ -5183,6 +5183,7 @@ MonoBehaviour:
   GameplaySoundtracks:
   - {fileID: 1578238655}
   - {fileID: 1254347447}
+  - {fileID: 1658306077}
   oldaniaADFStd: {fileID: 12800000, guid: 277ef1e1c2194264698fa658fc5cc48d, type: 3}
   c1: {fileID: 110348, guid: 4bf4217dd4f35844895b525ea7ca7992, type: 2}
   c2: {fileID: 161462, guid: c4fcd6cf45ae3fa45a5ae8436a5f3259, type: 2}
@@ -8047,7 +8048,6 @@ MonoBehaviour:
   source: {fileID: 1654657524}
   victoryFanfare2: {fileID: 8300000, guid: 68eb59082426e8c4b9acf21da681aa70, type: 3}
   coinsVictory: {fileID: 8300000, guid: 1e149d366bf09da4ab043b5ab35d3f3c, type: 3}
-  sizzleVictory: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
 --- !u!82 &1654657524
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8122,6 +8122,120 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1 &1658306077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1658306080}
+  - 82: {fileID: 1658306079}
+  - 114: {fileID: 1658306078}
+  m_Layer: 0
+  m_Name: SharpeningTheKnife
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1658306078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1658306077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9e1d5416746fb419d9e7bf12e8859c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &1658306079
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1658306077}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 79cede9c7e821435280a173627a08d6a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.75
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &1658306080
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1658306077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.468998, y: 3.253105, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
 --- !u!1 &1668153387
 GameObject:
   m_ObjectHideFlags: 0
