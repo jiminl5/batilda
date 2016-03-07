@@ -13,6 +13,7 @@ public class cookingObject : MonoBehaviour {
 	public AudioClip grillSizzleSFX;
 	public AudioClip friedEggSFX;
 	public AudioClip searingSFX;
+    public AudioClip tickingSFX;
     public AudioClip doneSFX;
 
 	public bool start_cooking = false;
@@ -171,7 +172,7 @@ public class cookingObject : MonoBehaviour {
 				source.PlayOneShot(friedEggSFX, .35f);
 			}
 			if( food_cooking_name == "bread"){
-			
+                source.PlayOneShot(tickingSFX, .50f);
 				if(this.name == "oven 4"){
                     GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(1, 7, current_recipie.timeToMake, 1);
 				}
