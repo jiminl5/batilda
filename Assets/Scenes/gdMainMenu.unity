@@ -544,13 +544,15 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Day 6 \n(NOT IMPLEMENTED)\n"
+  m_Text: '6
+
+'
 --- !u!222 &166966975
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3575,13 +3577,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Day 7 \n(NOT IMPLEMENTED)"
+  m_Text: 7
 --- !u!222 &1053662021
 CanvasRenderer:
   m_ObjectHideFlags: 0

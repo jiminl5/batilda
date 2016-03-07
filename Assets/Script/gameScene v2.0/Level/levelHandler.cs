@@ -181,7 +181,7 @@ public class levelHandler : MonoBehaviour {
 
         }
 
-        if (PlayerPrefs.GetInt("level") == 1 && PlayerPrefs.GetString("tutorial") == "yes") //tutorial level (level one)
+        else if (PlayerPrefs.GetInt("level") == 1 && PlayerPrefs.GetString("tutorial") == "yes") //tutorial level (level one)
         {
             maxGrillCount = 1;
             maxOvenCount = 0;
@@ -229,7 +229,7 @@ public class levelHandler : MonoBehaviour {
 
 
 
-            if (PlayerPrefs.GetInt("level") == 2) //level two
+        else if (PlayerPrefs.GetInt("level") == 2) //level two
         {
             maxGrillCount = 1;
             maxOvenCount = 0;
@@ -273,7 +273,7 @@ public class levelHandler : MonoBehaviour {
 
         }
 
-        if (PlayerPrefs.GetInt("level") == 3) //level three
+        else if (PlayerPrefs.GetInt("level") == 3) //level three
         {
             maxGrillCount = 1;
             maxOvenCount = 0;
@@ -314,7 +314,7 @@ public class levelHandler : MonoBehaviour {
 			selectedSoundtrack = GameplaySoundtracks [1];
         }
 
-        if (PlayerPrefs.GetInt("level") == 4) //level four
+        else if (PlayerPrefs.GetInt("level") == 4) //level four
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
@@ -356,7 +356,7 @@ public class levelHandler : MonoBehaviour {
 
         }
 
-        if (PlayerPrefs.GetInt("level") == 5) //level five
+        else if (PlayerPrefs.GetInt("level") == 5) //level five
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
@@ -397,7 +397,89 @@ public class levelHandler : MonoBehaviour {
 			selectedSoundtrack = GameplaySoundtracks [2];
         }
 
-        if (PlayerPrefs.GetInt("level") == 8) //level eight
+        else if (PlayerPrefs.GetInt("level") == 6) //level 6
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = false;
+            onionOn = false;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = false;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
+
+            peasantFoodList = "apple cider;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat;grilledMeat;grilledMeat";
+
+            levelTime = 121;
+            selectedSoundtrack = GameplaySoundtracks[2];
+        }
+
+        else if (PlayerPrefs.GetInt("level") == 7) //level 7
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = false;
+            onionOn = false;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = false;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            wall = "cheap";
+            floor = "cheap";
+            counters = "cheap";
+            furnace = "cheap";
+
+            peasantFoodList = "apple cider;apple cider;bread;bread;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat";
+
+            levelTime = 121;
+            selectedSoundtrack = GameplaySoundtracks[2];
+        }
+
+        else if (PlayerPrefs.GetInt("level") == 8) //level eight
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
@@ -439,7 +521,7 @@ public class levelHandler : MonoBehaviour {
 
         }
 
-        if (PlayerPrefs.GetInt("level") == 9) //level nine
+        else if (PlayerPrefs.GetInt("level") == 9) //level nine
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
@@ -480,7 +562,7 @@ public class levelHandler : MonoBehaviour {
             levelTime = 150;
         }
 
-        if (PlayerPrefs.GetInt("level") == 10) //level ten
+        else if (PlayerPrefs.GetInt("level") == 10) //level ten
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
@@ -519,6 +601,170 @@ public class levelHandler : MonoBehaviour {
 			selectedSoundtrack = GameplaySoundtracks [2];
 
             levelTime = 160;
+        }
+
+        else if (PlayerPrefs.GetInt("level") == 11) //level 11
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = true;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            wall = "fancy";
+            floor = "fancy";
+            counters = "fancy";
+            furnace = "fancy";
+
+            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled onion";
+            selectedSoundtrack = GameplaySoundtracks[2];
+
+            levelTime = 170;
+        }
+
+        else if (PlayerPrefs.GetInt("level") == 12) //level 12 (boss level)
+        {
+            maxGrillCount = 3;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = true;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            wall = "fancy";
+            floor = "fancy";
+            counters = "fancy";
+            furnace = "fancy";
+
+            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
+            selectedSoundtrack = GameplaySoundtracks[2];
+
+            levelTime = 170;
+        }
+
+        else if (PlayerPrefs.GetInt("level") == 13) //level 13 NOT IMPLEMENTED YET
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = true;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            wall = "fancy";
+            floor = "fancy";
+            counters = "fancy";
+            furnace = "fancy";
+
+            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;bread;grilled fish;cider";
+            selectedSoundtrack = GameplaySoundtracks[2];
+
+            levelTime = 120;
+        }
+
+        else if (PlayerPrefs.GetInt("level") == 14) //level 14 NOT IMPLEMENTED YET
+        {
+            maxGrillCount = 2;
+            maxOvenCount = 1;
+            maxStoveCount = 0;
+            maxWarmingPlateCount = 4;
+            if (grillCount > maxGrillCount)
+                grillCount = 1;
+            if (ovenCount > maxOvenCount)
+                ovenCount = 0;
+            if (stoveCount > maxStoveCount)
+                stoveCount = 0;
+            if (warmingPlateCount > maxWarmingPlateCount)
+                warmingPlateCount = 4;
+
+            wheatOn = true;
+            cheeseOn = false;
+            carrotOn = true;
+            onionOn = true;
+            fishOn = true;
+            meatOn = true;
+
+            cuttingBoardOn = true;
+            rollingPinOn = true;
+
+            appleOn = true;
+            grapeOn = false;
+            honeyOn = false;
+            sauceOn = false;
+
+            wall = "fancy";
+            floor = "fancy";
+            counters = "fancy";
+            furnace = "fancy";
+
+            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;bread;grilled fish;cider";
+            selectedSoundtrack = GameplaySoundtracks[2];
+
+            levelTime = 120;
         }
 
 
