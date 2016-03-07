@@ -13,6 +13,7 @@ public class cookingObject : MonoBehaviour {
 	public AudioClip grillSizzleSFX;
 	public AudioClip friedEggSFX;
 	public AudioClip searingSFX;
+    public AudioClip doneSFX;
 
 	public bool start_cooking = false;
 	public bool food_ready = false;
@@ -117,7 +118,10 @@ public class cookingObject : MonoBehaviour {
 
 	void cookFood()
 	{
-		//this.GetComponent<SpriteRenderer> ().color = Color.red;
+        //this.GetComponent<SpriteRenderer> ().color = Color.red;
+        if (doneSFX)
+            source.PlayOneShot(doneSFX, .5f);
+
 		this.GetComponent<Animator> ().SetBool ("on", true);
 		//this.GetComponent<stopWatchObject> ().startTime = delay;
 		//this.GetComponent<stopWatchObject> ().not_cooking = false;

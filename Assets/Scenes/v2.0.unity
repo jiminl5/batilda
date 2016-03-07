@@ -1401,6 +1401,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 0}
   friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
   searingSFX: {fileID: 0}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -1775,6 +1776,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
   friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
   searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 1
@@ -2891,6 +2893,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
   friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
   searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 1
@@ -3564,6 +3567,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 0}
   friedEggSFX: {fileID: 0}
   searingSFX: {fileID: 0}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -4115,6 +4119,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 0}
   friedEggSFX: {fileID: 0}
   searingSFX: {fileID: 0}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -6429,6 +6434,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
   friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
   searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 1
@@ -6979,6 +6985,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 0}
   friedEggSFX: {fileID: 0}
   searingSFX: {fileID: 0}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -8335,6 +8342,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 0}
   friedEggSFX: {fileID: 0}
   searingSFX: {fileID: 0}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 0
@@ -9417,6 +9425,7 @@ MonoBehaviour:
   grillSizzleSFX: {fileID: 8300000, guid: 4514d849bb5e6c64095b87cd43362e70, type: 3}
   friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
   searingSFX: {fileID: 8300000, guid: d5a5e8dbdd7031f4b86670d1883446b1, type: 3}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
   start_cooking: 0
   food_ready: 0
   cookReady: 1
