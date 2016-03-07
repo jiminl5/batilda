@@ -58,7 +58,10 @@ public class Tutorial : MonoBehaviour {
             else if (count == 7)
                 GameObject.Find("finished meat(Clone)").GetComponent<SpriteRenderer>().sortingOrder = 10;
             else if (count == 9)
+            {
                 GameObject.Find("dish_1").GetComponent<SpriteRenderer>().sortingOrder = 10;
+                GameObject.Find("roast meat(Clone)(Clone)").GetComponent<SpriteRenderer>().sortingOrder = 11;
+            }
             if (count <= 11)
             {
                 GameObject.Find("highlight").GetComponent<SpriteRenderer>().enabled = true;

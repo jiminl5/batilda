@@ -14,7 +14,7 @@ public class coinHandler : MonoBehaviour {
 	void Update () {
 	
 	}
-
+    /*
     void OnGUI()
     {
         GUI.color = Color.red;
@@ -23,7 +23,7 @@ public class coinHandler : MonoBehaviour {
         _style.fontSize = 20;
         GUI.Label(new Rect(20, 20, 500, 200), "COINS: " + _coin.ToString(), _style);
     }
-
+    */
     public int Coins {
         get { return _coin;}
         set { _coin = value; }

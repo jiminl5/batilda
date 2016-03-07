@@ -95,6 +95,7 @@ public class CircleHighLight : MonoBehaviour
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
             TutorialMove(5, 6);
             GameObject.Find("dish_1").GetComponent<SpriteRenderer>().sortingOrder = 5;
+            GameObject.Find("roast meat(Clone)(Clone)").GetComponent<SpriteRenderer>().sortingOrder = 5;
             GameObject.Find("highlight").transform.position = new Vector2(11.8f, 2.5f);
             GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 10; // Increase the size of CAP
         }
