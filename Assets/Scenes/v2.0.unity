@@ -10264,8 +10264,6 @@ GameObject:
   - 81: {fileID: 2033789289}
   - 114: {fileID: 2033789294}
   - 114: {fileID: 2033789295}
-  - 114: {fileID: 2033789297}
-  - 114: {fileID: 2033789296}
   - 114: {fileID: 2033789298}
   - 114: {fileID: 2033789299}
   - 114: {fileID: 2033789300}
@@ -10371,35 +10369,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LoadingScene: {fileID: 0}
   LoadingAsset: {fileID: 0}
---- !u!114 &2033789296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2033789288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4566b3eb298778c45b0f4c8d47173dd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: 3ec0651fafad6384aa2f679777e1808f, type: 3}
-  lookupTexture: {fileID: 2800000, guid: 492bfb06acc0e704097ddd34878f4c01, type: 3}
-  amount: 0.301
-  filter: 3
---- !u!114 &2033789297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2033789288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c96565cea519423478cc9c9b585cd616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: 5dd3abe48df26604a8d8c7b97bd34a2a, type: 3}
-  strength: 2.08
-  clamp: 0.05
 --- !u!114 &2033789298
 MonoBehaviour:
   m_ObjectHideFlags: 0
