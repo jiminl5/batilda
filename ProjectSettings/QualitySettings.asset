@@ -86,6 +86,6 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 1
-    Standalone: 1
-    Web: 1
+    Standalone: 2
+    Web: 2
     iPhone: 1

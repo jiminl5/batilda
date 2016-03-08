@@ -310,7 +310,7 @@ public class levelHandler : MonoBehaviour {
 
             peasantFoodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
 
-            levelTime = 120;
+            levelTime = 100;
 			selectedSoundtrack = GameplaySoundtracks [1];
         }
 

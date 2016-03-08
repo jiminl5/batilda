@@ -1356,6 +1356,7 @@ GameObject:
   - 223: {fileID: 549852236}
   - 114: {fileID: 549852235}
   - 114: {fileID: 549852234}
+  - 114: {fileID: 549852237}
   m_Layer: 5
   m_Name: Left_Canvas
   m_TagString: Untagged
@@ -1438,6 +1439,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &549852237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 549852232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85aa71e14abaf3a4fbbfff7973c32fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profit_text: {fileID: 823215534}
 --- !u!1 &617535472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,7 +2005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Profit: 10g'
+  m_Text: 
 --- !u!222 &823215535
 CanvasRenderer:
   m_ObjectHideFlags: 0
