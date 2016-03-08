@@ -5835,7 +5835,7 @@ MonoBehaviour:
   numberOfDough: 0
   name: dough
   numberofWheat: 0
-  maxWheat: 4
+  maxWheat: 1
   maxDough: 4
   timeToMakeDough: 5
 --- !u!212 &1148562810
