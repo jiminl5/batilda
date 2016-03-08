@@ -597,7 +597,7 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "bread;bread;apple cider;apple cider;grilled carrot;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
+            peasantFoodList = "bread;bread;apple cider;apple cider;grilledMeat;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
 			selectedSoundtrack = GameplaySoundtracks [2];
 
             levelTime = 160;
