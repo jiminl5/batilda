@@ -121,7 +121,7 @@ public class cookingObject : MonoBehaviour {
 	{
         //this.GetComponent<SpriteRenderer> ().color = Color.red;
         if (doneSFX)
-            source.PlayOneShot(doneSFX, .5f);
+            source.PlayOneShot(doneSFX, .4f);
 
 		this.GetComponent<Animator> ().SetBool ("on", true);
 		//this.GetComponent<stopWatchObject> ().startTime = delay;
