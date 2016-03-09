@@ -22,8 +22,8 @@ public class recipeRepository : MonoBehaviour {
         if (Application.platform != RuntimePlatform.Android)
         {
             Destroy(GameObject.Find("AndroidFilePath"));
-            dataPath = Application.dataPath + "/Resources/Recipies/Food Recipes";
-            DirectoryInfo dir = new DirectoryInfo(dataPath);//"Assets/Resources/Recipies/Food Recipes");
+            //dataPath = Application.dataPath + "/Resources/Recipies/Food Recipes";
+            DirectoryInfo dir = new DirectoryInfo("Assets/Resources/Recipies/Food Recipes");//"Assets/Resources/Recipies/Food Recipes");
             FileInfo[] info = dir.GetFiles("*.prefab");
             info.Select(f => f.FullName).ToArray();
             foreach (FileInfo f in info)
