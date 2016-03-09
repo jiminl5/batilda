@@ -15,7 +15,7 @@ public class ResultProfit : MonoBehaviour {
 	void Update () {
 	    if (this.isActiveAndEnabled && profit_text_change)
         {
-            profit_text.text = "Profit: <color=#338D74><b>" + PlayerPrefs.GetInt("temp_coin") + "</b></color>g";
+            profit_text.text = "Profit: <color=#338D74><b>" + PlayerPrefs.GetInt("tempCustomer") + "</b></color>g";
             profit_text_change = false;
         }
 	}

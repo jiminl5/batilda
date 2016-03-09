@@ -13,12 +13,11 @@ public class StopWatch : MonoBehaviour {
 
 	public bool finished = false;
 
-
-	// Use this for initialization
-/*	void Awake () {
-        timeInSeconds = startTime;
-        Debug.Log(startTime);
-	}*/
+    // Use this for initialization
+    /*	void Awake () {
+            timeInSeconds = startTime;
+            Debug.Log(startTime);
+        }*/
 
     void Start()
     {
@@ -66,13 +65,32 @@ public class StopWatch : MonoBehaviour {
 
 
 		GUIText gtext;
-		if (displayMinutes > 0) {
-			GUI.TextArea (new Rect (Screen.width / 2 - 20, 0, 50, 30), text.Substring (1), textStyle);
-		} else if (displaySeconds < 10) {
-			GUI.TextArea (new Rect (Screen.width / 2 - 20, 0, 50, 30), text.Substring (4), textStyle);
-		} else {
-			GUI.TextArea(new Rect(Screen.width/2 - 20, 0, 50, 30), text.Substring(3), textStyle);
-		}
-
+        if (!AndroidViewPort.default_ratio)
+        {
+            if (displayMinutes > 0)
+            {
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(1), textStyle);
+            }
+            else if (displaySeconds < 10)
+            {
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(4), textStyle);
+            }
+            else {
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(3), textStyle);
+            }
+        }
+        else {
+            if (displayMinutes > 0)
+            {
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 16, 50, 30), text.Substring(1), textStyle); //2^4
+            }
+            else if (displaySeconds < 10)
+            {
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 16, 50, 30), text.Substring(4), textStyle);
+            }
+            else {
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 16, 50, 30), text.Substring(3), textStyle);
+            }
+        }
 	}
 }

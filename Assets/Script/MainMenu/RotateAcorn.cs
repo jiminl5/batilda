@@ -12,4 +12,12 @@ public class RotateAcorn : MonoBehaviour {
 	void Update () {
         this.transform.Rotate(new Vector3(0, 0, -45) * Time.deltaTime);
 	}
+
+    void OnLevelWasLoaded(int level)
+    {
+        if (level == 1)
+        {
+            Destroy(GameObject.Find("LoadingCanvas"));
+        }
+    }
 }
