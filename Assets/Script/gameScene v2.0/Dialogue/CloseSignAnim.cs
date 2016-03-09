@@ -80,6 +80,7 @@ public class CloseSignAnim : MonoBehaviour {
                     if (this.gameObject.transform.GetChild(close_child).position.x >= 20)
                     {
                         GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin(); // Store coin to Database
+                        PlayerPrefs.SetString("tutorial", "no");
                         CustomerAI.seatCount = 0;
                         CustomerAI.seat_taken_1 = false;
                         CustomerAI.seat_taken_2 = false;
