@@ -82,14 +82,14 @@ public class StopWatch : MonoBehaviour {
         else {
             if (displayMinutes > 0)
             {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 16, 50, 30), text.Substring(1), textStyle); //2^4
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 18, 50, 30), text.Substring(1), textStyle); //2^4
             }
             else if (displaySeconds < 10)
             {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 16, 50, 30), text.Substring(4), textStyle);
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 18, 50, 30), text.Substring(4), textStyle);
             }
             else {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 16, 50, 30), text.Substring(3), textStyle);
+                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 18, 50, 30), text.Substring(3), textStyle);
             }
         }
 	}
