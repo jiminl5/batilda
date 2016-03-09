@@ -793,7 +793,7 @@ public class levelHandler : MonoBehaviour {
             rollingPinOn = true;
 
             appleOn = true;
-            grapeOn = false;
+            grapeOn = true;
             honeyOn = false;
             sauceOn = false;
 
