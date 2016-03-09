@@ -1157,7 +1157,7 @@ public class levelHandler : MonoBehaviour {
 		textStyle.font = oldaniaADFStd;
 		text = string.Format(customersLeft.ToString());
         if (AndroidViewPort.default_ratio)
-            GUI.Label(new Rect(8, Screen.height / 18, 100, 100), text, textStyle);
+            GUI.Label(new Rect(8, Screen.height / 28, 100, 100), text, textStyle);
         else
             GUI.Label(new Rect(8, 0, 100, 100), text, textStyle);
     }
