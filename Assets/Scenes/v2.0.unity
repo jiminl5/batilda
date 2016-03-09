@@ -6149,7 +6149,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1214821873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.88401127, y: 2.0863848, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1595375372}
@@ -6406,7 +6406,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1266623357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0013721585, y: -0.01595831, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1458081278}
@@ -7536,7 +7536,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 430258, guid: fdaa44df09f6221498df54db06bf299a, type: 2}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 21262038, guid: fdaa44df09f6221498df54db06bf299a, type: 2}
       propertyPath: m_Enabled
@@ -7921,9 +7921,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1595375372}
+  - 212: {fileID: 1595375375}
+  - 114: {fileID: 1595375374}
+  - 114: {fileID: 1595375373}
   m_Layer: 0
   m_Name: grape cider
-  m_TagString: Untagged
+  m_TagString: test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7935,12 +7938,76 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1595375371}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.9, y: 2.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1214821874}
   m_Father: {fileID: 955942747}
   m_RootOrder: 5
+--- !u!114 &1595375373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595375371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  x: 8
+  y: 6
+  go: {fileID: 132518, guid: a877cde97251f2040a5ecbdd1eba63b7, type: 2}
+--- !u!114 &1595375374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595375371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ee020a9b800fd47a50926c3e33db39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfDrinks: 0
+  name: wine
+  maxDrinks: 3
+  timeToMakeDrink: 5
+  drink1: {fileID: 21300008, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+  drink2: {fileID: 21300014, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+  drink3: {fileID: 21300020, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+  drink4: {fileID: 21300026, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+--- !u!212 &1595375375
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595375371}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2cf358e61111f614388b9826104b1083, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300026, guid: c6e3af12809d98d4e8e36f3d3e702f40, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!1 &1603833676
 GameObject:
   m_ObjectHideFlags: 0
@@ -10456,6 +10523,10 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &2065018434 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 430258, guid: fdaa44df09f6221498df54db06bf299a, type: 2}
+  m_PrefabInternal: {fileID: 1497857165}
 --- !u!1 &2066811474
 GameObject:
   m_ObjectHideFlags: 0
@@ -11022,6 +11093,52 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2124614001}
+--- !u!1001 &2125384038
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2065018434}
+    m_Modifications:
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.2798676
+      objectReference: {fileID: 0}
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.685683
+      objectReference: {fileID: 0}
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 408698, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 21288042, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2c99419ab67cfe847ab459d499622805, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &2131407505
 Prefab:
   m_ObjectHideFlags: 0
