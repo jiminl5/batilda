@@ -173,7 +173,8 @@ public class Waitress : MonoBehaviour {
             //create go_1h
             //go_1h = temp_plate;
             go.GetComponent<drinkObject>().numberOfDrinks -= 1;
-            go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+            if (one_h == "apple cider") go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.right / 2 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+            else if (one_h == "wine") go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + new Vector3(.72f, 0) + Vector3.down * 1 / 2, transform.rotation) as GameObject;
             go_1h.transform.SetParent(gameObject.transform);
             //go_1h.gameObject.layer = 5;
             Debug.Log(one_h);
@@ -185,7 +186,8 @@ public class Waitress : MonoBehaviour {
             //create go_2h
             //go_2h = temp_plate;
             go.GetComponent<drinkObject>().numberOfDrinks -= 1;
-            go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+            if (two_h == "apple cider") go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + Vector3.left * 2 / 3 + Vector3.down * 1 / 2, transform.rotation) as GameObject;
+            else if (two_h == "wine") go_2h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + new Vector3(-.5f,0) + Vector3.down * 1 / 2, transform.rotation) as GameObject;
             //go_2h.gameObject.layer = 5;
             go_2h.transform.SetParent(gameObject.transform);
 
