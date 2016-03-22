@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 498018}
   - 212: {fileID: 21254308}
+  - 114: {fileID: 11424746}
+  - 61: {fileID: 6170620}
   m_Layer: 0
   m_Name: speech_bubble
   m_TagString: Untagged
@@ -28,6 +30,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!61 &6170620
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102228}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 1.595}
+--- !u!114 &11424746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e37f134f0a0ea4fa63687fcee48655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 181840, guid: 3ff56321f3e745e44b9cc3794e10a19e, type: 2}
 --- !u!212 &21254308
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -81,6 +109,10 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: tile
+      value: 
+      objectReference: {fileID: 181840, guid: 3ff56321f3e745e44b9cc3794e10a19e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 102228}
