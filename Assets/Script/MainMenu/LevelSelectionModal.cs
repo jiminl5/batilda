@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LevelSelectionModal : MonoBehaviour {
 
@@ -11,7 +12,8 @@ public class LevelSelectionModal : MonoBehaviour {
  
     public void loadLevel(string level_name)
     {
-        Application.LoadLevel(level_name);
+        //Application.LoadLevel(level_name);
+        SceneManager.LoadScene(level_name);
     }
     void Start()
     {
@@ -35,7 +37,8 @@ public class LevelSelectionModal : MonoBehaviour {
     IEnumerator LevelCoroutine()
     {
         //LoadingScene.SetActive(true);
-        async = Application.LoadLevelAsync("v2.0");
+        //async = Application.LoadLevelAsync("v2.0");
+        async = SceneManager.LoadSceneAsync("v2.0");
         async.allowSceneActivation = false;
         yield return async;
     }
