@@ -9,6 +9,8 @@ public class CircleHighLight : MonoBehaviour
 
     private float timer = 0.0f;
 
+    public static bool customerCame = false;
+
     void Start()
     {
         increase = true;
@@ -33,6 +35,7 @@ public class CircleHighLight : MonoBehaviour
         //Disable Touch on Circle
         GameObject.Find("highlight").GetComponent<SpriteRenderer>().enabled = false;
         GameObject.Find("highlight").GetComponent<BoxCollider2D>().enabled = false;
+
 
         if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == GameObject.Find("Main Camera").GetComponent<Tutorial>().cap
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().cap == 2)
@@ -250,7 +253,7 @@ public class CircleHighLight : MonoBehaviour
                 increase = true;
         }
 
-        if (next)
+        if (next && customerCame)
         {
             if (GameObject.Find("Unit").transform.position.x == 1.5f && GameObject.Find("Unit").transform.position.y == 5.0f
             && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 2)

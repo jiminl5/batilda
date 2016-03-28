@@ -13,10 +13,10 @@ public class Tutorial : MonoBehaviour {
     GameObject[] waitressTile;
     //If TUTORIAL LEVEL && Open sign is destroyed call this function
     void Start () {
-        count = 1;
+        count = 0;
         temp = count;
         next = false;
-        cap = 2;
+        cap = 1;
     }
 	
     void SetTiles()
@@ -42,7 +42,7 @@ public class Tutorial : MonoBehaviour {
             }
             GameObject.Find("Batilda").GetComponent<SpriteRenderer>().sortingOrder = 10;
             GameObject.Find("bg_trans").GetComponent<SpriteRenderer>().enabled = true;
-            if (count == 1 || count == 5 || count == 12)
+            if (count == 0 || count == 1 || count == 5 || count == 12)
                 GameObject.Find("bg_trans").GetComponent<BoxCollider2D>().enabled = true;
         }
         else if (count == cap && count != 6)
@@ -83,7 +83,7 @@ public class Tutorial : MonoBehaviour {
             GameObject.Find("text_cursor").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("text_cursor (1)").GetComponent<SpriteRenderer>().enabled = false;
         }
-        if (GameObject.Find("speechBubble").GetComponent<BoxCollider2D>().enabled || GameObject.Find("speechBubble_1").GetComponent<BoxCollider2D>().enabled)
+        if ((GameObject.Find("speechBubble").GetComponent<BoxCollider2D>().enabled || GameObject.Find("speechBubble_1").GetComponent<BoxCollider2D>().enabled) && count != 0)
         {
             for (int i = 0; i < waitressTile.Length; i++)
             {
@@ -109,7 +109,8 @@ public class Tutorial : MonoBehaviour {
             Time.timeScale = 1.0f;
             GameObject.Find("Batilda").GetComponent<SpriteRenderer>().sortingOrder = 3;
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().Setup_Tile();
-            OpenSignAnim.confirm_tutorial_start = false;
+            //OpenSignAnim.confirm_tutorial_start = false;
+            CircleHighLight.customerCame = false;
             GameObject.Find("Main Camera").GetComponent<Tutorial>().enabled = false;
             PlayerPrefs.SetString("tutorial", "no");
         }

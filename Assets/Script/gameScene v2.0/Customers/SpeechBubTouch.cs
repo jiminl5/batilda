@@ -15,7 +15,6 @@ public class SpeechBubTouch : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Debug.Log("WWWWWWWWWWWWWWWWWWWWWWWWWWW");
         print("mtX: " + this.GetComponentInParent<nameAndPosition>().x + ", mtY: " + this.GetComponentInParent<nameAndPosition>().y);
         GameObject.Find("tmp_invisibleTile1(Clone)").GetComponent<MoveableTile>().SpeechBubDown(this.GetComponentInParent<nameAndPosition>().x, this.GetComponentInParent<nameAndPosition>().y);
     }

@@ -13,12 +13,12 @@ public class Speech : MonoBehaviour {
     {
         if (start_speech)
         {
-            if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 1 && GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled)
+            if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 0 && GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled)
             {
                 //key_text.text = "steak123123!";
                 //key_text.fontStyle = FontStyle.Bold;
                 speech_text.enabled = true;
-                speech_text.text = "Looks like the customer wants some <color=#B43104><b>steak</b></color>! Let’s get cooking!";
+                speech_text.text = "";
                 start_speech = false;
             }
         }
@@ -26,8 +26,14 @@ public class Speech : MonoBehaviour {
             speech_text.enabled = false;
         if (GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled)
         {
-            if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 2)
+            if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 1)
             {
+                speech_text.enabled = true;
+                speech_text.text = "Looks like the customer wants some <color=#B43104><b>steak</b></color>! Let’s get cooking!";
+            }
+            else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 2)
+            {
+                speech_text.enabled = true;
                 speech_text.text = "Tap an <color=#B43104><b>ingredient</b></color> to have Foxanna pick it up. For steak, we need some <color=#B43104><b>beef</b></color>!";
             }
             else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 3)
@@ -87,9 +93,24 @@ public class Speech : MonoBehaviour {
     }
     void OnMouseDown()
     {
-        if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count < GameObject.Find("Main Camera").GetComponent<Tutorial>().cap)
+        if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 0)
         {
+            GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("speechBubble").GetComponent<BoxCollider2D>().enabled = false;
+            GameObject.Find("bg_trans").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("bg_trans").GetComponent<BoxCollider2D>().enabled = false;
             GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;
+            GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 2;
+            Time.timeScale = 1.0f;
+            GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
+            GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
+            GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
+            GameObject.Find("Batilda").GetComponent<SpriteRenderer>().sortingOrder = 4;
+        }
+        else if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count < GameObject.Find("Main Camera").GetComponent<Tutorial>().cap)
+        {
+            if (CircleHighLight.customerCame)
+                GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;
         }
         if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 6)
         {
@@ -101,7 +122,6 @@ public class Speech : MonoBehaviour {
             GameObject.Find("Main Camera").GetComponent<Tutorial>().cap = 7; // Increase the size of CAP
             Time.timeScale = 1.0f;
             GameObject.Find("highlight").GetComponent<CircleHighLight>().NextMoveBool();
-            //print("Triggered HEReeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
             GameObject.Find("tmp_invisibleTile(Clone)").GetComponent<MoveableTile>().RemoveAllTileColliders();
         }
     }

@@ -69,9 +69,14 @@ public class Customer : MonoBehaviour {
         else if (!needsToOrder && tempObj)
         {
             if (PlayerPrefs.GetString("tutorial") == "yes")
-                OpenSignAnim.confirm_tutorial_start = true;
+            {
+                CircleHighLight.customerCame = true;
+                GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
+            }
+            //OpenSignAnim.confirm_tutorial_start = true;
             else
-                OpenSignAnim.confirm_tutorial_start = false;
+                CircleHighLight.customerCame = false;
+            //OpenSignAnim.confirm_tutorial_start = false;
             _Panimator.SetInteger(_PeasantState, 3);
             Destroy(tempObj);
         }

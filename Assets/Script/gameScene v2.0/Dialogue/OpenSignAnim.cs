@@ -17,7 +17,7 @@ public class OpenSignAnim : MonoBehaviour {
 	public static bool fadeMainMenuSongOut = false;
 
     bool tutorial_start = false;
-    public static bool confirm_tutorial_start = false;
+    //public static bool confirm_tutorial_start = false;
 	// Use this for initialization
 	void Start () {
         //start = true;
@@ -65,9 +65,6 @@ public class OpenSignAnim : MonoBehaviour {
                 if (PlayerPrefs.GetString("tutorial") == "yes")
                 {
                     //WAITRESS - tile
-                    GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
-                    GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
-                    GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
                     tutorial_start = true;
                 }
                 else {
@@ -90,12 +87,11 @@ public class OpenSignAnim : MonoBehaviour {
         }
         if (tutorial_start)
         {
-            if (confirm_tutorial_start)
-            {
-
+            //if (confirm_tutorial_start)
+            //{
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 Destroy(this.gameObject);
-            }
+            //}
         }
 	}
 }
