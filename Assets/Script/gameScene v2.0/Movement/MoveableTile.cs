@@ -60,8 +60,10 @@ public class MoveableTile : MonoBehaviour {
                 Destroy(red_tile[i]);
             //red_tile[i].SetActive(false);
             else if ((red_tile[i].transform.position.x > 7.5f && red_tile[i].transform.position.x < 15f)
-                        && (!(red_tile[i].transform.position.y <= 2 || red_tile[i].transform.position.y == 6
-                         || red_tile[i].transform.position.y == 7) || (red_tile[i].transform.position.y == 3)))
+                        && !(red_tile[i].transform.position.y <= 2 || red_tile[i].transform.position.y == 6
+                         || red_tile[i].transform.position.y == 7))
+                Destroy(red_tile[i]);
+            else if (red_tile[i].transform.position.x == 15f && red_tile[i].transform.position.y == 3)
                 Destroy(red_tile[i]);
             //red_tile[i].SetActive(false);
         }
