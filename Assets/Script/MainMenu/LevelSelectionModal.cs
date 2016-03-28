@@ -7,16 +7,19 @@ public class LevelSelectionModal : MonoBehaviour {
 
     public GameObject LoadingScene;
     public Image LoadingAsset;
-
-    public void loadLevel(string level_number)
+    AsyncOperation async;
+ 
+    public void loadLevel(string level_name)
     {
-        Application.LoadLevel("level" + level_number);
+        Application.LoadLevel(level_name);
     }
-    
-    public void loadScene(string scene_name)
+    void Start()
     {
-        //Application.LoadLevel(scene_name);
-        StartCoroutine(LevelCoroutine(scene_name));
+        StartCoroutine(LevelCoroutine());
+    }
+    public void loadScene()
+    {
+        async.allowSceneActivation = true;
     }
 
     public void activateWaitressTab()
@@ -29,11 +32,11 @@ public class LevelSelectionModal : MonoBehaviour {
 
     }
 
-    IEnumerator LevelCoroutine(string scene_name)
+    IEnumerator LevelCoroutine()
     {
         //LoadingScene.SetActive(true);
-        AsyncOperation async = Application.LoadLevelAsync(scene_name);
-        async.allowSceneActivation = true;
+        async = Application.LoadLevelAsync("v2.0");
+        async.allowSceneActivation = false;
         yield return async;
     }
 
