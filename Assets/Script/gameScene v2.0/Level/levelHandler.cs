@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 
 public class levelHandler : MonoBehaviour {
 
@@ -56,6 +57,8 @@ public class levelHandler : MonoBehaviour {
     private static Random rng = new Random();
     public bool updateBools;
 
+    public int numberofCustomers;
+
     //cooking objects
     public int maxGrillCount;
     public int maxOvenCount;
@@ -89,8 +92,72 @@ public class levelHandler : MonoBehaviour {
     public string furnace;
 
     //food lists
+    Queue<customer> peasantQueue;
     public string peasantFoodList; //initalized with ";" as breakers. ex: "bread;carrot soup;grilled fish"
     public Queue<string> peasantFoodQueue;
+    public string foodList;
+
+    Queue<customer> customerQueue;
+
+    struct customer
+    {
+        public string type;
+        public Queue<string> foodQueue;
+
+        public customer(string Type, Queue<string> FoodQueue)
+        {
+            type = Type;
+            foodQueue = FoodQueue;
+        }
+    };
+
+    public static string Multiply(string source, int multiplier) //multiply strings
+    {
+        StringBuilder sb = new StringBuilder(multiplier * source.Length);
+        for (int i = 0; i < multiplier; i++)
+        {
+            sb.Append(source);
+        }
+
+        return sb.ToString();
+    }
+
+
+    Queue<customer> createPeasants(string[] food)
+    {
+        Queue<customer> peasants = new Queue<customer>();
+        Queue<string> foodQueue;
+
+        shuffle(food);
+        foreach (string s in food)
+        {
+            print("THIS IS S: " + s);
+            foodQueue = new Queue<string>();
+            foodQueue.Enqueue(s);
+            peasants.Enqueue(new customer("peasant", foodQueue));
+        }
+        return peasants;
+    }
+
+    void createCustomerQueue()
+    {
+        customer[] customerArray = new customer[numberofCustomers];
+        int i = 0;
+        foreach (customer c in peasantQueue)
+        {
+            customerArray[i] = c;
+            i++;
+        }
+        //foreach customer in artisanqueue...etc
+        shuffle_customers(customerArray);
+
+        foreach (customer c in customerArray)
+        {
+            customerQueue.Enqueue(c);
+        }
+    }
+
+
     public int customersWaiting;
 	public static int customersLeft;
 	public static int totalCustomersInLevel;
@@ -103,6 +170,7 @@ public class levelHandler : MonoBehaviour {
         customerList = new GameObject[5];
         emptyCustomers = new ArrayList();
         randomCustomerIndexes = new Queue<int>();
+        customerQueue = new Queue<customer>();
     }
 
     // Use this for initialization
@@ -129,7 +197,7 @@ public class levelHandler : MonoBehaviour {
         honeyOn = honey;
         sauceOn = sauce;
 
-        peasantFoodList = peasant;
+        foodList = peasant;
         */
         peasantFoodQueue = new Queue<string>();
         //set what player has first
@@ -173,7 +241,10 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "apple cider;apple cider;apple cider;apple cider";
+            numberofCustomers = 4;
+            foodList = Multiply("apple cider;", 4);
+
+            //foodList = "apple cider;apple cider;apple cider;apple cider";
                 //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 121;
@@ -218,7 +289,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "grilledMeat;grilledMeat";
+            numberofCustomers = 2;
+            foodList = "grilledMeat;grilledMeat";
 
             levelTime = 60;
 			//sharpening the knife
@@ -266,7 +338,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "grilledMeat;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 4;
+            foodList = "grilledMeat;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
 			selectedSoundtrack = GameplaySoundtracks [1];
@@ -308,7 +381,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 6;
+            foodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
 
             levelTime = 100;
 			selectedSoundtrack = GameplaySoundtracks [1];
@@ -349,7 +423,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 8;
+            foodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 121;
 			selectedSoundtrack = GameplaySoundtracks [0];
@@ -391,7 +466,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;apple cider;apple cider;apple cider";
+            numberofCustomers = 10;
+            foodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;apple cider;apple cider;apple cider";
 
             levelTime = 121;
 			selectedSoundtrack = GameplaySoundtracks [2];
@@ -432,7 +508,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "apple cider;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat;grilledMeat;grilledMeat";
+            numberofCustomers = 11;
+            foodList = "apple cider;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat;grilledMeat;grilledMeat";
 
             levelTime = 121;
             selectedSoundtrack = GameplaySoundtracks[2];
@@ -473,7 +550,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "apple cider;apple cider;bread;bread;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat";
+            numberofCustomers = 12;
+            foodList = "apple cider;apple cider;bread;bread;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat";
 
             levelTime = 121;
             selectedSoundtrack = GameplaySoundtracks[2];
@@ -514,7 +592,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "grilledMeat;grilledMeat;bread;bread;apple cider;apple cider;apple cider;grilled onion;grilled onion;grilled onion";
+            numberofCustomers = 10;
+            foodList = "grilledMeat;grilledMeat;bread;bread;apple cider;apple cider;apple cider;grilled onion;grilled onion;grilled onion";
 
             levelTime = 150;
 			selectedSoundtrack = GameplaySoundtracks [2];
@@ -556,7 +635,8 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            peasantFoodList = "grilledMeat;grilledMeat;grilledMeat;bread;bread;bread;bread;apple cider;apple cider;grilled onion;grilled onion;grilled fish";
+            numberofCustomers = 12;
+            foodList = "grilledMeat;grilledMeat;grilledMeat;bread;bread;bread;bread;apple cider;apple cider;grilled onion;grilled onion;grilled fish";
 			selectedSoundtrack = GameplaySoundtracks [2];
 
             levelTime = 150;
@@ -597,7 +677,8 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "bread;bread;apple cider;apple cider;grilledMeat;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
+            numberofCustomers = 14;
+            foodList = "bread;bread;apple cider;apple cider;grilledMeat;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
 			selectedSoundtrack = GameplaySoundtracks [2];
 
             levelTime = 160;
@@ -638,7 +719,8 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled onion";
+            numberofCustomers = 15;
+            foodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled onion";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 170;
@@ -679,7 +761,8 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 19;
+            foodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 170;
@@ -720,7 +803,8 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 20;
+            foodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 180;
@@ -761,7 +845,8 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;bread;grilled carrot;grilled onion;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 21;
+            foodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;bread;grilled carrot;grilled onion;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 180;
@@ -802,14 +887,18 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            peasantFoodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
+            numberofCustomers = 24;
+            foodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 180;
         }
 
+        peasantQueue = createPeasants(foodList.Split(';'));
 
-        string[] peasantFoodShuffle = peasantFoodList.Split(';');
+        createCustomerQueue();
+
+        string[] peasantFoodShuffle = foodList.Split(';');
         shuffle(peasantFoodShuffle);
         foreach (string food in peasantFoodShuffle)
         {
@@ -1182,9 +1271,14 @@ public class levelHandler : MonoBehaviour {
 
         //int i = randomCustomerIndexes.Dequeue();
 
-
+        customer current_customer = customerQueue.Dequeue();
         GameObject tempcustomer = Resources.Load("Customers/Peasants/customer") as GameObject;
-        tempcustomer.GetComponent<Customer>().current_food = findRecipe(peasantFoodQueue.Dequeue());
+
+        if (current_customer.type == "peasant")
+        {
+            print("foodqueue: " + current_customer.foodQueue.Count);
+            tempcustomer.GetComponent<Customer>().current_food = findRecipe(current_customer.foodQueue.Dequeue());
+        }
 
 
         if (CustomerAI.customerSat1 && customerName == "cus_1")// && emptyCustomers.Contains(0))
@@ -1323,6 +1417,18 @@ public class levelHandler : MonoBehaviour {
             int r = Random.Range(t, texts.Length);
             texts[t] = texts[r];
             texts[r] = tmp;
+        }
+    }
+
+    void shuffle_customers(customer[] c)
+    {
+        // Knuth shuffle algorithm :: courtesy of Wikipedia :)
+        for (int t = 0; t < c.Length; t++)
+        {
+            customer tmp = c[t];
+            int r = Random.Range(t, c.Length);
+            c[t] = c[r];
+            c[r] = tmp;
         }
     }
 

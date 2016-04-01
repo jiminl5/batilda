@@ -11,7 +11,6 @@ public class Customer : MonoBehaviour {
 	private GameObject foodSprite;
     public Queue<string> peasantFoodQueue;
 
-
     public bool needsToOrder = true;
     public bool tempObjInstantiated = false;
     public GameObject tempObj;
