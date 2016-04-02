@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 47049f2eb341e474798b23989c42e66f
+timeCreated: 1459623941
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: middle_1_walking_0
+    21300002: middle_1_walking_1
+    21300004: middle_1_walking_2
+    21300006: middle_1_walking_3
+    21300008: middle_1_walking_4
+    21300010: middle_1_walking_5
+    21300012: middle_1_walking_6
+    21300014: middle_1_walking_7
+    21300016: middle_1_walking_8
+    21300018: middle_1_walking_9
+    21300020: middle_1_walking_10
+    21300022: middle_1_walking_11
+    21300024: middle_1_walking_12
+    21300026: middle_1_walking_13
+    21300028: middle_1_walking_14
+    21300030: middle_1_walking_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: middle_1_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74, y: 298}
+        - {x: -59, y: 298}
+        - {x: -83, y: 295}
+        - {x: -102, y: 258}
+        - {x: -102, y: 154}
+        - {x: -93, y: 125}
+        - {x: -46, y: 95}
+        - {x: -43, y: 3}
+        - {x: -41, y: 0}
+        - {x: 26, y: 0}
+        - {x: 28, y: 5}
+        - {x: 47, y: 66}
+        - {x: 102, y: 154}
+        - {x: 102, y: 221}
+    - name: middle_1_walking_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 299}
+        - {x: 21, y: 299}
+        - {x: -8, y: 283}
+        - {x: -68, y: 299}
+        - {x: -87, y: 299}
+        - {x: -102, y: 240}
+        - {x: -102, y: 129}
+        - {x: -51, y: 0}
+        - {x: 31, y: 0}
+        - {x: 34, y: 1}
+        - {x: 51, y: 66}
+        - {x: 102, y: 167}
+        - {x: 102, y: 231}
+    - name: middle_1_walking_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 164}
+        - {x: 102, y: 254}
+        - {x: 91, y: 300}
+        - {x: -74, y: 300}
+        - {x: -71, y: 290}
+        - {x: -100, y: 228}
+        - {x: -102, y: 222}
+        - {x: -102, y: 177}
+        - {x: -29, y: 0}
+        - {x: 20, y: 0}
+        - {x: 29, y: 15}
+        - {x: 48, y: 66}
+        - {x: 48, y: 109}
+    - name: middle_1_walking_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 301}
+        - {x: -68, y: 301}
+        - {x: -68, y: 289}
+        - {x: -102, y: 239}
+        - {x: -102, y: 184}
+        - {x: -98, y: 169}
+        - {x: -80, y: 136}
+        - {x: -62, y: 61}
+        - {x: -31, y: 0}
+        - {x: 26, y: 0}
+        - {x: 57, y: 51}
+        - {x: 102, y: 132}
+        - {x: 102, y: 244}
+    - name: middle_1_walking_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 226}
+        - {x: 68, y: 302}
+        - {x: -73, y: 302}
+        - {x: -102, y: 240}
+        - {x: -102, y: 159}
+        - {x: -86, y: 131}
+        - {x: -54, y: 86}
+        - {x: -37, y: 0}
+        - {x: 26, y: 0}
+        - {x: 53, y: 50}
+        - {x: 45, y: 103}
+        - {x: 102, y: 164}
+    - name: middle_1_walking_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 229}
+        - {x: 70, y: 302}
+        - {x: 46, y: 302}
+        - {x: 40, y: 297}
+        - {x: -1, y: 302}
+        - {x: -72, y: 302}
+        - {x: -102, y: 236}
+        - {x: -102, y: 167}
+        - {x: -81, y: 135}
+        - {x: -36, y: 36}
+        - {x: -19, y: 0}
+        - {x: 22, y: 0}
+        - {x: 37, y: 8}
+        - {x: 55, y: 97}
+        - {x: 102, y: 155}
+    - name: middle_1_walking_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 302}
+        - {x: -27, y: 302}
+        - {x: -53, y: 300}
+        - {x: -62, y: 296}
+        - {x: -61, y: 292}
+        - {x: -65, y: 276}
+        - {x: -102, y: 235}
+        - {x: -102, y: 163}
+        - {x: -46, y: 31}
+        - {x: -23, y: 9}
+        - {x: -13, y: 1}
+        - {x: -9, y: 0}
+        - {x: 13, y: 0}
+        - {x: 25, y: 12}
+        - {x: 102, y: 154}
+        - {x: 102, y: 222}
+    - name: middle_1_walking_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 303
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 220}
+        - {x: 57, y: 302}
+        - {x: 49, y: 302}
+        - {x: 42, y: 298}
+        - {x: 8, y: 302}
+        - {x: -68, y: 302}
+        - {x: -102, y: 228}
+        - {x: -102, y: 170}
+        - {x: -72, y: 117}
+        - {x: -45, y: 32}
+        - {x: -18, y: 0}
+        - {x: 17, y: 0}
+        - {x: 53, y: 47}
+        - {x: 59, y: 124}
+        - {x: 102, y: 176}
+    - name: middle_1_walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 302}
+        - {x: -63, y: 302}
+        - {x: -102, y: 254}
+        - {x: -102, y: 159}
+        - {x: -92, y: 136}
+        - {x: -59, y: 53}
+        - {x: -19, y: 0}
+        - {x: 19, y: 0}
+        - {x: 62, y: 49}
+        - {x: 48, y: 107}
+        - {x: 102, y: 160}
+        - {x: 102, y: 220}
+    - name: middle_1_walking_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 79, y: 302}
+        - {x: -77, y: 302}
+        - {x: -102, y: 240}
+        - {x: -102, y: 166}
+        - {x: -74, y: 126}
+        - {x: -57, y: 58}
+        - {x: -22, y: 0}
+        - {x: 15, y: 0}
+        - {x: 47, y: 58}
+        - {x: 59, y: 125}
+        - {x: 102, y: 172}
+    - name: middle_1_walking_10
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 302}
+        - {x: 7, y: 302}
+        - {x: -31, y: 290}
+        - {x: -61, y: 302}
+        - {x: -102, y: 248}
+        - {x: -102, y: 166}
+        - {x: -91, y: 126}
+        - {x: -53, y: 66}
+        - {x: -28, y: 0}
+        - {x: 19, y: 0}
+        - {x: 52, y: 46}
+        - {x: 102, y: 170}
+        - {x: 102, y: 232}
+    - name: middle_1_walking_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 302}
+        - {x: 42, y: 301}
+        - {x: -60, y: 299}
+        - {x: -63, y: 291}
+        - {x: -102, y: 240}
+        - {x: -102, y: 168}
+        - {x: -74, y: 118}
+        - {x: -28, y: 0}
+        - {x: 24, y: 0}
+        - {x: 102, y: 148}
+        - {x: 102, y: 228}
+        - {x: 61, y: 302}
+    - name: middle_1_walking_12
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 302}
+        - {x: -3, y: 280}
+        - {x: -54, y: 302}
+        - {x: -67, y: 302}
+        - {x: -102, y: 228}
+        - {x: -102, y: 161}
+        - {x: -87, y: 131}
+        - {x: -47, y: 113}
+        - {x: -60, y: 23}
+        - {x: -20, y: 0}
+        - {x: 39, y: 0}
+        - {x: 102, y: 157}
+        - {x: 102, y: 221}
+        - {x: 68, y: 302}
+    - name: middle_1_walking_13
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: 223}
+        - {x: 64, y: 302}
+        - {x: 47, y: 302}
+        - {x: -4, y: 275}
+        - {x: -52, y: 302}
+        - {x: -81, y: 302}
+        - {x: -102, y: 239}
+        - {x: -102, y: 171}
+        - {x: -79, y: 137}
+        - {x: -48, y: 95}
+        - {x: -47, y: 0}
+        - {x: 32, y: 0}
+        - {x: 59, y: 98}
+        - {x: 102, y: 164}
+        - {x: 102, y: 217}
+    - name: middle_1_walking_14
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 301}
+        - {x: -65, y: 299}
+        - {x: -69, y: 293}
+        - {x: -66, y: 252}
+        - {x: -102, y: 220}
+        - {x: -102, y: 187}
+        - {x: -80, y: 136}
+        - {x: -31, y: 2}
+        - {x: -22, y: 0}
+        - {x: 34, y: 0}
+        - {x: 102, y: 140}
+        - {x: 102, y: 225}
+        - {x: 67, y: 301}
+    - name: middle_1_walking_15
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 204
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: 222}
+        - {x: 75, y: 300}
+        - {x: 48, y: 300}
+        - {x: 14, y: 293}
+        - {x: -77, y: 300}
+        - {x: -83, y: 300}
+        - {x: -102, y: 251}
+        - {x: -102, y: 163}
+        - {x: -53, y: 92}
+        - {x: -41, y: 3}
+        - {x: -34, y: 0}
+        - {x: 24, y: 0}
+        - {x: 56, y: 64}
+        - {x: 41, y: 101}
+        - {x: 102, y: 170}
+        - {x: 102, y: 216}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
