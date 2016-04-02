@@ -5490,6 +5490,7 @@ MonoBehaviour:
   finished: 0
   customersServed: 0
   updateBools: 0
+  numberofCustomers: 0
   maxGrillCount: 0
   maxOvenCount: 0
   maxStoveCount: 0
@@ -5515,6 +5516,7 @@ MonoBehaviour:
   counters: 
   furnace: 
   peasantFoodList: 
+  foodList: 
   customersWaiting: 0
   levelTime: 0
 --- !u!4 &1025483095
