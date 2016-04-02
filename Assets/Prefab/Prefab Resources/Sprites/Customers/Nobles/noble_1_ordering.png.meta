@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: d5b65c1d8dca34947a37bb6f87badc17
+timeCreated: 1459627469
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: noble_1_ordering_0
+    21300002: noble_1_ordering_1
+    21300004: noble_1_ordering_2
+    21300006: noble_1_ordering_3
+    21300008: noble_1_ordering_4
+    21300010: noble_1_ordering_5
+    21300012: noble_1_ordering_6
+    21300014: noble_1_ordering_7
+    21300016: noble_1_ordering_8
+    21300018: noble_1_ordering_9
+    21300020: noble_1_ordering_10
+    21300022: noble_1_ordering_11
+    21300024: noble_1_ordering_12
+    21300026: noble_1_ordering_13
+    21300028: noble_1_ordering_14
+    21300030: noble_1_ordering_15
+    21300032: noble_1_ordering_16
+    21300034: noble_1_ordering_17
+    21300036: noble_1_ordering_18
+    21300038: noble_1_ordering_19
+    21300040: noble_1_ordering_20
+    21300042: noble_1_ordering_21
+    21300044: noble_1_ordering_22
+    21300046: noble_1_ordering_23
+    21300048: noble_1_ordering_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: noble_1_ordering_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 109}
+        - {x: 7.5, y: 109}
+        - {x: 11.5, y: 109}
+        - {x: 39.5, y: 116}
+        - {x: 87.5, y: 120}
+        - {x: 94.5, y: 152}
+        - {x: 94.5, y: 279}
+        - {x: 69.5, y: 290}
+        - {x: -75.5, y: 290}
+        - {x: -76.5, y: 285}
+        - {x: -75.5, y: 251}
+        - {x: -94.5, y: 203}
+        - {x: -94.5, y: 117}
+        - {x: -89.5, y: 101}
+        - {x: -79.5, y: 110}
+        - {x: -77.5, y: 116}
+        - {x: -76.5, y: 114}
+        - {x: -87.5, y: 97}
+        - {x: -74.5, y: 87}
+        - {x: -47.5, y: 74}
+        - {x: -44.5, y: 74}
+        - {x: -41.5, y: 77}
+        - {x: -43.5, y: 11}
+        - {x: -42.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 64.5, y: 20}
+        - {x: 68.5, y: 68}
+        - {x: 45.5, y: 96}
+        - {x: 21.5, y: 111}
+    - name: noble_1_ordering_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: 290}
+        - {x: -80.5, y: 286}
+        - {x: -94.5, y: 216}
+        - {x: -94.5, y: 116}
+        - {x: -86.5, y: 112}
+        - {x: -81.5, y: 111}
+        - {x: -77.5, y: 113}
+        - {x: -83.5, y: 103}
+        - {x: -94.5, y: 92}
+        - {x: -94.5, y: 49}
+        - {x: -43.5, y: 0}
+        - {x: 57.5, y: 0}
+        - {x: 94.5, y: 71}
+        - {x: 94.5, y: 277}
+        - {x: 81.5, y: 290}
+    - name: noble_1_ordering_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 262}
+        - {x: 71.5, y: 291}
+        - {x: 42.5, y: 291}
+        - {x: -18.5, y: 265}
+        - {x: -69.5, y: 291}
+        - {x: -73.5, y: 291}
+        - {x: -76.5, y: 285}
+        - {x: -94.5, y: 218}
+        - {x: -94.5, y: 112}
+        - {x: -91.5, y: 107}
+        - {x: -94.5, y: 102}
+        - {x: -94.5, y: 72}
+        - {x: -59.5, y: 4}
+        - {x: -43.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 69.5, y: 53}
+        - {x: 81.5, y: 121}
+        - {x: 94.5, y: 164}
+    - name: noble_1_ordering_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85.5, y: 291}
+        - {x: -94.5, y: 253}
+        - {x: -94.5, y: 124}
+        - {x: -85.5, y: 110}
+        - {x: -76.5, y: 113}
+        - {x: -38.5, y: 109}
+        - {x: -31.5, y: 109}
+        - {x: -30.5, y: 108}
+        - {x: -35.5, y: 109}
+        - {x: -37.5, y: 109}
+        - {x: -50.5, y: 108}
+        - {x: -74.5, y: 107}
+        - {x: -83.5, y: 102}
+        - {x: -94.5, y: 93}
+        - {x: -94.5, y: 35}
+        - {x: -56.5, y: 0}
+        - {x: 65.5, y: 0}
+        - {x: 94.5, y: 48}
+        - {x: 94.5, y: 277}
+        - {x: 72.5, y: 291}
+    - name: noble_1_ordering_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 258}
+        - {x: 66.5, y: 291}
+        - {x: 34.5, y: 291}
+        - {x: -23.5, y: 268}
+        - {x: -60.5, y: 291}
+        - {x: -79.5, y: 291}
+        - {x: -94.5, y: 212}
+        - {x: -94.5, y: 106}
+        - {x: -86.5, y: 69}
+        - {x: -57.5, y: 8}
+        - {x: -46.5, y: 0}
+        - {x: 30.5, y: 0}
+        - {x: 71.5, y: 50}
+        - {x: 53.5, y: 97}
+        - {x: 94.5, y: 162}
+    - name: noble_1_ordering_5
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 95}
+        - {x: 94.5, y: 146}
+        - {x: 94.5, y: 265}
+        - {x: 71.5, y: 291}
+        - {x: -77.5, y: 291}
+        - {x: -94.5, y: 200}
+        - {x: -94.5, y: 91}
+        - {x: -43.5, y: 11}
+        - {x: -32.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 20.5, y: 8}
+        - {x: 26.5, y: 14}
+        - {x: 67.5, y: 59}
+    - name: noble_1_ordering_6
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.5, y: 291}
+        - {x: -78.5, y: 291}
+        - {x: -94.5, y: 204}
+        - {x: -94.5, y: 115}
+        - {x: -78.5, y: 108}
+        - {x: -49.5, y: 112}
+        - {x: -40.5, y: 110}
+        - {x: -56.5, y: 109}
+        - {x: -88.5, y: 97}
+        - {x: -94.5, y: 82}
+        - {x: -94.5, y: 30}
+        - {x: -57.5, y: 0}
+        - {x: 59.5, y: 0}
+        - {x: 89.5, y: 51}
+        - {x: 94.5, y: 88}
+        - {x: 94.5, y: 284}
+    - name: noble_1_ordering_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 897
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 262}
+        - {x: 66.5, y: 292}
+        - {x: 49.5, y: 292}
+        - {x: 10.5, y: 265}
+        - {x: -58.5, y: 292}
+        - {x: -74.5, y: 292}
+        - {x: -79.5, y: 260}
+        - {x: -94.5, y: 211}
+        - {x: -94.5, y: 84}
+        - {x: -93.5, y: 81}
+        - {x: -66.5, y: 76}
+        - {x: -56.5, y: 4}
+        - {x: -44.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 68.5, y: 42}
+        - {x: 54.5, y: 98}
+        - {x: 94.5, y: 161}
+    - name: noble_1_ordering_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 292}
+        - {x: -94.5, y: 292}
+        - {x: -94.5, y: 106}
+        - {x: -81.5, y: 111}
+        - {x: -77.5, y: 114}
+        - {x: -45.5, y: 110}
+        - {x: -40.5, y: 110}
+        - {x: -33.5, y: 109}
+        - {x: -38.5, y: 110}
+        - {x: -50.5, y: 108}
+        - {x: -74.5, y: 107}
+        - {x: -83.5, y: 102}
+        - {x: -83.5, y: 90}
+        - {x: -75.5, y: 86}
+        - {x: -69.5, y: 84}
+        - {x: -65.5, y: 83}
+        - {x: -45.5, y: 71}
+        - {x: -39.5, y: 73}
+        - {x: -43.5, y: 11}
+        - {x: -32.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 88.5, y: 61}
+        - {x: 94.5, y: 107}
+        - {x: 94.5, y: 274}
+    - name: noble_1_ordering_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 162}
+        - {x: 94.5, y: 271}
+        - {x: 77.5, y: 292}
+        - {x: 34.5, y: 292}
+        - {x: -25.5, y: 268}
+        - {x: -55.5, y: 292}
+        - {x: -83.5, y: 292}
+        - {x: -94.5, y: 254}
+        - {x: -94.5, y: 91}
+        - {x: -90.5, y: 83}
+        - {x: -43.5, y: 11}
+        - {x: -32.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 93.5, y: 45}
+        - {x: 86.5, y: 118}
+        - {x: 80.5, y: 146}
+    - name: noble_1_ordering_10
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 108}
+        - {x: 89.5, y: 138}
+        - {x: 94.5, y: 159}
+        - {x: 94.5, y: 279}
+        - {x: 80.5, y: 292}
+        - {x: -94.5, y: 292}
+        - {x: -94.5, y: 112}
+        - {x: -79.5, y: 111}
+        - {x: -77.5, y: 114}
+        - {x: -47.5, y: 112}
+        - {x: -38.5, y: 110}
+        - {x: -21.5, y: 109}
+        - {x: -30.5, y: 109}
+        - {x: -31.5, y: 110}
+        - {x: -50.5, y: 110}
+        - {x: -52.5, y: 112}
+        - {x: -77.5, y: 111}
+        - {x: -86.5, y: 106}
+        - {x: -87.5, y: 79}
+        - {x: -75.5, y: 0}
+        - {x: 47.5, y: 0}
+        - {x: 68.5, y: 58}
+        - {x: 42.5, y: 96}
+        - {x: 35.5, y: 99}
+    - name: noble_1_ordering_11
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 99}
+        - {x: 22.5, y: 108}
+        - {x: 68.5, y: 134}
+        - {x: 80.5, y: 146}
+        - {x: 84.5, y: 151}
+        - {x: 94.5, y: 168}
+        - {x: 94.5, y: 264}
+        - {x: 75.5, y: 292}
+        - {x: -82.5, y: 292}
+        - {x: -94.5, y: 209}
+        - {x: -94.5, y: 121}
+        - {x: -84.5, y: 111}
+        - {x: -80.5, y: 113}
+        - {x: -77.5, y: 114}
+        - {x: -94.5, y: 96}
+        - {x: -94.5, y: 84}
+        - {x: -58.5, y: 4}
+        - {x: -43.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 65.5, y: 43}
+        - {x: 62.5, y: 55}
+        - {x: 42.5, y: 96}
+    - name: noble_1_ordering_12
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.5, y: 140}
+        - {x: 94.5, y: 149}
+        - {x: 94.5, y: 292}
+        - {x: -94.5, y: 292}
+        - {x: -94.5, y: 115}
+        - {x: -90.5, y: 108}
+        - {x: -79.5, y: 112}
+        - {x: -77.5, y: 114}
+        - {x: -74.5, y: 128}
+        - {x: -63.5, y: 117}
+        - {x: -75.5, y: 117}
+        - {x: -81.5, y: 111}
+        - {x: -86.5, y: 107}
+        - {x: -81.5, y: 78}
+        - {x: -58.5, y: 3}
+        - {x: -44.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 63.5, y: 43}
+        - {x: 62.5, y: 54}
+        - {x: 44.5, y: 96}
+    - name: noble_1_ordering_13
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: 40}
+        - {x: 61.5, y: 48}
+        - {x: 59.5, y: 52}
+        - {x: 90.5, y: 116}
+        - {x: 94.5, y: 126}
+        - {x: 94.5, y: 292}
+        - {x: -80.5, y: 292}
+        - {x: -94.5, y: 261}
+        - {x: -94.5, y: 39}
+        - {x: -62.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 20.5, y: 8}
+        - {x: 25.5, y: 15}
+        - {x: 26.5, y: 17}
+    - name: noble_1_ordering_14
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: 135}
+        - {x: 94.5, y: 162}
+        - {x: 94.5, y: 266}
+        - {x: 65.5, y: 292}
+        - {x: -85.5, y: 292}
+        - {x: -94.5, y: 259}
+        - {x: -94.5, y: 114}
+        - {x: -53.5, y: 61}
+        - {x: -43.5, y: 11}
+        - {x: -37.5, y: 0}
+        - {x: 30.5, y: 0}
+        - {x: 62.5, y: 48}
+        - {x: 55.5, y: 60}
+        - {x: 44.5, y: 96}
+    - name: noble_1_ordering_15
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 598
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 132}
+        - {x: 83.5, y: 144}
+        - {x: 94.5, y: 169}
+        - {x: 94.5, y: 262}
+        - {x: 66.5, y: 292}
+        - {x: -84.5, y: 292}
+        - {x: -94.5, y: 256}
+        - {x: -94.5, y: 117}
+        - {x: -54.5, y: 6}
+        - {x: -42.5, y: 0}
+        - {x: 31.5, y: 0}
+        - {x: 64.5, y: 50}
+        - {x: 44.5, y: 97}
+        - {x: 23.5, y: 108}
+    - name: noble_1_ordering_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 151}
+        - {x: 94.5, y: 270}
+        - {x: 77.5, y: 291}
+        - {x: -23.5, y: 291}
+        - {x: -49.5, y: 288}
+        - {x: -60.5, y: 291}
+        - {x: -77.5, y: 291}
+        - {x: -94.5, y: 207}
+        - {x: -94.5, y: 115}
+        - {x: -52.5, y: 72}
+        - {x: -43.5, y: 11}
+        - {x: -32.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 68.5, y: 44}
+        - {x: 41.5, y: 100}
+        - {x: 92.5, y: 139}
+    - name: noble_1_ordering_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 291}
+        - {x: -75.5, y: 291}
+        - {x: -92.5, y: 201}
+        - {x: -91.5, y: 182}
+        - {x: -94.5, y: 170}
+        - {x: -94.5, y: 118}
+        - {x: -93.5, y: 113}
+        - {x: -53.5, y: 77}
+        - {x: -48.5, y: 78}
+        - {x: -43.5, y: 11}
+        - {x: -37.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 72.5, y: 45}
+        - {x: 94.5, y: 91}
+        - {x: 94.5, y: 284}
+    - name: noble_1_ordering_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.5, y: 124}
+        - {x: 94.5, y: 135}
+        - {x: 94.5, y: 276}
+        - {x: 74.5, y: 291}
+        - {x: -88.5, y: 291}
+        - {x: -94.5, y: 274}
+        - {x: -94.5, y: 189}
+        - {x: -93.5, y: 188}
+        - {x: -94.5, y: 171}
+        - {x: -94.5, y: 124}
+        - {x: -86.5, y: 110}
+        - {x: -55.5, y: 6}
+        - {x: -40.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 66.5, y: 46}
+        - {x: 60.5, y: 60}
+        - {x: 55.5, y: 63}
+    - name: noble_1_ordering_19
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 258}
+        - {x: 66.5, y: 291}
+        - {x: 34.5, y: 291}
+        - {x: -23.5, y: 268}
+        - {x: -63.5, y: 291}
+        - {x: -79.5, y: 291}
+        - {x: -94.5, y: 259}
+        - {x: -94.5, y: 109}
+        - {x: -79.5, y: 71}
+        - {x: -48.5, y: 78}
+        - {x: -43.5, y: 11}
+        - {x: -32.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 64.5, y: 39}
+        - {x: 59.5, y: 100}
+        - {x: 94.5, y: 157}
+    - name: noble_1_ordering_20
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 155}
+        - {x: 94.5, y: 263}
+        - {x: 66.5, y: 291}
+        - {x: 45.5, y: 291}
+        - {x: 6.5, y: 265}
+        - {x: -51.5, y: 291}
+        - {x: -80.5, y: 291}
+        - {x: -94.5, y: 248}
+        - {x: -94.5, y: 107}
+        - {x: -68.5, y: 66}
+        - {x: -44.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 31.5, y: 12}
+        - {x: 68.5, y: 60}
+        - {x: 46.5, y: 97}
+    - name: noble_1_ordering_21
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 261}
+        - {x: 65.5, y: 291}
+        - {x: 47.5, y: 291}
+        - {x: 9.5, y: 265}
+        - {x: -51.5, y: 291}
+        - {x: -78.5, y: 291}
+        - {x: -94.5, y: 193}
+        - {x: -94.5, y: 113}
+        - {x: -79.5, y: 96}
+        - {x: -50.5, y: 74}
+        - {x: -43.5, y: 11}
+        - {x: -32.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 69.5, y: 47}
+        - {x: 51.5, y: 103}
+        - {x: 94.5, y: 157}
+    - name: noble_1_ordering_22
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 262}
+        - {x: 71.5, y: 291}
+        - {x: 38.5, y: 291}
+        - {x: -17.5, y: 270}
+        - {x: -52.5, y: 291}
+        - {x: -82.5, y: 291}
+        - {x: -94.5, y: 248}
+        - {x: -94.5, y: 113}
+        - {x: -50.5, y: 67}
+        - {x: -43.5, y: 11}
+        - {x: -32.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 71.5, y: 51}
+        - {x: 60.5, y: 104}
+        - {x: 94.5, y: 161}
+    - name: noble_1_ordering_23
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 299
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93.5, y: 291}
+        - {x: -94.5, y: 284}
+        - {x: -94.5, y: 110}
+        - {x: -91.5, y: 99}
+        - {x: -77.5, y: 113}
+        - {x: -77.5, y: 125}
+        - {x: -66.5, y: 118}
+        - {x: -75.5, y: 114}
+        - {x: -80.5, y: 111}
+        - {x: -83.5, y: 106}
+        - {x: -85.5, y: 97}
+        - {x: -50.5, y: 72}
+        - {x: -55.5, y: 6}
+        - {x: -48.5, y: 0}
+        - {x: 64.5, y: 0}
+        - {x: 94.5, y: 48}
+        - {x: 94.5, y: 282}
+        - {x: 86.5, y: 291}
+    - name: noble_1_ordering_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 189
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 270}
+        - {x: 82.5, y: 290}
+        - {x: -83.5, y: 290}
+        - {x: -94.5, y: 255}
+        - {x: -94.5, y: 111}
+        - {x: -91.5, y: 100}
+        - {x: -77.5, y: 113}
+        - {x: -75.5, y: 126}
+        - {x: -58.5, y: 112}
+        - {x: -78.5, y: 112}
+        - {x: -83.5, y: 105}
+        - {x: -83.5, y: 96}
+        - {x: -53.5, y: 7}
+        - {x: -37.5, y: 0}
+        - {x: 30.5, y: 0}
+        - {x: 54.5, y: 31}
+        - {x: 74.5, y: 69}
+        - {x: 94.5, y: 125}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
