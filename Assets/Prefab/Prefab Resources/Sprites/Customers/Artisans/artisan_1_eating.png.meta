@@ -1,0 +1,1971 @@
+fileFormatVersion: 2
+guid: 6c22b4331ff030e4c8883489997604c7
+timeCreated: 1459572634
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: artisan_1_eating_0
+    21300002: artisan_1_eating_1
+    21300004: artisan_1_eating_2
+    21300006: artisan_1_eating_3
+    21300008: artisan_1_eating_4
+    21300010: artisan_1_eating_5
+    21300012: artisan_1_eating_6
+    21300014: artisan_1_eating_7
+    21300016: artisan_1_eating_8
+    21300018: artisan_1_eating_9
+    21300020: artisan_1_eating_10
+    21300022: artisan_1_eating_11
+    21300024: artisan_1_eating_12
+    21300026: artisan_1_eating_13
+    21300028: artisan_1_eating_14
+    21300030: artisan_1_eating_15
+    21300032: artisan_1_eating_16
+    21300034: artisan_1_eating_17
+    21300036: artisan_1_eating_18
+    21300038: artisan_1_eating_19
+    21300040: artisan_1_eating_20
+    21300042: artisan_1_eating_21
+    21300044: artisan_1_eating_22
+    21300046: artisan_1_eating_23
+    21300048: artisan_1_eating_24
+    21300050: artisan_1_eating_25
+    21300052: artisan_1_eating_26
+    21300054: artisan_1_eating_27
+    21300056: artisan_1_eating_28
+    21300058: artisan_1_eating_29
+    21300060: artisan_1_eating_30
+    21300062: artisan_1_eating_31
+    21300064: artisan_1_eating_32
+    21300066: artisan_1_eating_33
+    21300068: artisan_1_eating_34
+    21300070: artisan_1_eating_35
+    21300072: artisan_1_eating_36
+    21300074: artisan_1_eating_37
+    21300076: artisan_1_eating_38
+    21300078: artisan_1_eating_39
+    21300080: artisan_1_eating_40
+    21300082: artisan_1_eating_41
+    21300084: artisan_1_eating_42
+    21300086: artisan_1_eating_43
+    21300088: artisan_1_eating_44
+    21300090: artisan_1_eating_45
+    21300092: artisan_1_eating_46
+    21300094: artisan_1_eating_47
+    21300096: artisan_1_eating_48
+    21300098: artisan_1_eating_49
+    21300100: artisan_1_eating_50
+    21300102: artisan_1_eating_51
+    21300104: artisan_1_eating_52
+    21300106: artisan_1_eating_53
+    21300108: artisan_1_eating_54
+    21300110: artisan_1_eating_55
+    21300112: artisan_1_eating_56
+    21300114: artisan_1_eating_57
+    21300116: artisan_1_eating_58
+    21300118: artisan_1_eating_59
+    21300120: artisan_1_eating_60
+    21300122: artisan_1_eating_61
+    21300124: artisan_1_eating_62
+    21300126: artisan_1_eating_63
+    21300128: artisan_1_eating_64
+    21300130: artisan_1_eating_65
+    21300132: artisan_1_eating_66
+    21300134: artisan_1_eating_67
+    21300136: artisan_1_eating_68
+    21300138: artisan_1_eating_69
+    21300140: artisan_1_eating_70
+    21300142: artisan_1_eating_71
+    21300144: artisan_1_eating_72
+    21300146: artisan_1_eating_73
+    21300148: artisan_1_eating_74
+    21300150: artisan_1_eating_75
+    21300152: artisan_1_eating_76
+    21300154: artisan_1_eating_77
+    21300156: artisan_1_eating_78
+    21300158: artisan_1_eating_79
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: artisan_1_eating_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.5, y: 274}
+        - {x: -77.5, y: 246}
+        - {x: -77.5, y: 111}
+        - {x: -46.5, y: 103}
+        - {x: -28.5, y: 108}
+        - {x: -25.5, y: 106}
+        - {x: -25.5, y: 107}
+        - {x: -27.5, y: 106}
+        - {x: -32.5, y: 103}
+        - {x: -48.5, y: 63}
+        - {x: -41.5, y: 7}
+        - {x: -28.5, y: 0}
+        - {x: 77.5, y: 0}
+        - {x: 77.5, y: 274}
+    - name: artisan_1_eating_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 273}
+        - {x: -77.5, y: 267}
+        - {x: -77.5, y: 126}
+        - {x: -64.5, y: 116}
+        - {x: -49.5, y: 111}
+        - {x: -42.5, y: 109}
+        - {x: -32.5, y: 107}
+        - {x: -52.5, y: 60}
+        - {x: -31.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 77.5, y: 69}
+        - {x: 77.5, y: 261}
+        - {x: 73.5, y: 273}
+    - name: artisan_1_eating_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 272}
+        - {x: -71.5, y: 252}
+        - {x: -76.5, y: 190}
+        - {x: -77.5, y: 179}
+        - {x: -77.5, y: 135}
+        - {x: -74.5, y: 122}
+        - {x: -47.5, y: 4}
+        - {x: -40.5, y: 0}
+        - {x: 72.5, y: 0}
+        - {x: 77.5, y: 38}
+        - {x: 77.5, y: 272}
+    - name: artisan_1_eating_3
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.5, y: 269}
+        - {x: 64.5, y: 272}
+        - {x: -69.5, y: 272}
+        - {x: -77.5, y: 207}
+        - {x: -77.5, y: 131}
+        - {x: -73.5, y: 120}
+        - {x: -57.5, y: 96}
+        - {x: -34.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 55.5, y: 49}
+        - {x: 77.5, y: 105}
+        - {x: 77.5, y: 258}
+    - name: artisan_1_eating_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 91}
+        - {x: 70.5, y: 108}
+        - {x: 77.5, y: 131}
+        - {x: 77.5, y: 247}
+        - {x: 58.5, y: 271}
+        - {x: -67.5, y: 271}
+        - {x: -77.5, y: 239}
+        - {x: -77.5, y: 71}
+        - {x: -31.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 34.5, y: 8}
+        - {x: 45.5, y: 51}
+        - {x: 44.5, y: 78}
+    - name: artisan_1_eating_5
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 271}
+        - {x: -61.5, y: 271}
+        - {x: -77.5, y: 240}
+        - {x: -77.5, y: 125}
+        - {x: -66.5, y: 115}
+        - {x: -35.5, y: 11}
+        - {x: -27.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 51.5, y: 40}
+        - {x: 77.5, y: 113}
+    - name: artisan_1_eating_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 259}
+        - {x: 48.5, y: 272}
+        - {x: -73.5, y: 272}
+        - {x: -77.5, y: 220}
+        - {x: -77.5, y: 118}
+        - {x: -63.5, y: 99}
+        - {x: -34.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 50.5, y: 49}
+        - {x: 77.5, y: 140}
+        - {x: 77.5, y: 216}
+    - name: artisan_1_eating_7
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2493
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: 272}
+        - {x: -64.5, y: 272}
+        - {x: -77.5, y: 231}
+        - {x: -77.5, y: 118}
+        - {x: -43.5, y: 99}
+        - {x: -39.5, y: 9}
+        - {x: -28.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 57.5, y: 40}
+        - {x: 77.5, y: 151}
+        - {x: 77.5, y: 235}
+    - name: artisan_1_eating_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 219}
+        - {x: 64.5, y: 272}
+        - {x: -52.5, y: 272}
+        - {x: -73.5, y: 251}
+        - {x: -77.5, y: 231}
+        - {x: -77.5, y: 120}
+        - {x: -72.5, y: 102}
+        - {x: -30.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 31.5, y: 9}
+        - {x: 46.5, y: 88}
+        - {x: 77.5, y: 130}
+    - name: artisan_1_eating_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 240}
+        - {x: 64.5, y: 266}
+        - {x: 46.5, y: 273}
+        - {x: -49.5, y: 273}
+        - {x: -77.5, y: 263}
+        - {x: -77.5, y: 114}
+        - {x: -30.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 47.5, y: 46}
+        - {x: 72.5, y: 124}
+        - {x: 77.5, y: 142}
+    - name: artisan_1_eating_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.5, y: 273}
+        - {x: -54.5, y: 273}
+        - {x: -77.5, y: 255}
+        - {x: -77.5, y: 115}
+        - {x: -53.5, y: 62}
+        - {x: -30.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 49.5, y: 87}
+        - {x: 77.5, y: 126}
+        - {x: 77.5, y: 235}
+    - name: artisan_1_eating_11
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5, y: 273}
+        - {x: -44.5, y: 273}
+        - {x: -75.5, y: 265}
+        - {x: -77.5, y: 217}
+        - {x: -77.5, y: 134}
+        - {x: -50.5, y: 85}
+        - {x: -44.5, y: 7}
+        - {x: -31.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 49.5, y: 49}
+        - {x: 77.5, y: 128}
+        - {x: 77.5, y: 271}
+    - name: artisan_1_eating_12
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.5, y: 262}
+        - {x: 53.5, y: 273}
+        - {x: -52.5, y: 273}
+        - {x: -73.5, y: 255}
+        - {x: -77.5, y: 203}
+        - {x: -77.5, y: 113}
+        - {x: -48.5, y: 3}
+        - {x: -38.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 29.5, y: 10}
+        - {x: 77.5, y: 137}
+        - {x: 77.5, y: 247}
+    - name: artisan_1_eating_13
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 134}
+        - {x: 77.5, y: 240}
+        - {x: 56.5, y: 273}
+        - {x: -51.5, y: 273}
+        - {x: -55.5, y: 272}
+        - {x: -77.5, y: 257}
+        - {x: -77.5, y: 106}
+        - {x: -40.5, y: 8}
+        - {x: -30.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 28.5, y: 10}
+        - {x: 40.5, y: 71}
+        - {x: 71.5, y: 114}
+    - name: artisan_1_eating_14
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 251}
+        - {x: 60.5, y: 274}
+        - {x: -43.5, y: 274}
+        - {x: -52.5, y: 271}
+        - {x: -74.5, y: 264}
+        - {x: -77.5, y: 208}
+        - {x: -77.5, y: 129}
+        - {x: -65.5, y: 118}
+        - {x: -71.5, y: 56}
+        - {x: -37.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 48.5, y: 72}
+        - {x: 77.5, y: 140}
+    - name: artisan_1_eating_15
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2216
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 238}
+        - {x: 67.5, y: 274}
+        - {x: -48.5, y: 274}
+        - {x: -77.5, y: 267}
+        - {x: -77.5, y: 104}
+        - {x: -56.5, y: 52}
+        - {x: -30.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 46}
+        - {x: 34.5, y: 103}
+        - {x: 77.5, y: 124}
+    - name: artisan_1_eating_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 270}
+        - {x: 56.5, y: 274}
+        - {x: -69.5, y: 274}
+        - {x: -77.5, y: 228}
+        - {x: -77.5, y: 113}
+        - {x: -67.5, y: 102}
+        - {x: -48.5, y: 3}
+        - {x: -43.5, y: 0}
+        - {x: 28.5, y: 0}
+        - {x: 40.5, y: 2}
+        - {x: 60.5, y: 123}
+        - {x: 77.5, y: 144}
+        - {x: 77.5, y: 217}
+    - name: artisan_1_eating_17
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 149}
+        - {x: 77.5, y: 237}
+        - {x: 68.5, y: 261}
+        - {x: 49.5, y: 274}
+        - {x: -33.5, y: 274}
+        - {x: -77.5, y: 268}
+        - {x: -77.5, y: 93}
+        - {x: -32.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 28.5, y: 10}
+        - {x: 28.5, y: 95}
+        - {x: 73.5, y: 131}
+    - name: artisan_1_eating_18
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: 269}
+        - {x: 53.5, y: 273}
+        - {x: -44.5, y: 273}
+        - {x: -76.5, y: 266}
+        - {x: -77.5, y: 258}
+        - {x: -77.5, y: 55}
+        - {x: -32.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 45}
+        - {x: 77.5, y: 155}
+        - {x: 77.5, y: 213}
+    - name: artisan_1_eating_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 273}
+        - {x: -38.5, y: 273}
+        - {x: -60.5, y: 271}
+        - {x: -70.5, y: 251}
+        - {x: -77.5, y: 197}
+        - {x: -77.5, y: 122}
+        - {x: -67.5, y: 99}
+        - {x: -73.5, y: 45}
+        - {x: -29.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 77.5, y: 132}
+        - {x: 77.5, y: 224}
+        - {x: 66.5, y: 270}
+    - name: artisan_1_eating_20
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 237}
+        - {x: 73.5, y: 265}
+        - {x: 68.5, y: 273}
+        - {x: -51.5, y: 273}
+        - {x: -77.5, y: 265}
+        - {x: -77.5, y: 131}
+        - {x: -66.5, y: 66}
+        - {x: -30.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 29.5, y: 10}
+        - {x: 59.5, y: 124}
+        - {x: 77.5, y: 136}
+    - name: artisan_1_eating_21
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 230}
+        - {x: 51.5, y: 273}
+        - {x: -75.5, y: 273}
+        - {x: -77.5, y: 247}
+        - {x: -77.5, y: 92}
+        - {x: -71.5, y: 82}
+        - {x: -65.5, y: 74}
+        - {x: -34.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 45}
+        - {x: 77.5, y: 136}
+    - name: artisan_1_eating_22
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.5, y: 268}
+        - {x: 65.5, y: 273}
+        - {x: -55.5, y: 273}
+        - {x: -77.5, y: 263}
+        - {x: -77.5, y: 58}
+        - {x: -31.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 39.5, y: 53}
+        - {x: 77.5, y: 143}
+        - {x: 77.5, y: 239}
+    - name: artisan_1_eating_23
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1939
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5, y: 265}
+        - {x: 52.5, y: 273}
+        - {x: -55.5, y: 273}
+        - {x: -77.5, y: 258}
+        - {x: -77.5, y: 49}
+        - {x: -44.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 45}
+        - {x: 77.5, y: 138}
+        - {x: 77.5, y: 221}
+    - name: artisan_1_eating_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 218}
+        - {x: 53.5, y: 274}
+        - {x: -71.5, y: 274}
+        - {x: -77.5, y: 234}
+        - {x: -77.5, y: 92}
+        - {x: -57.5, y: 48}
+        - {x: -26.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 44}
+        - {x: 36.5, y: 93}
+        - {x: 77.5, y: 142}
+    - name: artisan_1_eating_25
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 270}
+        - {x: 59.5, y: 274}
+        - {x: -51.5, y: 274}
+        - {x: -76.5, y: 256}
+        - {x: -77.5, y: 237}
+        - {x: -77.5, y: 113}
+        - {x: -61.5, y: 66}
+        - {x: -31.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 47.5, y: 74}
+        - {x: 77.5, y: 129}
+        - {x: 77.5, y: 224}
+    - name: artisan_1_eating_26
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 220}
+        - {x: 61.5, y: 274}
+        - {x: -59.5, y: 274}
+        - {x: -77.5, y: 257}
+        - {x: -77.5, y: 105}
+        - {x: -61.5, y: 65}
+        - {x: -32.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 51.5, y: 50}
+        - {x: 42.5, y: 96}
+        - {x: 77.5, y: 143}
+    - name: artisan_1_eating_27
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 273}
+        - {x: -64.5, y: 273}
+        - {x: -74.5, y: 255}
+        - {x: -77.5, y: 212}
+        - {x: -77.5, y: 131}
+        - {x: -64.5, y: 113}
+        - {x: -35.5, y: 108}
+        - {x: -28.5, y: 108}
+        - {x: -25.5, y: 106}
+        - {x: -25.5, y: 107}
+        - {x: -27.5, y: 106}
+        - {x: -60.5, y: 99}
+        - {x: -42.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 70.5, y: 30}
+        - {x: 77.5, y: 73}
+        - {x: 77.5, y: 271}
+    - name: artisan_1_eating_28
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 273}
+        - {x: -58.5, y: 270}
+        - {x: -69.5, y: 252}
+        - {x: -77.5, y: 225}
+        - {x: -77.5, y: 117}
+        - {x: -51.5, y: 110}
+        - {x: -35.5, y: 106}
+        - {x: -42.5, y: 89}
+        - {x: -49.5, y: 57}
+        - {x: -46.5, y: 49}
+        - {x: -29.5, y: 0}
+        - {x: 28.5, y: 0}
+        - {x: 77.5, y: 100}
+        - {x: 77.5, y: 240}
+        - {x: 67.5, y: 273}
+    - name: artisan_1_eating_29
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 272}
+        - {x: -62.5, y: 272}
+        - {x: -72.5, y: 253}
+        - {x: -77.5, y: 196}
+        - {x: -77.5, y: 133}
+        - {x: -74.5, y: 124}
+        - {x: -55.5, y: 110}
+        - {x: -49.5, y: 59}
+        - {x: -33.5, y: 11}
+        - {x: -26.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 44.5, y: 5}
+        - {x: 77.5, y: 80}
+        - {x: 77.5, y: 267}
+    - name: artisan_1_eating_30
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 271}
+        - {x: -59.5, y: 271}
+        - {x: -77.5, y: 265}
+        - {x: -77.5, y: 98}
+        - {x: -33.5, y: 12}
+        - {x: -26.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 58.5, y: 51}
+        - {x: 77.5, y: 122}
+        - {x: 77.5, y: 236}
+    - name: artisan_1_eating_31
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1662
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 56}
+        - {x: 29.5, y: 50}
+        - {x: 31.5, y: 47}
+        - {x: 45.5, y: 51}
+        - {x: 77.5, y: 89}
+        - {x: 77.5, y: 270}
+        - {x: -61.5, y: 270}
+        - {x: -77.5, y: 234}
+        - {x: -77.5, y: 63}
+        - {x: -38.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 24.5, y: 12}
+        - {x: 27.5, y: 47}
+        - {x: 27.5, y: 52}
+    - name: artisan_1_eating_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 213}
+        - {x: 64.5, y: 270}
+        - {x: -61.5, y: 270}
+        - {x: -77.5, y: 258}
+        - {x: -77.5, y: 90}
+        - {x: -29.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 24.5, y: 12}
+        - {x: 54.5, y: 54}
+        - {x: 77.5, y: 141}
+    - name: artisan_1_eating_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 223}
+        - {x: 60.5, y: 271}
+        - {x: -51.5, y: 271}
+        - {x: -73.5, y: 268}
+        - {x: -77.5, y: 236}
+        - {x: -77.5, y: 118}
+        - {x: -69.5, y: 107}
+        - {x: -32.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 53.5, y: 48}
+        - {x: 50.5, y: 82}
+        - {x: 77.5, y: 145}
+    - name: artisan_1_eating_34
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 216}
+        - {x: 64.5, y: 262}
+        - {x: 60.5, y: 272}
+        - {x: -45.5, y: 272}
+        - {x: -77.5, y: 264}
+        - {x: -77.5, y: 78}
+        - {x: -49.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 23.5, y: 12}
+        - {x: 49.5, y: 52}
+        - {x: 77.5, y: 143}
+    - name: artisan_1_eating_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 263}
+        - {x: 63.5, y: 272}
+        - {x: -58.5, y: 272}
+        - {x: -77.5, y: 260}
+        - {x: -77.5, y: 112}
+        - {x: -37.5, y: 10}
+        - {x: -25.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 31.5, y: 7}
+        - {x: 44.5, y: 75}
+        - {x: 77.5, y: 112}
+    - name: artisan_1_eating_36
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 238}
+        - {x: 71.5, y: 266}
+        - {x: 58.5, y: 273}
+        - {x: -71.5, y: 273}
+        - {x: -77.5, y: 246}
+        - {x: -77.5, y: 119}
+        - {x: -50.5, y: 99}
+        - {x: -51.5, y: 2}
+        - {x: -42.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 26.5, y: 11}
+        - {x: 50.5, y: 90}
+        - {x: 77.5, y: 139}
+    - name: artisan_1_eating_37
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.5, y: 267}
+        - {x: 55.5, y: 273}
+        - {x: -60.5, y: 273}
+        - {x: -77.5, y: 250}
+        - {x: -77.5, y: 125}
+        - {x: -42.5, y: 6}
+        - {x: -30.5, y: 0}
+        - {x: 33.5, y: 0}
+        - {x: 77.5, y: 107}
+        - {x: 77.5, y: 233}
+    - name: artisan_1_eating_38
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 273}
+        - {x: -52.5, y: 273}
+        - {x: -77.5, y: 265}
+        - {x: -77.5, y: 131}
+        - {x: -65.5, y: 112}
+        - {x: -35.5, y: 106}
+        - {x: -28.5, y: 108}
+        - {x: -25.5, y: 106}
+        - {x: -25.5, y: 107}
+        - {x: -27.5, y: 106}
+        - {x: -45.5, y: 91}
+        - {x: -62.5, y: 46}
+        - {x: -35.5, y: 0}
+        - {x: 42.5, y: 0}
+        - {x: 77.5, y: 95}
+        - {x: 77.5, y: 241}
+        - {x: 67.5, y: 272}
+    - name: artisan_1_eating_39
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1385
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 272}
+        - {x: -57.5, y: 272}
+        - {x: -68.5, y: 266}
+        - {x: -77.5, y: 208}
+        - {x: -77.5, y: 114}
+        - {x: -50.5, y: 90}
+        - {x: -64.5, y: 58}
+        - {x: -32.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 49.5, y: 41}
+        - {x: 77.5, y: 151}
+        - {x: 77.5, y: 237}
+    - name: artisan_1_eating_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.5, y: 272}
+        - {x: -77.5, y: 251}
+        - {x: -77.5, y: 121}
+        - {x: -65.5, y: 115}
+        - {x: -47.5, y: 108}
+        - {x: -68.5, y: 65}
+        - {x: -49.5, y: 1}
+        - {x: -42.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 32.5, y: 9}
+        - {x: 77.5, y: 120}
+        - {x: 77.5, y: 272}
+    - name: artisan_1_eating_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.5, y: 263}
+        - {x: 52.5, y: 271}
+        - {x: -65.5, y: 271}
+        - {x: -77.5, y: 214}
+        - {x: -77.5, y: 98}
+        - {x: -55.5, y: 49}
+        - {x: -33.5, y: 12}
+        - {x: -26.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 58.5, y: 56}
+        - {x: 77.5, y: 112}
+        - {x: 77.5, y: 223}
+    - name: artisan_1_eating_42
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 272}
+        - {x: -63.5, y: 272}
+        - {x: -77.5, y: 211}
+        - {x: -77.5, y: 109}
+        - {x: -55.5, y: 50}
+        - {x: -27.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 60.5, y: 50}
+        - {x: 77.5, y: 132}
+        - {x: 77.5, y: 217}
+    - name: artisan_1_eating_43
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 267}
+        - {x: 63.5, y: 272}
+        - {x: -50.5, y: 272}
+        - {x: -77.5, y: 268}
+        - {x: -77.5, y: 95}
+        - {x: -65.5, y: 71}
+        - {x: -38.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 65.5, y: 59}
+        - {x: 35.5, y: 104}
+        - {x: 77.5, y: 135}
+    - name: artisan_1_eating_44
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 247}
+        - {x: 74.5, y: 273}
+        - {x: -66.5, y: 273}
+        - {x: -72.5, y: 265}
+        - {x: -77.5, y: 210}
+        - {x: -77.5, y: 117}
+        - {x: -40.5, y: 8}
+        - {x: -27.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 50.5, y: 81}
+        - {x: 77.5, y: 145}
+    - name: artisan_1_eating_45
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.5, y: 272}
+        - {x: 64.5, y: 274}
+        - {x: -56.5, y: 274}
+        - {x: -73.5, y: 253}
+        - {x: -77.5, y: 217}
+        - {x: -77.5, y: 129}
+        - {x: -53.5, y: 105}
+        - {x: -49.5, y: 3}
+        - {x: -39.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 27.5, y: 11}
+        - {x: 77.5, y: 145}
+        - {x: 77.5, y: 239}
+    - name: artisan_1_eating_46
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 219}
+        - {x: 71.5, y: 260}
+        - {x: 58.5, y: 274}
+        - {x: -27.5, y: 274}
+        - {x: -62.5, y: 271}
+        - {x: -75.5, y: 262}
+        - {x: -77.5, y: 247}
+        - {x: -77.5, y: 94}
+        - {x: -35.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 50.5, y: 71}
+        - {x: 75.5, y: 140}
+        - {x: 77.5, y: 145}
+    - name: artisan_1_eating_47
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1108
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 274}
+        - {x: -40.5, y: 274}
+        - {x: -57.5, y: 273}
+        - {x: -77.5, y: 256}
+        - {x: -77.5, y: 84}
+        - {x: -65.5, y: 52}
+        - {x: -27.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 56.5, y: 77}
+        - {x: 77.5, y: 116}
+        - {x: 77.5, y: 271}
+    - name: artisan_1_eating_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.5, y: 273}
+        - {x: -48.5, y: 273}
+        - {x: -74.5, y: 263}
+        - {x: -77.5, y: 211}
+        - {x: -77.5, y: 117}
+        - {x: -37.5, y: 10}
+        - {x: -27.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 58.5, y: 80}
+        - {x: 77.5, y: 117}
+        - {x: 77.5, y: 272}
+    - name: artisan_1_eating_49
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 264}
+        - {x: 61.5, y: 273}
+        - {x: -64.5, y: 273}
+        - {x: -77.5, y: 252}
+        - {x: -77.5, y: 121}
+        - {x: -33.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 46.5, y: 44}
+        - {x: 53.5, y: 120}
+        - {x: 77.5, y: 140}
+    - name: artisan_1_eating_50
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 248}
+        - {x: 62.5, y: 272}
+        - {x: -51.5, y: 272}
+        - {x: -73.5, y: 253}
+        - {x: -77.5, y: 234}
+        - {x: -77.5, y: 92}
+        - {x: -64.5, y: 51}
+        - {x: -34.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 55.5, y: 51}
+        - {x: 62.5, y: 105}
+        - {x: 77.5, y: 143}
+    - name: artisan_1_eating_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 149}
+        - {x: 77.5, y: 231}
+        - {x: 55.5, y: 271}
+        - {x: -49.5, y: 271}
+        - {x: -71.5, y: 268}
+        - {x: -77.5, y: 224}
+        - {x: -77.5, y: 93}
+        - {x: -33.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 56.5, y: 50}
+        - {x: 41.5, y: 90}
+        - {x: 76.5, y: 145}
+    - name: artisan_1_eating_52
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 262}
+        - {x: 61.5, y: 270}
+        - {x: -61.5, y: 270}
+        - {x: -77.5, y: 222}
+        - {x: -77.5, y: 81}
+        - {x: -72.5, y: 60}
+        - {x: -35.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 61.5, y: 51}
+        - {x: 40.5, y: 92}
+        - {x: 77.5, y: 134}
+    - name: artisan_1_eating_53
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 128}
+        - {x: 77.5, y: 251}
+        - {x: 56.5, y: 272}
+        - {x: -57.5, y: 272}
+        - {x: -77.5, y: 238}
+        - {x: -77.5, y: 92}
+        - {x: -34.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 50.5, y: 53}
+        - {x: 36.5, y: 98}
+        - {x: 56.5, y: 88}
+    - name: artisan_1_eating_54
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 273}
+        - {x: -62.5, y: 273}
+        - {x: -71.5, y: 265}
+        - {x: -77.5, y: 219}
+        - {x: -77.5, y: 99}
+        - {x: -56.5, y: 52}
+        - {x: -28.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 23.5, y: 12}
+        - {x: 23.5, y: 29}
+        - {x: 77.5, y: 73}
+    - name: artisan_1_eating_55
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 831
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 274}
+        - {x: -63.5, y: 274}
+        - {x: -74.5, y: 272}
+        - {x: -77.5, y: 259}
+        - {x: -77.5, y: 117}
+        - {x: -36.5, y: 106}
+        - {x: -28.5, y: 108}
+        - {x: -25.5, y: 106}
+        - {x: -25.5, y: 107}
+        - {x: -27.5, y: 106}
+        - {x: -51.5, y: 95}
+        - {x: -50.5, y: 2}
+        - {x: -46.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 30.5, y: 8}
+        - {x: 77.5, y: 134}
+        - {x: 77.5, y: 251}
+    - name: artisan_1_eating_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 225}
+        - {x: 53.5, y: 274}
+        - {x: 47.5, y: 275}
+        - {x: -56.5, y: 275}
+        - {x: -77.5, y: 236}
+        - {x: -77.5, y: 99}
+        - {x: -37.5, y: 0}
+        - {x: 40.5, y: 0}
+        - {x: 42.5, y: 102}
+        - {x: 76.5, y: 139}
+        - {x: 77.5, y: 149}
+    - name: artisan_1_eating_57
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 237}
+        - {x: 69.5, y: 264}
+        - {x: 46.5, y: 275}
+        - {x: -66.5, y: 275}
+        - {x: -77.5, y: 224}
+        - {x: -77.5, y: 85}
+        - {x: -36.5, y: 10}
+        - {x: -27.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 48.5, y: 80}
+        - {x: 77.5, y: 139}
+    - name: artisan_1_eating_58
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 218}
+        - {x: 64.5, y: 271}
+        - {x: 50.5, y: 275}
+        - {x: -50.5, y: 275}
+        - {x: -74.5, y: 257}
+        - {x: -77.5, y: 225}
+        - {x: -77.5, y: 105}
+        - {x: -39.5, y: 9}
+        - {x: -26.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 48.5, y: 88}
+        - {x: 77.5, y: 143}
+    - name: artisan_1_eating_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 275}
+        - {x: -64.5, y: 265}
+        - {x: -77.5, y: 220}
+        - {x: -77.5, y: 130}
+        - {x: -69.5, y: 109}
+        - {x: -53.5, y: 54}
+        - {x: -29.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 52.5, y: 43}
+        - {x: 77.5, y: 148}
+        - {x: 77.5, y: 275}
+    - name: artisan_1_eating_60
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 140}
+        - {x: 77.5, y: 249}
+        - {x: 61.5, y: 274}
+        - {x: -60.5, y: 274}
+        - {x: -77.5, y: 245}
+        - {x: -77.5, y: 106}
+        - {x: -40.5, y: 8}
+        - {x: -26.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 23.5, y: 12}
+        - {x: 46.5, y: 47}
+    - name: artisan_1_eating_61
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 236}
+        - {x: 58.5, y: 274}
+        - {x: -57.5, y: 274}
+        - {x: -74.5, y: 262}
+        - {x: -77.5, y: 228}
+        - {x: -77.5, y: 107}
+        - {x: -30.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 48.5, y: 53}
+        - {x: 37.5, y: 103}
+        - {x: 77.5, y: 139}
+    - name: artisan_1_eating_62
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 248}
+        - {x: 73.5, y: 274}
+        - {x: -47.5, y: 274}
+        - {x: -69.5, y: 258}
+        - {x: -77.5, y: 184}
+        - {x: -77.5, y: 133}
+        - {x: -66.5, y: 116}
+        - {x: -40.5, y: 8}
+        - {x: -29.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 28.5, y: 10}
+        - {x: 37.5, y: 82}
+        - {x: 77.5, y: 127}
+    - name: artisan_1_eating_63
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 554
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 147}
+        - {x: 77.5, y: 235}
+        - {x: 62.5, y: 274}
+        - {x: -42.5, y: 274}
+        - {x: -70.5, y: 269}
+        - {x: -77.5, y: 226}
+        - {x: -77.5, y: 113}
+        - {x: -48.5, y: 87}
+        - {x: -46.5, y: 5}
+        - {x: -34.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 40.5, y: 45}
+        - {x: 29.5, y: 95}
+        - {x: 75.5, y: 139}
+    - name: artisan_1_eating_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.5, y: 273}
+        - {x: -77.5, y: 246}
+        - {x: -77.5, y: 131}
+        - {x: -67.5, y: 116}
+        - {x: -44.5, y: 110}
+        - {x: -35.5, y: 108}
+        - {x: -28.5, y: 108}
+        - {x: -25.5, y: 106}
+        - {x: -25.5, y: 107}
+        - {x: -35.5, y: 102}
+        - {x: -47.5, y: 65}
+        - {x: -39.5, y: 9}
+        - {x: -37.5, y: 0}
+        - {x: 46.5, y: 0}
+        - {x: 77.5, y: 35}
+        - {x: 77.5, y: 273}
+    - name: artisan_1_eating_65
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 257}
+        - {x: 55.5, y: 273}
+        - {x: -69.5, y: 273}
+        - {x: -77.5, y: 223}
+        - {x: -77.5, y: 94}
+        - {x: -33.5, y: 12}
+        - {x: -26.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 45}
+        - {x: 77.5, y: 143}
+        - {x: 77.5, y: 214}
+    - name: artisan_1_eating_66
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 273}
+        - {x: -70.5, y: 273}
+        - {x: -70.5, y: 248}
+        - {x: -77.5, y: 198}
+        - {x: -77.5, y: 127}
+        - {x: -64.5, y: 112}
+        - {x: -39.5, y: 9}
+        - {x: -29.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 28.5, y: 10}
+        - {x: 70.5, y: 110}
+        - {x: 77.5, y: 135}
+    - name: artisan_1_eating_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.5, y: 272}
+        - {x: -77.5, y: 237}
+        - {x: -77.5, y: 114}
+        - {x: -46.5, y: 54}
+        - {x: -35.5, y: 11}
+        - {x: -27.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 77.5, y: 126}
+        - {x: 77.5, y: 221}
+        - {x: 67.5, y: 272}
+    - name: artisan_1_eating_68
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.5, y: 272}
+        - {x: -70.5, y: 271}
+        - {x: -77.5, y: 215}
+        - {x: -77.5, y: 121}
+        - {x: -64.5, y: 115}
+        - {x: -49.5, y: 110}
+        - {x: -42.5, y: 108}
+        - {x: -32.5, y: 106}
+        - {x: -25.5, y: 106}
+        - {x: -27.5, y: 106}
+        - {x: -51.5, y: 92}
+        - {x: -46.5, y: 4}
+        - {x: -39.5, y: 0}
+        - {x: 59.5, y: 0}
+        - {x: 77.5, y: 28}
+        - {x: 77.5, y: 270}
+        - {x: 76.5, y: 272}
+    - name: artisan_1_eating_69
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 225}
+        - {x: 52.5, y: 272}
+        - {x: -56.5, y: 272}
+        - {x: -77.5, y: 247}
+        - {x: -77.5, y: 108}
+        - {x: -75.5, y: 98}
+        - {x: -30.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 46}
+        - {x: 36.5, y: 105}
+        - {x: 77.5, y: 141}
+    - name: artisan_1_eating_70
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 272}
+        - {x: -77.5, y: 225}
+        - {x: -77.5, y: 130}
+        - {x: -68.5, y: 113}
+        - {x: -55.5, y: 52}
+        - {x: -31.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 77.5, y: 145}
+        - {x: 77.5, y: 217}
+        - {x: 55.5, y: 272}
+    - name: artisan_1_eating_71
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 277
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 273}
+        - {x: -59.5, y: 273}
+        - {x: -77.5, y: 242}
+        - {x: -77.5, y: 113}
+        - {x: -55.5, y: 54}
+        - {x: -32.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 45}
+        - {x: 77.5, y: 132}
+        - {x: 77.5, y: 241}
+    - name: artisan_1_eating_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 215}
+        - {x: 69.5, y: 260}
+        - {x: 56.5, y: 273}
+        - {x: -64.5, y: 273}
+        - {x: -71.5, y: 272}
+        - {x: -77.5, y: 243}
+        - {x: -77.5, y: 110}
+        - {x: -28.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 41.5, y: 46}
+        - {x: 42.5, y: 112}
+        - {x: 77.5, y: 135}
+    - name: artisan_1_eating_73
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.5, y: 273}
+        - {x: -77.5, y: 266}
+        - {x: -77.5, y: 116}
+        - {x: -73.5, y: 98}
+        - {x: -28.5, y: 108}
+        - {x: -25.5, y: 106}
+        - {x: -25.5, y: 107}
+        - {x: -27.5, y: 106}
+        - {x: -31.5, y: 102}
+        - {x: -60.5, y: 87}
+        - {x: -40.5, y: 0}
+        - {x: 37.5, y: 0}
+        - {x: 77.5, y: 20}
+        - {x: 77.5, y: 273}
+    - name: artisan_1_eating_74
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.5, y: 264}
+        - {x: 51.5, y: 274}
+        - {x: -62.5, y: 274}
+        - {x: -77.5, y: 209}
+        - {x: -77.5, y: 88}
+        - {x: -64.5, y: 55}
+        - {x: -29.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 24.5, y: 12}
+        - {x: 77.5, y: 143}
+        - {x: 77.5, y: 241}
+    - name: artisan_1_eating_75
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.5, y: 267}
+        - {x: 63.5, y: 274}
+        - {x: -47.5, y: 274}
+        - {x: -76.5, y: 269}
+        - {x: -77.5, y: 263}
+        - {x: -77.5, y: 84}
+        - {x: -61.5, y: 54}
+        - {x: -40.5, y: 28}
+        - {x: -29.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 51.5, y: 87}
+        - {x: 77.5, y: 133}
+        - {x: 77.5, y: 226}
+    - name: artisan_1_eating_76
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 237}
+        - {x: 62.5, y: 264}
+        - {x: 54.5, y: 274}
+        - {x: -64.5, y: 274}
+        - {x: -77.5, y: 239}
+        - {x: -77.5, y: 22}
+        - {x: -32.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 24.5, y: 12}
+        - {x: 44.5, y: 51}
+        - {x: 77.5, y: 131}
+    - name: artisan_1_eating_77
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 237}
+        - {x: 62.5, y: 264}
+        - {x: 54.5, y: 274}
+        - {x: -64.5, y: 274}
+        - {x: -77.5, y: 239}
+        - {x: -77.5, y: 22}
+        - {x: -32.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 24.5, y: 12}
+        - {x: 44.5, y: 51}
+        - {x: 77.5, y: 131}
+    - name: artisan_1_eating_78
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 237}
+        - {x: 62.5, y: 264}
+        - {x: 54.5, y: 274}
+        - {x: -64.5, y: 274}
+        - {x: -77.5, y: 239}
+        - {x: -77.5, y: 22}
+        - {x: -32.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 24.5, y: 12}
+        - {x: 44.5, y: 51}
+        - {x: 77.5, y: 131}
+    - name: artisan_1_eating_79
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 0
+        width: 155
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 237}
+        - {x: 62.5, y: 264}
+        - {x: 54.5, y: 274}
+        - {x: -64.5, y: 274}
+        - {x: -77.5, y: 239}
+        - {x: -77.5, y: 22}
+        - {x: -32.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 24.5, y: 12}
+        - {x: 44.5, y: 51}
+        - {x: 77.5, y: 131}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: d0c96d63e55270b488bbdb8e175b3732
+timeCreated: 1459572547
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: artisan_1_walking_0
+    21300002: artisan_1_walking_1
+    21300004: artisan_1_walking_2
+    21300006: artisan_1_walking_3
+    21300008: artisan_1_walking_4
+    21300010: artisan_1_walking_5
+    21300012: artisan_1_walking_6
+    21300014: artisan_1_walking_7
+    21300016: artisan_1_walking_8
+    21300018: artisan_1_walking_9
+    21300020: artisan_1_walking_10
+    21300022: artisan_1_walking_11
+    21300024: artisan_1_walking_12
+    21300026: artisan_1_walking_13
+    21300028: artisan_1_walking_14
+    21300030: artisan_1_walking_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: artisan_1_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 252}
+        - {x: 70.5, y: 274}
+        - {x: 50.5, y: 280}
+        - {x: -73.5, y: 280}
+        - {x: -76.5, y: 263}
+        - {x: -76.5, y: 81}
+        - {x: -44.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 22.5, y: 4}
+        - {x: 34.5, y: 15}
+        - {x: 74.5, y: 133}
+        - {x: 76.5, y: 144}
+    - name: artisan_1_walking_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 280}
+        - {x: -74.5, y: 280}
+        - {x: -76.5, y: 271}
+        - {x: -76.5, y: 124}
+        - {x: -40.5, y: 1}
+        - {x: -34.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 22.5, y: 2}
+        - {x: 27.5, y: 15}
+        - {x: 37.5, y: 48}
+        - {x: 76.5, y: 110}
+    - name: artisan_1_walking_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.5, y: 278}
+        - {x: 47.5, y: 281}
+        - {x: -53.5, y: 281}
+        - {x: -68.5, y: 271}
+        - {x: -76.5, y: 223}
+        - {x: -76.5, y: 98}
+        - {x: -44.5, y: 14}
+        - {x: -25.5, y: 0}
+        - {x: 35.5, y: 0}
+        - {x: 73.5, y: 135}
+        - {x: 76.5, y: 153}
+        - {x: 76.5, y: 234}
+    - name: artisan_1_walking_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 245}
+        - {x: 68.5, y: 268}
+        - {x: 49.5, y: 282}
+        - {x: -55.5, y: 282}
+        - {x: -76.5, y: 280}
+        - {x: -76.5, y: 107}
+        - {x: -75.5, y: 99}
+        - {x: -35.5, y: 0}
+        - {x: 31.5, y: 0}
+        - {x: 40.5, y: 6}
+        - {x: 32.5, y: 106}
+        - {x: 73.5, y: 137}
+        - {x: 76.5, y: 153}
+    - name: artisan_1_walking_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 282}
+        - {x: -68.5, y: 270}
+        - {x: -76.5, y: 224}
+        - {x: -76.5, y: 136}
+        - {x: -72.5, y: 130}
+        - {x: -61.5, y: 119}
+        - {x: -49.5, y: 66}
+        - {x: -30.5, y: 0}
+        - {x: 68.5, y: 0}
+        - {x: 76.5, y: 58}
+        - {x: 76.5, y: 282}
+    - name: artisan_1_walking_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 241}
+        - {x: 59.5, y: 282}
+        - {x: -55.5, y: 282}
+        - {x: -76.5, y: 247}
+        - {x: -76.5, y: 132}
+        - {x: -61.5, y: 118}
+        - {x: -55.5, y: 18}
+        - {x: -22.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 34.5, y: 23}
+        - {x: 73.5, y: 136}
+        - {x: 76.5, y: 152}
+    - name: artisan_1_walking_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 248}
+        - {x: 55.5, y: 282}
+        - {x: -46.5, y: 282}
+        - {x: -49.5, y: 281}
+        - {x: -71.5, y: 271}
+        - {x: -76.5, y: 253}
+        - {x: -76.5, y: 84}
+        - {x: -31.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 39.5, y: 24}
+        - {x: 74.5, y: 137}
+        - {x: 76.5, y: 143}
+    - name: artisan_1_walking_7
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 282
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 281}
+        - {x: -65.5, y: 275}
+        - {x: -76.5, y: 247}
+        - {x: -76.5, y: 106}
+        - {x: -42.5, y: 25}
+        - {x: -14.5, y: 0}
+        - {x: 40.5, y: 0}
+        - {x: 76.5, y: 90}
+        - {x: 76.5, y: 240}
+        - {x: 58.5, y: 281}
+    - name: artisan_1_walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: 281}
+        - {x: -56.5, y: 281}
+        - {x: -76.5, y: 245}
+        - {x: -76.5, y: 103}
+        - {x: -65.5, y: 61}
+        - {x: -19.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 50.5, y: 84}
+        - {x: 76.5, y: 136}
+        - {x: 76.5, y: 275}
+    - name: artisan_1_walking_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 148}
+        - {x: 76.5, y: 244}
+        - {x: 53.5, y: 281}
+        - {x: -59.5, y: 281}
+        - {x: -76.5, y: 227}
+        - {x: -76.5, y: 122}
+        - {x: -35.5, y: 2}
+        - {x: -27.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 39.5, y: 26}
+        - {x: 41.5, y: 105}
+        - {x: 72.5, y: 136}
+    - name: artisan_1_walking_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 281}
+        - {x: -36.5, y: 281}
+        - {x: -39.5, y: 280}
+        - {x: -62.5, y: 271}
+        - {x: -74.5, y: 227}
+        - {x: -76.5, y: 211}
+        - {x: -76.5, y: 45}
+        - {x: -38.5, y: 0}
+        - {x: 39.5, y: 0}
+        - {x: 46.5, y: 25}
+        - {x: 76.5, y: 86}
+        - {x: 76.5, y: 230}
+    - name: artisan_1_walking_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.5, y: 282}
+        - {x: -62.5, y: 282}
+        - {x: -76.5, y: 247}
+        - {x: -76.5, y: 116}
+        - {x: -49.5, y: 71}
+        - {x: -41.5, y: 6}
+        - {x: -28.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 42.5, y: 88}
+        - {x: 76.5, y: 140}
+        - {x: 76.5, y: 240}
+    - name: artisan_1_walking_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.5, y: 282}
+        - {x: -43.5, y: 282}
+        - {x: -45.5, y: 281}
+        - {x: -61.5, y: 275}
+        - {x: -76.5, y: 239}
+        - {x: -76.5, y: 118}
+        - {x: -27.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 45.5, y: 98}
+        - {x: 76.5, y: 151}
+        - {x: 76.5, y: 256}
+    - name: artisan_1_walking_13
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.5, y: 269}
+        - {x: 49.5, y: 282}
+        - {x: -59.5, y: 282}
+        - {x: -76.5, y: 251}
+        - {x: -76.5, y: 99}
+        - {x: -58.5, y: 51}
+        - {x: -29.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 38.5, y: 88}
+        - {x: 76.5, y: 145}
+        - {x: 76.5, y: 244}
+    - name: artisan_1_walking_14
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 282}
+        - {x: -65.5, y: 282}
+        - {x: -76.5, y: 267}
+        - {x: -76.5, y: 120}
+        - {x: -42.5, y: 26}
+        - {x: -26.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 33.5, y: 13}
+        - {x: 73.5, y: 138}
+        - {x: 76.5, y: 154}
+    - name: artisan_1_walking_15
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 0
+        width: 153
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 281}
+        - {x: -63.5, y: 281}
+        - {x: -76.5, y: 272}
+        - {x: -76.5, y: 94}
+        - {x: -33.5, y: 3}
+        - {x: -32.5, y: 0}
+        - {x: 28.5, y: 0}
+        - {x: 45.5, y: 7}
+        - {x: 51.5, y: 114}
+        - {x: 76.5, y: 148}
+        - {x: 76.5, y: 230}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
