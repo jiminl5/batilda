@@ -4,9 +4,10 @@ using System.Collections.Generic;
 
 public class CustomerList : MonoBehaviour {
 
-    public GameObject[] customers = new GameObject[1];
+    public GameObject[] customers = new GameObject[2];
 
     private GameObject peasant;
+    private GameObject artisan;
     private float _delay;
 
     bool keep_track; // true when all seats (5) are taken, false if less
@@ -17,6 +18,7 @@ public class CustomerList : MonoBehaviour {
         keep_track = false;
         customer_Q.Clear();
         peasant = customers[0]; // ADD more later
+        artisan = customers[1];
         if (PlayerPrefs.GetString("tutorial") == "yes")
         {
             CustomerAI.seatCount++;
@@ -44,8 +46,19 @@ public class CustomerList : MonoBehaviour {
         if ((customer_Q.Count < GameObject.Find("levelHandler").GetComponent<levelHandler>().customersWaiting) && CustomerAI.seatCount < 5) // # of Seats
         {
             CustomerAI.seatCount++;
-            Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
-            customer_Q.Add(peasant);
+
+            //Chris changed this but it doesn't work. current_customer is null at this point.
+            if (GameObject.Find("levelHandler").GetComponent<levelHandler>().current_customer.type == "peasant")
+            {
+                Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
+                customer_Q.Add(peasant);
+            }
+            else if (GameObject.Find("levelHandler").GetComponent<levelHandler>().current_customer.type == "artisan")
+            {
+                Instantiate(artisan, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
+                customer_Q.Add(artisan);
+            }
+            //---------------
             _delay = Random.Range(6, 8);
             if (CustomerAI.seatCount != 5)
             {

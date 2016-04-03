@@ -96,10 +96,16 @@ public class levelHandler : MonoBehaviour {
     public string peasantFoodList; //initalized with ";" as breakers. ex: "bread;carrot soup;grilled fish"
     public Queue<string> peasantFoodQueue;
     public string foodList;
+    Dictionary<string, string[]> artisanFoodList;
 
     Queue<customer> customerQueue;
 
-    struct customer
+    public customer current_customer;
+
+    Queue<customer> artisanQueue;
+    public int numArtisans = 0;
+
+    public struct customer
     {
         public string type;
         public Queue<string> foodQueue;
@@ -139,11 +145,47 @@ public class levelHandler : MonoBehaviour {
         return peasants;
     }
 
+    Queue<customer> createArtisans(Dictionary<string,string[]> food, int count)
+    {
+        Queue<customer> artisans = new Queue<customer>();
+        Queue<string> foodQueue;
+        int r;
+
+        shuffle(food["drinks"]);
+        shuffle(food["entrees"]);
+        for (int i = 0; i < count; i++)
+        {
+            r = Random.Range(0, 1);
+
+            foodQueue = new Queue<string>();
+            if (r == 0) //drink first
+            {
+                foodQueue.Enqueue(food["drinks"][i]);
+                foodQueue.Enqueue(food["entrees"][i]);
+            }
+            else if (r == 1) //entree first
+            {
+                foodQueue.Enqueue(food["entrees"][i]);
+                foodQueue.Enqueue(food["drinks"][i]);
+            }
+            artisans.Enqueue(new customer("artisan", foodQueue));
+
+        }
+        
+        return artisans;
+    }
+
     void createCustomerQueue()
     {
         customer[] customerArray = new customer[numberofCustomers];
         int i = 0;
         foreach (customer c in peasantQueue)
+        {
+            customerArray[i] = c;
+            i++;
+        }
+
+        foreach (customer c in artisanQueue)
         {
             customerArray[i] = c;
             i++;
@@ -171,6 +213,8 @@ public class levelHandler : MonoBehaviour {
         emptyCustomers = new ArrayList();
         randomCustomerIndexes = new Queue<int>();
         customerQueue = new Queue<customer>();
+
+        artisanFoodList = new Dictionary<string, string[]>();
     }
 
     // Use this for initialization
@@ -241,11 +285,16 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 4;
-            foodList = Multiply("apple cider;", 4);
+            numberofCustomers = 7;
+            //foodList = Multiply("apple cider;", 4);
+            
 
-            //foodList = "apple cider;apple cider;apple cider;apple cider";
-                //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
+            artisanFoodList.Add("drinks", "apple cider;apple cider;apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilled fish;grilled fish;grilled fish".Split(';'));
+
+            numArtisans = 3;
+            foodList = "apple cider;apple cider;apple cider;apple cider";
+            //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 121;
 			selectedSoundtrack = GameplaySoundtracks [2];
@@ -889,13 +938,14 @@ public class levelHandler : MonoBehaviour {
 
             numberofCustomers = 24;
             foodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
+            
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 180;
         }
 
         peasantQueue = createPeasants(foodList.Split(';'));
-
+        artisanQueue = createArtisans(artisanFoodList, numArtisans);
         createCustomerQueue();
 
         string[] peasantFoodShuffle = foodList.Split(';');
@@ -905,8 +955,8 @@ public class levelHandler : MonoBehaviour {
             peasantFoodQueue.Enqueue(food);
         }
         PlayerPrefs.SetInt("tempCustomer", peasantFoodQueue.Count);
-        customersWaiting = peasantFoodQueue.Count;
-		totalCustomersInLevel = customersWaiting;
+        customersWaiting = customerQueue.Count;
+		totalCustomersInLevel = numberofCustomers;
 		customersLeft = customersWaiting;
 
         //max - how many cooking objects you have (to iterate later)
@@ -1271,10 +1321,16 @@ public class levelHandler : MonoBehaviour {
 
         //int i = randomCustomerIndexes.Dequeue();
 
-        customer current_customer = customerQueue.Dequeue();
+        current_customer = customerQueue.Dequeue();
         GameObject tempcustomer = Resources.Load("Customers/Peasants/customer") as GameObject;
 
         if (current_customer.type == "peasant")
+        {
+            print("foodqueue: " + current_customer.foodQueue.Count);
+            tempcustomer.GetComponent<Customer>().current_food = findRecipe(current_customer.foodQueue.Dequeue());
+        }
+
+        else if (current_customer.type == "artisan")
         {
             print("foodqueue: " + current_customer.foodQueue.Count);
             tempcustomer.GetComponent<Customer>().current_food = findRecipe(current_customer.foodQueue.Dequeue());
