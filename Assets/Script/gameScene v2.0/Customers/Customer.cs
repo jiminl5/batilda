@@ -11,6 +11,8 @@ public class Customer : MonoBehaviour {
 	private GameObject foodSprite;
     public Queue<string> peasantFoodQueue;
 
+    public Queue<string> foodQueue; //= GameObject.Find("levelHandler").GetComponent<levelHandler>().customerQueue.Peek().foodQueue;
+
     public bool needsToOrder = true;
     public bool tempObjInstantiated = false;
     public GameObject tempObj;
@@ -29,6 +31,7 @@ public class Customer : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        foodQueue = GameObject.Find("levelHandler").GetComponent<levelHandler>().customerQueue.Peek().foodQueue;
         //Animation
         _Panimator = this.transform.GetComponentInParent<Animator>();
         /*peasantFoodQueue = new Queue<string>();
@@ -84,13 +87,12 @@ public class Customer : MonoBehaviour {
                 //StartCoroutine(ExecuteAfterDelay(Random.Range (0,5)));
                 //Debug.Log(peasantFoodQueue.Peek());
                 //current_food = findRecipe(peasantFoodQueue.Dequeue());
-                foodWaitingOn = current_food.name;
+                current_food = findRecipe(foodQueue.Peek());
+                foodWaitingOn = foodQueue.Dequeue();
                 Debug.Log("waiting on: " + foodWaitingOn);
                 foodSprite = Instantiate(current_food.go, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.2f), Quaternion.identity) as GameObject;
                 foodSprite.transform.parent = transform;
                 StartCoroutine(ScaleOverTime(0.5f, foodSprite));
-                waitingOnFood = true;
-
                 waitingOnFood = true;
 			}
             else if (food_given == foodWaitingOn)
@@ -110,15 +112,19 @@ public class Customer : MonoBehaviour {
 				food_given = "";
 				//given correct food!
 				Debug.Log ("yum!");
-                CustomerExit();
-
-                moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
-                moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 20;
-                moneySprite.transform.position = new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.5f);
-                moneyOn = true;
-                moodSprite = Instantiate(Resources.Load("smile"), new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
-                moodSprite.transform.parent = transform.parent;
-                StartCoroutine(ScaleOverTime(0.5f, moodSprite));
+                Destroy(foodSprite);
+                //
+                if (foodQueue.Count == 0)
+                {
+                    CustomerExit();
+                    moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
+                    moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 20;
+                    moneySprite.transform.position = new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.5f);
+                    moneyOn = true;
+                    moodSprite = Instantiate(Resources.Load("smile"), new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
+                    moodSprite.transform.parent = transform.parent;
+                    StartCoroutine(ScaleOverTime(0.5f, moodSprite));
+                }
 
             }
             else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given))
@@ -146,7 +152,7 @@ public class Customer : MonoBehaviour {
     {
         this.transform.parent.eulerAngles = new Vector3(0, 180, 0);
         this.GetComponentInParent<CustomerAI>().direction = 6;
-        Destroy(foodSprite);
+        //Destroy(foodSprite);
         Destroy(speechBubble);
     }
 
@@ -193,16 +199,19 @@ IEnumerator ExecuteAfterDelay(float delay)
 
     Recipie findRecipe (string food)
     {
-        Debug.Log("Recipies/Food_Recipes/" + food);
+        //Debug.Log("Recipies/Food_Recipes/" + food);
         //Object load = Resources.Load(food);
         //GameObject load = AssetDatabase.LoadAssetAtPath("Assets/Resources/" + food, typeof(GameObject)) as GameObject;
 
-        GameObject load = Resources.Load("Recipies/Food_Recipes/" + food) as GameObject;
-        Debug.Log(load.name);
-        if (load == null)
-            Debug.Log("load not found");
+        //GameObject load = Resources.Load("Recipies/Food_Recipes/" + food) as GameObject;
+        //Debug.Log(load.name);
+        //if (load == null)
+        //Debug.Log("load not found");
         //return load.GetComponent<Recipie>();
         //Recipie testr = new Recipie();
-        return load.GetComponent<Recipie>();
+        //return load.GetComponent<Recipie>();
+        print(food);
+        Recipie recipe = GameObject.Find(food + "(Clone)").GetComponent<Recipie>();
+        return recipe;
     }
 }

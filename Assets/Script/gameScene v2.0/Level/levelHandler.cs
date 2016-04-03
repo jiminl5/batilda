@@ -98,7 +98,7 @@ public class levelHandler : MonoBehaviour {
     public string foodList;
     Dictionary<string, string[]> artisanFoodList;
 
-    Queue<customer> customerQueue;
+    public Queue<customer> customerQueue;
 
     public customer current_customer;
 
@@ -197,6 +197,8 @@ public class levelHandler : MonoBehaviour {
         {
             customerQueue.Enqueue(c);
         }
+
+        GameObject.Find("Customer").GetComponent<CustomerList>().customerQ = new Queue<customer>(customerQueue); //clunky fix for sprites
     }
 
 
@@ -1327,13 +1329,15 @@ public class levelHandler : MonoBehaviour {
         if (current_customer.type == "peasant")
         {
             print("foodqueue: " + current_customer.foodQueue.Count);
-            tempcustomer.GetComponent<Customer>().current_food = findRecipe(current_customer.foodQueue.Dequeue());
+            tempcustomer.GetComponent<Customer>().foodQueue = current_customer.foodQueue;
+            //tempcustomer.GetComponent<Customer>().current_food = findRecipe(current_customer.foodQueue.Dequeue());
         }
 
         else if (current_customer.type == "artisan")
         {
             print("foodqueue: " + current_customer.foodQueue.Count);
-            tempcustomer.GetComponent<Customer>().current_food = findRecipe(current_customer.foodQueue.Dequeue());
+            tempcustomer.GetComponent<Customer>().foodQueue = current_customer.foodQueue;
+            //tempcustomer.GetComponent<Customer>().current_food = findRecipe(current_customer.foodQueue.Dequeue());
         }
 
 

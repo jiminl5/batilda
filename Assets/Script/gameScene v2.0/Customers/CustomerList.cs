@@ -10,11 +10,14 @@ public class CustomerList : MonoBehaviour {
     private GameObject artisan;
     private float _delay;
 
+    public Queue<levelHandler.customer> customerQ;
+
     bool keep_track; // true when all seats (5) are taken, false if less
 
     public static List<GameObject> customer_Q = new List<GameObject>();
 	// Use this for initialization
 	void Start () {
+      
         keep_track = false;
         customer_Q.Clear();
         peasant = customers[0]; // ADD more later
@@ -48,16 +51,19 @@ public class CustomerList : MonoBehaviour {
             CustomerAI.seatCount++;
 
             //Chris changed this but it doesn't work. current_customer is null at this point.
-            if (GameObject.Find("levelHandler").GetComponent<levelHandler>().current_customer.type == "peasant")
+
+            print("TYPE::::::::::::::::::::" + customerQ.Peek().type);
+            if (customerQ.Peek().type == "peasant")
             {
                 Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
                 customer_Q.Add(peasant);
             }
-            else if (GameObject.Find("levelHandler").GetComponent<levelHandler>().current_customer.type == "artisan")
+            else if (customerQ.Peek().type == "artisan")
             {
                 Instantiate(artisan, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
                 customer_Q.Add(artisan);
             }
+            customerQ.Dequeue();
             //---------------
             _delay = Random.Range(6, 8);
             if (CustomerAI.seatCount != 5)
