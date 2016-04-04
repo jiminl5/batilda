@@ -12,6 +12,7 @@ public class CustomerList : MonoBehaviour {
 
     public Queue<levelHandler.customer> customerQ;
 
+
     bool keep_track; // true when all seats (5) are taken, false if less
 
     public static List<GameObject> customer_Q = new List<GameObject>();
@@ -24,8 +25,9 @@ public class CustomerList : MonoBehaviour {
         artisan = customers[1];
         if (PlayerPrefs.GetString("tutorial") == "yes")
         {
+            GameObject current_customer = new GameObject();
             CustomerAI.seatCount++;
-            Instantiate(peasant, new Vector2(GameObject.Find("CustomerPath_1").transform.position.x, GameObject.Find("CustomerPath_1").transform.position.y), Quaternion.identity);
+            current_customer = Instantiate(peasant, new Vector2(GameObject.Find("CustomerPath_1").transform.position.x, GameObject.Find("CustomerPath_1").transform.position.y), Quaternion.identity) as GameObject;
             customer_Q.Add(peasant);
             _delay = 15;
             CustomerEnterDelay();
@@ -46,6 +48,7 @@ public class CustomerList : MonoBehaviour {
 
     void CreateCustomer()
     {
+        GameObject current_customer = new GameObject();
         if ((customer_Q.Count < GameObject.Find("levelHandler").GetComponent<levelHandler>().customersWaiting) && CustomerAI.seatCount < 5) // # of Seats
         {
             CustomerAI.seatCount++;
@@ -55,15 +58,15 @@ public class CustomerList : MonoBehaviour {
             print("TYPE::::::::::::::::::::" + customerQ.Peek().type);
             if (customerQ.Peek().type == "peasant")
             {
-                Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
+                current_customer = Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
                 customer_Q.Add(peasant);
             }
             else if (customerQ.Peek().type == "artisan")
             {
-                Instantiate(artisan, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
+                current_customer = Instantiate(artisan, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
                 customer_Q.Add(artisan);
             }
-            customerQ.Dequeue();
+            current_customer.GetComponent<CustomerAI>().customer = customerQ.Dequeue();
             //---------------
             _delay = Random.Range(6, 8);
             if (CustomerAI.seatCount != 5)

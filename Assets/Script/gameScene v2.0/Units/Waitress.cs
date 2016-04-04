@@ -177,7 +177,7 @@ public class Waitress : MonoBehaviour {
             else if (one_h == "wine") go_1h = Instantiate(go.GetComponent<nameAndPosition>().go, transform.position + new Vector3(.72f, 0) + Vector3.down * 1 / 2, transform.rotation) as GameObject;
             go_1h.transform.SetParent(gameObject.transform);
             //go_1h.gameObject.layer = 5;
-            Debug.Log(one_h);
+            //Debug.Log(one_h);
 
         }
         else if (string.IsNullOrEmpty(two_h) && go.GetComponent<drinkObject>().numberOfDrinks > 0)

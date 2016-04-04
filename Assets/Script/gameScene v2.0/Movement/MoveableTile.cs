@@ -193,7 +193,7 @@ public class MoveableTile : MonoBehaviour {
     void DoAction()
     {
         //CHEF
-        print("mtX: " + mtX + ", mtY: " + mtY);
+        //print("mtX: " + mtX + ", mtY: " + mtY);
         if (clickable && (Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10) && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10)
         && check_Queue.Count <= 10 && check_Queue_1.Count <= 10)
         {

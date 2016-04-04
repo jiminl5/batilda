@@ -1317,13 +1317,14 @@ public class levelHandler : MonoBehaviour {
         return ec;
     }*/
 
-    public GameObject Spawn(string customerName)
+    public GameObject Spawn(string customerName, CustomerAI cAI)
     {
         //ArrayList emptyCustomers = getEmptyCustomerIndexes();
 
         //int i = randomCustomerIndexes.Dequeue();
 
-        current_customer = customerQueue.Dequeue();
+        current_customer = cAI.customer;
+        print("FOOD QUEUE:::::" + cAI.customer.foodQueue.Count);
         GameObject tempcustomer = Resources.Load("Customers/Peasants/customer") as GameObject;
 
         if (current_customer.type == "peasant")

@@ -31,7 +31,7 @@ public class Customer : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        foodQueue = GameObject.Find("levelHandler").GetComponent<levelHandler>().customerQueue.Peek().foodQueue;
+        foodQueue = GameObject.Find("levelHandler").GetComponent<levelHandler>().current_customer.foodQueue;
         //Animation
         _Panimator = this.transform.GetComponentInParent<Animator>();
         /*peasantFoodQueue = new Queue<string>();
@@ -162,7 +162,7 @@ public class Customer : MonoBehaviour {
     {
         Vector3 originalScale = go.transform.localScale;
         Vector3 startScale = new Vector3(0.01f, 0.01f, 0.01f);
-        Debug.Log("SCALING..");
+        //Debug.Log("SCALING..");
         float currentTime = 0.0f;
         do
         {

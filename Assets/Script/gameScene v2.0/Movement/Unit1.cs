@@ -132,7 +132,7 @@ public class Unit1 : MonoBehaviour {
 				this.gameObject.GetComponentInChildren<Waitress>().atPosition = true;
 				left_right = ""; // Make direction empty
 				down_up = "";
-				print("Succesfully at destination");
+				//print("Succesfully at destination");
 				_animator.SetInteger(_bat_animState, 0);
                 //mouseClicked = false;
                 unit_queue1.Dequeue();

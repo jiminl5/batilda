@@ -51,12 +51,14 @@ public class CustomerAI : MonoBehaviour
     private float temp_wait;
     public static string cus_Number;
 
+    public levelHandler.customer customer;
     //Animation
     private int _PeasantState = Animator.StringToHash("Peasant_State");
     private Animator _Panimator;
     // Use this for initialization
     void Start()
     {
+
         order_delay = 3.0f;
 
         temp_wait = 0.0f;
@@ -207,27 +209,27 @@ public class CustomerAI : MonoBehaviour
         if (customerSat1 && direction == 1)
         {
             _Panimator.SetInteger(_PeasantState, 2);
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1", this);
         }
         if (customerSat2 && direction == 2)
         {
             _Panimator.SetInteger(_PeasantState, 2);
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2", this);
         }
         if (customerSat3 && direction == 3)
         {
             _Panimator.SetInteger(_PeasantState, 2);
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3", this);
         }
         if (customerSat4 && direction == 4)
         {
             _Panimator.SetInteger(_PeasantState, 2);
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4", this);
         }
         if (customerSat5 && direction == 5)
         {
             _Panimator.SetInteger(_PeasantState, 2);
-            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5");
+            order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5", this);
         }
 
         if (order)
