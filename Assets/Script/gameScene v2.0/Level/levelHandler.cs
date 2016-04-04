@@ -98,11 +98,14 @@ public class levelHandler : MonoBehaviour {
     public string foodList;
     Dictionary<string, string[]> artisanFoodList;
 
+    Dictionary<string, string[]> middleFoodList;
+
     public Queue<customer> customerQueue;
 
     public customer current_customer;
 
     Queue<customer> artisanQueue;
+    Queue<customer> middleQueue;
     public int numArtisans = 0;
 
     public struct customer
