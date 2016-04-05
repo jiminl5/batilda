@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 4ed8bd3b1eb1b7c4caf8953d381f3a90
+timeCreated: 1459839335
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: middle_1_paying_0
+    21300002: middle_1_paying_1
+    21300004: middle_1_paying_2
+    21300006: middle_1_paying_3
+    21300008: middle_1_paying_4
+    21300010: middle_1_paying_5
+    21300012: middle_1_paying_6
+    21300014: middle_1_paying_7
+    21300016: middle_1_paying_8
+    21300018: middle_1_paying_9
+    21300020: middle_1_paying_10
+    21300022: middle_1_paying_11
+    21300024: middle_1_paying_12
+    21300026: middle_1_paying_13
+    21300028: middle_1_paying_14
+    21300030: middle_1_paying_15
+    21300032: middle_1_paying_16
+    21300034: middle_1_paying_17
+    21300036: middle_1_paying_18
+    21300038: middle_1_paying_19
+    21300040: middle_1_paying_20
+    21300042: middle_1_paying_21
+    21300044: middle_1_paying_22
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: middle_1_paying_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 229}
+        - {x: 76, y: 294}
+        - {x: 46, y: 294}
+        - {x: 20, y: 271}
+        - {x: -40, y: 294}
+        - {x: -80, y: 294}
+        - {x: -102, y: 255}
+        - {x: -102, y: 161}
+        - {x: -83, y: 110}
+        - {x: -48, y: 113}
+        - {x: -43, y: 30}
+        - {x: -28, y: 0}
+        - {x: 23, y: 0}
+        - {x: 26, y: 1}
+        - {x: 57, y: 50}
+        - {x: 64, y: 126}
+        - {x: 102, y: 159}
+    - name: middle_1_paying_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 294}
+        - {x: -54, y: 294}
+        - {x: -57, y: 293}
+        - {x: -67, y: 290}
+        - {x: -65, y: 286}
+        - {x: -79, y: 262}
+        - {x: -102, y: 224}
+        - {x: -102, y: 134}
+        - {x: -66, y: 118}
+        - {x: -28, y: 0}
+        - {x: 37, y: 0}
+        - {x: 53, y: 102}
+        - {x: 102, y: 155}
+        - {x: 102, y: 229}
+    - name: middle_1_paying_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 224}
+        - {x: 71, y: 294}
+        - {x: -60, y: 294}
+        - {x: -68, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 169}
+        - {x: -62, y: 92}
+        - {x: -38, y: 0}
+        - {x: 24, y: 0}
+        - {x: 25, y: 1}
+        - {x: 46, y: 50}
+        - {x: 41, y: 102}
+        - {x: 102, y: 157}
+    - name: middle_1_paying_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 294}
+        - {x: 47, y: 294}
+        - {x: -7, y: 267}
+        - {x: -50, y: 294}
+        - {x: -67, y: 294}
+        - {x: -102, y: 222}
+        - {x: -102, y: 163}
+        - {x: -72, y: 110}
+        - {x: -37, y: 32}
+        - {x: -32, y: 28}
+        - {x: -25, y: 0}
+        - {x: 27, y: 0}
+        - {x: 87, y: 133}
+        - {x: 102, y: 176}
+        - {x: 102, y: 222}
+    - name: middle_1_paying_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 136}
+        - {x: 102, y: 236}
+        - {x: 84, y: 294}
+        - {x: -61, y: 294}
+        - {x: -70, y: 262}
+        - {x: -102, y: 232}
+        - {x: -102, y: 166}
+        - {x: -98, y: 151}
+        - {x: -30, y: 0}
+        - {x: 17, y: 0}
+        - {x: 23, y: 3}
+        - {x: 47, y: 63}
+        - {x: 36, y: 64}
+    - name: middle_1_paying_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 215}
+        - {x: 62, y: 294}
+        - {x: 50, y: 294}
+        - {x: 43, y: 289}
+        - {x: -14, y: 269}
+        - {x: -46, y: 294}
+        - {x: -71, y: 294}
+        - {x: -102, y: 216}
+        - {x: -102, y: 160}
+        - {x: -23, y: 0}
+        - {x: 20, y: 0}
+        - {x: 53, y: 50}
+        - {x: 73, y: 139}
+        - {x: 102, y: 178}
+    - name: middle_1_paying_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 294}
+        - {x: -69, y: 294}
+        - {x: -102, y: 220}
+        - {x: -102, y: 177}
+        - {x: -100, y: 174}
+        - {x: -79, y: 131}
+        - {x: -45, y: 29}
+        - {x: -24, y: 0}
+        - {x: 20, y: 0}
+        - {x: 55, y: 50}
+        - {x: 102, y: 173}
+        - {x: 102, y: 223}
+    - name: middle_1_paying_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 594
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 154}
+        - {x: 102, y: 218}
+        - {x: 63, y: 294}
+        - {x: -60, y: 294}
+        - {x: -102, y: 233}
+        - {x: -102, y: 179}
+        - {x: -98, y: 163}
+        - {x: -68, y: 109}
+        - {x: -30, y: 0}
+        - {x: 14, y: 0}
+        - {x: 20, y: 5}
+        - {x: 56, y: 50}
+        - {x: 42, y: 102}
+    - name: middle_1_paying_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 220}
+        - {x: 66, y: 294}
+        - {x: 33, y: 294}
+        - {x: -7, y: 271}
+        - {x: -45, y: 294}
+        - {x: -58, y: 294}
+        - {x: -102, y: 240}
+        - {x: -102, y: 167}
+        - {x: -86, y: 115}
+        - {x: -28, y: 0}
+        - {x: 26, y: 0}
+        - {x: 50, y: 62}
+        - {x: 53, y: 110}
+        - {x: 102, y: 155}
+    - name: middle_1_paying_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 155}
+        - {x: 102, y: 247}
+        - {x: 67, y: 294}
+        - {x: -63, y: 294}
+        - {x: -102, y: 234}
+        - {x: -102, y: 133}
+        - {x: -51, y: 23}
+        - {x: -24, y: 0}
+        - {x: 14, y: 0}
+        - {x: 20, y: 5}
+        - {x: 56, y: 50}
+        - {x: 80, y: 106}
+    - name: middle_1_paying_10
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 294}
+        - {x: -64, y: 294}
+        - {x: -89, y: 234}
+        - {x: -102, y: 217}
+        - {x: -102, y: 168}
+        - {x: -92, y: 159}
+        - {x: -30, y: 0}
+        - {x: 27, y: 0}
+        - {x: 60, y: 109}
+        - {x: 102, y: 154}
+        - {x: 102, y: 217}
+    - name: middle_1_paying_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 233}
+        - {x: 80, y: 294}
+        - {x: 30, y: 294}
+        - {x: -10, y: 280}
+        - {x: -52, y: 294}
+        - {x: -63, y: 291}
+        - {x: -102, y: 246}
+        - {x: -102, y: 167}
+        - {x: -73, y: 105}
+        - {x: -31, y: 1}
+        - {x: -29, y: 0}
+        - {x: 23, y: 0}
+        - {x: 53, y: 50}
+        - {x: 42, y: 105}
+        - {x: 102, y: 157}
+    - name: middle_1_paying_12
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 207}
+        - {x: 64, y: 294}
+        - {x: -55, y: 294}
+        - {x: -67, y: 293}
+        - {x: -81, y: 260}
+        - {x: -102, y: 225}
+        - {x: -102, y: 161}
+        - {x: -51, y: 102}
+        - {x: -43, y: 29}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 46, y: 62}
+        - {x: 42, y: 98}
+        - {x: 102, y: 163}
+    - name: middle_1_paying_13
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 215}
+        - {x: 67, y: 294}
+        - {x: -66, y: 294}
+        - {x: -69, y: 286}
+        - {x: -101, y: 228}
+        - {x: -102, y: 225}
+        - {x: -102, y: 159}
+        - {x: -28, y: 0}
+        - {x: 23, y: 0}
+        - {x: 26, y: 1}
+        - {x: 49, y: 50}
+        - {x: 102, y: 163}
+    - name: middle_1_paying_14
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: 219}
+        - {x: 72, y: 293}
+        - {x: -65, y: 293}
+        - {x: -65, y: 289}
+        - {x: -79, y: 272}
+        - {x: -102, y: 227}
+        - {x: -102, y: 159}
+        - {x: -80, y: 131}
+        - {x: -29, y: 0}
+        - {x: 17, y: 0}
+        - {x: 52, y: 49}
+        - {x: 102, y: 168}
+        - {x: 102, y: 208}
+    - name: middle_1_paying_15
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 297
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74, y: 293}
+        - {x: 43, y: 293}
+        - {x: 6, y: 277}
+        - {x: -35, y: 293}
+        - {x: -74, y: 293}
+        - {x: -102, y: 219}
+        - {x: -102, y: 175}
+        - {x: -67, y: 116}
+        - {x: -47, y: 54}
+        - {x: -23, y: 0}
+        - {x: 20, y: 0}
+        - {x: 51, y: 49}
+        - {x: 102, y: 166}
+        - {x: 102, y: 217}
+    - name: middle_1_paying_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 98, y: 229}
+        - {x: 78, y: 293}
+        - {x: 43, y: 293}
+        - {x: -20, y: 273}
+        - {x: -63, y: 293}
+        - {x: -72, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 178}
+        - {x: -72, y: 124}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 49, y: 53}
+        - {x: 42, y: 108}
+        - {x: 102, y: 169}
+    - name: middle_1_paying_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 98, y: 229}
+        - {x: 78, y: 293}
+        - {x: 43, y: 293}
+        - {x: -20, y: 273}
+        - {x: -63, y: 293}
+        - {x: -72, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 178}
+        - {x: -72, y: 124}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 49, y: 53}
+        - {x: 42, y: 108}
+        - {x: 102, y: 169}
+    - name: middle_1_paying_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 98, y: 229}
+        - {x: 78, y: 293}
+        - {x: 43, y: 293}
+        - {x: -20, y: 273}
+        - {x: -63, y: 293}
+        - {x: -72, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 178}
+        - {x: -72, y: 124}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 49, y: 53}
+        - {x: 42, y: 108}
+        - {x: 102, y: 169}
+    - name: middle_1_paying_19
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 98, y: 229}
+        - {x: 78, y: 293}
+        - {x: 43, y: 293}
+        - {x: -20, y: 273}
+        - {x: -63, y: 293}
+        - {x: -72, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 178}
+        - {x: -72, y: 124}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 49, y: 53}
+        - {x: 42, y: 108}
+        - {x: 102, y: 169}
+    - name: middle_1_paying_20
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 98, y: 229}
+        - {x: 78, y: 293}
+        - {x: 43, y: 293}
+        - {x: -20, y: 273}
+        - {x: -63, y: 293}
+        - {x: -72, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 178}
+        - {x: -72, y: 124}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 49, y: 53}
+        - {x: 42, y: 108}
+        - {x: 102, y: 169}
+    - name: middle_1_paying_21
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 98, y: 229}
+        - {x: 78, y: 293}
+        - {x: 43, y: 293}
+        - {x: -20, y: 273}
+        - {x: -63, y: 293}
+        - {x: -72, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 178}
+        - {x: -72, y: 124}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 49, y: 53}
+        - {x: 42, y: 108}
+        - {x: 102, y: 169}
+    - name: middle_1_paying_22
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 204
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 216}
+        - {x: 98, y: 229}
+        - {x: 78, y: 293}
+        - {x: 43, y: 293}
+        - {x: -20, y: 273}
+        - {x: -63, y: 293}
+        - {x: -72, y: 293}
+        - {x: -102, y: 226}
+        - {x: -102, y: 178}
+        - {x: -72, y: 124}
+        - {x: -27, y: 0}
+        - {x: 26, y: 0}
+        - {x: 49, y: 53}
+        - {x: 42, y: 108}
+        - {x: 102, y: 169}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

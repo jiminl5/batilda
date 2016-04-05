@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6c22b4331ff030e4c8883489997604c7
-timeCreated: 1459572634
+timeCreated: 1459838965
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -134,7 +134,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -159,7 +159,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -183,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -205,7 +205,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -228,7 +228,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -252,7 +252,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 775
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -273,7 +273,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 930
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -295,7 +295,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1085
-        y: 2493
+        y: 1939
         width: 155
         height: 277
       alignment: 7
@@ -317,7 +317,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -340,7 +340,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -362,7 +362,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -383,7 +383,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -406,7 +406,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -429,7 +429,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 775
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -453,7 +453,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 930
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -477,7 +477,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1085
-        y: 2216
+        y: 1662
         width: 155
         height: 277
       alignment: 7
@@ -499,7 +499,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -523,7 +523,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -546,7 +546,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -568,7 +568,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -592,7 +592,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -615,7 +615,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 775
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -637,7 +637,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 930
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -658,7 +658,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1085
-        y: 1939
+        y: 1385
         width: 155
         height: 277
       alignment: 7
@@ -679,7 +679,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -701,7 +701,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -724,7 +724,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -746,7 +746,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -774,7 +774,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -800,7 +800,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 775
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -825,7 +825,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 930
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -846,7 +846,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1085
-        y: 1662
+        y: 1108
         width: 155
         height: 277
       alignment: 7
@@ -871,7 +871,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -892,7 +892,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -915,7 +915,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -937,7 +937,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -959,7 +959,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -983,7 +983,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 775
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -1004,7 +1004,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 930
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -1032,7 +1032,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1085
-        y: 1385
+        y: 831
         width: 155
         height: 277
       alignment: 7
@@ -1055,7 +1055,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1078,7 +1078,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1101,7 +1101,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1122,7 +1122,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1144,7 +1144,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1166,7 +1166,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 775
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1190,7 +1190,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 930
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1214,7 +1214,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1085
-        y: 1108
+        y: 554
         width: 155
         height: 277
       alignment: 7
@@ -1236,7 +1236,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1258,7 +1258,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1279,7 +1279,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1302,7 +1302,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1325,7 +1325,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 620
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1347,7 +1347,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 775
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1369,7 +1369,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 930
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1391,7 +1391,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1085
-        y: 831
+        y: 277
         width: 155
         height: 277
       alignment: 7
@@ -1419,7 +1419,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 554
+        y: 0
         width: 155
         height: 277
       alignment: 7
@@ -1441,7 +1441,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 554
+        y: 0
         width: 155
         height: 277
       alignment: 7
@@ -1463,7 +1463,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 554
+        y: 0
         width: 155
         height: 277
       alignment: 7
@@ -1486,7 +1486,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 554
+        y: 0
         width: 155
         height: 277
       alignment: 7
@@ -1504,466 +1504,6 @@ TextureImporter:
         - {x: 52.5, y: 43}
         - {x: 77.5, y: 148}
         - {x: 77.5, y: 275}
-    - name: artisan_1_eating_60
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 554
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 140}
-        - {x: 77.5, y: 249}
-        - {x: 61.5, y: 274}
-        - {x: -60.5, y: 274}
-        - {x: -77.5, y: 245}
-        - {x: -77.5, y: 106}
-        - {x: -40.5, y: 8}
-        - {x: -26.5, y: 0}
-        - {x: 12.5, y: 0}
-        - {x: 23.5, y: 12}
-        - {x: 46.5, y: 47}
-    - name: artisan_1_eating_61
-      rect:
-        serializedVersion: 2
-        x: 775
-        y: 554
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 236}
-        - {x: 58.5, y: 274}
-        - {x: -57.5, y: 274}
-        - {x: -74.5, y: 262}
-        - {x: -77.5, y: 228}
-        - {x: -77.5, y: 107}
-        - {x: -30.5, y: 0}
-        - {x: 21.5, y: 0}
-        - {x: 48.5, y: 53}
-        - {x: 37.5, y: 103}
-        - {x: 77.5, y: 139}
-    - name: artisan_1_eating_62
-      rect:
-        serializedVersion: 2
-        x: 930
-        y: 554
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 248}
-        - {x: 73.5, y: 274}
-        - {x: -47.5, y: 274}
-        - {x: -69.5, y: 258}
-        - {x: -77.5, y: 184}
-        - {x: -77.5, y: 133}
-        - {x: -66.5, y: 116}
-        - {x: -40.5, y: 8}
-        - {x: -29.5, y: 0}
-        - {x: 13.5, y: 0}
-        - {x: 28.5, y: 10}
-        - {x: 37.5, y: 82}
-        - {x: 77.5, y: 127}
-    - name: artisan_1_eating_63
-      rect:
-        serializedVersion: 2
-        x: 1085
-        y: 554
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 147}
-        - {x: 77.5, y: 235}
-        - {x: 62.5, y: 274}
-        - {x: -42.5, y: 274}
-        - {x: -70.5, y: 269}
-        - {x: -77.5, y: 226}
-        - {x: -77.5, y: 113}
-        - {x: -48.5, y: 87}
-        - {x: -46.5, y: 5}
-        - {x: -34.5, y: 0}
-        - {x: 26.5, y: 0}
-        - {x: 40.5, y: 45}
-        - {x: 29.5, y: 95}
-        - {x: 75.5, y: 139}
-    - name: artisan_1_eating_64
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -67.5, y: 273}
-        - {x: -77.5, y: 246}
-        - {x: -77.5, y: 131}
-        - {x: -67.5, y: 116}
-        - {x: -44.5, y: 110}
-        - {x: -35.5, y: 108}
-        - {x: -28.5, y: 108}
-        - {x: -25.5, y: 106}
-        - {x: -25.5, y: 107}
-        - {x: -35.5, y: 102}
-        - {x: -47.5, y: 65}
-        - {x: -39.5, y: 9}
-        - {x: -37.5, y: 0}
-        - {x: 46.5, y: 0}
-        - {x: 77.5, y: 35}
-        - {x: 77.5, y: 273}
-    - name: artisan_1_eating_65
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 62.5, y: 257}
-        - {x: 55.5, y: 273}
-        - {x: -69.5, y: 273}
-        - {x: -77.5, y: 223}
-        - {x: -77.5, y: 94}
-        - {x: -33.5, y: 12}
-        - {x: -26.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 41.5, y: 45}
-        - {x: 77.5, y: 143}
-        - {x: 77.5, y: 214}
-    - name: artisan_1_eating_66
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 273}
-        - {x: -70.5, y: 273}
-        - {x: -70.5, y: 248}
-        - {x: -77.5, y: 198}
-        - {x: -77.5, y: 127}
-        - {x: -64.5, y: 112}
-        - {x: -39.5, y: 9}
-        - {x: -29.5, y: 0}
-        - {x: 13.5, y: 0}
-        - {x: 28.5, y: 10}
-        - {x: 70.5, y: 110}
-        - {x: 77.5, y: 135}
-    - name: artisan_1_eating_67
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -54.5, y: 272}
-        - {x: -77.5, y: 237}
-        - {x: -77.5, y: 114}
-        - {x: -46.5, y: 54}
-        - {x: -35.5, y: 11}
-        - {x: -27.5, y: 0}
-        - {x: 21.5, y: 0}
-        - {x: 77.5, y: 126}
-        - {x: 77.5, y: 221}
-        - {x: 67.5, y: 272}
-    - name: artisan_1_eating_68
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -69.5, y: 272}
-        - {x: -70.5, y: 271}
-        - {x: -77.5, y: 215}
-        - {x: -77.5, y: 121}
-        - {x: -64.5, y: 115}
-        - {x: -49.5, y: 110}
-        - {x: -42.5, y: 108}
-        - {x: -32.5, y: 106}
-        - {x: -25.5, y: 106}
-        - {x: -27.5, y: 106}
-        - {x: -51.5, y: 92}
-        - {x: -46.5, y: 4}
-        - {x: -39.5, y: 0}
-        - {x: 59.5, y: 0}
-        - {x: 77.5, y: 28}
-        - {x: 77.5, y: 270}
-        - {x: 76.5, y: 272}
-    - name: artisan_1_eating_69
-      rect:
-        serializedVersion: 2
-        x: 775
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 225}
-        - {x: 52.5, y: 272}
-        - {x: -56.5, y: 272}
-        - {x: -77.5, y: 247}
-        - {x: -77.5, y: 108}
-        - {x: -75.5, y: 98}
-        - {x: -30.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 41.5, y: 46}
-        - {x: 36.5, y: 105}
-        - {x: 77.5, y: 141}
-    - name: artisan_1_eating_70
-      rect:
-        serializedVersion: 2
-        x: 930
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58.5, y: 272}
-        - {x: -77.5, y: 225}
-        - {x: -77.5, y: 130}
-        - {x: -68.5, y: 113}
-        - {x: -55.5, y: 52}
-        - {x: -31.5, y: 0}
-        - {x: 23.5, y: 0}
-        - {x: 77.5, y: 145}
-        - {x: 77.5, y: 217}
-        - {x: 55.5, y: 272}
-    - name: artisan_1_eating_71
-      rect:
-        serializedVersion: 2
-        x: 1085
-        y: 277
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 66.5, y: 273}
-        - {x: -59.5, y: 273}
-        - {x: -77.5, y: 242}
-        - {x: -77.5, y: 113}
-        - {x: -55.5, y: 54}
-        - {x: -32.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 41.5, y: 45}
-        - {x: 77.5, y: 132}
-        - {x: 77.5, y: 241}
-    - name: artisan_1_eating_72
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 215}
-        - {x: 69.5, y: 260}
-        - {x: 56.5, y: 273}
-        - {x: -64.5, y: 273}
-        - {x: -71.5, y: 272}
-        - {x: -77.5, y: 243}
-        - {x: -77.5, y: 110}
-        - {x: -28.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 41.5, y: 46}
-        - {x: 42.5, y: 112}
-        - {x: 77.5, y: 135}
-    - name: artisan_1_eating_73
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -73.5, y: 273}
-        - {x: -77.5, y: 266}
-        - {x: -77.5, y: 116}
-        - {x: -73.5, y: 98}
-        - {x: -28.5, y: 108}
-        - {x: -25.5, y: 106}
-        - {x: -25.5, y: 107}
-        - {x: -27.5, y: 106}
-        - {x: -31.5, y: 102}
-        - {x: -60.5, y: 87}
-        - {x: -40.5, y: 0}
-        - {x: 37.5, y: 0}
-        - {x: 77.5, y: 20}
-        - {x: 77.5, y: 273}
-    - name: artisan_1_eating_74
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 74.5, y: 264}
-        - {x: 51.5, y: 274}
-        - {x: -62.5, y: 274}
-        - {x: -77.5, y: 209}
-        - {x: -77.5, y: 88}
-        - {x: -64.5, y: 55}
-        - {x: -29.5, y: 0}
-        - {x: 15.5, y: 0}
-        - {x: 24.5, y: 12}
-        - {x: 77.5, y: 143}
-        - {x: 77.5, y: 241}
-    - name: artisan_1_eating_75
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 69.5, y: 267}
-        - {x: 63.5, y: 274}
-        - {x: -47.5, y: 274}
-        - {x: -76.5, y: 269}
-        - {x: -77.5, y: 263}
-        - {x: -77.5, y: 84}
-        - {x: -61.5, y: 54}
-        - {x: -40.5, y: 28}
-        - {x: -29.5, y: 0}
-        - {x: 23.5, y: 0}
-        - {x: 51.5, y: 87}
-        - {x: 77.5, y: 133}
-        - {x: 77.5, y: 226}
-    - name: artisan_1_eating_76
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 237}
-        - {x: 62.5, y: 264}
-        - {x: 54.5, y: 274}
-        - {x: -64.5, y: 274}
-        - {x: -77.5, y: 239}
-        - {x: -77.5, y: 22}
-        - {x: -32.5, y: 0}
-        - {x: 24.5, y: 0}
-        - {x: 24.5, y: 12}
-        - {x: 44.5, y: 51}
-        - {x: 77.5, y: 131}
-    - name: artisan_1_eating_77
-      rect:
-        serializedVersion: 2
-        x: 775
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 237}
-        - {x: 62.5, y: 264}
-        - {x: 54.5, y: 274}
-        - {x: -64.5, y: 274}
-        - {x: -77.5, y: 239}
-        - {x: -77.5, y: 22}
-        - {x: -32.5, y: 0}
-        - {x: 24.5, y: 0}
-        - {x: 24.5, y: 12}
-        - {x: 44.5, y: 51}
-        - {x: 77.5, y: 131}
-    - name: artisan_1_eating_78
-      rect:
-        serializedVersion: 2
-        x: 930
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 237}
-        - {x: 62.5, y: 264}
-        - {x: 54.5, y: 274}
-        - {x: -64.5, y: 274}
-        - {x: -77.5, y: 239}
-        - {x: -77.5, y: 22}
-        - {x: -32.5, y: 0}
-        - {x: 24.5, y: 0}
-        - {x: 24.5, y: 12}
-        - {x: 44.5, y: 51}
-        - {x: 77.5, y: 131}
-    - name: artisan_1_eating_79
-      rect:
-        serializedVersion: 2
-        x: 1085
-        y: 0
-        width: 155
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 77.5, y: 237}
-        - {x: 62.5, y: 264}
-        - {x: 54.5, y: 274}
-        - {x: -64.5, y: 274}
-        - {x: -77.5, y: 239}
-        - {x: -77.5, y: 22}
-        - {x: -32.5, y: 0}
-        - {x: 24.5, y: 0}
-        - {x: 24.5, y: 12}
-        - {x: 44.5, y: 51}
-        - {x: 77.5, y: 131}
     outline: []
   spritePackingTag: 
   userData: 
