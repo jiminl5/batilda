@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 26c502dcb39d4ed449112b45203ed0ea
+timeCreated: 1459848360
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: royal_1_walking_0
+    21300002: royal_1_walking_1
+    21300004: royal_1_walking_2
+    21300006: royal_1_walking_3
+    21300008: royal_1_walking_4
+    21300010: royal_1_walking_5
+    21300012: royal_1_walking_6
+    21300014: royal_1_walking_7
+    21300016: royal_1_walking_8
+    21300018: royal_1_walking_9
+    21300020: royal_1_walking_10
+    21300022: royal_1_walking_11
+    21300024: royal_1_walking_12
+    21300026: royal_1_walking_13
+    21300028: royal_1_walking_14
+    21300030: royal_1_walking_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: royal_1_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112, y: 128}
+        - {x: 115, y: 140}
+        - {x: 115, y: 178}
+        - {x: 108, y: 218}
+        - {x: 104, y: 274}
+        - {x: 102, y: 287}
+        - {x: 27, y: 319}
+        - {x: 11, y: 319}
+        - {x: -73, y: 244}
+        - {x: -113, y: 178}
+        - {x: -115, y: 171}
+        - {x: -115, y: 138}
+        - {x: -76, y: 90}
+        - {x: -81, y: 33}
+        - {x: -49, y: 0}
+        - {x: 42, y: 0}
+        - {x: 49, y: 1}
+        - {x: 47, y: 34}
+        - {x: 64, y: 118}
+        - {x: 83, y: 112}
+    - name: royal_1_walking_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114, y: 166}
+        - {x: 108, y: 201}
+        - {x: 106, y: 281}
+        - {x: 29, y: 319}
+        - {x: 9, y: 319}
+        - {x: -60, y: 253}
+        - {x: -78, y: 229}
+        - {x: -115, y: 172}
+        - {x: -115, y: 134}
+        - {x: -81, y: 91}
+        - {x: -78, y: 48}
+        - {x: -66, y: 29}
+        - {x: -45, y: 0}
+        - {x: 25, y: 0}
+        - {x: 45, y: 3}
+        - {x: 48, y: 49}
+        - {x: 75, y: 109}
+        - {x: 114, y: 124}
+    - name: royal_1_walking_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 62}
+        - {x: 41, y: 61}
+        - {x: 47, y: 60}
+        - {x: 113, y: 107}
+        - {x: 113, y: 299}
+        - {x: 34, y: 319}
+        - {x: 14, y: 319}
+        - {x: -75, y: 243}
+        - {x: -115, y: 173}
+        - {x: -115, y: 112}
+        - {x: -87, y: 44}
+        - {x: -63, y: 0}
+        - {x: 21, y: 0}
+        - {x: 45, y: 12}
+        - {x: 50, y: 52}
+        - {x: 39, y: 60}
+        - {x: 38, y: 62}
+    - name: royal_1_walking_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 125}
+        - {x: 112, y: 137}
+        - {x: 112, y: 159}
+        - {x: 109, y: 216}
+        - {x: 103, y: 287}
+        - {x: 30, y: 319}
+        - {x: 11, y: 319}
+        - {x: -71, y: 242}
+        - {x: -82, y: 223}
+        - {x: -115, y: 170}
+        - {x: -115, y: 143}
+        - {x: -86, y: 117}
+        - {x: -83, y: 45}
+        - {x: -53, y: 5}
+        - {x: -34, y: 0}
+        - {x: 19, y: 0}
+        - {x: 38, y: 8}
+        - {x: 36, y: 14}
+        - {x: 55, y: 51}
+    - name: royal_1_walking_4
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 199}
+        - {x: 109, y: 216}
+        - {x: 103, y: 285}
+        - {x: 38, y: 319}
+        - {x: 17, y: 319}
+        - {x: -49, y: 273}
+        - {x: -91, y: 223}
+        - {x: -115, y: 192}
+        - {x: -115, y: 123}
+        - {x: -97, y: 131}
+        - {x: -72, y: 65}
+        - {x: -94, y: 41}
+        - {x: -65, y: 10}
+        - {x: -49, y: 0}
+        - {x: 31, y: 0}
+        - {x: 48, y: 3}
+        - {x: 59, y: 63}
+        - {x: 84, y: 108}
+        - {x: 111, y: 131}
+    - name: royal_1_walking_5
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87, y: 114}
+        - {x: 112, y: 112}
+        - {x: 112, y: 275}
+        - {x: 48, y: 319}
+        - {x: 8, y: 319}
+        - {x: -73, y: 243}
+        - {x: -115, y: 169}
+        - {x: -115, y: 145}
+        - {x: -108, y: 133}
+        - {x: -73, y: 84}
+        - {x: -97, y: 42}
+        - {x: -35, y: 0}
+        - {x: 8, y: 0}
+        - {x: 38, y: 7}
+        - {x: 36, y: 14}
+        - {x: 56, y: 46}
+    - name: royal_1_walking_6
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: 124}
+        - {x: 113, y: 230}
+        - {x: 103, y: 282}
+        - {x: 46, y: 319}
+        - {x: 11, y: 319}
+        - {x: -79, y: 246}
+        - {x: -115, y: 184}
+        - {x: -115, y: 137}
+        - {x: -77, y: 98}
+        - {x: -89, y: 57}
+        - {x: -73, y: 34}
+        - {x: -61, y: 14}
+        - {x: -39, y: 0}
+        - {x: 7, y: 0}
+        - {x: 34, y: 4}
+        - {x: 37, y: 14}
+        - {x: 62, y: 48}
+        - {x: 82, y: 108}
+    - name: royal_1_walking_7
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114, y: 185}
+        - {x: 110, y: 215}
+        - {x: 107, y: 268}
+        - {x: 103, y: 283}
+        - {x: 26, y: 319}
+        - {x: 18, y: 319}
+        - {x: -63, y: 253}
+        - {x: -115, y: 166}
+        - {x: -115, y: 139}
+        - {x: -82, y: 111}
+        - {x: -88, y: 54}
+        - {x: -72, y: 40}
+        - {x: -65, y: 41}
+        - {x: -61, y: 0}
+        - {x: 44, y: 0}
+        - {x: 65, y: 38}
+        - {x: 98, y: 117}
+        - {x: 114, y: 130}
+    - name: royal_1_walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114, y: 130}
+        - {x: 114, y: 208}
+        - {x: 105, y: 271}
+        - {x: 103, y: 282}
+        - {x: 25, y: 318}
+        - {x: 18, y: 318}
+        - {x: -75, y: 245}
+        - {x: -115, y: 166}
+        - {x: -115, y: 135}
+        - {x: -81, y: 85}
+        - {x: -90, y: 44}
+        - {x: -77, y: 42}
+        - {x: -69, y: 21}
+        - {x: -43, y: 0}
+        - {x: 43, y: 0}
+        - {x: 62, y: 50}
+        - {x: 72, y: 105}
+        - {x: 109, y: 112}
+    - name: royal_1_walking_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 118}
+        - {x: 115, y: 241}
+        - {x: 107, y: 270}
+        - {x: 102, y: 282}
+        - {x: 35, y: 319}
+        - {x: 20, y: 319}
+        - {x: -5, y: 297}
+        - {x: -71, y: 243}
+        - {x: -115, y: 169}
+        - {x: -115, y: 138}
+        - {x: -69, y: 72}
+        - {x: -99, y: 47}
+        - {x: -41, y: 0}
+        - {x: 27, y: 0}
+        - {x: 35, y: 3}
+        - {x: 37, y: 14}
+        - {x: 60, y: 50}
+        - {x: 90, y: 112}
+    - name: royal_1_walking_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 130}
+        - {x: 115, y: 192}
+        - {x: 105, y: 284}
+        - {x: 36, y: 319}
+        - {x: 18, y: 319}
+        - {x: -40, y: 272}
+        - {x: -92, y: 224}
+        - {x: -115, y: 176}
+        - {x: -115, y: 144}
+        - {x: -111, y: 131}
+        - {x: -76, y: 92}
+        - {x: -95, y: 45}
+        - {x: -68, y: 10}
+        - {x: -40, y: 0}
+        - {x: 5, y: 0}
+        - {x: 34, y: 4}
+        - {x: 48, y: 16}
+        - {x: 68, y: 103}
+        - {x: 83, y: 108}
+    - name: royal_1_walking_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: 108}
+        - {x: 115, y: 123}
+        - {x: 115, y: 195}
+        - {x: 111, y: 219}
+        - {x: 110, y: 280}
+        - {x: 42, y: 319}
+        - {x: 19, y: 319}
+        - {x: -29, y: 269}
+        - {x: -63, y: 256}
+        - {x: -109, y: 185}
+        - {x: -115, y: 171}
+        - {x: -115, y: 130}
+        - {x: -72, y: 67}
+        - {x: -89, y: 48}
+        - {x: -53, y: 4}
+        - {x: -27, y: 0}
+        - {x: 10, y: 0}
+        - {x: 33, y: 5}
+        - {x: 37, y: 14}
+        - {x: 58, y: 40}
+    - name: royal_1_walking_12
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 194}
+        - {x: 111, y: 212}
+        - {x: 90, y: 237}
+        - {x: 105, y: 271}
+        - {x: 102, y: 285}
+        - {x: 28, y: 319}
+        - {x: 16, y: 319}
+        - {x: -71, y: 241}
+        - {x: -115, y: 184}
+        - {x: -115, y: 132}
+        - {x: -114, y: 125}
+        - {x: -73, y: 73}
+        - {x: -95, y: 43}
+        - {x: -61, y: 0}
+        - {x: 25, y: 0}
+        - {x: 31, y: 1}
+        - {x: 57, y: 39}
+        - {x: 81, y: 105}
+        - {x: 115, y: 126}
+    - name: royal_1_walking_13
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 168}
+        - {x: 111, y: 217}
+        - {x: 91, y: 237}
+        - {x: 109, y: 284}
+        - {x: 39, y: 319}
+        - {x: 16, y: 319}
+        - {x: 7, y: 315}
+        - {x: -42, y: 271}
+        - {x: -91, y: 221}
+        - {x: -115, y: 169}
+        - {x: -115, y: 125}
+        - {x: -89, y: 42}
+        - {x: -42, y: 0}
+        - {x: 49, y: 0}
+        - {x: 67, y: 114}
+        - {x: 86, y: 107}
+        - {x: 115, y: 131}
+    - name: royal_1_walking_14
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 179}
+        - {x: 108, y: 218}
+        - {x: 107, y: 263}
+        - {x: 104, y: 288}
+        - {x: 37, y: 319}
+        - {x: 16, y: 319}
+        - {x: 9, y: 315}
+        - {x: -64, y: 258}
+        - {x: -115, y: 181}
+        - {x: -115, y: 137}
+        - {x: -82, y: 114}
+        - {x: -80, y: 39}
+        - {x: -57, y: 16}
+        - {x: -38, y: 0}
+        - {x: 20, y: 0}
+        - {x: 40, y: 6}
+        - {x: 52, y: 43}
+        - {x: 115, y: 130}
+    - name: royal_1_walking_15
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 135}
+        - {x: 115, y: 203}
+        - {x: 112, y: 215}
+        - {x: 88, y: 246}
+        - {x: 115, y: 282}
+        - {x: 27, y: 319}
+        - {x: 12, y: 319}
+        - {x: -63, y: 256}
+        - {x: -115, y: 172}
+        - {x: -115, y: 142}
+        - {x: -88, y: 119}
+        - {x: -80, y: 44}
+        - {x: -42, y: 0}
+        - {x: 20, y: 0}
+        - {x: 42, y: 4}
+        - {x: 51, y: 50}
+        - {x: 63, y: 115}
+        - {x: 97, y: 104}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

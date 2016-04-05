@@ -1,0 +1,765 @@
+fileFormatVersion: 2
+guid: 8e679b66863de2e469b89f9ae13fc527
+timeCreated: 1459848402
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: royal_1_ordering_0
+    21300002: royal_1_ordering_1
+    21300004: royal_1_ordering_2
+    21300006: royal_1_ordering_3
+    21300008: royal_1_ordering_4
+    21300010: royal_1_ordering_5
+    21300012: royal_1_ordering_6
+    21300014: royal_1_ordering_7
+    21300016: royal_1_ordering_8
+    21300018: royal_1_ordering_9
+    21300020: royal_1_ordering_10
+    21300022: royal_1_ordering_11
+    21300024: royal_1_ordering_12
+    21300026: royal_1_ordering_13
+    21300028: royal_1_ordering_14
+    21300030: royal_1_ordering_15
+    21300032: royal_1_ordering_16
+    21300034: royal_1_ordering_17
+    21300036: royal_1_ordering_18
+    21300038: royal_1_ordering_19
+    21300040: royal_1_ordering_20
+    21300042: royal_1_ordering_21
+    21300044: royal_1_ordering_22
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: royal_1_ordering_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: 63}
+        - {x: 91, y: 114}
+        - {x: 115, y: 134}
+        - {x: 115, y: 198}
+        - {x: 112, y: 217}
+        - {x: 102, y: 288}
+        - {x: 31, y: 319}
+        - {x: 9, y: 319}
+        - {x: -66, y: 257}
+        - {x: -115, y: 183}
+        - {x: -115, y: 136}
+        - {x: -98, y: 93}
+        - {x: -75, y: 63}
+        - {x: -61, y: 24}
+        - {x: -45, y: 0}
+        - {x: 9, y: 0}
+        - {x: 29, y: 6}
+        - {x: 35, y: 10}
+        - {x: 36, y: 14}
+    - name: royal_1_ordering_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 200}
+        - {x: 113, y: 221}
+        - {x: 105, y: 283}
+        - {x: 50, y: 319}
+        - {x: 10, y: 319}
+        - {x: -34, y: 276}
+        - {x: -66, y: 262}
+        - {x: -115, y: 183}
+        - {x: -115, y: 133}
+        - {x: -100, y: 91}
+        - {x: -72, y: 65}
+        - {x: -50, y: 58}
+        - {x: -56, y: 16}
+        - {x: -45, y: 0}
+        - {x: 25, y: 0}
+        - {x: 46, y: 3}
+        - {x: 56, y: 47}
+        - {x: 74, y: 70}
+        - {x: 115, y: 134}
+    - name: royal_1_ordering_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 319}
+        - {x: -9, y: 319}
+        - {x: -115, y: 206}
+        - {x: -115, y: 145}
+        - {x: -106, y: 136}
+        - {x: -96, y: 133}
+        - {x: -86, y: 133}
+        - {x: -83, y: 126}
+        - {x: -90, y: 132}
+        - {x: -94, y: 133}
+        - {x: -101, y: 133}
+        - {x: -107, y: 113}
+        - {x: -50, y: 0}
+        - {x: 56, y: 0}
+        - {x: 115, y: 84}
+        - {x: 115, y: 214}
+        - {x: 103, y: 288}
+    - name: royal_1_ordering_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 319}
+        - {x: 13, y: 319}
+        - {x: -81, y: 248}
+        - {x: -115, y: 171}
+        - {x: -115, y: 142}
+        - {x: -97, y: 132}
+        - {x: -84, y: 133}
+        - {x: -83, y: 126}
+        - {x: -90, y: 131}
+        - {x: -98, y: 132}
+        - {x: -102, y: 130}
+        - {x: -115, y: 113}
+        - {x: -115, y: 109}
+        - {x: -67, y: 10}
+        - {x: -52, y: 0}
+        - {x: 69, y: 0}
+        - {x: 115, y: 77}
+        - {x: 115, y: 262}
+        - {x: 107, y: 284}
+    - name: royal_1_ordering_4
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 319}
+        - {x: 9, y: 319}
+        - {x: -98, y: 222}
+        - {x: -115, y: 170}
+        - {x: -115, y: 147}
+        - {x: -113, y: 144}
+        - {x: -106, y: 137}
+        - {x: -97, y: 132}
+        - {x: -84, y: 133}
+        - {x: -84, y: 125}
+        - {x: -92, y: 131}
+        - {x: -103, y: 130}
+        - {x: -106, y: 111}
+        - {x: -104, y: 67}
+        - {x: -56, y: 0}
+        - {x: 41, y: 0}
+        - {x: 48, y: 1}
+        - {x: 115, y: 126}
+        - {x: 115, y: 221}
+        - {x: 108, y: 283}
+    - name: royal_1_ordering_5
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 95}
+        - {x: 115, y: 128}
+        - {x: 115, y: 189}
+        - {x: 112, y: 219}
+        - {x: 108, y: 281}
+        - {x: 38, y: 319}
+        - {x: 17, y: 319}
+        - {x: -3, y: 303}
+        - {x: -86, y: 235}
+        - {x: -115, y: 170}
+        - {x: -115, y: 128}
+        - {x: -99, y: 87}
+        - {x: -56, y: 16}
+        - {x: -38, y: 0}
+        - {x: 13, y: 0}
+        - {x: 43, y: 4}
+        - {x: 54, y: 47}
+        - {x: 69, y: 62}
+        - {x: 69, y: 70}
+    - name: royal_1_ordering_6
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 282}
+        - {x: 27, y: 319}
+        - {x: 19, y: 319}
+        - {x: 12, y: 311}
+        - {x: 2, y: 300}
+        - {x: -72, y: 243}
+        - {x: -83, y: 215}
+        - {x: -85, y: 209}
+        - {x: -115, y: 177}
+        - {x: -115, y: 130}
+        - {x: -89, y: 69}
+        - {x: -57, y: 16}
+        - {x: -42, y: 0}
+        - {x: 29, y: 0}
+        - {x: 49, y: 1}
+        - {x: 115, y: 131}
+        - {x: 115, y: 203}
+        - {x: 103, y: 254}
+    - name: royal_1_ordering_7
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 638
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 319}
+        - {x: -4, y: 319}
+        - {x: -61, y: 258}
+        - {x: -94, y: 220}
+        - {x: -115, y: 170}
+        - {x: -115, y: 143}
+        - {x: -106, y: 137}
+        - {x: -97, y: 132}
+        - {x: -102, y: 123}
+        - {x: -102, y: 121}
+        - {x: -106, y: 109}
+        - {x: -112, y: 75}
+        - {x: -75, y: 3}
+        - {x: -49, y: 0}
+        - {x: 27, y: 0}
+        - {x: 42, y: 5}
+        - {x: 115, y: 121}
+        - {x: 115, y: 277}
+    - name: royal_1_ordering_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 122}
+        - {x: 115, y: 183}
+        - {x: 110, y: 219}
+        - {x: 104, y: 287}
+        - {x: 41, y: 319}
+        - {x: 17, y: 319}
+        - {x: -59, y: 256}
+        - {x: -80, y: 229}
+        - {x: -115, y: 174}
+        - {x: -115, y: 118}
+        - {x: -86, y: 75}
+        - {x: -71, y: 66}
+        - {x: -60, y: 60}
+        - {x: -57, y: 16}
+        - {x: -43, y: 0}
+        - {x: 22, y: 0}
+        - {x: 46, y: 2}
+        - {x: 29, y: 49}
+        - {x: 56, y: 50}
+        - {x: 69, y: 68}
+    - name: royal_1_ordering_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 131}
+        - {x: 115, y: 199}
+        - {x: 112, y: 214}
+        - {x: 106, y: 282}
+        - {x: 26, y: 319}
+        - {x: 17, y: 319}
+        - {x: -3, y: 294}
+        - {x: -71, y: 242}
+        - {x: -81, y: 219}
+        - {x: -83, y: 214}
+        - {x: -115, y: 173}
+        - {x: -115, y: 118}
+        - {x: -112, y: 99}
+        - {x: -66, y: 36}
+        - {x: -51, y: 0}
+        - {x: 13, y: 0}
+        - {x: 41, y: 5}
+        - {x: 72, y: 67}
+        - {x: 83, y: 108}
+    - name: royal_1_ordering_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 175}
+        - {x: 107, y: 218}
+        - {x: 107, y: 290}
+        - {x: 43, y: 319}
+        - {x: 17, y: 319}
+        - {x: -37, y: 276}
+        - {x: -75, y: 243}
+        - {x: -113, y: 173}
+        - {x: -115, y: 170}
+        - {x: -115, y: 104}
+        - {x: -114, y: 100}
+        - {x: -83, y: 68}
+        - {x: -48, y: 56}
+        - {x: -57, y: 16}
+        - {x: -42, y: 0}
+        - {x: 34, y: 0}
+        - {x: 47, y: 1}
+        - {x: 70, y: 68}
+        - {x: 111, y: 126}
+        - {x: 115, y: 138}
+    - name: royal_1_ordering_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 319}
+        - {x: 16, y: 319}
+        - {x: -83, y: 231}
+        - {x: -115, y: 171}
+        - {x: -115, y: 104}
+        - {x: -85, y: 71}
+        - {x: -65, y: 76}
+        - {x: -63, y: 78}
+        - {x: -67, y: 73}
+        - {x: -67, y: 69}
+        - {x: -60, y: 60}
+        - {x: -57, y: 16}
+        - {x: -43, y: 0}
+        - {x: 22, y: 0}
+        - {x: 46, y: 2}
+        - {x: 75, y: 59}
+        - {x: 115, y: 124}
+        - {x: 115, y: 278}
+    - name: royal_1_ordering_12
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: 286}
+        - {x: 34, y: 319}
+        - {x: 16, y: 319}
+        - {x: 10, y: 317}
+        - {x: -80, y: 231}
+        - {x: -115, y: 175}
+        - {x: -115, y: 134}
+        - {x: -107, y: 101}
+        - {x: -90, y: 80}
+        - {x: -81, y: 74}
+        - {x: -65, y: 76}
+        - {x: -63, y: 78}
+        - {x: -74, y: 66}
+        - {x: -67, y: 10}
+        - {x: -40, y: 0}
+        - {x: 30, y: 0}
+        - {x: 44, y: 4}
+        - {x: 86, y: 55}
+        - {x: 115, y: 133}
+        - {x: 115, y: 181}
+    - name: royal_1_ordering_13
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 319}
+        - {x: -63, y: 258}
+        - {x: -115, y: 184}
+        - {x: -115, y: 100}
+        - {x: -102, y: 71}
+        - {x: -73, y: 72}
+        - {x: -65, y: 76}
+        - {x: -63, y: 78}
+        - {x: -66, y: 74}
+        - {x: -68, y: 70}
+        - {x: -64, y: 63}
+        - {x: -52, y: 60}
+        - {x: -56, y: 16}
+        - {x: -38, y: 0}
+        - {x: 66, y: 0}
+        - {x: 115, y: 30}
+        - {x: 115, y: 297}
+        - {x: 35, y: 319}
+    - name: royal_1_ordering_14
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 194}
+        - {x: 106, y: 257}
+        - {x: 110, y: 291}
+        - {x: 29, y: 319}
+        - {x: 17, y: 319}
+        - {x: -59, y: 258}
+        - {x: -115, y: 186}
+        - {x: -115, y: 100}
+        - {x: -83, y: 74}
+        - {x: -68, y: 75}
+        - {x: -66, y: 77}
+        - {x: -68, y: 68}
+        - {x: -56, y: 0}
+        - {x: 27, y: 0}
+        - {x: 43, y: 7}
+        - {x: 72, y: 65}
+        - {x: 114, y: 126}
+        - {x: 115, y: 132}
+    - name: royal_1_ordering_15
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 319
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 206}
+        - {x: 106, y: 226}
+        - {x: 108, y: 282}
+        - {x: 29, y: 319}
+        - {x: 15, y: 319}
+        - {x: -73, y: 242}
+        - {x: -87, y: 210}
+        - {x: -115, y: 171}
+        - {x: -115, y: 140}
+        - {x: -99, y: 81}
+        - {x: -65, y: 59}
+        - {x: -56, y: 16}
+        - {x: -45, y: 0}
+        - {x: 32, y: 0}
+        - {x: 79, y: 60}
+        - {x: 67, y: 98}
+        - {x: 115, y: 125}
+    - name: royal_1_ordering_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 225}
+        - {x: 106, y: 270}
+        - {x: 103, y: 284}
+        - {x: 30, y: 319}
+        - {x: 16, y: 319}
+        - {x: -43, y: 272}
+        - {x: -89, y: 222}
+        - {x: -115, y: 172}
+        - {x: -115, y: 121}
+        - {x: -87, y: 72}
+        - {x: -64, y: 60}
+        - {x: -57, y: 16}
+        - {x: -46, y: 0}
+        - {x: 25, y: 0}
+        - {x: 45, y: 2}
+        - {x: 70, y: 63}
+        - {x: 112, y: 122}
+        - {x: 115, y: 133}
+    - name: royal_1_ordering_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: 117}
+        - {x: 115, y: 133}
+        - {x: 115, y: 191}
+        - {x: 108, y: 216}
+        - {x: 106, y: 270}
+        - {x: 103, y: 285}
+        - {x: 30, y: 319}
+        - {x: 16, y: 319}
+        - {x: -64, y: 254}
+        - {x: -115, y: 177}
+        - {x: -115, y: 130}
+        - {x: -113, y: 124}
+        - {x: -85, y: 56}
+        - {x: -64, y: 14}
+        - {x: -45, y: 0}
+        - {x: 25, y: 0}
+        - {x: 48, y: 2}
+        - {x: 28, y: 46}
+        - {x: 84, y: 56}
+        - {x: 70, y: 108}
+    - name: royal_1_ordering_18
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: 123}
+        - {x: 115, y: 131}
+        - {x: 115, y: 208}
+        - {x: 114, y: 216}
+        - {x: 106, y: 281}
+        - {x: 41, y: 319}
+        - {x: 18, y: 319}
+        - {x: -5, y: 302}
+        - {x: -61, y: 255}
+        - {x: -115, y: 187}
+        - {x: -115, y: 133}
+        - {x: -113, y: 126}
+        - {x: -112, y: 104}
+        - {x: -69, y: 42}
+        - {x: -48, y: 0}
+        - {x: 25, y: 0}
+        - {x: 44, y: 4}
+        - {x: 29, y: 43}
+        - {x: 79, y: 56}
+        - {x: 58, y: 93}
+    - name: royal_1_ordering_19
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 218}
+        - {x: 108, y: 281}
+        - {x: 28, y: 319}
+        - {x: 13, y: 319}
+        - {x: -87, y: 233}
+        - {x: -113, y: 174}
+        - {x: -115, y: 166}
+        - {x: -115, y: 145}
+        - {x: -106, y: 136}
+        - {x: -97, y: 132}
+        - {x: -103, y: 130}
+        - {x: -106, y: 111}
+        - {x: -73, y: 61}
+        - {x: -66, y: 13}
+        - {x: -40, y: 0}
+        - {x: 33, y: 0}
+        - {x: 44, y: 4}
+        - {x: 70, y: 45}
+        - {x: 115, y: 123}
+        - {x: 115, y: 192}
+    - name: royal_1_ordering_20
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 129}
+        - {x: 115, y: 225}
+        - {x: 105, y: 271}
+        - {x: 102, y: 286}
+        - {x: 29, y: 319}
+        - {x: 16, y: 319}
+        - {x: -28, y: 269}
+        - {x: -62, y: 260}
+        - {x: -115, y: 177}
+        - {x: -115, y: 128}
+        - {x: -112, y: 116}
+        - {x: -79, y: 60}
+        - {x: -67, y: 10}
+        - {x: -40, y: 0}
+        - {x: 30, y: 0}
+        - {x: 44, y: 4}
+        - {x: 74, y: 65}
+        - {x: 60, y: 105}
+        - {x: 107, y: 121}
+    - name: royal_1_ordering_21
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 129}
+        - {x: 115, y: 192}
+        - {x: 109, y: 218}
+        - {x: 105, y: 272}
+        - {x: 101, y: 285}
+        - {x: 28, y: 319}
+        - {x: 17, y: 319}
+        - {x: -88, y: 229}
+        - {x: -115, y: 192}
+        - {x: -115, y: 132}
+        - {x: -102, y: 89}
+        - {x: -73, y: 63}
+        - {x: -57, y: 16}
+        - {x: -44, y: 0}
+        - {x: 20, y: 0}
+        - {x: 46, y: 3}
+        - {x: 61, y: 48}
+        - {x: 72, y: 69}
+        - {x: 66, y: 93}
+    - name: royal_1_ordering_22
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 230
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 319}
+        - {x: -115, y: 201}
+        - {x: -115, y: 140}
+        - {x: -96, y: 133}
+        - {x: -86, y: 133}
+        - {x: -83, y: 126}
+        - {x: -89, y: 132}
+        - {x: -92, y: 133}
+        - {x: -96, y: 133}
+        - {x: -101, y: 132}
+        - {x: -113, y: 113}
+        - {x: -57, y: 16}
+        - {x: -39, y: 0}
+        - {x: 59, y: 0}
+        - {x: 115, y: 49}
+        - {x: 115, y: 306}
+        - {x: 76, y: 319}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
