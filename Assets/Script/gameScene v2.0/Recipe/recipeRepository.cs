@@ -43,7 +43,7 @@ public class recipeRepository : MonoBehaviour {
                 if (load.tag == cookingObjectName)
                 {
                     recipes.Add(load.GetComponent<Recipie>());
-                    Debug.Log(load.GetComponent<Recipie>().name);
+                    //Debug.Log(load.GetComponent<Recipie>().name);
                 }
             }
         }

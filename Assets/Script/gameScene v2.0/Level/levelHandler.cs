@@ -140,7 +140,7 @@ public class levelHandler : MonoBehaviour {
         shuffle(food);
         foreach (string s in food)
         {
-            print("THIS IS S: " + s);
+            //print("THIS IS S: " + s);
             foodQueue = new Queue<string>();
             foodQueue.Enqueue(s);
             peasants.Enqueue(new customer("peasant", foodQueue));
@@ -151,38 +151,64 @@ public class levelHandler : MonoBehaviour {
     Queue<customer> createArtisans(Dictionary<string,string[]> food, int count)
     {
         Queue<customer> artisans = new Queue<customer>();
-        Queue<string> foodQueue;
+        Queue<string> tmp_foodQueue;
         int r;
         shuffle(food["drinks"]);
         shuffle(food["entrees"]);
+
+        Queue<string> drinkQueue = new Queue<string>();
+        Queue<string> entreeQueue = new Queue<string>();
+        print("DRINK QUEUE:::::");
+        foreach (string d in food["drinks"])
+        {
+            drinkQueue.Enqueue(d);
+            Debug.Log(d);
+        }
+        print("ENTREE QUEUE:::::");
+        foreach (string e in food["entrees"])
+        {
+            entreeQueue.Enqueue(e);
+            Debug.Log(e);
+        }
+        Debug.Log("ARTISAN QUEUE:----");
         for (int i = 0; i < count; i++)
         {
+            Debug.Log("ARTISAN " + i + " FOOD QUEUE:");
 			int currentOrder = 0;
 			int currentDrinks = 0;
 			int currentFood = 0;
-
-			foodQueue = new Queue<string>();
-
+            tmp_foodQueue = new Queue<string>();
+            
 			while (currentOrder < 2) {
-    	        r = Random.Range(0, 1);
-			
+    	        r = Random.Range(0, 2);
 
-				if (r == 0 && food ["drinks"].Length > food ["entrees"].Length && currentDrinks < 2 && currentOrder < 2) { //add drink
-					foodQueue.Enqueue(food["drinks"][i]);
+                Debug.Log("drink queue count: " + drinkQueue.Count);
+                Debug.Log("entree queue countL: " + entreeQueue.Count);
+				if (r == 0 && drinkQueue.Count > entreeQueue.Count && currentDrinks < 2 && currentOrder < 2) { //add drink
+					tmp_foodQueue.Enqueue(drinkQueue.Dequeue());
 					currentDrinks++;
 					currentOrder++;
 				}
-				if (r == 1 && currentFood < 1 && currentOrder < 1) { //add food
-					foodQueue.Enqueue(food["entree"][i]);
+				else if (r == 1 && currentFood < 1 && currentOrder < 1) { //add food
+					tmp_foodQueue.Enqueue(entreeQueue.Dequeue());
 					currentFood++;
 					currentOrder++;
 				}
+                /*
+                else
+                {
+                    Debug.Log("something went wrong! currentOrder = " + currentOrder);
+                    break;
+                }
+                */
+                Debug.Log(tmp_foodQueue.Peek());
 
 			}
 
-
-			/*
-			if (r == 0 && food ["drinks"].Length > food ["entrees"].Length && currentDrinks < 2) { //2 drinks
+            /*
+            r = Random.Range(0, 1);
+            
+            if (r == 0 && food ["drinks"].Length > food ["entrees"].Length && currentDrinks < 2) { //2 drinks
 				foodQueue.Enqueue(food["drinks"][i]);
 				foodQueue.Enqueue (food ["drinks"] [i]);
 				currentDrinks = 2;
@@ -197,7 +223,7 @@ public class levelHandler : MonoBehaviour {
                 foodQueue.Enqueue(food["entrees"][i]);
                 foodQueue.Enqueue(food["drinks"][i]);
             }*/
-            artisans.Enqueue(new customer("artisan", foodQueue));
+            artisans.Enqueue(new customer("artisan", tmp_foodQueue));
 
         }
         
@@ -255,6 +281,11 @@ public class levelHandler : MonoBehaviour {
 
         foreach (customer c in customerArray)
         {
+            print("customer type: " + c.type);
+            foreach (string s in c.foodQueue)
+            {
+                print("i want: " + s);
+            }
             customerQueue.Enqueue(c);
         }
 
@@ -351,8 +382,8 @@ public class levelHandler : MonoBehaviour {
             //foodList = Multiply("apple cider;", 4);
             
 
-            artisanFoodList.Add("drinks", "apple cider;apple cider;apple cider".Split(';'));
-            artisanFoodList.Add("entrees", "grilled fish;grilled fish;grilled fish".Split(';'));
+            artisanFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilled fish;grilled fish".Split(';'));
 
             numArtisans = 3;
             foodList = "apple cider;apple cider;apple cider;apple cider";
@@ -1026,7 +1057,7 @@ public class levelHandler : MonoBehaviour {
         ovenCount = 4 - maxOvenCount;
         stoveCount = 4 - maxStoveCount;
         warmingPlateCount = 4 - maxWarmingPlateCount;
-        Debug.Log("warming plate count: " + warmingPlateCount);
+        //Debug.Log("warming plate count: " + warmingPlateCount);
         //find stuff
         GameObject grills = GameObject.Find("grills");
         GameObject ovens = GameObject.Find("ovens");

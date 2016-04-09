@@ -87,6 +87,7 @@ public class Customer : MonoBehaviour {
                 //StartCoroutine(ExecuteAfterDelay(Random.Range (0,5)));
                 //Debug.Log(peasantFoodQueue.Peek());
                 //current_food = findRecipe(peasantFoodQueue.Dequeue());
+                Debug.Log("foodqueue in customer:" + foodQueue.Peek());
                 current_food = findRecipe(foodQueue.Peek());
                 foodWaitingOn = foodQueue.Dequeue();
                 Debug.Log("waiting on: " + foodWaitingOn);

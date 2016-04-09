@@ -53,7 +53,7 @@ public class cookingObject : MonoBehaviour {
 
 
 	void Start () {
-        Debug.Log(GetComponent<recipeRepository>().cookingObjectName);
+        //Debug.Log(GetComponent<recipeRepository>().cookingObjectName);
         foreach (Recipie a in GetComponent<recipeRepository>().recipes)
         {
             Debug.Log(a.name);
