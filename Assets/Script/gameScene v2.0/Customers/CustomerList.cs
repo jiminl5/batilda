@@ -30,15 +30,17 @@ public class CustomerList : MonoBehaviour {
             current_customer = Instantiate(peasant, new Vector2(GameObject.Find("CustomerPath_1").transform.position.x, GameObject.Find("CustomerPath_1").transform.position.y), Quaternion.identity) as GameObject;
             customer_Q.Add(peasant);
             _delay = 15;
+            current_customer.GetComponent<CustomerAI>().customer = customerQ.Dequeue();
             CustomerEnterDelay();
+            //current_customer.GetComponent<CustomerAI>().customer = customerQ.Dequeue();
         }
         else
         {
             _delay = Random.Range(2, 3);
             Invoke("CreateCustomer", _delay);
         }
-       //Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y),Quaternion.identity);
-	}
+        //Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y),Quaternion.identity);
+    }
 
     void CustomerEnterDelay()
     {
@@ -52,9 +54,8 @@ public class CustomerList : MonoBehaviour {
         if ((customer_Q.Count < GameObject.Find("levelHandler").GetComponent<levelHandler>().customersWaiting) && CustomerAI.seatCount < 5) // # of Seats
         {
             CustomerAI.seatCount++;
-
-            //Chris changed this but it doesn't work. current_customer is null at this point.
-
+            
+            
             print("TYPE::::::::::::::::::::" + customerQ.Peek().type);
             if (customerQ.Peek().type == "peasant")
             {
