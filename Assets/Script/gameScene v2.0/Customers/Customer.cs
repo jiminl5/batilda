@@ -211,7 +211,10 @@ IEnumerator ExecuteAfterDelay(float delay)
         //return load.GetComponent<Recipie>();
         //Recipie testr = new Recipie();
         //return load.GetComponent<Recipie>();
+        //GameObject load = Resources.Load("Recipies/Food_Recipes/" + food) as GameObject;
+        //Recipie recipe = load.GetComponent<Recipie>();
         print(food);
+
         Recipie recipe = GameObject.Find(food + "(Clone)").GetComponent<Recipie>();
         return recipe;
     }

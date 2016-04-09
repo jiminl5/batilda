@@ -3545,6 +3545,52 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &775289641
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464610, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 119884, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+      propertyPath: m_Name
+      value: grilled onion(Clone)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 71bcd7b608f83074fae7d667a072fb4f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &788744302
 Prefab:
   m_ObjectHideFlags: 0
@@ -4807,6 +4853,52 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &948724986
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421614, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 161264, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+      propertyPath: m_Name
+      value: grilled carrot(Clone)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1cfb854b67b3d1647802577430a3be62, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &954206330
 Prefab:
   m_ObjectHideFlags: 0
@@ -5696,7 +5788,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 35
 --- !u!1001 &1081085813
 Prefab:
   m_ObjectHideFlags: 0
