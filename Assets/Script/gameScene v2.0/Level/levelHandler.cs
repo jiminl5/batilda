@@ -270,11 +270,13 @@ public class levelHandler : MonoBehaviour {
             customerArray[i] = c;
             i++;
         }
-
-        foreach (customer c in artisanQueue)
+        if (numArtisans > 0)
         {
-            customerArray[i] = c;
-            i++;
+            foreach (customer c in artisanQueue)
+            {
+                customerArray[i] = c;
+                i++;
+            }
         }
         //foreach customer in artisanqueue...etc
         shuffle_customers(customerArray);
@@ -1036,9 +1038,12 @@ public class levelHandler : MonoBehaviour {
 
             levelTime = 180;
         }
-
+        
         peasantQueue = createPeasants(foodList.Split(';'));
-        artisanQueue = createArtisans(artisanFoodList, numArtisans);
+        if (numArtisans > 0)
+        {
+            artisanQueue = createArtisans(artisanFoodList, numArtisans);
+        }
         createCustomerQueue();
 
         string[] peasantFoodShuffle = foodList.Split(';');
