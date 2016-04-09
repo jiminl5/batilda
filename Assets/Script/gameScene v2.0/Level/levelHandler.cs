@@ -153,15 +153,41 @@ public class levelHandler : MonoBehaviour {
         Queue<customer> artisans = new Queue<customer>();
         Queue<string> foodQueue;
         int r;
-
         shuffle(food["drinks"]);
         shuffle(food["entrees"]);
         for (int i = 0; i < count; i++)
         {
-            r = Random.Range(0, 1);
+			int currentOrder = 0;
+			int currentDrinks = 0;
+			int currentFood = 0;
 
-            foodQueue = new Queue<string>();
-            if (r == 0) //drink first
+			foodQueue = new Queue<string>();
+
+			while (currentOrder < 2) {
+    	        r = Random.Range(0, 1);
+			
+
+				if (r == 0 && food ["drinks"].Length > food ["entrees"].Length && currentDrinks < 2 && currentOrder < 2) { //add drink
+					foodQueue.Enqueue(food["drinks"][i]);
+					currentDrinks++;
+					currentOrder++;
+				}
+				if (r == 1 && currentFood < 1 && currentOrder < 1) { //add food
+					foodQueue.Enqueue(food["entree"][i]);
+					currentFood++;
+					currentOrder++;
+				}
+
+			}
+
+
+			/*
+			if (r == 0 && food ["drinks"].Length > food ["entrees"].Length && currentDrinks < 2) { //2 drinks
+				foodQueue.Enqueue(food["drinks"][i]);
+				foodQueue.Enqueue (food ["drinks"] [i]);
+				currentDrinks = 2;
+			}
+            else if (r == 0) //drink first
             {
                 foodQueue.Enqueue(food["drinks"][i]);
                 foodQueue.Enqueue(food["entrees"][i]);
@@ -170,13 +196,44 @@ public class levelHandler : MonoBehaviour {
             {
                 foodQueue.Enqueue(food["entrees"][i]);
                 foodQueue.Enqueue(food["drinks"][i]);
-            }
+            }*/
             artisans.Enqueue(new customer("artisan", foodQueue));
 
         }
         
         return artisans;
     }
+
+//	Queue<customer> createMiddle(Dictionary<string,string[]> food, int count)
+//	{
+//		Queue<customer> middle = new Queue<customer>();
+//		Queue<string> foodQueue;
+//		int r;
+//
+//		shuffle(food["drinks"]);
+//		shuffle(food["entrees"]);
+//		shuffle (food ["sides"]);
+//		for (int i = 0; i < count; i++)
+//		{
+//			r = Random.Range(0, 2);
+//
+//			foodQueue = new Queue<string>();
+//			if (r == 0) { //drink first
+//				foodQueue.Enqueue (food ["drinks"] [i]);
+//				foodQueue.Enqueue (food ["entrees"] [i]);
+//			} else if (r == 1) { //entree first
+//				foodQueue.Enqueue (food ["entrees"] [i]);
+//				foodQueue.Enqueue (food ["drinks"] [i]);
+//			} else if (r == 2) { //side first
+//				foodQueue.Enqueue (food["sides"]);
+//			}
+//
+//			artisans.Enqueue(new customer("artisan", foodQueue));
+//
+//		}
+//
+//		return artisans;
+//	}
 
     void createCustomerQueue()
     {
