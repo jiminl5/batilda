@@ -107,6 +107,7 @@ public class levelHandler : MonoBehaviour {
     Queue<customer> artisanQueue;
     Queue<customer> middleQueue;
     public int numArtisans = 0;
+    public int numMiddle = 0;
 
     public struct customer
     {
@@ -182,8 +183,8 @@ public class levelHandler : MonoBehaviour {
 			while (currentOrder < 2) {
     	        r = Random.Range(0, 2);
 
-                Debug.Log("drink queue count: " + drinkQueue.Count);
-                Debug.Log("entree queue countL: " + entreeQueue.Count);
+                //Debug.Log("drink queue count: " + drinkQueue.Count);
+                //Debug.Log("entree queue countL: " + entreeQueue.Count);
 				if (r == 0 && drinkQueue.Count > entreeQueue.Count && currentDrinks < 2 && currentOrder < 2) { //add drink
 					tmp_foodQueue.Enqueue(drinkQueue.Dequeue());
 					currentDrinks++;
@@ -201,7 +202,7 @@ public class levelHandler : MonoBehaviour {
                     break;
                 }
                 */
-                Debug.Log(tmp_foodQueue.Peek());
+                //Debug.Log(tmp_foodQueue.Peek());
 
 			}
 
@@ -230,36 +231,97 @@ public class levelHandler : MonoBehaviour {
         return artisans;
     }
 
-//	Queue<customer> createMiddle(Dictionary<string,string[]> food, int count)
-//	{
-//		Queue<customer> middle = new Queue<customer>();
-//		Queue<string> foodQueue;
-//		int r;
-//
-//		shuffle(food["drinks"]);
-//		shuffle(food["entrees"]);
-//		shuffle (food ["sides"]);
-//		for (int i = 0; i < count; i++)
-//		{
-//			r = Random.Range(0, 2);
-//
-//			foodQueue = new Queue<string>();
-//			if (r == 0) { //drink first
-//				foodQueue.Enqueue (food ["drinks"] [i]);
-//				foodQueue.Enqueue (food ["entrees"] [i]);
-//			} else if (r == 1) { //entree first
-//				foodQueue.Enqueue (food ["entrees"] [i]);
-//				foodQueue.Enqueue (food ["drinks"] [i]);
-//			} else if (r == 2) { //side first
-//				foodQueue.Enqueue (food["sides"]);
-//			}
-//
-//			artisans.Enqueue(new customer("artisan", foodQueue));
-//
-//		}
-//
-//		return artisans;
-//	}
+	Queue<customer> createMiddle(Dictionary<string,string[]> food, int count)
+	{
+		Queue<customer> middle = new Queue<customer>();
+		Queue<string> tmp_foodQueue;
+        string[] tmp_foodArray = new string[3];
+		int r;
+
+        Queue<string> drinkQueue = new Queue<string>();
+        Queue<string> entreeQueue = new Queue<string>();
+        Queue<string> sideQueue = new Queue<string>();
+        foreach (string d in food["drinks"])
+        {
+            drinkQueue.Enqueue(d);
+        }
+        foreach (string e in food["entrees"])
+        {
+            entreeQueue.Enqueue(e);
+        }
+        foreach (string s in food["sides"])
+        {
+            sideQueue.Enqueue(s);
+        }
+
+        shuffle(food["drinks"]);
+		shuffle(food["entrees"]);
+		shuffle (food ["sides"]);
+        for (int i = 0; i < count; i++)
+        {
+            tmp_foodQueue = new Queue<string>();
+
+            bool orderComplete = false;
+            while (!orderComplete)
+            {
+                r = Random.Range(0, 2);
+                if (r == 0 && drinkQueue.Count >= 2 && drinkQueue.Count > entreeQueue.Count + sideQueue.Count)
+                { //1 side and 2 drinks
+                    tmp_foodArray[0] = drinkQueue.Dequeue();
+                    tmp_foodArray[1] = drinkQueue.Dequeue();
+                    tmp_foodArray[2] = sideQueue.Dequeue();
+                    orderComplete = true;
+                }
+                else if (r == 1 && entreeQueue.Count > 0)
+                { //1 drink 1 entree 1 side
+                    tmp_foodArray[0] = drinkQueue.Dequeue();
+                    tmp_foodArray[1] = entreeQueue.Dequeue();
+                    tmp_foodArray[2] = sideQueue.Dequeue();
+                    orderComplete = true;
+                }
+            }
+            /*
+            while (currentOrder < 3)
+            {
+                r = Random.Range(0, 3);
+                //Debug.Log("drink queue count: " + drinkQueue.Count);
+                //Debug.Log("entree queue countL: " + entreeQueue.Count);
+                //Debug.Log("side queue countL: " + sideQueue.Count);
+                if (r == 0 && currentDrinks < 2 && drinkQueue.Count > 0 && (drinkQueue.Count > entreeQueue.Count || drinkQueue.Count > sideQueue.Count))
+                { //add drink
+                    tmp_foodQueue.Enqueue(drinkQueue.Dequeue());
+                    currentDrinks++;
+                    currentOrder++;
+                }
+                else if (r == 1 && currentFood < 1 && currentDrinks < 2 && entreeQueue.Count > sideQueue.Count)
+                { //add food
+                    tmp_foodQueue.Enqueue(entreeQueue.Dequeue());
+                    currentFood++;
+                    currentOrder++;
+                }
+                else if (r == 2 && currentSide < 1)
+                { //add side
+                    tmp_foodQueue.Enqueue(sideQueue.Dequeue());
+                    currentSide++;
+                    currentOrder++;
+                }
+
+            }
+            */
+            shuffle(tmp_foodArray);
+            print("FOOD QUEUE:::::::SADJKASKLD");
+            foreach (string s in tmp_foodArray)
+            {
+                print(s);
+                tmp_foodQueue.Enqueue(s);
+            }
+            middle.Enqueue(new customer("middle", tmp_foodQueue));
+        }
+
+		
+
+		return middle;
+	}
 
     void createCustomerQueue()
     {
@@ -273,6 +335,14 @@ public class levelHandler : MonoBehaviour {
         if (numArtisans > 0)
         {
             foreach (customer c in artisanQueue)
+            {
+                customerArray[i] = c;
+                i++;
+            }
+        }
+        if (numMiddle > 0)
+        {
+            foreach (customer c in middleQueue)
             {
                 customerArray[i] = c;
                 i++;
@@ -310,6 +380,7 @@ public class levelHandler : MonoBehaviour {
         customerQueue = new Queue<customer>();
 
         artisanFoodList = new Dictionary<string, string[]>();
+        middleFoodList = new Dictionary<string, string[]>();
     }
 
     // Use this for initialization
@@ -380,7 +451,7 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 7;
+            numberofCustomers = 8;
             //foodList = Multiply("apple cider;", 4);
             
 
@@ -388,7 +459,14 @@ public class levelHandler : MonoBehaviour {
             artisanFoodList.Add("entrees", "grilled fish;grilled fish".Split(';'));
 
             numArtisans = 3;
-            foodList = "apple cider;apple cider;apple cider;apple cider";
+
+            middleFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider".Split(';'));
+            middleFoodList.Add("entrees", "grilled fish;grilled fish".Split(';'));
+            middleFoodList.Add("sides", "grilled carrot;grilled carrot;grilled carrot".Split(';'));
+
+            numMiddle = 3;
+
+            foodList = "apple cider;apple cider";
             //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 121;
@@ -1043,6 +1121,10 @@ public class levelHandler : MonoBehaviour {
         if (numArtisans > 0)
         {
             artisanQueue = createArtisans(artisanFoodList, numArtisans);
+        }
+        if (numMiddle > 0)
+        {
+            middleQueue = createMiddle(middleFoodList, numMiddle);
         }
         createCustomerQueue();
 
