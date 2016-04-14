@@ -1457,7 +1457,7 @@ public class levelHandler : MonoBehaviour {
                 }
             }
             */
-            if (customersServed == customersWaiting)//peasantFoodQueue.Count <= 0 && checkifNoCustomers())
+            if (customersServed == customersWaiting || customersLeft == 0)//peasantFoodQueue.Count <= 0 && checkifNoCustomers())
             {
                 finished = true;
                 CloseSignAnim.close_child = 1;
@@ -1671,7 +1671,12 @@ public class levelHandler : MonoBehaviour {
         }
     }
 
-
+    //Added By JiMMY 2016-04-14
+    public void DequeueCustomerQ()
+    {
+        if (customerQueue.Count > 1)
+            customerQueue.Dequeue();
+    }
 
 
 

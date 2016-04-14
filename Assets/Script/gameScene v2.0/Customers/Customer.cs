@@ -164,10 +164,17 @@ public class Customer : MonoBehaviour {
     {
         if (tempObj != null)
         {
+            GameObject.Find("levelHandler").GetComponent<levelHandler>().DequeueCustomerQ();
+            levelHandler.customersLeft -= 1;
             Destroy(tempObj);
+            //foodQueue.Dequeue(); // Not sure when food is assigned to the customers, after exclamation mark destroyed??? or before??
         }
         else
+        {
+            GameObject.Find("levelHandler").GetComponent<levelHandler>().DequeueCustomerQ();
+            levelHandler.customersLeft -= 1;
             Destroy(foodSprite);
+        }
     }
 
     //test

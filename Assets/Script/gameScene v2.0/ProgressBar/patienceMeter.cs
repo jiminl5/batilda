@@ -17,7 +17,7 @@ public class patienceMeter : MonoBehaviour {
     // Use this for initialization
     void Start () {
         angry = false;
-        patienceTime = 25f; // patience timer
+        patienceTime = 30f; // patience timer
         temp_Time = patienceTime;
         getParent = this.transform.parent.parent.parent;
         _Panimator = getParent.transform.GetComponent<Animator>();
