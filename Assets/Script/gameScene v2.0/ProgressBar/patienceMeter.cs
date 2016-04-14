@@ -34,6 +34,7 @@ public class patienceMeter : MonoBehaviour {
         }
         if (timeBar.GetComponent<Image>().fillAmount == 0)
         {
+            getParent.GetChild(1).gameObject.GetComponent<Customer>().SetAnger();
             getParent.GetChild(1).gameObject.GetComponent<Customer>().DestroyFoodSprite();
             getParent.GetChild(1).gameObject.GetComponent<Customer>().CustomerExit();
             Destroy(this.transform.parent.parent.gameObject);

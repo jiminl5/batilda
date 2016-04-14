@@ -25,12 +25,15 @@ public class Customer : MonoBehaviour {
 
     private GameObject speechBubble;
 
+    public bool angryLeave; // CUSTOMER Leaving with Anger
+
     //Animation
     private int _PeasantState = Animator.StringToHash("Peasant_State");
     private Animator _Panimator;
 
     // Use this for initialization
     void Start () {
+        angryLeave = false;
         foodQueue = GameObject.Find("levelHandler").GetComponent<levelHandler>().current_customer.foodQueue;
         //Animation
         _Panimator = this.transform.GetComponentInParent<Animator>();
@@ -115,7 +118,7 @@ public class Customer : MonoBehaviour {
 				Debug.Log ("yum!");
                 Destroy(foodSprite);
                 //
-                if (foodQueue.Count == 0)
+                if (foodQueue.Count == 0 && !angryLeave) //Added boolean - angryLeave
                 {
                     CustomerExit();
                     moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
@@ -226,5 +229,15 @@ IEnumerator ExecuteAfterDelay(float delay)
 
         Recipie recipe = GameObject.Find(food + "(Clone)").GetComponent<Recipie>();
         return recipe;
+    }
+
+    //ADDED BY JIMMY 2016-04-14
+    public void SetAnger()
+    {
+        angryLeave = true;
+    }
+    public bool CheckAnger()
+    {
+        return angryLeave;
     }
 }

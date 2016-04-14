@@ -223,7 +223,8 @@ public class Waitress : MonoBehaviour {
 
         else if (!customer.needsToOrder)
         {
-            if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
+            if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "one_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given)
+            && !go.GetComponent<Customer>().CheckAnger())
             {
                 //update dropoffpoint food name
                 go.GetComponent<Customer>().food_given = one_h;
@@ -234,7 +235,8 @@ public class Waitress : MonoBehaviour {
                 //Destroy (go_1h);
                 //one_h = "";
             }
-            else if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "two_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given))
+            else if (hand_with_Food(go.GetComponent<Customer>().foodWaitingOn) == "two_h" && string.IsNullOrEmpty(go.GetComponent<Customer>().food_given)
+            && !go.GetComponent<Customer>().CheckAnger())
             {
                 //update dropoffpoint food name
                 go.GetComponent<Customer>().food_given = two_h;
