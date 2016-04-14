@@ -149,14 +149,23 @@ public class Customer : MonoBehaviour {
 		}
 	}
 
-    void CustomerExit()
+    public void CustomerExit()
     {
         this.transform.parent.eulerAngles = new Vector3(0, 180, 0);
         this.GetComponentInParent<CustomerAI>().direction = 6;
+        Destroy(this.transform.parent.GetChild(0).gameObject); //Destroy PatienceBar
         //Destroy(foodSprite);
         Destroy(speechBubble);
     }
-
+    public void DestroyFoodSprite()
+    {
+        if (tempObj != null)
+        {
+            Destroy(tempObj);
+        }
+        else
+            Destroy(foodSprite);
+    }
 
     //test
     IEnumerator ScaleOverTime(float time, GameObject go)

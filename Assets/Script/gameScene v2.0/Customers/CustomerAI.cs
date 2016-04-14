@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class CustomerAI : MonoBehaviour
 {
@@ -210,26 +211,31 @@ public class CustomerAI : MonoBehaviour
         {
             _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_1", this);
+            this.transform.GetChild(0).gameObject.SetActive(true);
         }
         if (customerSat2 && direction == 2)
         {
             _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_2", this);
+            this.transform.GetChild(0).gameObject.SetActive(true);
         }
         if (customerSat3 && direction == 3)
         {
             _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_3", this);
+            this.transform.GetChild(0).gameObject.SetActive(true);
         }
         if (customerSat4 && direction == 4)
         {
             _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_4", this);
+            this.transform.GetChild(0).gameObject.SetActive(true);
         }
         if (customerSat5 && direction == 5)
         {
             _Panimator.SetInteger(_PeasantState, 2);
             order = GameObject.Find("levelHandler").GetComponent<levelHandler>().Spawn("cus_5", this);
+            this.transform.GetChild(0).gameObject.SetActive(true);
         }
 
         if (order)
