@@ -100,14 +100,17 @@ public class levelHandler : MonoBehaviour {
 
     Dictionary<string, string[]> middleFoodList;
 
+    Dictionary<string, string[]> nobleFoodList;
     public Queue<customer> customerQueue;
 
     public customer current_customer;
 
     Queue<customer> artisanQueue;
     Queue<customer> middleQueue;
+    Queue<customer> nobleQueue;
     public int numArtisans = 0;
     public int numMiddle = 0;
+    public int numNobles;
 
     public struct customer
     {
@@ -309,10 +312,10 @@ public class levelHandler : MonoBehaviour {
             }
             */
             shuffle(tmp_foodArray);
-            print("FOOD QUEUE:::::::SADJKASKLD");
+            //print("FOOD QUEUE:::::::SADJKASKLD");
             foreach (string s in tmp_foodArray)
             {
-                print(s);
+                //print(s);
                 tmp_foodQueue.Enqueue(s);
             }
             middle.Enqueue(new customer("middle", tmp_foodQueue));
@@ -322,6 +325,75 @@ public class levelHandler : MonoBehaviour {
 
 		return middle;
 	}
+
+    Queue<customer> createNobles(Dictionary<string, string[]> food, int count)
+    {
+        Queue<customer> nobles = new Queue<customer>();
+        Queue<string> tmp_foodQueue;
+        string[] tmp_foodArray = new string[5];
+        int r;
+
+        Queue<string> drinkQueue = new Queue<string>();
+        Queue<string> entreeQueue = new Queue<string>();
+        Queue<string> sideQueue = new Queue<string>();
+        foreach (string d in food["drinks"])
+        {
+            drinkQueue.Enqueue(d);
+        }
+        foreach (string e in food["entrees"])
+        {
+            entreeQueue.Enqueue(e);
+        }
+        foreach (string s in food["sides"])
+        {
+            sideQueue.Enqueue(s);
+        }
+
+        shuffle(food["drinks"]);
+        shuffle(food["entrees"]);
+        shuffle(food["sides"]);
+        for (int i = 0; i < count; i++)
+        {
+            tmp_foodQueue = new Queue<string>();
+
+            bool orderComplete = false;
+            while (!orderComplete)
+            {
+                r = Random.Range(0, 2);
+                if (r == 0 && drinkQueue.Count >= 2 && sideQueue.Count >= 2)
+                { //1 entree 2 sides and 2 drinks
+                    tmp_foodArray[0] = drinkQueue.Dequeue();
+                    tmp_foodArray[1] = drinkQueue.Dequeue();
+                    tmp_foodArray[2] = sideQueue.Dequeue();
+                    tmp_foodArray[3] = sideQueue.Dequeue();
+                    tmp_foodArray[4] = entreeQueue.Dequeue();
+                    orderComplete = true;
+                }
+                else if (r == 1 && entreeQueue.Count >= 2 && drinkQueue.Count >= 3)
+                { //2 entrees 3 drinks
+                    tmp_foodArray[0] = drinkQueue.Dequeue();
+                    tmp_foodArray[1] = drinkQueue.Dequeue();
+                    tmp_foodArray[2] = drinkQueue.Dequeue();
+                    tmp_foodArray[3] = entreeQueue.Dequeue();
+                    tmp_foodArray[4] = entreeQueue.Dequeue();
+                    orderComplete = true;
+                }
+            }
+
+            shuffle(tmp_foodArray);
+            print("FOOD QUEUE:::::::SADJKASKLD");
+            foreach (string s in tmp_foodArray)
+            {
+                print(s);
+                tmp_foodQueue.Enqueue(s);
+            }
+            nobles.Enqueue(new customer("noble", tmp_foodQueue));
+        }
+
+
+
+        return nobles;
+    }
 
     void createCustomerQueue()
     {
@@ -343,6 +415,14 @@ public class levelHandler : MonoBehaviour {
         if (numMiddle > 0)
         {
             foreach (customer c in middleQueue)
+            {
+                customerArray[i] = c;
+                i++;
+            }
+        }
+        if (numNobles > 0)
+        {
+            foreach (customer c in nobleQueue)
             {
                 customerArray[i] = c;
                 i++;
@@ -371,6 +451,7 @@ public class levelHandler : MonoBehaviour {
 
     //time for level
     public float levelTime;
+  
 
     void Awake()
     {
@@ -381,6 +462,7 @@ public class levelHandler : MonoBehaviour {
 
         artisanFoodList = new Dictionary<string, string[]>();
         middleFoodList = new Dictionary<string, string[]>();
+        nobleFoodList = new Dictionary<string, string[]>();
     }
 
     // Use this for initialization
@@ -465,6 +547,12 @@ public class levelHandler : MonoBehaviour {
             middleFoodList.Add("sides", "grilled carrot;grilled carrot;grilled carrot".Split(';'));
 
             numMiddle = 3;
+
+            //nobleFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider".Split(';'));
+            //nobleFoodList.Add("entrees", "grilled fish;grilled fish;grilled fish;grilled fish;grilled fish".Split(';'));
+            //nobleFoodList.Add("sides", "grilled carrot;grilled carrot".Split(';'));
+
+            //numNobles = 3;
 
             foodList = "apple cider;apple cider";
             //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
@@ -1109,9 +1197,14 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 24;
-            foodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
-            
+            numberofCustomers = 8;
+            //foodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
+            foodList = "wine;wine;bread;grilled carrot";
+            artisanFoodList.Add("drinks", "wine;wine;wine;cider;cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilledMeat;grilled fish;griled onion".Split(';'));
+
+            numArtisans = 4;
+
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 180;
@@ -1125,6 +1218,10 @@ public class levelHandler : MonoBehaviour {
         if (numMiddle > 0)
         {
             middleQueue = createMiddle(middleFoodList, numMiddle);
+        }
+        if (numNobles > 0)
+        {
+            nobleQueue = createNobles(nobleFoodList, numNobles);
         }
         createCustomerQueue();
 
