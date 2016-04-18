@@ -5663,6 +5663,7 @@ MonoBehaviour:
   foodList: 
   numArtisans: 0
   numMiddle: 0
+  numNobles: 0
   customersWaiting: 0
   levelTime: 0
 --- !u!4 &1025483095
