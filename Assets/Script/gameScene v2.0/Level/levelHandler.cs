@@ -533,7 +533,7 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 8;
+            numberofCustomers = 11;
             //foodList = Multiply("apple cider;", 4);
             
 
@@ -548,11 +548,11 @@ public class levelHandler : MonoBehaviour {
 
             numMiddle = 3;
 
-            //nobleFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider".Split(';'));
-            //nobleFoodList.Add("entrees", "grilled fish;grilled fish;grilled fish;grilled fish;grilled fish".Split(';'));
-            //nobleFoodList.Add("sides", "grilled carrot;grilled carrot".Split(';'));
+            nobleFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider".Split(';'));
+            nobleFoodList.Add("entrees", "grilled fish;grilled fish;grilled fish;grilled fish;grilled fish".Split(';'));
+            nobleFoodList.Add("sides", "grilled carrot;grilled carrot".Split(';'));
 
-            //numNobles = 3;
+            numNobles = 3;
 
             foodList = "apple cider;apple cider";
             //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
