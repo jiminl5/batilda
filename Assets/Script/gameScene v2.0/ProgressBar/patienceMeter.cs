@@ -34,6 +34,11 @@ public class patienceMeter : MonoBehaviour {
             patienceTime = 80f;
             print("Spawned Middle Class, timer at: " + patienceTime);
         }
+        else if (getParent.name == "Noble 1(Clone)")
+        {
+            patienceTime = 100f;
+            print("Spawned Noble, timer at: " + patienceTime);
+        }
         temp_Time = patienceTime;
         _Panimator = getParent.transform.GetComponent<Animator>();
     }

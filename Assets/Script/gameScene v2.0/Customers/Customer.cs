@@ -163,6 +163,7 @@ public class Customer : MonoBehaviour {
     }
     public void DestroyFoodSprite()
     {
+        this.GetComponentInParent<CustomerAI>().confirmExit(true);
         if (tempObj != null)
         {
             GameObject.Find("levelHandler").GetComponent<levelHandler>().DequeueCustomerQ();
