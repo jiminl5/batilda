@@ -747,8 +747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   customers:
   - {fileID: 137220, guid: cdfc57c084c006743a2248821d5eb933, type: 2}
-  - {fileID: 163864, guid: e07e6d97d1ec00d468b02a72b545d318, type: 2}
-  - {fileID: 143934, guid: 5ca36bc1e11ab8044ad3b18e67f6c5e4, type: 2}
+  - {fileID: 145964, guid: e07e6d97d1ec00d468b02a72b545d318, type: 2}
+  - {fileID: 152672, guid: 5ca36bc1e11ab8044ad3b18e67f6c5e4, type: 2}
 --- !u!1 &260263998
 GameObject:
   m_ObjectHideFlags: 0
