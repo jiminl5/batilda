@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StopWatch : MonoBehaviour {
 
@@ -43,7 +44,8 @@ public class StopWatch : MonoBehaviour {
         {
             PlayerPrefs.SetInt("temp_coin", GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed);
             if (GameObject.Find("CloseSign") == null)
-                Application.LoadLevel("gameResult");
+                SceneManager.LoadScene("gameResult");
+                //Application.LoadLevel("gameResult");
         }
     }
 	
