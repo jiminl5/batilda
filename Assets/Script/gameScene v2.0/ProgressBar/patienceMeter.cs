@@ -17,9 +17,24 @@ public class patienceMeter : MonoBehaviour {
     // Use this for initialization
     void Start () {
         angry = false;
-        patienceTime = 30f; // patience timer
-        temp_Time = patienceTime;
+        //patienceTime = 30f; // patience timer
         getParent = this.transform.parent.parent.parent;
+        if (getParent.name == "Peasant 1(Clone)")
+        {
+            patienceTime = 40f;
+            print("Spawned Pessant, timer at: " + patienceTime);
+        }
+        else if (getParent.name == "Artisan 1(Clone)")
+        {
+            patienceTime = 55f;
+            print("Spawned Artisan, timer at: " + patienceTime);
+        }
+        else if (getParent.name == "Middle Class 1(Clone)")
+        {
+            patienceTime = 80f;
+            print("Spawned Middle Class, timer at: " + patienceTime);
+        }
+        temp_Time = patienceTime;
         _Panimator = getParent.transform.GetComponent<Animator>();
     }
 	
