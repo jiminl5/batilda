@@ -146,6 +146,7 @@ public class Customer : MonoBehaviour {
                 moneyParticle = Instantiate(Resources.Load("Coins"), moneySprite.transform.position, Quaternion.identity) as GameObject;
                 moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
                 moneyParticle.GetComponent<ParticleSystem>().Play();
+                levelHandler.customersLeft -= 1;
                 Destroy(moneySprite);
                 //Destroy(foodSprite);
                 Destroy(this.gameObject);
