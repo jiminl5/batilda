@@ -236,7 +236,7 @@ public class levelHandler : MonoBehaviour {
                 //print(s);
                 tmp_foodQueue.Enqueue(s);
             }
-            artisans.Enqueue(new customer("middle", tmp_foodQueue));
+            artisans.Enqueue(new customer("artisan", tmp_foodQueue));
 
         }
 
