@@ -43,6 +43,7 @@ public class StopWatch : MonoBehaviour {
 		}
         if (finished)
         {
+            ResetVariables();
             Destroy(GameObject.Find("Tiles")); //Added By Jimmy 2016-04-23
             PlayerPrefs.SetInt("temp_coin", GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed);
             if (GameObject.Find("CloseSign") == null)
@@ -50,7 +51,17 @@ public class StopWatch : MonoBehaviour {
                 //Application.LoadLevel("gameResult");
         }
     }
-	
+
+    void ResetVariables()
+    {
+        Waitress.obj_queue1.Clear();
+        Chef.obj_queue.Clear();
+        MoveableTile.check_Queue.Clear();
+        MoveableTile.check_Queue_1.Clear();
+        Unit.unit_queue.Clear();
+        Unit1.unit_queue1.Clear();
+    }
+
 	// Update is called once per frame
 	void OnGUI() {
         //float guiTime = startTime - Time.time;

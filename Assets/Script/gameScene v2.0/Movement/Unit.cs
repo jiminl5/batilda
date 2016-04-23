@@ -29,8 +29,6 @@ public class Unit : MonoBehaviour {
 
 	public static Queue<List<Node>> unit_queue = new Queue<List<Node>>();
 
-    public static Queue<GameObject> check_Queue = new Queue<GameObject>();
-
     void Start()
 	{
         //temp_list = new List<Node>();
