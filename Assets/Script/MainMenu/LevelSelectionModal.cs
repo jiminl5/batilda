@@ -12,7 +12,7 @@ public class LevelSelectionModal : MonoBehaviour {
     public Image LoadingAsset;
     AsyncOperation async;
     public static bool ConfirmGameStart = false;
-    public static bool PauseActive = false;
+    public static bool PauseActive;
  
     public void loadLevel(string level_name)
     {
@@ -21,6 +21,7 @@ public class LevelSelectionModal : MonoBehaviour {
     }
     void Start()
     {
+        PauseActive = false;
         if (SceneManager.GetSceneAt(0).name == "gdMainMenu")
             StartCoroutine(GameSceneCoroutine());
         else if (SceneManager.GetActiveScene().name == "gameResult")
