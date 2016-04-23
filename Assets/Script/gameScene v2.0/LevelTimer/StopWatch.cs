@@ -34,7 +34,8 @@ public class StopWatch : MonoBehaviour {
 				print ("one min left");
 			}
 			if (timeInSeconds <= 0) {
-				print ("times up");
+                LevelSelectionModal.ConfirmGameStart = false; //Added By Jimmy 2016-04-23
+                print ("times up");
                 CloseSignAnim.close_child = 0;
 				finished = true;
                 //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().storeCoin();
@@ -42,6 +43,7 @@ public class StopWatch : MonoBehaviour {
 		}
         if (finished)
         {
+            Destroy(GameObject.Find("Tiles")); //Added By Jimmy 2016-04-23
             PlayerPrefs.SetInt("temp_coin", GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed);
             if (GameObject.Find("CloseSign") == null)
                 SceneManager.LoadScene("gameResult");
@@ -53,45 +55,48 @@ public class StopWatch : MonoBehaviour {
 	void OnGUI() {
         //float guiTime = startTime - Time.time;
         //timeInSeconds = guiTime;
-		GUIStyle textStyle = new GUIStyle ();
-		textStyle.fontSize = Screen.width/20;
-		textStyle.normal.textColor = Color.white;
-		textStyle.font = oldaniaADFStd;
-
-        roundedTimeSeconds = (int)(timeInSeconds);
-        displayMinutes = roundedTimeSeconds / 60;
-        displaySeconds = roundedTimeSeconds % 60;
-        string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
-		//GUIStyle centeredStyle = GUIStyle(GUI.skin.GetStyle ("Label"));
-		textStyle.alignment = TextAnchor.UpperCenter;
-
-
-		GUIText gtext;
-        if (!AndroidViewPort.default_ratio)
+        if (!LevelSelectionModal.PauseActive)
         {
-            if (displayMinutes > 0)
+            GUIStyle textStyle = new GUIStyle();
+            textStyle.fontSize = Screen.width / 20;
+            textStyle.normal.textColor = Color.white;
+            textStyle.font = oldaniaADFStd;
+
+            roundedTimeSeconds = (int)(timeInSeconds);
+            displayMinutes = roundedTimeSeconds / 60;
+            displaySeconds = roundedTimeSeconds % 60;
+            string text = string.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
+            //GUIStyle centeredStyle = GUIStyle(GUI.skin.GetStyle ("Label"));
+            textStyle.alignment = TextAnchor.UpperCenter;
+
+
+            GUIText gtext;
+            if (!AndroidViewPort.default_ratio)
             {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(1), textStyle);
-            }
-            else if (displaySeconds < 10)
-            {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(4), textStyle);
+                if (displayMinutes > 0)
+                {
+                    GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(1), textStyle);
+                }
+                else if (displaySeconds < 10)
+                {
+                    GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(4), textStyle);
+                }
+                else {
+                    GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(3), textStyle);
+                }
             }
             else {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, 0, 50, 30), text.Substring(3), textStyle);
-            }
-        }
-        else {
-            if (displayMinutes > 0)
-            {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 28, 50, 30), text.Substring(1), textStyle); //2^4
-            }
-            else if (displaySeconds < 10)
-            {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 28, 50, 30), text.Substring(4), textStyle);
-            }
-            else {
-                GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 28, 50, 30), text.Substring(3), textStyle);
+                if (displayMinutes > 0)
+                {
+                    GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 28, 50, 30), text.Substring(1), textStyle); //2^4
+                }
+                else if (displaySeconds < 10)
+                {
+                    GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 28, 50, 30), text.Substring(4), textStyle);
+                }
+                else {
+                    GUI.TextArea(new Rect(Screen.width / 2 - 20, Screen.height / 28, 50, 30), text.Substring(3), textStyle);
+                }
             }
         }
 	}

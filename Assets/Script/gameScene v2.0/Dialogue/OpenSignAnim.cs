@@ -81,17 +81,16 @@ public class OpenSignAnim : MonoBehaviour {
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapData();
                     GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
+                    LevelSelectionModal.ConfirmGameStart = true;
                     Destroy(this.gameObject);
                 }
             }
         }
         if (tutorial_start)
         {
-            //if (confirm_tutorial_start)
-            //{
-                GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
-                Destroy(this.gameObject);
-            //}
+            GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
+            LevelSelectionModal.ConfirmGameStart = true;
+            Destroy(this.gameObject);
         }
 	}
 }

@@ -110,7 +110,8 @@ public class TileMap1 : MonoBehaviour {
                 //Generate Visual
                 float newX = x * 0.5f;
 				GameObject tmp_go = (GameObject)Instantiate( tt.tileVisualPrefab, new Vector2((float) x + newX,y), Quaternion.identity);
-				MoveableTile mt = tmp_go.GetComponent<MoveableTile>();
+                tmp_go.transform.parent = GameObject.Find("Tiles").transform;
+                MoveableTile mt = tmp_go.GetComponent<MoveableTile>();
 				mt.mtX = x;
 				mt.mtY = y;
 				mt.map1 = this;

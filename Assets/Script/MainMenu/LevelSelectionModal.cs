@@ -7,8 +7,12 @@ using UnityEngine.SceneManagement;
 public class LevelSelectionModal : MonoBehaviour {
 
     public GameObject LoadingScene;
+    public GameObject PauseMenu;
+    public GameObject Tiles;
     public Image LoadingAsset;
     AsyncOperation async;
+    public static bool ConfirmGameStart = false;
+    public static bool PauseActive = false;
  
     public void loadLevel(string level_name)
     {
@@ -55,8 +59,29 @@ public class LevelSelectionModal : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKey("escape"))
-            Application.Quit();
+        //Pause Menu Jimmy 2016-04-23
+        if (SceneManager.GetSceneAt(0).name == "gdMainMenu")
+        {
+            if (Input.GetKeyDown("escape"))
+                Application.Quit();
+        }
+        else if (SceneManager.GetSceneAt(0).name == "v2.0" && ConfirmGameStart)
+        {
+            if (Input.GetKeyDown("escape") && !PauseActive)
+            {
+                Time.timeScale = 0.00001f;
+                PauseMenu.SetActive(true);
+                PauseActive = true;
+                Tiles.SetActive(false);
+            }
+            else if (Input.GetKeyDown("escape") && PauseActive)
+            {
+                Time.timeScale = 1f;
+                PauseMenu.SetActive(false);
+                PauseActive = false;
+                Tiles.SetActive(true);
+            }
+        }
 
     }
 }

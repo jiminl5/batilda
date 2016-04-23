@@ -109,6 +109,11 @@ public class MoveableTile : MonoBehaviour {
 	
     public void RemoveAllTileColliders()
     {
+        foreach(Transform child in GameObject.Find("Tiles").transform)
+        {
+            child.GetComponent<BoxCollider2D>().enabled = false;
+        }
+        /*
         if (red_tile.Length > 0 && blk_tile.Length > 0)
         {
             for (int j = 0; j < red_tile.Length; j++)
@@ -121,6 +126,7 @@ public class MoveableTile : MonoBehaviour {
                 blk_tile[y].GetComponent<BoxCollider2D>().enabled = false;
             }
         }
+        */
     }
 
     void GenerateCheckmark(int x, int y) //Foxanna
