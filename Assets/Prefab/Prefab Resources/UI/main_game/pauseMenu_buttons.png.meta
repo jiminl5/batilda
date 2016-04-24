@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: 92da9fdb9c6d10f4b95de1db817da266
-timeCreated: 1461399713
+timeCreated: 1461464564
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: pauseMenu_buttons_0
     21300002: pauseMenu_buttons_1
+    21300004: pauseMenu_buttons_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -109,6 +110,34 @@ TextureImporter:
         - {x: 139.5, y: -82}
         - {x: 146.5, y: -75}
         - {x: 151.5, y: -64}
+    - name: pauseMenu_buttons_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 303
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 151.5, y: -64}
+        - {x: 151.5, y: 67}
+        - {x: 141.5, y: 81}
+        - {x: 134.5, y: 85}
+        - {x: 130.5, y: 87}
+        - {x: -131.5, y: 87}
+        - {x: -142.5, y: 81}
+        - {x: -148.5, y: 73}
+        - {x: -151.5, y: 67}
+        - {x: -151.5, y: -66}
+        - {x: -148.5, y: -73}
+        - {x: -141.5, y: -80}
+        - {x: -135.5, y: -85}
+        - {x: -131.5, y: -87}
+        - {x: 130.5, y: -87}
+        - {x: 141.5, y: -81}
+        - {x: 147.5, y: -73}
     outline: []
   spritePackingTag: 
   userData: 

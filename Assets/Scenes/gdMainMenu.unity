@@ -5976,6 +5976,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LoadingScene: {fileID: 0}
+  PauseMenu: {fileID: 0}
+  Tiles: {fileID: 0}
   LoadingAsset: {fileID: 0}
 --- !u!92 &1551069179
 Behaviour:
