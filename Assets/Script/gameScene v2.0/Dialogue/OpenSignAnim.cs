@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class OpenSignAnim : MonoBehaviour {
+
+    public GameObject pauseBtn; // used to activate pause button.
 
     private int count;
     bool up = false;
@@ -21,6 +24,7 @@ public class OpenSignAnim : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         //start = true;
+        pauseBtn.GetComponent<Button>().interactable = false;
         up = false;
         count = 0;
         Time.timeScale = pause_time;
@@ -82,6 +86,7 @@ public class OpenSignAnim : MonoBehaviour {
                     GameObject.Find("Map").GetComponent<TileMap1>().GeneratePathfindingGraph();
                     GameObject.Find("Map").GetComponent<TileMap1>().GenerateMapVisual();
                     LevelSelectionModal.ConfirmGameStart = true;
+                    pauseBtn.GetComponent<Button>().interactable = true;
                     Destroy(this.gameObject);
                 }
             }
@@ -90,6 +95,7 @@ public class OpenSignAnim : MonoBehaviour {
         {
             GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
             LevelSelectionModal.ConfirmGameStart = true;
+            pauseBtn.GetComponent<Button>().interactable = true;
             Destroy(this.gameObject);
         }
 	}

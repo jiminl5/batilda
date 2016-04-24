@@ -9,10 +9,13 @@ public class LevelSelectionModal : MonoBehaviour {
     public GameObject LoadingScene;
     public GameObject PauseMenu;
     public GameObject Tiles;
+    public GameObject[] MainMenuBtns;
+
     public Image LoadingAsset;
     AsyncOperation async;
     public static bool ConfirmGameStart = false;
     public static bool PauseActive;
+    public bool QuitActive;
  
     public void loadLevel(string level_name)
     {
@@ -22,6 +25,7 @@ public class LevelSelectionModal : MonoBehaviour {
     void Start()
     {
         PauseActive = false;
+        QuitActive = false;
         if (SceneManager.GetSceneAt(0).name == "gdMainMenu")
             StartCoroutine(GameSceneCoroutine());
         else if (SceneManager.GetActiveScene().name == "gameResult")
@@ -74,7 +78,9 @@ public class LevelSelectionModal : MonoBehaviour {
         if (SceneManager.GetSceneAt(0).name == "gdMainMenu")
         {
             if (Input.GetKeyDown("escape"))
-                Application.Quit();
+            {
+                SetQuitMenu();
+            }
         }
         else if (SceneManager.GetSceneAt(0).name == "v2.0" && ConfirmGameStart)
         {
@@ -84,6 +90,33 @@ public class LevelSelectionModal : MonoBehaviour {
             }
         }
 
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void SetQuitMenu()
+    {
+        if (!QuitActive)
+        {
+            foreach (GameObject go in MainMenuBtns)
+            {
+                go.GetComponent<Button>().interactable = false;
+            }
+            PauseMenu.SetActive(true);
+            QuitActive = true;
+        }
+        else if(QuitActive)
+        {
+            foreach (GameObject go in MainMenuBtns)
+            {
+                go.GetComponent<Button>().interactable = true;
+            }
+            PauseMenu.SetActive(false);
+            QuitActive = false;
+        }
     }
 
     public void SetPauseMenu()
