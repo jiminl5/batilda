@@ -50,9 +50,24 @@ public class Customer : MonoBehaviour {
         //moneyParticle = Instantiate(Resources.Load("Coins"), transform.position, Quaternion.identity) as GameObject;
         //moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
     }
-	
+
 	// Update is called once per frame
 	void Update () {
+        //Added by Jimmy 2016-04-24
+        if (LevelSelectionModal.PauseActive && this.transform.childCount != 0)
+        {
+            if (this.transform.GetChild(0).GetComponent<BoxCollider2D>())
+                this.transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
+            else if (this.transform.GetChild(1).GetComponent<BoxCollider2D>())
+                this.transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = false;
+        }
+        else if (!LevelSelectionModal.PauseActive && this.transform.childCount != 0)
+        {
+            if (this.transform.GetChild(0).GetComponent<BoxCollider2D>())
+                this.transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = true;
+            else if (this.transform.GetChild(1).GetComponent<BoxCollider2D>())
+                this.transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = true;
+        }
 		//Debug.Log (hasFood);
 		//Debug.Log (waitingOnFood);
         if (needsToOrder)

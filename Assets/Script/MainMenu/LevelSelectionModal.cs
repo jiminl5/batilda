@@ -9,11 +9,16 @@ public class LevelSelectionModal : MonoBehaviour {
     public GameObject LoadingScene;
     public GameObject PauseMenu;
     public GameObject Tiles;
-    public GameObject[] MainMenuBtns;
+    public GameObject[] MainMenuBtns; //Used to deactivate menu buttons
+    public GameObject[] MainMenuAssets; // Used to re-activate
+    public GameObject[] GoBtns; // Used To Deactivate gobtns.
+    public GameObject[] TutorialAssets;
+    public GameObject LevelSelectionPanel;
+    public GameObject LevelDetail;
 
     public Image LoadingAsset;
     AsyncOperation async;
-    public static bool ConfirmGameStart = false;
+    public static bool ConfirmGameStart;
     public static bool PauseActive;
     public bool QuitActive;
  
@@ -24,6 +29,7 @@ public class LevelSelectionModal : MonoBehaviour {
     }
     void Start()
     {
+        ConfirmGameStart = false;
         PauseActive = false;
         QuitActive = false;
         if (SceneManager.GetSceneAt(0).name == "gdMainMenu")
@@ -79,7 +85,30 @@ public class LevelSelectionModal : MonoBehaviour {
         {
             if (Input.GetKeyDown("escape"))
             {
-                SetQuitMenu();
+                if (!LevelSelectionPanel.activeSelf && !LevelDetail.activeSelf)
+                {
+                    SetQuitMenu();
+                }
+                else if (LevelSelectionPanel.activeSelf && !LevelDetail.activeSelf)
+                {
+                    LevelSelectionPanel.SetActive(false);
+                    foreach (GameObject go in MainMenuAssets)
+                    {
+                        go.SetActive(true);
+                    }
+                    foreach (GameObject go in GoBtns)
+                    {
+                        go.SetActive(false);
+                    }
+                }
+                else if (LevelSelectionPanel.activeSelf && LevelDetail.activeSelf)
+                {
+                    LevelDetail.SetActive(false);
+                    foreach (GameObject go in GoBtns)
+                    {
+                        go.SetActive(false);
+                    }
+                }
             }
         }
         else if (SceneManager.GetSceneAt(0).name == "v2.0" && ConfirmGameStart)
@@ -127,6 +156,13 @@ public class LevelSelectionModal : MonoBehaviour {
             PauseMenu.SetActive(true);
             PauseActive = true;
             Tiles.SetActive(false);
+            if (PlayerPrefs.GetString("tutorial") == "yes")
+            {
+                foreach (GameObject go in TutorialAssets)
+                {
+                    go.GetComponent<BoxCollider2D>().enabled = false;
+                }
+            }
         }
         else if (PauseActive)
         {
@@ -134,6 +170,16 @@ public class LevelSelectionModal : MonoBehaviour {
             PauseMenu.SetActive(false);
             PauseActive = false;
             Tiles.SetActive(true);
+            if (PlayerPrefs.GetString("tutorial") == "yes")
+            {
+                foreach (GameObject go in TutorialAssets)
+                {
+                    if (go != TutorialAssets[3] && !TutorialAssets[3].GetComponent<SpriteRenderer>().enabled)
+                        go.GetComponent<BoxCollider2D>().enabled = true;
+                    else if (go == TutorialAssets[3] && TutorialAssets[3].GetComponent<SpriteRenderer>().enabled)
+                        go.GetComponent<BoxCollider2D>().enabled = true;
+                }
+            }
         }
     }
     public void QuitButton(string level_name) //Quit button in game play
