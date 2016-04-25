@@ -55,8 +55,8 @@ public class Tutorial : MonoBehaviour {
                 GameObject.Find("firewood").GetComponent<SpriteRenderer>().sortingOrder = 10;
             else if (count == 5)
                 GameObject.Find("furnace1_cheap").GetComponent<SpriteRenderer>().sortingOrder = 10;
-            else if (count == 7)
-                GameObject.Find("finished meat(Clone)").GetComponent<SpriteRenderer>().sortingOrder = 10;
+            //else if (count == 7)
+                //GameObject.Find("finished meat(Clone)").GetComponent<SpriteRenderer>().sortingOrder = 10;
             else if (count == 9)
             {
                 GameObject.Find("dish_1").GetComponent<SpriteRenderer>().sortingOrder = 10;

@@ -11256,6 +11256,15 @@ MonoBehaviour:
   PauseMenu: {fileID: 121638706}
   Tiles: {fileID: 1971178738}
   MainMenuBtns: []
+  MainMenuAssets: []
+  GoBtns: []
+  TutorialAssets:
+  - {fileID: 1281483721}
+  - {fileID: 1503096181}
+  - {fileID: 1982025687}
+  - {fileID: 141035826}
+  LevelSelectionPanel: {fileID: 0}
+  LevelDetail: {fileID: 0}
   LoadingAsset: {fileID: 0}
   QuitActive: 0
 --- !u!114 &2033789296

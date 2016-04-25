@@ -54,22 +54,42 @@ public class Customer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Added by Jimmy 2016-04-24
-        if (LevelSelectionModal.PauseActive && this.transform.childCount != 0)
+        if (LevelSelectionModal.PauseActive && this.transform.childCount != 0 && PlayerPrefs.GetString("tutorial") != "yes")
         {
             if (this.transform.GetChild(0).GetComponent<BoxCollider2D>())
                 this.transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
             else if (this.transform.GetChild(1).GetComponent<BoxCollider2D>())
                 this.transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = false;
         }
-        else if (!LevelSelectionModal.PauseActive && this.transform.childCount != 0)
+        else if (!LevelSelectionModal.PauseActive && this.transform.childCount != 0 && PlayerPrefs.GetString("tutorial") != "yes")
         {
             if (this.transform.GetChild(0).GetComponent<BoxCollider2D>())
                 this.transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = true;
             else if (this.transform.GetChild(1).GetComponent<BoxCollider2D>())
                 this.transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = true;
         }
-		//Debug.Log (hasFood);
-		//Debug.Log (waitingOnFood);
+        //Tutorial
+        if (LevelSelectionModal.PauseActive && this.transform.childCount != 0 && PlayerPrefs.GetString("tutorial") == "yes")
+        {
+            if (this.transform.GetChild(0).GetComponent<BoxCollider2D>())
+                this.transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
+            else if (this.transform.GetChild(1).GetComponent<BoxCollider2D>())
+                this.transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = false;
+        }
+        else if (!LevelSelectionModal.PauseActive && this.transform.childCount != 0 && PlayerPrefs.GetString("tutorial") == "yes")
+        {
+            if (this.transform.GetChild(0).GetComponent<BoxCollider2D>() && !GameObject.Find("bg_trans").GetComponent<SpriteRenderer>().enabled)
+                this.transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = true;
+            else if (this.transform.GetChild(1).GetComponent<BoxCollider2D>() && !GameObject.Find("bg_trans").GetComponent<SpriteRenderer>().enabled)
+                this.transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = true;
+            else if (this.transform.GetChild(0).GetComponent<BoxCollider2D>() && GameObject.Find("bg_trans").GetComponent<SpriteRenderer>().enabled)
+                this.transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
+            else if (this.transform.GetChild(1).GetComponent<BoxCollider2D>() && GameObject.Find("bg_trans").GetComponent<SpriteRenderer>().enabled)
+                this.transform.GetChild(1).GetComponent<BoxCollider2D>().enabled = false;
+        }
+            
+        //Debug.Log (hasFood);
+        //Debug.Log (waitingOnFood);
         if (needsToOrder)
         {
             //play anim of waving hand
