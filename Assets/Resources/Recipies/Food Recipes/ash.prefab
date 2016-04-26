@@ -41,7 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: ash
   timeToMake: 0
-  ingredient: none
+  ingredient: ash_grill
   finishedDish: {fileID: 122128, guid: a6699bfad34ba204fb2cc02b1afa2e2e, type: 2}
   go: {fileID: 163402, guid: 3e7510f1658765d419394d03c5b619cf, type: 2}
 --- !u!1001 &100100000
