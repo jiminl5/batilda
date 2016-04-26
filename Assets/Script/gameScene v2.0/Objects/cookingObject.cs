@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class cookingObject : MonoBehaviour {
-	//public string name;
-	public string food_cooking_name;
+    //public string name;
+    const int burn_time = 8;
+
+    public string food_cooking_name;
 
 	public Recipie recipie1;
 	public Recipie recipie2;
@@ -31,8 +33,16 @@ public class cookingObject : MonoBehaviour {
 	public float finish_time;
 	public float time_to_cook;
 	public bool timeSaved = false;
-	
-	private GameObject foodSprite;
+
+    public bool canBurn;
+    public bool burned = false;
+    public float burn_start_time;
+    public float burn_finish_time;
+    public float burn_time_to_cook;
+    public bool burn_timeSaved = false;
+    public bool burn_time_start = false;
+
+    private GameObject foodSprite;
     public GameObject cookingSpriteIdle;
     private GameObject _cookingSpriteIdle;
     public GameObject cookingSprite;
@@ -89,7 +99,7 @@ public class cookingObject : MonoBehaviour {
 			if (isCooking && furnaceOn && !timeSaved) 
 			{
 				//furnace is off, save time to cook.
-				timeSaved = true;
+			    timeSaved = true;
 				time_to_cook += Time.time; //add Time.time, to get new end time when furnace starts up again.
 				start_time = Time.time;
 				Debug.Log ("TIME TO COOK: " + time_to_cook);
@@ -102,7 +112,46 @@ public class cookingObject : MonoBehaviour {
 				} else {
 					//do nothing, wait for food to cook.
 				}
-			} 
+			}
+            else if (food_ready && canBurn)
+            {
+                if (burn_time_start)
+                {
+                    burn_start_time = Time.time;
+                }
+                if (furnaceOn)
+                {
+                    if (!burn_timeSaved)
+                    {
+                        burn_timeSaved = true;
+                        burn_time_to_cook += Time.time; //add Time.time, to get new end time when furnace starts up again.
+                        burn_start_time = Time.time;
+                    }
+                    //burn timer
+                    if (Time.time >= burn_time_to_cook && !burned)
+                    {
+                        //burned!
+                        if (name.Contains("grill"))
+                        {
+                            current_recipie = findRecipe("ash_grill");
+                            Destroy(foodSprite);
+                            foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
+                            Debug.Log("burned!");
+                            burned = true;
+                        }
+                        else if (name.Contains("oven"))
+                        {
+                            burned = true;
+                        }
+                        //current_recipie = Resources.Load()
+                    }
+                }
+                else if (!furnaceOn)
+                {
+                    burn_timeSaved = false;
+                    burn_time_to_cook -= Time.time;
+                }
+            }
 
 		} else {
 			if (!isCooking && !food_ready) {
@@ -114,6 +163,7 @@ public class cookingObject : MonoBehaviour {
 		}
 		if (!food_ready && foodSprite) {
 			Destroy (foodSprite);
+            burned = false;
 		}
 	}
 
@@ -132,6 +182,10 @@ public class cookingObject : MonoBehaviour {
 		this.GetComponent<Animator> ().SetBool ("on", false);
         isCooking = false;
         food_ready = true;
+        burn_time_start = true;
+        burn_start_time = Time.time;
+        burn_time_to_cook = burn_time + Time.time;
+        burn_timeSaved = true;
         //update sprite;
         foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
         Destroy(_cookingSprite);

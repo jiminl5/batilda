@@ -1625,6 +1625,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 0
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 100134, guid: e0456ca16e7039345af22c344f2c52d8, type: 2}
   cookingSprite: {fileID: 162502, guid: e2c81a2f4af9e2a40a678ce655c4c23d, type: 2}
   current_recipie: {fileID: 0}
@@ -2001,6 +2007,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
@@ -2338,6 +2350,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &498778238
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.896878
+      objectReference: {fileID: 0}
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.5015736
+      objectReference: {fileID: 0}
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.484375
+      objectReference: {fileID: 0}
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 408670, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &522387267
 GameObject:
   m_ObjectHideFlags: 0
@@ -3169,6 +3223,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
@@ -3950,6 +4010,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -4636,6 +4702,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -7250,6 +7322,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
@@ -7855,6 +7933,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -9533,6 +9617,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 117612, guid: 48bb834e7d99b074e8156bd1d41f8cc0, type: 2}
   cookingSprite: {fileID: 131538, guid: 13494c634b4a2d74994e478d5b2dfbf4, type: 2}
   current_recipie: {fileID: 0}
@@ -10750,6 +10840,12 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  canBurn: 1
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
   cookingSpriteIdle: {fileID: 105240, guid: cfd5b961c2c873e41af9309ae7c2e542, type: 2}
   cookingSprite: {fileID: 190756, guid: 33908ae09295205468bfd527585f9d2d, type: 2}
   current_recipie: {fileID: 0}
