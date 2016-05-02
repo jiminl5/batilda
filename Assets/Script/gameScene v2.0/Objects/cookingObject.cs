@@ -134,15 +134,17 @@ public class cookingObject : MonoBehaviour {
                         if (name.Contains("grill"))
                         {
                             current_recipie = findRecipe("ash_grill");
-                            Destroy(foodSprite);
-                            foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
-                            Debug.Log("burned!");
-                            burned = true;
                         }
                         else if (name.Contains("oven"))
                         {
-                            burned = true;
+                            Debug.Log(name);
+                            current_recipie = findRecipe("ash_oven");
                         }
+                        Debug.Log("burned!");
+                        Destroy(foodSprite);
+                        foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
+                        //Debug.Log("burned!");
+                        burned = true;
                         //current_recipie = Resources.Load()
                     }
                 }
