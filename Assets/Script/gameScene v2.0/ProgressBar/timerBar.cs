@@ -12,6 +12,7 @@ public class timerBar : MonoBehaviour {
     public float cookingTime;
     public int identify_tool;
     private Material mat;
+    
 	void Start () {
         mat = Resources.Load("Sprite Shader") as Material;
 	}

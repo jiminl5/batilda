@@ -38,7 +38,7 @@ public class doughObject : MonoBehaviour {
 			this.GetComponent<stopWatchObject> ().timeInSeconds = timeToMakeDough;
 			this.GetComponent<stopWatchObject> ().not_cooking = false;
             // 0 - grills, 1 - ovens, 2 - cuttingboard, 3 - rolling and so on
-            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(5, 1.9f, timeToMakeDough, 3); //2016-02-24 by Jimmy
+            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(5, 1.9f, timeToMakeDough, 3, ""); //2016-02-24 by Jimmy
             Invoke("addDough", timeToMakeDough);
 			waitingOnDough = true;
 		}
