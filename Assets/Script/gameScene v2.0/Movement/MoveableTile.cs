@@ -199,7 +199,7 @@ public class MoveableTile : MonoBehaviour {
     void DoAction()
     {
         //CHEF
-        //print("mtX: " + mtX + ", mtY: " + mtY);
+        print("mtX: " + mtX + ", mtY: " + mtY);
         if (clickable && (Unit.unit_queue.Count <= 10 && Chef.obj_queue.Count <= 10) && (Unit1.unit_queue1.Count <= 10 && Waitress.obj_queue1.Count <= 10)
         && check_Queue.Count <= 10 && check_Queue_1.Count <= 10)
         {
@@ -225,9 +225,12 @@ public class MoveableTile : MonoBehaviour {
                 // top shelf
                 else if ((mtY == 6 || mtY == 7) && (mtX >= 1 && mtX < 5))
                 {
-                    if (mtY == 7)
-                        mtY -= 1;
-                    map.GeneratePathTo(mtX, mtY - 1);
+                    if (mtY == 7 && (mtX == 1 || mtX == 2))
+                    {
+                        map.GeneratePathTo(mtX, mtY - 2);
+                    }
+                    else
+                        map.GeneratePathTo(mtX, mtY - 1);
                 }
                 else if (mtY >= 3 && mtX == 2) // Grill
                 {
