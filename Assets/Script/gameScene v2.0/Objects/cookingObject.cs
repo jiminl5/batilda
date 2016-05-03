@@ -177,6 +177,7 @@ public class cookingObject : MonoBehaviour {
 
     void createBurnTimer_()
     {
+        //BURN TIMER GRILL
         if (this.name == "grill 1")
         {
             GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(2, 4, burn_time, 4, this.name);
@@ -192,6 +193,23 @@ public class cookingObject : MonoBehaviour {
         if (this.name == "grill 4")
         {
             GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(3, 2.9f, burn_time, 4, this.name);
+        }
+        //BURN TIMER OVEN
+        if (this.name == "oven 4")
+        {
+            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(1, 7, burn_time, 4, this.name);
+        }
+        if (this.name == "oven 3")
+        {
+            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtUpper(2, 7, burn_time, 4, this.name);
+        }
+        if (this.name == "oven 2")
+        {
+            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(1, 5.9f, burn_time, 4, this.name);
+        }
+        if (this.name == "oven 1")
+        {
+            GameObject.Find("Main Camera").GetComponent<timerObject>().genTimerAtLower(2, 5.9f, burn_time, 4, this.name);
         }
     }
 
