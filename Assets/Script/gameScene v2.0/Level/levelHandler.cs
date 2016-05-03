@@ -996,7 +996,7 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 14;
+            numberofCustomers = 12;
             foodList = "bread;bread;apple cider;apple cider;grilledMeat;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
 			selectedSoundtrack = GameplaySoundtracks [2];
 
