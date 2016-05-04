@@ -1625,6 +1625,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 0
   burned: 0
   burn_start_time: 0
@@ -2008,6 +2009,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0
@@ -3225,6 +3227,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0
@@ -4013,6 +4016,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0
@@ -4706,6 +4710,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0
@@ -7327,6 +7332,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0
@@ -7939,6 +7945,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0
@@ -9624,6 +9631,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0
@@ -10894,6 +10902,7 @@ MonoBehaviour:
   finish_time: 0
   time_to_cook: 0
   timeSaved: 0
+  isBurning: 0
   canBurn: 1
   burned: 0
   burn_start_time: 0

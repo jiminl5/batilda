@@ -14,7 +14,7 @@ public class burnBar : MonoBehaviour
     public int identify_tool;
     private Material mat;
     public string asset_name;
-   
+    GameObject fire;
     void Start()
     {
         mat = Resources.Load("Sprite Shader") as Material;
@@ -41,6 +41,12 @@ public class burnBar : MonoBehaviour
         if (timeBar.GetComponent<Image>().fillAmount <= 0 || !GameObject.Find(asset_name).GetComponent<cookingObject>().food_ready)
         {
             Destroy(this.transform.parent.parent.gameObject);
+        }
+        if (!fire)
+        {
+            fire = Instantiate(Resources.Load("fire") as GameObject);
+            fire.transform.position = this.gameObject.transform.position + new Vector3(0,.25f,0);
+            fire.transform.parent = this.gameObject.transform;
         }
     }
 }
