@@ -34,6 +34,7 @@ public class cookingObject : MonoBehaviour {
 	public float time_to_cook;
 	public bool timeSaved = false;
 
+    public bool isBurning = false;
     public bool canBurn;
     public bool burned = false;
     public float burn_start_time;
@@ -118,21 +119,34 @@ public class cookingObject : MonoBehaviour {
 					//do nothing, wait for food to cook.
 				}
 			}
-            else if (food_ready && canBurn)
+            else if (food_ready && canBurn && isBurning)
             {
+                /*
                 if (burn_time_start)
                 {
                     burn_start_time = Time.time;
+                    burn_time_start = false;
+                }
+                */
+                if (!furnaceOn && burn_timeSaved)
+                {
+                    burn_timeSaved = false;
+                    burn_time_to_cook -= Time.time; //time to cook - currnet time = new time to cook.
                 }
                 if (furnaceOn)
                 {
                     if (!burn_timeSaved)
                     {
+                        //furnace is off, save time to cook.
                         burn_timeSaved = true;
                         burn_time_to_cook += Time.time; //add Time.time, to get new end time when furnace starts up again.
                         burn_start_time = Time.time;
+                        Debug.Log("BURN TIME TO COOK: " + burn_time_to_cook);
+                        Debug.Log("TIME: " + Time.time);
                     }
                     //burn timer
+                    //Debug.Log("burn time:" + burn_time_to_cook);
+                    //Debug.Log("time: " + Time.time);
                     if (Time.time >= burn_time_to_cook && !burned)
                     {
                         //burned!
@@ -150,13 +164,15 @@ public class cookingObject : MonoBehaviour {
                         foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
                         //Debug.Log("burned!");
                         burned = true;
+                        isBurning = false;
+                        burn_time_start = true;
                         //current_recipie = Resources.Load()
                     }
                 }
                 else if (!furnaceOn)
                 {
-                    burn_timeSaved = false;
-                    burn_time_to_cook -= Time.time;
+                    //burn_timeSaved = false;
+                    //burn_time_to_cook -= Time.time;
                 }
             }
 
@@ -272,6 +288,7 @@ public class cookingObject : MonoBehaviour {
         burn_start_time = Time.time;
         burn_time_to_cook = burn_time + Time.time;
         burn_timeSaved = true;
+        isBurning = true;
         //update sprite;
         foodSprite = Instantiate(current_recipie.finishedDish, transform.position, transform.rotation) as GameObject;
 
