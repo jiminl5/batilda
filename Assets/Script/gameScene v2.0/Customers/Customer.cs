@@ -156,8 +156,24 @@ public class Customer : MonoBehaviour {
                 if (foodQueue.Count == 0 && !angryLeave) //Added boolean - angryLeave
                 {
                     CustomerExit();
-                    moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
-                    moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 20;
+                    if (this.gameObject.transform.parent.gameObject.name.Contains("Peasant"))
+                    {
+                        moneySprite = Instantiate(Resources.Load("Money/money_0") as GameObject);
+                    }
+                    if (this.gameObject.transform.parent.gameObject.name.Contains("Artisan"))
+                    {
+                        moneySprite = Instantiate(Resources.Load("Money/money_1") as GameObject);
+                    }
+                    if (this.gameObject.transform.parent.gameObject.name.Contains("Middle Class"))
+                    {
+                        moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject);
+                    }
+                    if (this.gameObject.transform.parent.gameObject.name.Contains("Noble"))
+                    {
+                        moneySprite = Instantiate(Resources.Load("Money/money_3") as GameObject);
+                    }
+                    //moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
+                    moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 3;
                     moneySprite.transform.position = new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.5f);
                     moneyOn = true;
                     moodSprite = Instantiate(Resources.Load("smile"), new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
