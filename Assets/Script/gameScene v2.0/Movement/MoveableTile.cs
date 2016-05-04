@@ -222,15 +222,22 @@ public class MoveableTile : MonoBehaviour {
                 {
                     map.GeneratePathTo(mtX, mtY + 1);
                 }
-                // top shelf
+                // top shelf --------OVENS
                 else if ((mtY == 6 || mtY == 7) && (mtX >= 1 && mtX < 5))
                 {
                     if (mtY == 7 && (mtX == 1 || mtX == 2))
                     {
                         map.GeneratePathTo(mtX, mtY - 2);
                     }
-                    else
+                    else if (mtY == 7 && (mtX == 3 || mtX == 4))
+                    {
+                        mtY -= 1;
                         map.GeneratePathTo(mtX, mtY - 1);
+                    }
+                    else
+                    {
+                        map.GeneratePathTo(mtX, mtY - 1);
+                    }
                 }
                 else if (mtY >= 3 && mtX == 2) // Grill
                 {
