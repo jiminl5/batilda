@@ -703,7 +703,7 @@ public class levelHandler : MonoBehaviour {
             numberofCustomers = 6;
             foodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
 
-            levelTime = 100;
+            levelTime = 90;
 			selectedSoundtrack = GameplaySoundtracks [1];
         }
 
@@ -743,9 +743,9 @@ public class levelHandler : MonoBehaviour {
             furnace = "cheap";
 
             numberofCustomers = 8;
-            foodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
+            foodList = "grilledMeat;grilledMeat;bread;bread;grilled fish;grilled fish;grilled fish";
 
-            levelTime = 121;
+            levelTime = 120;
 			selectedSoundtrack = GameplaySoundtracks [0];
 
         }
@@ -785,10 +785,13 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            numberofCustomers = 10;
-            foodList = "grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;apple cider;apple cider;apple cider";
+            numberofCustomers = 4;
+            numArtisans = 3;
+            artisanFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "bread;grilled fish".Split(';'));
+            foodList = "apple cider";
 
-            levelTime = 121;
+            levelTime = 90;
 			selectedSoundtrack = GameplaySoundtracks [2];
         }
 
@@ -827,10 +830,13 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            numberofCustomers = 11;
-            foodList = "apple cider;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat;grilledMeat;grilledMeat";
+            numberofCustomers = 6;
+            numArtisans = 3;
+            artisanFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilledMeat;bread".Split(';'));
+            foodList = "bread;grilledMeat;apple cider";
 
-            levelTime = 121;
+            levelTime = 120;
             selectedSoundtrack = GameplaySoundtracks[2];
         }
 
@@ -869,10 +875,13 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            numberofCustomers = 12;
-            foodList = "apple cider;apple cider;bread;bread;bread;bread;bread;grilled fish;grilled fish;grilled fish;grilledMeat;grilledMeat";
+            numberofCustomers = 7;
+            numArtisans = 2;
+            artisanFoodList.Add("drinks", "apple cider;apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilledMeat;grilled onion".Split(';'));
+            foodList = "grilled onion;grilled onion;grilled fish;apple cider;apple cider";
 
-            levelTime = 121;
+            levelTime = 12;
             selectedSoundtrack = GameplaySoundtracks[2];
         }
 
@@ -911,8 +920,11 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            numberofCustomers = 10;
-            foodList = "grilledMeat;grilledMeat;bread;bread;apple cider;apple cider;apple cider;grilled onion;grilled onion;grilled onion";
+            numberofCustomers = 8;
+            numArtisans = 3;
+            artisanFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilled fish;grilled carrot".Split(';'));
+            foodList = "grilled carrot;grilled carrot;grilled onion;bread;grilledMeat";
 
             levelTime = 150;
 			selectedSoundtrack = GameplaySoundtracks [2];
@@ -954,11 +966,17 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            numberofCustomers = 12;
-            foodList = "grilledMeat;grilledMeat;grilledMeat;bread;bread;bread;bread;apple cider;apple cider;grilled onion;grilled onion;grilled fish";
+            numberofCustomers = 3;
+            numArtisans = 1;
+            numMiddle = 1;
+            artisanFoodList.Add("drinks", "apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilledMeat".Split(';'));
+            middleFoodList.Add("drinks", "apple cider".Split(';'));
+            middleFoodList.Add("entrees", "grilledMeat;bread".Split(';'));
+            foodList = "bread";
 			selectedSoundtrack = GameplaySoundtracks [2];
 
-            levelTime = 150;
+            levelTime = 120;
         }
 
         else if (PlayerPrefs.GetInt("level") == 10) //level ten
