@@ -3,7 +3,7 @@ using System.Collections;
 
 public class cookingObject : MonoBehaviour {
     //public string name;
-    const int burn_time = 8;
+    const int burn_time = 14;        // Note to Ceci: change burn time here
 
     public string food_cooking_name;
 
