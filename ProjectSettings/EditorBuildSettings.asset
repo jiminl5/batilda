@@ -17,7 +17,7 @@ EditorBuildSettings:
     path: Assets/Scenes/levelSelect/month1/level1.unity
   - enabled: 0
     path: Assets/Scenes/spellShop.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/upgradeShop.unity
   - enabled: 1
     path: Assets/Scenes/gdMainMenu.unity
