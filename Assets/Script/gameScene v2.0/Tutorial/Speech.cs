@@ -15,10 +15,8 @@ public class Speech : MonoBehaviour {
         {
             if (GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 0 && GameObject.Find("speechBubble").GetComponent<SpriteRenderer>().enabled)
             {
-                //key_text.text = "steak123123!";
-                //key_text.fontStyle = FontStyle.Bold;
                 speech_text.enabled = true;
-                speech_text.text = "";
+                speech_text.text = "We're open for business! First, let's wait for a <color=#B43104><b>customer</b></color>...";
                 start_speech = false;
             }
         }
