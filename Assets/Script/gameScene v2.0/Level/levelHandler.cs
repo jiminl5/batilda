@@ -1259,7 +1259,7 @@ public class levelHandler : MonoBehaviour {
         {
             peasantFoodQueue.Enqueue(food);
         }
-        PlayerPrefs.SetInt("tempCustomer", peasantFoodQueue.Count);
+        PlayerPrefs.SetInt("tempCustomer", customerQueue.Count);
         customersWaiting = customerQueue.Count;
 		totalCustomersInLevel = numberofCustomers;
 		customersLeft = customersWaiting;

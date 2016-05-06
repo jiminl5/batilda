@@ -7,14 +7,13 @@ public class drinkObject : MonoBehaviour {
 
 	public int maxDrinks;
 
-	private bool waitingOnDrink = false;
+	public bool waitingOnDrink = false;
     public int timeToMakeDrink;
 
     public Sprite drink1;
     public Sprite drink2;
     public Sprite drink3;
     public Sprite drink4;
-
 
     //public Color c;
     // Use this for initialization
@@ -61,13 +60,16 @@ public class drinkObject : MonoBehaviour {
 			//this.GetComponent<SpriteRenderer> ().color = Color.red;
 			Invoke("addDrink", timeToMakeDrink);
 			waitingOnDrink = true;
+            this.transform.GetChild(1).gameObject.SetActive(true);
 		}
 	}
 
 	void addDrink() {
 		numberOfDrinks += 1;
 		waitingOnDrink = false;
-		//this.GetComponent<SpriteRenderer> ().color = Color.white;
-	}
+        if (numberOfDrinks == maxDrinks)
+            this.transform.GetChild(1).gameObject.SetActive(false);
+        //this.GetComponent<SpriteRenderer> ().color = Color.white;
+    }
 
 }
