@@ -1984,7 +1984,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d442f41f4c2b2c143bf7ffeae7f273e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff34ff8766d746e47ba5acd05bcb963b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6131,6 +6131,7 @@ MonoBehaviour:
   GoBtns:
   - {fileID: 1135614780}
   - {fileID: 169097561}
+  TutorialAssets: []
   LevelSelectionPanel: {fileID: 1544730348}
   LevelDetail: {fileID: 1791373892}
   LoadingAsset: {fileID: 0}
@@ -6538,10 +6539,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 368534570}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.014319809, y: 0.120000005}
-  m_AnchorMax: {x: 0.9798068, y: 0.86936945}
-  m_AnchoredPosition: {x: 2.5, y: 2.5}
-  m_SizeDelta: {x: 7, y: 6}
+  m_AnchorMin: {x: 0.014319809, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.9099426, y: 1.1362305}
+  m_SizeDelta: {x: 21.44, y: 63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1621559307
 MonoBehaviour:
@@ -6562,7 +6563,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0bf1b5da008e7ee4a9dbd696f6fee01e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff34ff8766d746e47ba5acd05bcb963b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
