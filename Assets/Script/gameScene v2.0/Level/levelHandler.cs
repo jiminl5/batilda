@@ -1210,7 +1210,7 @@ public class levelHandler : MonoBehaviour {
             //foodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
             foodList = "wine;wine;bread;grilled carrot";
             artisanFoodList.Add("drinks", "wine;wine;wine;apple cider;apple cider".Split(';'));
-            artisanFoodList.Add("entrees", "grilledMeat;grilled fish;griled onion".Split(';'));
+            artisanFoodList.Add("entrees", "grilledMeat;grilled fish;grilled onion".Split(';'));
 
             numArtisans = 4;
 
