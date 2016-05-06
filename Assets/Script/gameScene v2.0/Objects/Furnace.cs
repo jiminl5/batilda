@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class Furnace : MonoBehaviour {
+    public GameObject FurnaceTimer;
+
 	public bool isOn = false;
 	public bool hasFirewood = false;
 
@@ -14,6 +16,7 @@ public class Furnace : MonoBehaviour {
 
 	private float maxTime = 30;
 	private float currentTime;
+    public static float currentTime_;
 
     private GameObject _smoke;
     private ParticleSystem smoke;
@@ -37,7 +40,10 @@ public class Furnace : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (isOn) {
+            //Furnace Timer Visual - 2016-05-06 by Jimmy
+            FurnaceTimer.transform.gameObject.SetActive(true);
 			currentTime -= Time.deltaTime;
+            currentTime_ = currentTime;
 			if ( !playFireLoop) //currentTime <= maxTime - 12 &
             {
                 playFireLoop = true;
@@ -51,7 +57,8 @@ public class Furnace : MonoBehaviour {
 			}
 		}
 		else if (!isOn) {
-			GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = false;
+            FurnaceTimer.transform.gameObject.SetActive(false);
+            GameObject.Find ("/Environment Assets/fire_0").GetComponent<SpriteRenderer> ().enabled = false;
             if (!smokeOn)
             {
                 smoke.Play();
