@@ -972,6 +972,7 @@ public class levelHandler : MonoBehaviour {
             artisanFoodList.Add("drinks", "apple cider".Split(';'));
             artisanFoodList.Add("entrees", "grilledMeat".Split(';'));
             middleFoodList.Add("drinks", "apple cider".Split(';'));
+            middleFoodList.Add("sides", "".Split(';'));
             middleFoodList.Add("entrees", "grilledMeat;bread".Split(';'));
             foodList = "bread";
 			selectedSoundtrack = GameplaySoundtracks [2];
