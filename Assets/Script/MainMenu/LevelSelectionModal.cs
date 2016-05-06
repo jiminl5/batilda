@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelectionModal : MonoBehaviour {
 
+    public GameObject MonthOneLevels;
+    public GameObject BackToMainMenuBtn;
+
     public GameObject LoadingScene;
     public GameObject PauseMenu;
     public GameObject Tiles;
@@ -104,6 +107,7 @@ public class LevelSelectionModal : MonoBehaviour {
                 else if (LevelSelectionPanel.activeSelf && LevelDetail.activeSelf)
                 {
                     LevelDetail.SetActive(false);
+                    EnableMonthBtn();
                     foreach (GameObject go in GoBtns)
                     {
                         go.SetActive(false);
@@ -209,5 +213,28 @@ public class LevelSelectionModal : MonoBehaviour {
         MoveableTile.check_Queue_1.Clear();
         Unit.unit_queue.Clear();
         Unit1.unit_queue1.Clear();
+    }
+
+    public void DisableMonthBtn()
+    {
+        BackToMainMenuBtn.GetComponent<Button>().interactable = false;
+        foreach (Transform child in MonthOneLevels.transform)
+        {
+            foreach (Transform child_ in child.transform)
+            {
+                child_.GetComponent<Button>().interactable = false;
+            }
+        }
+    }
+    public void EnableMonthBtn()
+    {
+        BackToMainMenuBtn.GetComponent<Button>().interactable = true;
+        foreach (Transform child in MonthOneLevels.transform)
+        {
+            foreach (Transform child_ in child.transform)
+            {
+                child_.GetComponent<Button>().interactable = true;
+            }
+        }
     }
 }
