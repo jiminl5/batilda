@@ -218,6 +218,7 @@ public class LevelSelectionModal : MonoBehaviour {
     public void DisableMonthBtn()
     {
         BackToMainMenuBtn.GetComponent<Button>().interactable = false;
+        BackToMainMenuBtn.GetComponent<Image>().enabled = false;
         foreach (Transform child in MonthOneLevels.transform)
         {
             foreach (Transform child_ in child.transform)
@@ -229,6 +230,7 @@ public class LevelSelectionModal : MonoBehaviour {
     public void EnableMonthBtn()
     {
         BackToMainMenuBtn.GetComponent<Button>().interactable = true;
+        BackToMainMenuBtn.GetComponent<Image>().enabled = true;
         foreach (Transform child in MonthOneLevels.transform)
         {
             foreach (Transform child_ in child.transform)
