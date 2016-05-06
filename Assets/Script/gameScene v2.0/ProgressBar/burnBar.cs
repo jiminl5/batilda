@@ -29,7 +29,6 @@ public class burnBar : MonoBehaviour
             timeBar.GetComponent<Image>().material = null;
             temp_Time -= Time.deltaTime;
             timeBar.GetComponent<Image>().fillAmount = temp_Time / burnTime;
-            print(timeBar.GetComponent<Image>().fillAmount);
         }
         else if (!GameObject.Find("furnace").GetComponent<Furnace>().isOn)
         {
