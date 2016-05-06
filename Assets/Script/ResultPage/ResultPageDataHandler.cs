@@ -9,6 +9,7 @@ public class ResultPageDataHandler : MonoBehaviour {
 
     private int _tempCoin = 0;
     public Text _tempCoinTxt;
+    private int _coinDisplay = 0;
 
     private bool not_zero;
 
@@ -25,7 +26,8 @@ public class ResultPageDataHandler : MonoBehaviour {
 
         _tempCoin = PlayerPrefs.GetInt("temp_coin");
         _tempCoinTxt = GameObject.Find("/Right_Canvas/Right_Panel/row2/CoinAmt_Inst").GetComponent<Text>();
-        _tempCoinTxt.text = _tempCoin.ToString();
+        _tempCoinTxt.text = _coinDisplay.ToString();
+        //_tempCoinTxt.text = _tempCoin.ToString();
 
         if (_tempCoin == 0)
             not_zero = false;
@@ -46,7 +48,9 @@ public class ResultPageDataHandler : MonoBehaviour {
             _coin += _tempCoin / _tempCoin;
             //_coinTxt.text = _coin.ToString();
             _tempCoin -= 1;
-            _tempCoinTxt.text = _tempCoin.ToString();
+            _coinDisplay += 1;
+            _tempCoinTxt.text = _coinDisplay.ToString();
+            //tempCoinTxt.text = _tempCoin.ToString();
             audio.PlayOneShot(_coinSound);
             count += 1;
             if (_tempCoin == 0)
