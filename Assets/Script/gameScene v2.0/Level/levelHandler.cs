@@ -902,7 +902,7 @@ public class levelHandler : MonoBehaviour {
 
             wheatOn = true;
             cheeseOn = false;
-            carrotOn = false;
+            carrotOn = true;
             onionOn = true;
             fishOn = true;
             meatOn = true;
@@ -948,7 +948,7 @@ public class levelHandler : MonoBehaviour {
 
             wheatOn = true;
             cheeseOn = false;
-            carrotOn = false;
+            carrotOn = true;
             onionOn = true;
             fishOn = true;
             meatOn = true;
