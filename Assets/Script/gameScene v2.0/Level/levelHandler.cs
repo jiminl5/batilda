@@ -861,7 +861,7 @@ public class levelHandler : MonoBehaviour {
             wall = "tile";
             floor = "tile";
             counters = "tile";
-            furnace = "tile";
+            furnace = "mid";
 
             numberofCustomers = 6;
             numArtisans = 3;
