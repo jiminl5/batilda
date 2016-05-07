@@ -813,10 +813,10 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            wall = "cheap";
-            floor = "cheap";
-            counters = "cheap";
-            furnace = "cheap";
+            wall = "tile";
+            floor = "tile";
+            counters = "tile";
+            furnace = "mid";
 
             numberofCustomers = 4;
             numArtisans = 3;
@@ -858,10 +858,10 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            wall = "cheap";
-            floor = "cheap";
-            counters = "cheap";
-            furnace = "cheap";
+            wall = "tile";
+            floor = "tile";
+            counters = "tile";
+            furnace = "tile";
 
             numberofCustomers = 6;
             numArtisans = 3;
@@ -903,10 +903,10 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            wall = "cheap";
-            floor = "cheap";
-            counters = "cheap";
-            furnace = "cheap";
+            wall = "tile";
+            floor = "tile";
+            counters = "tile";
+            furnace = "mid";
 
             numberofCustomers = 7;
             numArtisans = 2;
@@ -948,10 +948,10 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            wall = "cheap";
-            floor = "cheap";
-            counters = "cheap";
-            furnace = "cheap";
+            wall = "tile";
+            floor = "tile";
+            counters = "tile";
+            furnace = "mid";
 
             numberofCustomers = 8;
             numArtisans = 3;
@@ -994,10 +994,10 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            wall = "cheap";
-            floor = "cheap";
-            counters = "cheap";
-            furnace = "cheap";
+            wall = "wood";
+            floor = "wood";
+            counters = "wood";
+            furnace = "fancy";
 
             numberofCustomers = 3;
             numArtisans = 1;
@@ -1042,9 +1042,9 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            wall = "fancy";
-            floor = "fancy";
-            counters = "fancy";
+            wall = "wood";
+            floor = "wood";
+            counters = "wood";
             furnace = "fancy";
 
             numberofCustomers = 5;
@@ -1091,9 +1091,9 @@ public class levelHandler : MonoBehaviour {
             honeyOn = false;
             sauceOn = false;
 
-            wall = "fancy";
-            floor = "fancy";
-            counters = "fancy";
+            wall = "wood";
+            floor = "wood";
+            counters = "wood";
             furnace = "fancy";
 
             numberofCustomers = 7;
@@ -1490,33 +1490,54 @@ public class levelHandler : MonoBehaviour {
         //WALLS
         if (wall == "cheap")
             _wall.transform.GetChild(0).gameObject.SetActive(true);
-        
-        else if (wall == "fancy")
+
+        else if (wall == "tile")
             _wall.transform.GetChild(1).gameObject.SetActive(true);
+
+        else if (wall == "wood")
+            _wall.transform.GetChild(2).gameObject.SetActive(true);
+
+        else if (wall == "fancy")
+            _wall.transform.GetChild(3).gameObject.SetActive(true);
         //
 
         //COUNTERS
         if (counters == "cheap")
             _counters.transform.GetChild(0).gameObject.SetActive(true);
 
-        else if (counters == "fancy")
+        else if (counters == "tile")
             _counters.transform.GetChild(1).gameObject.SetActive(true);
+
+        else if (counters == "wood")
+            _counters.transform.GetChild(2).gameObject.SetActive(true);
+
+        else if (counters == "fancy")
+            _counters.transform.GetChild(3).gameObject.SetActive(true);
         //
 
         //FLOOR
         if (floor == "cheap")
             _floor.transform.GetChild(0).gameObject.SetActive(true);
-        
-        else if (floor == "fancy")
+
+        else if (floor == "tile")
             _floor.transform.GetChild(1).gameObject.SetActive(true);
+
+        else if (floor == "wood")
+            _floor.transform.GetChild(2).gameObject.SetActive(true);
+
+        else if (floor == "fancy")
+            _floor.transform.GetChild(3).gameObject.SetActive(true);
         //
 
         //FURNACE
         if (furnace == "cheap")
             _furnace.transform.GetChild(0).gameObject.SetActive(true);
 
-        else if (furnace == "fancy")
+        else if (furnace == "mid")
             _furnace.transform.GetChild(1).gameObject.SetActive(true);
+
+        else if (furnace == "fancy")
+            _furnace.transform.GetChild(2).gameObject.SetActive(true);
         //
 
         //set level time
