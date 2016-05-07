@@ -2756,6 +2756,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 171672, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
+      propertyPath: m_Name
+      value: ash(Clone)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40f48a6c6aadf5f429fbbd3f8e40ceda, type: 2}
   m_IsPrefabParent: 0
@@ -10674,6 +10678,10 @@ Prefab:
     - target: {fileID: 101406, guid: d15f4d9d58467584bb0125c977257e8b, type: 2}
       propertyPath: m_TagString
       value: oven
+      objectReference: {fileID: 0}
+    - target: {fileID: 101406, guid: d15f4d9d58467584bb0125c977257e8b, type: 2}
+      propertyPath: m_Name
+      value: oven ash(Clone)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d15f4d9d58467584bb0125c977257e8b, type: 2}
