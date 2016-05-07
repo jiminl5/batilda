@@ -402,7 +402,7 @@ public class levelHandler : MonoBehaviour {
             {
 
                 r = Random.Range(0, 2);
-                if (r == 0 && drinkQueue.Count >= 2 && sideQueue.Count >= 2)
+                if (r == 0 && drinkQueue.Count >= 2 && sideQueue.Count >= 2 && entreeQueue.Count > 0)
                 { //1 entree 2 sides and 2 drinks
                     tmp_foodArray[0] = drinkQueue.Dequeue();
                     tmp_foodArray[1] = drinkQueue.Dequeue();
@@ -1316,16 +1316,16 @@ public class levelHandler : MonoBehaviour {
             numArtisans = 2;
             numMiddle = 1;
             numNobles = 2;
-            artisanFoodList.Add("drinks", "apple cider;wine".Split(';'));
-            artisanFoodList.Add("entrees", "grilled onion;grilledMeat".Split(';'));
+            artisanFoodList.Add("drinks", "apple cider;wine;wine".Split(';'));
+            artisanFoodList.Add("entrees", "grilled onion".Split(';'));
 
-            middleFoodList.Add("drinks", "apple cider".Split(';'));
-            middleFoodList.Add("sides", "bread".Split(';'));
-            middleFoodList.Add("entrees", "fish stew".Split(';'));
+            middleFoodList.Add("drinks", "wine".Split(';'));
+            middleFoodList.Add("sides", "grilled onion".Split(';'));
+            middleFoodList.Add("entrees", "meat stew".Split(';'));
 
-            nobleFoodList.Add("drinks", "wine;wine;apple cider;wine;cider".Split(';'));
-            nobleFoodList.Add("sides", "grilled onion;bread;bread".Split(';'));
-            nobleFoodList.Add("entrees", "cheese stew;grilledMeat".Split(';'));
+            nobleFoodList.Add("drinks", "wine;wine;apple cider;wine;apple cider".Split(';'));
+            nobleFoodList.Add("sides", "grilled onion;bread".Split(';'));
+            nobleFoodList.Add("entrees", "cheese stew;bread;grilledMeat".Split(';'));
             foodList = "bread";
 
 
