@@ -907,6 +907,218 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   food_name: 
+--- !u!1 &204950161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 204950162}
+  - 212: {fileID: 204950167}
+  - 114: {fileID: 204950166}
+  - 95: {fileID: 204950165}
+  - 114: {fileID: 204950164}
+  - 82: {fileID: 204950163}
+  m_Layer: 0
+  m_Name: stove (1)
+  m_TagString: test
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &204950162
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204950161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.29, y: 3.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 417763193}
+  m_RootOrder: 1
+--- !u!82 &204950163
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204950161}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &204950164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204950161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  x: 4
+  y: 6
+  go: {fileID: 0}
+--- !u!95 &204950165
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204950161}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c83cd830248a374fb716caaaa7ca01d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &204950166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204950161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f3af22eb5c0e04aa2d1fe014cef05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food_cooking_name: 
+  recipie1: {fileID: 11448954, guid: 71055f5ff0bf87d4ea594f0229ee5297, type: 2}
+  recipie2: {fileID: 11430034, guid: 1a81fa525a7a1d147b7a0d9dc67cb57d, type: 2}
+  source: {fileID: 204950163}
+  bubblingSFX: {fileID: 8300000, guid: 2c958983a82252a41ac4322d3e15c6cf, type: 3}
+  grillSizzleSFX: {fileID: 0}
+  friedEggSFX: {fileID: 8300000, guid: f45d8f817e62e194eb76c548e8a0c731, type: 3}
+  searingSFX: {fileID: 0}
+  tickingSFX: {fileID: 0}
+  doneSFX: {fileID: 8300000, guid: a02b36be9e36b034e99f28db9079ac6c, type: 3}
+  start_cooking: 0
+  food_ready: 0
+  cookReady: 0
+  needsFurnace: 1
+  isCooking: 0
+  chef_1h: 
+  chef_2h: 
+  c: {r: 0, g: 0, b: 0, a: 0}
+  start_time: 0
+  finish_time: 0
+  time_to_cook: 0
+  timeSaved: 0
+  isBurning: 0
+  canBurn: 0
+  burned: 0
+  burn_start_time: 0
+  burn_finish_time: 0
+  burn_time_to_cook: 0
+  burn_timeSaved: 0
+  burn_time_start: 0
+  cookingSpriteIdle: {fileID: 100134, guid: e0456ca16e7039345af22c344f2c52d8, type: 2}
+  cookingSprite: {fileID: 162502, guid: e2c81a2f4af9e2a40a678ce655c4c23d, type: 2}
+  current_recipie: {fileID: 0}
+--- !u!212 &204950167
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204950161}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2cf358e61111f614388b9826104b1083, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300004, guid: 1b210c79ae5428844aa8c7f4856822bd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!1 &216878408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,6 +2099,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 376461789}
+  - {fileID: 204950162}
   m_Father: {fileID: 1983592646}
   m_RootOrder: 6
 --- !u!1 &423487654

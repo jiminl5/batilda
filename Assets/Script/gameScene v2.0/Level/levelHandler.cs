@@ -190,17 +190,6 @@ public class levelHandler : MonoBehaviour {
             while (!orderComplete)
             {
 
-                //TEMP FIX EMPTY DEQUEUE
-                //---------------------------
-                if (entreeQueue.Peek() == "")
-                {
-                    entreeQueue.Dequeue();
-                }
-                if (drinkQueue.Peek() == "")
-                {
-                    drinkQueue.Dequeue();
-                }
-                //---------------------------
 
                 r = Random.Range(0, 2);
                 if (r == 0 && drinkQueue.Count >= 2 && drinkQueue.Count > entreeQueue.Count)
@@ -1126,14 +1115,14 @@ public class levelHandler : MonoBehaviour {
         {
             maxGrillCount = 3;
             maxOvenCount = 1;
-            maxStoveCount = 0;
+            maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
             if (ovenCount > maxOvenCount)
                 ovenCount = 0;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = 2;
             if (warmingPlateCount > maxWarmingPlateCount)
                 warmingPlateCount = 4;
 
@@ -1157,8 +1146,16 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 19;
-            foodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 8;
+            numArtisans = 3;
+            numMiddle = 2;
+            artisanFoodList.Add("drinks", "apple cider;apple cider;wine;wine".Split(';'));
+            artisanFoodList.Add("entrees", "grilledMeat;grilled carrot".Split(';'));
+            middleFoodList.Add("drinks", "apple cider;wine".Split(';'));
+            middleFoodList.Add("sides", "bread;bread".Split(';'));
+            middleFoodList.Add("entrees", "fish stew;grilledMeat".Split(';'));
+            foodList = "fish stew;fish stew;grilled onion";
+            //foodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 170;
@@ -1325,7 +1322,7 @@ public class levelHandler : MonoBehaviour {
         //max - how many cooking objects you have (to iterate later)
         grillCount = 4 - maxGrillCount;
         ovenCount = 4 - maxOvenCount;
-        stoveCount = 4 - maxStoveCount;
+        stoveCount = 2 - maxStoveCount;
         warmingPlateCount = 4 - maxWarmingPlateCount;
         //Debug.Log("warming plate count: " + warmingPlateCount);
         //find stuff
