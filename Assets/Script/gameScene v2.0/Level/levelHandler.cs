@@ -1161,7 +1161,7 @@ public class levelHandler : MonoBehaviour {
             levelTime = 170;
         }
 
-        else if (PlayerPrefs.GetInt("level") == 13) //level 13 NOT IMPLEMENTED YET
+        else if (PlayerPrefs.GetInt("level") == 13) //level 13
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
@@ -1187,7 +1187,7 @@ public class levelHandler : MonoBehaviour {
             rollingPinOn = true;
 
             appleOn = true;
-            grapeOn = false;
+            grapeOn = true;
             honeyOn = false;
             sauceOn = false;
 
@@ -1196,8 +1196,24 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 20;
-            foodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 4;
+            numArtisans = 1;
+            numMiddle = 1;
+            numNobles = 1;
+            artisanFoodList.Add("drinks", "wine".Split(';'));
+            artisanFoodList.Add("entrees", "grilled carrot".Split(';'));
+
+            middleFoodList.Add("drinks", "apple cider".Split(';'));
+            middleFoodList.Add("sides", "grilled carrot".Split(';'));
+            middleFoodList.Add("entrees", "fish stew".Split(';'));
+
+            nobleFoodList.Add("drinks", "wine;apple cider".Split(';'));
+            nobleFoodList.Add("sides", "bread;grilled onion".Split(';'));
+            nobleFoodList.Add("entrees", "grilled fish".Split(';'));
+            foodList = "meat stew";
+
+            //numberofCustomers = 20;
+            //foodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 180;
@@ -1229,7 +1245,7 @@ public class levelHandler : MonoBehaviour {
             rollingPinOn = true;
 
             appleOn = true;
-            grapeOn = false;
+            grapeOn = true;
             honeyOn = false;
             sauceOn = false;
 
