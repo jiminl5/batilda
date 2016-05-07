@@ -660,13 +660,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = false;
             cheeseOn = false;
@@ -700,18 +700,18 @@ public class levelHandler : MonoBehaviour {
 
         else if (PlayerPrefs.GetInt("level") == 3) //level three
         {
-            maxGrillCount = 1;
+            maxGrillCount = 2;
             maxOvenCount = 0;
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = false;
             cheeseOn = false;
@@ -747,13 +747,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = false;
@@ -775,7 +775,7 @@ public class levelHandler : MonoBehaviour {
             counters = "cheap";
             furnace = "cheap";
 
-            numberofCustomers = 8;
+            numberofCustomers = 7;
             foodList = "grilledMeat;grilledMeat;bread;bread;grilled fish;grilled fish;grilled fish";
 
             levelTime = 120;
@@ -790,13 +790,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = false;
@@ -824,7 +824,7 @@ public class levelHandler : MonoBehaviour {
             artisanFoodList.Add("entrees", "bread;grilled fish".Split(';'));
             foodList = "apple cider";
 
-            levelTime = 90;
+            levelTime = 75;
 			selectedSoundtrack = GameplaySoundtracks [2];
         }
 
@@ -835,13 +835,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = false;
@@ -869,7 +869,7 @@ public class levelHandler : MonoBehaviour {
             artisanFoodList.Add("entrees", "grilledMeat;bread".Split(';'));
             foodList = "bread;grilledMeat;apple cider";
 
-            levelTime = 120;
+            levelTime = 90;
             selectedSoundtrack = GameplaySoundtracks[2];
         }
 
@@ -925,13 +925,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = false;
@@ -971,13 +971,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = false;
@@ -1020,14 +1020,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
-
+                warmingPlateCount = maxWarmingPlateCount;
             wheatOn = true;
             cheeseOn = false;
             carrotOn = true;
@@ -1069,13 +1068,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 0;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = false;
@@ -1118,13 +1117,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 2;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = false;
@@ -1137,7 +1136,7 @@ public class levelHandler : MonoBehaviour {
             rollingPinOn = true;
 
             appleOn = true;
-            grapeOn = false;
+            grapeOn = true;
             honeyOn = false;
             sauceOn = false;
 
@@ -1168,13 +1167,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = true;
@@ -1226,13 +1225,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = true;
