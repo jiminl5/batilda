@@ -1284,13 +1284,13 @@ public class levelHandler : MonoBehaviour {
             maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
-                grillCount = 1;
+                grillCount = maxGrillCount;
             if (ovenCount > maxOvenCount)
-                ovenCount = 0;
+                ovenCount = maxOvenCount;
             if (stoveCount > maxStoveCount)
-                stoveCount = 2;
+                stoveCount = maxStoveCount;
             if (warmingPlateCount > maxWarmingPlateCount)
-                warmingPlateCount = 4;
+                warmingPlateCount = maxWarmingPlateCount;
 
             wheatOn = true;
             cheeseOn = true;
@@ -1312,13 +1312,30 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 8;
-            //foodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
-            foodList = "wine;wine;bread;grilled carrot";
-            artisanFoodList.Add("drinks", "wine;wine;wine;apple cider;apple cider".Split(';'));
-            artisanFoodList.Add("entrees", "grilledMeat;grilled fish;grilled onion".Split(';'));
+            numberofCustomers = 6;
+            numArtisans = 2;
+            numMiddle = 1;
+            numNobles = 2;
+            artisanFoodList.Add("drinks", "apple cider;wine".Split(';'));
+            artisanFoodList.Add("entrees", "grilled onion;grilledMeat".Split(';'));
 
-            numArtisans = 4;
+            middleFoodList.Add("drinks", "apple cider".Split(';'));
+            middleFoodList.Add("sides", "bread".Split(';'));
+            middleFoodList.Add("entrees", "fish stew".Split(';'));
+
+            nobleFoodList.Add("drinks", "wine;wine;apple cider;wine;cider".Split(';'));
+            nobleFoodList.Add("sides", "grilled onion;bread;bread".Split(';'));
+            nobleFoodList.Add("entrees", "cheese stew;grilledMeat".Split(';'));
+            foodList = "bread";
+
+
+            //numberofCustomers = 8;
+            //foodList = "wine;wine;wine;wine;apple cider;apple cider;apple cider;apple cider;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish;bread;bread;bread;grilled carrot;grilled carrot;grilled carrot";
+            //foodList = "wine;wine;bread;grilled carrot";
+            //artisanFoodList.Add("drinks", "wine;wine;wine;apple cider;apple cider".Split(';'));
+            //artisanFoodList.Add("entrees", "grilledMeat;grilled fish;grilled onion".Split(';'));
+
+            //numArtisans = 4;
 
             selectedSoundtrack = GameplaySoundtracks[2];
 
