@@ -1165,7 +1165,7 @@ public class levelHandler : MonoBehaviour {
         {
             maxGrillCount = 2;
             maxOvenCount = 1;
-            maxStoveCount = 0;
+            maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
@@ -1177,7 +1177,7 @@ public class levelHandler : MonoBehaviour {
                 warmingPlateCount = 4;
 
             wheatOn = true;
-            cheeseOn = false;
+            cheeseOn = true;
             carrotOn = true;
             onionOn = true;
             fishOn = true;
@@ -1221,9 +1221,9 @@ public class levelHandler : MonoBehaviour {
 
         else if (PlayerPrefs.GetInt("level") == 14) //level 14
         {
-            maxGrillCount = 2;
-            maxOvenCount = 1;
-            maxStoveCount = 0;
+            maxGrillCount = 4;
+            maxOvenCount = 4;
+            maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
@@ -1235,7 +1235,7 @@ public class levelHandler : MonoBehaviour {
                 warmingPlateCount = 4;
 
             wheatOn = true;
-            cheeseOn = false;
+            cheeseOn = true;
             carrotOn = true;
             onionOn = true;
             fishOn = true;
@@ -1254,8 +1254,24 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 21;
-            foodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;bread;grilled carrot;grilled onion;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
+            numberofCustomers = 5;
+            numArtisans = 2;
+            numMiddle = 1;
+            numNobles = 1;
+            artisanFoodList.Add("drinks", "apple cider;wine".Split(';'));
+            artisanFoodList.Add("entrees", "grilled onion;grilledMeat".Split(';'));
+
+            middleFoodList.Add("drinks", "apple cider".Split(';'));
+            middleFoodList.Add("sides", "bread".Split(';'));
+            middleFoodList.Add("entrees", "fish stew".Split(';'));
+
+            nobleFoodList.Add("drinks", "wine;apple cider;apple cider".Split(';'));
+            nobleFoodList.Add("sides", "grilled onion".Split(';'));
+            nobleFoodList.Add("entrees", "grilledMeat".Split(';'));
+            foodList = "cheese stew";
+
+            //numberofCustomers = 21;
+            //foodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;bread;grilled carrot;grilled onion;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 180;
@@ -1263,21 +1279,21 @@ public class levelHandler : MonoBehaviour {
 
         else if (PlayerPrefs.GetInt("level") == 15) //level 15
         {
-            maxGrillCount = 2;
-            maxOvenCount = 1;
-            maxStoveCount = 0;
+            maxGrillCount = 4;
+            maxOvenCount = 4;
+            maxStoveCount = 2;
             maxWarmingPlateCount = 4;
             if (grillCount > maxGrillCount)
                 grillCount = 1;
             if (ovenCount > maxOvenCount)
                 ovenCount = 0;
             if (stoveCount > maxStoveCount)
-                stoveCount = 0;
+                stoveCount = 2;
             if (warmingPlateCount > maxWarmingPlateCount)
                 warmingPlateCount = 4;
 
             wheatOn = true;
-            cheeseOn = false;
+            cheeseOn = true;
             carrotOn = true;
             onionOn = true;
             fishOn = true;
