@@ -1264,8 +1264,8 @@ public class levelHandler : MonoBehaviour {
             middleFoodList.Add("sides", "bread".Split(';'));
             middleFoodList.Add("entrees", "fish stew".Split(';'));
 
-            nobleFoodList.Add("drinks", "wine;apple cider;apple cider".Split(';'));
-            nobleFoodList.Add("sides", "grilled onion".Split(';'));
+            nobleFoodList.Add("drinks", "wine;apple cider".Split(';'));
+			nobleFoodList.Add("sides", "grilled onion;grilled carrot".Split(';'));
             nobleFoodList.Add("entrees", "grilledMeat".Split(';'));
             foodList = "cheese stew";
 
