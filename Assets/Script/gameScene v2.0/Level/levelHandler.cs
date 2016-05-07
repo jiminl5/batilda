@@ -895,7 +895,7 @@ public class levelHandler : MonoBehaviour {
             fishOn = true;
             meatOn = true;
 
-            cuttingBoardOn = false;
+            cuttingBoardOn = true;
             rollingPinOn = true;
 
             appleOn = true;
