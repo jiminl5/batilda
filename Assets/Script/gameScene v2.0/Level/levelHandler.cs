@@ -694,7 +694,7 @@ public class levelHandler : MonoBehaviour {
             foodList = "grilledMeat;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
-			selectedSoundtrack = GameplaySoundtracks [1];
+			selectedSoundtrack = GameplaySoundtracks [0];
 
         }
 
@@ -737,7 +737,7 @@ public class levelHandler : MonoBehaviour {
             foodList = "grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
 
             levelTime = 90;
-			selectedSoundtrack = GameplaySoundtracks [1];
+			selectedSoundtrack = GameplaySoundtracks [0];
         }
 
         else if (PlayerPrefs.GetInt("level") == 4) //level four
@@ -825,7 +825,7 @@ public class levelHandler : MonoBehaviour {
             foodList = "apple cider";
 
             levelTime = 75;
-			selectedSoundtrack = GameplaySoundtracks [2];
+			selectedSoundtrack = GameplaySoundtracks [0];
         }
 
         else if (PlayerPrefs.GetInt("level") == 6) //level 6
@@ -870,7 +870,7 @@ public class levelHandler : MonoBehaviour {
             foodList = "bread;grilledMeat;apple cider";
 
             levelTime = 90;
-            selectedSoundtrack = GameplaySoundtracks[2];
+            selectedSoundtrack = GameplaySoundtracks[0];
         }
 
         else if (PlayerPrefs.GetInt("level") == 7) //level 7
@@ -915,7 +915,7 @@ public class levelHandler : MonoBehaviour {
             foodList = "grilled onion;grilled onion;grilled fish;apple cider;apple cider";
 
             levelTime = 12;
-            selectedSoundtrack = GameplaySoundtracks[2];
+            selectedSoundtrack = GameplaySoundtracks[0];
         }
 
         else if (PlayerPrefs.GetInt("level") == 8) //level eight
@@ -960,7 +960,7 @@ public class levelHandler : MonoBehaviour {
             foodList = "grilled carrot;grilled carrot;grilled onion;bread;grilledMeat";
 
             levelTime = 150;
-			selectedSoundtrack = GameplaySoundtracks [2];
+			selectedSoundtrack = GameplaySoundtracks [0];
 
         }
 
@@ -1213,7 +1213,7 @@ public class levelHandler : MonoBehaviour {
 
             //numberofCustomers = 20;
             //foodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish;grilled fish";
-            selectedSoundtrack = GameplaySoundtracks[2];
+            selectedSoundtrack = GameplaySoundtracks[1];
 
             levelTime = 180;
         }
@@ -1271,7 +1271,7 @@ public class levelHandler : MonoBehaviour {
 
             //numberofCustomers = 21;
             //foodList = "apple cider;apple cider;apple cider;apple cider;apple cider;bread;bread;bread;bread;grilled carrot;grilled onion;grilled onion;grilled onion;grilled onion;grilledMeat;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled fish;grilled fish";
-            selectedSoundtrack = GameplaySoundtracks[2];
+            selectedSoundtrack = GameplaySoundtracks[1];
 
             levelTime = 180;
         }
