@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StopWatch : MonoBehaviour {
 
-    public float startTime = 120;
+    public float startTime;
     public float timeInSeconds;
     private int roundedTimeSeconds;
     private float displaySeconds;
@@ -20,14 +20,28 @@ public class StopWatch : MonoBehaviour {
             Debug.Log(startTime);
         }*/
 
+    private bool setTimer;
     void Start()
     {
-        timeInSeconds = startTime;
+        setTimer = true;
+        //startTime = GameObject.Find("levelHandler").GetComponent<levelHandler>().levelTime;
+        //timeInSeconds = startTime;
         Debug.Log(startTime);
+    }
+
+    void setTime()
+    {
+        startTime = levelHandler.levelTime_;
+        timeInSeconds = startTime;
+        setTimer = false;
     }
 
     void Update()
     {
+        if (GameObject.Find("levelHandler").GetComponent<levelHandler>().levelTime != 0 && setTimer)
+        {
+            setTime();
+        }
 		if (!finished) {
 			timeInSeconds -= Time.deltaTime;
 			if (timeInSeconds == 60) {

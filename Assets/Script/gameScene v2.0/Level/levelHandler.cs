@@ -493,7 +493,7 @@ public class levelHandler : MonoBehaviour {
 
     //time for level
     public float levelTime;
-  
+    public static float levelTime_;
 
     void Awake()
     {
@@ -599,7 +599,7 @@ public class levelHandler : MonoBehaviour {
             foodList = "apple cider;apple cider";
             //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 
-            levelTime = 121;
+            levelTime = 180;
 			selectedSoundtrack = GameplaySoundtracks [2];
 
         }
@@ -914,7 +914,7 @@ public class levelHandler : MonoBehaviour {
             artisanFoodList.Add("entrees", "grilledMeat;grilled onion".Split(';'));
             foodList = "grilled onion;grilled onion;grilled fish;apple cider;apple cider";
 
-            levelTime = 12;
+            levelTime = 120;
             selectedSoundtrack = GameplaySoundtracks[0];
         }
 
@@ -1541,7 +1541,10 @@ public class levelHandler : MonoBehaviour {
         //
 
         //set level time
-        GameObject.Find("Main Camera").GetComponent<StopWatch>().startTime = levelTime;
+        //GameObject.Find("Main Camera").GetComponent<StopWatch>().setTime();
+        levelTime_ = levelTime;
+        //levelTime = GameObject.Find("Main Camera").GetComponent<StopWatch>().startTime;
+        //GameObject.Find("Main Camera").GetComponent<StopWatch>().startTime = levelTime;
     }
     bool checkifNoCustomers()
     {
