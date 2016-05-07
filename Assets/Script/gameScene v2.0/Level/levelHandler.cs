@@ -166,13 +166,15 @@ public class levelHandler : MonoBehaviour {
         print("DRINK QUEUE:::::");
         foreach (string d in food["drinks"])
         {
-            drinkQueue.Enqueue(d);
+            if (d != "")
+                drinkQueue.Enqueue(d);
             Debug.Log(d);
         }
         print("ENTREE QUEUE:::::");
         foreach (string e in food["entrees"])
         {
-            entreeQueue.Enqueue(e);
+            if (e != "")
+                entreeQueue.Enqueue(e);
             Debug.Log(e);
         }
         Debug.Log("ARTISAN QUEUE:----");
@@ -187,6 +189,19 @@ public class levelHandler : MonoBehaviour {
             bool orderComplete = false;
             while (!orderComplete)
             {
+
+                //TEMP FIX EMPTY DEQUEUE
+                //---------------------------
+                if (entreeQueue.Peek() == "")
+                {
+                    entreeQueue.Dequeue();
+                }
+                if (drinkQueue.Peek() == "")
+                {
+                    drinkQueue.Dequeue();
+                }
+                //---------------------------
+
                 r = Random.Range(0, 2);
                 if (r == 0 && drinkQueue.Count >= 2 && drinkQueue.Count > entreeQueue.Count)
                 { //1 side and 2 drinks
@@ -255,15 +270,19 @@ public class levelHandler : MonoBehaviour {
         Queue<string> sideQueue = new Queue<string>();
         foreach (string d in food["drinks"])
         {
-            drinkQueue.Enqueue(d);
+            if (d != "")
+                drinkQueue.Enqueue(d);
+
         }
         foreach (string e in food["entrees"])
         {
-            entreeQueue.Enqueue(e);
+            if (e != "")
+                entreeQueue.Enqueue(e);
         }
         foreach (string s in food["sides"])
         {
-            sideQueue.Enqueue(s);
+            if (s != "")
+                sideQueue.Enqueue(s);
         }
 
         shuffle(food["drinks"]);
@@ -277,6 +296,25 @@ public class levelHandler : MonoBehaviour {
             while (!orderComplete)
             {
                 r = Random.Range(0, 2);
+
+                //TEMP FIX EMPTY DEQUEUE
+                //---------------------------
+                /*
+                if (entreeQueue.Peek() == "")
+                {
+                    entreeQueue.Dequeue();
+                }
+                if (sideQueue.Peek() == "")
+                {
+                    sideQueue.Dequeue();
+                }
+                if (drinkQueue.Peek() == "")
+                {
+                    drinkQueue.Dequeue();
+                }
+                */
+                //---------------------------
+
                 if (r == 0 && drinkQueue.Count >= 2 && drinkQueue.Count > entreeQueue.Count + sideQueue.Count)
                 { //1 side and 2 drinks
                     tmp_foodArray[0] = drinkQueue.Dequeue();
@@ -284,8 +322,10 @@ public class levelHandler : MonoBehaviour {
                     tmp_foodArray[2] = sideQueue.Dequeue();
                     orderComplete = true;
                 }
-                else if (r == 1 && entreeQueue.Count > 0)
+                
+                else if (r == 1 && entreeQueue.Count > 0 && sideQueue.Count > 0)
                 { //1 drink 1 entree 1 side
+                    
                     tmp_foodArray[0] = drinkQueue.Dequeue();
                     tmp_foodArray[1] = entreeQueue.Dequeue();
                     tmp_foodArray[2] = sideQueue.Dequeue();
@@ -347,15 +387,18 @@ public class levelHandler : MonoBehaviour {
         Queue<string> sideQueue = new Queue<string>();
         foreach (string d in food["drinks"])
         {
-            drinkQueue.Enqueue(d);
+            if (d != "")
+                drinkQueue.Enqueue(d);
         }
         foreach (string e in food["entrees"])
         {
-            entreeQueue.Enqueue(e);
+            if (e != "")
+                entreeQueue.Enqueue(e);
         }
         foreach (string s in food["sides"])
         {
-            sideQueue.Enqueue(s);
+            if (s != "")
+                sideQueue.Enqueue(s);
         }
 
         shuffle(food["drinks"]);
@@ -368,6 +411,7 @@ public class levelHandler : MonoBehaviour {
             bool orderComplete = false;
             while (!orderComplete)
             {
+
                 r = Random.Range(0, 2);
                 if (r == 0 && drinkQueue.Count >= 2 && sideQueue.Count >= 2)
                 { //1 entree 2 sides and 2 drinks
@@ -1015,8 +1059,15 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 12;
-            foodList = "bread;bread;apple cider;apple cider;grilledMeat;grilled carrot;grilled carrot;grilled carrot;grilled onion;grilled onion;grilled fish;grilled fish";
+            numberofCustomers = 5;
+            numArtisans = 1;
+            numMiddle = 2;
+            artisanFoodList.Add("drinks", "apple cider".Split(';'));
+            artisanFoodList.Add("entrees", "grilled carrot".Split(';'));
+            middleFoodList.Add("drinks", "apple cider;apple cider;apple cider".Split(';'));
+            middleFoodList.Add("sides", "bread;bread".Split(';'));
+            middleFoodList.Add("entrees", "grilled fish".Split(';'));
+            foodList = "grilledMeat;grilled onion";
 			selectedSoundtrack = GameplaySoundtracks [2];
 
             levelTime = 160;
@@ -1048,7 +1099,7 @@ public class levelHandler : MonoBehaviour {
             rollingPinOn = true;
 
             appleOn = true;
-            grapeOn = false;
+            grapeOn = true;
             honeyOn = false;
             sauceOn = false;
 
@@ -1057,8 +1108,15 @@ public class levelHandler : MonoBehaviour {
             counters = "fancy";
             furnace = "fancy";
 
-            numberofCustomers = 15;
-            foodList = "apple cider;apple cider;apple cider;apple cider;bread;bread;bread;grilled carrot;grilled carrot;grilledMeat;grilledMeat;grilledMeat;grilled fish;grilled fish;grilled onion";
+            numberofCustomers = 7;
+            numArtisans = 2;
+            numMiddle = 1;
+            artisanFoodList.Add("drinks", "apple cider;wine".Split(';'));
+            artisanFoodList.Add("entrees", "grilledMeat;grilled fish".Split(';'));
+            middleFoodList.Add("drinks", "apple cider;wine".Split(';'));
+            middleFoodList.Add("sides", "grilled onion".Split(';'));
+            middleFoodList.Add("entrees", "".Split(';'));
+            foodList = "wine;wine;grilled carrot;bread";
             selectedSoundtrack = GameplaySoundtracks[2];
 
             levelTime = 170;
