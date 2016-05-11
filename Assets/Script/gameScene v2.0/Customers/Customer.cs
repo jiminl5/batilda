@@ -196,6 +196,16 @@ public class Customer : MonoBehaviour {
 
                 moneyParticle = Instantiate(Resources.Load("Coins"), moneySprite.transform.position, Quaternion.identity) as GameObject;
                 moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
+
+                if (this.transform.parent.gameObject.name.Contains("Peasant"))
+                    moneyParticle.GetComponent<ParticleSystem>().maxParticles = 1;
+                else if (this.transform.parent.gameObject.name.Contains("Artisan"))
+                    moneyParticle.GetComponent<ParticleSystem>().maxParticles = 2;
+                else if (this.transform.parent.gameObject.name.Contains("Middle Class"))
+                    moneyParticle.GetComponent<ParticleSystem>().maxParticles = 5;
+                else if (this.transform.parent.gameObject.name.Contains("Noble"))
+                    moneyParticle.GetComponent<ParticleSystem>().maxParticles = 8;
+
                 moneyParticle.GetComponent<ParticleSystem>().Play();
                 levelHandler.customersLeft -= 1;
                 Destroy(moneySprite);
