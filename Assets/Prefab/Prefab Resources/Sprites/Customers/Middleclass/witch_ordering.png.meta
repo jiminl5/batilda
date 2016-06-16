@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: c33f2148c8591a846ae5742c45155c75
+timeCreated: 1466054152
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: witch_ordering_0
+    21300002: witch_ordering_1
+    21300004: witch_ordering_2
+    21300006: witch_ordering_3
+    21300008: witch_ordering_4
+    21300010: witch_ordering_5
+    21300012: witch_ordering_6
+    21300014: witch_ordering_7
+    21300016: witch_ordering_8
+    21300018: witch_ordering_9
+    21300020: witch_ordering_10
+    21300022: witch_ordering_11
+    21300024: witch_ordering_12
+    21300026: witch_ordering_13
+    21300028: witch_ordering_14
+    21300030: witch_ordering_15
+    21300032: witch_ordering_16
+    21300034: witch_ordering_17
+    21300036: witch_ordering_18
+    21300038: witch_ordering_19
+    21300040: witch_ordering_20
+    21300042: witch_ordering_21
+    21300044: witch_ordering_22
+    21300046: witch_ordering_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: witch_ordering_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 263}
+        - {x: 121, y: 308}
+        - {x: 115, y: 315}
+        - {x: 89, y: 315}
+        - {x: 74, y: 312}
+        - {x: 29, y: 292}
+        - {x: -100, y: 293}
+        - {x: -122, y: 290}
+        - {x: -90, y: 205}
+        - {x: -125, y: 207}
+        - {x: -125, y: 177}
+        - {x: -63, y: 118}
+        - {x: -98, y: 71}
+        - {x: -57, y: 25}
+        - {x: -40, y: 0}
+        - {x: 51, y: 0}
+        - {x: 60, y: 45}
+        - {x: 99, y: 106}
+        - {x: 125, y: 118}
+    - name: witch_ordering_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 229}
+        - {x: 122, y: 308}
+        - {x: 118, y: 315}
+        - {x: 45, y: 315}
+        - {x: -122, y: 290}
+        - {x: -90, y: 205}
+        - {x: -125, y: 207}
+        - {x: -125, y: 182}
+        - {x: -61, y: 107}
+        - {x: -87, y: 89}
+        - {x: -90, y: 78}
+        - {x: -71, y: 67}
+        - {x: -60, y: 64}
+        - {x: -46, y: 8}
+        - {x: -36, y: 0}
+        - {x: 48, y: 0}
+        - {x: 54, y: 14}
+        - {x: 91, y: 107}
+        - {x: 125, y: 105}
+    - name: witch_ordering_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: 213}
+        - {x: 125, y: 302}
+        - {x: 125, y: 309}
+        - {x: 120, y: 315}
+        - {x: 79, y: 315}
+        - {x: -4, y: 293}
+        - {x: -93, y: 296}
+        - {x: -118, y: 291}
+        - {x: -92, y: 205}
+        - {x: -125, y: 207}
+        - {x: -125, y: 182}
+        - {x: -71, y: 109}
+        - {x: -99, y: 76}
+        - {x: -78, y: 64}
+        - {x: -44, y: 2}
+        - {x: -35, y: 0}
+        - {x: 54, y: 0}
+        - {x: 95, y: 79}
+        - {x: 125, y: 109}
+        - {x: 125, y: 172}
+    - name: witch_ordering_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 152}
+        - {x: 103, y: 224}
+        - {x: 123, y: 311}
+        - {x: 115, y: 315}
+        - {x: 44, y: 315}
+        - {x: -20, y: 302}
+        - {x: -124, y: 290}
+        - {x: -85, y: 201}
+        - {x: -125, y: 204}
+        - {x: -125, y: 167}
+        - {x: -98, y: 89}
+        - {x: -97, y: 70}
+        - {x: -40, y: 50}
+        - {x: -46, y: 8}
+        - {x: -36, y: 0}
+        - {x: 64, y: 0}
+        - {x: 79, y: 40}
+        - {x: 68, y: 61}
+        - {x: 125, y: 114}
+    - name: witch_ordering_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: 214}
+        - {x: 116, y: 268}
+        - {x: 123, y: 311}
+        - {x: 114, y: 315}
+        - {x: 45, y: 315}
+        - {x: -92, y: 294}
+        - {x: -108, y: 284}
+        - {x: -110, y: 273}
+        - {x: -75, y: 232}
+        - {x: -125, y: 213}
+        - {x: -125, y: 180}
+        - {x: -104, y: 141}
+        - {x: -77, y: 104}
+        - {x: -107, y: 80}
+        - {x: -44, y: 2}
+        - {x: -35, y: 0}
+        - {x: 54, y: 0}
+        - {x: 99, y: 82}
+        - {x: 125, y: 110}
+        - {x: 125, y: 148}
+    - name: witch_ordering_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 156}
+        - {x: 106, y: 222}
+        - {x: 124, y: 280}
+        - {x: 115, y: 315}
+        - {x: 46, y: 315}
+        - {x: -32, y: 303}
+        - {x: -122, y: 292}
+        - {x: -77, y: 218}
+        - {x: -125, y: 207}
+        - {x: -125, y: 184}
+        - {x: -69, y: 113}
+        - {x: -104, y: 83}
+        - {x: -67, y: 68}
+        - {x: -46, y: 8}
+        - {x: -36, y: 0}
+        - {x: 61, y: 0}
+        - {x: 84, y: 36}
+        - {x: 86, y: 83}
+        - {x: 125, y: 101}
+    - name: witch_ordering_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 169}
+        - {x: 101, y: 213}
+        - {x: 123, y: 300}
+        - {x: 118, y: 315}
+        - {x: 77, y: 315}
+        - {x: 27, y: 304}
+        - {x: -124, y: 292}
+        - {x: -83, y: 229}
+        - {x: -125, y: 208}
+        - {x: -125, y: 175}
+        - {x: -96, y: 99}
+        - {x: -96, y: 85}
+        - {x: -64, y: 65}
+        - {x: -57, y: 0}
+        - {x: 51, y: 0}
+        - {x: 58, y: 5}
+        - {x: 90, y: 96}
+        - {x: 125, y: 109}
+    - name: witch_ordering_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 630
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121, y: 213}
+        - {x: 124, y: 276}
+        - {x: 122, y: 315}
+        - {x: 72, y: 315}
+        - {x: 6, y: 297}
+        - {x: -101, y: 298}
+        - {x: -116, y: 276}
+        - {x: -75, y: 229}
+        - {x: -125, y: 210}
+        - {x: -125, y: 187}
+        - {x: -115, y: 176}
+        - {x: -98, y: 130}
+        - {x: -96, y: 55}
+        - {x: -44, y: 2}
+        - {x: -37, y: 0}
+        - {x: 63, y: 0}
+        - {x: 106, y: 86}
+        - {x: 125, y: 94}
+        - {x: 125, y: 190}
+    - name: witch_ordering_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92, y: 110}
+        - {x: 125, y: 107}
+        - {x: 125, y: 171}
+        - {x: 106, y: 214}
+        - {x: 125, y: 305}
+        - {x: 125, y: 314}
+        - {x: 122, y: 315}
+        - {x: 61, y: 315}
+        - {x: -15, y: 292}
+        - {x: -100, y: 295}
+        - {x: -114, y: 275}
+        - {x: -87, y: 232}
+        - {x: -125, y: 204}
+        - {x: -125, y: 174}
+        - {x: -70, y: 126}
+        - {x: -111, y: 95}
+        - {x: -51, y: 0}
+        - {x: 49, y: 0}
+        - {x: 52, y: 12}
+        - {x: 57, y: 47}
+        - {x: 89, y: 80}
+    - name: witch_ordering_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 221}
+        - {x: 123, y: 313}
+        - {x: 118, y: 315}
+        - {x: 78, y: 315}
+        - {x: 2, y: 287}
+        - {x: -102, y: 300}
+        - {x: -110, y: 268}
+        - {x: -125, y: 229}
+        - {x: -125, y: 182}
+        - {x: -55, y: 116}
+        - {x: -90, y: 105}
+        - {x: -116, y: 93}
+        - {x: -57, y: 0}
+        - {x: 54, y: 0}
+        - {x: 92, y: 86}
+        - {x: 125, y: 109}
+        - {x: 125, y: 159}
+    - name: witch_ordering_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 146}
+        - {x: 107, y: 199}
+        - {x: 123, y: 310}
+        - {x: 113, y: 315}
+        - {x: 80, y: 315}
+        - {x: 53, y: 302}
+        - {x: -15, y: 291}
+        - {x: -118, y: 306}
+        - {x: -90, y: 210}
+        - {x: -125, y: 209}
+        - {x: -125, y: 183}
+        - {x: -124, y: 179}
+        - {x: -56, y: 116}
+        - {x: -100, y: 103}
+        - {x: -91, y: 80}
+        - {x: -42, y: 4}
+        - {x: -35, y: 0}
+        - {x: 46, y: 0}
+        - {x: 59, y: 17}
+        - {x: 96, y: 79}
+        - {x: 125, y: 113}
+    - name: witch_ordering_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 158}
+        - {x: 123, y: 172}
+        - {x: 123, y: 310}
+        - {x: 112, y: 315}
+        - {x: 82, y: 315}
+        - {x: 34, y: 293}
+        - {x: -98, y: 295}
+        - {x: -118, y: 286}
+        - {x: -82, y: 207}
+        - {x: -125, y: 205}
+        - {x: -125, y: 180}
+        - {x: -68, y: 119}
+        - {x: -108, y: 102}
+        - {x: -89, y: 77}
+        - {x: -42, y: 4}
+        - {x: -34, y: 0}
+        - {x: 49, y: 0}
+        - {x: 54, y: 14}
+        - {x: 92, y: 96}
+        - {x: 125, y: 109}
+    - name: witch_ordering_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 213}
+        - {x: 125, y: 295}
+        - {x: 125, y: 314}
+        - {x: 122, y: 315}
+        - {x: 25, y: 315}
+        - {x: -92, y: 298}
+        - {x: -118, y: 288}
+        - {x: -90, y: 204}
+        - {x: -125, y: 208}
+        - {x: -125, y: 176}
+        - {x: -75, y: 128}
+        - {x: -95, y: 104}
+        - {x: -91, y: 94}
+        - {x: -81, y: 82}
+        - {x: -53, y: 61}
+        - {x: -49, y: 0}
+        - {x: 56, y: 0}
+        - {x: 95, y: 67}
+        - {x: 125, y: 109}
+        - {x: 125, y: 159}
+    - name: witch_ordering_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 170}
+        - {x: 112, y: 228}
+        - {x: 123, y: 311}
+        - {x: 120, y: 315}
+        - {x: 81, y: 315}
+        - {x: 10, y: 288}
+        - {x: -98, y: 295}
+        - {x: -108, y: 285}
+        - {x: -88, y: 202}
+        - {x: -125, y: 206}
+        - {x: -125, y: 178}
+        - {x: -91, y: 107}
+        - {x: -97, y: 95}
+        - {x: -73, y: 68}
+        - {x: -42, y: 4}
+        - {x: -34, y: 0}
+        - {x: 48, y: 0}
+        - {x: 53, y: 14}
+        - {x: 92, y: 96}
+        - {x: 125, y: 114}
+    - name: witch_ordering_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 220}
+        - {x: 122, y: 283}
+        - {x: 116, y: 315}
+        - {x: 90, y: 315}
+        - {x: 34, y: 295}
+        - {x: -120, y: 295}
+        - {x: -95, y: 247}
+        - {x: -72, y: 216}
+        - {x: -125, y: 214}
+        - {x: -125, y: 180}
+        - {x: -79, y: 116}
+        - {x: -104, y: 94}
+        - {x: -59, y: 62}
+        - {x: -42, y: 4}
+        - {x: -34, y: 0}
+        - {x: 62, y: 0}
+        - {x: 74, y: 54}
+        - {x: 86, y: 95}
+        - {x: 125, y: 112}
+    - name: witch_ordering_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 315
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: 219}
+        - {x: 125, y: 298}
+        - {x: 125, y: 307}
+        - {x: 118, y: 315}
+        - {x: 94, y: 315}
+        - {x: 41, y: 302}
+        - {x: -21, y: 300}
+        - {x: -119, y: 292}
+        - {x: -98, y: 256}
+        - {x: -125, y: 215}
+        - {x: -125, y: 185}
+        - {x: -119, y: 170}
+        - {x: -61, y: 102}
+        - {x: -90, y: 103}
+        - {x: -99, y: 92}
+        - {x: -55, y: 59}
+        - {x: -43, y: 3}
+        - {x: -35, y: 0}
+        - {x: 46, y: 0}
+        - {x: 63, y: 19}
+        - {x: 125, y: 109}
+        - {x: 125, y: 149}
+    - name: witch_ordering_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 113}
+        - {x: 125, y: 144}
+        - {x: 121, y: 156}
+        - {x: 124, y: 282}
+        - {x: 117, y: 314}
+        - {x: 89, y: 314}
+        - {x: 30, y: 295}
+        - {x: -90, y: 294}
+        - {x: -111, y: 289}
+        - {x: -97, y: 227}
+        - {x: -125, y: 206}
+        - {x: -125, y: 127}
+        - {x: -106, y: 84}
+        - {x: -50, y: 45}
+        - {x: -43, y: 3}
+        - {x: -36, y: 0}
+        - {x: 46, y: 0}
+        - {x: 51, y: 8}
+        - {x: 50, y: 12}
+        - {x: 64, y: 64}
+    - name: witch_ordering_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 314}
+        - {x: 71, y: 314}
+        - {x: 68, y: 313}
+        - {x: 13, y: 283}
+        - {x: -91, y: 297}
+        - {x: -105, y: 285}
+        - {x: -105, y: 269}
+        - {x: -125, y: 234}
+        - {x: -125, y: 181}
+        - {x: -121, y: 171}
+        - {x: -100, y: 97}
+        - {x: -80, y: 73}
+        - {x: -43, y: 3}
+        - {x: -36, y: 0}
+        - {x: 46, y: 0}
+        - {x: 58, y: 16}
+        - {x: 60, y: 51}
+        - {x: 125, y: 106}
+    - name: witch_ordering_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 141}
+        - {x: 103, y: 210}
+        - {x: 125, y: 302}
+        - {x: 125, y: 314}
+        - {x: 123, y: 315}
+        - {x: 86, y: 315}
+        - {x: 43, y: 297}
+        - {x: -98, y: 295}
+        - {x: -117, y: 287}
+        - {x: -81, y: 219}
+        - {x: -125, y: 210}
+        - {x: -125, y: 178}
+        - {x: -62, y: 120}
+        - {x: -92, y: 93}
+        - {x: -104, y: 82}
+        - {x: -51, y: 0}
+        - {x: 53, y: 0}
+        - {x: 63, y: 16}
+        - {x: 87, y: 70}
+        - {x: 125, y: 116}
+    - name: witch_ordering_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 232}
+        - {x: 121, y: 308}
+        - {x: 119, y: 315}
+        - {x: 78, y: 315}
+        - {x: 8, y: 291}
+        - {x: -92, y: 300}
+        - {x: -121, y: 288}
+        - {x: -83, y: 224}
+        - {x: -124, y: 205}
+        - {x: -125, y: 204}
+        - {x: -125, y: 181}
+        - {x: -57, y: 116}
+        - {x: -111, y: 89}
+        - {x: -59, y: 43}
+        - {x: -47, y: 0}
+        - {x: 47, y: 0}
+        - {x: 72, y: 9}
+        - {x: 110, y: 90}
+        - {x: 125, y: 113}
+        - {x: 125, y: 187}
+    - name: witch_ordering_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 163}
+        - {x: 119, y: 315}
+        - {x: 71, y: 315}
+        - {x: 19, y: 297}
+        - {x: -91, y: 294}
+        - {x: -109, y: 287}
+        - {x: -98, y: 252}
+        - {x: -113, y: 200}
+        - {x: -125, y: 206}
+        - {x: -125, y: 177}
+        - {x: -121, y: 166}
+        - {x: -81, y: 115}
+        - {x: -107, y: 64}
+        - {x: -32, y: 55}
+        - {x: -46, y: 8}
+        - {x: -36, y: 0}
+        - {x: 48, y: 0}
+        - {x: 54, y: 14}
+        - {x: 125, y: 114}
+        - {x: 125, y: 144}
+    - name: witch_ordering_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115, y: 174}
+        - {x: 120, y: 315}
+        - {x: 37, y: 315}
+        - {x: -91, y: 294}
+        - {x: -110, y: 285}
+        - {x: -97, y: 256}
+        - {x: -125, y: 203}
+        - {x: -125, y: 184}
+        - {x: -119, y: 170}
+        - {x: -53, y: 117}
+        - {x: -95, y: 90}
+        - {x: -77, y: 62}
+        - {x: -46, y: 8}
+        - {x: -36, y: 0}
+        - {x: 55, y: 0}
+        - {x: 77, y: 61}
+        - {x: 125, y: 114}
+        - {x: 125, y: 146}
+    - name: witch_ordering_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 250
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117, y: 268}
+        - {x: 121, y: 310}
+        - {x: 113, y: 315}
+        - {x: 69, y: 315}
+        - {x: 20, y: 298}
+        - {x: -125, y: 292}
+        - {x: -125, y: 291}
+        - {x: -89, y: 203}
+        - {x: -125, y: 203}
+        - {x: -125, y: 183}
+        - {x: -59, y: 116}
+        - {x: -107, y: 78}
+        - {x: -41, y: 50}
+        - {x: -46, y: 8}
+        - {x: -36, y: 0}
+        - {x: 55, y: 0}
+        - {x: 65, y: 37}
+        - {x: 125, y: 111}
+        - {x: 125, y: 198}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

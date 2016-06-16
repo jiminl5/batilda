@@ -1,0 +1,2175 @@
+fileFormatVersion: 2
+guid: e2b66b217c2d0b6488f9bc3fc00fd83d
+timeCreated: 1466054135
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: witch_eating_0
+    21300002: witch_eating_1
+    21300004: witch_eating_2
+    21300006: witch_eating_3
+    21300008: witch_eating_4
+    21300010: witch_eating_5
+    21300012: witch_eating_6
+    21300014: witch_eating_7
+    21300016: witch_eating_8
+    21300018: witch_eating_9
+    21300020: witch_eating_10
+    21300022: witch_eating_11
+    21300024: witch_eating_12
+    21300026: witch_eating_13
+    21300028: witch_eating_14
+    21300030: witch_eating_15
+    21300032: witch_eating_16
+    21300034: witch_eating_17
+    21300036: witch_eating_18
+    21300038: witch_eating_19
+    21300040: witch_eating_20
+    21300042: witch_eating_21
+    21300044: witch_eating_22
+    21300046: witch_eating_23
+    21300048: witch_eating_24
+    21300050: witch_eating_25
+    21300052: witch_eating_26
+    21300054: witch_eating_27
+    21300056: witch_eating_28
+    21300058: witch_eating_29
+    21300060: witch_eating_30
+    21300062: witch_eating_31
+    21300064: witch_eating_32
+    21300066: witch_eating_33
+    21300068: witch_eating_34
+    21300070: witch_eating_35
+    21300072: witch_eating_36
+    21300074: witch_eating_37
+    21300076: witch_eating_38
+    21300078: witch_eating_39
+    21300080: witch_eating_40
+    21300082: witch_eating_41
+    21300084: witch_eating_42
+    21300086: witch_eating_43
+    21300088: witch_eating_44
+    21300090: witch_eating_45
+    21300092: witch_eating_46
+    21300094: witch_eating_47
+    21300096: witch_eating_48
+    21300098: witch_eating_49
+    21300100: witch_eating_50
+    21300102: witch_eating_51
+    21300104: witch_eating_52
+    21300106: witch_eating_53
+    21300108: witch_eating_54
+    21300110: witch_eating_55
+    21300112: witch_eating_56
+    21300114: witch_eating_57
+    21300116: witch_eating_58
+    21300118: witch_eating_59
+    21300120: witch_eating_60
+    21300122: witch_eating_61
+    21300124: witch_eating_62
+    21300126: witch_eating_63
+    21300128: witch_eating_64
+    21300130: witch_eating_65
+    21300132: witch_eating_66
+    21300134: witch_eating_67
+    21300136: witch_eating_68
+    21300138: witch_eating_69
+    21300140: witch_eating_70
+    21300142: witch_eating_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: witch_eating_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 118}
+        - {x: 130, y: 151}
+        - {x: 107, y: 214}
+        - {x: 130, y: 309}
+        - {x: 130, y: 314}
+        - {x: 124, y: 317}
+        - {x: 47, y: 317}
+        - {x: -62, y: 295}
+        - {x: -79, y: 292}
+        - {x: -112, y: 289}
+        - {x: -90, y: 206}
+        - {x: -122, y: 204}
+        - {x: -122, y: 181}
+        - {x: -66, y: 122}
+        - {x: -77, y: 76}
+        - {x: -59, y: 34}
+        - {x: -36, y: 0}
+        - {x: 51, y: 0}
+        - {x: 60, y: 6}
+        - {x: 70, y: 51}
+        - {x: 105, y: 108}
+    - name: witch_eating_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 118}
+        - {x: 130, y: 141}
+        - {x: 113, y: 193}
+        - {x: 123, y: 281}
+        - {x: 123, y: 317}
+        - {x: 89, y: 317}
+        - {x: -7, y: 293}
+        - {x: -113, y: 293}
+        - {x: -97, y: 256}
+        - {x: -121, y: 205}
+        - {x: -122, y: 203}
+        - {x: -122, y: 177}
+        - {x: -68, y: 125}
+        - {x: -66, y: 72}
+        - {x: -60, y: 45}
+        - {x: -34, y: 0}
+        - {x: 47, y: 0}
+        - {x: 66, y: 5}
+        - {x: 63, y: 41}
+        - {x: 91, y: 81}
+        - {x: 117, y: 109}
+    - name: witch_eating_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 145}
+        - {x: 109, y: 217}
+        - {x: 127, y: 307}
+        - {x: 120, y: 316}
+        - {x: 76, y: 316}
+        - {x: -115, y: 291}
+        - {x: -81, y: 199}
+        - {x: -122, y: 204}
+        - {x: -122, y: 178}
+        - {x: -56, y: 118}
+        - {x: -65, y: 78}
+        - {x: -54, y: 67}
+        - {x: -76, y: 52}
+        - {x: -50, y: 0}
+        - {x: 46, y: 0}
+        - {x: 68, y: 4}
+        - {x: 70, y: 43}
+        - {x: 107, y: 99}
+        - {x: 130, y: 113}
+    - name: witch_eating_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 196}
+        - {x: 119, y: 285}
+        - {x: 120, y: 306}
+        - {x: 115, y: 316}
+        - {x: 96, y: 316}
+        - {x: 46, y: 299}
+        - {x: -100, y: 296}
+        - {x: -104, y: 268}
+        - {x: -122, y: 206}
+        - {x: -122, y: 184}
+        - {x: -90, y: 147}
+        - {x: -75, y: 96}
+        - {x: -71, y: 44}
+        - {x: -35, y: 0}
+        - {x: 47, y: 0}
+        - {x: 66, y: 5}
+        - {x: 91, y: 86}
+        - {x: 127, y: 111}
+        - {x: 130, y: 119}
+    - name: witch_eating_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 182}
+        - {x: 106, y: 203}
+        - {x: 124, y: 307}
+        - {x: 122, y: 316}
+        - {x: 85, y: 316}
+        - {x: 18, y: 293}
+        - {x: -61, y: 297}
+        - {x: -122, y: 292}
+        - {x: -97, y: 200}
+        - {x: -121, y: 204}
+        - {x: -122, y: 201}
+        - {x: -122, y: 178}
+        - {x: -69, y: 121}
+        - {x: -76, y: 43}
+        - {x: -35, y: 0}
+        - {x: 53, y: 0}
+        - {x: 60, y: 6}
+        - {x: 94, y: 97}
+        - {x: 130, y: 99}
+    - name: witch_eating_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 119}
+        - {x: 130, y: 250}
+        - {x: 128, y: 280}
+        - {x: 118, y: 316}
+        - {x: 95, y: 316}
+        - {x: 63, y: 304}
+        - {x: 49, y: 298}
+        - {x: 36, y: 292}
+        - {x: -96, y: 294}
+        - {x: -112, y: 284}
+        - {x: -72, y: 227}
+        - {x: -120, y: 204}
+        - {x: -122, y: 202}
+        - {x: -122, y: 177}
+        - {x: -76, y: 95}
+        - {x: -71, y: 28}
+        - {x: -38, y: 0}
+        - {x: 51, y: 0}
+        - {x: 61, y: 6}
+        - {x: 66, y: 47}
+        - {x: 127, y: 112}
+    - name: witch_eating_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 116}
+        - {x: 130, y: 168}
+        - {x: 117, y: 251}
+        - {x: 123, y: 309}
+        - {x: 121, y: 316}
+        - {x: 88, y: 316}
+        - {x: 28, y: 297}
+        - {x: -87, y: 294}
+        - {x: -112, y: 289}
+        - {x: -84, y: 203}
+        - {x: -122, y: 207}
+        - {x: -122, y: 186}
+        - {x: -56, y: 115}
+        - {x: -78, y: 40}
+        - {x: -35, y: 0}
+        - {x: 52, y: 0}
+        - {x: 67, y: 1}
+        - {x: 99, y: 88}
+        - {x: 83, y: 121}
+        - {x: 129, y: 109}
+    - name: witch_eating_7
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2552
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 115}
+        - {x: 131, y: 143}
+        - {x: 114, y: 215}
+        - {x: 130, y: 316}
+        - {x: 67, y: 316}
+        - {x: -42, y: 291}
+        - {x: -94, y: 294}
+        - {x: -103, y: 277}
+        - {x: -92, y: 258}
+        - {x: -72, y: 207}
+        - {x: -120, y: 206}
+        - {x: -121, y: 203}
+        - {x: -121, y: 183}
+        - {x: -55, y: 115}
+        - {x: -80, y: 43}
+        - {x: -37, y: 0}
+        - {x: 51, y: 0}
+        - {x: 61, y: 6}
+        - {x: 86, y: 78}
+        - {x: 95, y: 114}
+    - name: witch_eating_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 116}
+        - {x: 131, y: 121}
+        - {x: 131, y: 153}
+        - {x: 116, y: 237}
+        - {x: 130, y: 309}
+        - {x: 119, y: 316}
+        - {x: 64, y: 316}
+        - {x: 7, y: 299}
+        - {x: -113, y: 297}
+        - {x: -86, y: 252}
+        - {x: -66, y: 227}
+        - {x: -121, y: 211}
+        - {x: -121, y: 186}
+        - {x: -115, y: 169}
+        - {x: -61, y: 115}
+        - {x: -81, y: 43}
+        - {x: -37, y: 0}
+        - {x: 51, y: 0}
+        - {x: 61, y: 6}
+        - {x: 90, y: 91}
+        - {x: 86, y: 106}
+    - name: witch_eating_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 97}
+        - {x: 131, y: 159}
+        - {x: 122, y: 222}
+        - {x: 131, y: 315}
+        - {x: 129, y: 316}
+        - {x: 55, y: 316}
+        - {x: -14, y: 296}
+        - {x: -95, y: 297}
+        - {x: -105, y: 279}
+        - {x: -84, y: 211}
+        - {x: -121, y: 209}
+        - {x: -121, y: 188}
+        - {x: -120, y: 186}
+        - {x: -108, y: 175}
+        - {x: -67, y: 109}
+        - {x: -80, y: 55}
+        - {x: -37, y: 0}
+        - {x: 49, y: 0}
+        - {x: 57, y: 7}
+        - {x: 53, y: 16}
+        - {x: 77, y: 59}
+    - name: witch_eating_10
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 46}
+        - {x: 44, y: 43}
+        - {x: 64, y: 46}
+        - {x: 67, y: 49}
+        - {x: 69, y: 56}
+        - {x: 131, y: 109}
+        - {x: 131, y: 264}
+        - {x: 125, y: 317}
+        - {x: 61, y: 317}
+        - {x: -105, y: 296}
+        - {x: -103, y: 276}
+        - {x: -120, y: 228}
+        - {x: -120, y: 189}
+        - {x: -113, y: 172}
+        - {x: -87, y: 47}
+        - {x: -50, y: 0}
+        - {x: 47, y: 0}
+        - {x: 66, y: 5}
+        - {x: 31, y: 46}
+        - {x: 27, y: 50}
+        - {x: 27, y: 52}
+    - name: witch_eating_11
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 100}
+        - {x: 131, y: 173}
+        - {x: 111, y: 193}
+        - {x: 127, y: 309}
+        - {x: 122, y: 317}
+        - {x: 79, y: 317}
+        - {x: -1, y: 295}
+        - {x: -95, y: 305}
+        - {x: -103, y: 271}
+        - {x: -79, y: 203}
+        - {x: -120, y: 207}
+        - {x: -120, y: 186}
+        - {x: -65, y: 79}
+        - {x: -72, y: 50}
+        - {x: -48, y: 0}
+        - {x: 54, y: 0}
+        - {x: 57, y: 7}
+        - {x: 53, y: 16}
+        - {x: 91, y: 90}
+    - name: witch_eating_12
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 114}
+        - {x: 131, y: 171}
+        - {x: 123, y: 260}
+        - {x: 125, y: 316}
+        - {x: 124, y: 317}
+        - {x: 87, y: 317}
+        - {x: 12, y: 291}
+        - {x: -58, y: 298}
+        - {x: -105, y: 291}
+        - {x: -94, y: 256}
+        - {x: -90, y: 199}
+        - {x: -121, y: 209}
+        - {x: -121, y: 187}
+        - {x: -116, y: 174}
+        - {x: -57, y: 117}
+        - {x: -79, y: 46}
+        - {x: -37, y: 0}
+        - {x: 51, y: 0}
+        - {x: 60, y: 6}
+        - {x: 73, y: 49}
+        - {x: 130, y: 113}
+    - name: witch_eating_13
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 168}
+        - {x: 105, y: 212}
+        - {x: 127, y: 285}
+        - {x: 131, y: 317}
+        - {x: 61, y: 317}
+        - {x: -94, y: 295}
+        - {x: -115, y: 291}
+        - {x: -77, y: 232}
+        - {x: -121, y: 212}
+        - {x: -121, y: 189}
+        - {x: -116, y: 175}
+        - {x: -65, y: 138}
+        - {x: -69, y: 75}
+        - {x: -72, y: 39}
+        - {x: -50, y: 0}
+        - {x: 58, y: 0}
+        - {x: 83, y: 39}
+        - {x: 95, y: 99}
+        - {x: 131, y: 109}
+    - name: witch_eating_14
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 272}
+        - {x: 126, y: 312}
+        - {x: 117, y: 317}
+        - {x: 91, y: 317}
+        - {x: 48, y: 300}
+        - {x: -95, y: 296}
+        - {x: -102, y: 275}
+        - {x: -89, y: 257}
+        - {x: -76, y: 200}
+        - {x: -121, y: 208}
+        - {x: -121, y: 187}
+        - {x: -115, y: 169}
+        - {x: -54, y: 116}
+        - {x: -65, y: 83}
+        - {x: -69, y: 50}
+        - {x: -39, y: 0}
+        - {x: 47, y: 0}
+        - {x: 68, y: 4}
+        - {x: 94, y: 84}
+        - {x: 131, y: 119}
+        - {x: 131, y: 182}
+    - name: witch_eating_15
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2233
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 146}
+        - {x: 109, y: 202}
+        - {x: 129, y: 278}
+        - {x: 126, y: 317}
+        - {x: 73, y: 317}
+        - {x: -10, y: 296}
+        - {x: -76, y: 298}
+        - {x: -104, y: 289}
+        - {x: -95, y: 263}
+        - {x: -70, y: 241}
+        - {x: -66, y: 238}
+        - {x: -121, y: 205}
+        - {x: -121, y: 195}
+        - {x: -119, y: 188}
+        - {x: -69, y: 43}
+        - {x: -37, y: 0}
+        - {x: 50, y: 0}
+        - {x: 57, y: 7}
+        - {x: 74, y: 68}
+        - {x: 131, y: 115}
+    - name: witch_eating_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 157}
+        - {x: 111, y: 212}
+        - {x: 131, y: 297}
+        - {x: 131, y: 317}
+        - {x: 96, y: 317}
+        - {x: 46, y: 305}
+        - {x: -29, y: 296}
+        - {x: -107, y: 294}
+        - {x: -94, y: 257}
+        - {x: -68, y: 225}
+        - {x: -121, y: 211}
+        - {x: -121, y: 185}
+        - {x: -116, y: 171}
+        - {x: -65, y: 138}
+        - {x: -79, y: 43}
+        - {x: -35, y: 0}
+        - {x: 53, y: 0}
+        - {x: 61, y: 6}
+        - {x: 93, y: 85}
+        - {x: 131, y: 106}
+    - name: witch_eating_17
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 116}
+        - {x: 130, y: 292}
+        - {x: 123, y: 316}
+        - {x: 54, y: 316}
+        - {x: -94, y: 294}
+        - {x: -112, y: 281}
+        - {x: -80, y: 221}
+        - {x: -121, y: 206}
+        - {x: -121, y: 188}
+        - {x: -111, y: 178}
+        - {x: -88, y: 153}
+        - {x: -66, y: 93}
+        - {x: -78, y: 46}
+        - {x: -35, y: 0}
+        - {x: 49, y: 0}
+        - {x: 61, y: 6}
+        - {x: 72, y: 42}
+        - {x: 95, y: 84}
+    - name: witch_eating_18
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 157}
+        - {x: 110, y: 214}
+        - {x: 130, y: 301}
+        - {x: 130, y: 314}
+        - {x: 129, y: 316}
+        - {x: -15, y: 316}
+        - {x: -97, y: 306}
+        - {x: -112, y: 287}
+        - {x: -83, y: 204}
+        - {x: -120, y: 208}
+        - {x: -122, y: 206}
+        - {x: -122, y: 192}
+        - {x: -121, y: 185}
+        - {x: -86, y: 153}
+        - {x: -65, y: 46}
+        - {x: -53, y: 45}
+        - {x: -39, y: 3}
+        - {x: -35, y: 0}
+        - {x: 53, y: 0}
+        - {x: 60, y: 6}
+        - {x: 128, y: 111}
+        - {x: 130, y: 119}
+    - name: witch_eating_19
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 103}
+        - {x: 130, y: 159}
+        - {x: 117, y: 219}
+        - {x: 128, y: 311}
+        - {x: 117, y: 316}
+        - {x: 79, y: 316}
+        - {x: -3, y: 286}
+        - {x: -88, y: 298}
+        - {x: -112, y: 287}
+        - {x: -73, y: 229}
+        - {x: -122, y: 212}
+        - {x: -122, y: 182}
+        - {x: -70, y: 132}
+        - {x: -67, y: 56}
+        - {x: -63, y: 43}
+        - {x: -36, y: 0}
+        - {x: 50, y: 0}
+        - {x: 57, y: 7}
+        - {x: 64, y: 23}
+        - {x: 104, y: 78}
+    - name: witch_eating_20
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 114}
+        - {x: 130, y: 155}
+        - {x: 117, y: 210}
+        - {x: 126, y: 316}
+        - {x: 90, y: 316}
+        - {x: 30, y: 292}
+        - {x: -93, y: 294}
+        - {x: -106, y: 288}
+        - {x: -90, y: 246}
+        - {x: -122, y: 211}
+        - {x: -122, y: 188}
+        - {x: -115, y: 169}
+        - {x: -57, y: 115}
+        - {x: -68, y: 70}
+        - {x: -68, y: 38}
+        - {x: -39, y: 0}
+        - {x: 50, y: 0}
+        - {x: 57, y: 7}
+        - {x: 71, y: 60}
+        - {x: 105, y: 110}
+    - name: witch_eating_21
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 153}
+        - {x: 115, y: 213}
+        - {x: 129, y: 308}
+        - {x: 119, y: 316}
+        - {x: 98, y: 316}
+        - {x: 76, y: 313}
+        - {x: 8, y: 288}
+        - {x: -97, y: 300}
+        - {x: -113, y: 287}
+        - {x: -75, y: 228}
+        - {x: -121, y: 206}
+        - {x: -122, y: 206}
+        - {x: -122, y: 185}
+        - {x: -91, y: 148}
+        - {x: -63, y: 125}
+        - {x: -85, y: 51}
+        - {x: -51, y: 0}
+        - {x: 57, y: 0}
+        - {x: 61, y: 6}
+        - {x: 95, y: 99}
+        - {x: 130, y: 112}
+    - name: witch_eating_22
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101, y: 98}
+        - {x: 125, y: 113}
+        - {x: 130, y: 122}
+        - {x: 130, y: 147}
+        - {x: 104, y: 221}
+        - {x: 126, y: 280}
+        - {x: 120, y: 316}
+        - {x: 87, y: 316}
+        - {x: 34, y: 301}
+        - {x: -109, y: 294}
+        - {x: -107, y: 270}
+        - {x: -73, y: 219}
+        - {x: -122, y: 208}
+        - {x: -122, y: 181}
+        - {x: -96, y: 139}
+        - {x: -70, y: 48}
+        - {x: -36, y: 0}
+        - {x: 50, y: 0}
+        - {x: 57, y: 7}
+        - {x: 53, y: 16}
+        - {x: 71, y: 41}
+    - name: witch_eating_23
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1914
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130, y: 171}
+        - {x: 102, y: 214}
+        - {x: 125, y: 281}
+        - {x: 119, y: 317}
+        - {x: 95, y: 317}
+        - {x: 73, y: 313}
+        - {x: 3, y: 288}
+        - {x: -100, y: 298}
+        - {x: -107, y: 269}
+        - {x: -122, y: 207}
+        - {x: -123, y: 203}
+        - {x: -123, y: 185}
+        - {x: -54, y: 114}
+        - {x: -79, y: 50}
+        - {x: -50, y: 0}
+        - {x: 57, y: 0}
+        - {x: 60, y: 6}
+        - {x: 93, y: 84}
+        - {x: 130, y: 107}
+    - name: witch_eating_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 119}
+        - {x: 129, y: 163}
+        - {x: 107, y: 212}
+        - {x: 129, y: 310}
+        - {x: 129, y: 313}
+        - {x: 126, y: 317}
+        - {x: -53, y: 317}
+        - {x: -111, y: 311}
+        - {x: -103, y: 252}
+        - {x: -91, y: 256}
+        - {x: -71, y: 236}
+        - {x: -122, y: 204}
+        - {x: -123, y: 203}
+        - {x: -123, y: 177}
+        - {x: -59, y: 114}
+        - {x: -90, y: 49}
+        - {x: -54, y: 0}
+        - {x: 51, y: 0}
+        - {x: 61, y: 6}
+        - {x: 89, y: 90}
+        - {x: 125, y: 111}
+    - name: witch_eating_25
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118, y: 173}
+        - {x: 124, y: 311}
+        - {x: 121, y: 317}
+        - {x: 74, y: 317}
+        - {x: 10, y: 295}
+        - {x: -102, y: 297}
+        - {x: -111, y: 275}
+        - {x: -75, y: 222}
+        - {x: -124, y: 207}
+        - {x: -124, y: 188}
+        - {x: -123, y: 185}
+        - {x: -96, y: 156}
+        - {x: -54, y: 114}
+        - {x: -88, y: 55}
+        - {x: -40, y: 2}
+        - {x: -35, y: 0}
+        - {x: 46, y: 0}
+        - {x: 66, y: 4}
+        - {x: 66, y: 55}
+        - {x: 129, y: 99}
+        - {x: 129, y: 152}
+    - name: witch_eating_26
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 157}
+        - {x: 108, y: 223}
+        - {x: 125, y: 314}
+        - {x: 121, y: 318}
+        - {x: 71, y: 318}
+        - {x: 15, y: 301}
+        - {x: -112, y: 290}
+        - {x: -111, y: 273}
+        - {x: -74, y: 226}
+        - {x: -124, y: 208}
+        - {x: -124, y: 180}
+        - {x: -87, y: 61}
+        - {x: -46, y: 45}
+        - {x: -47, y: 0}
+        - {x: 56, y: 0}
+        - {x: 60, y: 6}
+        - {x: 43, y: 42}
+        - {x: 129, y: 102}
+    - name: witch_eating_27
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 155}
+        - {x: 112, y: 216}
+        - {x: 117, y: 270}
+        - {x: 120, y: 313}
+        - {x: 110, y: 318}
+        - {x: 78, y: 318}
+        - {x: 37, y: 304}
+        - {x: -114, y: 286}
+        - {x: -101, y: 254}
+        - {x: -125, y: 211}
+        - {x: -125, y: 184}
+        - {x: -121, y: 170}
+        - {x: -53, y: 114}
+        - {x: -81, y: 79}
+        - {x: -84, y: 68}
+        - {x: -45, y: 0}
+        - {x: 48, y: 0}
+        - {x: 62, y: 5}
+        - {x: 69, y: 56}
+        - {x: 129, y: 99}
+    - name: witch_eating_28
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 184}
+        - {x: 120, y: 253}
+        - {x: 122, y: 286}
+        - {x: 115, y: 318}
+        - {x: 82, y: 318}
+        - {x: -17, y: 285}
+        - {x: -59, y: 295}
+        - {x: -125, y: 294}
+        - {x: -125, y: 290}
+        - {x: -83, y: 227}
+        - {x: -125, y: 207}
+        - {x: -125, y: 182}
+        - {x: -124, y: 179}
+        - {x: -72, y: 129}
+        - {x: -97, y: 70}
+        - {x: -45, y: 1}
+        - {x: -43, y: 0}
+        - {x: 53, y: 0}
+        - {x: 60, y: 7}
+        - {x: 88, y: 62}
+        - {x: 129, y: 93}
+    - name: witch_eating_29
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 159}
+        - {x: 109, y: 226}
+        - {x: 120, y: 316}
+        - {x: 111, y: 318}
+        - {x: 82, y: 318}
+        - {x: 31, y: 294}
+        - {x: -102, y: 292}
+        - {x: -115, y: 268}
+        - {x: -90, y: 201}
+        - {x: -126, y: 201}
+        - {x: -126, y: 173}
+        - {x: -85, y: 88}
+        - {x: -97, y: 76}
+        - {x: -39, y: 44}
+        - {x: -49, y: 0}
+        - {x: 58, y: 0}
+        - {x: 60, y: 6}
+        - {x: 41, y: 46}
+        - {x: 128, y: 96}
+    - name: witch_eating_30
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 110}
+        - {x: 128, y: 170}
+        - {x: 110, y: 241}
+        - {x: 120, y: 313}
+        - {x: 112, y: 318}
+        - {x: 23, y: 318}
+        - {x: -90, y: 296}
+        - {x: -112, y: 281}
+        - {x: -103, y: 256}
+        - {x: -121, y: 199}
+        - {x: -126, y: 198}
+        - {x: -126, y: 171}
+        - {x: -65, y: 98}
+        - {x: -112, y: 73}
+        - {x: -61, y: 0}
+        - {x: 53, y: 0}
+        - {x: 60, y: 6}
+        - {x: 34, y: 48}
+        - {x: 89, y: 76}
+    - name: witch_eating_31
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1595
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 114}
+        - {x: 128, y: 122}
+        - {x: 128, y: 157}
+        - {x: 102, y: 212}
+        - {x: 121, y: 314}
+        - {x: 110, y: 318}
+        - {x: 74, y: 318}
+        - {x: -1, y: 280}
+        - {x: -44, y: 293}
+        - {x: -126, y: 291}
+        - {x: -126, y: 171}
+        - {x: -70, y: 120}
+        - {x: -97, y: 63}
+        - {x: -58, y: 0}
+        - {x: 52, y: 0}
+        - {x: 59, y: 6}
+        - {x: 38, y: 42}
+        - {x: 88, y: 88}
+    - name: witch_eating_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118, y: 174}
+        - {x: 120, y: 275}
+        - {x: 114, y: 317}
+        - {x: 82, y: 317}
+        - {x: 23, y: 294}
+        - {x: -94, y: 288}
+        - {x: -110, y: 281}
+        - {x: -105, y: 262}
+        - {x: -83, y: 238}
+        - {x: -126, y: 207}
+        - {x: -126, y: 168}
+        - {x: -87, y: 49}
+        - {x: -51, y: 12}
+        - {x: -36, y: 0}
+        - {x: 55, y: 0}
+        - {x: 67, y: 4}
+        - {x: 60, y: 61}
+        - {x: 128, y: 103}
+        - {x: 128, y: 140}
+    - name: witch_eating_33
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 116}
+        - {x: 128, y: 147}
+        - {x: 106, y: 215}
+        - {x: 121, y: 312}
+        - {x: 116, y: 317}
+        - {x: 83, y: 317}
+        - {x: 27, y: 301}
+        - {x: -54, y: 298}
+        - {x: -118, y: 284}
+        - {x: -92, y: 192}
+        - {x: -126, y: 199}
+        - {x: -126, y: 177}
+        - {x: -73, y: 67}
+        - {x: -77, y: 58}
+        - {x: -44, y: 0}
+        - {x: 55, y: 0}
+        - {x: 63, y: 4}
+        - {x: 48, y: 54}
+        - {x: 99, y: 87}
+    - name: witch_eating_34
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: 268}
+        - {x: 119, y: 312}
+        - {x: 107, y: 317}
+        - {x: 81, y: 317}
+        - {x: 5, y: 283}
+        - {x: -106, y: 294}
+        - {x: -113, y: 272}
+        - {x: -93, y: 244}
+        - {x: -126, y: 202}
+        - {x: -126, y: 176}
+        - {x: -97, y: 144}
+        - {x: -77, y: 61}
+        - {x: -68, y: 47}
+        - {x: -54, y: 46}
+        - {x: -35, y: 0}
+        - {x: 50, y: 0}
+        - {x: 59, y: 6}
+        - {x: 128, y: 113}
+        - {x: 128, y: 168}
+    - name: witch_eating_35
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 165}
+        - {x: 102, y: 212}
+        - {x: 122, y: 314}
+        - {x: 114, y: 316}
+        - {x: 69, y: 316}
+        - {x: -26, y: 286}
+        - {x: -105, y: 292}
+        - {x: -113, y: 267}
+        - {x: -74, y: 218}
+        - {x: -126, y: 201}
+        - {x: -126, y: 177}
+        - {x: -121, y: 164}
+        - {x: -69, y: 123}
+        - {x: -85, y: 50}
+        - {x: -47, y: 0}
+        - {x: 53, y: 0}
+        - {x: 61, y: 6}
+        - {x: 104, y: 72}
+        - {x: 128, y: 115}
+    - name: witch_eating_36
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: 223}
+        - {x: 119, y: 308}
+        - {x: 114, y: 317}
+        - {x: 71, y: 317}
+        - {x: 21, y: 304}
+        - {x: -124, y: 283}
+        - {x: -83, y: 193}
+        - {x: -125, y: 198}
+        - {x: -126, y: 194}
+        - {x: -126, y: 176}
+        - {x: -56, y: 115}
+        - {x: -62, y: 77}
+        - {x: -78, y: 43}
+        - {x: -46, y: 0}
+        - {x: 49, y: 0}
+        - {x: 66, y: 4}
+        - {x: 76, y: 67}
+        - {x: 128, y: 109}
+        - {x: 128, y: 163}
+    - name: witch_eating_37
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 146}
+        - {x: 107, y: 231}
+        - {x: 120, y: 315}
+        - {x: 117, y: 318}
+        - {x: 78, y: 318}
+        - {x: -12, y: 288}
+        - {x: -105, y: 290}
+        - {x: -112, y: 273}
+        - {x: -84, y: 193}
+        - {x: -126, y: 199}
+        - {x: -126, y: 175}
+        - {x: -55, y: 69}
+        - {x: -66, y: 59}
+        - {x: -72, y: 49}
+        - {x: -50, y: 0}
+        - {x: 58, y: 0}
+        - {x: 60, y: 6}
+        - {x: 95, y: 83}
+        - {x: 128, y: 120}
+    - name: witch_eating_38
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: 224}
+        - {x: 118, y: 314}
+        - {x: 110, y: 319}
+        - {x: 91, y: 319}
+        - {x: 50, y: 307}
+        - {x: 0, y: 285}
+        - {x: -104, y: 292}
+        - {x: -124, y: 285}
+        - {x: -85, y: 218}
+        - {x: -127, y: 204}
+        - {x: -127, y: 174}
+        - {x: -54, y: 111}
+        - {x: -77, y: 57}
+        - {x: -45, y: 0}
+        - {x: 47, y: 0}
+        - {x: 66, y: 5}
+        - {x: 75, y: 41}
+        - {x: 128, y: 102}
+        - {x: 128, y: 143}
+    - name: witch_eating_39
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1276
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: 212}
+        - {x: 118, y: 271}
+        - {x: 111, y: 319}
+        - {x: 78, y: 319}
+        - {x: -10, y: 291}
+        - {x: -106, y: 290}
+        - {x: -113, y: 280}
+        - {x: -104, y: 254}
+        - {x: -82, y: 200}
+        - {x: -127, y: 199}
+        - {x: -127, y: 163}
+        - {x: -71, y: 115}
+        - {x: -83, y: 57}
+        - {x: -52, y: 37}
+        - {x: -41, y: 2}
+        - {x: -35, y: 0}
+        - {x: 48, y: 0}
+        - {x: 67, y: 4}
+        - {x: 74, y: 55}
+        - {x: 128, y: 103}
+        - {x: 128, y: 152}
+    - name: witch_eating_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 148}
+        - {x: 126, y: 155}
+        - {x: 104, y: 220}
+        - {x: 118, y: 318}
+        - {x: 115, y: 319}
+        - {x: 73, y: 319}
+        - {x: 20, y: 293}
+        - {x: -125, y: 288}
+        - {x: -97, y: 218}
+        - {x: -126, y: 200}
+        - {x: -127, y: 199}
+        - {x: -127, y: 173}
+        - {x: -76, y: 128}
+        - {x: -73, y: 38}
+        - {x: -30, y: 48}
+        - {x: -40, y: 2}
+        - {x: -37, y: 0}
+        - {x: 53, y: 0}
+        - {x: 61, y: 6}
+        - {x: 88, y: 93}
+        - {x: 128, y: 118}
+    - name: witch_eating_41
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 127}
+        - {x: 128, y: 188}
+        - {x: 118, y: 313}
+        - {x: 108, y: 319}
+        - {x: 48, y: 319}
+        - {x: -47, y: 294}
+        - {x: -118, y: 284}
+        - {x: -101, y: 221}
+        - {x: -127, y: 197}
+        - {x: -127, y: 163}
+        - {x: -97, y: 154}
+        - {x: -74, y: 52}
+        - {x: -51, y: 43}
+        - {x: -40, y: 15}
+        - {x: -33, y: 0}
+        - {x: 47, y: 0}
+        - {x: 66, y: 5}
+        - {x: 89, y: 94}
+        - {x: 87, y: 106}
+        - {x: 124, y: 120}
+    - name: witch_eating_42
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 181}
+        - {x: 126, y: 193}
+        - {x: 105, y: 196}
+        - {x: 114, y: 316}
+        - {x: 108, y: 319}
+        - {x: 74, y: 319}
+        - {x: 4, y: 282}
+        - {x: -58, y: 300}
+        - {x: -122, y: 279}
+        - {x: -105, y: 256}
+        - {x: -127, y: 199}
+        - {x: -127, y: 179}
+        - {x: -58, y: 115}
+        - {x: -81, y: 46}
+        - {x: -43, y: 37}
+        - {x: -38, y: 0}
+        - {x: 51, y: 0}
+        - {x: 60, y: 6}
+        - {x: 90, y: 94}
+        - {x: 128, y: 105}
+    - name: witch_eating_43
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 149}
+        - {x: 104, y: 222}
+        - {x: 118, y: 319}
+        - {x: 77, y: 319}
+        - {x: 14, y: 287}
+        - {x: -108, y: 289}
+        - {x: -117, y: 271}
+        - {x: -127, y: 206}
+        - {x: -127, y: 182}
+        - {x: -126, y: 177}
+        - {x: -113, y: 164}
+        - {x: -58, y: 102}
+        - {x: -73, y: 49}
+        - {x: -63, y: 44}
+        - {x: -36, y: 0}
+        - {x: 62, y: 0}
+        - {x: 87, y: 47}
+        - {x: 123, y: 117}
+        - {x: 128, y: 126}
+    - name: witch_eating_44
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 119}
+        - {x: 128, y: 142}
+        - {x: 112, y: 183}
+        - {x: 128, y: 309}
+        - {x: 128, y: 319}
+        - {x: 48, y: 319}
+        - {x: 22, y: 290}
+        - {x: -105, y: 287}
+        - {x: -114, y: 278}
+        - {x: -127, y: 255}
+        - {x: -127, y: 164}
+        - {x: -80, y: 103}
+        - {x: -79, y: 54}
+        - {x: -64, y: 46}
+        - {x: -37, y: 0}
+        - {x: 51, y: 0}
+        - {x: 61, y: 6}
+        - {x: 69, y: 34}
+        - {x: 96, y: 101}
+    - name: witch_eating_45
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 316}
+        - {x: 114, y: 319}
+        - {x: 43, y: 319}
+        - {x: -41, y: 297}
+        - {x: -121, y: 283}
+        - {x: -128, y: 206}
+        - {x: -128, y: 178}
+        - {x: -58, y: 110}
+        - {x: -74, y: 50}
+        - {x: -62, y: 45}
+        - {x: -43, y: 45}
+        - {x: -40, y: 15}
+        - {x: -33, y: 0}
+        - {x: 47, y: 0}
+        - {x: 67, y: 4}
+        - {x: 128, y: 96}
+        - {x: 128, y: 143}
+        - {x: 101, y: 212}
+    - name: witch_eating_46
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 122}
+        - {x: 128, y: 198}
+        - {x: 116, y: 315}
+        - {x: 108, y: 319}
+        - {x: 67, y: 319}
+        - {x: 2, y: 286}
+        - {x: -103, y: 292}
+        - {x: -121, y: 285}
+        - {x: -86, y: 217}
+        - {x: -127, y: 202}
+        - {x: -127, y: 181}
+        - {x: -119, y: 164}
+        - {x: -59, y: 110}
+        - {x: -78, y: 57}
+        - {x: -62, y: 46}
+        - {x: -43, y: 39}
+        - {x: -38, y: 0}
+        - {x: 51, y: 0}
+        - {x: 60, y: 6}
+        - {x: 67, y: 54}
+        - {x: 96, y: 101}
+    - name: witch_eating_47
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 957
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101, y: 209}
+        - {x: 124, y: 277}
+        - {x: 113, y: 319}
+        - {x: 67, y: 319}
+        - {x: 23, y: 297}
+        - {x: -96, y: 290}
+        - {x: -112, y: 280}
+        - {x: -104, y: 257}
+        - {x: -83, y: 192}
+        - {x: -125, y: 199}
+        - {x: -127, y: 198}
+        - {x: -127, y: 184}
+        - {x: -126, y: 178}
+        - {x: -91, y: 146}
+        - {x: -85, y: 90}
+        - {x: -73, y: 33}
+        - {x: -36, y: 0}
+        - {x: 54, y: 0}
+        - {x: 103, y: 82}
+        - {x: 128, y: 123}
+        - {x: 128, y: 150}
+    - name: witch_eating_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 50}
+        - {x: 27, y: 52}
+        - {x: 31, y: 46}
+        - {x: 44, y: 43}
+        - {x: 83, y: 47}
+        - {x: 128, y: 123}
+        - {x: 128, y: 227}
+        - {x: 121, y: 311}
+        - {x: 116, y: 319}
+        - {x: 45, y: 319}
+        - {x: -106, y: 297}
+        - {x: -116, y: 256}
+        - {x: -126, y: 241}
+        - {x: -126, y: 146}
+        - {x: -92, y: 48}
+        - {x: -61, y: 0}
+        - {x: 52, y: 0}
+        - {x: 57, y: 7}
+        - {x: 53, y: 16}
+        - {x: 31, y: 46}
+    - name: witch_eating_49
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 50}
+        - {x: 33, y: 46}
+        - {x: 74, y: 28}
+        - {x: 128, y: 112}
+        - {x: 128, y: 211}
+        - {x: 119, y: 315}
+        - {x: 108, y: 319}
+        - {x: 62, y: 319}
+        - {x: 43, y: 315}
+        - {x: -120, y: 286}
+        - {x: -109, y: 268}
+        - {x: -84, y: 239}
+        - {x: -126, y: 219}
+        - {x: -126, y: 134}
+        - {x: -90, y: 36}
+        - {x: -48, y: 0}
+        - {x: 50, y: 0}
+        - {x: 57, y: 7}
+        - {x: 53, y: 16}
+        - {x: 31, y: 46}
+    - name: witch_eating_50
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 183}
+        - {x: 119, y: 237}
+        - {x: 117, y: 319}
+        - {x: 84, y: 319}
+        - {x: 31, y: 298}
+        - {x: -102, y: 290}
+        - {x: -119, y: 276}
+        - {x: -77, y: 226}
+        - {x: -90, y: 201}
+        - {x: -127, y: 201}
+        - {x: -127, y: 178}
+        - {x: -120, y: 167}
+        - {x: -66, y: 110}
+        - {x: -71, y: 38}
+        - {x: -42, y: 0}
+        - {x: 47, y: 0}
+        - {x: 68, y: 4}
+        - {x: 74, y: 32}
+        - {x: 92, y: 101}
+        - {x: 128, y: 123}
+    - name: witch_eating_51
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 217}
+        - {x: 119, y: 280}
+        - {x: 110, y: 319}
+        - {x: 82, y: 319}
+        - {x: 24, y: 298}
+        - {x: -104, y: 289}
+        - {x: -127, y: 283}
+        - {x: -127, y: 281}
+        - {x: -91, y: 208}
+        - {x: -127, y: 201}
+        - {x: -127, y: 177}
+        - {x: -121, y: 165}
+        - {x: -52, y: 112}
+        - {x: -70, y: 78}
+        - {x: -65, y: 38}
+        - {x: -34, y: 0}
+        - {x: 55, y: 0}
+        - {x: 68, y: 3}
+        - {x: 105, y: 112}
+        - {x: 128, y: 123}
+        - {x: 128, y: 149}
+    - name: witch_eating_52
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: 289}
+        - {x: 116, y: 319}
+        - {x: 39, y: 319}
+        - {x: -19, y: 307}
+        - {x: -127, y: 284}
+        - {x: -127, y: 270}
+        - {x: -87, y: 215}
+        - {x: -127, y: 196}
+        - {x: -127, y: 174}
+        - {x: -57, y: 111}
+        - {x: -65, y: 76}
+        - {x: -65, y: 45}
+        - {x: -50, y: 39}
+        - {x: -40, y: 15}
+        - {x: -33, y: 0}
+        - {x: 46, y: 0}
+        - {x: 68, y: 4}
+        - {x: 128, y: 106}
+        - {x: 128, y: 185}
+        - {x: 110, y: 270}
+    - name: witch_eating_53
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 170}
+        - {x: 116, y: 211}
+        - {x: 119, y: 319}
+        - {x: 22, y: 319}
+        - {x: -108, y: 294}
+        - {x: -112, y: 277}
+        - {x: -101, y: 250}
+        - {x: -127, y: 213}
+        - {x: -127, y: 181}
+        - {x: -104, y: 141}
+        - {x: -64, y: 124}
+        - {x: -63, y: 50}
+        - {x: -56, y: 40}
+        - {x: -41, y: 40}
+        - {x: -40, y: 15}
+        - {x: -35, y: 0}
+        - {x: 60, y: 0}
+        - {x: 94, y: 67}
+        - {x: 125, y: 115}
+        - {x: 128, y: 122}
+    - name: witch_eating_54
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 163}
+        - {x: 108, y: 194}
+        - {x: 124, y: 312}
+        - {x: 110, y: 319}
+        - {x: 53, y: 319}
+        - {x: 0, y: 286}
+        - {x: -105, y: 292}
+        - {x: -127, y: 284}
+        - {x: -127, y: 282}
+        - {x: -86, y: 212}
+        - {x: -127, y: 207}
+        - {x: -127, y: 176}
+        - {x: -122, y: 156}
+        - {x: -59, y: 115}
+        - {x: -64, y: 52}
+        - {x: -61, y: 40}
+        - {x: -36, y: 0}
+        - {x: 59, y: 0}
+        - {x: 70, y: 1}
+        - {x: 112, y: 79}
+        - {x: 128, y: 119}
+    - name: witch_eating_55
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 638
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 156}
+        - {x: 102, y: 224}
+        - {x: 119, y: 315}
+        - {x: 113, y: 319}
+        - {x: 71, y: 319}
+        - {x: 14, y: 287}
+        - {x: -105, y: 291}
+        - {x: -118, y: 259}
+        - {x: -83, y: 197}
+        - {x: -127, y: 201}
+        - {x: -127, y: 175}
+        - {x: -73, y: 118}
+        - {x: -71, y: 37}
+        - {x: -32, y: 0}
+        - {x: 46, y: 0}
+        - {x: 68, y: 4}
+        - {x: 93, y: 104}
+        - {x: 127, y: 116}
+        - {x: 128, y: 119}
+    - name: witch_eating_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 117}
+        - {x: 128, y: 161}
+        - {x: 105, y: 211}
+        - {x: 116, y: 313}
+        - {x: 113, y: 318}
+        - {x: 79, y: 318}
+        - {x: -24, y: 285}
+        - {x: -102, y: 289}
+        - {x: -117, y: 273}
+        - {x: -76, y: 225}
+        - {x: -125, y: 199}
+        - {x: -126, y: 197}
+        - {x: -126, y: 174}
+        - {x: -74, y: 128}
+        - {x: -82, y: 46}
+        - {x: -37, y: 0}
+        - {x: 50, y: 0}
+        - {x: 57, y: 7}
+        - {x: 67, y: 51}
+        - {x: 99, y: 110}
+    - name: witch_eating_57
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 117}
+        - {x: 128, y: 171}
+        - {x: 117, y: 290}
+        - {x: 111, y: 318}
+        - {x: 84, y: 318}
+        - {x: 53, y: 309}
+        - {x: -60, y: 290}
+        - {x: -99, y: 295}
+        - {x: -114, y: 270}
+        - {x: -72, y: 219}
+        - {x: -126, y: 205}
+        - {x: -126, y: 178}
+        - {x: -63, y: 111}
+        - {x: -90, y: 47}
+        - {x: -39, y: 0}
+        - {x: 51, y: 0}
+        - {x: 61, y: 6}
+        - {x: 72, y: 43}
+        - {x: 98, y: 108}
+    - name: witch_eating_58
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 174}
+        - {x: 114, y: 254}
+        - {x: 124, y: 317}
+        - {x: 53, y: 317}
+        - {x: 10, y: 280}
+        - {x: -54, y: 297}
+        - {x: -115, y: 284}
+        - {x: -107, y: 262}
+        - {x: -74, y: 218}
+        - {x: -126, y: 204}
+        - {x: -126, y: 180}
+        - {x: -61, y: 115}
+        - {x: -77, y: 51}
+        - {x: -67, y: 42}
+        - {x: -36, y: 0}
+        - {x: 51, y: 0}
+        - {x: 62, y: 6}
+        - {x: 89, y: 85}
+        - {x: 128, y: 116}
+    - name: witch_eating_59
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 296}
+        - {x: 128, y: 317}
+        - {x: 48, y: 317}
+        - {x: 7, y: 281}
+        - {x: -75, y: 293}
+        - {x: -101, y: 289}
+        - {x: -108, y: 273}
+        - {x: -96, y: 254}
+        - {x: -76, y: 236}
+        - {x: -125, y: 205}
+        - {x: -125, y: 185}
+        - {x: -123, y: 180}
+        - {x: -89, y: 147}
+        - {x: -76, y: 59}
+        - {x: -68, y: 45}
+        - {x: -43, y: 0}
+        - {x: 58, y: 0}
+        - {x: 64, y: 1}
+        - {x: 128, y: 105}
+        - {x: 128, y: 155}
+        - {x: 110, y: 235}
+    - name: witch_eating_60
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 213}
+        - {x: 124, y: 260}
+        - {x: 116, y: 316}
+        - {x: 81, y: 316}
+        - {x: 61, y: 310}
+        - {x: 16, y: 283}
+        - {x: -91, y: 293}
+        - {x: -116, y: 282}
+        - {x: -125, y: 204}
+        - {x: -125, y: 186}
+        - {x: -123, y: 181}
+        - {x: -88, y: 148}
+        - {x: -76, y: 54}
+        - {x: -48, y: 41}
+        - {x: -41, y: 2}
+        - {x: -35, y: 0}
+        - {x: 47, y: 0}
+        - {x: 67, y: 4}
+        - {x: 103, y: 110}
+        - {x: 128, y: 118}
+        - {x: 128, y: 145}
+    - name: witch_eating_61
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 113}
+        - {x: 129, y: 161}
+        - {x: 116, y: 274}
+        - {x: 117, y: 314}
+        - {x: 113, y: 316}
+        - {x: 80, y: 316}
+        - {x: 9, y: 285}
+        - {x: -41, y: 296}
+        - {x: -109, y: 288}
+        - {x: -110, y: 275}
+        - {x: -72, y: 224}
+        - {x: -123, y: 205}
+        - {x: -124, y: 202}
+        - {x: -124, y: 180}
+        - {x: -63, y: 106}
+        - {x: -84, y: 39}
+        - {x: -47, y: 0}
+        - {x: 53, y: 0}
+        - {x: 60, y: 6}
+        - {x: 75, y: 47}
+        - {x: 96, y: 113}
+    - name: witch_eating_62
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 218}
+        - {x: 126, y: 312}
+        - {x: 122, y: 316}
+        - {x: 75, y: 316}
+        - {x: -18, y: 293}
+        - {x: -121, y: 291}
+        - {x: -101, y: 196}
+        - {x: -124, y: 202}
+        - {x: -125, y: 201}
+        - {x: -125, y: 175}
+        - {x: -67, y: 97}
+        - {x: -81, y: 51}
+        - {x: -55, y: 43}
+        - {x: -36, y: 49}
+        - {x: -41, y: 2}
+        - {x: -35, y: 0}
+        - {x: 47, y: 0}
+        - {x: 67, y: 4}
+        - {x: 74, y: 56}
+        - {x: 129, y: 115}
+        - {x: 129, y: 140}
+    - name: witch_eating_63
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 319
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 162}
+        - {x: 117, y: 172}
+        - {x: 125, y: 311}
+        - {x: 114, y: 316}
+        - {x: 39, y: 316}
+        - {x: -91, y: 291}
+        - {x: -106, y: 283}
+        - {x: -106, y: 278}
+        - {x: -102, y: 267}
+        - {x: -94, y: 253}
+        - {x: -125, y: 209}
+        - {x: -125, y: 183}
+        - {x: -124, y: 180}
+        - {x: -65, y: 92}
+        - {x: -80, y: 52}
+        - {x: -41, y: 2}
+        - {x: -35, y: 0}
+        - {x: 47, y: 0}
+        - {x: 67, y: 4}
+        - {x: 69, y: 44}
+        - {x: 111, y: 92}
+        - {x: 128, y: 115}
+    - name: witch_eating_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 97}
+        - {x: 128, y: 205}
+        - {x: 120, y: 281}
+        - {x: 117, y: 317}
+        - {x: 85, y: 317}
+        - {x: -1, y: 291}
+        - {x: -124, y: 294}
+        - {x: -85, y: 206}
+        - {x: -125, y: 205}
+        - {x: -125, y: 180}
+        - {x: -100, y: 155}
+        - {x: -59, y: 116}
+        - {x: -75, y: 51}
+        - {x: -39, y: 3}
+        - {x: -35, y: 0}
+        - {x: 52, y: 0}
+        - {x: 57, y: 7}
+        - {x: 53, y: 16}
+        - {x: 84, y: 43}
+    - name: witch_eating_65
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 262
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: 154}
+        - {x: 102, y: 215}
+        - {x: 125, y: 294}
+        - {x: 115, y: 317}
+        - {x: 86, y: 317}
+        - {x: 0, y: 286}
+        - {x: -103, y: 294}
+        - {x: -110, y: 265}
+        - {x: -125, y: 225}
+        - {x: -125, y: 180}
+        - {x: -124, y: 179}
+        - {x: -62, y: 79}
+        - {x: -70, y: 59}
+        - {x: -72, y: 51}
+        - {x: -53, y: 42}
+        - {x: -56, y: 12}
+        - {x: -38, y: 0}
+        - {x: 60, y: 0}
+        - {x: 70, y: 3}
+        - {x: 97, y: 83}
+        - {x: 126, y: 113}
+        - {x: 128, y: 119}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

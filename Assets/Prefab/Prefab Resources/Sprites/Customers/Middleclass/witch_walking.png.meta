@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: f267abe756170d8429f761af858e9207
+timeCreated: 1466054037
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: witch_walking_0
+    21300002: witch_walking_1
+    21300004: witch_walking_2
+    21300006: witch_walking_3
+    21300008: witch_walking_4
+    21300010: witch_walking_5
+    21300012: witch_walking_6
+    21300014: witch_walking_7
+    21300016: witch_walking_8
+    21300018: witch_walking_9
+    21300020: witch_walking_10
+    21300022: witch_walking_11
+    21300024: witch_walking_12
+    21300026: witch_walking_13
+    21300028: witch_walking_14
+    21300030: witch_walking_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: witch_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 195}
+        - {x: 120, y: 238}
+        - {x: 122, y: 317}
+        - {x: 79, y: 317}
+        - {x: 7, y: 285}
+        - {x: -22, y: 291}
+        - {x: -99, y: 298}
+        - {x: -115, y: 278}
+        - {x: -85, y: 202}
+        - {x: -120, y: 206}
+        - {x: -125, y: 205}
+        - {x: -125, y: 191}
+        - {x: -124, y: 185}
+        - {x: -60, y: 121}
+        - {x: -82, y: 46}
+        - {x: -56, y: 0}
+        - {x: 55, y: 0}
+        - {x: 92, y: 98}
+        - {x: 124, y: 118}
+        - {x: 125, y: 120}
+    - name: witch_walking_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 280}
+        - {x: 123, y: 317}
+        - {x: 73, y: 317}
+        - {x: 33, y: 300}
+        - {x: -91, y: 296}
+        - {x: -116, y: 293}
+        - {x: -85, y: 203}
+        - {x: -125, y: 207}
+        - {x: -125, y: 185}
+        - {x: -118, y: 170}
+        - {x: -74, y: 140}
+        - {x: -70, y: 47}
+        - {x: -49, y: 45}
+        - {x: -37, y: 48}
+        - {x: -43, y: 17}
+        - {x: -38, y: 0}
+        - {x: 48, y: 0}
+        - {x: 57, y: 8}
+        - {x: 87, y: 88}
+        - {x: 125, y: 117}
+    - name: witch_walking_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 121}
+        - {x: 125, y: 167}
+        - {x: 111, y: 234}
+        - {x: 121, y: 317}
+        - {x: 81, y: 317}
+        - {x: -2, y: 290}
+        - {x: -102, y: 298}
+        - {x: -108, y: 278}
+        - {x: -74, y: 222}
+        - {x: -125, y: 205}
+        - {x: -125, y: 179}
+        - {x: -70, y: 114}
+        - {x: -76, y: 37}
+        - {x: -32, y: 0}
+        - {x: 62, y: 0}
+        - {x: 85, y: 97}
+        - {x: 124, y: 115}
+    - name: witch_walking_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 165}
+        - {x: 110, y: 226}
+        - {x: 119, y: 312}
+        - {x: 114, y: 317}
+        - {x: 88, y: 317}
+        - {x: 70, y: 314}
+        - {x: 3, y: 288}
+        - {x: -101, y: 300}
+        - {x: -114, y: 288}
+        - {x: -83, y: 197}
+        - {x: -124, y: 206}
+        - {x: -125, y: 205}
+        - {x: -125, y: 178}
+        - {x: -72, y: 127}
+        - {x: -83, y: 50}
+        - {x: -46, y: 6}
+        - {x: -30, y: 0}
+        - {x: 43, y: 0}
+        - {x: 51, y: 2}
+        - {x: 90, y: 86}
+        - {x: 89, y: 116}
+        - {x: 125, y: 119}
+    - name: witch_walking_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: 215}
+        - {x: 125, y: 307}
+        - {x: 125, y: 317}
+        - {x: 5, y: 317}
+        - {x: -124, y: 291}
+        - {x: -125, y: 267}
+        - {x: -125, y: 172}
+        - {x: -74, y: 51}
+        - {x: -51, y: 47}
+        - {x: -33, y: 49}
+        - {x: -29, y: 54}
+        - {x: -29, y: 55}
+        - {x: -29, y: 51}
+        - {x: -30, y: 50}
+        - {x: -35, y: 41}
+        - {x: -40, y: 7}
+        - {x: -33, y: 2}
+        - {x: -26, y: 0}
+        - {x: 73, y: 0}
+        - {x: 113, y: 76}
+        - {x: 125, y: 101}
+        - {x: 125, y: 149}
+    - name: witch_walking_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 156}
+        - {x: 111, y: 211}
+        - {x: 124, y: 317}
+        - {x: 85, y: 317}
+        - {x: 31, y: 298}
+        - {x: -77, y: 297}
+        - {x: -122, y: 292}
+        - {x: -87, y: 209}
+        - {x: -124, y: 206}
+        - {x: -125, y: 204}
+        - {x: -125, y: 186}
+        - {x: -111, y: 171}
+        - {x: -87, y: 152}
+        - {x: -80, y: 52}
+        - {x: -38, y: 0}
+        - {x: 37, y: 0}
+        - {x: 46, y: 1}
+        - {x: 55, y: 7}
+        - {x: 89, y: 96}
+        - {x: 125, y: 116}
+    - name: witch_walking_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121, y: 170}
+        - {x: 109, y: 225}
+        - {x: 121, y: 313}
+        - {x: 116, y: 317}
+        - {x: 85, y: 317}
+        - {x: 60, y: 312}
+        - {x: 7, y: 289}
+        - {x: -102, y: 300}
+        - {x: -120, y: 288}
+        - {x: -80, y: 228}
+        - {x: -125, y: 212}
+        - {x: -125, y: 185}
+        - {x: -119, y: 172}
+        - {x: -62, y: 120}
+        - {x: -81, y: 53}
+        - {x: -47, y: 2}
+        - {x: -37, y: 0}
+        - {x: 66, y: 0}
+        - {x: 103, y: 93}
+        - {x: 125, y: 118}
+        - {x: 125, y: 147}
+    - name: witch_walking_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 317
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 145}
+        - {x: 124, y: 151}
+        - {x: 101, y: 222}
+        - {x: 123, y: 290}
+        - {x: 116, y: 317}
+        - {x: 77, y: 317}
+        - {x: -19, y: 291}
+        - {x: -102, y: 295}
+        - {x: -107, y: 285}
+        - {x: -102, y: 262}
+        - {x: -95, y: 197}
+        - {x: -125, y: 205}
+        - {x: -125, y: 184}
+        - {x: -120, y: 174}
+        - {x: -58, y: 121}
+        - {x: -77, y: 55}
+        - {x: -40, y: 0}
+        - {x: 58, y: 0}
+        - {x: 79, y: 52}
+        - {x: 89, y: 104}
+        - {x: 125, y: 122}
+    - name: witch_walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: 194}
+        - {x: 119, y: 309}
+        - {x: 114, y: 317}
+        - {x: 85, y: 317}
+        - {x: 52, y: 310}
+        - {x: -102, y: 295}
+        - {x: -109, y: 277}
+        - {x: -97, y: 257}
+        - {x: -74, y: 238}
+        - {x: -125, y: 223}
+        - {x: -125, y: 176}
+        - {x: -78, y: 115}
+        - {x: -86, y: 62}
+        - {x: -71, y: 51}
+        - {x: -49, y: 47}
+        - {x: -41, y: 0}
+        - {x: 62, y: 0}
+        - {x: 66, y: 1}
+        - {x: 89, y: 83}
+        - {x: 125, y: 123}
+        - {x: 125, y: 147}
+    - name: witch_walking_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 118}
+        - {x: 125, y: 155}
+        - {x: 106, y: 211}
+        - {x: 120, y: 315}
+        - {x: 114, y: 317}
+        - {x: 75, y: 317}
+        - {x: 31, y: 298}
+        - {x: -102, y: 295}
+        - {x: -108, y: 277}
+        - {x: -86, y: 210}
+        - {x: -125, y: 209}
+        - {x: -125, y: 186}
+        - {x: -61, y: 114}
+        - {x: -66, y: 99}
+        - {x: -75, y: 54}
+        - {x: -40, y: 7}
+        - {x: -34, y: 0}
+        - {x: 47, y: 0}
+        - {x: 57, y: 7}
+        - {x: 87, y: 60}
+        - {x: 91, y: 116}
+    - name: witch_walking_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 299}
+        - {x: 124, y: 317}
+        - {x: 74, y: 317}
+        - {x: 10, y: 289}
+        - {x: -92, y: 296}
+        - {x: -108, y: 285}
+        - {x: -102, y: 268}
+        - {x: -90, y: 253}
+        - {x: -76, y: 240}
+        - {x: -69, y: 235}
+        - {x: -125, y: 207}
+        - {x: -125, y: 188}
+        - {x: -120, y: 175}
+        - {x: -78, y: 91}
+        - {x: -74, y: 44}
+        - {x: -41, y: 0}
+        - {x: 67, y: 0}
+        - {x: 90, y: 37}
+        - {x: 96, y: 116}
+        - {x: 125, y: 117}
+    - name: witch_walking_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117, y: 187}
+        - {x: 123, y: 247}
+        - {x: 118, y: 317}
+        - {x: 72, y: 317}
+        - {x: 55, y: 311}
+        - {x: -21, y: 290}
+        - {x: -92, y: 295}
+        - {x: -110, y: 286}
+        - {x: -99, y: 256}
+        - {x: -125, y: 221}
+        - {x: -125, y: 179}
+        - {x: -69, y: 126}
+        - {x: -74, y: 53}
+        - {x: -45, y: 23}
+        - {x: -38, y: 0}
+        - {x: 43, y: 0}
+        - {x: 63, y: 6}
+        - {x: 89, y: 116}
+        - {x: 125, y: 118}
+        - {x: 125, y: 162}
+    - name: witch_walking_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 122}
+        - {x: 125, y: 252}
+        - {x: 118, y: 317}
+        - {x: 75, y: 317}
+        - {x: 70, y: 315}
+        - {x: 8, y: 288}
+        - {x: -112, y: 311}
+        - {x: -104, y: 231}
+        - {x: -125, y: 210}
+        - {x: -125, y: 171}
+        - {x: -90, y: 154}
+        - {x: -76, y: 148}
+        - {x: -79, y: 61}
+        - {x: -67, y: 50}
+        - {x: -46, y: 6}
+        - {x: -31, y: 0}
+        - {x: 43, y: 0}
+        - {x: 51, y: 2}
+        - {x: 76, y: 43}
+        - {x: 99, y: 83}
+        - {x: 123, y: 116}
+    - name: witch_walking_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 115}
+        - {x: 125, y: 167}
+        - {x: 100, y: 214}
+        - {x: 122, y: 287}
+        - {x: 115, y: 317}
+        - {x: 83, y: 317}
+        - {x: 64, y: 313}
+        - {x: 1, y: 290}
+        - {x: -103, y: 299}
+        - {x: -111, y: 278}
+        - {x: -77, y: 205}
+        - {x: -125, y: 209}
+        - {x: -125, y: 175}
+        - {x: -64, y: 115}
+        - {x: -75, y: 52}
+        - {x: -43, y: 0}
+        - {x: 54, y: 0}
+        - {x: 93, y: 71}
+        - {x: 93, y: 110}
+        - {x: 124, y: 112}
+    - name: witch_walking_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 120}
+        - {x: 125, y: 159}
+        - {x: 100, y: 214}
+        - {x: 124, y: 251}
+        - {x: 119, y: 317}
+        - {x: 21, y: 317}
+        - {x: -33, y: 308}
+        - {x: -118, y: 291}
+        - {x: -85, y: 202}
+        - {x: -125, y: 206}
+        - {x: -125, y: 180}
+        - {x: -69, y: 123}
+        - {x: -68, y: 90}
+        - {x: -64, y: 76}
+        - {x: -92, y: 66}
+        - {x: -62, y: 0}
+        - {x: 69, y: 0}
+        - {x: 84, y: 42}
+        - {x: 82, y: 75}
+        - {x: 123, y: 116}
+    - name: witch_walking_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 250
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101, y: 216}
+        - {x: 124, y: 278}
+        - {x: 117, y: 317}
+        - {x: 17, y: 317}
+        - {x: -95, y: 306}
+        - {x: -112, y: 276}
+        - {x: -82, y: 198}
+        - {x: -124, y: 207}
+        - {x: -125, y: 205}
+        - {x: -125, y: 191}
+        - {x: -122, y: 186}
+        - {x: -57, y: 120}
+        - {x: -95, y: 74}
+        - {x: -61, y: 0}
+        - {x: 56, y: 0}
+        - {x: 78, y: 47}
+        - {x: 125, y: 117}
+        - {x: 125, y: 158}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
