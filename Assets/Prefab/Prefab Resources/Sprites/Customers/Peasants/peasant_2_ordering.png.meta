@@ -1,0 +1,736 @@
+fileFormatVersion: 2
+guid: 4302c4b1a53e90041b2ef32ad96df897
+timeCreated: 1466474422
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: peasant_2_ordering_0
+    21300002: peasant_2_ordering_1
+    21300004: peasant_2_ordering_2
+    21300006: peasant_2_ordering_3
+    21300008: peasant_2_ordering_4
+    21300010: peasant_2_ordering_5
+    21300012: peasant_2_ordering_6
+    21300014: peasant_2_ordering_7
+    21300016: peasant_2_ordering_8
+    21300018: peasant_2_ordering_9
+    21300020: peasant_2_ordering_10
+    21300022: peasant_2_ordering_11
+    21300024: peasant_2_ordering_12
+    21300026: peasant_2_ordering_13
+    21300028: peasant_2_ordering_14
+    21300030: peasant_2_ordering_15
+    21300032: peasant_2_ordering_16
+    21300034: peasant_2_ordering_17
+    21300036: peasant_2_ordering_18
+    21300038: peasant_2_ordering_19
+    21300040: peasant_2_ordering_20
+    21300042: peasant_2_ordering_21
+    21300044: peasant_2_ordering_22
+    21300046: peasant_2_ordering_23
+    21300048: peasant_2_ordering_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: peasant_2_ordering_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 297}
+        - {x: 40, y: 297}
+        - {x: -12, y: 271}
+        - {x: -37, y: 297}
+        - {x: -61, y: 297}
+        - {x: -77, y: 282}
+        - {x: -86, y: 244}
+        - {x: -86, y: 72}
+        - {x: -32, y: 71}
+        - {x: -35, y: 11}
+        - {x: -27, y: 0}
+        - {x: 61, y: 0}
+        - {x: 86, y: 61}
+        - {x: 86, y: 253}
+        - {x: 78, y: 296}
+    - name: peasant_2_ordering_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1208
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86, y: 243}
+        - {x: 83, y: 286}
+        - {x: 62, y: 297}
+        - {x: -59, y: 297}
+        - {x: -76, y: 292}
+        - {x: -86, y: 249}
+        - {x: -86, y: 120}
+        - {x: -52, y: 43}
+        - {x: -31, y: 0}
+        - {x: 23, y: 0}
+        - {x: 40, y: 9}
+        - {x: 53, y: 52}
+        - {x: 56, y: 68}
+        - {x: 86, y: 114}
+    - name: peasant_2_ordering_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1208
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 297}
+        - {x: -86, y: 297}
+        - {x: -86, y: 181}
+        - {x: -82, y: 183}
+        - {x: -83, y: 161}
+        - {x: -82, y: 114}
+        - {x: -76, y: 87}
+        - {x: -34, y: 11}
+        - {x: -26, y: 0}
+        - {x: 65, y: 0}
+        - {x: 86, y: 108}
+        - {x: 86, y: 278}
+        - {x: 83, y: 289}
+    - name: peasant_2_ordering_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1208
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: 282}
+        - {x: 79, y: 297}
+        - {x: -86, y: 297}
+        - {x: -86, y: 126}
+        - {x: -76, y: 68}
+        - {x: -34, y: 11}
+        - {x: -26, y: 0}
+        - {x: 31, y: 0}
+        - {x: 47, y: 4}
+        - {x: 86, y: 120}
+        - {x: 86, y: 204}
+        - {x: 84, y: 212}
+    - name: peasant_2_ordering_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1208
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 298}
+        - {x: 51, y: 298}
+        - {x: 45, y: 297}
+        - {x: 36, y: 298}
+        - {x: -63, y: 298}
+        - {x: -66, y: 295}
+        - {x: -86, y: 242}
+        - {x: -86, y: 112}
+        - {x: -67, y: 75}
+        - {x: -35, y: 11}
+        - {x: -20, y: 0}
+        - {x: 36, y: 0}
+        - {x: 75, y: 62}
+        - {x: 86, y: 87}
+        - {x: 86, y: 291}
+    - name: peasant_2_ordering_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: 281}
+        - {x: 71, y: 298}
+        - {x: -57, y: 298}
+        - {x: -62, y: 297}
+        - {x: -72, y: 275}
+        - {x: -71, y: 252}
+        - {x: -85, y: 216}
+        - {x: -86, y: 214}
+        - {x: -86, y: 69}
+        - {x: -35, y: 0}
+        - {x: 37, y: 0}
+        - {x: 82, y: 63}
+        - {x: 86, y: 98}
+        - {x: 86, y: 235}
+    - name: peasant_2_ordering_6
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 906
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78, y: 228}
+        - {x: 85, y: 272}
+        - {x: 71, y: 296}
+        - {x: 58, y: 298}
+        - {x: -54, y: 298}
+        - {x: -75, y: 290}
+        - {x: -86, y: 222}
+        - {x: -86, y: 131}
+        - {x: -83, y: 71}
+        - {x: -28, y: 0}
+        - {x: 47, y: 0}
+        - {x: 86, y: 86}
+        - {x: 86, y: 210}
+        - {x: 83, y: 218}
+    - name: peasant_2_ordering_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 906
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 297}
+        - {x: 66, y: 298}
+        - {x: 40, y: 298}
+        - {x: -15, y: 265}
+        - {x: -32, y: 298}
+        - {x: -63, y: 298}
+        - {x: -75, y: 296}
+        - {x: -86, y: 223}
+        - {x: -86, y: 167}
+        - {x: -78, y: 74}
+        - {x: -52, y: 41}
+        - {x: -28, y: 0}
+        - {x: 39, y: 0}
+        - {x: 69, y: 59}
+        - {x: 86, y: 95}
+        - {x: 86, y: 280}
+    - name: peasant_2_ordering_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 906
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 299}
+        - {x: 38, y: 299}
+        - {x: 15, y: 289}
+        - {x: -16, y: 299}
+        - {x: -53, y: 299}
+        - {x: -72, y: 292}
+        - {x: -83, y: 266}
+        - {x: -86, y: 245}
+        - {x: -86, y: 111}
+        - {x: -50, y: 43}
+        - {x: -34, y: 0}
+        - {x: 38, y: 0}
+        - {x: 49, y: 5}
+        - {x: 68, y: 95}
+        - {x: 86, y: 116}
+        - {x: 86, y: 262}
+    - name: peasant_2_ordering_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 906
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74, y: 299}
+        - {x: 48, y: 299}
+        - {x: 16, y: 271}
+        - {x: -19, y: 299}
+        - {x: -68, y: 299}
+        - {x: -85, y: 294}
+        - {x: -86, y: 289}
+        - {x: -86, y: 127}
+        - {x: -72, y: 79}
+        - {x: -27, y: 75}
+        - {x: -37, y: 10}
+        - {x: -26, y: 0}
+        - {x: 22, y: 0}
+        - {x: 47, y: 6}
+        - {x: 68, y: 95}
+        - {x: 86, y: 110}
+        - {x: 86, y: 286}
+    - name: peasant_2_ordering_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 292}
+        - {x: 64, y: 299}
+        - {x: 42, y: 299}
+        - {x: 14, y: 277}
+        - {x: -30, y: 299}
+        - {x: -64, y: 299}
+        - {x: -73, y: 276}
+        - {x: -86, y: 227}
+        - {x: -86, y: 152}
+        - {x: -78, y: 82}
+        - {x: -37, y: 69}
+        - {x: -41, y: 0}
+        - {x: 31, y: 0}
+        - {x: 49, y: 5}
+        - {x: 63, y: 55}
+        - {x: 86, y: 111}
+        - {x: 86, y: 233}
+    - name: peasant_2_ordering_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 604
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: 299}
+        - {x: 44, y: 299}
+        - {x: -8, y: 272}
+        - {x: -31, y: 299}
+        - {x: -67, y: 299}
+        - {x: -86, y: 268}
+        - {x: -86, y: 147}
+        - {x: -82, y: 124}
+        - {x: -72, y: 86}
+        - {x: -45, y: 6}
+        - {x: -26, y: 0}
+        - {x: 32, y: 0}
+        - {x: 39, y: 10}
+        - {x: 86, y: 112}
+        - {x: 86, y: 282}
+    - name: peasant_2_ordering_12
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 604
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: 299}
+        - {x: 47, y: 299}
+        - {x: 16, y: 273}
+        - {x: -19, y: 299}
+        - {x: -59, y: 299}
+        - {x: -82, y: 291}
+        - {x: -86, y: 269}
+        - {x: -86, y: 127}
+        - {x: -74, y: 84}
+        - {x: -35, y: 70}
+        - {x: -41, y: 0}
+        - {x: 63, y: 0}
+        - {x: 63, y: 88}
+        - {x: 86, y: 117}
+        - {x: 86, y: 279}
+    - name: peasant_2_ordering_13
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 604
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 299}
+        - {x: 45, y: 299}
+        - {x: -4, y: 266}
+        - {x: -29, y: 299}
+        - {x: -51, y: 299}
+        - {x: -72, y: 292}
+        - {x: -86, y: 226}
+        - {x: -86, y: 122}
+        - {x: -65, y: 86}
+        - {x: -34, y: 11}
+        - {x: -27, y: 0}
+        - {x: 29, y: 0}
+        - {x: 49, y: 5}
+        - {x: 86, y: 86}
+        - {x: 86, y: 278}
+        - {x: 75, y: 297}
+    - name: peasant_2_ordering_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 604
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84, y: 298}
+        - {x: 13, y: 298}
+        - {x: -2, y: 294}
+        - {x: -13, y: 298}
+        - {x: -62, y: 298}
+        - {x: -76, y: 281}
+        - {x: -86, y: 235}
+        - {x: -86, y: 130}
+        - {x: -79, y: 96}
+        - {x: -30, y: 74}
+        - {x: -35, y: 11}
+        - {x: -27, y: 0}
+        - {x: 30, y: 0}
+        - {x: 48, y: 5}
+        - {x: 61, y: 54}
+        - {x: 86, y: 110}
+        - {x: 86, y: 283}
+    - name: peasant_2_ordering_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 298}
+        - {x: 38, y: 298}
+        - {x: -10, y: 275}
+        - {x: -34, y: 298}
+        - {x: -64, y: 298}
+        - {x: -86, y: 273}
+        - {x: -86, y: 109}
+        - {x: -48, y: 83}
+        - {x: -34, y: 11}
+        - {x: -27, y: 0}
+        - {x: 28, y: 0}
+        - {x: 49, y: 6}
+        - {x: 86, y: 92}
+        - {x: 86, y: 280}
+        - {x: 70, y: 297}
+    - name: peasant_2_ordering_16
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 302
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85, y: 298}
+        - {x: 42, y: 298}
+        - {x: 17, y: 287}
+        - {x: -14, y: 298}
+        - {x: -60, y: 298}
+        - {x: -80, y: 270}
+        - {x: -86, y: 229}
+        - {x: -86, y: 138}
+        - {x: -85, y: 115}
+        - {x: -55, y: 85}
+        - {x: -32, y: 3}
+        - {x: -23, y: 0}
+        - {x: 37, y: 0}
+        - {x: 78, y: 57}
+        - {x: 86, y: 87}
+        - {x: 86, y: 294}
+    - name: peasant_2_ordering_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 302
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85, y: 281}
+        - {x: 70, y: 295}
+        - {x: 58, y: 298}
+        - {x: -62, y: 298}
+        - {x: -78, y: 272}
+        - {x: -86, y: 226}
+        - {x: -86, y: 182}
+        - {x: -82, y: 184}
+        - {x: -79, y: 187}
+        - {x: -82, y: 155}
+        - {x: -81, y: 123}
+        - {x: -68, y: 95}
+        - {x: -33, y: 12}
+        - {x: -25, y: 0}
+        - {x: 31, y: 0}
+        - {x: 48, y: 4}
+        - {x: 58, y: 62}
+        - {x: 86, y: 109}
+        - {x: 86, y: 264}
+    - name: peasant_2_ordering_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 302
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86, y: 278}
+        - {x: 85, y: 282}
+        - {x: 73, y: 298}
+        - {x: 42, y: 298}
+        - {x: 20, y: 283}
+        - {x: -28, y: 298}
+        - {x: -66, y: 298}
+        - {x: -71, y: 292}
+        - {x: -86, y: 219}
+        - {x: -86, y: 137}
+        - {x: -74, y: 98}
+        - {x: -41, y: 0}
+        - {x: 30, y: 0}
+        - {x: 49, y: 6}
+        - {x: 58, y: 60}
+        - {x: 84, y: 90}
+        - {x: 86, y: 100}
+    - name: peasant_2_ordering_19
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 302
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 298}
+        - {x: -62, y: 298}
+        - {x: -77, y: 277}
+        - {x: -86, y: 223}
+        - {x: -86, y: 162}
+        - {x: -82, y: 118}
+        - {x: -64, y: 93}
+        - {x: -34, y: 11}
+        - {x: -20, y: 0}
+        - {x: 37, y: 0}
+        - {x: 78, y: 66}
+        - {x: 86, y: 83}
+        - {x: 86, y: 291}
+    - name: peasant_2_ordering_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 298}
+        - {x: 46, y: 298}
+        - {x: 16, y: 269}
+        - {x: -35, y: 298}
+        - {x: -56, y: 298}
+        - {x: -79, y: 277}
+        - {x: -86, y: 255}
+        - {x: -86, y: 111}
+        - {x: -60, y: 93}
+        - {x: -34, y: 11}
+        - {x: -27, y: 0}
+        - {x: 37, y: 0}
+        - {x: 47, y: 2}
+        - {x: 63, y: 46}
+        - {x: 86, y: 94}
+        - {x: 86, y: 284}
+    - name: peasant_2_ordering_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 297}
+        - {x: 44, y: 295}
+        - {x: 28, y: 297}
+        - {x: -78, y: 297}
+        - {x: -86, y: 268}
+        - {x: -86, y: 118}
+        - {x: -63, y: 85}
+        - {x: -36, y: 10}
+        - {x: -20, y: 0}
+        - {x: 38, y: 0}
+        - {x: 86, y: 67}
+        - {x: 86, y: 281}
+        - {x: 65, y: 297}
+    - name: peasant_2_ordering_22
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 297}
+        - {x: -53, y: 297}
+        - {x: -67, y: 293}
+        - {x: -73, y: 279}
+        - {x: -86, y: 243}
+        - {x: -86, y: 106}
+        - {x: -39, y: 0}
+        - {x: 45, y: 0}
+        - {x: 52, y: 3}
+        - {x: 86, y: 83}
+        - {x: 86, y: 276}
+    - name: peasant_2_ordering_23
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: 289}
+        - {x: 65, y: 297}
+        - {x: 38, y: 297}
+        - {x: 11, y: 266}
+        - {x: -32, y: 297}
+        - {x: -65, y: 297}
+        - {x: -68, y: 293}
+        - {x: -86, y: 243}
+        - {x: -86, y: 123}
+        - {x: -79, y: 83}
+        - {x: -34, y: 11}
+        - {x: -26, y: 0}
+        - {x: 31, y: 0}
+        - {x: 47, y: 4}
+        - {x: 72, y: 95}
+        - {x: 86, y: 115}
+        - {x: 86, y: 219}
+    - name: peasant_2_ordering_24
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 172
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: 291}
+        - {x: 63, y: 297}
+        - {x: 37, y: 297}
+        - {x: -6, y: 277}
+        - {x: -32, y: 297}
+        - {x: -62, y: 297}
+        - {x: -71, y: 285}
+        - {x: -86, y: 245}
+        - {x: -86, y: 127}
+        - {x: -78, y: 83}
+        - {x: -34, y: 11}
+        - {x: -20, y: 0}
+        - {x: 41, y: 0}
+        - {x: 74, y: 47}
+        - {x: 86, y: 95}
+        - {x: 86, y: 244}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

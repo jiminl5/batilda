@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 07a58c24e65a0d94fac59f833981c21e
+timeCreated: 1466474430
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: peasant_2_reading_0
+    21300002: peasant_2_reading_1
+    21300004: peasant_2_reading_2
+    21300006: peasant_2_reading_3
+    21300008: peasant_2_reading_4
+    21300010: peasant_2_reading_5
+    21300012: peasant_2_reading_6
+    21300014: peasant_2_reading_7
+    21300016: peasant_2_reading_8
+    21300018: peasant_2_reading_9
+    21300020: peasant_2_reading_10
+    21300022: peasant_2_reading_11
+    21300024: peasant_2_reading_12
+    21300026: peasant_2_reading_13
+    21300028: peasant_2_reading_14
+    21300030: peasant_2_reading_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: peasant_2_reading_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 85}
+        - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 105}
+        - {x: 86, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 61}
+        - {x: -60, y: 0}
+        - {x: 40, y: 0}
+        - {x: 63, y: 71}
+        - {x: 53, y: 71}
+        - {x: 37, y: 69}
+    - name: peasant_2_reading_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 104}
+        - {x: 86, y: 250}
+        - {x: 80, y: 296}
+        - {x: -77, y: 296}
+        - {x: -86, y: 276}
+        - {x: -86, y: 75}
+        - {x: -48, y: 0}
+        - {x: 41, y: 0}
+        - {x: 58, y: 68}
+        - {x: 43, y: 73}
+        - {x: 29, y: 85}
+    - name: peasant_2_reading_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 85}
+        - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 97}
+        - {x: 86, y: 285}
+        - {x: 64, y: 296}
+        - {x: -71, y: 296}
+        - {x: -86, y: 271}
+        - {x: -86, y: 83}
+        - {x: -60, y: 0}
+        - {x: 45, y: 0}
+        - {x: 80, y: 62}
+        - {x: 54, y: 71}
+        - {x: 30, y: 70}
+    - name: peasant_2_reading_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 84, y: 108}
+        - {x: 86, y: 116}
+        - {x: 86, y: 263}
+        - {x: 75, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 36}
+        - {x: -25, y: 0}
+        - {x: 41, y: 0}
+        - {x: 79, y: 78}
+        - {x: 44, y: 71}
+        - {x: 29, y: 85}
+    - name: peasant_2_reading_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 90}
+        - {x: 31, y: 104}
+        - {x: 31, y: 92}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 105}
+        - {x: 86, y: 281}
+        - {x: 79, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 38}
+        - {x: -34, y: 0}
+        - {x: 43, y: 0}
+        - {x: 78, y: 78}
+        - {x: 43, y: 69}
+        - {x: 27, y: 85}
+    - name: peasant_2_reading_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 64}
+        - {x: 26, y: 86}
+        - {x: 31, y: 90}
+        - {x: 31, y: 104}
+        - {x: 31, y: 92}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 95}
+        - {x: 86, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 77}
+        - {x: -47, y: 0}
+        - {x: 33, y: 0}
+        - {x: 47, y: 13}
+        - {x: 57, y: 62}
+        - {x: 51, y: 66}
+    - name: peasant_2_reading_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 66}
+        - {x: 26, y: 86}
+        - {x: 31, y: 90}
+        - {x: 31, y: 104}
+        - {x: 31, y: 92}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 91}
+        - {x: 86, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 30}
+        - {x: -41, y: 0}
+        - {x: 39, y: 0}
+        - {x: 56, y: 57}
+        - {x: 56, y: 60}
+        - {x: 54, y: 64}
+    - name: peasant_2_reading_7
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 299
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 84, y: 108}
+        - {x: 86, y: 116}
+        - {x: 86, y: 275}
+        - {x: 66, y: 296}
+        - {x: -65, y: 296}
+        - {x: -74, y: 290}
+        - {x: -86, y: 268}
+        - {x: -86, y: 90}
+        - {x: -59, y: 0}
+        - {x: 40, y: 0}
+        - {x: 58, y: 60}
+        - {x: 44, y: 66}
+        - {x: 29, y: 85}
+    - name: peasant_2_reading_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 105}
+        - {x: 86, y: 286}
+        - {x: 81, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 47}
+        - {x: -38, y: 9}
+        - {x: -23, y: 0}
+        - {x: 42, y: 0}
+        - {x: 78, y: 67}
+        - {x: 40, y: 62}
+        - {x: 29, y: 85}
+    - name: peasant_2_reading_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 85}
+        - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 100}
+        - {x: 86, y: 283}
+        - {x: 74, y: 296}
+        - {x: -69, y: 296}
+        - {x: -86, y: 265}
+        - {x: -86, y: 85}
+        - {x: -63, y: 0}
+        - {x: 34, y: 0}
+        - {x: 47, y: 13}
+        - {x: 59, y: 60}
+        - {x: 43, y: 65}
+    - name: peasant_2_reading_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 63}
+        - {x: 29, y: 85}
+        - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 84, y: 108}
+        - {x: 86, y: 109}
+        - {x: 86, y: 296}
+        - {x: -54, y: 296}
+        - {x: -76, y: 292}
+        - {x: -86, y: 256}
+        - {x: -86, y: 125}
+        - {x: -74, y: 61}
+        - {x: -39, y: 8}
+        - {x: -27, y: 0}
+        - {x: 28, y: 0}
+        - {x: 38, y: 2}
+        - {x: 40, y: 14}
+        - {x: 63, y: 61}
+        - {x: 53, y: 63}
+    - name: peasant_2_reading_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 85}
+        - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 84, y: 108}
+        - {x: 86, y: 115}
+        - {x: 86, y: 279}
+        - {x: 80, y: 296}
+        - {x: -58, y: 296}
+        - {x: -81, y: 282}
+        - {x: -86, y: 271}
+        - {x: -86, y: 97}
+        - {x: -55, y: 0}
+        - {x: 39, y: 0}
+        - {x: 59, y: 61}
+        - {x: 53, y: 66}
+        - {x: 35, y: 63}
+    - name: peasant_2_reading_12
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 91}
+        - {x: 86, y: 296}
+        - {x: -69, y: 296}
+        - {x: -85, y: 293}
+        - {x: -86, y: 282}
+        - {x: -86, y: 31}
+        - {x: -39, y: 0}
+        - {x: 44, y: 0}
+        - {x: 47, y: 13}
+        - {x: 59, y: 64}
+        - {x: 29, y: 85}
+    - name: peasant_2_reading_13
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 62}
+        - {x: 29, y: 84}
+        - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 34, y: 71}
+        - {x: 86, y: 109}
+        - {x: 86, y: 249}
+        - {x: 81, y: 291}
+        - {x: 71, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 33}
+        - {x: -49, y: 0}
+        - {x: 41, y: 0}
+        - {x: 59, y: 65}
+        - {x: 52, y: 66}
+        - {x: 43, y: 66}
+    - name: peasant_2_reading_14
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 84, y: 108}
+        - {x: 86, y: 111}
+        - {x: 86, y: 227}
+        - {x: 84, y: 258}
+        - {x: 79, y: 290}
+        - {x: 65, y: 296}
+        - {x: -82, y: 296}
+        - {x: -86, y: 272}
+        - {x: -86, y: 126}
+        - {x: -85, y: 117}
+        - {x: -73, y: 61}
+        - {x: -33, y: 0}
+        - {x: 45, y: 0}
+        - {x: 64, y: 6}
+        - {x: 59, y: 66}
+        - {x: 42, y: 70}
+        - {x: 29, y: 85}
+    - name: peasant_2_reading_15
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 0
+        width: 172
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 67}
+        - {x: 29, y: 85}
+        - {x: 34, y: 105}
+        - {x: 30, y: 88}
+        - {x: 36, y: 81}
+        - {x: 86, y: 104}
+        - {x: 86, y: 241}
+        - {x: 80, y: 278}
+        - {x: 75, y: 296}
+        - {x: -86, y: 296}
+        - {x: -86, y: 91}
+        - {x: -48, y: 0}
+        - {x: 27, y: 0}
+        - {x: 38, y: 2}
+        - {x: 40, y: 14}
+        - {x: 56, y: 66}
+        - {x: 53, y: 70}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
