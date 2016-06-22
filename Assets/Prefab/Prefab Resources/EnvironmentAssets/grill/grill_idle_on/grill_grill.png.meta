@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c1d1facff0a76cd49947aae7420193fa
-timeCreated: 1450303125
-licenseType: Free
+timeCreated: 1466554420
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: grill_grill_0
@@ -43,10 +43,13 @@ TextureImporter:
     21300072: grill_grill_36
     21300074: grill_grill_37
     21300076: grill_grill_38
+    21300078: grill_grill_39
+    21300080: grill_grill_40
+    21300082: grill_grill_41
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -88,7 +91,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings:
   - buildTarget: Android
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     textureFormat: -1
     compressionQuality: 0
     allowsAlphaSplitting: 0
@@ -98,665 +101,637 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 492
-        width: 121
-        height: 82
+        y: 493.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -39.785706}
+        - {x: -58, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 41.214294}
+        - {x: 59, y: 42.214294}
     - name: grill_grill_1
       rect:
         serializedVersion: 2
         x: 121
-        y: 492
-        width: 121
-        height: 82
+        y: 493.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -56, y: 42.214294}
+        - {x: -61, y: 35.214294}
+        - {x: -61, y: -34.785706}
+        - {x: -56, y: -40.785706}
+        - {x: 55, y: -40.785706}
+        - {x: 61, y: -35.785706}
+        - {x: 61, y: 36.214294}
+        - {x: 56, y: 42.214294}
     - name: grill_grill_2
       rect:
         serializedVersion: 2
         x: 242
-        y: 492
-        width: 121
-        height: 82
+        y: 493.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 37.214294}
+        - {x: 56, y: 42.214294}
     - name: grill_grill_3
       rect:
         serializedVersion: 2
         x: 363
-        y: 492
-        width: 121
-        height: 82
+        y: 493.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_4
       rect:
         serializedVersion: 2
         x: 484
-        y: 492
-        width: 121
-        height: 82
+        y: 493.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -54, y: 42.214294}
+        - {x: -61, y: 36.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_5
       rect:
         serializedVersion: 2
         x: 605
-        y: 492
-        width: 121
-        height: 82
+        y: 493.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -54, y: 42.214294}
+        - {x: -61, y: 36.214294}
+        - {x: -61, y: -33.785706}
+        - {x: -54, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 410
-        width: 121
-        height: 82
+        y: 411.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 41.214294}
+        - {x: 59, y: 42.214294}
     - name: grill_grill_7
       rect:
         serializedVersion: 2
         x: 121
-        y: 410
-        width: 121
-        height: 82
+        y: 411.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 55, y: -40.785706}
+        - {x: 61, y: -37.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_8
       rect:
         serializedVersion: 2
         x: 242
-        y: 410
-        width: 121
-        height: 82
+        y: 411.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -36.785706}
+        - {x: -59, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_9
       rect:
         serializedVersion: 2
         x: 363
-        y: 410
-        width: 121
-        height: 82
+        y: 411.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 41.214294}
+        - {x: 60, y: 42.214294}
     - name: grill_grill_10
       rect:
         serializedVersion: 2
         x: 484
-        y: 410
-        width: 121
-        height: 82
+        y: 411.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -60, y: 42.214294}
+        - {x: -61, y: 39.214294}
+        - {x: -61, y: -33.785706}
+        - {x: -55, y: -40.785706}
+        - {x: 55, y: -40.785706}
+        - {x: 61, y: -34.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_11
       rect:
         serializedVersion: 2
         x: 605
-        y: 410
-        width: 121
-        height: 82
+        y: 411.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -59, y: 42.214294}
+        - {x: -61, y: 38.214294}
+        - {x: -61, y: -33.785706}
+        - {x: -53, y: -40.785706}
+        - {x: 58, y: -40.785706}
+        - {x: 61, y: -39.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 328
-        width: 121
-        height: 82
+        y: 329.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -58, y: 42.214294}
+        - {x: -61, y: 39.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 59, y: -40.785706}
+        - {x: 61, y: -37.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_13
       rect:
         serializedVersion: 2
         x: 121
-        y: 328
-        width: 121
-        height: 82
+        y: 329.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -37.785706}
+        - {x: -57, y: -40.785706}
+        - {x: 57, y: -40.785706}
+        - {x: 61, y: -35.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_14
       rect:
         serializedVersion: 2
         x: 242
-        y: 328
-        width: 121
-        height: 82
+        y: 329.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_15
       rect:
         serializedVersion: 2
         x: 363
-        y: 328
-        width: 121
-        height: 82
+        y: 329.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_16
       rect:
         serializedVersion: 2
         x: 484
-        y: 328
-        width: 121
-        height: 82
+        y: 329.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -60, y: 42.214294}
+        - {x: -61, y: 39.214294}
+        - {x: -61, y: -34.785706}
+        - {x: -59, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_17
       rect:
         serializedVersion: 2
         x: 605
-        y: 328
-        width: 121
-        height: 82
+        y: 329.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: -35.785706}
+        - {x: -58, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
+        - {x: -54, y: 42.214294}
+        - {x: -61, y: 36.214294}
     - name: grill_grill_18
       rect:
         serializedVersion: 2
         x: 0
-        y: 246
-        width: 121
-        height: 82
+        y: 247.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 58, y: -40.785706}
+        - {x: 61, y: -38.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_19
       rect:
         serializedVersion: 2
         x: 121
-        y: 246
-        width: 121
-        height: 82
+        y: 247.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 58, y: -40.785706}
+        - {x: 61, y: -38.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_20
       rect:
         serializedVersion: 2
         x: 242
-        y: 246
-        width: 121
-        height: 82
+        y: 247.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -56, y: 42.214294}
+        - {x: -61, y: 39.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 36.214294}
+        - {x: 56, y: 42.214294}
     - name: grill_grill_21
       rect:
         serializedVersion: 2
         x: 363
-        y: 246
-        width: 121
-        height: 82
+        y: 247.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -37.785706}
+        - {x: -54, y: -40.785706}
+        - {x: 56, y: -40.785706}
+        - {x: 61, y: -35.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_22
       rect:
         serializedVersion: 2
         x: 484
-        y: 246
-        width: 121
-        height: 82
+        y: 247.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_23
       rect:
         serializedVersion: 2
         x: 605
-        y: 246
-        width: 121
-        height: 82
+        y: 247.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_24
       rect:
         serializedVersion: 2
         x: 0
-        y: 164
-        width: 121
-        height: 82
+        y: 165.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 58, y: -40.785706}
+        - {x: 61, y: -33.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_25
       rect:
         serializedVersion: 2
         x: 121
-        y: 164
-        width: 121
-        height: 82
+        y: 165.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
+        - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
     - name: grill_grill_26
       rect:
         serializedVersion: 2
         x: 242
-        y: 164
-        width: 121
-        height: 82
+        y: 165.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -57, y: 42.214294}
+        - {x: -61, y: 39.214294}
+        - {x: -61, y: -36.785706}
+        - {x: -57, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 41.214294}
+        - {x: 59, y: 42.214294}
     - name: grill_grill_27
       rect:
         serializedVersion: 2
         x: 363
-        y: 164
-        width: 121
-        height: 82
+        y: 165.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_28
       rect:
         serializedVersion: 2
         x: 484
-        y: 164
-        width: 121
-        height: 82
+        y: 165.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -53, y: 42.214294}
+        - {x: -61, y: 34.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 39.214294}
+        - {x: 55, y: 42.214294}
     - name: grill_grill_29
       rect:
         serializedVersion: 2
         x: 605
-        y: 164
-        width: 121
-        height: 82
+        y: 165.7143
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214294}
+        - {x: -61, y: -40.785706}
+        - {x: 61, y: -40.785706}
+        - {x: 61, y: 42.214294}
     - name: grill_grill_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 82
-        width: 121
-        height: 82
+        y: 83.71429
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -56, y: 42.214287}
+        - {x: -61, y: 39.214287}
+        - {x: -61, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 36.214287}
+        - {x: 56, y: 42.214287}
     - name: grill_grill_31
       rect:
         serializedVersion: 2
         x: 121
-        y: 82
-        width: 121
-        height: 82
+        y: 83.71429
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 33.214287}
+        - {x: -61, y: -36.785713}
+        - {x: -60, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 42.214287}
+        - {x: -54, y: 42.214287}
+        - {x: -59, y: 36.214287}
     - name: grill_grill_32
       rect:
         serializedVersion: 2
         x: 242
-        y: 82
-        width: 121
-        height: 82
+        y: 83.71429
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214287}
+        - {x: -61, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 42.214287}
     - name: grill_grill_33
       rect:
         serializedVersion: 2
         x: 363
-        y: 82
-        width: 121
-        height: 82
+        y: 83.71429
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -54, y: 42.214287}
+        - {x: -61, y: 31.214287}
+        - {x: -61, y: -33.785713}
+        - {x: -56, y: -40.785713}
+        - {x: 57, y: -40.785713}
+        - {x: 61, y: -37.785713}
+        - {x: 61, y: 37.214287}
+        - {x: 57, y: 42.214287}
     - name: grill_grill_34
       rect:
         serializedVersion: 2
         x: 484
-        y: 82
-        width: 121
-        height: 82
+        y: 83.71429
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214287}
+        - {x: -61, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 42.214287}
     - name: grill_grill_35
       rect:
         serializedVersion: 2
         x: 605
-        y: 82
-        width: 121
-        height: 82
+        y: 83.71429
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214287}
+        - {x: -61, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 42.214287}
     - name: grill_grill_36
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 121
-        height: 82
+        y: 1.7142868
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214287}
+        - {x: -61, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 42.214287}
     - name: grill_grill_37
       rect:
         serializedVersion: 2
         x: 121
-        y: 0
-        width: 121
-        height: 82
+        y: 1.7142868
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214287}
+        - {x: -61, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 42.214287}
     - name: grill_grill_38
       rect:
         serializedVersion: 2
         x: 242
-        y: 0
-        width: 121
-        height: 82
+        y: 1.7142868
+        width: 121.333336
+        height: 82.28571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -60.5, y: 41}
-        - {x: -60.5, y: -41}
-        - {x: 54.5, y: -41}
-        - {x: 60.5, y: -37}
-        - {x: 60.5, y: 36}
-        - {x: 55.5, y: 41}
+      - - {x: -61, y: 42.214287}
+        - {x: -61, y: -39.785713}
+        - {x: -58, y: -40.785713}
+        - {x: 61, y: -40.785713}
+        - {x: 61, y: 42.214287}
     outline: []
   spritePackingTag: 
   userData: 
