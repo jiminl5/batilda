@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a877fed25c903d94f89a4384c004c19a
-timeCreated: 1466553911
+timeCreated: 1466561268
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -89,562 +89,306 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 64.666664
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 17.5, y: 32}
-        - {x: -28.5, y: 32}
-        - {x: -32.5, y: 29}
-        - {x: -32.5, y: -28}
-        - {x: -23.5, y: -32}
-        - {x: 13.5, y: -32}
-        - {x: 20.5, y: -29}
-        - {x: 32.5, y: -18}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
         - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64.666664
+        x: 65
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -28.5, y: 32}
-        - {x: -32.5, y: 22}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
         - {x: -32.5, y: -31}
-        - {x: -31.5, y: -32}
-        - {x: 27.5, y: -32}
-        - {x: 32.5, y: -23}
-        - {x: 32.5, y: 28}
-        - {x: 25.5, y: 32}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64.666664
+        x: 130
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16.5, y: 32}
+      - - {x: -25.5, y: 32}
         - {x: -32.5, y: 23}
-        - {x: -32.5, y: -25}
-        - {x: -28.5, y: -32}
-        - {x: 26.5, y: -32}
-        - {x: 32.5, y: -28}
-        - {x: 32.5, y: 26}
-        - {x: 29.5, y: 32}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64.666664
+        x: 195
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 17.5, y: 32}
-        - {x: -28.5, y: 32}
-        - {x: -32.5, y: 29}
-        - {x: -32.5, y: -28}
-        - {x: -23.5, y: -32}
-        - {x: 13.5, y: -32}
-        - {x: 20.5, y: -29}
-        - {x: 32.5, y: -18}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
         - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 64.666664
+        x: 260
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: 32}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 22.5, y: -32}
-        - {x: 32.5, y: -25}
-        - {x: 32.5, y: 19}
-        - {x: 28.5, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
-        width: 64.666664
+        x: 325
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -25, y: 32}
-        - {x: -32, y: 25}
-        - {x: -32, y: -25}
-        - {x: -30, y: -32}
-        - {x: 23, y: -32}
-        - {x: 32, y: -29}
-        - {x: 32, y: 27}
-        - {x: 31, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64.666664
+        x: 390
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 20}
-        - {x: -32.5, y: -23}
-        - {x: -28.5, y: -32}
-        - {x: 30.5, y: -32}
-        - {x: 32.5, y: -30}
-        - {x: 32.5, y: 22}
-        - {x: 27.5, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64.666664
+        x: 455
+        y: 64
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: 32}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 22.5, y: -32}
-        - {x: 32.5, y: -25}
-        - {x: 32.5, y: 19}
-        - {x: 28.5, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64.666664
+        x: 0
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16.5, y: 32}
+      - - {x: -25.5, y: 32}
         - {x: -32.5, y: 23}
-        - {x: -32.5, y: -30}
-        - {x: -31.5, y: -32}
-        - {x: 32.5, y: -32}
-        - {x: 32.5, y: 32}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_9
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64.666664
+        x: 65
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 20}
-        - {x: -32.5, y: -23}
-        - {x: -28.5, y: -32}
-        - {x: 30.5, y: -32}
-        - {x: 32.5, y: -30}
-        - {x: 32.5, y: 22}
-        - {x: 27.5, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64.666664
+        x: 130
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 29}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 28.5, y: -32}
-        - {x: 32.5, y: -19}
-        - {x: 32.5, y: 21}
-        - {x: 20.5, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_11
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64.666664
+        x: 195
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -30, y: 32}
-        - {x: -32, y: 24}
-        - {x: -32, y: -31}
-        - {x: -31, y: -32}
-        - {x: 29, y: -32}
-        - {x: 32, y: -21}
-        - {x: 32, y: 25}
-        - {x: 26, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64.666664
+        x: 260
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 20}
-        - {x: -32.5, y: -23}
-        - {x: -28.5, y: -32}
-        - {x: 30.5, y: -32}
-        - {x: 32.5, y: -30}
-        - {x: 32.5, y: 22}
-        - {x: 27.5, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64.666664
+        x: 325
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 29}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 28.5, y: -32}
-        - {x: 32.5, y: -19}
-        - {x: 32.5, y: 21}
-        - {x: 20.5, y: 32}
+      - - {x: -25.5, y: 32}
+        - {x: -32.5, y: 23}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64.666664
+        x: 390
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16.5, y: 32}
+      - - {x: -25.5, y: 32}
         - {x: -32.5, y: 23}
-        - {x: -32.5, y: -30}
-        - {x: -31.5, y: -32}
-        - {x: 32.5, y: -32}
-        - {x: 32.5, y: 32}
+        - {x: -32.5, y: -31}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     - name: pot_grill_15
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64.666664
+        x: 455
+        y: 0
+        width: 65
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: 32}
-        - {x: -32.5, y: -30}
-        - {x: -26.5, y: -32}
-        - {x: 31.5, y: -32}
-        - {x: 32.5, y: -29}
-        - {x: 32.5, y: 32}
-    - name: pot_grill_16
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 29}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 28.5, y: -32}
-        - {x: 32.5, y: -19}
-        - {x: 32.5, y: 21}
-        - {x: 20.5, y: 32}
-    - name: pot_grill_17
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -30, y: 32}
-        - {x: -32, y: 24}
-        - {x: -32, y: -31}
-        - {x: -31, y: -32}
-        - {x: 29, y: -32}
-        - {x: 32, y: -21}
-        - {x: 32, y: 25}
-        - {x: 26, y: 32}
-    - name: pot_grill_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 20}
-        - {x: -32.5, y: -23}
-        - {x: -28.5, y: -32}
-        - {x: 30.5, y: -32}
-        - {x: 32.5, y: -30}
-        - {x: 32.5, y: 22}
-        - {x: 27.5, y: 32}
-    - name: pot_grill_19
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 29}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 28.5, y: -32}
-        - {x: 32.5, y: -19}
-        - {x: 32.5, y: 21}
-        - {x: 20.5, y: 32}
-    - name: pot_grill_20
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 32}
+      - - {x: -25.5, y: 32}
         - {x: -32.5, y: 23}
-        - {x: -32.5, y: -30}
-        - {x: -31.5, y: -32}
-        - {x: 32.5, y: -32}
-        - {x: 32.5, y: 32}
-    - name: pot_grill_21
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 20}
-        - {x: -32.5, y: -23}
-        - {x: -28.5, y: -32}
-        - {x: 30.5, y: -32}
-        - {x: 32.5, y: -30}
-        - {x: 32.5, y: 22}
-        - {x: 27.5, y: 32}
-    - name: pot_grill_22
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: 32}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 22.5, y: -32}
-        - {x: 32.5, y: -25}
-        - {x: 32.5, y: 19}
-        - {x: 28.5, y: 32}
-    - name: pot_grill_23
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -30, y: 32}
-        - {x: -32, y: 24}
-        - {x: -32, y: -31}
-        - {x: -31, y: -32}
-        - {x: 29, y: -32}
-        - {x: 32, y: -21}
-        - {x: 32, y: 25}
-        - {x: 26, y: 32}
-    - name: pot_grill_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 32}
-        - {x: -32.5, y: 20}
-        - {x: -32.5, y: -23}
-        - {x: -28.5, y: -32}
-        - {x: 30.5, y: -32}
-        - {x: 32.5, y: -30}
-        - {x: 32.5, y: 22}
-        - {x: 27.5, y: 32}
-    - name: pot_grill_25
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: 32}
-        - {x: -32.5, y: -23}
-        - {x: -22.5, y: -32}
-        - {x: 22.5, y: -32}
-        - {x: 32.5, y: -25}
-        - {x: 32.5, y: 19}
-        - {x: 28.5, y: 32}
-    - name: pot_grill_26
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -29.5, y: 32}
-        - {x: -32.5, y: 22}
-        - {x: -32.5, y: -28}
-        - {x: -26.5, y: -32}
-        - {x: 19.5, y: -32}
-        - {x: 32.5, y: -21}
-        - {x: 32.5, y: 31}
-        - {x: 30.5, y: 32}
-    - name: pot_grill_27
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 17.5, y: 32}
-        - {x: -28.5, y: 32}
-        - {x: -32.5, y: 29}
-        - {x: -32.5, y: -28}
-        - {x: -23.5, y: -32}
-        - {x: 13.5, y: -32}
-        - {x: 20.5, y: -29}
-        - {x: 32.5, y: -18}
-        - {x: 32.5, y: 27}
-    - name: pot_grill_28
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28.5, y: 32}
-        - {x: -32.5, y: 22}
         - {x: -32.5, y: -31}
-        - {x: -31.5, y: -32}
-        - {x: 27.5, y: -32}
-        - {x: 32.5, y: -23}
-        - {x: 32.5, y: 28}
-        - {x: 25.5, y: 32}
-    - name: pot_grill_29
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64.666664
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 32}
-        - {x: -32, y: 21}
-        - {x: -32, y: -21}
-        - {x: -27, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 31}
-        - {x: 29, y: 32}
+        - {x: -26.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 32.5, y: -20}
+        - {x: 32.5, y: 27}
+        - {x: 19.5, y: 32}
     outline: []
   spritePackingTag: 
   userData: 
