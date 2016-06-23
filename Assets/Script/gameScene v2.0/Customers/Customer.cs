@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class Customer : MonoBehaviour {
 	bool hasFood = false;
@@ -30,9 +31,14 @@ public class Customer : MonoBehaviour {
     //Animation
     private int _PeasantState = Animator.StringToHash("Peasant_State");
     private Animator _Panimator;
+    private bool eatingState;
+    public bool eatingStateTutorial = false;
+    private GameObject tutArrow;
+    private int tutArrowCount;
 
     // Use this for initialization
     void Start () {
+        eatingState = false;
         angryLeave = false;
         foodQueue = GameObject.Find("levelHandler").GetComponent<levelHandler>().current_customer.foodQueue;
         //Animation
@@ -46,10 +52,18 @@ public class Customer : MonoBehaviour {
         findRecipe(peasantFoodQueue.Peek());*/
         tempObj = Resources.Load("exclamation_point") as GameObject;
         speechBubble = Resources.Load("speech_bubble") as GameObject;
+        if (PlayerPrefs.GetString("tutorial") == "yes")
+        {
+            tutArrow = Resources.Load("Touch") as GameObject;
+        }
+        else
+        {
+            Destroy(tutArrow);
+        }
 
-        //moneyParticle = Instantiate(Resources.Load("Coins"), transform.position, Quaternion.identity) as GameObject;
-        //moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
-    }
+            //moneyParticle = Instantiate(Resources.Load("Coins"), transform.position, Quaternion.identity) as GameObject;
+            //moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
+        }
 
 	// Update is called once per frame
 	void Update () {
@@ -104,12 +118,18 @@ public class Customer : MonoBehaviour {
 
                 speechBubble = Instantiate(speechBubble, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.0f), Quaternion.identity) as GameObject;
                 speechBubble.transform.parent = transform;
+
+                if (PlayerPrefs.GetString("tutorial") == "yes" && tutArrowCount != 1)
+                {
+                    Instantiate(tutArrow, new Vector2(speechBubble.transform.position.x - 2.3f, speechBubble.transform.parent.position.y + 0.5f), Quaternion.identity);
+                }
             }
         }
         else if (!needsToOrder && tempObj)
         {
             if (PlayerPrefs.GetString("tutorial") == "yes")
             {
+                tutArrowCount = 1;
                 CircleHighLight.customerCame = true;
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
             }
@@ -118,9 +138,10 @@ public class Customer : MonoBehaviour {
                 CircleHighLight.customerCame = false;
             //OpenSignAnim.confirm_tutorial_start = false;
             _Panimator.SetInteger(_PeasantState, 3);
+            Destroy(GameObject.Find("Touch(Clone)"));
             Destroy(tempObj);
         }
-		if (!hasFood && !needsToOrder) {
+		if (!hasFood && !needsToOrder && !eatingState) {
 			if (!waitingOnFood && !moneyOn) {
                 //StartCoroutine(ExecuteAfterDelay(Random.Range (0,5)));
                 //Debug.Log(peasantFoodQueue.Peek());
@@ -152,35 +173,16 @@ public class Customer : MonoBehaviour {
 				//given correct food!
 				Debug.Log ("yum!");
                 Destroy(foodSprite);
-                //
-                if (foodQueue.Count == 0 && !angryLeave) //Added boolean - angryLeave
-                {
-                    CustomerExit();
-                    if (this.gameObject.transform.parent.gameObject.name.Contains("Peasant"))
-                    {
-                        moneySprite = Instantiate(Resources.Load("Money/money_0") as GameObject);
-                    }
-                    if (this.gameObject.transform.parent.gameObject.name.Contains("Artisan"))
-                    {
-                        moneySprite = Instantiate(Resources.Load("Money/money_1") as GameObject);
-                    }
-                    if (this.gameObject.transform.parent.gameObject.name.Contains("Middle Class"))
-                    {
-                        moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject);
-                    }
-                    if (this.gameObject.transform.parent.gameObject.name.Contains("Noble"))
-                    {
-                        moneySprite = Instantiate(Resources.Load("Money/money_3") as GameObject);
-                    }
-                    //moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
-                    moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 3;
-                    moneySprite.transform.position = new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.5f);
-                    moneyOn = true;
-                    moodSprite = Instantiate(Resources.Load("smile"), new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
-                    moodSprite.transform.parent = transform.parent;
-                    StartCoroutine(ScaleOverTime(0.5f, moodSprite));
-                }
+                /**
+                    EATING ANIMATION & DELAY - Jimmy 06/23/2016
+                **/
+                this.gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false; //Speech Bubble
+                //this.gameObject.transform.parent.GetChild(0).GetChild(0).GetChild(0).GetComponent<Image>().enabled = false; //Patience Meter
+                eatingState = true;
+                _Panimator.SetInteger(_PeasantState, 5);
+                Invoke("EatingDelay", 2.8f); // 2.8f fixed delay
 
+                //Moved to EatingDelay function
             }
             else if (food_given != foodWaitingOn && !string.IsNullOrEmpty(food_given))
             {
@@ -214,6 +216,50 @@ public class Customer : MonoBehaviour {
             }
 		}
 	}
+
+    void EatingDelay()
+    {
+        eatingState = false;
+        if (PlayerPrefs.GetString("tutorial") == "yes")
+        {
+            eatingStateTutorial = true;
+        }
+        if (this.gameObject.transform.parent.GetChild(0).GetChild(0).GetChild(0).GetComponent<patienceMeter>().timeBar.GetComponent<Image>().fillAmount < 0.45f
+        && this.gameObject.transform.parent.GetChild(0).GetChild(0).GetChild(0).GetComponent<patienceMeter>().timeBar.GetComponent<Image>().fillAmount > 0f)
+            _Panimator.SetInteger(_PeasantState, 4);
+        else
+            _Panimator.SetInteger(_PeasantState, 3);
+
+        if (foodQueue.Count == 0 && !angryLeave) //Added boolean - angryLeave
+        {
+            CustomerExit();
+            if (this.gameObject.transform.parent.gameObject.name.Contains("Peasant"))
+            {
+                moneySprite = Instantiate(Resources.Load("Money/money_0") as GameObject);
+            }
+            if (this.gameObject.transform.parent.gameObject.name.Contains("Artisan"))
+            {
+                moneySprite = Instantiate(Resources.Load("Money/money_1") as GameObject);
+            }
+            if (this.gameObject.transform.parent.gameObject.name.Contains("Middle Class"))
+            {
+                moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject);
+            }
+            if (this.gameObject.transform.parent.gameObject.name.Contains("Noble"))
+            {
+                moneySprite = Instantiate(Resources.Load("Money/money_3") as GameObject);
+            }
+            //moneySprite = Instantiate(Resources.Load("Money/money_2") as GameObject); //temp money sprite
+            moneySprite.GetComponent<SpriteRenderer>().sortingOrder = 3;
+            moneySprite.transform.position = new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.5f);
+            moneyOn = true;
+            moodSprite = Instantiate(Resources.Load("smile"), new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 2.8f), Quaternion.identity) as GameObject;
+            moodSprite.transform.parent = transform.parent;
+            StartCoroutine(ScaleOverTime(0.5f, moodSprite));
+        }
+        this.gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
+        //this.gameObject.transform.parent.GetChild(0).GetChild(0).GetChild(0).GetComponent<Image>().enabled = true;
+    }
 
     public void CustomerExit()
     {

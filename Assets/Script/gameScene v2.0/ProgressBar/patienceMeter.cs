@@ -45,8 +45,11 @@ public class patienceMeter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        temp_Time -= Time.deltaTime;
-        timeBar.GetComponent<Image>().fillAmount = temp_Time / patienceTime;
+        if (_Panimator.GetInteger(_PeasantState) != 5)
+        {
+            temp_Time -= Time.deltaTime;
+            timeBar.GetComponent<Image>().fillAmount = temp_Time / patienceTime;
+        }
         if (timeBar.GetComponent<Image>().fillAmount < 0.45f && timeBar.GetComponent<Image>().fillAmount > 0 && !angry)
         {
             angry = true;

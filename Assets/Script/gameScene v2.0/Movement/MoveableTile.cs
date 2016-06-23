@@ -204,7 +204,7 @@ public class MoveableTile : MonoBehaviour {
         && check_Queue.Count <= 10 && check_Queue_1.Count <= 10)
         {
             clickable = false;
-            Invoke("preventSpam", 0.3f);
+            Invoke("preventSpam", 0.15f);
             if (mtX < 5)
             {
                 // left shelf

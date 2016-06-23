@@ -330,7 +330,7 @@ public class CircleHighLight : MonoBehaviour
                 next = false;
             }
             else if (GameObject.Find("Unit1").transform.position.x == 12.0f && GameObject.Find("Unit1").transform.position.y == 3.0f
-            && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 10)
+            && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 10 && GameObject.Find("customer(Clone)").GetComponent<Customer>().eatingStateTutorial)
             {
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;
@@ -340,7 +340,7 @@ public class CircleHighLight : MonoBehaviour
             }
 
             else if (GameObject.Find("Unit1").transform.position.x == 12.0f && GameObject.Find("Unit1").transform.position.y == 3.0f
-            && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 11)
+            && GameObject.Find("Main Camera").GetComponent<Tutorial>().count == 11) 
             {
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().TutDialogue();
                 GameObject.Find("Main Camera").GetComponent<Tutorial>().count++;

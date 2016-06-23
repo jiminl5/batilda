@@ -2,6 +2,15 @@
 using System.Collections;
 
 public class BlackBg : MonoBehaviour {
+    
+    void Update()
+    {
+        if (GameObject.Find("highlight").GetComponent<SpriteRenderer>().enabled ||
+         GameObject.Find("highlight").GetComponent<BoxCollider2D>().enabled)
+         {
+            GameObject.Find("bg_trans").GetComponent<BoxCollider2D>().enabled = false;
+        }
+    }    
 
     void OnMouseDown()
     {
