@@ -31,7 +31,7 @@ public class MusicSingleton : MonoBehaviour {
 		{
 			instance = this;
 		}
-		DontDestroyOnLoad(this.gameObject);
+		//DontDestroyOnLoad(this.gameObject);
 	}
 	
 	void OnLevelWasLoaded(int level)
