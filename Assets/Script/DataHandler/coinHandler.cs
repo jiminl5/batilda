@@ -24,7 +24,7 @@ public class coinHandler : MonoBehaviour {
         GUI.Label(new Rect(20, 20, 500, 200), "COINS: " + _coin.ToString(), _style);
     }
     */
-    public int Coins {
+    public int Coins { // Amt of Coins e.g. Coins++ means add 1 to coin used in Level.cs
         get { return _coin;}
         set { _coin = value; }
     }
