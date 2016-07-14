@@ -16,39 +16,71 @@ public class nameAndPosition : MonoBehaviour {
             if (go.name == "cheese")
             {
                 _tier = PlayerPrefs.GetInt("cheese");
+                if (_tier < 2)
+                    _tier = 0;
+                else if (_tier >= 2 && _tier < 5)
+                    _tier = 1;
+                else if (_tier == 5)
+                    _tier = 2;
                 this.GetComponent<SpriteRenderer>().sprite = tier[_tier].GetComponent<SpriteRenderer>().sprite;
                 go.GetComponent<SpriteRenderer>().sprite = this.GetComponent<SpriteRenderer>().sprite;
             }
             if (go.name == "meat")
             {
-                _tier = PlayerPrefs.GetInt("meat");
+                _tier = PlayerPrefs.GetInt("beef");
+                if (_tier < 2)
+                    _tier = 0;
+                else if (_tier >= 2 && _tier < 5)
+                    _tier = 1;
+                else if (_tier == 5)
+                    _tier = 2;
                 this.GetComponent<SpriteRenderer>().sprite = tier[_tier].GetComponent<SpriteRenderer>().sprite;
                 go.GetComponent<SpriteRenderer>().sprite = this.GetComponent<SpriteRenderer>().sprite;
             }
             if (go.name == "fish")
             {
                 _tier = PlayerPrefs.GetInt("fish");
+                if (_tier < 2)
+                    _tier = 0;
+                else if (_tier >= 2 && _tier < 5)
+                    _tier = 1;
+                else if (_tier == 5)
+                    _tier = 2;
                 this.GetComponent<SpriteRenderer>().sprite = tier[_tier].GetComponent<SpriteRenderer>().sprite;
                 go.GetComponent<SpriteRenderer>().sprite = this.GetComponent<SpriteRenderer>().sprite;
             }
             if (go.name == "onion")
             {
                 _tier = PlayerPrefs.GetInt("onion");
+                if (_tier < 2)
+                    _tier = 0;
+                else if (_tier >= 2 && _tier < 5)
+                    _tier = 1;
+                else if (_tier == 5)
+                    _tier = 2;
                 this.GetComponent<SpriteRenderer>().sprite = tier[_tier].GetComponent<SpriteRenderer>().sprite;
                 go.GetComponent<SpriteRenderer>().sprite = this.GetComponent<SpriteRenderer>().sprite;
             }
             if (go.name == "wheat")
             {
                 _tier = PlayerPrefs.GetInt("wheat");
+                if (_tier < 2)
+                    _tier = 0;
+                else if (_tier >= 2 && _tier < 5)
+                    _tier = 1;
+                else if (_tier == 5)
+                    _tier = 2;
                 this.GetComponent<SpriteRenderer>().sprite = tier[_tier].GetComponent<SpriteRenderer>().sprite;
                 go.GetComponent<SpriteRenderer>().sprite = this.GetComponent<SpriteRenderer>().sprite;
             }
             if (go.name == "carrot")
             {
                 _tier = PlayerPrefs.GetInt("carrot");
-                if (_tier == 2 || _tier == 3)
+                if (_tier < 2)
+                    _tier = 0;
+                else if (_tier >= 2 && _tier < 5)
                     _tier = 1;
-                else if (_tier > 3)
+                else if (_tier == 5)
                     _tier = 2;
                 this.GetComponent<SpriteRenderer>().sprite = tier[_tier].GetComponent<SpriteRenderer>().sprite;
                 go.GetComponent<SpriteRenderer>().sprite = this.GetComponent<SpriteRenderer>().sprite;
