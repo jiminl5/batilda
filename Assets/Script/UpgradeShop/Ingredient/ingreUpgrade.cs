@@ -5,12 +5,15 @@ using UnityEngine.UI;
 public class ingreUpgrade : MonoBehaviour {
 
     public GameObject ingredientUI;
+    public Sprite[] iconTier = new Sprite[3];
 
     public bool _addExp;
     private bool maxExp;
 
     private float increaseAmt = 0.25f;
     public float defaultExp;
+
+    private int _tier;
 	// Use this for initialization
 	void Start () {
         maxExp = false;
@@ -58,7 +61,6 @@ public class ingreUpgrade : MonoBehaviour {
         _addExp = true;
         ingredientUI.transform.GetChild(1).GetComponent<Button>().interactable = false;
     }
-
 	// Update is called once per frame
 	void Update () {
 	    if (_addExp) // Experience Slider animation
@@ -172,6 +174,7 @@ public class ingreUpgrade : MonoBehaviour {
                 }
                 ingredientUI.transform.GetChild(0).GetComponent<Slider>().maxValue = PlayerPrefs.GetInt("cheese") + 2; // Maximum exp increases by 2
             }
+            GameObject.Find("Main Camera").GetComponent<ingredientIconTier>().changeIconTier();
         }
     }
 }

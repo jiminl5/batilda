@@ -509,6 +509,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientUI: {fileID: 702100671}
+  iconTier:
+  - {fileID: 21300018, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300020, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300022, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   _addExp: 0
   defaultExp: 0
 --- !u!114 &43968771
@@ -837,18 +841,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 210668732}
-        m_MethodName: set_sprite
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 21300024, guid: 713827d9de7d17d4c8e32693ce65dd0b,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4322,6 +4314,7 @@ GameObject:
   - 114: {fileID: 463573806}
   - 114: {fileID: 463573808}
   - 114: {fileID: 463573809}
+  - 114: {fileID: 463573810}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4476,6 +4469,48 @@ MonoBehaviour:
   - {fileID: 1948561759}
   - {fileID: 83356049}
   - {fileID: 1909468051}
+--- !u!114 &463573810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 463573799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d044229959173c4fac06678e105b245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredientIcon:
+  - {fileID: 589190082}
+  - {fileID: 1403857570}
+  - {fileID: 702100671}
+  - {fileID: 401202654}
+  - {fileID: 1505232552}
+  - {fileID: 332442421}
+  carrotIcon:
+  - {fileID: 21300030, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300032, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300034, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  wheatIcon:
+  - {fileID: 21300000, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300002, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300004, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  fishIcon:
+  - {fileID: 21300018, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300020, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300022, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  beefIcon:
+  - {fileID: 21300012, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300014, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300016, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  onionIcon:
+  - {fileID: 21300024, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300026, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300028, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  cheeseIcon:
+  - {fileID: 21300006, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300008, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300010, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
 --- !u!1 &470763050
 GameObject:
   m_ObjectHideFlags: 0
@@ -5821,18 +5856,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1261198446}
-        m_MethodName: set_sprite
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 21300018, guid: 713827d9de7d17d4c8e32693ce65dd0b,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8860,6 +8883,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientUI: {fileID: 401202654}
+  iconTier:
+  - {fileID: 21300012, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300014, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300016, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   _addExp: 0
   defaultExp: 0
 --- !u!114 &984406817
@@ -13415,18 +13442,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 224740939}
-        m_MethodName: set_sprite
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 21300030, guid: 713827d9de7d17d4c8e32693ce65dd0b,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1403857570}
         m_MethodName: SetActive
         m_Mode: 6
@@ -15761,6 +15776,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientUI: {fileID: 332442421}
+  iconTier:
+  - {fileID: 21300006, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300008, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300010, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   _addExp: 0
   defaultExp: 0
 --- !u!114 &1728286682
@@ -16833,18 +16852,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1930525862}
-        m_MethodName: set_sprite
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 713827d9de7d17d4c8e32693ce65dd0b,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 589190082}
         m_MethodName: SetActive
         m_Mode: 6
@@ -17236,6 +17243,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientUI: {fileID: 589190082}
+  iconTier:
+  - {fileID: 21300030, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300032, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300034, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   _addExp: 0
   defaultExp: 0
 --- !u!4 &1897048221
@@ -17417,18 +17428,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1030530671}
-        m_MethodName: set_sprite
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 21300006, guid: 713827d9de7d17d4c8e32693ce65dd0b,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 589190082}
         m_MethodName: SetActive
         m_Mode: 6
@@ -17548,6 +17547,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientUI: {fileID: 1505232552}
+  iconTier:
+  - {fileID: 21300024, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300026, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300028, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   _addExp: 0
   defaultExp: 0
 --- !u!114 &1917976412
@@ -17792,18 +17795,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2124721899}
-        m_MethodName: set_sprite
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 21300012, guid: 713827d9de7d17d4c8e32693ce65dd0b,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18555,6 +18546,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientUI: {fileID: 1403857570}
+  iconTier:
+  - {fileID: 21300000, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300002, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+  - {fileID: 21300004, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   _addExp: 0
   defaultExp: 0
 --- !u!1 &2003137693

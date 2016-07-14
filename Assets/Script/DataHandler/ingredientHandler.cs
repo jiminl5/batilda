@@ -10,6 +10,16 @@ public class ingredientHandler : MonoBehaviour {
     private int _onion;
     private int _cheese;
 
+    void Start()
+    {
+        Carrot = PlayerPrefs.GetInt("carrot");
+        Wheat = PlayerPrefs.GetInt("wheat");
+        Fish = PlayerPrefs.GetInt("fish");
+        Beef = PlayerPrefs.GetInt("beef");
+        Onion = PlayerPrefs.GetInt("onion");
+        Cheese = PlayerPrefs.GetInt("cheese");
+    }
+
     public int Carrot
     {
         get { return _carrot; }
