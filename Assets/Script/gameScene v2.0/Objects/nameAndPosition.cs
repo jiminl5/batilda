@@ -46,6 +46,10 @@ public class nameAndPosition : MonoBehaviour {
             if (go.name == "carrot")
             {
                 _tier = PlayerPrefs.GetInt("carrot");
+                if (_tier == 2 || _tier == 3)
+                    _tier = 1;
+                else if (_tier > 3)
+                    _tier = 2;
                 this.GetComponent<SpriteRenderer>().sprite = tier[_tier].GetComponent<SpriteRenderer>().sprite;
                 go.GetComponent<SpriteRenderer>().sprite = this.GetComponent<SpriteRenderer>().sprite;
             }

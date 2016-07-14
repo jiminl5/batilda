@@ -5,11 +5,13 @@ public class carrotHandler : MonoBehaviour
 {
 
     private int _carrot;
+    private float _carrotExp;
 
     // Use this for initialization
     void Start()
     {
         _carrot = getCarrotFromDb();
+        _carrotExp = getCarrotExpFromDb(); 
     }
 
     // Update is called once per frame
@@ -23,11 +25,15 @@ public class carrotHandler : MonoBehaviour
         get { return _carrot; }
         set { _carrot = value; }
     }
+    public float CarrotExp
+    {
+        get { return _carrotExp; }
+        set { _carrotExp = value; }
+    }
 
     static string Md5Sum(string s)
     {
         s += GameObject.Find("xxmd5").transform.GetChild(0).name;
-        print(s);
         System.Security.Cryptography.MD5 hash = System.Security.Cryptography.MD5.Create();
         byte[] data = hash.ComputeHash(System.Text.Encoding.Default.GetBytes(s));
 
@@ -44,6 +50,12 @@ public class carrotHandler : MonoBehaviour
         string tmpV = Md5Sum(val.ToString());
         PlayerPrefs.SetString("carrot_hash", tmpV);
         PlayerPrefs.SetInt("carrot", val);
+    }
+    public void saveValExp(float val)
+    {
+        string tmpV = Md5Sum(val.ToString());
+        PlayerPrefs.SetString("carrot_exp_hash", tmpV);
+        PlayerPrefs.SetFloat("carrot_exp", val);
     }
 
     private int decrpyt(string val)
@@ -70,9 +82,18 @@ public class carrotHandler : MonoBehaviour
     {
         return decrpyt(PlayerPrefs.GetString("carrot_hash"));
     }
+    private int getCarrotExpFromDb()
+    {
+        return decrpyt(PlayerPrefs.GetString("carrot_exp_hash"));
+    }
+
 
     public void storeCarrot()
     {
         saveVal(_carrot);
+    }
+    public void storeCarrotExp()
+    {
+        saveValExp(_carrotExp);
     }
 }
