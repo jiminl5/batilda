@@ -48,19 +48,19 @@ public class Level : MonoBehaviour {
 			else {
 				if (!_c1) {
 					customersServed++;
-                    GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+                    //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
 
                     //Link to Result page 2016-02-01
-                    PlayerPrefs.SetInt("temp_coin", customersServed);
+                    PlayerPrefs.SetInt("temp_coin", customersServed + 1);
 
                     waitingForC1 = false;
 				}
 				if (!_c2) {
 					customersServed++;
-                    GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+                    //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
 
                     //Link to Result page 2016-02-01
-                    PlayerPrefs.SetInt("temp_coin", customersServed);
+                    PlayerPrefs.SetInt("temp_coin", customersServed + 1);
 
                     waitingForC2 = false;
 				}
@@ -102,7 +102,7 @@ public class Level : MonoBehaviour {
 			customersServed++;
             //_c1.GetComponent<Customer>().alive = true;
             //Added by Jimmy 2016/01/10
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+            //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
 
             waitingForC1 = true;
 		} else if (!_c2) {
@@ -110,7 +110,7 @@ public class Level : MonoBehaviour {
 			customersServed++;
             //_c2.GetComponent<Customer>().alive = true;
             //Added by Jimmy 2016/01/10
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+            //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
 
             waitingForC2 = true;
         }

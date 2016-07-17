@@ -509,6 +509,7 @@ public class levelHandler : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+		PlayerPrefs.SetInt("temp_coin", 0);
         customersServed = 0;
 		customersLeft = 0;
 		totalCustomersInLevel = 0;
@@ -1714,7 +1715,7 @@ public class levelHandler : MonoBehaviour {
                 finished = true;
                 CloseSignAnim.close_child = 1;
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished = true;
-                PlayerPrefs.SetInt("temp_coin", customersServed);
+                //PlayerPrefs.SetInt("temp_coin", 0);
             }
         }
 

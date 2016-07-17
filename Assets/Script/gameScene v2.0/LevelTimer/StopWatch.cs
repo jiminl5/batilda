@@ -59,7 +59,7 @@ public class StopWatch : MonoBehaviour {
         {
             ResetVariables();
             Destroy(GameObject.Find("Tiles")); //Added By Jimmy 2016-04-23
-            PlayerPrefs.SetInt("temp_coin", GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed);
+            //PlayerPrefs.SetInt("temp_coin", GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed);
             if (GameObject.Find("CloseSign") == null)
                 SceneManager.LoadScene("gameResult");
                 //Application.LoadLevel("gameResult");

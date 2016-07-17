@@ -200,13 +200,29 @@ public class Customer : MonoBehaviour {
                 moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
 
                 if (this.transform.parent.gameObject.name.Contains("Peasant"))
+				{
                     moneyParticle.GetComponent<ParticleSystem>().maxParticles = 1;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 1);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+				}
                 else if (this.transform.parent.gameObject.name.Contains("Artisan"))
+				{
                     moneyParticle.GetComponent<ParticleSystem>().maxParticles = 2;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 2);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins+= 2;
+				}
                 else if (this.transform.parent.gameObject.name.Contains("Middle Class"))
+				{
                     moneyParticle.GetComponent<ParticleSystem>().maxParticles = 5;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 5);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins += 5;
+				}
                 else if (this.transform.parent.gameObject.name.Contains("Noble"))
+				{
                     moneyParticle.GetComponent<ParticleSystem>().maxParticles = 8;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 8);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins += 8;
+				}
 
                 moneyParticle.GetComponent<ParticleSystem>().Play();
                 levelHandler.customersLeft -= 1;

@@ -251,7 +251,7 @@ public class CustomerAI : MonoBehaviour
             _Panimator.SetInteger(_PeasantState, 0);
             customerSat1 = false;
             //seat_taken_1 = false;
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++; //Data Handler
+            //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++; //Data Handler
             //seatCount--;
             customerSpotCount_1--;
         }
@@ -261,7 +261,7 @@ public class CustomerAI : MonoBehaviour
             _Panimator.SetInteger(_PeasantState, 0);
             customerSat2 = false;
             //seat_taken_2 = false;
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+            //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             //seatCount--;
             customerSpotCount_2--;
         }
@@ -270,7 +270,7 @@ public class CustomerAI : MonoBehaviour
             _Panimator.SetInteger(_PeasantState, 0);
             customerSat3 = false;
             //seat_taken_3 = false;
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+            //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             //seatCount--;
             customerSpotCount_3--;
         }
@@ -279,7 +279,7 @@ public class CustomerAI : MonoBehaviour
             _Panimator.SetInteger(_PeasantState, 0);
             customerSat4 = false;
             //seat_taken_4 = false;
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+            //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             //seatCount--;
             customerSpotCount_4--;
         }
@@ -288,11 +288,12 @@ public class CustomerAI : MonoBehaviour
             _Panimator.SetInteger(_PeasantState, 0);
             customerSat5 = false;
             //seat_taken_5 = false;
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+            //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
             //seatCount--;
             customerSpotCount_5--;
         }
-    }
+	}
+
 
     bool checkTaken(int check)
     {
