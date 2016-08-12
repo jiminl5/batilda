@@ -1522,6 +1522,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 700111262}
+        m_MethodName: Payment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 463573807}
+        m_MethodName: UpdateCoinAmt
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &175693457
@@ -2283,6 +2305,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1555305213}
+        m_MethodName: Payment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 463573807}
+        m_MethodName: UpdateCoinAmt
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &256805864
@@ -2462,6 +2506,7 @@ GameObject:
   - 224: {fileID: 285431338}
   - 222: {fileID: 285431340}
   - 114: {fileID: 285431339}
+  - 114: {fileID: 285431341}
   m_Layer: 5
   m_Name: CoinAmt
   m_TagString: Untagged
@@ -2526,6 +2571,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 285431337}
+--- !u!114 &285431341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 285431337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a6bc4eeb5d4db4180f0b42dd0792ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinAmt: 0
 --- !u!1 &289959546
 GameObject:
   m_ObjectHideFlags: 0
@@ -4315,6 +4372,7 @@ GameObject:
   - 114: {fileID: 463573808}
   - 114: {fileID: 463573809}
   - 114: {fileID: 463573810}
+  - 114: {fileID: 463573811}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4511,6 +4569,17 @@ MonoBehaviour:
   - {fileID: 21300006, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   - {fileID: 21300008, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
   - {fileID: 21300010, guid: 713827d9de7d17d4c8e32693ce65dd0b, type: 3}
+--- !u!114 &463573811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 463573799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3c2ef4248a0ce489c02d1d9369f2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &470763050
 GameObject:
   m_ObjectHideFlags: 0
@@ -6590,6 +6659,7 @@ GameObject:
   - 224: {fileID: 700111259}
   - 222: {fileID: 700111261}
   - 114: {fileID: 700111260}
+  - 114: {fileID: 700111262}
   m_Layer: 5
   m_Name: CoinAmt
   m_TagString: Untagged
@@ -6654,6 +6724,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 700111258}
+--- !u!114 &700111262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700111258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a6bc4eeb5d4db4180f0b42dd0792ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinAmt: 300
 --- !u!1 &702100671
 GameObject:
   m_ObjectHideFlags: 0
@@ -10842,6 +10924,7 @@ GameObject:
   - 224: {fileID: 1219106062}
   - 222: {fileID: 1219106064}
   - 114: {fileID: 1219106063}
+  - 114: {fileID: 1219106065}
   m_Layer: 5
   m_Name: CoinAmt
   m_TagString: Untagged
@@ -10906,6 +10989,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1219106061}
+--- !u!114 &1219106065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1219106061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a6bc4eeb5d4db4180f0b42dd0792ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinAmt: 0
 --- !u!1 &1220090276
 GameObject:
   m_ObjectHideFlags: 0
@@ -12617,6 +12712,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1219106065}
+        m_MethodName: Payment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 463573807}
+        m_MethodName: UpdateCoinAmt
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1396062844
@@ -13009,6 +13126,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423963135}
+--- !u!1001 &1446191066
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 426890, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a0f02626c75e5e449978c043f0271152, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1455929809
 GameObject:
   m_ObjectHideFlags: 0
@@ -14234,6 +14393,7 @@ GameObject:
   - 224: {fileID: 1555305210}
   - 222: {fileID: 1555305212}
   - 114: {fileID: 1555305211}
+  - 114: {fileID: 1555305213}
   m_Layer: 5
   m_Name: CoinAmt
   m_TagString: Untagged
@@ -14298,6 +14458,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1555305209}
+--- !u!114 &1555305213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555305209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a6bc4eeb5d4db4180f0b42dd0792ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinAmt: 1
 --- !u!1 &1563178307
 GameObject:
   m_ObjectHideFlags: 0
@@ -14449,6 +14621,28 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1917976411}
         m_MethodName: AddExp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1988421799}
+        m_MethodName: Payment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 463573807}
+        m_MethodName: UpdateCoinAmt
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14943,6 +15137,7 @@ GameObject:
   - 224: {fileID: 1622499036}
   - 222: {fileID: 1622499038}
   - 114: {fileID: 1622499037}
+  - 114: {fileID: 1622499039}
   m_Layer: 5
   m_Name: CoinAmt
   m_TagString: Untagged
@@ -15007,6 +15202,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1622499035}
+--- !u!114 &1622499039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1622499035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a6bc4eeb5d4db4180f0b42dd0792ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinAmt: 0
 --- !u!1 &1630224397
 GameObject:
   m_ObjectHideFlags: 0
@@ -18212,6 +18419,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 285431341}
+        m_MethodName: Payment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 463573807}
+        m_MethodName: UpdateCoinAmt
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1964838157
@@ -18257,6 +18486,7 @@ GameObject:
   - 224: {fileID: 1988421796}
   - 222: {fileID: 1988421798}
   - 114: {fileID: 1988421797}
+  - 114: {fileID: 1988421799}
   m_Layer: 5
   m_Name: CoinAmt
   m_TagString: Untagged
@@ -18321,6 +18551,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1988421795}
+--- !u!114 &1988421799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1988421795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a6bc4eeb5d4db4180f0b42dd0792ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinAmt: 0
 --- !u!1 &1989719925
 GameObject:
   m_ObjectHideFlags: 0
@@ -18629,6 +18871,28 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1728286681}
         m_MethodName: AddExp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1622499039}
+        m_MethodName: Payment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 463573807}
+        m_MethodName: UpdateCoinAmt
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

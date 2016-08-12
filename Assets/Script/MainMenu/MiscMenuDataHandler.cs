@@ -14,4 +14,9 @@ public class MiscMenuDataHandler : MonoBehaviour {
         _coinTxt = GameObject.Find("/Misc Canvas/Nav_Panel/Navbar/Background/CoinAmt").GetComponent<Text>();
         _coinTxt.text = _coin.ToString();
     }
+
+    public void UpdateCoinAmt()
+    {
+        _coinTxt.text = PlayerPrefs.GetInt("coin").ToString();
+    }
 }
