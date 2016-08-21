@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class CustomerList : MonoBehaviour {
 
     public GameObject[] customers = new GameObject[2];
+	public GameObject[] peasants;
 
     private GameObject peasant;
     private GameObject artisan;
@@ -63,8 +64,9 @@ public class CustomerList : MonoBehaviour {
             print("TYPE::::::::::::::::::::" + customerQ.Peek().type);
             if (customerQ.Peek().type == "peasant")
             {
-                current_customer = Instantiate(peasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
-                customer_Q.Add(peasant);
+				GameObject newpeasant = peasants[Random.Range(0,2)];
+                current_customer = Instantiate(newpeasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
+                customer_Q.Add(newpeasant);
             }
             else if (customerQ.Peek().type == "artisan")
             {

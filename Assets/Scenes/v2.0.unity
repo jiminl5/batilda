@@ -1333,6 +1333,9 @@ MonoBehaviour:
   - {fileID: 127830, guid: e07e6d97d1ec00d468b02a72b545d318, type: 2}
   - {fileID: 116108, guid: 5ca36bc1e11ab8044ad3b18e67f6c5e4, type: 2}
   - {fileID: 141042, guid: 9de9bfa3137113a43ae1984ed6713bf3, type: 2}
+  peasants:
+  - {fileID: 168618, guid: cdfc57c084c006743a2248821d5eb933, type: 2}
+  - {fileID: 199256, guid: a3e4629e76c214f4ea2017015e50221f, type: 2}
 --- !u!1 &231997099
 GameObject:
   m_ObjectHideFlags: 0

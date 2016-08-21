@@ -19,7 +19,7 @@ public class patienceMeter : MonoBehaviour {
         angry = false;
         //patienceTime = 30f; // patience timer
         getParent = this.transform.parent.parent.parent;
-        if (getParent.name == "Peasant 1(Clone)")
+        if (getParent.name.Contains("Peasant") )
         {
             patienceTime = 40f;
             print("Spawned Pessant, timer at: " + patienceTime);
