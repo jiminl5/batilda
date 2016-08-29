@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: 73214763ce687294b9b16690067fc3c3
+timeCreated: 1472461996
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: middle_2_waiting_impatient_0
+    21300002: middle_2_waiting_impatient_1
+    21300004: middle_2_waiting_impatient_2
+    21300006: middle_2_waiting_impatient_3
+    21300008: middle_2_waiting_impatient_4
+    21300010: middle_2_waiting_impatient_5
+    21300012: middle_2_waiting_impatient_6
+    21300014: middle_2_waiting_impatient_7
+    21300016: middle_2_waiting_impatient_8
+    21300018: middle_2_waiting_impatient_9
+    21300020: middle_2_waiting_impatient_10
+    21300022: middle_2_waiting_impatient_11
+    21300024: middle_2_waiting_impatient_12
+    21300026: middle_2_waiting_impatient_13
+    21300028: middle_2_waiting_impatient_14
+    21300030: middle_2_waiting_impatient_15
+    21300032: middle_2_waiting_impatient_16
+    21300034: middle_2_waiting_impatient_17
+    21300036: middle_2_waiting_impatient_18
+    21300038: middle_2_waiting_impatient_19
+    21300040: middle_2_waiting_impatient_20
+    21300042: middle_2_waiting_impatient_21
+    21300044: middle_2_waiting_impatient_22
+    21300046: middle_2_waiting_impatient_23
+    21300048: middle_2_waiting_impatient_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: middle_2_waiting_impatient_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94, y: 215}
+        - {x: 85, y: 269}
+        - {x: 53, y: 284}
+        - {x: -31, y: 284}
+        - {x: -99, y: 247}
+        - {x: -99, y: 153}
+        - {x: -85, y: 115}
+        - {x: -77, y: 114}
+        - {x: -71, y: 114}
+        - {x: -81, y: 84}
+        - {x: -36, y: 0}
+        - {x: 71, y: 0}
+        - {x: 91, y: 12}
+        - {x: 99, y: 65}
+        - {x: 99, y: 179}
+    - name: middle_2_waiting_impatient_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 110}
+        - {x: 36, y: 108}
+        - {x: 39, y: 105}
+        - {x: 53, y: 96}
+        - {x: 99, y: 116}
+        - {x: 99, y: 253}
+        - {x: 70, y: 284}
+        - {x: -69, y: 284}
+        - {x: -99, y: 255}
+        - {x: -99, y: 112}
+        - {x: -47, y: 0}
+        - {x: 40, y: 0}
+        - {x: 76, y: 28}
+        - {x: 42, y: 100}
+    - name: middle_2_waiting_impatient_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 105}
+        - {x: 53, y: 96}
+        - {x: 99, y: 107}
+        - {x: 99, y: 219}
+        - {x: 71, y: 279}
+        - {x: 51, y: 284}
+        - {x: -52, y: 284}
+        - {x: -99, y: 263}
+        - {x: -99, y: 127}
+        - {x: -39, y: 0}
+        - {x: 34, y: 0}
+        - {x: 75, y: 30}
+        - {x: 42, y: 100}
+        - {x: 34, y: 109}
+    - name: middle_2_waiting_impatient_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 113}
+        - {x: 35, y: 111}
+        - {x: 38, y: 104}
+        - {x: 53, y: 96}
+        - {x: 99, y: 107}
+        - {x: 99, y: 202}
+        - {x: 98, y: 216}
+        - {x: 89, y: 272}
+        - {x: 55, y: 284}
+        - {x: -30, y: 284}
+        - {x: -45, y: 280}
+        - {x: -99, y: 229}
+        - {x: -99, y: 147}
+        - {x: -94, y: 114}
+        - {x: -27, y: 0}
+        - {x: 32, y: 0}
+        - {x: 75, y: 28}
+        - {x: 41, y: 100}
+        - {x: 34, y: 109}
+    - name: middle_2_waiting_impatient_4
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 228}
+        - {x: 79, y: 284}
+        - {x: -68, y: 284}
+        - {x: -99, y: 234}
+        - {x: -99, y: 159}
+        - {x: -80, y: 113}
+        - {x: -54, y: 100}
+        - {x: -27, y: 3}
+        - {x: -22, y: 0}
+        - {x: 25, y: 0}
+        - {x: 90, y: 21}
+        - {x: 61, y: 90}
+        - {x: 99, y: 108}
+    - name: middle_2_waiting_impatient_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 852
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 115}
+        - {x: 36, y: 108}
+        - {x: 39, y: 104}
+        - {x: 44, y: 102}
+        - {x: 61, y: 97}
+        - {x: 99, y: 114}
+        - {x: 99, y: 284}
+        - {x: -74, y: 284}
+        - {x: -99, y: 239}
+        - {x: -99, y: 178}
+        - {x: -83, y: 116}
+        - {x: -72, y: 111}
+        - {x: -22, y: 0}
+        - {x: 31, y: 0}
+        - {x: 87, y: 24}
+        - {x: 44, y: 97}
+        - {x: 30, y: 114}
+    - name: middle_2_waiting_impatient_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 852
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 109}
+        - {x: 44, y: 99}
+        - {x: 65, y: 97}
+        - {x: 99, y: 109}
+        - {x: 99, y: 241}
+        - {x: 90, y: 273}
+        - {x: 69, y: 284}
+        - {x: -33, y: 284}
+        - {x: -99, y: 250}
+        - {x: -99, y: 147}
+        - {x: -83, y: 116}
+        - {x: -72, y: 111}
+        - {x: -63, y: 99}
+        - {x: -31, y: 0}
+        - {x: 25, y: 0}
+        - {x: 81, y: 17}
+        - {x: 74, y: 35}
+        - {x: 43, y: 97}
+        - {x: 38, y: 105}
+    - name: middle_2_waiting_impatient_7
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 852
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 43, y: 104}
+        - {x: 47, y: 105}
+        - {x: 55, y: 100}
+        - {x: 62, y: 100}
+        - {x: 99, y: 109}
+        - {x: 99, y: 199}
+        - {x: 86, y: 272}
+        - {x: 78, y: 284}
+        - {x: -80, y: 284}
+        - {x: -99, y: 268}
+        - {x: -99, y: 97}
+        - {x: -63, y: 0}
+        - {x: 45, y: 0}
+        - {x: 81, y: 21}
+        - {x: 71, y: 37}
+        - {x: 46, y: 98}
+        - {x: 38, y: 105}
+    - name: middle_2_waiting_impatient_8
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 852
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 105}
+        - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 45, y: 100}
+        - {x: 64, y: 97}
+        - {x: 99, y: 114}
+        - {x: 99, y: 284}
+        - {x: -87, y: 284}
+        - {x: -99, y: 283}
+        - {x: -99, y: 96}
+        - {x: -67, y: 0}
+        - {x: 52, y: 0}
+        - {x: 76, y: 8}
+        - {x: 68, y: 48}
+        - {x: 44, y: 100}
+    - name: middle_2_waiting_impatient_9
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 852
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 99}
+        - {x: 38, y: 105}
+        - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 45, y: 100}
+        - {x: 64, y: 97}
+        - {x: 97, y: 116}
+        - {x: 99, y: 119}
+        - {x: 99, y: 143}
+        - {x: 96, y: 221}
+        - {x: 91, y: 266}
+        - {x: 50, y: 284}
+        - {x: -99, y: 284}
+        - {x: -99, y: 74}
+        - {x: -28, y: 0}
+        - {x: 30, y: 0}
+        - {x: 72, y: 23}
+        - {x: 64, y: 38}
+        - {x: 52, y: 86}
+    - name: middle_2_waiting_impatient_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 87}
+        - {x: 43, y: 99}
+        - {x: 38, y: 105}
+        - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 45, y: 100}
+        - {x: 64, y: 97}
+        - {x: 99, y: 116}
+        - {x: 99, y: 259}
+        - {x: 61, y: 284}
+        - {x: -44, y: 284}
+        - {x: -99, y: 245}
+        - {x: -99, y: 129}
+        - {x: -64, y: 80}
+        - {x: -25, y: 109}
+        - {x: -21, y: 109}
+        - {x: -23, y: 109}
+        - {x: -26, y: 106}
+        - {x: -33, y: 95}
+        - {x: -40, y: 54}
+        - {x: -21, y: 0}
+        - {x: 20, y: 0}
+        - {x: 22, y: 2}
+        - {x: 63, y: 14}
+        - {x: 75, y: 23}
+    - name: middle_2_waiting_impatient_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 568
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 114}
+        - {x: 36, y: 107}
+        - {x: 39, y: 104}
+        - {x: 60, y: 95}
+        - {x: 99, y: 118}
+        - {x: 99, y: 184}
+        - {x: 88, y: 270}
+        - {x: 72, y: 284}
+        - {x: -46, y: 284}
+        - {x: -99, y: 244}
+        - {x: -99, y: 125}
+        - {x: -38, y: 0}
+        - {x: 72, y: 0}
+        - {x: 73, y: 35}
+        - {x: 44, y: 98}
+        - {x: 30, y: 113}
+    - name: middle_2_waiting_impatient_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 568
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 114}
+        - {x: 36, y: 107}
+        - {x: 39, y: 104}
+        - {x: 61, y: 98}
+        - {x: 99, y: 107}
+        - {x: 99, y: 163}
+        - {x: 90, y: 222}
+        - {x: 77, y: 263}
+        - {x: 76, y: 266}
+        - {x: 66, y: 272}
+        - {x: 31, y: 284}
+        - {x: 10, y: 284}
+        - {x: 11, y: 271}
+        - {x: -38, y: 273}
+        - {x: -74, y: 263}
+        - {x: -99, y: 216}
+        - {x: -99, y: 175}
+        - {x: -96, y: 165}
+        - {x: -81, y: 117}
+        - {x: -77, y: 113}
+        - {x: -71, y: 113}
+        - {x: -63, y: 105}
+        - {x: -55, y: 100}
+        - {x: -28, y: 109}
+        - {x: -21, y: 109}
+        - {x: -23, y: 109}
+        - {x: -28, y: 107}
+        - {x: -46, y: 87}
+        - {x: -39, y: 0}
+        - {x: 35, y: 0}
+        - {x: 83, y: 21}
+        - {x: 44, y: 98}
+        - {x: 30, y: 113}
+    - name: middle_2_waiting_impatient_13
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 568
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 104}
+        - {x: 54, y: 97}
+        - {x: 99, y: 106}
+        - {x: 99, y: 175}
+        - {x: 93, y: 214}
+        - {x: 80, y: 269}
+        - {x: 60, y: 284}
+        - {x: -42, y: 284}
+        - {x: -74, y: 267}
+        - {x: -99, y: 219}
+        - {x: -99, y: 206}
+        - {x: -95, y: 204}
+        - {x: -96, y: 165}
+        - {x: -81, y: 117}
+        - {x: -77, y: 113}
+        - {x: -71, y: 113}
+        - {x: -63, y: 105}
+        - {x: -55, y: 100}
+        - {x: -28, y: 109}
+        - {x: -21, y: 109}
+        - {x: -29, y: 108}
+        - {x: -44, y: 51}
+        - {x: -25, y: 0}
+        - {x: 48, y: 0}
+        - {x: 83, y: 38}
+        - {x: 42, y: 100}
+        - {x: 33, y: 110}
+    - name: middle_2_waiting_impatient_14
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 568
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 91}
+        - {x: 42, y: 100}
+        - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 61, y: 98}
+        - {x: 99, y: 107}
+        - {x: 99, y: 181}
+        - {x: 95, y: 214}
+        - {x: 77, y: 268}
+        - {x: 24, y: 284}
+        - {x: 10, y: 284}
+        - {x: 11, y: 271}
+        - {x: -35, y: 273}
+        - {x: -71, y: 260}
+        - {x: -99, y: 221}
+        - {x: -99, y: 161}
+        - {x: -78, y: 111}
+        - {x: -55, y: 100}
+        - {x: -28, y: 109}
+        - {x: -21, y: 109}
+        - {x: -29, y: 108}
+        - {x: -43, y: 51}
+        - {x: -21, y: 0}
+        - {x: 22, y: 0}
+        - {x: 27, y: 8}
+        - {x: 62, y: 14}
+        - {x: 69, y: 33}
+    - name: middle_2_waiting_impatient_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 21}
+        - {x: 66, y: 32}
+        - {x: 59, y: 37}
+        - {x: 48, y: 86}
+        - {x: 44, y: 98}
+        - {x: 30, y: 113}
+        - {x: 36, y: 114}
+        - {x: 36, y: 107}
+        - {x: 39, y: 104}
+        - {x: 61, y: 98}
+        - {x: 99, y: 107}
+        - {x: 99, y: 163}
+        - {x: 90, y: 222}
+        - {x: 77, y: 268}
+        - {x: 35, y: 284}
+        - {x: 9, y: 284}
+        - {x: -51, y: 281}
+        - {x: -99, y: 230}
+        - {x: -99, y: 114}
+        - {x: -98, y: 109}
+        - {x: -23, y: 0}
+        - {x: 20, y: 0}
+        - {x: 22, y: 2}
+        - {x: 25, y: 9}
+        - {x: 55, y: 15}
+    - name: middle_2_waiting_impatient_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 284
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 206}
+        - {x: 87, y: 278}
+        - {x: 75, y: 284}
+        - {x: -42, y: 284}
+        - {x: -99, y: 245}
+        - {x: -99, y: 204}
+        - {x: -95, y: 203}
+        - {x: -85, y: 162}
+        - {x: -84, y: 116}
+        - {x: -31, y: 1}
+        - {x: -30, y: 0}
+        - {x: 61, y: 0}
+        - {x: 69, y: 3}
+        - {x: 71, y: 38}
+        - {x: 99, y: 86}
+    - name: middle_2_waiting_impatient_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 284
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 45, y: 100}
+        - {x: 64, y: 97}
+        - {x: 97, y: 116}
+        - {x: 99, y: 119}
+        - {x: 99, y: 284}
+        - {x: -77, y: 284}
+        - {x: -99, y: 236}
+        - {x: -99, y: 156}
+        - {x: -85, y: 114}
+        - {x: -62, y: 97}
+        - {x: -45, y: 50}
+        - {x: -24, y: 0}
+        - {x: 34, y: 0}
+        - {x: 74, y: 22}
+        - {x: 64, y: 39}
+        - {x: 43, y: 100}
+    - name: middle_2_waiting_impatient_18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 284
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 45, y: 100}
+        - {x: 64, y: 97}
+        - {x: 99, y: 107}
+        - {x: 99, y: 283}
+        - {x: 66, y: 284}
+        - {x: -57, y: 284}
+        - {x: -99, y: 234}
+        - {x: -99, y: 64}
+        - {x: -45, y: 0}
+        - {x: 74, y: 0}
+        - {x: 75, y: 1}
+        - {x: 78, y: 31}
+        - {x: 43, y: 100}
+    - name: middle_2_waiting_impatient_19
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 284
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 105}
+        - {x: 33, y: 110}
+        - {x: 39, y: 104}
+        - {x: 43, y: 104}
+        - {x: 53, y: 94}
+        - {x: 99, y: 104}
+        - {x: 99, y: 268}
+        - {x: 97, y: 284}
+        - {x: -53, y: 284}
+        - {x: -99, y: 236}
+        - {x: -99, y: 65}
+        - {x: -24, y: 0}
+        - {x: 64, y: 0}
+        - {x: 81, y: 21}
+        - {x: 71, y: 37}
+        - {x: 46, y: 98}
+    - name: middle_2_waiting_impatient_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 105}
+        - {x: 34, y: 109}
+        - {x: 39, y: 104}
+        - {x: 44, y: 103}
+        - {x: 54, y: 98}
+        - {x: 99, y: 106}
+        - {x: 99, y: 168}
+        - {x: 92, y: 231}
+        - {x: 84, y: 269}
+        - {x: 59, y: 284}
+        - {x: -30, y: 284}
+        - {x: -99, y: 244}
+        - {x: -99, y: 103}
+        - {x: -81, y: 31}
+        - {x: -28, y: 0}
+        - {x: 58, y: 0}
+        - {x: 79, y: 22}
+        - {x: 68, y: 33}
+        - {x: 46, y: 98}
+    - name: middle_2_waiting_impatient_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 114}
+        - {x: 34, y: 115}
+        - {x: 36, y: 108}
+        - {x: 39, y: 104}
+        - {x: 44, y: 102}
+        - {x: 61, y: 97}
+        - {x: 99, y: 114}
+        - {x: 99, y: 169}
+        - {x: 84, y: 269}
+        - {x: 52, y: 284}
+        - {x: -46, y: 284}
+        - {x: -99, y: 249}
+        - {x: -99, y: 156}
+        - {x: -36, y: 0}
+        - {x: 31, y: 0}
+        - {x: 75, y: 20}
+        - {x: 68, y: 39}
+        - {x: 44, y: 97}
+    - name: middle_2_waiting_impatient_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 86}
+        - {x: 41, y: 100}
+        - {x: 34, y: 109}
+        - {x: 35, y: 107}
+        - {x: 43, y: 102}
+        - {x: 61, y: 100}
+        - {x: 66, y: 105}
+        - {x: 71, y: 112}
+        - {x: 89, y: 115}
+        - {x: 99, y: 117}
+        - {x: 99, y: 164}
+        - {x: 83, y: 269}
+        - {x: 41, y: 284}
+        - {x: -16, y: 284}
+        - {x: -93, y: 266}
+        - {x: -99, y: 261}
+        - {x: -99, y: 67}
+        - {x: -71, y: 0}
+        - {x: 49, y: 0}
+        - {x: 64, y: 10}
+        - {x: 70, y: 27}
+        - {x: 68, y: 33}
+        - {x: 63, y: 40}
+    - name: middle_2_waiting_impatient_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 96}
+        - {x: 99, y: 98}
+        - {x: 99, y: 262}
+        - {x: 96, y: 282}
+        - {x: 80, y: 284}
+        - {x: -45, y: 284}
+        - {x: -99, y: 233}
+        - {x: -99, y: 171}
+        - {x: -87, y: 116}
+        - {x: -39, y: 0}
+        - {x: 34, y: 0}
+        - {x: 89, y: 18}
+        - {x: 42, y: 100}
+        - {x: 34, y: 109}
+        - {x: 39, y: 105}
+    - name: middle_2_waiting_impatient_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 198
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 37}
+        - {x: 60, y: 42}
+        - {x: 49, y: 86}
+        - {x: 42, y: 100}
+        - {x: 32, y: 110}
+        - {x: 36, y: 108}
+        - {x: 39, y: 105}
+        - {x: 53, y: 96}
+        - {x: 99, y: 109}
+        - {x: 99, y: 175}
+        - {x: 88, y: 274}
+        - {x: 70, y: 284}
+        - {x: -42, y: 284}
+        - {x: -83, y: 263}
+        - {x: -99, y: 246}
+        - {x: -99, y: 124}
+        - {x: -42, y: 0}
+        - {x: 22, y: 0}
+        - {x: 23, y: 1}
+        - {x: 64, y: 21}
+        - {x: 70, y: 34}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
