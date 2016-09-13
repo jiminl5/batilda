@@ -1333,6 +1333,7 @@ MonoBehaviour:
   - {fileID: 127830, guid: e07e6d97d1ec00d468b02a72b545d318, type: 2}
   - {fileID: 116108, guid: 5ca36bc1e11ab8044ad3b18e67f6c5e4, type: 2}
   - {fileID: 141042, guid: 9de9bfa3137113a43ae1984ed6713bf3, type: 2}
+  - {fileID: 122340, guid: 338a23ff114955c448a3d7a5d9967d05, type: 2}
   peasants:
   - {fileID: 168618, guid: cdfc57c084c006743a2248821d5eb933, type: 2}
   - {fileID: 199256, guid: a3e4629e76c214f4ea2017015e50221f, type: 2}
@@ -1377,9 +1378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fish stew
+  name: 666973682073746577
   timeToMake: 7
-  ingredient: fish
+  ingredient: 66697368
   finishedDish: {fileID: 153272, guid: af3f7b789cabc464f8964ba87454794a, type: 2}
   go: {fileID: 150140, guid: 851cf2cfb614b0a47811576a8590db28, type: 2}
 --- !u!1 &260263998
@@ -2768,7 +2769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: trash
+  name: 7472617368
   x: 10
   y: 6
   go: {fileID: 0}
@@ -3277,7 +3278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb7db1cd5a02314d944c5ae735faa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fish
+  name: 66697368
 --- !u!212 &550702150
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3385,7 +3386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb7db1cd5a02314d944c5ae735faa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: onion
+  name: 6f6e696f6e
 --- !u!212 &584086085
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3508,7 +3509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb7db1cd5a02314d944c5ae735faa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: carrot
+  name: 636172726f74
 --- !u!212 &606249273
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4625,9 +4626,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: meat stew
+  name: 6d6561742073746577
   timeToMake: 7
-  ingredient: meat
+  ingredient: 6d656174
   finishedDish: {fileID: 193392, guid: 2bb0ac907fa38e64788b70c87d3b4abd, type: 2}
   go: {fileID: 107534, guid: 120671e10fd063d40a2698f15f65bdb2, type: 2}
 --- !u!1 &799635256
@@ -4926,7 +4927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb7db1cd5a02314d944c5ae735faa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: cheese
+  name: 636865657365
 --- !u!212 &810005264
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4988,11 +4989,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedUnit: {fileID: 1149207487}
   tileTypes:
-  - name: 4d6170
+  - name: 346436313730
     tileVisualPrefab: {fileID: 191002, guid: 3f838be7201069947a9d86594ad7fa89, type: 2}
     movementCost: 1
     walkable: 1
-  - name: 4b69746368656e5f5461626c65
+  - name: 3462363937343633363836353665356635343631363236633635
     tileVisualPrefab: {fileID: 191002, guid: 3f838be7201069947a9d86594ad7fa89, type: 2}
     movementCost: 20
     walkable: 1
@@ -5276,9 +5277,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: carrot soup
+  name: 636172726f7420736f7570
   timeToMake: 5
-  ingredient: cut_carrot
+  ingredient: 6375745f636172726f74
   finishedDish: {fileID: 113392, guid: 0e6ed3029edfdeb46b9edf6f4f92267c, type: 2}
   go: {fileID: 185640, guid: 9d6649bd5baf821489f6623c88733087, type: 2}
 --- !u!1 &849695837
@@ -5323,9 +5324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: apple cider
+  name: 6170706c65206369646572
   timeToMake: 0
-  ingredient: null
+  ingredient: 6e756c6c
   finishedDish: {fileID: 158642, guid: 51048015f1245db4c81454cafd65d914, type: 2}
   go: {fileID: 158642, guid: 51048015f1245db4c81454cafd65d914, type: 2}
 --- !u!212 &849695840
@@ -5763,9 +5764,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: onion soup
+  name: 6f6e696f6e20736f7570
   timeToMake: 5
-  ingredient: cut_onion
+  ingredient: 6375745f6f6e696f6e
   finishedDish: {fileID: 108412, guid: b7a4865d9ce65e34b93de49018c71a7e, type: 2}
   go: {fileID: 186100, guid: bb9fc7ea5a4617f418f664c1c367f9a7, type: 2}
 --- !u!1001 &887206945
@@ -6100,9 +6101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: cheese stew
+  name: 6368656573652073746577
   timeToMake: 5
-  ingredient: cut_cheese
+  ingredient: 6375745f636865657365
   finishedDish: {fileID: 187456, guid: 49aea96471104cf42ae8820c4ae83ab0, type: 2}
   go: {fileID: 124386, guid: acd7a5a2bed036c4e8aeb92ef930e2ab, type: 2}
 --- !u!1001 &948724986
@@ -6672,7 +6673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb7db1cd5a02314d944c5ae735faa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: firewood
+  name: 66697265776f6f64
 --- !u!212 &986910653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6988,6 +6989,7 @@ MonoBehaviour:
   numArtisans: 0
   numMiddle: 0
   numNobles: 0
+  numRoyals: 0
   customersWaiting: 0
   levelTime: 0
 --- !u!4 &1025483095
@@ -7044,9 +7046,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: grilled fish
+  name: 6772696c6c65642066697368
   timeToMake: 7
-  ingredient: fish
+  ingredient: 66697368
   finishedDish: {fileID: 156396, guid: ae798bdcbb2c04a41a6aa6be50ea736c, type: 2}
   go: {fileID: 108034, guid: 638d0b7eb48ca094b987c355e8f8cf21, type: 2}
 --- !u!1 &1043593761
@@ -7276,9 +7278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: grilled carrot
+  name: 6772696c6c656420636172726f74
   timeToMake: 5
-  ingredient: cut_carrot
+  ingredient: 6375745f636172726f74
   finishedDish: {fileID: 108074, guid: 3faa635c14c57a144889f64ebed9d304, type: 2}
   go: {fileID: 168712, guid: f41e7a23903afef49ba48696f96fc8d9, type: 2}
 --- !u!1 &1109062547
@@ -7425,7 +7427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb7db1cd5a02314d944c5ae735faa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: wheat
+  name: 7768656174
 --- !u!212 &1128746553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7576,7 +7578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfDough: 0
-  name: dough
+  name: 646f756768
   numberofWheat: 0
   maxWheat: 1
   maxDough: 4
@@ -8238,9 +8240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: grilledMeat
+  name: 6772696c6c65644d656174
   timeToMake: 7
-  ingredient: meat
+  ingredient: 6d656174
   finishedDish: {fileID: 197676, guid: 424e7724d783962438685e6d220f3b5c, type: 2}
   go: {fileID: 148684, guid: 25e3481d74dfe654980b020f684452d8, type: 2}
 --- !u!1 &1278066312
@@ -9212,7 +9214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfDrinks: 0
-  name: apple cider
+  name: 6170706c65206369646572
   maxDrinks: 3
   waitingOnDrink: 0
   timeToMakeDrink: 5
@@ -10151,7 +10153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfDrinks: 0
-  name: wine
+  name: 77696e65
   maxDrinks: 3
   waitingOnDrink: 0
   timeToMakeDrink: 5
@@ -10252,7 +10254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb7db1cd5a02314d944c5ae735faa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: meat
+  name: 6d656174
 --- !u!212 &1603833680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10490,7 +10492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1615ce344b8fb64394b3eb82374f15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: trash
+  name: 7472617368
   x: 0
   y: 0
   go: {fileID: 0}
@@ -12069,9 +12071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: wine
+  name: 77696e65
   timeToMake: 0
-  ingredient: null
+  ingredient: 6e756c6c
   finishedDish: {fileID: 132518, guid: a877cde97251f2040a5ecbdd1eba63b7, type: 2}
   go: {fileID: 132518, guid: a877cde97251f2040a5ecbdd1eba63b7, type: 2}
 --- !u!212 &1881592678
@@ -12441,9 +12443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: grilled onion
+  name: 6772696c6c6564206f6e696f6e
   timeToMake: 5
-  ingredient: cut_onion
+  ingredient: 6375745f6f6e696f6e
   finishedDish: {fileID: 114212, guid: 0cca59ecb04f1084b8c8f1d3542cc2f0, type: 2}
   go: {fileID: 113632, guid: ebf623f92641c5047abaab9ef5384a35, type: 2}
 --- !u!1 &1952663882
@@ -12695,9 +12697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db43ed64a1d9e478061a9dcdc80f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: bread
+  name: 6272656164
   timeToMake: 5
-  ingredient: dough
+  ingredient: 646f756768
   finishedDish: {fileID: 147884, guid: 9b7138aee2d455447a4b652950a49de4, type: 2}
   go: {fileID: 124564, guid: 22a9e4f440698fb4db06888fb7b22ff2, type: 2}
 --- !u!1 &2006416670

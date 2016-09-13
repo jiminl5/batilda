@@ -11,6 +11,7 @@ public class CustomerList : MonoBehaviour {
     private GameObject artisan;
     private GameObject middle;
     private GameObject noble;
+	private GameObject royal;
     private float _delay;
 
     public Queue<levelHandler.customer> customerQ;
@@ -28,6 +29,7 @@ public class CustomerList : MonoBehaviour {
         artisan = customers[1];
         middle = customers[2];
         noble = customers[3];
+		royal = customers[4];
         if (PlayerPrefs.GetString("tutorial") == "yes")
         {
             GameObject current_customer = new GameObject();
@@ -83,6 +85,11 @@ public class CustomerList : MonoBehaviour {
             {
                 current_customer = Instantiate(noble, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
                 customer_Q.Add(noble);
+            }
+			else if (customerQ.Peek().type == "royal")
+            {
+                current_customer = Instantiate(royal, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
+                customer_Q.Add(royal);
             }
             current_customer.GetComponent<CustomerAI>().customer = customerQ.Dequeue();
             //---------------

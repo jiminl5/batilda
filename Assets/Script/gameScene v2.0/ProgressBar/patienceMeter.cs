@@ -39,6 +39,11 @@ public class patienceMeter : MonoBehaviour {
             patienceTime = 100f;
             print("Spawned Noble, timer at: " + patienceTime);
         }
+		else if (getParent.name.Contains("Royal"))
+        {
+            patienceTime = 140f;
+            print("Spawned Royal, timer at: " + patienceTime);
+        }
         temp_Time = patienceTime;
         _Panimator = getParent.transform.GetComponent<Animator>();
     }
