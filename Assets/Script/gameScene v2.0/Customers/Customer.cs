@@ -24,7 +24,7 @@ public class Customer : MonoBehaviour {
     private GameObject moneyParticle;
     private GameObject moodSprite;
 
-    private GameObject speechBubble;
+    public GameObject speechBubble;
 
     public bool angryLeave; // CUSTOMER Leaving with Anger
 
@@ -50,8 +50,8 @@ public class Customer : MonoBehaviour {
             peasantFoodQueue.Enqueue(food);
         }
         findRecipe(peasantFoodQueue.Peek());*/
-        tempObj = Resources.Load("exclamation_point") as GameObject;
-        speechBubble = Resources.Load("speech_bubble") as GameObject;
+        //tempObj = Resources.Load("exclamation_point") as GameObject;
+        //speechBubble = Resources.Load("speech_bubble") as GameObject;
         if (PlayerPrefs.GetString("tutorial") == "yes")
         {
             tutArrow = Resources.Load("Touch") as GameObject;
@@ -112,12 +112,13 @@ public class Customer : MonoBehaviour {
             //temporary instantiation.
             if (!tempObjInstantiated)
             {
-                tempObj = Instantiate(tempObj, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.0f), Quaternion.identity) as GameObject;
-                tempObj.transform.parent = transform;
-                tempObjInstantiated = true;
 
                 speechBubble = Instantiate(speechBubble, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.0f), Quaternion.identity) as GameObject;
                 speechBubble.transform.parent = transform;
+
+				tempObj = Instantiate(tempObj, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.0f), Quaternion.identity) as GameObject;
+                tempObj.transform.parent = speechBubble.transform;
+                tempObjInstantiated = true;
 
                 if (PlayerPrefs.GetString("tutorial") == "yes" && tutArrowCount != 1)
                 {
@@ -151,7 +152,7 @@ public class Customer : MonoBehaviour {
                 foodWaitingOn = foodQueue.Dequeue();
                 Debug.Log("waiting on: " + foodWaitingOn);
                 foodSprite = Instantiate(current_food.go, new Vector2(this.transform.parent.position.x, this.transform.parent.position.y + 3.2f), Quaternion.identity) as GameObject;
-                foodSprite.transform.parent = transform;
+                foodSprite.transform.parent = speechBubble.transform;
                 StartCoroutine(ScaleOverTime(0.5f, foodSprite));
                 waitingOnFood = true;
 			}

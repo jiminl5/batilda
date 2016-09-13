@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -45,6 +46,10 @@ MonoBehaviour:
   x: 8
   y: 2
   go: {fileID: 0}
+  tier:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &11486104
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61,9 +66,12 @@ MonoBehaviour:
   food_given: 
   needsToOrder: 1
   tempObjInstantiated: 0
-  tempObj: {fileID: 0}
+  tempObj: {fileID: 144604, guid: 17e70940c4fe85b46bbb69567628b0c0, type: 2}
   moneyPickedUp: 0
   moneyOn: 0
+  speechBubble: {fileID: 126640, guid: 7c6d40c3852689c4caf86bbff8183ae0, type: 2}
+  angryLeave: 0
+  eatingStateTutorial: 0
 --- !u!212 &21211996
 SpriteRenderer:
   m_ObjectHideFlags: 1
