@@ -1,0 +1,1492 @@
+fileFormatVersion: 2
+guid: 2f78940b1c6a62147ba59623583b94c3
+timeCreated: 1474096193
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: peasant_3_eating_0
+    21300002: peasant_3_eating_1
+    21300004: peasant_3_eating_2
+    21300006: peasant_3_eating_3
+    21300008: peasant_3_eating_4
+    21300010: peasant_3_eating_5
+    21300012: peasant_3_eating_6
+    21300014: peasant_3_eating_7
+    21300016: peasant_3_eating_8
+    21300018: peasant_3_eating_9
+    21300020: peasant_3_eating_10
+    21300022: peasant_3_eating_11
+    21300024: peasant_3_eating_12
+    21300026: peasant_3_eating_13
+    21300028: peasant_3_eating_14
+    21300030: peasant_3_eating_15
+    21300032: peasant_3_eating_16
+    21300034: peasant_3_eating_17
+    21300036: peasant_3_eating_18
+    21300038: peasant_3_eating_19
+    21300040: peasant_3_eating_20
+    21300042: peasant_3_eating_21
+    21300044: peasant_3_eating_22
+    21300046: peasant_3_eating_23
+    21300048: peasant_3_eating_24
+    21300050: peasant_3_eating_25
+    21300052: peasant_3_eating_26
+    21300054: peasant_3_eating_27
+    21300056: peasant_3_eating_28
+    21300058: peasant_3_eating_29
+    21300060: peasant_3_eating_30
+    21300062: peasant_3_eating_31
+    21300064: peasant_3_eating_32
+    21300066: peasant_3_eating_33
+    21300068: peasant_3_eating_34
+    21300070: peasant_3_eating_35
+    21300072: peasant_3_eating_36
+    21300074: peasant_3_eating_37
+    21300076: peasant_3_eating_38
+    21300078: peasant_3_eating_39
+    21300080: peasant_3_eating_40
+    21300082: peasant_3_eating_41
+    21300084: peasant_3_eating_42
+    21300086: peasant_3_eating_43
+    21300088: peasant_3_eating_44
+    21300090: peasant_3_eating_45
+    21300092: peasant_3_eating_46
+    21300094: peasant_3_eating_47
+    21300096: peasant_3_eating_48
+    21300098: peasant_3_eating_49
+    21300100: peasant_3_eating_50
+    21300102: peasant_3_eating_51
+    21300104: peasant_3_eating_52
+    21300106: peasant_3_eating_53
+    21300108: peasant_3_eating_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: peasant_3_eating_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2565
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 227}
+        - {x: 98.5, y: 241}
+        - {x: 68.5, y: 274}
+        - {x: 34.5, y: 274}
+        - {x: -25.5, y: 264}
+        - {x: -39.5, y: 274}
+        - {x: -83.5, y: 274}
+        - {x: -97.5, y: 272}
+        - {x: -97.5, y: 140}
+        - {x: -75.5, y: 109}
+        - {x: -39.5, y: 2}
+        - {x: -33.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 13.5, y: 1}
+        - {x: 88.5, y: 132}
+        - {x: 100.5, y: 172}
+    - name: peasant_3_eating_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2565
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 140}
+        - {x: 100.5, y: 239}
+        - {x: 82.5, y: 274}
+        - {x: -72.5, y: 274}
+        - {x: -85.5, y: 260}
+        - {x: -97.5, y: 244}
+        - {x: -97.5, y: 144}
+        - {x: -65.5, y: 52}
+        - {x: -34.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 39.5, y: 92}
+        - {x: 71.5, y: 109}
+        - {x: 94.5, y: 131}
+    - name: peasant_3_eating_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2565
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 237}
+        - {x: 85.5, y: 273}
+        - {x: -78.5, y: 273}
+        - {x: -98.5, y: 255}
+        - {x: -98.5, y: 165}
+        - {x: -97.5, y: 159}
+        - {x: -87.5, y: 106}
+        - {x: -63.5, y: 48}
+        - {x: -30.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 31.5, y: 38}
+        - {x: 71.5, y: 110}
+        - {x: 100.5, y: 151}
+    - name: peasant_3_eating_3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2565
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 141}
+        - {x: 100.5, y: 235}
+        - {x: 77.5, y: 272}
+        - {x: 1.5, y: 272}
+        - {x: -12.5, y: 269}
+        - {x: -38.5, y: 272}
+        - {x: -80.5, y: 272}
+        - {x: -98.5, y: 248}
+        - {x: -98.5, y: 161}
+        - {x: -88.5, y: 104}
+        - {x: -63.5, y: 54}
+        - {x: -30.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 17.5, y: 11}
+        - {x: 50.5, y: 90}
+        - {x: 97.5, y: 129}
+    - name: peasant_3_eating_4
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2565
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 220}
+        - {x: 91.5, y: 260}
+        - {x: 75.5, y: 273}
+        - {x: -68.5, y: 273}
+        - {x: -97.5, y: 259}
+        - {x: -97.5, y: 161}
+        - {x: -78.5, y: 111}
+        - {x: -56.5, y: 49}
+        - {x: -38.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 32.5, y: 4}
+        - {x: 68.5, y: 107}
+        - {x: 85.5, y: 131}
+        - {x: 100.5, y: 166}
+    - name: peasant_3_eating_5
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2565
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 243}
+        - {x: 67.5, y: 275}
+        - {x: 25.5, y: 275}
+        - {x: -16.5, y: 263}
+        - {x: -39.5, y: 275}
+        - {x: -75.5, y: 275}
+        - {x: -95.5, y: 262}
+        - {x: -95.5, y: 132}
+        - {x: -74.5, y: 57}
+        - {x: -34.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 28.5, y: 14}
+        - {x: 93.5, y: 120}
+        - {x: 100.5, y: 137}
+    - name: peasant_3_eating_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2280
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.5, y: 254}
+        - {x: 61.5, y: 276}
+        - {x: -62.5, y: 276}
+        - {x: -92.5, y: 255}
+        - {x: -95.5, y: 250}
+        - {x: -95.5, y: 150}
+        - {x: -79.5, y: 110}
+        - {x: -66.5, y: 51}
+        - {x: -29.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 92.5, y: 142}
+        - {x: 100.5, y: 160}
+        - {x: 100.5, y: 225}
+    - name: peasant_3_eating_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2280
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.5, y: 251}
+        - {x: 59.5, y: 277}
+        - {x: -61.5, y: 277}
+        - {x: -95.5, y: 255}
+        - {x: -95.5, y: 128}
+        - {x: -87.5, y: 100}
+        - {x: -70.5, y: 57}
+        - {x: -39.5, y: 2}
+        - {x: -34.5, y: 0}
+        - {x: 32.5, y: 0}
+        - {x: 100.5, y: 120}
+        - {x: 100.5, y: 215}
+    - name: peasant_3_eating_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2280
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 216}
+        - {x: 93.5, y: 255}
+        - {x: 56.5, y: 277}
+        - {x: -72.5, y: 277}
+        - {x: -95.5, y: 250}
+        - {x: -95.5, y: 231}
+        - {x: -86.5, y: 228}
+        - {x: -95.5, y: 220}
+        - {x: -95.5, y: 85}
+        - {x: -32.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 45.5, y: 50}
+        - {x: 89.5, y: 144}
+        - {x: 100.5, y: 173}
+    - name: peasant_3_eating_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2280
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 231}
+        - {x: 90.5, y: 253}
+        - {x: 60.5, y: 277}
+        - {x: -59.5, y: 277}
+        - {x: -94.5, y: 258}
+        - {x: -95.5, y: 244}
+        - {x: -95.5, y: 152}
+        - {x: -83.5, y: 106}
+        - {x: -43.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 47.5, y: 72}
+        - {x: 98.5, y: 117}
+        - {x: 100.5, y: 133}
+    - name: peasant_3_eating_10
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2280
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96.5, y: 247}
+        - {x: 63.5, y: 276}
+        - {x: 21.5, y: 276}
+        - {x: -15.5, y: 268}
+        - {x: -42.5, y: 276}
+        - {x: -68.5, y: 276}
+        - {x: -92.5, y: 255}
+        - {x: -95.5, y: 243}
+        - {x: -95.5, y: 140}
+        - {x: -87.5, y: 102}
+        - {x: -35.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 56.5, y: 66}
+        - {x: 100.5, y: 165}
+        - {x: 100.5, y: 229}
+    - name: peasant_3_eating_11
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2280
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 240}
+        - {x: 90.5, y: 260}
+        - {x: 62.5, y: 276}
+        - {x: -77.5, y: 276}
+        - {x: -89.5, y: 273}
+        - {x: -95.5, y: 257}
+        - {x: -95.5, y: 131}
+        - {x: -62.5, y: 46}
+        - {x: -33.5, y: 6}
+        - {x: -27.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 50.5, y: 43}
+        - {x: 94.5, y: 93}
+        - {x: 100.5, y: 109}
+    - name: peasant_3_eating_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1995
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 217}
+        - {x: 94.5, y: 261}
+        - {x: 57.5, y: 276}
+        - {x: -64.5, y: 276}
+        - {x: -90.5, y: 254}
+        - {x: -95.5, y: 247}
+        - {x: -95.5, y: 122}
+        - {x: -66.5, y: 46}
+        - {x: -30.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 43.5, y: 67}
+        - {x: 92.5, y: 130}
+        - {x: 100.5, y: 164}
+    - name: peasant_3_eating_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1995
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 166}
+        - {x: 100.5, y: 217}
+        - {x: 90.5, y: 253}
+        - {x: 70.5, y: 275}
+        - {x: -86.5, y: 275}
+        - {x: -95.5, y: 273}
+        - {x: -95.5, y: 103}
+        - {x: -76.5, y: 48}
+        - {x: -33.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 34.5, y: 49}
+        - {x: 72.5, y: 110}
+        - {x: 88.5, y: 144}
+    - name: peasant_3_eating_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1995
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 229}
+        - {x: 84.5, y: 275}
+        - {x: 12.5, y: 275}
+        - {x: -29.5, y: 270}
+        - {x: -43.5, y: 275}
+        - {x: -69.5, y: 275}
+        - {x: -90.5, y: 260}
+        - {x: -95.5, y: 242}
+        - {x: -95.5, y: 141}
+        - {x: -78.5, y: 47}
+        - {x: -34.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 31.5, y: 37}
+        - {x: 86.5, y: 123}
+        - {x: 100.5, y: 150}
+    - name: peasant_3_eating_15
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1995
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 168}
+        - {x: 100.5, y: 234}
+        - {x: 99.5, y: 239}
+        - {x: 69.5, y: 275}
+        - {x: 28.5, y: 275}
+        - {x: -33.5, y: 264}
+        - {x: -45.5, y: 275}
+        - {x: -73.5, y: 275}
+        - {x: -96.5, y: 252}
+        - {x: -96.5, y: 137}
+        - {x: -82.5, y: 57}
+        - {x: -45.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 38.5, y: 88}
+        - {x: 72.5, y: 109}
+        - {x: 88.5, y: 144}
+    - name: peasant_3_eating_16
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1995
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 128}
+        - {x: 100.5, y: 236}
+        - {x: 92.5, y: 253}
+        - {x: 71.5, y: 274}
+        - {x: -74.5, y: 274}
+        - {x: -96.5, y: 257}
+        - {x: -96.5, y: 110}
+        - {x: -90.5, y: 70}
+        - {x: -55.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 33.5, y: 50}
+        - {x: 88.5, y: 100}
+    - name: peasant_3_eating_17
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1995
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 156}
+        - {x: 100.5, y: 231}
+        - {x: 82.5, y: 274}
+        - {x: -9.5, y: 274}
+        - {x: -41.5, y: 268}
+        - {x: -44.5, y: 274}
+        - {x: -68.5, y: 274}
+        - {x: -96.5, y: 256}
+        - {x: -96.5, y: 134}
+        - {x: -74.5, y: 52}
+        - {x: -43.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 32.5, y: 3}
+        - {x: 27.5, y: 91}
+        - {x: 73.5, y: 108}
+        - {x: 82.5, y: 133}
+    - name: peasant_3_eating_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1710
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 177}
+        - {x: 100.5, y: 229}
+        - {x: 78.5, y: 274}
+        - {x: 23.5, y: 274}
+        - {x: -35.5, y: 269}
+        - {x: -43.5, y: 274}
+        - {x: -87.5, y: 274}
+        - {x: -96.5, y: 254}
+        - {x: -96.5, y: 136}
+        - {x: -86.5, y: 71}
+        - {x: -44.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 35.5, y: 37}
+        - {x: 86.5, y: 132}
+        - {x: 80.5, y: 145}
+    - name: peasant_3_eating_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1710
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 235}
+        - {x: 96.5, y: 243}
+        - {x: 69.5, y: 274}
+        - {x: -67.5, y: 274}
+        - {x: -93.5, y: 254}
+        - {x: -96.5, y: 241}
+        - {x: -96.5, y: 96}
+        - {x: -89.5, y: 73}
+        - {x: -73.5, y: 57}
+        - {x: -29.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 30.5, y: 38}
+        - {x: 84.5, y: 97}
+        - {x: 100.5, y: 131}
+    - name: peasant_3_eating_20
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1710
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 234}
+        - {x: 76.5, y: 274}
+        - {x: -77.5, y: 274}
+        - {x: -96.5, y: 251}
+        - {x: -96.5, y: 134}
+        - {x: -88.5, y: 106}
+        - {x: -78.5, y: 57}
+        - {x: -29.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 30.5, y: 38}
+        - {x: 93.5, y: 131}
+        - {x: 100.5, y: 154}
+    - name: peasant_3_eating_21
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1710
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 223}
+        - {x: 94.5, y: 250}
+        - {x: 72.5, y: 274}
+        - {x: -74.5, y: 274}
+        - {x: -94.5, y: 254}
+        - {x: -96.5, y: 246}
+        - {x: -96.5, y: 139}
+        - {x: -68.5, y: 98}
+        - {x: -77.5, y: 52}
+        - {x: -48.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 28.5, y: 6}
+        - {x: 51.5, y: 91}
+        - {x: 99.5, y: 129}
+        - {x: 100.5, y: 135}
+    - name: peasant_3_eating_22
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1710
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 232}
+        - {x: 78.5, y: 274}
+        - {x: 32.5, y: 274}
+        - {x: -24.5, y: 268}
+        - {x: -40.5, y: 274}
+        - {x: -84.5, y: 274}
+        - {x: -96.5, y: 251}
+        - {x: -96.5, y: 134}
+        - {x: -84.5, y: 108}
+        - {x: -83.5, y: 67}
+        - {x: -41.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 37.5, y: 60}
+        - {x: 80.5, y: 99}
+        - {x: 100.5, y: 136}
+    - name: peasant_3_eating_23
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1710
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 149}
+        - {x: 100.5, y: 223}
+        - {x: 90.5, y: 266}
+        - {x: 64.5, y: 275}
+        - {x: -96.5, y: 275}
+        - {x: -96.5, y: 80}
+        - {x: -80.5, y: 59}
+        - {x: -37.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 30.5, y: 40}
+        - {x: 42.5, y: 85}
+        - {x: 95.5, y: 130}
+    - name: peasant_3_eating_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1425
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 95.5, y: 247}
+        - {x: 83.5, y: 275}
+        - {x: -71.5, y: 275}
+        - {x: -96.5, y: 261}
+        - {x: -96.5, y: 148}
+        - {x: -84.5, y: 114}
+        - {x: -57.5, y: 47}
+        - {x: -32.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 83.5, y: 121}
+        - {x: 100.5, y: 172}
+        - {x: 100.5, y: 216}
+    - name: peasant_3_eating_25
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1425
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 251}
+        - {x: 89.5, y: 275}
+        - {x: -78.5, y: 275}
+        - {x: -96.5, y: 247}
+        - {x: -96.5, y: 141}
+        - {x: -86.5, y: 104}
+        - {x: -65.5, y: 55}
+        - {x: -39.5, y: 3}
+        - {x: -32.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 24.5, y: 8}
+        - {x: 50.5, y: 83}
+        - {x: 100.5, y: 144}
+    - name: peasant_3_eating_26
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1425
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 257}
+        - {x: 70.5, y: 275}
+        - {x: -72.5, y: 275}
+        - {x: -85.5, y: 271}
+        - {x: -96.5, y: 249}
+        - {x: -96.5, y: 132}
+        - {x: -71.5, y: 84}
+        - {x: -43.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 39.5, y: 66}
+        - {x: 88.5, y: 99}
+        - {x: 100.5, y: 143}
+    - name: peasant_3_eating_27
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1425
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 164}
+        - {x: 100.5, y: 237}
+        - {x: 70.5, y: 274}
+        - {x: -65.5, y: 274}
+        - {x: -96.5, y: 258}
+        - {x: -96.5, y: 100}
+        - {x: -94.5, y: 93}
+        - {x: -38.5, y: 3}
+        - {x: -32.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 13.5, y: 1}
+        - {x: 38.5, y: 49}
+        - {x: 90.5, y: 128}
+    - name: peasant_3_eating_28
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1425
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 164}
+        - {x: 100.5, y: 231}
+        - {x: 94.5, y: 258}
+        - {x: 75.5, y: 273}
+        - {x: -70.5, y: 273}
+        - {x: -96.5, y: 258}
+        - {x: -96.5, y: 137}
+        - {x: -89.5, y: 102}
+        - {x: -86.5, y: 40}
+        - {x: -36.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 41.5, y: 49}
+        - {x: 72.5, y: 109}
+        - {x: 82.5, y: 132}
+    - name: peasant_3_eating_29
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1425
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.5, y: 258}
+        - {x: 62.5, y: 273}
+        - {x: -70.5, y: 273}
+        - {x: -96.5, y: 248}
+        - {x: -96.5, y: 140}
+        - {x: -64.5, y: 52}
+        - {x: -37.5, y: 4}
+        - {x: -30.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 100.5, y: 144}
+        - {x: 100.5, y: 220}
+    - name: peasant_3_eating_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 255}
+        - {x: 97.5, y: 272}
+        - {x: -83.5, y: 272}
+        - {x: -96.5, y: 251}
+        - {x: -96.5, y: 130}
+        - {x: -84.5, y: 100}
+        - {x: -62.5, y: 46}
+        - {x: -33.5, y: 6}
+        - {x: -28.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 23.5, y: 9}
+        - {x: 100.5, y: 159}
+    - name: peasant_3_eating_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1140
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 228}
+        - {x: 78.5, y: 273}
+        - {x: -79.5, y: 273}
+        - {x: -97.5, y: 245}
+        - {x: -97.5, y: 142}
+        - {x: -83.5, y: 106}
+        - {x: -60.5, y: 47}
+        - {x: -28.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 17.5, y: 11}
+        - {x: 43.5, y: 52}
+        - {x: 100.5, y: 130}
+    - name: peasant_3_eating_32
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1140
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 235}
+        - {x: 74.5, y: 273}
+        - {x: 27.5, y: 273}
+        - {x: -23.5, y: 263}
+        - {x: -44.5, y: 273}
+        - {x: -76.5, y: 273}
+        - {x: -97.5, y: 252}
+        - {x: -97.5, y: 132}
+        - {x: -88.5, y: 102}
+        - {x: -46.5, y: 96}
+        - {x: -63.5, y: 52}
+        - {x: -31.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 17.5, y: 11}
+        - {x: 73.5, y: 109}
+        - {x: 100.5, y: 167}
+    - name: peasant_3_eating_33
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1140
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.5, y: 273}
+        - {x: -73.5, y: 273}
+        - {x: -97.5, y: 263}
+        - {x: -97.5, y: 138}
+        - {x: -71.5, y: 109}
+        - {x: -57.5, y: 107}
+        - {x: -56.5, y: 107}
+        - {x: -55.5, y: 51}
+        - {x: -34.5, y: 5}
+        - {x: -28.5, y: 0}
+        - {x: 33.5, y: 0}
+        - {x: 93.5, y: 96}
+        - {x: 100.5, y: 130}
+        - {x: 100.5, y: 236}
+    - name: peasant_3_eating_34
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1140
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 244}
+        - {x: 90.5, y: 271}
+        - {x: 77.5, y: 274}
+        - {x: -78.5, y: 274}
+        - {x: -97.5, y: 247}
+        - {x: -97.5, y: 156}
+        - {x: -83.5, y: 111}
+        - {x: -57.5, y: 51}
+        - {x: -30.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 57.5, y: 101}
+        - {x: 79.5, y: 92}
+        - {x: 100.5, y: 136}
+    - name: peasant_3_eating_35
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1140
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 274}
+        - {x: -39.5, y: 261}
+        - {x: -47.5, y: 274}
+        - {x: -69.5, y: 274}
+        - {x: -94.5, y: 260}
+        - {x: -97.5, y: 248}
+        - {x: -97.5, y: 152}
+        - {x: -84.5, y: 107}
+        - {x: -49.5, y: 99}
+        - {x: -60.5, y: 48}
+        - {x: -30.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 100.5, y: 158}
+        - {x: 100.5, y: 249}
+        - {x: 74.5, y: 274}
+    - name: peasant_3_eating_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.5, y: 274}
+        - {x: -85.5, y: 274}
+        - {x: -97.5, y: 269}
+        - {x: -97.5, y: 159}
+        - {x: -87.5, y: 105}
+        - {x: -53.5, y: 103}
+        - {x: -36.5, y: 106}
+        - {x: -31.5, y: 106}
+        - {x: -32.5, y: 106}
+        - {x: -48.5, y: 101}
+        - {x: -62.5, y: 46}
+        - {x: -29.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 95.5, y: 128}
+        - {x: 100.5, y: 137}
+        - {x: 100.5, y: 256}
+    - name: peasant_3_eating_37
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 855
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 274}
+        - {x: 46.5, y: 274}
+        - {x: 44.5, y: 271}
+        - {x: -11.5, y: 266}
+        - {x: -32.5, y: 274}
+        - {x: -75.5, y: 274}
+        - {x: -96.5, y: 252}
+        - {x: -96.5, y: 136}
+        - {x: -86.5, y: 103}
+        - {x: -59.5, y: 45}
+        - {x: -32.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 55.5, y: 72}
+        - {x: 100.5, y: 168}
+        - {x: 100.5, y: 237}
+    - name: peasant_3_eating_38
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 855
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.5, y: 274}
+        - {x: -96.5, y: 274}
+        - {x: -96.5, y: 47}
+        - {x: -92.5, y: 32}
+        - {x: -47.5, y: 48}
+        - {x: -42.5, y: 51}
+        - {x: -41.5, y: 39}
+        - {x: -33.5, y: 6}
+        - {x: -29.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 52.5, y: 48}
+        - {x: 100.5, y: 145}
+        - {x: 100.5, y: 237}
+    - name: peasant_3_eating_39
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 855
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 235}
+        - {x: 76.5, y: 275}
+        - {x: -11.5, y: 275}
+        - {x: -26.5, y: 273}
+        - {x: -34.5, y: 275}
+        - {x: -87.5, y: 275}
+        - {x: -96.5, y: 267}
+        - {x: -96.5, y: 137}
+        - {x: -68.5, y: 64}
+        - {x: -40.5, y: 2}
+        - {x: -36.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 46.5, y: 45}
+        - {x: 74.5, y: 103}
+        - {x: 100.5, y: 166}
+    - name: peasant_3_eating_40
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 855
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86.5, y: 275}
+        - {x: -97.5, y: 263}
+        - {x: -97.5, y: 109}
+        - {x: -94.5, y: 96}
+        - {x: -35.5, y: 106}
+        - {x: -32.5, y: 106}
+        - {x: -35.5, y: 106}
+        - {x: -54.5, y: 80}
+        - {x: -60.5, y: 47}
+        - {x: -29.5, y: 0}
+        - {x: 31.5, y: 0}
+        - {x: 100.5, y: 82}
+        - {x: 100.5, y: 245}
+        - {x: 86.5, y: 275}
+    - name: peasant_3_eating_41
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 855
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 259}
+        - {x: 80.5, y: 276}
+        - {x: -86.5, y: 276}
+        - {x: -97.5, y: 255}
+        - {x: -97.5, y: 148}
+        - {x: -83.5, y: 111}
+        - {x: -56.5, y: 50}
+        - {x: -34.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 38.5, y: 46}
+        - {x: 92.5, y: 131}
+        - {x: 100.5, y: 166}
+    - name: peasant_3_eating_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 102}
+        - {x: 26.5, y: 100}
+        - {x: 29.5, y: 100}
+        - {x: 72.5, y: 106}
+        - {x: 100.5, y: 151}
+        - {x: 100.5, y: 257}
+        - {x: 76.5, y: 276}
+        - {x: -97.5, y: 276}
+        - {x: -97.5, y: 135}
+        - {x: -79.5, y: 117}
+        - {x: -64.5, y: 111}
+        - {x: -53.5, y: 106}
+        - {x: -51.5, y: 114}
+        - {x: -36.5, y: 104}
+        - {x: -36.5, y: 106}
+        - {x: -41.5, y: 98}
+        - {x: -56.5, y: 58}
+        - {x: -63.5, y: 27}
+        - {x: -33.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 30.5, y: 3}
+        - {x: 39.5, y: 96}
+        - {x: 27.5, y: 99}
+    - name: peasant_3_eating_43
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 570
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.5, y: 276}
+        - {x: -97.5, y: 276}
+        - {x: -97.5, y: 139}
+        - {x: -76.5, y: 115}
+        - {x: -55.5, y: 108}
+        - {x: -35.5, y: 106}
+        - {x: -32.5, y: 106}
+        - {x: -40.5, y: 100}
+        - {x: -49.5, y: 76}
+        - {x: -52.5, y: 57}
+        - {x: -51.5, y: 48}
+        - {x: -37.5, y: 4}
+        - {x: -29.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 100.5, y: 118}
+        - {x: 100.5, y: 271}
+    - name: peasant_3_eating_44
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 570
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82.5, y: 275}
+        - {x: -97.5, y: 266}
+        - {x: -97.5, y: 141}
+        - {x: -77.5, y: 113}
+        - {x: -59.5, y: 102}
+        - {x: -35.5, y: 106}
+        - {x: -31.5, y: 106}
+        - {x: -38.5, y: 105}
+        - {x: -66.5, y: 79}
+        - {x: -39.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 100.5, y: 146}
+        - {x: 100.5, y: 240}
+        - {x: 85.5, y: 275}
+    - name: peasant_3_eating_45
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 570
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 235}
+        - {x: 73.5, y: 275}
+        - {x: -69.5, y: 275}
+        - {x: -97.5, y: 256}
+        - {x: -97.5, y: 158}
+        - {x: -83.5, y: 107}
+        - {x: -65.5, y: 47}
+        - {x: -29.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 46.5, y: 66}
+        - {x: 93.5, y: 131}
+        - {x: 100.5, y: 158}
+    - name: peasant_3_eating_46
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 570
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 274}
+        - {x: -69.5, y: 274}
+        - {x: -92.5, y: 255}
+        - {x: -96.5, y: 238}
+        - {x: -96.5, y: 224}
+        - {x: -89.5, y: 220}
+        - {x: -81.5, y: 220}
+        - {x: -96.5, y: 193}
+        - {x: -96.5, y: 141}
+        - {x: -83.5, y: 107}
+        - {x: -59.5, y: 101}
+        - {x: -36.5, y: 106}
+        - {x: -31.5, y: 106}
+        - {x: -33.5, y: 106}
+        - {x: -36.5, y: 105}
+        - {x: -43.5, y: 98}
+        - {x: -67.5, y: 55}
+        - {x: -31.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 100.5, y: 92}
+        - {x: 100.5, y: 223}
+        - {x: 95.5, y: 249}
+    - name: peasant_3_eating_47
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 570
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.5, y: 253}
+        - {x: 68.5, y: 273}
+        - {x: -72.5, y: 273}
+        - {x: -94.5, y: 264}
+        - {x: -96.5, y: 234}
+        - {x: -96.5, y: 159}
+        - {x: -79.5, y: 109}
+        - {x: -76.5, y: 63}
+        - {x: -38.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 58.5, y: 42}
+        - {x: 100.5, y: 152}
+        - {x: 100.5, y: 222}
+    - name: peasant_3_eating_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 167}
+        - {x: 100.5, y: 230}
+        - {x: 86.5, y: 273}
+        - {x: -70.5, y: 273}
+        - {x: -96.5, y: 258}
+        - {x: -96.5, y: 130}
+        - {x: -88.5, y: 99}
+        - {x: -82.5, y: 40}
+        - {x: -31.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 49.5, y: 50}
+        - {x: 93.5, y: 119}
+        - {x: 85.5, y: 153}
+    - name: peasant_3_eating_49
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 285
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 219}
+        - {x: 92.5, y: 258}
+        - {x: 73.5, y: 273}
+        - {x: -9.5, y: 273}
+        - {x: -33.5, y: 270}
+        - {x: -37.5, y: 273}
+        - {x: -81.5, y: 273}
+        - {x: -96.5, y: 250}
+        - {x: -96.5, y: 139}
+        - {x: -64.5, y: 54}
+        - {x: -32.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 57.5, y: 41}
+        - {x: 94.5, y: 142}
+        - {x: 100.5, y: 160}
+    - name: peasant_3_eating_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 285
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 255}
+        - {x: 70.5, y: 273}
+        - {x: 29.5, y: 273}
+        - {x: -28.5, y: 265}
+        - {x: -50.5, y: 273}
+        - {x: -75.5, y: 273}
+        - {x: -97.5, y: 260}
+        - {x: -97.5, y: 147}
+        - {x: -79.5, y: 107}
+        - {x: -51.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 42.5, y: 45}
+        - {x: 83.5, y: 131}
+        - {x: 100.5, y: 154}
+    - name: peasant_3_eating_51
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 285
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 254}
+        - {x: 64.5, y: 274}
+        - {x: 8.5, y: 274}
+        - {x: -11.5, y: 267}
+        - {x: -36.5, y: 274}
+        - {x: -77.5, y: 274}
+        - {x: -97.5, y: 256}
+        - {x: -97.5, y: 131}
+        - {x: -74.5, y: 59}
+        - {x: -32.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 52.5, y: 47}
+        - {x: 89.5, y: 144}
+        - {x: 100.5, y: 170}
+    - name: peasant_3_eating_52
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 285
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 239}
+        - {x: 93.5, y: 259}
+        - {x: 66.5, y: 274}
+        - {x: -69.5, y: 274}
+        - {x: -97.5, y: 257}
+        - {x: -97.5, y: 139}
+        - {x: -88.5, y: 104}
+        - {x: -33.5, y: 6}
+        - {x: -29.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 40.5, y: 47}
+        - {x: 80.5, y: 100}
+        - {x: 100.5, y: 143}
+    - name: peasant_3_eating_53
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 285
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 177}
+        - {x: 100.5, y: 214}
+        - {x: 94.5, y: 246}
+        - {x: 68.5, y: 274}
+        - {x: -70.5, y: 274}
+        - {x: -94.5, y: 253}
+        - {x: -97.5, y: 247}
+        - {x: -97.5, y: 130}
+        - {x: -38.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 48.5, y: 44}
+        - {x: 85.5, y: 132}
+        - {x: 80.5, y: 147}
+    - name: peasant_3_eating_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 201
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: 235}
+        - {x: 75.5, y: 274}
+        - {x: 8.5, y: 274}
+        - {x: -11.5, y: 268}
+        - {x: -44.5, y: 274}
+        - {x: -77.5, y: 274}
+        - {x: -97.5, y: 256}
+        - {x: -97.5, y: 167}
+        - {x: -83.5, y: 107}
+        - {x: -48.5, y: 95}
+        - {x: -58.5, y: 50}
+        - {x: -29.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 40.5, y: 64}
+        - {x: 93.5, y: 146}
+        - {x: 100.5, y: 164}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

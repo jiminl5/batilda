@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 8e8b3528b090a9449910241f5c872e87
+timeCreated: 1474096242
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: peasant_3_walking_0
+    21300002: peasant_3_walking_1
+    21300004: peasant_3_walking_2
+    21300006: peasant_3_walking_3
+    21300008: peasant_3_walking_4
+    21300010: peasant_3_walking_5
+    21300012: peasant_3_walking_6
+    21300014: peasant_3_walking_7
+    21300016: peasant_3_walking_8
+    21300018: peasant_3_walking_9
+    21300020: peasant_3_walking_10
+    21300022: peasant_3_walking_11
+    21300024: peasant_3_walking_12
+    21300026: peasant_3_walking_13
+    21300028: peasant_3_walking_14
+    21300030: peasant_3_walking_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: peasant_3_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 221}
+        - {x: 95, y: 249}
+        - {x: 71, y: 275}
+        - {x: -93, y: 275}
+        - {x: -99, y: 274}
+        - {x: -99, y: 138}
+        - {x: -76, y: 112}
+        - {x: -62, y: 29}
+        - {x: -31, y: 0}
+        - {x: 12, y: 0}
+        - {x: 40, y: 68}
+        - {x: 93, y: 134}
+        - {x: 99, y: 163}
+    - name: peasant_3_walking_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 550
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 149}
+        - {x: 99, y: 231}
+        - {x: 94, y: 245}
+        - {x: 69, y: 275}
+        - {x: -70, y: 275}
+        - {x: -99, y: 253}
+        - {x: -99, y: 165}
+        - {x: -76, y: 109}
+        - {x: -36, y: 0}
+        - {x: 14, y: 0}
+        - {x: 27, y: 9}
+        - {x: 35, y: 96}
+        - {x: 81, y: 104}
+    - name: peasant_3_walking_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 550
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84, y: 275}
+        - {x: -69, y: 275}
+        - {x: -99, y: 257}
+        - {x: -99, y: 219}
+        - {x: -97, y: 217}
+        - {x: -97, y: 195}
+        - {x: -96, y: 163}
+        - {x: -82, y: 118}
+        - {x: -40, y: 0}
+        - {x: 27, y: 0}
+        - {x: 91, y: 146}
+        - {x: 99, y: 153}
+        - {x: 99, y: 246}
+    - name: peasant_3_walking_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 550
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 257}
+        - {x: 70, y: 274}
+        - {x: -86, y: 274}
+        - {x: -99, y: 250}
+        - {x: -99, y: 156}
+        - {x: -78, y: 106}
+        - {x: -41, y: 1}
+        - {x: -38, y: 0}
+        - {x: 29, y: 0}
+        - {x: 64, y: 85}
+        - {x: 99, y: 139}
+    - name: peasant_3_walking_4
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 550
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 244}
+        - {x: 79, y: 274}
+        - {x: -77, y: 274}
+        - {x: -95, y: 261}
+        - {x: -99, y: 249}
+        - {x: -99, y: 221}
+        - {x: -97, y: 214}
+        - {x: -99, y: 185}
+        - {x: -99, y: 156}
+        - {x: -79, y: 109}
+        - {x: -39, y: 0}
+        - {x: 30, y: 0}
+        - {x: 99, y: 164}
+        - {x: 99, y: 238}
+    - name: peasant_3_walking_5
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 550
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 140}
+        - {x: 99, y: 240}
+        - {x: 71, y: 274}
+        - {x: -75, y: 274}
+        - {x: -99, y: 261}
+        - {x: -99, y: 155}
+        - {x: -80, y: 108}
+        - {x: -44, y: 1}
+        - {x: -41, y: 0}
+        - {x: 23, y: 0}
+        - {x: 38, y: 98}
+        - {x: 82, y: 100}
+    - name: peasant_3_walking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: 246}
+        - {x: 71, y: 274}
+        - {x: -96, y: 274}
+        - {x: -99, y: 262}
+        - {x: -99, y: 128}
+        - {x: -87, y: 103}
+        - {x: -54, y: 90}
+        - {x: -46, y: 11}
+        - {x: -35, y: 0}
+        - {x: 26, y: 0}
+        - {x: 99, y: 134}
+        - {x: 99, y: 223}
+    - name: peasant_3_walking_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 275
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 228}
+        - {x: 93, y: 258}
+        - {x: 65, y: 274}
+        - {x: -73, y: 274}
+        - {x: -99, y: 245}
+        - {x: -99, y: 125}
+        - {x: -69, y: 46}
+        - {x: -39, y: 0}
+        - {x: 17, y: 0}
+        - {x: 41, y: 66}
+        - {x: 94, y: 138}
+        - {x: 99, y: 170}
+    - name: peasant_3_walking_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 275
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 235}
+        - {x: 77, y: 274}
+        - {x: -71, y: 274}
+        - {x: -98, y: 251}
+        - {x: -99, y: 246}
+        - {x: -99, y: 168}
+        - {x: -85, y: 105}
+        - {x: -40, y: 0}
+        - {x: 17, y: 0}
+        - {x: 35, y: 73}
+        - {x: 94, y: 128}
+        - {x: 99, y: 154}
+    - name: peasant_3_walking_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 275
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 223}
+        - {x: 91, y: 258}
+        - {x: 70, y: 274}
+        - {x: 8, y: 274}
+        - {x: -30, y: 270}
+        - {x: -43, y: 274}
+        - {x: -85, y: 274}
+        - {x: -99, y: 243}
+        - {x: -99, y: 172}
+        - {x: -98, y: 160}
+        - {x: -86, y: 114}
+        - {x: -30, y: 0}
+        - {x: 11, y: 0}
+        - {x: 22, y: 10}
+        - {x: 89, y: 144}
+        - {x: 99, y: 165}
+    - name: peasant_3_walking_10
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 275
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97, y: 248}
+        - {x: 71, y: 274}
+        - {x: 28, y: 274}
+        - {x: -12, y: 266}
+        - {x: -43, y: 274}
+        - {x: -74, y: 274}
+        - {x: -99, y: 251}
+        - {x: -99, y: 157}
+        - {x: -83, y: 111}
+        - {x: -60, y: 75}
+        - {x: -46, y: 0}
+        - {x: 13, y: 0}
+        - {x: 72, y: 107}
+        - {x: 99, y: 172}
+        - {x: 99, y: 227}
+    - name: peasant_3_walking_11
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 275
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 236}
+        - {x: 94, y: 265}
+        - {x: 68, y: 275}
+        - {x: 13, y: 275}
+        - {x: -32, y: 266}
+        - {x: -55, y: 275}
+        - {x: -79, y: 275}
+        - {x: -99, y: 258}
+        - {x: -99, y: 157}
+        - {x: -82, y: 104}
+        - {x: -36, y: 0}
+        - {x: 12, y: 0}
+        - {x: 53, y: 92}
+        - {x: 87, y: 123}
+        - {x: 99, y: 159}
+    - name: peasant_3_walking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 242}
+        - {x: 70, y: 275}
+        - {x: -68, y: 275}
+        - {x: -98, y: 264}
+        - {x: -98, y: 156}
+        - {x: -79, y: 109}
+        - {x: -62, y: 54}
+        - {x: -26, y: 0}
+        - {x: 10, y: 0}
+        - {x: 91, y: 147}
+        - {x: 99, y: 171}
+        - {x: 99, y: 231}
+    - name: peasant_3_walking_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 275}
+        - {x: -97, y: 251}
+        - {x: -98, y: 243}
+        - {x: -98, y: 223}
+        - {x: -91, y: 219}
+        - {x: -82, y: 220}
+        - {x: -98, y: 212}
+        - {x: -98, y: 71}
+        - {x: -87, y: 41}
+        - {x: -29, y: 0}
+        - {x: 15, y: 0}
+        - {x: 99, y: 130}
+        - {x: 99, y: 246}
+        - {x: 84, y: 275}
+    - name: peasant_3_walking_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 225}
+        - {x: 92, y: 260}
+        - {x: 70, y: 275}
+        - {x: -70, y: 275}
+        - {x: -99, y: 260}
+        - {x: -99, y: 129}
+        - {x: -65, y: 39}
+        - {x: -28, y: 0}
+        - {x: 2, y: 0}
+        - {x: 11, y: 10}
+        - {x: 40, y: 48}
+        - {x: 99, y: 168}
+    - name: peasant_3_walking_15
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 198
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 213}
+        - {x: 92, y: 245}
+        - {x: 71, y: 275}
+        - {x: 23, y: 275}
+        - {x: -40, y: 265}
+        - {x: -54, y: 275}
+        - {x: -80, y: 275}
+        - {x: -99, y: 264}
+        - {x: -99, y: 129}
+        - {x: -82, y: 100}
+        - {x: -34, y: 0}
+        - {x: 12, y: 0}
+        - {x: 42, y: 67}
+        - {x: 85, y: 135}
+        - {x: 99, y: 171}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
