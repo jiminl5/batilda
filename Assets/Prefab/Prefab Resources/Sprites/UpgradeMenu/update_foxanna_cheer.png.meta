@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 541ea4c613107f14bbe06f4ea5eadd10
-timeCreated: 1473899995
+timeCreated: 1474358099
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -1065,17 +1065,6 @@ TextureImporter:
         - {x: 46.5, y: 15}
         - {x: 83.5, y: 40}
         - {x: 71.5, y: 76}
-    - name: update_foxanna_cheer_16
-      rect:
-        serializedVersion: 2
-        x: 1476
-        y: 103
-        width: 522
-        height: 196
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     outline: []
   spritePackingTag: 
   userData: 
