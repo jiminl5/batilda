@@ -374,7 +374,7 @@ public class levelHandler : MonoBehaviour {
     {
         Queue<customer> nobles = new Queue<customer>();
         Queue<string> tmp_foodQueue;
-        string[] tmp_foodArray = new string[10];
+        string[] tmp_foodArray = new string[5];
         int r;
 
         Queue<string> drinkQueue = new Queue<string>();
@@ -383,16 +383,19 @@ public class levelHandler : MonoBehaviour {
         foreach (string d in food["drinks"])
         {
             if (d != "")
+				print(d);
                 drinkQueue.Enqueue(d);
         }
         foreach (string e in food["entrees"])
         {
             if (e != "")
+				print(e);
                 entreeQueue.Enqueue(e);
         }
         foreach (string s in food["sides"])
         {
             if (s != "")
+				print(s);
                 sideQueue.Enqueue(s);
         }
 
@@ -411,7 +414,7 @@ public class levelHandler : MonoBehaviour {
             {
 
                 r = Random.Range(0, 2);
-                if (r == 0 && drinkQueue.Count >= 2 && sideQueue.Count >= 2 && entreeQueue.Count > 0)
+                if (r == 0 && drinkQueue.Count >= 2 && sideQueue.Count >= 2 && entreeQueue.Count >= 1)
                 { //1 entree 2 sides and 2 drinks
                     tmp_foodArray[0] = drinkQueue.Dequeue();
                     tmp_foodArray[1] = drinkQueue.Dequeue();
@@ -702,20 +705,20 @@ public class levelHandler : MonoBehaviour {
             middleFoodList.Add("sides", "grilled carrot;grilled carrot;grilled carrot".Split(';'));
 
             numMiddle = 3;
-
-            nobleFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider;apple cider".Split(';'));
-            nobleFoodList.Add("entrees", "grilled fish;grilled fish;grilled fish;grilled fish;grilled fish".Split(';'));
+			*/
+            nobleFoodList.Add("drinks", "apple cider;apple cider".Split(';'));
+            nobleFoodList.Add("entrees", "grilled fish".Split(';'));
             nobleFoodList.Add("sides", "grilled carrot;grilled carrot".Split(';'));
 
-            numNobles = 3;
-			*/
-
+            numNobles = 1;
+			
+			/*
 			royalFoodList.Add("drinks", "apple cider;apple cider;apple cider;apple cider;apple cider".Split(';'));
             royalFoodList.Add("entrees", "grilled fish;grilled fish;grilled fish".Split(';'));
             royalFoodList.Add("sides", "grilled carrot;grilled carrot".Split(';'));
-			numRoyals = 1;
+			numRoyals = 1;*/
 
-            foodList = "apple cider;apple cider";
+            //foodList = "apple cider;apple cider";
             //"grilledMeat;grilledMeat;bread;bread;bread;grilled fish;grilled fish;grilled fish";
 			
             levelTime = 180;
