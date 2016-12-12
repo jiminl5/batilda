@@ -1855,6 +1855,7 @@ public class levelHandler : MonoBehaviour {
             */
             if (customersServed == customersWaiting || customersLeft == 0)//peasantFoodQueue.Count <= 0 && checkifNoCustomers())
             {
+				
                 finished = true;
                 CloseSignAnim.close_child = 1;
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished = true;

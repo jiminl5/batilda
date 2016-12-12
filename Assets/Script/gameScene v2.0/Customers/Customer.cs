@@ -36,6 +36,13 @@ public class Customer : MonoBehaviour {
     private GameObject tutArrow;
     private int tutArrowCount;
 
+	struct money
+	{
+		public int amount;
+
+	}
+
+
     // Use this for initialization
     void Start () {
         eatingState = false;
