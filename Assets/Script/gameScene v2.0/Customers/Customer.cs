@@ -35,7 +35,8 @@ public class Customer : MonoBehaviour {
     public bool eatingStateTutorial = false;
     private GameObject tutArrow;
     private int tutArrowCount;
-
+	
+	//TODO: simplify money sprite/amount/structure in customer.
 	struct money
 	{
 		public int amount;

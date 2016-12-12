@@ -38,7 +38,7 @@ public class ResultLeft : MonoBehaviour {
             {
                 GameObject.Find("CheckBox").transform.localScale += new Vector3(0.05f, 0.05f, 0);
             }
-            if (GameObject.Find("Main Camera").GetComponent<ResultPageDataHandler>().count >= PlayerPrefs.GetInt("tempCustomer"))  //Check Mark initial size X = 12, Y = 10
+            if (GameObject.Find("Main Camera").GetComponent<ResultPageDataHandler>().count >= PlayerPrefs.GetInt("temp_coin"))  //Check Mark initial size X = 12, Y = 10
             {
                 GameObject.Find("/CheckBox/test_checkBox/checkmark").GetComponent<SpriteRenderer>().enabled = true;
                 if (GameObject.Find("/CheckBox/test_checkBox/checkmark").transform.localScale.x > 12.0f
