@@ -1855,13 +1855,47 @@ public class levelHandler : MonoBehaviour {
             */
             if (customersServed == customersWaiting || customersLeft == 0)//peasantFoodQueue.Count <= 0 && checkifNoCustomers())
             {
-				
                 finished = true;
                 CloseSignAnim.close_child = 1;
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<StopWatch>().finished = true;
                 //PlayerPrefs.SetInt("temp_coin", 0);
             }
         }
+		if (finished) 
+		{
+			foreach (GameObject money in GameObject.FindGameObjectsWithTag("money")) 
+			{
+				GameObject moneyParticle = Instantiate(Resources.Load("Coins"), money.transform.position, Quaternion.identity) as GameObject;
+				moneyParticle.GetComponent<ParticleSystem>().collision.SetPlane(1, GameObject.Find("counter_invis_plane").transform);
+
+				if (money.name == "money_0(Clone)") 
+				{
+					moneyParticle.GetComponent<ParticleSystem>().maxParticles = 1;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 1);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins++;
+				}
+				else if (money.name == "money_1(Clone)") 
+				{
+					moneyParticle.GetComponent<ParticleSystem>().maxParticles = 2;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 2);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins+= 2;
+				}
+				else if (money.name == "money_2(Clone)") 
+				{
+					moneyParticle.GetComponent<ParticleSystem>().maxParticles = 5;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 5);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins += 5;
+				}
+				else if (money.name == "money_3(Clone)") 
+				{
+					moneyParticle.GetComponent<ParticleSystem>().maxParticles = 8;
+					PlayerPrefs.SetInt("temp_coin", PlayerPrefs.GetInt("temp_coin") + 8);
+					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<coinHandler>().Coins += 8;
+				}
+				moneyParticle.GetComponent<ParticleSystem>().Play();
+				Destroy (money);
+			}
+		}
 
     }
     

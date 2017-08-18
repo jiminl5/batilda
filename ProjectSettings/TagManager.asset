@@ -30,6 +30,8 @@ TagManager:
   - WayPoint5
   - WayPoint
   - WayPointExit
+  - Undefined
+  - money
   layers:
   - Default
   - TransparentFX

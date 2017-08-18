@@ -201,8 +201,6 @@ public class Customer : MonoBehaviour {
 
             if (moneyPickedUp)
             {
-                GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
-                GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
                 this.GetComponentInParent<CustomerAI>().confirmExit(moneyPickedUp);
 
                 moneyParticle = Instantiate(Resources.Load("Coins"), moneySprite.transform.position, Quaternion.identity) as GameObject;
@@ -234,7 +232,6 @@ public class Customer : MonoBehaviour {
 				}
 
                 moneyParticle.GetComponent<ParticleSystem>().Play();
-                levelHandler.customersLeft -= 1;
                 Destroy(moneySprite);
                 //Destroy(foodSprite);
                 Destroy(this.gameObject);
@@ -284,6 +281,9 @@ public class Customer : MonoBehaviour {
         }
         this.gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
         //this.gameObject.transform.parent.GetChild(0).GetChild(0).GetChild(0).GetComponent<Image>().enabled = true;
+		GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
+		GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
+		levelHandler.customersLeft -= 1;
     }
 
     public void CustomerExit()
