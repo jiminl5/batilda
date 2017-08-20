@@ -38,7 +38,8 @@ public class cuttingObject : MonoBehaviour
     void Update()
     {
         //this.gameObject.GetComponent<SpriteRenderer>().sprite = b_carrot;
-        checkDough();
+        Cutting();
+		checkCuttingObject();
         if (is_on)
         {
             this.GetComponent<Animator>().SetBool("on", true);
@@ -50,7 +51,7 @@ public class cuttingObject : MonoBehaviour
     }
 
 
-    void checkDough()
+    void Cutting()
     {
         if (is_cutting && (!allfull || !full))
         {
@@ -138,5 +139,31 @@ public class cuttingObject : MonoBehaviour
         this.GetComponent<SpriteRenderer>().color = Color.white;
         cutting = "";
     }
+
+	void checkCuttingObject()
+	{
+		if (full) {
+			foreach (cuttingPickUp cont in this.gameObject.GetComponentsInChildren<cuttingPickUp>()) {
+				if (cont.stored == "") {
+					cont.full = true;
+					full = false;
+					cont.stored = stored;
+					if (stored == "cut_carrot") {
+						cont.GetComponent<SpriteRenderer> ().sprite = c_carrot;
+						cont.GetComponent<nameAndPosition> ().go = Resources.Load ("Dishes/cut_carrot") as GameObject;
+					} else if (stored == "cut_onion") {
+						cont.GetComponent<SpriteRenderer> ().sprite = c_onion;
+						cont.GetComponent<nameAndPosition> ().go = Resources.Load ("Dishes/cut_onion") as GameObject;
+					} else if (stored == "cut_cheese") {
+						cont.GetComponent<SpriteRenderer> ().sprite = c_cheese;
+						cont.GetComponent<nameAndPosition> ().go = Resources.Load ("Dishes/cut_cheese") as GameObject;
+					}
+					stored = "";
+					fullContainers += 1;
+					break;
+				}	
+			}
+		}
+	}
 
 }
