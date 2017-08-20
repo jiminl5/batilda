@@ -281,13 +281,13 @@ public class Customer : MonoBehaviour {
         }
         this.gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
         //this.gameObject.transform.parent.GetChild(0).GetChild(0).GetChild(0).GetComponent<Image>().enabled = true;
-		GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
-		GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
-		levelHandler.customersLeft -= 1;
     }
 
     public void CustomerExit()
     {
+		GameObject.Find("levelHandler").GetComponent<levelHandler>().customersServed++;
+		GameObject.Find("levelHandler").GetComponent<levelHandler>().updateBools = true;
+		levelHandler.customersLeft -= 1;
         this.transform.parent.eulerAngles = new Vector3(0, 180, 0);
         this.GetComponentInParent<CustomerAI>().direction = 6;
         Destroy(this.transform.parent.GetChild(0).gameObject); //Destroy PatienceBar
@@ -300,14 +300,12 @@ public class Customer : MonoBehaviour {
         if (tempObj != null)
         {
             GameObject.Find("levelHandler").GetComponent<levelHandler>().DequeueCustomerQ();
-            levelHandler.customersLeft -= 1;
             Destroy(tempObj);
             //foodQueue.Dequeue(); // Not sure when food is assigned to the customers, after exclamation mark destroyed??? or before??
         }
         else
         {
             GameObject.Find("levelHandler").GetComponent<levelHandler>().DequeueCustomerQ();
-            levelHandler.customersLeft -= 1;
             Destroy(foodSprite);
         }
     }
