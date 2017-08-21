@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: fd138995ca242d442b0a9490188c9bb4
+timeCreated: 1503280598
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: middle_dog_ordering_0
+    21300002: middle_dog_ordering_1
+    21300004: middle_dog_ordering_2
+    21300006: middle_dog_ordering_3
+    21300008: middle_dog_ordering_4
+    21300010: middle_dog_ordering_5
+    21300012: middle_dog_ordering_6
+    21300014: middle_dog_ordering_7
+    21300016: middle_dog_ordering_8
+    21300018: middle_dog_ordering_9
+    21300020: middle_dog_ordering_10
+    21300022: middle_dog_ordering_11
+    21300024: middle_dog_ordering_12
+    21300026: middle_dog_ordering_13
+    21300028: middle_dog_ordering_14
+    21300030: middle_dog_ordering_15
+    21300032: middle_dog_ordering_16
+    21300034: middle_dog_ordering_17
+    21300036: middle_dog_ordering_18
+    21300038: middle_dog_ordering_19
+    21300040: middle_dog_ordering_20
+    21300042: middle_dog_ordering_21
+    21300044: middle_dog_ordering_22
+    21300046: middle_dog_ordering_23
+    21300048: middle_dog_ordering_24
+    21300050: middle_dog_ordering_25
+    21300052: middle_dog_ordering_26
+    21300054: middle_dog_ordering_27
+    21300056: middle_dog_ordering_28
+    21300058: middle_dog_ordering_29
+    21300060: middle_dog_ordering_30
+    21300062: middle_dog_ordering_31
+    21300064: middle_dog_ordering_32
+    21300066: middle_dog_ordering_33
+    21300068: middle_dog_ordering_34
+    21300070: middle_dog_ordering_35
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: middle_dog_ordering_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_15
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_19
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_29
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_31
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_ordering_35
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

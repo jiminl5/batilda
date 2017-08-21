@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: a4d84dc193a4087438e1d7de8ffd5f8f
+timeCreated: 1503280620
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: middle_dog_eating_0
+    21300002: middle_dog_eating_1
+    21300004: middle_dog_eating_2
+    21300006: middle_dog_eating_3
+    21300008: middle_dog_eating_4
+    21300010: middle_dog_eating_5
+    21300012: middle_dog_eating_6
+    21300014: middle_dog_eating_7
+    21300016: middle_dog_eating_8
+    21300018: middle_dog_eating_9
+    21300020: middle_dog_eating_10
+    21300022: middle_dog_eating_11
+    21300024: middle_dog_eating_12
+    21300026: middle_dog_eating_13
+    21300028: middle_dog_eating_14
+    21300030: middle_dog_eating_15
+    21300032: middle_dog_eating_16
+    21300034: middle_dog_eating_17
+    21300036: middle_dog_eating_18
+    21300038: middle_dog_eating_19
+    21300040: middle_dog_eating_20
+    21300042: middle_dog_eating_21
+    21300044: middle_dog_eating_22
+    21300046: middle_dog_eating_23
+    21300048: middle_dog_eating_24
+    21300050: middle_dog_eating_25
+    21300052: middle_dog_eating_26
+    21300054: middle_dog_eating_27
+    21300056: middle_dog_eating_28
+    21300058: middle_dog_eating_29
+    21300060: middle_dog_eating_30
+    21300062: middle_dog_eating_31
+    21300064: middle_dog_eating_32
+    21300066: middle_dog_eating_33
+    21300068: middle_dog_eating_34
+    21300070: middle_dog_eating_35
+    21300072: middle_dog_eating_36
+    21300074: middle_dog_eating_37
+    21300076: middle_dog_eating_38
+    21300078: middle_dog_eating_39
+    21300080: middle_dog_eating_40
+    21300082: middle_dog_eating_41
+    21300084: middle_dog_eating_42
+    21300086: middle_dog_eating_43
+    21300088: middle_dog_eating_44
+    21300090: middle_dog_eating_45
+    21300092: middle_dog_eating_46
+    21300094: middle_dog_eating_47
+    21300096: middle_dog_eating_48
+    21300098: middle_dog_eating_49
+    21300100: middle_dog_eating_50
+    21300102: middle_dog_eating_51
+    21300104: middle_dog_eating_52
+    21300106: middle_dog_eating_53
+    21300108: middle_dog_eating_54
+    21300110: middle_dog_eating_55
+    21300112: middle_dog_eating_56
+    21300114: middle_dog_eating_57
+    21300116: middle_dog_eating_58
+    21300118: middle_dog_eating_59
+    21300120: middle_dog_eating_60
+    21300122: middle_dog_eating_61
+    21300124: middle_dog_eating_62
+    21300126: middle_dog_eating_63
+    21300128: middle_dog_eating_64
+    21300130: middle_dog_eating_65
+    21300132: middle_dog_eating_66
+    21300134: middle_dog_eating_67
+    21300136: middle_dog_eating_68
+    21300138: middle_dog_eating_69
+    21300140: middle_dog_eating_70
+    21300142: middle_dog_eating_71
+    21300144: middle_dog_eating_72
+    21300146: middle_dog_eating_73
+    21300148: middle_dog_eating_74
+    21300150: middle_dog_eating_75
+    21300152: middle_dog_eating_76
+    21300154: middle_dog_eating_77
+    21300156: middle_dog_eating_78
+    21300158: middle_dog_eating_79
+    21300160: middle_dog_eating_80
+    21300162: middle_dog_eating_81
+    21300164: middle_dog_eating_82
+    21300166: middle_dog_eating_83
+    21300168: middle_dog_eating_84
+    21300170: middle_dog_eating_85
+    21300172: middle_dog_eating_86
+    21300174: middle_dog_eating_87
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: middle_dog_eating_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_4
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_5
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_6
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_7
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 2860
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_12
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_13
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_14
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_15
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 2574
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_19
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_21
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_22
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_23
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 2288
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_28
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_29
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_30
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_31
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 2002
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_35
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_36
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_37
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_38
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_39
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1716
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_41
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_42
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_43
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_44
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_45
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_46
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_47
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1430
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_49
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_50
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_51
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_52
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_53
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_54
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_55
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1144
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_57
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_58
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_59
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_60
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_61
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_62
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_63
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 858
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_65
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_66
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_67
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_68
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_69
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_70
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_71
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 572
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_73
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_74
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_75
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_76
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_77
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_78
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_79
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 286
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_81
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_82
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_83
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_84
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_85
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_86
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_eating_87
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 0
+        width: 198
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

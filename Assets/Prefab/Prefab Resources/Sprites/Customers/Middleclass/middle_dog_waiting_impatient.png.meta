@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 37ebc316d54e408488a85012770db7c3
+timeCreated: 1503280512
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: middle_dog_waiting_impatient_0
+    21300002: middle_dog_waiting_impatient_1
+    21300004: middle_dog_waiting_impatient_2
+    21300006: middle_dog_waiting_impatient_3
+    21300008: middle_dog_waiting_impatient_4
+    21300010: middle_dog_waiting_impatient_5
+    21300012: middle_dog_waiting_impatient_6
+    21300014: middle_dog_waiting_impatient_7
+    21300016: middle_dog_waiting_impatient_8
+    21300018: middle_dog_waiting_impatient_9
+    21300020: middle_dog_waiting_impatient_10
+    21300022: middle_dog_waiting_impatient_11
+    21300024: middle_dog_waiting_impatient_12
+    21300026: middle_dog_waiting_impatient_13
+    21300028: middle_dog_waiting_impatient_14
+    21300030: middle_dog_waiting_impatient_15
+    21300032: middle_dog_waiting_impatient_16
+    21300034: middle_dog_waiting_impatient_17
+    21300036: middle_dog_waiting_impatient_18
+    21300038: middle_dog_waiting_impatient_19
+    21300040: middle_dog_waiting_impatient_20
+    21300042: middle_dog_waiting_impatient_21
+    21300044: middle_dog_waiting_impatient_22
+    21300046: middle_dog_waiting_impatient_23
+    21300048: middle_dog_waiting_impatient_24
+    21300050: middle_dog_waiting_impatient_25
+    21300052: middle_dog_waiting_impatient_26
+    21300054: middle_dog_waiting_impatient_27
+    21300056: middle_dog_waiting_impatient_28
+    21300058: middle_dog_waiting_impatient_29
+    21300060: middle_dog_waiting_impatient_30
+    21300062: middle_dog_waiting_impatient_31
+    21300064: middle_dog_waiting_impatient_32
+    21300066: middle_dog_waiting_impatient_33
+    21300068: middle_dog_waiting_impatient_34
+    21300070: middle_dog_waiting_impatient_35
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2272
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2272
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2272
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2272
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1988
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1988
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1988
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1988
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1704
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1704
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1704
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1704
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1420
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1420
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1420
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_15
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1420
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_19
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1136
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 852
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 852
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 852
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 852
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 568
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 568
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_27
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 568
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_29
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 284
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 284
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_31
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 284
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: middle_dog_waiting_impatient_35
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
