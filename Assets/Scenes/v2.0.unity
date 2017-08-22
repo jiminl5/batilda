@@ -1468,6 +1468,9 @@ MonoBehaviour:
   peasants:
   - {fileID: 168618, guid: cdfc57c084c006743a2248821d5eb933, type: 2}
   - {fileID: 199256, guid: a3e4629e76c214f4ea2017015e50221f, type: 2}
+  middles:
+  - {fileID: 116108, guid: 5ca36bc1e11ab8044ad3b18e67f6c5e4, type: 2}
+  - {fileID: 116108, guid: 6ca6654c10441024e92d38bb41862b7f, type: 2}
 --- !u!1 &231997099
 GameObject:
   m_ObjectHideFlags: 0

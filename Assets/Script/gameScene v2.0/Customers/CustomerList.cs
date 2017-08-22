@@ -6,7 +6,7 @@ public class CustomerList : MonoBehaviour {
 
     public GameObject[] customers = new GameObject[2];
 	public GameObject[] peasants;
-
+	public GameObject[] middles;
     private GameObject peasant;
     private GameObject artisan;
     private GameObject middle;
@@ -77,8 +77,9 @@ public class CustomerList : MonoBehaviour {
             }
             else if (customerQ.Peek().type == "middle")
             {
-                current_customer = Instantiate(middle, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
-                customer_Q.Add(middle);
+				GameObject newmiddle = middles [Random.Range (0, 2)];
+                current_customer = Instantiate(newmiddle, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
+                customer_Q.Add(newmiddle);
             }
             
             else if (customerQ.Peek().type == "noble")

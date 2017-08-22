@@ -19,22 +19,22 @@ public class patienceMeter : MonoBehaviour {
         angry = false;
         //patienceTime = 30f; // patience timer
         getParent = this.transform.parent.parent.parent;
-        if (getParent.name.Contains("Peasant") )
+        if (getParent.name.Contains("Peasant"))
         {
             patienceTime = 40f;
             print("Spawned Pessant, timer at: " + patienceTime);
         }
-        else if (getParent.name == "Artisan 1(Clone)")
+		else if (getParent.name.Contains("Artisan"))
         {
             patienceTime = 55f;
             print("Spawned Artisan, timer at: " + patienceTime);
         }
-        else if (getParent.name == "Middle Class 1(Clone)")
+		else if (getParent.name.Contains("Middle Class"))
         {
             patienceTime = 80f;
             print("Spawned Middle Class, timer at: " + patienceTime);
         }
-        else if (getParent.name == "Noble 1(Clone)")
+		else if (getParent.name.Contains("Noble"))
         {
             patienceTime = 100f;
             print("Spawned Noble, timer at: " + patienceTime);
