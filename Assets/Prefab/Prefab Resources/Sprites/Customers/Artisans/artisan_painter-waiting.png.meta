@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 1294319fc8016a34081a13d37987fea7
+timeCreated: 1503462059
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: artisan_painter-waiting_0
+    21300002: artisan_painter-waiting_1
+    21300004: artisan_painter-waiting_10
+    21300006: artisan_painter-waiting_11
+    21300008: artisan_painter-waiting_12
+    21300010: artisan_painter-waiting_13
+    21300012: artisan_painter-waiting_14
+    21300014: artisan_painter-waiting_15
+    21300016: artisan_painter-waiting_16
+    21300018: artisan_painter-waiting_17
+    21300020: artisan_painter-waiting_18
+    21300022: artisan_painter-waiting_19
+    21300024: artisan_painter-waiting_2
+    21300026: artisan_painter-waiting_20
+    21300028: artisan_painter-waiting_21
+    21300030: artisan_painter-waiting_22
+    21300032: artisan_painter-waiting_23
+    21300034: artisan_painter-waiting_24
+    21300036: artisan_painter-waiting_3
+    21300038: artisan_painter-waiting_4
+    21300040: artisan_painter-waiting_5
+    21300042: artisan_painter-waiting_6
+    21300044: artisan_painter-waiting_7
+    21300046: artisan_painter-waiting_8
+    21300048: artisan_painter-waiting_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: artisan_painter-waiting_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_12
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_13
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_15
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_16
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_17
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 217
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 217
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_20
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 217
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_21
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 217
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_22
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 217
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_23
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 217
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_24
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 217
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_3
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_4
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_5
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_6
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_7
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_8
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 755
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: artisan_painter-waiting_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 486
+        width: 215
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
