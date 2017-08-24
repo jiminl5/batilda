@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: e72adeec78e9d2046af2f81132e177d5
+timeCreated: 1503554641
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragon-paying_0
+    21300002: dragon-paying_1
+    21300004: dragon-paying_10
+    21300006: dragon-paying_11
+    21300008: dragon-paying_12
+    21300010: dragon-paying_13
+    21300012: dragon-paying_14
+    21300014: dragon-paying_15
+    21300016: dragon-paying_16
+    21300018: dragon-paying_17
+    21300020: dragon-paying_18
+    21300022: dragon-paying_19
+    21300024: dragon-paying_2
+    21300026: dragon-paying_20
+    21300028: dragon-paying_3
+    21300030: dragon-paying_4
+    21300032: dragon-paying_5
+    21300034: dragon-paying_6
+    21300036: dragon-paying_7
+    21300038: dragon-paying_8
+    21300040: dragon-paying_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon-paying_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 712
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 712
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_10
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 400
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_11
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 400
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_12
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 400
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_13
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 400
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 88
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_15
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 88
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_16
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 88
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_17
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 88
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_18
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 88
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_19
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 88
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 712
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_20
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 88
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 712
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_4
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 712
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_5
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 712
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_6
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 712
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 400
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 400
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-paying_9
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 400
+        width: 257
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

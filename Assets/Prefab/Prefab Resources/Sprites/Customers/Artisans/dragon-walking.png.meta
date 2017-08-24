@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 4e4d5d530740b7e4f97a31a32e06ea5f
+timeCreated: 1503554661
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragon-walking_0
+    21300002: dragon-walking_1
+    21300004: dragon-walking_10
+    21300006: dragon-walking_11
+    21300008: dragon-walking_12
+    21300010: dragon-walking_13
+    21300012: dragon-walking_14
+    21300014: dragon-walking_15
+    21300016: dragon-walking_16
+    21300018: dragon-walking_17
+    21300020: dragon-walking_18
+    21300022: dragon-walking_19
+    21300024: dragon-walking_2
+    21300026: dragon-walking_20
+    21300028: dragon-walking_3
+    21300030: dragon-walking_4
+    21300032: dragon-walking_5
+    21300034: dragon-walking_6
+    21300036: dragon-walking_7
+    21300038: dragon-walking_8
+    21300040: dragon-walking_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon-walking_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_11
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_12
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_13
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_14
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_15
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 103
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 103
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_18
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 103
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_19
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 103
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_20
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 103
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_4
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_5
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_6
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_7
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 717
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-walking_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 410
+        width: 246
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

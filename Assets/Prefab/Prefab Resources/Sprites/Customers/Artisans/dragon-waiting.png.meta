@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 33d728e7237adcf45a00c468d0dba3aa
+timeCreated: 1503554650
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragon-waiting_0
+    21300002: dragon-waiting_1
+    21300004: dragon-waiting_10
+    21300006: dragon-waiting_11
+    21300008: dragon-waiting_12
+    21300010: dragon-waiting_13
+    21300012: dragon-waiting_14
+    21300014: dragon-waiting_15
+    21300016: dragon-waiting_16
+    21300018: dragon-waiting_17
+    21300020: dragon-waiting_18
+    21300022: dragon-waiting_19
+    21300024: dragon-waiting_2
+    21300026: dragon-waiting_20
+    21300028: dragon-waiting_21
+    21300030: dragon-waiting_22
+    21300032: dragon-waiting_23
+    21300034: dragon-waiting_24
+    21300036: dragon-waiting_3
+    21300038: dragon-waiting_4
+    21300040: dragon-waiting_5
+    21300042: dragon-waiting_6
+    21300044: dragon-waiting_7
+    21300046: dragon-waiting_8
+    21300048: dragon-waiting_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon-waiting_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_10
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_11
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_12
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_13
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_14
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_15
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_18
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_19
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_2
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_20
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_21
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_22
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_23
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1106
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 792
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_4
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_5
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_6
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_7
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1734
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-waiting_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1420
+        width: 251
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

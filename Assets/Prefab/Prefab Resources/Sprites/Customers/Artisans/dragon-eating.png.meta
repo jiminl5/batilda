@@ -1,0 +1,614 @@
+fileFormatVersion: 2
+guid: 14309662953039646bb53b580c221d11
+timeCreated: 1503554632
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragon-eating_0
+    21300002: dragon-eating_1
+    21300004: dragon-eating_10
+    21300006: dragon-eating_11
+    21300008: dragon-eating_12
+    21300010: dragon-eating_13
+    21300012: dragon-eating_14
+    21300014: dragon-eating_15
+    21300016: dragon-eating_16
+    21300018: dragon-eating_17
+    21300020: dragon-eating_18
+    21300022: dragon-eating_19
+    21300024: dragon-eating_2
+    21300026: dragon-eating_20
+    21300028: dragon-eating_21
+    21300030: dragon-eating_22
+    21300032: dragon-eating_23
+    21300034: dragon-eating_24
+    21300036: dragon-eating_25
+    21300038: dragon-eating_26
+    21300040: dragon-eating_27
+    21300042: dragon-eating_28
+    21300044: dragon-eating_29
+    21300046: dragon-eating_3
+    21300048: dragon-eating_30
+    21300050: dragon-eating_31
+    21300052: dragon-eating_32
+    21300054: dragon-eating_33
+    21300056: dragon-eating_34
+    21300058: dragon-eating_35
+    21300060: dragon-eating_36
+    21300062: dragon-eating_37
+    21300064: dragon-eating_38
+    21300066: dragon-eating_4
+    21300068: dragon-eating_5
+    21300070: dragon-eating_6
+    21300072: dragon-eating_7
+    21300074: dragon-eating_8
+    21300076: dragon-eating_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon-eating_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1727
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1727
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_10
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1406
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_11
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1406
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_12
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1406
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_13
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1406
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1085
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1085
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_16
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1085
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_17
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1085
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_18
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1085
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_19
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1085
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1727
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_20
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1085
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 764
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_22
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 764
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_23
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 764
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_24
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 764
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_25
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 764
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_26
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 764
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_27
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 764
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 443
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 443
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1727
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_30
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 443
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_31
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 443
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_32
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 443
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_33
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 443
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_34
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 443
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 122
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 122
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_37
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 122
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_38
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 122
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_4
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1727
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_5
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1727
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_6
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1727
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1406
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1406
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-eating_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1406
+        width: 258
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

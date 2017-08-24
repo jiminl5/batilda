@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: dc77753ca3f781e47b4c65d78ffdc505
+timeCreated: 1503554637
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragon-ordering_0
+    21300002: dragon-ordering_1
+    21300004: dragon-ordering_10
+    21300006: dragon-ordering_11
+    21300008: dragon-ordering_12
+    21300010: dragon-ordering_13
+    21300012: dragon-ordering_14
+    21300014: dragon-ordering_15
+    21300016: dragon-ordering_16
+    21300018: dragon-ordering_2
+    21300020: dragon-ordering_3
+    21300022: dragon-ordering_4
+    21300024: dragon-ordering_5
+    21300026: dragon-ordering_6
+    21300028: dragon-ordering_7
+    21300030: dragon-ordering_8
+    21300032: dragon-ordering_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon-ordering_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 718
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 718
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_10
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 412
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_11
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 412
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_12
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 412
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_13
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 412
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_15
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 106
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_16
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 106
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 718
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 718
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_4
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 718
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_5
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 718
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_6
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 718
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 412
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 412
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dragon-ordering_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 412
+        width: 259
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
