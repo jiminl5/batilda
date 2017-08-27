@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: db16e6fdbce7ab14cadb2916dfde6594
+timeCreated: 1503861101
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: nobleWolf-wolf-waiting_0
+    21300002: nobleWolf-wolf-waiting_1
+    21300004: nobleWolf-wolf-waiting_10
+    21300006: nobleWolf-wolf-waiting_11
+    21300008: nobleWolf-wolf-waiting_12
+    21300010: nobleWolf-wolf-waiting_13
+    21300012: nobleWolf-wolf-waiting_14
+    21300014: nobleWolf-wolf-waiting_15
+    21300016: nobleWolf-wolf-waiting_16
+    21300018: nobleWolf-wolf-waiting_17
+    21300020: nobleWolf-wolf-waiting_18
+    21300022: nobleWolf-wolf-waiting_19
+    21300024: nobleWolf-wolf-waiting_2
+    21300026: nobleWolf-wolf-waiting_20
+    21300028: nobleWolf-wolf-waiting_21
+    21300030: nobleWolf-wolf-waiting_22
+    21300032: nobleWolf-wolf-waiting_23
+    21300034: nobleWolf-wolf-waiting_24
+    21300036: nobleWolf-wolf-waiting_3
+    21300038: nobleWolf-wolf-waiting_4
+    21300040: nobleWolf-wolf-waiting_5
+    21300042: nobleWolf-wolf-waiting_6
+    21300044: nobleWolf-wolf-waiting_7
+    21300046: nobleWolf-wolf-waiting_8
+    21300048: nobleWolf-wolf-waiting_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_12
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_13
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_14
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_15
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_16
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_17
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 166
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 166
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 166
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_21
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 166
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_22
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 166
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_23
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 166
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_24
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 166
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_3
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_4
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_5
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_6
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_7
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_8
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 738
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: nobleWolf-wolf-waiting_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 452
+        width: 207
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
