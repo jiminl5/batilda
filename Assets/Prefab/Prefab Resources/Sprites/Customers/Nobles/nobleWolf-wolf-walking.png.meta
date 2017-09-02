@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e09967343a0daac429a6e2647410a79c
-timeCreated: 1503861104
+timeCreated: 1504395101
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,6 +85,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -92,249 +108,249 @@ TextureImporter:
       name: nobleWolf-wolf-walking_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 6
+        y: 735
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_1
       rect:
         serializedVersion: 2
-        x: 214
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 218
+        y: 735
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_10
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_11
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_12
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_13
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_14
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_15
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_16
-      rect:
-        serializedVersion: 2
-        x: 1486
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_17
-      rect:
-        serializedVersion: 2
-        x: 1698
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-walking_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 133
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_2
       rect:
         serializedVersion: 2
-        x: 426
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 430
+        y: 735
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_3
       rect:
         serializedVersion: 2
-        x: 638
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 641
+        y: 736
+        width: 203
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_4
       rect:
         serializedVersion: 2
-        x: 850
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 853
+        y: 734
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_5
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1065
+        y: 733
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_6
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1276
+        y: 731
+        width: 204
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_7
       rect:
         serializedVersion: 2
-        x: 1486
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1489
+        y: 733
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_8
       rect:
         serializedVersion: 2
-        x: 1698
-        y: 727
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1701
+        y: 734
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-walking_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 430
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 439
+        width: 203
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 439
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 438
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_12
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 438
+        width: 204
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_13
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 438
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_14
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 438
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_15
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 438
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_16
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 438
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_17
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 438
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-walking_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 141
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

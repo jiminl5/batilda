@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fd545aaa39cae4d4eb5319b5ae8e8c39
-timeCreated: 1504309117
+timeCreated: 1504395111
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: noble-deer-ordering_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 5
         y: 731
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_1
       rect:
         serializedVersion: 2
-        x: 228
+        x: 231
         y: 731
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-ordering_10
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 438
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-ordering_11
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 438
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-ordering_12
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 438
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-ordering_13
-      rect:
-        serializedVersion: 2
-        x: 906
-        y: 438
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-ordering_14
-      rect:
-        serializedVersion: 2
-        x: 1132
-        y: 438
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-ordering_15
-      rect:
-        serializedVersion: 2
-        x: 1358
-        y: 438
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-ordering_16
-      rect:
-        serializedVersion: 2
-        x: 1584
-        y: 438
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_2
       rect:
         serializedVersion: 2
-        x: 454
+        x: 456
         y: 731
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_3
       rect:
         serializedVersion: 2
-        x: 680
+        x: 682
         y: 731
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_4
       rect:
         serializedVersion: 2
-        x: 906
+        x: 907
         y: 731
-        width: 224
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_5
       rect:
         serializedVersion: 2
-        x: 1132
+        x: 1133
         y: 731
-        width: 224
+        width: 220
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_6
       rect:
         serializedVersion: 2
         x: 1358
         y: 731
-        width: 224
+        width: 221
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_7
       rect:
         serializedVersion: 2
         x: 1584
         y: 731
-        width: 224
+        width: 220
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_8
       rect:
         serializedVersion: 2
         x: 1810
         y: 731
-        width: 224
+        width: 220
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-ordering_9
       rect:
         serializedVersion: 2
         x: 2
         y: 438
-        width: 224
+        width: 220
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-ordering_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 438
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-ordering_11
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 438
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-ordering_12
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 438
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-ordering_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-ordering_14
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 438
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-ordering_15
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-ordering_16
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

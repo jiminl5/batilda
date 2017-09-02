@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3db46344c07501544a23550451bf3602
-timeCreated: 1504309120
+timeCreated: 1504395118
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: noble-deer-reading_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 5
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_1
       rect:
         serializedVersion: 2
-        x: 228
+        x: 231
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-reading_10
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-reading_11
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-reading_12
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-reading_13
-      rect:
-        serializedVersion: 2
-        x: 906
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-reading_14
-      rect:
-        serializedVersion: 2
-        x: 1132
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-reading_15
-      rect:
-        serializedVersion: 2
-        x: 1358
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-reading_16
-      rect:
-        serializedVersion: 2
-        x: 1584
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_2
       rect:
         serializedVersion: 2
-        x: 454
+        x: 457
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_3
       rect:
         serializedVersion: 2
-        x: 680
+        x: 682
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_4
       rect:
         serializedVersion: 2
-        x: 906
+        x: 908
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_5
       rect:
         serializedVersion: 2
-        x: 1132
+        x: 1133
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_6
       rect:
         serializedVersion: 2
-        x: 1358
+        x: 1359
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_7
       rect:
         serializedVersion: 2
         x: 1584
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_8
       rect:
         serializedVersion: 2
         x: 1810
         y: 730
-        width: 224
+        width: 220
         height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-reading_9
       rect:
         serializedVersion: 2
         x: 2
         y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-reading_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 436
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-reading_11
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-reading_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 436
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-reading_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-reading_14
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 436
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-reading_15
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-reading_16
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

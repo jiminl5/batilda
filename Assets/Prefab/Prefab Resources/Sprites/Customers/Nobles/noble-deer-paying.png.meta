@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0f53b0eb0b8decf47bd2f824ad4b1c03
-timeCreated: 1504309118
+timeCreated: 1504395114
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: noble-deer-paying_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 5
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_1
       rect:
         serializedVersion: 2
-        x: 228
+        x: 231
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-paying_10
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-paying_11
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-paying_12
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-paying_13
-      rect:
-        serializedVersion: 2
-        x: 906
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-paying_14
-      rect:
-        serializedVersion: 2
-        x: 1132
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-paying_15
-      rect:
-        serializedVersion: 2
-        x: 1358
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-paying_16
-      rect:
-        serializedVersion: 2
-        x: 1584
-        y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_2
       rect:
         serializedVersion: 2
-        x: 454
+        x: 456
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_3
       rect:
         serializedVersion: 2
-        x: 680
+        x: 682
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_4
       rect:
         serializedVersion: 2
-        x: 906
+        x: 907
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_5
       rect:
         serializedVersion: 2
         x: 1132
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_6
       rect:
         serializedVersion: 2
         x: 1358
         y: 730
-        width: 224
+        width: 220
         height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_7
       rect:
         serializedVersion: 2
         x: 1584
         y: 730
-        width: 224
+        width: 220
         height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_8
       rect:
         serializedVersion: 2
         x: 1810
         y: 730
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-paying_9
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 436
-        width: 224
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-paying_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 436
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-paying_11
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-paying_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 436
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-paying_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-paying_14
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 436
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-paying_15
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-paying_16
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 436
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

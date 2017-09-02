@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 799f65f41abb7ff498a9bd0ff7fad950
-timeCreated: 1504309124
+timeCreated: 1504395124
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -91,6 +91,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -98,327 +114,327 @@ TextureImporter:
       name: noble-deer-waitingImpatient_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 731
-        width: 221
+        width: 220
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_1
       rect:
         serializedVersion: 2
-        x: 225
+        x: 226
         y: 731
-        width: 221
+        width: 220
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_10
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_11
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_12
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_13
-      rect:
-        serializedVersion: 2
-        x: 894
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_14
-      rect:
-        serializedVersion: 2
-        x: 1117
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_15
-      rect:
-        serializedVersion: 2
-        x: 1340
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_16
-      rect:
-        serializedVersion: 2
-        x: 1563
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_17
-      rect:
-        serializedVersion: 2
-        x: 1786
-        y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 145
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_19
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 145
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_2
       rect:
         serializedVersion: 2
-        x: 448
+        x: 449
         y: 731
-        width: 221
+        width: 220
         height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_20
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 145
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_21
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 145
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_22
-      rect:
-        serializedVersion: 2
-        x: 894
-        y: 145
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_23
-      rect:
-        serializedVersion: 2
-        x: 1117
-        y: 145
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-waitingImpatient_24
-      rect:
-        serializedVersion: 2
-        x: 1340
-        y: 145
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_3
       rect:
         serializedVersion: 2
         x: 671
         y: 731
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_4
       rect:
         serializedVersion: 2
         x: 894
         y: 731
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_5
       rect:
         serializedVersion: 2
         x: 1117
         y: 731
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_6
       rect:
         serializedVersion: 2
         x: 1340
         y: 731
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_7
       rect:
         serializedVersion: 2
         x: 1563
         y: 731
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_8
       rect:
         serializedVersion: 2
         x: 1786
         y: 731
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-waitingImpatient_9
       rect:
         serializedVersion: 2
         x: 2
         y: 438
-        width: 221
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_12
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_13
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_14
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_15
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_16
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_17
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 438
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 145
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 145
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 145
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 145
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_22
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 145
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_23
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 145
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-waitingImpatient_24
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 145
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

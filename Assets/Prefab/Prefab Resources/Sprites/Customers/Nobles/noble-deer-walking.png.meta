@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ed8e33e1fa1e4ed45ade0bdd88ec71a4
-timeCreated: 1504309127
+timeCreated: 1504395127
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,6 +85,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -92,249 +108,249 @@ TextureImporter:
       name: noble-deer-walking_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 5
         y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_1
       rect:
         serializedVersion: 2
-        x: 228
+        x: 231
         y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_10
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_11
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_12
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_13
-      rect:
-        serializedVersion: 2
-        x: 906
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_14
-      rect:
-        serializedVersion: 2
-        x: 1132
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_15
-      rect:
-        serializedVersion: 2
-        x: 1358
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_16
-      rect:
-        serializedVersion: 2
-        x: 1584
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_17
-      rect:
-        serializedVersion: 2
-        x: 1810
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-walking_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 136
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_2
       rect:
         serializedVersion: 2
-        x: 454
-        y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 456
+        y: 729
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_3
       rect:
         serializedVersion: 2
-        x: 680
-        y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 682
+        y: 729
+        width: 219
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_4
       rect:
         serializedVersion: 2
-        x: 906
-        y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 907
+        y: 729
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_5
       rect:
         serializedVersion: 2
         x: 1132
-        y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 730
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_6
       rect:
         serializedVersion: 2
         x: 1358
-        y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 730
+        width: 219
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_7
       rect:
         serializedVersion: 2
         x: 1584
-        y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 730
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_8
       rect:
         serializedVersion: 2
         x: 1810
-        y: 728
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 730
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-walking_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 432
-        width: 224
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 3
+        y: 433
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 433
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 433
+        width: 220
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 432
+        width: 220
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_13
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 432
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_14
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 433
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_15
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 433
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_16
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 433
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_17
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 433
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-walking_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 136
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

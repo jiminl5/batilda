@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 802c32009149047439908728fef2772e
-timeCreated: 1503861092
+timeCreated: 1504395068
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -109,6 +109,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -116,561 +132,561 @@ TextureImporter:
       name: nobleWolf-wolf-eating_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 7
+        y: 1758
+        width: 202
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_1
       rect:
         serializedVersion: 2
-        x: 214
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 219
+        y: 1758
+        width: 202
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_10
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_11
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_12
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_13
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_14
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_15
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_16
-      rect:
-        serializedVersion: 2
-        x: 1486
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_17
-      rect:
-        serializedVersion: 2
-        x: 1698
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_19
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_2
       rect:
         serializedVersion: 2
-        x: 426
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 431
+        y: 1758
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_20
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_21
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_22
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_23
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_24
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_25
-      rect:
-        serializedVersion: 2
-        x: 1486
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_26
-      rect:
-        serializedVersion: 2
-        x: 1698
-        y: 1157
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_27
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_28
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_29
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_3
       rect:
         serializedVersion: 2
-        x: 638
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 643
+        y: 1758
+        width: 202
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_30
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_31
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_32
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_33
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_34
-      rect:
-        serializedVersion: 2
-        x: 1486
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_35
-      rect:
-        serializedVersion: 2
-        x: 1698
-        y: 860
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_36
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 563
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_37
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 563
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_38
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 563
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_39
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 563
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_4
       rect:
         serializedVersion: 2
-        x: 850
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 855
+        y: 1758
+        width: 202
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_40
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 563
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_41
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 563
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-eating_42
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 563
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_5
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1066
+        y: 1758
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_6
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1278
+        y: 1758
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_7
       rect:
         serializedVersion: 2
-        x: 1486
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1490
+        y: 1758
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_8
       rect:
         serializedVersion: 2
-        x: 1698
-        y: 1751
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1702
+        y: 1758
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-eating_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1454
-        width: 210
-        height: 295
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 6
+        y: 1461
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1461
+        width: 202
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1461
+        width: 202
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_12
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1461
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_13
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1460
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_14
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1460
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_15
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1460
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_16
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1460
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_17
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1459
+        width: 203
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1162
+        width: 203
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1162
+        width: 203
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1162
+        width: 202
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_21
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1161
+        width: 202
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_22
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1161
+        width: 202
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_23
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1161
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_24
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1161
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_25
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1161
+        width: 203
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_26
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1161
+        width: 203
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 864
+        width: 203
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_28
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 864
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_29
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 864
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_30
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 864
+        width: 203
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_31
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 864
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_32
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 864
+        width: 203
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_33
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 864
+        width: 203
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_34
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 864
+        width: 202
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_35
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 864
+        width: 202
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 567
+        width: 202
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_37
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 567
+        width: 202
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_38
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 569
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_39
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 570
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_40
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 570
+        width: 202
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_41
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 570
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-eating_42
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 570
+        width: 202
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

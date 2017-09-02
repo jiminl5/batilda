@@ -7,6 +7,7 @@ public class CustomerList : MonoBehaviour {
     public GameObject[] customers = new GameObject[2];
 	public GameObject[] peasants;
 	public GameObject[] middles;
+	public GameObject[] nobles;
     private GameObject peasant;
     private GameObject artisan;
     private GameObject middle;
@@ -66,7 +67,7 @@ public class CustomerList : MonoBehaviour {
             print("TYPE::::::::::::::::::::" + customerQ.Peek().type);
             if (customerQ.Peek().type == "peasant")
             {
-				GameObject newpeasant = peasants[Random.Range(0,2)];
+				GameObject newpeasant = peasants[Random.Range(0, peasants.Length)];
                 current_customer = Instantiate(newpeasant, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
                 customer_Q.Add(newpeasant);
             }
@@ -77,15 +78,16 @@ public class CustomerList : MonoBehaviour {
             }
             else if (customerQ.Peek().type == "middle")
             {
-				GameObject newmiddle = middles [Random.Range (0, 2)];
+				GameObject newmiddle = middles [Random.Range (0, middles.Length)];
                 current_customer = Instantiate(newmiddle, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
                 customer_Q.Add(newmiddle);
             }
             
             else if (customerQ.Peek().type == "noble")
             {
-                current_customer = Instantiate(noble, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
-                customer_Q.Add(noble);
+				GameObject newnoble = nobles [Random.Range (0, nobles.Length)];
+                current_customer = Instantiate(newnoble, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
+                customer_Q.Add(newnoble);
             }
 			else if (customerQ.Peek().type == "royal")
             {

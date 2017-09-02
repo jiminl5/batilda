@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c1f67bff567a47a4dbda31dbd174109c
-timeCreated: 1503861095
+timeCreated: 1504395079
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: nobleWolf-wolf-ordering_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 6
+        y: 737
+        width: 202
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_1
       rect:
         serializedVersion: 2
-        x: 213
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 216
+        y: 737
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-ordering_10
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-ordering_11
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-ordering_12
-      rect:
-        serializedVersion: 2
-        x: 635
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-ordering_13
-      rect:
-        serializedVersion: 2
-        x: 846
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-ordering_14
-      rect:
-        serializedVersion: 2
-        x: 1057
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-ordering_15
-      rect:
-        serializedVersion: 2
-        x: 1268
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: nobleWolf-wolf-ordering_16
-      rect:
-        serializedVersion: 2
-        x: 1479
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_2
       rect:
         serializedVersion: 2
-        x: 424
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 427
+        y: 737
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_3
       rect:
         serializedVersion: 2
-        x: 635
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 638
+        y: 737
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_4
       rect:
         serializedVersion: 2
-        x: 846
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 849
+        y: 737
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_5
       rect:
         serializedVersion: 2
-        x: 1057
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1060
+        y: 737
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_6
       rect:
         serializedVersion: 2
-        x: 1268
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1271
+        y: 737
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_7
       rect:
         serializedVersion: 2
-        x: 1479
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1481
+        y: 737
+        width: 203
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_8
       rect:
         serializedVersion: 2
-        x: 1690
-        y: 736
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1692
+        y: 737
+        width: 203
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: nobleWolf-wolf-ordering_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 448
-        width: 209
-        height: 286
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 449
+        width: 203
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-ordering_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 449
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-ordering_11
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 449
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-ordering_12
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 449
+        width: 202
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-ordering_13
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 449
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-ordering_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 449
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-ordering_15
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 449
+        width: 203
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nobleWolf-wolf-ordering_16
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 449
+        width: 202
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

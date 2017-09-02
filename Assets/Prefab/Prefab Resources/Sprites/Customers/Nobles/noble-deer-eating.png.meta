@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 417074b587f7ae3429031d88ff4cf972
-timeCreated: 1504309113
+timeCreated: 1504395108
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -109,6 +109,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -116,561 +132,561 @@ TextureImporter:
       name: noble-deer-eating_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 6
         y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_1
       rect:
         serializedVersion: 2
-        x: 229
+        x: 233
         y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1752
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1752
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_4
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1752
+        width: 221
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_5
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1752
+        width: 220
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_6
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1752
+        width: 220
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_7
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1752
+        width: 221
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_8
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1752
+        width: 220
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: noble-deer-eating_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1456
+        width: 220
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_10
       rect:
         serializedVersion: 2
-        x: 229
+        x: 230
         y: 1456
-        width: 225
+        width: 221
         height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_11
       rect:
         serializedVersion: 2
-        x: 456
+        x: 457
         y: 1456
-        width: 225
+        width: 220
         height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_12
       rect:
         serializedVersion: 2
-        x: 683
+        x: 684
         y: 1456
-        width: 225
+        width: 220
         height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_13
       rect:
         serializedVersion: 2
         x: 910
         y: 1456
-        width: 225
+        width: 221
         height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_14
       rect:
         serializedVersion: 2
         x: 1137
         y: 1456
-        width: 225
+        width: 221
         height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_15
       rect:
         serializedVersion: 2
         x: 1364
         y: 1456
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_16
       rect:
         serializedVersion: 2
         x: 1591
         y: 1456
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_17
       rect:
         serializedVersion: 2
         x: 1818
         y: 1456
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_18
       rect:
         serializedVersion: 2
         x: 2
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_19
       rect:
         serializedVersion: 2
-        x: 229
+        x: 230
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_2
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_20
       rect:
         serializedVersion: 2
-        x: 456
+        x: 457
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_21
       rect:
         serializedVersion: 2
-        x: 683
+        x: 684
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_22
       rect:
         serializedVersion: 2
-        x: 910
+        x: 911
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_23
       rect:
         serializedVersion: 2
-        x: 1137
+        x: 1138
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_24
       rect:
         serializedVersion: 2
-        x: 1364
+        x: 1366
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_25
       rect:
         serializedVersion: 2
-        x: 1591
+        x: 1593
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_26
       rect:
         serializedVersion: 2
-        x: 1818
+        x: 1820
         y: 1160
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_27
       rect:
         serializedVersion: 2
-        x: 2
+        x: 4
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_28
       rect:
         serializedVersion: 2
-        x: 229
+        x: 231
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_29
       rect:
         serializedVersion: 2
-        x: 456
+        x: 458
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_3
-      rect:
-        serializedVersion: 2
-        x: 683
-        y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_30
       rect:
         serializedVersion: 2
-        x: 683
+        x: 686
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_31
       rect:
         serializedVersion: 2
-        x: 910
+        x: 913
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_32
       rect:
         serializedVersion: 2
-        x: 1137
+        x: 1140
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_33
       rect:
         serializedVersion: 2
-        x: 1364
+        x: 1367
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_34
       rect:
         serializedVersion: 2
-        x: 1591
+        x: 1594
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_35
       rect:
         serializedVersion: 2
-        x: 1818
+        x: 1821
         y: 864
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_36
       rect:
         serializedVersion: 2
-        x: 2
+        x: 6
         y: 568
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_37
       rect:
         serializedVersion: 2
-        x: 229
+        x: 233
         y: 568
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 288
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_38
       rect:
         serializedVersion: 2
-        x: 456
+        x: 460
         y: 568
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 220
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_39
       rect:
         serializedVersion: 2
-        x: 683
+        x: 687
         y: 568
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_4
-      rect:
-        serializedVersion: 2
-        x: 910
-        y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_40
       rect:
         serializedVersion: 2
-        x: 910
+        x: 914
         y: 568
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_41
       rect:
         serializedVersion: 2
-        x: 1137
+        x: 1141
         y: 568
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: noble-deer-eating_42
       rect:
         serializedVersion: 2
-        x: 1364
+        x: 1368
         y: 568
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 221
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_5
-      rect:
-        serializedVersion: 2
-        x: 1137
-        y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_6
-      rect:
-        serializedVersion: 2
-        x: 1364
-        y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_7
-      rect:
-        serializedVersion: 2
-        x: 1591
-        y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_8
-      rect:
-        serializedVersion: 2
-        x: 1818
-        y: 1752
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: noble-deer-eating_9
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1456
-        width: 225
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
