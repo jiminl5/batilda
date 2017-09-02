@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 4c8d4271861d8bb4ca3499847a8850a5
+timeCreated: 1504380711
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: royal-unicorn-eating_0
+    21300002: royal-unicorn-eating_1
+    21300004: royal-unicorn-eating_10
+    21300006: royal-unicorn-eating_11
+    21300008: royal-unicorn-eating_12
+    21300010: royal-unicorn-eating_13
+    21300012: royal-unicorn-eating_14
+    21300014: royal-unicorn-eating_15
+    21300016: royal-unicorn-eating_16
+    21300018: royal-unicorn-eating_17
+    21300020: royal-unicorn-eating_18
+    21300022: royal-unicorn-eating_19
+    21300024: royal-unicorn-eating_2
+    21300026: royal-unicorn-eating_20
+    21300028: royal-unicorn-eating_21
+    21300030: royal-unicorn-eating_22
+    21300032: royal-unicorn-eating_23
+    21300034: royal-unicorn-eating_24
+    21300036: royal-unicorn-eating_25
+    21300038: royal-unicorn-eating_26
+    21300040: royal-unicorn-eating_27
+    21300042: royal-unicorn-eating_28
+    21300044: royal-unicorn-eating_29
+    21300046: royal-unicorn-eating_3
+    21300048: royal-unicorn-eating_30
+    21300050: royal-unicorn-eating_31
+    21300052: royal-unicorn-eating_32
+    21300054: royal-unicorn-eating_33
+    21300056: royal-unicorn-eating_34
+    21300058: royal-unicorn-eating_35
+    21300060: royal-unicorn-eating_36
+    21300062: royal-unicorn-eating_37
+    21300064: royal-unicorn-eating_38
+    21300066: royal-unicorn-eating_39
+    21300068: royal-unicorn-eating_4
+    21300070: royal-unicorn-eating_40
+    21300072: royal-unicorn-eating_41
+    21300074: royal-unicorn-eating_42
+    21300076: royal-unicorn-eating_5
+    21300078: royal-unicorn-eating_6
+    21300080: royal-unicorn-eating_7
+    21300082: royal-unicorn-eating_8
+    21300084: royal-unicorn-eating_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: royal-unicorn-eating_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_13
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_14
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_15
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_16
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_17
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_18
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_19
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1358
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_24
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_25
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_26
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_27
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_28
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_29
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1013
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_33
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_34
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_35
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_36
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_37
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_38
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_39
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 668
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_4
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 323
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 323
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_5
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_6
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_7
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_8
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-eating_9
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1703
+        width: 189
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

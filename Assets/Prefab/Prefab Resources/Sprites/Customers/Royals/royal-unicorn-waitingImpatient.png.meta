@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 690c386c9882e914289eb166397fa661
+timeCreated: 1504380769
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: royal-unicorn-waitingImpatient_0
+    21300002: royal-unicorn-waitingImpatient_1
+    21300004: royal-unicorn-waitingImpatient_10
+    21300006: royal-unicorn-waitingImpatient_11
+    21300008: royal-unicorn-waitingImpatient_12
+    21300010: royal-unicorn-waitingImpatient_13
+    21300012: royal-unicorn-waitingImpatient_14
+    21300014: royal-unicorn-waitingImpatient_15
+    21300016: royal-unicorn-waitingImpatient_16
+    21300018: royal-unicorn-waitingImpatient_17
+    21300020: royal-unicorn-waitingImpatient_18
+    21300022: royal-unicorn-waitingImpatient_19
+    21300024: royal-unicorn-waitingImpatient_2
+    21300026: royal-unicorn-waitingImpatient_20
+    21300028: royal-unicorn-waitingImpatient_21
+    21300030: royal-unicorn-waitingImpatient_22
+    21300032: royal-unicorn-waitingImpatient_23
+    21300034: royal-unicorn-waitingImpatient_24
+    21300036: royal-unicorn-waitingImpatient_3
+    21300038: royal-unicorn-waitingImpatient_4
+    21300040: royal-unicorn-waitingImpatient_5
+    21300042: royal-unicorn-waitingImpatient_6
+    21300044: royal-unicorn-waitingImpatient_7
+    21300046: royal-unicorn-waitingImpatient_8
+    21300048: royal-unicorn-waitingImpatient_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_10
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_13
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_16
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_17
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_18
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_19
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_20
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_21
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 364
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_23
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 34
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_24
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 34
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_4
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_5
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_6
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_7
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_8
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-unicorn-waitingImpatient_9
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 694
+        width: 184
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
