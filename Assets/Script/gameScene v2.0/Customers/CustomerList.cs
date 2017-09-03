@@ -7,7 +7,9 @@ public class CustomerList : MonoBehaviour {
     public GameObject[] customers = new GameObject[2];
 	public GameObject[] peasants;
 	public GameObject[] middles;
+	public GameObject[] artisans;
 	public GameObject[] nobles;
+	public GameObject[] royals;
     private GameObject peasant;
     private GameObject artisan;
     private GameObject middle;
@@ -73,8 +75,9 @@ public class CustomerList : MonoBehaviour {
             }
             else if (customerQ.Peek().type == "artisan")
             {
-                current_customer = Instantiate(artisan, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
-                customer_Q.Add(artisan);
+				GameObject newartisan = peasants[Random.Range(0, artisans.Length)];
+                current_customer = Instantiate(newartisan, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
+                customer_Q.Add(newartisan);
             }
             else if (customerQ.Peek().type == "middle")
             {
@@ -91,8 +94,9 @@ public class CustomerList : MonoBehaviour {
             }
 			else if (customerQ.Peek().type == "royal")
             {
-                current_customer = Instantiate(royal, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
-                customer_Q.Add(royal);
+				GameObject newroyal = royals [Random.Range (0, royals.Length)];
+                current_customer = Instantiate(newroyal, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity) as GameObject;
+                customer_Q.Add(newroyal);
             }
             current_customer.GetComponent<CustomerAI>().customer = customerQ.Dequeue();
             //---------------

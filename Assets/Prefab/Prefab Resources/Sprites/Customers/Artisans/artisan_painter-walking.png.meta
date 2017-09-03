@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5e2a873278d29ca4688b1e40887e12ce
-timeCreated: 1503462069
+timeCreated: 1504398418
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,6 +85,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -92,249 +108,249 @@ TextureImporter:
       name: artisan_painter-walking_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 753
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_1
       rect:
         serializedVersion: 2
-        x: 221
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 224
+        y: 753
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_10
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_11
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_12
-      rect:
-        serializedVersion: 2
-        x: 659
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_13
-      rect:
-        serializedVersion: 2
-        x: 878
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_14
-      rect:
-        serializedVersion: 2
-        x: 1097
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_15
-      rect:
-        serializedVersion: 2
-        x: 1316
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_16
-      rect:
-        serializedVersion: 2
-        x: 1535
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_17
-      rect:
-        serializedVersion: 2
-        x: 1754
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-walking_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 208
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_2
       rect:
         serializedVersion: 2
-        x: 440
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 443
+        y: 753
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_3
       rect:
         serializedVersion: 2
-        x: 659
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 662
+        y: 753
+        width: 211
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_4
       rect:
         serializedVersion: 2
-        x: 878
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 881
+        y: 754
+        width: 211
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_5
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1100
+        y: 754
+        width: 211
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_6
       rect:
         serializedVersion: 2
-        x: 1316
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1319
+        y: 755
+        width: 211
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_7
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1538
+        y: 754
+        width: 211
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_8
       rect:
         serializedVersion: 2
-        x: 1754
-        y: 752
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1757
+        y: 754
+        width: 210
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-walking_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 480
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 482
+        width: 210
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 481
+        width: 210
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 481
+        width: 211
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 481
+        width: 211
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_13
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 481
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_14
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 481
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_15
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 481
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_16
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 481
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_17
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 481
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-walking_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 209
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

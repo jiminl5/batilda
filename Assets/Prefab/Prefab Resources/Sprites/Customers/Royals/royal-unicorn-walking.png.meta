@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cc1a5f83a413ac443a6840f891b4193d
-timeCreated: 1504380771
+timeCreated: 1504398848
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,6 +85,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -92,249 +108,249 @@ TextureImporter:
       name: royal-unicorn-walking_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 6
+        y: 693
+        width: 181
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_1
       rect:
         serializedVersion: 2
-        x: 192
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 195
+        y: 693
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_10
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_11
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_12
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_13
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_14
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_15
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_16
-      rect:
-        serializedVersion: 2
-        x: 1142
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_17
-      rect:
-        serializedVersion: 2
-        x: 1332
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-walking_18
-      rect:
-        serializedVersion: 2
-        x: 1522
-        y: 358
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_2
       rect:
         serializedVersion: 2
-        x: 382
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 385
+        y: 693
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_3
       rect:
         serializedVersion: 2
-        x: 572
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 574
+        y: 692
+        width: 183
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_4
       rect:
         serializedVersion: 2
-        x: 762
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 763
+        y: 692
+        width: 183
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_5
       rect:
         serializedVersion: 2
-        x: 952
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 953
+        y: 692
+        width: 183
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_6
       rect:
         serializedVersion: 2
         x: 1142
         y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 184
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_7
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1333
+        y: 692
+        width: 183
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_8
       rect:
         serializedVersion: 2
-        x: 1522
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1523
+        y: 692
+        width: 183
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-walking_9
       rect:
         serializedVersion: 2
-        x: 1712
-        y: 691
-        width: 188
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1713
+        y: 693
+        width: 183
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 360
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 360
+        width: 183
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 360
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_13
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 359
+        width: 182
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_14
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 359
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_15
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 358
+        width: 181
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_16
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 359
+        width: 181
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_17
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 360
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-walking_18
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 360
+        width: 181
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

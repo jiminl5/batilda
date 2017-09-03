@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1a00a947015cd584cbbc6f54d5abe205
-timeCreated: 1504380723
+timeCreated: 1504398842
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -91,6 +91,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -98,327 +114,327 @@ TextureImporter:
       name: royal-unicorn-waiting_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 3
+        y: 695
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_1
       rect:
         serializedVersion: 2
-        x: 188
-        y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 189
+        y: 695
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_10
-      rect:
-        serializedVersion: 2
-        x: 1862
-        y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_11
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_12
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_13
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_14
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_15
-      rect:
-        serializedVersion: 2
-        x: 746
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_16
-      rect:
-        serializedVersion: 2
-        x: 932
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_17
-      rect:
-        serializedVersion: 2
-        x: 1118
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_18
-      rect:
-        serializedVersion: 2
-        x: 1304
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_19
-      rect:
-        serializedVersion: 2
-        x: 1490
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_2
       rect:
         serializedVersion: 2
         x: 374
-        y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 694
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_20
-      rect:
-        serializedVersion: 2
-        x: 1676
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_21
-      rect:
-        serializedVersion: 2
-        x: 1862
-        y: 362
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_22
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 31
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_23
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 31
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-waiting_24
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 31
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_3
       rect:
         serializedVersion: 2
         x: 560
-        y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 694
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_4
       rect:
         serializedVersion: 2
         x: 746
-        y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 694
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_5
       rect:
         serializedVersion: 2
         x: 932
-        y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 694
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_6
       rect:
         serializedVersion: 2
         x: 1118
         y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_7
       rect:
         serializedVersion: 2
         x: 1304
         y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_8
       rect:
         serializedVersion: 2
         x: 1490
         y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-waiting_9
       rect:
         serializedVersion: 2
         x: 1676
         y: 693
-        width: 184
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_10
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 693
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 363
+        width: 182
+        height: 325
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_13
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 363
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 363
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 363
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_16
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 363
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_17
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 363
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_18
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 363
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_19
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 363
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_20
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 363
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_21
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 364
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 33
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_23
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 33
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-waiting_24
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 33
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

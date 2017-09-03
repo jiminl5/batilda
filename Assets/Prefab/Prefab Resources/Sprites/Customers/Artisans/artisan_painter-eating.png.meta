@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d3250d69e11707c4096350c20468b373
-timeCreated: 1503462025
+timeCreated: 1504398394
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -109,6 +109,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -116,561 +132,561 @@ TextureImporter:
       name: artisan_painter-eating_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 5
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_1
       rect:
         serializedVersion: 2
-        x: 221
+        x: 224
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_10
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_11
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_12
-      rect:
-        serializedVersion: 2
-        x: 659
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_13
-      rect:
-        serializedVersion: 2
-        x: 878
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_14
-      rect:
-        serializedVersion: 2
-        x: 1097
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_15
-      rect:
-        serializedVersion: 2
-        x: 1316
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_16
-      rect:
-        serializedVersion: 2
-        x: 1535
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_17
-      rect:
-        serializedVersion: 2
-        x: 1754
-        y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_19
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_2
       rect:
         serializedVersion: 2
-        x: 440
+        x: 443
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_20
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_21
-      rect:
-        serializedVersion: 2
-        x: 659
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_22
-      rect:
-        serializedVersion: 2
-        x: 878
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_23
-      rect:
-        serializedVersion: 2
-        x: 1097
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_24
-      rect:
-        serializedVersion: 2
-        x: 1316
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_25
-      rect:
-        serializedVersion: 2
-        x: 1535
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_26
-      rect:
-        serializedVersion: 2
-        x: 1754
-        y: 1232
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_27
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_28
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_29
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_3
       rect:
         serializedVersion: 2
-        x: 659
+        x: 662
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_30
-      rect:
-        serializedVersion: 2
-        x: 659
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_31
-      rect:
-        serializedVersion: 2
-        x: 878
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_32
-      rect:
-        serializedVersion: 2
-        x: 1097
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_33
-      rect:
-        serializedVersion: 2
-        x: 1316
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_34
-      rect:
-        serializedVersion: 2
-        x: 1535
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_35
-      rect:
-        serializedVersion: 2
-        x: 1754
-        y: 960
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_36
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 688
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_37
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 688
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_38
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 688
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_39
-      rect:
-        serializedVersion: 2
-        x: 659
-        y: 688
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_4
       rect:
         serializedVersion: 2
-        x: 878
+        x: 881
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_40
-      rect:
-        serializedVersion: 2
-        x: 878
-        y: 688
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_41
-      rect:
-        serializedVersion: 2
-        x: 1097
-        y: 688
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-eating_42
-      rect:
-        serializedVersion: 2
-        x: 1316
-        y: 688
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_5
       rect:
         serializedVersion: 2
-        x: 1097
+        x: 1100
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_6
       rect:
         serializedVersion: 2
-        x: 1316
+        x: 1319
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_7
       rect:
         serializedVersion: 2
-        x: 1535
+        x: 1538
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_8
       rect:
         serializedVersion: 2
-        x: 1754
+        x: 1757
         y: 1776
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-eating_9
       rect:
         serializedVersion: 2
-        x: 2
+        x: 5
         y: 1504
-        width: 217
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_13
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_14
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_15
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_16
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_17
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1504
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1232
+        width: 212
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1232
+        width: 212
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1232
+        width: 212
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_21
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1232
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_22
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1232
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1232
+        width: 212
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_24
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1232
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_25
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1232
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_26
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1232
+        width: 212
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 960
+        width: 212
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 960
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_29
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 960
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_30
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 960
+        width: 212
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_31
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 960
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_32
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 960
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_33
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 960
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_34
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 960
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_35
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 960
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 688
+        width: 213
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 688
+        width: 213
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_38
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 688
+        width: 213
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_39
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 688
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_40
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 688
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_41
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 688
+        width: 213
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-eating_42
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 688
+        width: 213
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

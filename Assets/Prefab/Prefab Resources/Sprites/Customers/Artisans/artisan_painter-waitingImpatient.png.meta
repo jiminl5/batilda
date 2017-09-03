@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 139759cf3972e4449a144c705018f127
-timeCreated: 1503462064
+timeCreated: 1504398415
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -91,6 +91,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -98,327 +114,327 @@ TextureImporter:
       name: artisan_painter-waitingImpatient_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 755
-        width: 215
+        width: 212
         height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_1
       rect:
         serializedVersion: 2
-        x: 219
+        x: 220
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_10
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_11
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_12
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_13
-      rect:
-        serializedVersion: 2
-        x: 870
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_14
-      rect:
-        serializedVersion: 2
-        x: 1087
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_15
-      rect:
-        serializedVersion: 2
-        x: 1304
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_16
-      rect:
-        serializedVersion: 2
-        x: 1521
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_17
-      rect:
-        serializedVersion: 2
-        x: 1738
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 217
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_19
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 217
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_2
       rect:
         serializedVersion: 2
-        x: 436
+        x: 437
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_20
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 217
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_21
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 217
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_22
-      rect:
-        serializedVersion: 2
-        x: 870
-        y: 217
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_23
-      rect:
-        serializedVersion: 2
-        x: 1087
-        y: 217
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-waitingImpatient_24
-      rect:
-        serializedVersion: 2
-        x: 1304
-        y: 217
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_3
       rect:
         serializedVersion: 2
-        x: 653
+        x: 654
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_4
       rect:
         serializedVersion: 2
-        x: 870
+        x: 871
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_5
       rect:
         serializedVersion: 2
-        x: 1087
+        x: 1088
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_6
       rect:
         serializedVersion: 2
-        x: 1304
+        x: 1305
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_7
       rect:
         serializedVersion: 2
-        x: 1521
+        x: 1522
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_8
       rect:
         serializedVersion: 2
-        x: 1738
+        x: 1739
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-waitingImpatient_9
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 486
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 486
+        width: 213
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_12
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 486
+        width: 213
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_13
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 486
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_14
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 486
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_15
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 486
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_16
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 486
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_17
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 486
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 217
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 217
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_20
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 217
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_21
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 217
+        width: 213
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_22
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 217
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_23
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 217
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-waitingImpatient_24
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 217
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

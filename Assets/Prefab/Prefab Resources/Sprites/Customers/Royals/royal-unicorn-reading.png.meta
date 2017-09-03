@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d183957146a246542b7390c4b5668572
-timeCreated: 1504380721
+timeCreated: 1504398839
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: royal-unicorn-reading_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 695
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_1
       rect:
         serializedVersion: 2
-        x: 191
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 194
+        y: 694
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-reading_10
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 358
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-reading_11
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 358
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-reading_12
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 358
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-reading_13
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 358
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-reading_14
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 358
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-reading_15
-      rect:
-        serializedVersion: 2
-        x: 947
-        y: 358
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-reading_16
-      rect:
-        serializedVersion: 2
-        x: 1136
-        y: 358
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_2
       rect:
         serializedVersion: 2
-        x: 380
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 382
+        y: 694
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_3
       rect:
         serializedVersion: 2
-        x: 569
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 571
+        y: 694
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_4
       rect:
         serializedVersion: 2
-        x: 758
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 760
+        y: 693
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_5
       rect:
         serializedVersion: 2
-        x: 947
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 948
+        y: 693
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_6
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1137
+        y: 692
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_7
       rect:
         serializedVersion: 2
         x: 1325
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 692
+        width: 183
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_8
       rect:
         serializedVersion: 2
         x: 1514
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 692
+        width: 183
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-reading_9
       rect:
         serializedVersion: 2
         x: 1703
-        y: 691
-        width: 187
-        height: 331
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 692
+        width: 183
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-reading_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 360
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-reading_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-reading_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 360
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-reading_13
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 361
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-reading_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 361
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-reading_15
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 362
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-reading_16
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 362
+        width: 181
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

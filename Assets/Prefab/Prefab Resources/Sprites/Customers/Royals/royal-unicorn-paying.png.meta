@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 11530e093092f2544abfebbd621f4192
-timeCreated: 1504380720
+timeCreated: 1504398836
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: royal-unicorn-paying_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 695
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_1
       rect:
         serializedVersion: 2
-        x: 192
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 195
+        y: 694
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-paying_10
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 350
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-paying_11
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 350
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-paying_12
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 350
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-paying_13
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 350
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-paying_14
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 350
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-paying_15
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 350
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-paying_16
-      rect:
-        serializedVersion: 2
-        x: 1142
-        y: 350
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_2
       rect:
         serializedVersion: 2
-        x: 382
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 384
+        y: 693
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_3
       rect:
         serializedVersion: 2
-        x: 572
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 574
+        y: 692
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_4
       rect:
         serializedVersion: 2
-        x: 762
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 763
+        y: 691
+        width: 183
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_5
       rect:
         serializedVersion: 2
-        x: 952
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 953
+        y: 690
+        width: 183
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_6
       rect:
         serializedVersion: 2
         x: 1142
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 689
+        width: 183
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_7
       rect:
         serializedVersion: 2
         x: 1332
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 688
+        width: 183
+        height: 331
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_8
       rect:
         serializedVersion: 2
         x: 1522
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 689
+        width: 184
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-paying_9
       rect:
         serializedVersion: 2
-        x: 1712
-        y: 687
-        width: 188
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1713
+        y: 690
+        width: 183
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-paying_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 353
+        width: 183
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-paying_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 354
+        width: 183
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-paying_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 355
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-paying_13
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 356
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-paying_14
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 356
+        width: 181
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-paying_15
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 357
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-paying_16
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 358
+        width: 182
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1cd852d358049a54c9098d4a86c5fec5
-timeCreated: 1503462038
+timeCreated: 1504398400
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: artisan_painter-ordering_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 4
         y: 755
-        width: 215
+        width: 212
         height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_1
       rect:
         serializedVersion: 2
-        x: 219
+        x: 221
         y: 755
-        width: 215
+        width: 212
         height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-ordering_10
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-ordering_11
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-ordering_12
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-ordering_13
-      rect:
-        serializedVersion: 2
-        x: 870
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-ordering_14
-      rect:
-        serializedVersion: 2
-        x: 1087
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-ordering_15
-      rect:
-        serializedVersion: 2
-        x: 1304
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: artisan_painter-ordering_16
-      rect:
-        serializedVersion: 2
-        x: 1521
-        y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_2
       rect:
         serializedVersion: 2
-        x: 436
+        x: 438
         y: 755
-        width: 215
+        width: 212
         height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_3
       rect:
         serializedVersion: 2
-        x: 653
+        x: 655
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_4
       rect:
         serializedVersion: 2
-        x: 870
+        x: 872
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_5
       rect:
         serializedVersion: 2
-        x: 1087
+        x: 1089
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_6
       rect:
         serializedVersion: 2
-        x: 1304
+        x: 1306
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_7
       rect:
         serializedVersion: 2
-        x: 1521
+        x: 1523
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_8
       rect:
         serializedVersion: 2
-        x: 1738
+        x: 1740
         y: 755
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: artisan_painter-ordering_9
       rect:
         serializedVersion: 2
-        x: 2
+        x: 4
         y: 486
-        width: 215
-        height: 267
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-ordering_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 486
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-ordering_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 486
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-ordering_12
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 486
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-ordering_13
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 486
+        width: 212
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-ordering_14
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 486
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-ordering_15
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 486
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: artisan_painter-ordering_16
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 486
+        width: 212
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

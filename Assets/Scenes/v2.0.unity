@@ -1471,10 +1471,16 @@ MonoBehaviour:
   middles:
   - {fileID: 116108, guid: 5ca36bc1e11ab8044ad3b18e67f6c5e4, type: 2}
   - {fileID: 116108, guid: 6ca6654c10441024e92d38bb41862b7f, type: 2}
+  artisans:
+  - {fileID: 127830, guid: e07e6d97d1ec00d468b02a72b545d318, type: 2}
+  - {fileID: 127830, guid: e587b6c1afa1f244a8df457d3aa4363d, type: 2}
   nobles:
   - {fileID: 141042, guid: 9de9bfa3137113a43ae1984ed6713bf3, type: 2}
   - {fileID: 141042, guid: 1b4bbdfec5661274781c7f3c3e888341, type: 2}
   - {fileID: 141042, guid: 3a9a5c5f2916af6478d17ff23dd3997b, type: 2}
+  royals:
+  - {fileID: 122340, guid: 338a23ff114955c448a3d7a5d9967d05, type: 2}
+  - {fileID: 122340, guid: ae1c1d6d9f993a74ebfe8c84a4d94078, type: 2}
 --- !u!1 &231997099
 GameObject:
   m_ObjectHideFlags: 0

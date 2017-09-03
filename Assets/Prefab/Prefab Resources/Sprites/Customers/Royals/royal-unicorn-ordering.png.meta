@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e973ec00f0abf2049b21bb62ee4dd420
-timeCreated: 1504380716
+timeCreated: 1504398832
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,6 +83,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,223 +106,223 @@ TextureImporter:
       name: royal-unicorn-ordering_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 5
+        y: 695
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_1
       rect:
         serializedVersion: 2
-        x: 191
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 194
+        y: 695
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-ordering_10
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 352
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-ordering_11
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 352
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-ordering_12
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 352
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-ordering_13
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 352
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-ordering_14
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 352
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-ordering_15
-      rect:
-        serializedVersion: 2
-        x: 947
-        y: 352
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: royal-unicorn-ordering_16
-      rect:
-        serializedVersion: 2
-        x: 1136
-        y: 352
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_2
       rect:
         serializedVersion: 2
-        x: 380
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 383
+        y: 694
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_3
       rect:
         serializedVersion: 2
-        x: 569
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 571
+        y: 693
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_4
       rect:
         serializedVersion: 2
-        x: 758
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 760
+        y: 692
+        width: 182
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_5
       rect:
         serializedVersion: 2
-        x: 947
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 948
+        y: 691
+        width: 183
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_6
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1137
+        y: 690
+        width: 182
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_7
       rect:
         serializedVersion: 2
-        x: 1325
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1326
+        y: 690
+        width: 182
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_8
       rect:
         serializedVersion: 2
         x: 1514
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 690
+        width: 183
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: royal-unicorn-ordering_9
       rect:
         serializedVersion: 2
-        x: 1703
-        y: 688
-        width: 187
-        height: 334
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1704
+        y: 691
+        width: 182
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-ordering_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 355
+        width: 182
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-ordering_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 356
+        width: 183
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-ordering_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 357
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-ordering_13
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 357
+        width: 182
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-ordering_14
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 358
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-ordering_15
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 359
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: royal-unicorn-ordering_16
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 359
+        width: 181
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
