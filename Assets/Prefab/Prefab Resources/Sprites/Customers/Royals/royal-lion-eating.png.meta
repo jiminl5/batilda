@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 152c1ce8bbd1de54aab11e82fa9e9293
+timeCreated: 1504466000
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: royal-lion-eating_0
+    21300002: royal-lion-eating_1
+    21300004: royal-lion-eating_10
+    21300006: royal-lion-eating_11
+    21300008: royal-lion-eating_12
+    21300010: royal-lion-eating_13
+    21300012: royal-lion-eating_14
+    21300014: royal-lion-eating_15
+    21300016: royal-lion-eating_16
+    21300018: royal-lion-eating_17
+    21300020: royal-lion-eating_18
+    21300022: royal-lion-eating_19
+    21300024: royal-lion-eating_2
+    21300026: royal-lion-eating_20
+    21300028: royal-lion-eating_21
+    21300030: royal-lion-eating_22
+    21300032: royal-lion-eating_23
+    21300034: royal-lion-eating_24
+    21300036: royal-lion-eating_25
+    21300038: royal-lion-eating_26
+    21300040: royal-lion-eating_27
+    21300042: royal-lion-eating_28
+    21300044: royal-lion-eating_29
+    21300046: royal-lion-eating_3
+    21300048: royal-lion-eating_30
+    21300050: royal-lion-eating_31
+    21300052: royal-lion-eating_32
+    21300054: royal-lion-eating_33
+    21300056: royal-lion-eating_34
+    21300058: royal-lion-eating_35
+    21300060: royal-lion-eating_36
+    21300062: royal-lion-eating_37
+    21300064: royal-lion-eating_38
+    21300066: royal-lion-eating_39
+    21300068: royal-lion-eating_4
+    21300070: royal-lion-eating_40
+    21300072: royal-lion-eating_41
+    21300074: royal-lion-eating_42
+    21300076: royal-lion-eating_5
+    21300078: royal-lion-eating_6
+    21300080: royal-lion-eating_7
+    21300082: royal-lion-eating_8
+    21300084: royal-lion-eating_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: royal-lion-eating_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_11
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_12
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_13
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_14
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_15
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_16
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_17
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_20
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_21
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_22
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_23
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_24
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_25
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_26
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1019
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_29
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_30
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_31
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_32
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_33
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_34
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_35
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 676
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 333
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 333
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_38
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 333
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_39
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 333
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_4
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_40
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 333
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_41
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 333
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_42
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 333
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_5
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_6
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_7
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_8
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1705
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-eating_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1362
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 2218af49ef526e741a7ac4219e7700e5
+timeCreated: 1504466066
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: royal-lion-waiting_0
+    21300002: royal-lion-waiting_1
+    21300004: royal-lion-waiting_10
+    21300006: royal-lion-waiting_11
+    21300008: royal-lion-waiting_12
+    21300010: royal-lion-waiting_13
+    21300012: royal-lion-waiting_14
+    21300014: royal-lion-waiting_15
+    21300016: royal-lion-waiting_16
+    21300018: royal-lion-waiting_17
+    21300020: royal-lion-waiting_18
+    21300022: royal-lion-waiting_19
+    21300024: royal-lion-waiting_2
+    21300026: royal-lion-waiting_20
+    21300028: royal-lion-waiting_21
+    21300030: royal-lion-waiting_22
+    21300032: royal-lion-waiting_23
+    21300034: royal-lion-waiting_24
+    21300036: royal-lion-waiting_3
+    21300038: royal-lion-waiting_4
+    21300040: royal-lion-waiting_5
+    21300042: royal-lion-waiting_6
+    21300044: royal-lion-waiting_7
+    21300046: royal-lion-waiting_8
+    21300048: royal-lion-waiting_9
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: royal-lion-waiting_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_12
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_13
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_15
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_16
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_17
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 49
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 49
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_20
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 49
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_21
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 49
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_22
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 49
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_23
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 49
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_24
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 49
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_3
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_4
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_5
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_6
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_7
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_8
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 699
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: royal-lion-waiting_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 374
+        width: 215
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
